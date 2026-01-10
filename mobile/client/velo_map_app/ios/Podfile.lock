@@ -2,6 +2,18 @@ PODS:
   - connectivity_plus (0.0.1):
     - Flutter
   - Flutter (1.0.0)
+  - mapbox_maps_flutter (2.17.0):
+    - Flutter
+    - MapboxMaps (= 11.17.0)
+    - Turf (= 4.0.0)
+  - MapboxCommon (24.17.0):
+    - Turf (= 4.0.0)
+  - MapboxCoreMaps (11.17.0):
+    - MapboxCommon (= 24.17.0)
+  - MapboxMaps (11.17.0):
+    - MapboxCommon (= 24.17.0)
+    - MapboxCoreMaps (= 11.17.0)
+    - Turf (= 4.0.0)
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
@@ -10,22 +22,33 @@ PODS:
   - sqflite_darwin (0.0.4):
     - Flutter
     - FlutterMacOS
+  - Turf (4.0.0)
   - url_launcher_ios (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
   - Flutter (from `Flutter`)
+  - mapbox_maps_flutter (from `.symlinks/plugins/mapbox_maps_flutter/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
   - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
   - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - Turf
 
 EXTERNAL SOURCES:
   connectivity_plus:
     :path: ".symlinks/plugins/connectivity_plus/ios"
   Flutter:
     :path: Flutter
+  mapbox_maps_flutter:
+    :path: ".symlinks/plugins/mapbox_maps_flutter/ios"
   path_provider_foundation:
     :path: ".symlinks/plugins/path_provider_foundation/darwin"
   permission_handler_apple:
@@ -38,11 +61,16 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   connectivity_plus: cb623214f4e1f6ef8fe7403d580fdad517d2f7dd
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  mapbox_maps_flutter: a1dfc0a0825a5ded612bea16fc1eecc9c47cbaf8
+  MapboxCommon: 5cc0e77733478a7b2a3a28af7c38adc8485e07d8
+  MapboxCoreMaps: b7b7703cd8af3ae9088f42c6d23b591947a1eb1f
+  MapboxMaps: 10b01217e5634aa7b6fc1fb10d036598d9240ba6
   path_provider_foundation: bb55f6dbba17d0dccd6737fe6f7f34fbd0376880
   permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
   sqflite_darwin: 20b2a3a3b70e43edae938624ce550a3cbf66a3d0
+  Turf: c9eb11a65d96af58cac523460fd40fec5061b081
   url_launcher_ios: 7a95fa5b60cc718a708b8f2966718e93db0cef1b
 
-PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+PODFILE CHECKSUM: 1857a7cdb7dfafe45f2b0e9a9af44644190f7506
 
 COCOAPODS: 1.16.2
