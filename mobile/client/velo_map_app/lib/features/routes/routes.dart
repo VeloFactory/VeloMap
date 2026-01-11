@@ -72,6 +72,11 @@ class _RoutesState extends State<Routes> {
   void _onMapCreated(MapboxMap mapboxMap) async {
     _mapboxMap = mapboxMap;
 
+    // Disable scale bar
+    await mapboxMap.scaleBar.updateSettings(
+      ScaleBarSettings(enabled: false),
+    );
+
     // Create polyline annotation manager for drawing routes
     _polylineManager =
         await mapboxMap.annotations.createPolylineAnnotationManager();
@@ -229,8 +234,8 @@ class _RoutesState extends State<Routes> {
 
               // My Location FAB
               Positioned(
-                right: 16,
-                bottom: MediaQuery.of(context).size.height * _mid + 16,
+                left: 16,
+                top: MediaQuery.of(context).padding.top + 16,
                 child: FloatingActionButton.small(
                   heroTag: 'location_fab',
                   onPressed: _goToUserLocation,
