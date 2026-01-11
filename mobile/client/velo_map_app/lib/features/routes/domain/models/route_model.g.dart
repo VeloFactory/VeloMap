@@ -11,9 +11,8 @@ _RouteModel _$RouteModelFromJson(Map<String, dynamic> json) => _RouteModel(
   name: json['name'] as String,
   description: json['description'] as String,
   distanceKm: (json['distanceKm'] as num).toDouble(),
-  durationMinutes: (json['durationMinutes'] as num).toInt(),
+  elevationGainM: (json['elevationGainM'] as num).toDouble(),
   difficulty: json['difficulty'] as String,
-  surface: json['surface'] as String,
   coordinates: (json['coordinates'] as List<dynamic>)
       .map(
         (e) => (e as List<dynamic>).map((e) => (e as num).toDouble()).toList(),
@@ -27,8 +26,7 @@ Map<String, dynamic> _$RouteModelToJson(_RouteModel instance) =>
       'name': instance.name,
       'description': instance.description,
       'distanceKm': instance.distanceKm,
-      'durationMinutes': instance.durationMinutes,
+      'elevationGainM': instance.elevationGainM,
       'difficulty': instance.difficulty,
-      'surface': instance.surface,
       'coordinates': instance.coordinates,
     };

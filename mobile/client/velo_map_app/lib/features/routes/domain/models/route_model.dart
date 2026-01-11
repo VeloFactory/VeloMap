@@ -12,9 +12,8 @@ sealed class RouteModel with _$RouteModel {
     required String name,
     required String description,
     required double distanceKm,
-    required int durationMinutes,
+    required double elevationGainM,
     required String difficulty,
-    required String surface,
     required List<List<double>> coordinates,
   }) = _RouteModel;
 
@@ -33,30 +32,45 @@ sealed class RouteModel with _$RouteModel {
             .toList())
         .toList();
 
+    // Calculate elevation gain from coordinates (if elevation data exists)
+    final elevationGain = _calculateElevationGain(coordinates);
+
     return RouteModel(
       id: properties['id'] as String,
       name: properties['name'] as String,
       description: properties['description'] as String,
       distanceKm: (properties['distance_km'] as num).toDouble(),
-      durationMinutes: (properties['duration_minutes'] as num).toInt(),
+      elevationGainM: elevationGain,
       difficulty: properties['difficulty'] as String,
-      surface: properties['surface'] as String,
       coordinates: coordinates,
     );
   }
 
-  /// Returns duration as formatted string (e.g., "1h 30m" or "45m")
-  String get formattedDuration {
-    final hours = durationMinutes ~/ 60;
-    final minutes = durationMinutes % 60;
-    if (hours > 0 && minutes > 0) {
-      return '${hours}h ${minutes}m';
-    } else if (hours > 0) {
-      return '${hours}h';
-    } else {
-      return '${minutes}m';
+  /// Calculate total elevation gain from coordinates with elevation (3rd value)
+  static double _calculateElevationGain(List<List<double>> coordinates) {
+    if (coordinates.isEmpty) return 0.0;
+
+    double totalGain = 0.0;
+
+    for (int i = 1; i < coordinates.length; i++) {
+      // Check if coordinates have elevation data (3 values: lng, lat, elev)
+      if (coordinates[i].length >= 3 && coordinates[i - 1].length >= 3) {
+        final prevElevation = coordinates[i - 1][2];
+        final currentElevation = coordinates[i][2];
+        final elevationDiff = currentElevation - prevElevation;
+
+        // Only count positive elevation changes (uphill)
+        if (elevationDiff > 0) {
+          totalGain += elevationDiff;
+        }
+      }
     }
+
+    return totalGain;
   }
+
+  /// Returns elevation as formatted string (e.g., "245 m")
+  String get formattedElevation => '${elevationGainM.toStringAsFixed(0)} m';
 
   /// Returns distance as formatted string (e.g., "12.5 km")
   String get formattedDistance => '${distanceKm.toStringAsFixed(1)} km';

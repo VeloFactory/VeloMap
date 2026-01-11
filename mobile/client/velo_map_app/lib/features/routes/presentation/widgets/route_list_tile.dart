@@ -60,7 +60,7 @@ class RouteListTile extends StatelessWidget {
                 route.description,
                 style: theme.textTheme.bodySmall?.copyWith(
                   color: isSelected
-                      ? colorScheme.onPrimaryContainer.withOpacity(0.8)
+                      ? colorScheme.onPrimaryContainer.withValues(alpha: 0.8)
                       : colorScheme.onSurfaceVariant,
                 ),
                 maxLines: 2,
@@ -74,15 +74,10 @@ class RouteListTile extends StatelessWidget {
                     label: route.formattedDistance,
                     isSelected: isSelected,
                   ),
-                  const SizedBox(width: 12),
+                  const SizedBox(width: 16),
                   _MetadataChip(
-                    icon: Icons.schedule_rounded,
-                    label: route.formattedDuration,
-                    isSelected: isSelected,
-                  ),
-                  const Spacer(),
-                  _SurfaceChip(
-                    surface: route.surface,
+                    icon: Icons.trending_up_rounded,
+                    label: route.formattedElevation,
                     isSelected: isSelected,
                   ),
                 ],
@@ -123,9 +118,9 @@ class _DifficultyBadge extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.15),
+        color: color.withValues(alpha: 0.15),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: color.withOpacity(0.5)),
+        border: Border.all(color: color.withValues(alpha: 0.5)),
       ),
       child: Text(
         difficulty.toUpperCase(),
@@ -169,52 +164,6 @@ class _MetadataChip extends StatelessWidget {
             fontSize: 13,
             color: color,
             fontWeight: FontWeight.w500,
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-class _SurfaceChip extends StatelessWidget {
-  final String surface;
-  final bool isSelected;
-
-  const _SurfaceChip({
-    required this.surface,
-    required this.isSelected,
-  });
-
-  IconData _getIcon() {
-    switch (surface.toLowerCase()) {
-      case 'paved':
-        return Icons.add_road_rounded;
-      case 'gravel':
-        return Icons.terrain_rounded;
-      case 'mixed':
-        return Icons.swap_horiz_rounded;
-      default:
-        return Icons.route_rounded;
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-    final color = isSelected
-        ? colorScheme.onPrimaryContainer.withOpacity(0.7)
-        : colorScheme.outline;
-
-    return Row(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Icon(_getIcon(), size: 14, color: color),
-        const SizedBox(width: 4),
-        Text(
-          surface,
-          style: TextStyle(
-            fontSize: 12,
-            color: color,
           ),
         ),
       ],
