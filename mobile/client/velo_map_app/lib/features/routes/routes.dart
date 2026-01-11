@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:geolocator/geolocator.dart' hide Position;
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:velo_map_app/features/routes/domain/models/route_model.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_bloc.dart';
 import 'package:velo_map_app/features/routes/presentation/widgets/route_list_tile.dart';
@@ -16,6 +18,7 @@ class _RoutesState extends State<Routes> {
   final DraggableScrollableController _sheet = DraggableScrollableController();
   MapboxMap? _mapboxMap;
   PolylineAnnotationManager? _polylineManager;
+  bool _locationPermissionGranted = false;
 
   static const double _min = 0.15;
   static const double _mid = 0.35;
@@ -28,9 +31,42 @@ class _RoutesState extends State<Routes> {
   static const _defaultZoom = 11.0;
 
   @override
+  void initState() {
+    super.initState();
+    _requestLocationPermission();
+  }
+
+  @override
   void dispose() {
     _sheet.dispose();
     super.dispose();
+  }
+
+  Future<void> _requestLocationPermission() async {
+    final status = await Permission.locationWhenInUse.request();
+    setState(() {
+      _locationPermissionGranted = status.isGranted;
+    });
+
+    if (status.isGranted && _mapboxMap != null) {
+      await _enableUserLocation();
+    }
+  }
+
+  Future<void> _enableUserLocation() async {
+    if (_mapboxMap == null || !_locationPermissionGranted) return;
+
+    // Enable the location component with puck
+    final locationSettings = _mapboxMap!.location;
+    await locationSettings.updateSettings(
+      LocationComponentSettings(
+        enabled: true,
+        pulsingEnabled: true,
+        pulsingColor: Theme.of(context).colorScheme.primary.value,
+        showAccuracyRing: true,
+        puckBearingEnabled: true,
+      ),
+    );
   }
 
   void _onMapCreated(MapboxMap mapboxMap) async {
@@ -39,6 +75,11 @@ class _RoutesState extends State<Routes> {
     // Create polyline annotation manager for drawing routes
     _polylineManager =
         await mapboxMap.annotations.createPolylineAnnotationManager();
+
+    // Enable user location if permission already granted
+    if (_locationPermissionGranted) {
+      await _enableUserLocation();
+    }
   }
 
   Future<void> _drawRoute(RouteModel route) async {
@@ -108,6 +149,49 @@ class _RoutesState extends State<Routes> {
     }
   }
 
+  Future<void> _goToUserLocation() async {
+    if (_mapboxMap == null || !_locationPermissionGranted) {
+      // Request permission if not granted
+      await _requestLocationPermission();
+      return;
+    }
+
+    try {
+      // Get current position using Geolocator
+      final position = await Geolocator.getCurrentPosition();
+
+      await _mapboxMap!.flyTo(
+        CameraOptions(
+          center: Point(
+            coordinates: Position(
+              position.longitude,
+              position.latitude,
+            ),
+          ),
+          zoom: 15.0,
+        ),
+        MapAnimationOptions(duration: 800),
+      );
+    } catch (e) {
+      // If getting current position fails, try last known position
+      final lastPosition = await Geolocator.getLastKnownPosition();
+      if (lastPosition != null && _mapboxMap != null) {
+        await _mapboxMap!.flyTo(
+          CameraOptions(
+            center: Point(
+              coordinates: Position(
+                lastPosition.longitude,
+                lastPosition.latitude,
+              ),
+            ),
+            zoom: 15.0,
+          ),
+          MapAnimationOptions(duration: 800),
+        );
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -140,6 +224,26 @@ class _RoutesState extends State<Routes> {
                 cameraOptions: CameraOptions(
                   center: _defaultCenter,
                   zoom: _defaultZoom,
+                ),
+              ),
+
+              // My Location FAB
+              Positioned(
+                right: 16,
+                bottom: MediaQuery.of(context).size.height * _mid + 16,
+                child: FloatingActionButton.small(
+                  heroTag: 'location_fab',
+                  onPressed: _goToUserLocation,
+                  backgroundColor: colorScheme.surface,
+                  foregroundColor: _locationPermissionGranted
+                      ? colorScheme.primary
+                      : colorScheme.outline,
+                  elevation: 4,
+                  child: Icon(
+                    _locationPermissionGranted
+                        ? Icons.my_location_rounded
+                        : Icons.location_disabled_rounded,
+                  ),
                 ),
               ),
 
@@ -188,7 +292,7 @@ class _RoutesState extends State<Routes> {
             blurRadius: 20,
             spreadRadius: 5,
             offset: const Offset(0, -4),
-            color: colorScheme.shadow.withOpacity(0.15),
+            color: colorScheme.shadow.withValues(alpha: 0.15),
           ),
         ],
       ),
@@ -251,7 +355,7 @@ class _RoutesState extends State<Routes> {
             width: 40,
             height: 4,
             decoration: BoxDecoration(
-              color: colorScheme.outline.withOpacity(0.4),
+              color: colorScheme.outline.withValues(alpha: 0.4),
               borderRadius: BorderRadius.circular(2),
             ),
           ),
