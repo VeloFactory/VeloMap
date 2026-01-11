@@ -5,7 +5,8 @@
     "name": "Coastal Trail",
     "description": "A scenic ride along the Mediterranean coastline with stunning sea views",
     "distance_km": 12.5,
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "route_number": 6
   },
   "geometry": {
     "type": "LineString",

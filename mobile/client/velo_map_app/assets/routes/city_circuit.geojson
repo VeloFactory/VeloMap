@@ -5,7 +5,8 @@
     "name": "City Circuit",
     "description": "An urban cycling route through parks and bike lanes in the heart of the city",
     "distance_km": 8.7,
-    "difficulty": "moderate"
+    "difficulty": "moderate",
+    "route_number": 3
   },
   "geometry": {
     "type": "LineString",

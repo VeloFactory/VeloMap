@@ -206,16 +206,24 @@ class _RoutesState extends State<Routes> {
       listener: (context, state) {
         if (state.selectedRoute != null) {
           _drawRoute(state.selectedRoute!);
-          // Collapse sheet to show more map
+          // Expand sheet to show route details
           if (_sheet.isAttached) {
             _sheet.animateTo(
-              _min,
+              _max,
               duration: const Duration(milliseconds: 300),
               curve: Curves.easeOutCubic,
             );
           }
         } else {
           _clearRoute();
+          // Collapse sheet when no route selected
+          if (_sheet.isAttached) {
+            _sheet.animateTo(
+              _mid,
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeOutCubic,
+            );
+          }
         }
       },
       builder: (context, state) {
@@ -377,7 +385,7 @@ class _RoutesState extends State<Routes> {
                 ),
                 const SizedBox(width: 10),
                 Text(
-                  'Routes',
+                  'EuroVelo Routes',
                   style: Theme.of(context).textTheme.titleLarge?.copyWith(
                         fontWeight: FontWeight.w600,
                         color: colorScheme.onSurface,

@@ -5,7 +5,8 @@
     "name": "Mountain Loop",
     "description": "A challenging climb through the Carmel mountains with rewarding panoramic views",
     "distance_km": 28.3,
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "route_number": 14
   },
   "geometry": {
     "type": "LineString",

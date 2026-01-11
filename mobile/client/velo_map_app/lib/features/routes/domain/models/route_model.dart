@@ -14,6 +14,7 @@ sealed class RouteModel with _$RouteModel {
     required double distanceKm,
     required double elevationGainM,
     required String difficulty,
+    required int routeNumber,
     required List<List<double>> coordinates,
   }) = _RouteModel;
 
@@ -42,6 +43,7 @@ sealed class RouteModel with _$RouteModel {
       distanceKm: (properties['distance_km'] as num).toDouble(),
       elevationGainM: elevationGain,
       difficulty: properties['difficulty'] as String,
+      routeNumber: (properties['route_number'] as num).toInt(),
       coordinates: coordinates,
     );
   }
