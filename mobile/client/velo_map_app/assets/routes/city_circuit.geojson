@@ -1,0 +1,30 @@
+{
+  "type": "Feature",
+  "properties": {
+    "id": "city_circuit",
+    "name": "City Circuit",
+    "description": "An urban cycling route through parks and bike lanes in the heart of the city",
+    "distance_km": 8.7,
+    "duration_minutes": 30,
+    "difficulty": "moderate",
+    "surface": "paved"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [34.7817, 32.0806],
+      [34.7850, 32.0820],
+      [34.7880, 32.0850],
+      [34.7900, 32.0880],
+      [34.7890, 32.0910],
+      [34.7860, 32.0940],
+      [34.7820, 32.0960],
+      [34.7780, 32.0950],
+      [34.7750, 32.0920],
+      [34.7740, 32.0880],
+      [34.7760, 32.0840],
+      [34.7790, 32.0815],
+      [34.7817, 32.0806]
+    ]
+  }
+}

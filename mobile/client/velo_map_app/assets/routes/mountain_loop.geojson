@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "properties": {
+    "id": "mountain_loop",
+    "name": "Mountain Loop",
+    "description": "A challenging climb through the Carmel mountains with rewarding panoramic views",
+    "distance_km": 28.3,
+    "duration_minutes": 120,
+    "difficulty": "hard",
+    "surface": "mixed"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [35.0100, 32.7500],
+      [35.0150, 32.7550],
+      [35.0200, 32.7620],
+      [35.0280, 32.7700],
+      [35.0350, 32.7750],
+      [35.0420, 32.7820],
+      [35.0500, 32.7880],
+      [35.0580, 32.7920],
+      [35.0650, 32.7950],
+      [35.0700, 32.7900],
+      [35.0680, 32.7820],
+      [35.0620, 32.7750],
+      [35.0550, 32.7680],
+      [35.0480, 32.7620],
+      [35.0400, 32.7570],
+      [35.0320, 32.7530],
+      [35.0240, 32.7510],
+      [35.0160, 32.7500],
+      [35.0100, 32.7500]
+    ]
+  }
+}
