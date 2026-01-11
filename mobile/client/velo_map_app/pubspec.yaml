@@ -49,6 +49,7 @@ dependencies:
   pull_to_refresh: ^2.0.0
   cached_network_image: ^3.4.1
   url_launcher: ^6.3.2
+  fl_chart: ^1.1.1
 
   # Map
   mapbox_maps_flutter: ^2.17.0
