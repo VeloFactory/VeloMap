@@ -154,6 +154,30 @@ class _RoutesState extends State<Routes> {
     }
   }
 
+  Future<void> _zoomIn() async {
+    if (_mapboxMap == null) return;
+
+    final currentCamera = await _mapboxMap!.getCameraState();
+    final newZoom = (currentCamera.zoom + 1).clamp(0.0, 22.0);
+
+    await _mapboxMap!.flyTo(
+      CameraOptions(zoom: newZoom),
+      MapAnimationOptions(duration: 300),
+    );
+  }
+
+  Future<void> _zoomOut() async {
+    if (_mapboxMap == null) return;
+
+    final currentCamera = await _mapboxMap!.getCameraState();
+    final newZoom = (currentCamera.zoom - 1).clamp(0.0, 22.0);
+
+    await _mapboxMap!.flyTo(
+      CameraOptions(zoom: newZoom),
+      MapAnimationOptions(duration: 300),
+    );
+  }
+
   Future<void> _goToUserLocation() async {
     if (_mapboxMap == null || !_locationPermissionGranted) {
       // Request permission if not granted
@@ -240,23 +264,48 @@ class _RoutesState extends State<Routes> {
                 ),
               ),
 
-              // My Location FAB
+              // Map controls (Location + Zoom)
               Positioned(
                 left: 16,
                 top: MediaQuery.of(context).padding.top + 16,
-                child: FloatingActionButton.small(
-                  heroTag: 'location_fab',
-                  onPressed: _goToUserLocation,
-                  backgroundColor: colorScheme.surface,
-                  foregroundColor: _locationPermissionGranted
-                      ? colorScheme.primary
-                      : colorScheme.outline,
-                  elevation: 4,
-                  child: Icon(
-                    _locationPermissionGranted
-                        ? Icons.my_location_rounded
-                        : Icons.location_disabled_rounded,
-                  ),
+                child: Column(
+                  children: [
+                    // Location FAB
+                    FloatingActionButton.small(
+                      heroTag: 'location_fab',
+                      onPressed: _goToUserLocation,
+                      backgroundColor: colorScheme.surface,
+                      foregroundColor: _locationPermissionGranted
+                          ? colorScheme.primary
+                          : colorScheme.outline,
+                      elevation: 2,
+                      child: Icon(
+                        _locationPermissionGranted
+                            ? Icons.my_location_rounded
+                            : Icons.location_disabled_rounded,
+                      ),
+                    ),
+                    const SizedBox(height: 6),
+                    // Zoom In FAB
+                    FloatingActionButton.small(
+                      heroTag: 'zoom_in_fab',
+                      onPressed: _zoomIn,
+                      backgroundColor: colorScheme.surface,
+                      foregroundColor: colorScheme.onSurface,
+                      elevation: 2,
+                      child: const Icon(Icons.add_rounded),
+                    ),
+                    const SizedBox(height: 6),
+                    // Zoom Out FAB
+                    FloatingActionButton.small(
+                      heroTag: 'zoom_out_fab',
+                      onPressed: _zoomOut,
+                      backgroundColor: colorScheme.surface,
+                      foregroundColor: colorScheme.onSurface,
+                      elevation: 2,
+                      child: const Icon(Icons.remove_rounded),
+                    ),
+                  ],
                 ),
               ),
 
