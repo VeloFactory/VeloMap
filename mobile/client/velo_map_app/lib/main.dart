@@ -3,6 +3,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:velo_map_app/app/dependencies.dart';
 import 'package:velo_map_app/errors/bloc_observable.dart';
 import 'app/app.dart';
 
@@ -23,11 +24,12 @@ void main() async {
   final key = dotenv.env['MAPBOX_KEY'] ?? 'NO_KEY';
   MapboxOptions.setAccessToken(key);
 
+  final deps = AppDependencies();
   runApp(
     // MultiBlocProvider(
     //   providers: [],
     //   child: App(key: application),
     // ),
-    App(key: application),
+    App(key: application, deps: deps),
   );
 }

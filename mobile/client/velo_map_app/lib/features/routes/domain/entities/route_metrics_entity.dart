@@ -1,10 +1,10 @@
-class RouteMetrics {
+class RouteMetricsEntity {
   final int distance;
   final int elevationGain;
   final int elevationLoss;
   final int? estimatedTimeMin;
 
-  const RouteMetrics({
+  const RouteMetricsEntity({
     required this.distance,
     required this.elevationGain,
     required this.elevationLoss,

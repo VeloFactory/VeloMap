@@ -1,9 +1,9 @@
-import 'package:velo_map_app/core/models/geo_point.dart';
-import 'package:velo_map_app/features/routes/models/route_metrics.dart';
+import 'package:velo_map_app/core/entities/geo_point.dart';
+import 'package:velo_map_app/features/routes/domain/entities/route_metrics_entity.dart';
 
 enum RouteDifficulty { easy, medium, hard }
 
-class RouteCard {
+class RouteEntity {
   final String id;
   final String name;
   final String? description;
@@ -11,13 +11,13 @@ class RouteCard {
 
   final int countries;
   final List<GeoPoint> path;
-  final RouteMetrics metrics;
+  final RouteMetricsEntity metrics;
 
   final String? icon;
   final List<String> imageUrls;
-  final List<RouteCard> subRoutes;
+  final List<RouteEntity> subRoutes;
 
-  const RouteCard({
+  const RouteEntity({
     required this.id,
     required this.name,
     this.description,

@@ -26,6 +26,8 @@ Add your Mapbox API key:
 ```
 MAPBOX_KEY=your_mapbox_api_key_here
 ```
+# run 
+dart run build_runner build --delete-conflicting-outputs
 
 ## Launch & Debug
 
