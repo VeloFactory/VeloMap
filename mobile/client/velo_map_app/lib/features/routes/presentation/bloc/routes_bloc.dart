@@ -11,6 +11,8 @@ sealed class RoutesEvent with _$RoutesEvent {
   const factory RoutesEvent.load() = _Load;
   const factory RoutesEvent.selectRoute(RouteModel route) = _SelectRoute;
   const factory RoutesEvent.clearSelection() = _ClearSelection;
+  const factory RoutesEvent.selectStage(RouteStage stage) = _SelectStage;
+  const factory RoutesEvent.clearStageSelection() = _ClearStageSelection;
 }
 
 // State
@@ -21,6 +23,7 @@ sealed class RoutesState with _$RoutesState {
     @Default(false) bool isLoading,
     String? error,
     RouteModel? selectedRoute,
+    RouteStage? selectedStage,
   }) = _RoutesState;
 }
 
@@ -34,6 +37,8 @@ class RoutesBloc extends Bloc<RoutesEvent, RoutesState> {
     on<_Load>(_onLoad);
     on<_SelectRoute>(_onSelectRoute);
     on<_ClearSelection>(_onClearSelection);
+    on<_SelectStage>(_onSelectStage);
+    on<_ClearStageSelection>(_onClearStageSelection);
   }
 
   Future<void> _onLoad(_Load event, Emitter<RoutesState> emit) async {
@@ -54,10 +59,18 @@ class RoutesBloc extends Bloc<RoutesEvent, RoutesState> {
   }
 
   void _onSelectRoute(_SelectRoute event, Emitter<RoutesState> emit) {
-    emit(state.copyWith(selectedRoute: event.route));
+    emit(state.copyWith(selectedRoute: event.route, selectedStage: null));
   }
 
   void _onClearSelection(_ClearSelection event, Emitter<RoutesState> emit) {
-    emit(state.copyWith(selectedRoute: null));
+    emit(state.copyWith(selectedRoute: null, selectedStage: null));
+  }
+
+  void _onSelectStage(_SelectStage event, Emitter<RoutesState> emit) {
+    emit(state.copyWith(selectedStage: event.stage));
+  }
+
+  void _onClearStageSelection(_ClearStageSelection event, Emitter<RoutesState> emit) {
+    emit(state.copyWith(selectedStage: null));
   }
 }

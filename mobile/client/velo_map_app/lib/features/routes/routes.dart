@@ -112,6 +112,69 @@ class _RoutesState extends State<Routes> {
     await _fitCameraToBounds(route);
   }
 
+  Future<void> _drawStage(RouteStage stage) async {
+    if (_polylineManager == null || _mapboxMap == null) return;
+
+    // Clear existing annotations
+    await _polylineManager!.deleteAll();
+
+    // Convert coordinates to Position list
+    final positions = stage.coordinates
+        .map((coord) => Position(coord[0], coord[1]))
+        .toList();
+
+    // Create polyline annotation with different color for stage
+    final polylineOptions = PolylineAnnotationOptions(
+      geometry: LineString(coordinates: positions),
+      lineColor: Theme.of(context).colorScheme.tertiary.value,
+      lineWidth: 6.0,
+      lineOpacity: 1.0,
+    );
+
+    await _polylineManager!.create(polylineOptions);
+
+    // Fit camera to stage bounds
+    await _fitCameraToStageBounds(stage);
+  }
+
+  Future<void> _fitCameraToStageBounds(RouteStage stage) async {
+    if (_mapboxMap == null || stage.coordinates.isEmpty) return;
+
+    // Calculate bounding box for stage
+    double minLng = stage.coordinates.first[0];
+    double maxLng = stage.coordinates.first[0];
+    double minLat = stage.coordinates.first[1];
+    double maxLat = stage.coordinates.first[1];
+
+    for (final coord in stage.coordinates) {
+      if (coord[0] < minLng) minLng = coord[0];
+      if (coord[0] > maxLng) maxLng = coord[0];
+      if (coord[1] < minLat) minLat = coord[1];
+      if (coord[1] > maxLat) maxLat = coord[1];
+    }
+
+    final padding = 80.0;
+
+    // Create camera bounds
+    final cameraOptions = await _mapboxMap!.cameraForCoordinateBounds(
+      CoordinateBounds(
+        southwest: Point(coordinates: Position(minLng, minLat)),
+        northeast: Point(coordinates: Position(maxLng, maxLat)),
+        infiniteBounds: false,
+      ),
+      MbxEdgeInsets(top: padding, left: padding, bottom: padding + 200, right: padding),
+      null,
+      null,
+      null,
+      null,
+    );
+
+    await _mapboxMap!.flyTo(
+      cameraOptions,
+      MapAnimationOptions(duration: 800),
+    );
+  }
+
   Future<void> _fitCameraToBounds(RouteModel route) async {
     if (_mapboxMap == null) return;
 
@@ -229,7 +292,12 @@ class _RoutesState extends State<Routes> {
     return BlocConsumer<RoutesBloc, RoutesState>(
       listener: (context, state) {
         if (state.selectedRoute != null) {
-          _drawRoute(state.selectedRoute!);
+          // If a stage is selected, draw only that stage; otherwise draw full route
+          if (state.selectedStage != null) {
+            _drawStage(state.selectedStage!);
+          } else {
+            _drawRoute(state.selectedRoute!);
+          }
           // Expand sheet to show route details
           if (_sheet.isAttached) {
             _sheet.animateTo(
@@ -479,12 +547,19 @@ class _RoutesState extends State<Routes> {
         return RouteListTile(
           route: route,
           isSelected: isSelected,
+          selectedStage: isSelected ? state.selectedStage : null,
           onTap: () {
             if (isSelected) {
               context.read<RoutesBloc>().add(const RoutesEvent.clearSelection());
             } else {
               context.read<RoutesBloc>().add(RoutesEvent.selectRoute(route));
             }
+          },
+          onStageSelected: (stage) {
+            context.read<RoutesBloc>().add(RoutesEvent.selectStage(stage));
+          },
+          onStageClear: () {
+            context.read<RoutesBloc>().add(const RoutesEvent.clearStageSelection());
           },
         );
       },

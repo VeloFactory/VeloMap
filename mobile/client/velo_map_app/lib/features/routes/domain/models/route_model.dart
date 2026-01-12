@@ -3,6 +3,31 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'route_model.freezed.dart';
 part 'route_model.g.dart';
 
+/// Model for a route stage (segment)
+@freezed
+sealed class RouteStage with _$RouteStage {
+  const RouteStage._();
+
+  const factory RouteStage({
+    required int stage,
+    required String name,
+    required String description,
+    required double distanceKm,
+    required double elevationGain,
+    required String difficulty,
+    required List<List<double>> coordinates,
+  }) = _RouteStage;
+
+  factory RouteStage.fromJson(Map<String, dynamic> json) =>
+      _$RouteStageFromJson(json);
+
+  /// Returns distance as formatted string (e.g., "12.5 km")
+  String get formattedDistance => '${distanceKm.toStringAsFixed(1)} km';
+
+  /// Returns elevation as formatted string (e.g., "245 m")
+  String get formattedElevation => '${elevationGain.toStringAsFixed(0)} m';
+}
+
 @freezed
 sealed class RouteModel with _$RouteModel {
   const RouteModel._();
@@ -16,6 +41,7 @@ sealed class RouteModel with _$RouteModel {
     required String difficulty,
     required int routeNumber,
     required List<List<double>> coordinates,
+    @Default([]) List<RouteStage> stages,
   }) = _RouteModel;
 
   factory RouteModel.fromJson(Map<String, dynamic> json) =>
@@ -68,9 +94,11 @@ sealed class RouteModel with _$RouteModel {
 
     // Merge coordinates from all features, avoiding duplicates at stage boundaries
     final allCoordinates = <List<double>>[];
+    final stages = <RouteStage>[];
     
     for (int i = 0; i < features.length; i++) {
       final feature = features[i] as Map<String, dynamic>;
+      final featureProps = feature['properties'] as Map<String, dynamic>;
       final geometry = feature['geometry'] as Map<String, dynamic>;
       final rawCoords = geometry['coordinates'] as List<dynamic>;
 
@@ -79,6 +107,17 @@ sealed class RouteModel with _$RouteModel {
               .map((c) => (c as num).toDouble())
               .toList())
           .toList();
+
+      // Create RouteStage
+      stages.add(RouteStage(
+        stage: (featureProps['stage'] as num).toInt(),
+        name: featureProps['name'] as String,
+        description: featureProps['description'] as String,
+        distanceKm: (featureProps['distance_km'] as num).toDouble(),
+        elevationGain: (featureProps['elevation_gain'] as num).toDouble(),
+        difficulty: featureProps['difficulty'] as String,
+        coordinates: stageCoords,
+      ));
 
       // Skip first coordinate if it matches the last one from previous stage
       final startIndex = (i > 0 && 
@@ -100,6 +139,7 @@ sealed class RouteModel with _$RouteModel {
       difficulty: properties['difficulty'] as String,
       routeNumber: (properties['route_number'] as num).toInt(),
       coordinates: allCoordinates,
+      stages: stages,
     );
   }
 

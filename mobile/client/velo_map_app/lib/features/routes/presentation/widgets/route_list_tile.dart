@@ -7,12 +7,18 @@ class RouteListTile extends StatelessWidget {
   final RouteModel route;
   final bool isSelected;
   final VoidCallback onTap;
+  final RouteStage? selectedStage;
+  final void Function(RouteStage stage)? onStageSelected;
+  final VoidCallback? onStageClear;
 
   const RouteListTile({
     super.key,
     required this.route,
     required this.isSelected,
     required this.onTap,
+    this.selectedStage,
+    this.onStageSelected,
+    this.onStageClear,
   });
 
   @override
@@ -107,6 +113,18 @@ class RouteListTile extends StatelessWidget {
                     colorScheme: colorScheme,
                     isSelected: isSelected,
                   ),
+                  
+                  // Stages list (if route has stages)
+                  if (route.stages.isNotEmpty) ...[
+                    const SizedBox(height: 16),
+                    _StagesList(
+                      stages: route.stages,
+                      selectedStage: selectedStage,
+                      onStageSelected: onStageSelected,
+                      onStageClear: onStageClear,
+                      colorScheme: colorScheme,
+                    ),
+                  ],
                   
                   const SizedBox(height: 16),
                   
@@ -463,6 +481,212 @@ class _MetadataChip extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+/// Widget to display list of stages for a route
+class _StagesList extends StatelessWidget {
+  final List<RouteStage> stages;
+  final RouteStage? selectedStage;
+  final void Function(RouteStage stage)? onStageSelected;
+  final VoidCallback? onStageClear;
+  final ColorScheme colorScheme;
+
+  const _StagesList({
+    required this.stages,
+    required this.selectedStage,
+    required this.onStageSelected,
+    required this.onStageClear,
+    required this.colorScheme,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            Icon(
+              Icons.alt_route_rounded,
+              size: 16,
+              color: colorScheme.onPrimaryContainer,
+            ),
+            const SizedBox(width: 6),
+            Text(
+              'Stages',
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: colorScheme.onPrimaryContainer,
+              ),
+            ),
+            const Spacer(),
+            if (selectedStage != null)
+              GestureDetector(
+                onTap: onStageClear,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: colorScheme.primary.withValues(alpha: 0.2),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(
+                        Icons.close_rounded,
+                        size: 14,
+                        color: colorScheme.primary,
+                      ),
+                      const SizedBox(width: 4),
+                      Text(
+                        'Show full route',
+                        style: TextStyle(
+                          fontSize: 11,
+                          fontWeight: FontWeight.w500,
+                          color: colorScheme.primary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+          ],
+        ),
+        const SizedBox(height: 8),
+        ...stages.map((stage) => _StageItem(
+              stage: stage,
+              isSelected: selectedStage?.stage == stage.stage,
+              onTap: () {
+                if (selectedStage?.stage == stage.stage) {
+                  onStageClear?.call();
+                } else {
+                  onStageSelected?.call(stage);
+                }
+              },
+              colorScheme: colorScheme,
+            )),
+      ],
+    );
+  }
+}
+
+/// Widget for individual stage item
+class _StageItem extends StatelessWidget {
+  final RouteStage stage;
+  final bool isSelected;
+  final VoidCallback onTap;
+  final ColorScheme colorScheme;
+
+  const _StageItem({
+    required this.stage,
+    required this.isSelected,
+    required this.onTap,
+    required this.colorScheme,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 6),
+        padding: const EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          color: isSelected
+              ? colorScheme.primary.withValues(alpha: 0.15)
+              : colorScheme.surface.withValues(alpha: 0.5),
+          borderRadius: BorderRadius.circular(8),
+          border: Border.all(
+            color: isSelected
+                ? colorScheme.primary
+                : colorScheme.outline.withValues(alpha: 0.3),
+            width: isSelected ? 2 : 1,
+          ),
+        ),
+        child: Row(
+          children: [
+            // Stage number badge
+            Container(
+              width: 28,
+              height: 28,
+              decoration: BoxDecoration(
+                color: isSelected ? colorScheme.primary : colorScheme.primaryContainer,
+                shape: BoxShape.circle,
+              ),
+              child: Center(
+                child: Text(
+                  '${stage.stage}',
+                  style: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    color: isSelected ? colorScheme.onPrimary : colorScheme.onPrimaryContainer,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(width: 10),
+            // Stage info
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    stage.name,
+                    style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
+                      color: colorScheme.onPrimaryContainer,
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  const SizedBox(height: 2),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.straighten_rounded,
+                        size: 12,
+                        color: colorScheme.onPrimaryContainer.withValues(alpha: 0.7),
+                      ),
+                      const SizedBox(width: 2),
+                      Text(
+                        stage.formattedDistance,
+                        style: TextStyle(
+                          fontSize: 10,
+                          color: colorScheme.onPrimaryContainer.withValues(alpha: 0.7),
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.trending_up_rounded,
+                        size: 12,
+                        color: colorScheme.onPrimaryContainer.withValues(alpha: 0.7),
+                      ),
+                      const SizedBox(width: 2),
+                      Text(
+                        stage.formattedElevation,
+                        style: TextStyle(
+                          fontSize: 10,
+                          color: colorScheme.onPrimaryContainer.withValues(alpha: 0.7),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            // Selection indicator
+            Icon(
+              isSelected ? Icons.radio_button_checked : Icons.radio_button_off,
+              size: 20,
+              color: isSelected ? colorScheme.primary : colorScheme.outline,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

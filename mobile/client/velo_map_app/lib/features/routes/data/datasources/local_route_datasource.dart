@@ -11,6 +11,7 @@ class LocalRouteDatasource {
     'assets/routes/coastal_trail.geojson',
     'assets/routes/mountain_loop.geojson',
     'assets/routes/city_circuit.geojson',
+    'assets/routes/EuroVelo6.geojson'
   ];
 
   /// Fetches all routes from local GeoJSON assets
