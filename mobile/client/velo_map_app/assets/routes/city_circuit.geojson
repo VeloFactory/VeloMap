@@ -6,7 +6,7 @@
     "description": "An urban cycling route through parks and bike lanes in the heart of the city",
     "distance_km": 8.7,
     "difficulty": "moderate",
-    "route_number": 3
+    "route_number": 12
   },
   "geometry": {
     "type": "LineString",
