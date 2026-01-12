@@ -21,8 +21,21 @@ sealed class RouteModel with _$RouteModel {
   factory RouteModel.fromJson(Map<String, dynamic> json) =>
       _$RouteModelFromJson(json);
 
-  /// Factory to parse a GeoJSON Feature into RouteModel
+  /// Factory to parse a GeoJSON Feature or FeatureCollection into RouteModel
   factory RouteModel.fromGeoJson(Map<String, dynamic> geoJson) {
+    final type = geoJson['type'] as String;
+
+    // Handle FeatureCollection (multi-stage routes)
+    if (type == 'FeatureCollection') {
+      return _fromFeatureCollection(geoJson);
+    }
+
+    // Handle single Feature (simple routes)
+    return _fromSingleFeature(geoJson);
+  }
+
+  /// Parse a single Feature GeoJSON
+  static RouteModel _fromSingleFeature(Map<String, dynamic> geoJson) {
     final properties = geoJson['properties'] as Map<String, dynamic>;
     final geometry = geoJson['geometry'] as Map<String, dynamic>;
     final rawCoords = geometry['coordinates'] as List<dynamic>;
@@ -46,6 +59,54 @@ sealed class RouteModel with _$RouteModel {
       routeNumber: (properties['route_number'] as num).toInt(),
       coordinates: coordinates,
     );
+  }
+
+  /// Parse a FeatureCollection GeoJSON (multi-stage routes)
+  static RouteModel _fromFeatureCollection(Map<String, dynamic> geoJson) {
+    final properties = geoJson['properties'] as Map<String, dynamic>;
+    final features = geoJson['features'] as List<dynamic>;
+
+    // Merge coordinates from all features, avoiding duplicates at stage boundaries
+    final allCoordinates = <List<double>>[];
+    
+    for (int i = 0; i < features.length; i++) {
+      final feature = features[i] as Map<String, dynamic>;
+      final geometry = feature['geometry'] as Map<String, dynamic>;
+      final rawCoords = geometry['coordinates'] as List<dynamic>;
+
+      final stageCoords = rawCoords
+          .map((coord) => (coord as List<dynamic>)
+              .map((c) => (c as num).toDouble())
+              .toList())
+          .toList();
+
+      // Skip first coordinate if it matches the last one from previous stage
+      final startIndex = (i > 0 && 
+          allCoordinates.isNotEmpty && 
+          _coordinatesMatch(allCoordinates.last, stageCoords.first)) ? 1 : 0;
+      
+      allCoordinates.addAll(stageCoords.sublist(startIndex));
+    }
+
+    // Calculate elevation gain from merged coordinates
+    final elevationGain = _calculateElevationGain(allCoordinates);
+
+    return RouteModel(
+      id: properties['id'] as String,
+      name: properties['name'] as String,
+      description: properties['description'] as String,
+      distanceKm: (properties['distance_km'] as num).toDouble(),
+      elevationGainM: elevationGain,
+      difficulty: properties['difficulty'] as String,
+      routeNumber: (properties['route_number'] as num).toInt(),
+      coordinates: allCoordinates,
+    );
+  }
+
+  /// Check if two coordinates are the same (lng, lat match)
+  static bool _coordinatesMatch(List<double> a, List<double> b) {
+    if (a.length < 2 || b.length < 2) return false;
+    return a[0] == b[0] && a[1] == b[1];
   }
 
   /// Calculate total elevation gain from coordinates with elevation (3rd value)
