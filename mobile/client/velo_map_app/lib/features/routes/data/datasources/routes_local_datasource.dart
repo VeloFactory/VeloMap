@@ -6,26 +6,13 @@ import 'package:velo_map_app/features/routes/data/models/route_dto.dart';
 /// Stage 1: Uses bundled static files.
 /// Stage 2: Will be replaced with RemoteRouteDatasource for API calls.
 class RouteLocalDatasource {
-  /// List of asset paths for bundled GeoJSON route files
-  Future<List<RouteDto>> fetchRoutes() async {
-    final manifest1 = await AssetManifest.loadFromAssetBundle(rootBundle);
-    final assets = manifest1.listAssets();
+  List<RouteDto>? _routesCache;
+  Map<String, RouteDto>? _routesByIdCache;
+  Future<List<RouteDto>>? _loadFuture;
 
-    final files = assets
-        .where(
-          (p) =>
-              p.startsWith('assets/routes/geojson') && p.endsWith('.geojson'),
-        )
-        .toList();
-
+  Future<List<RouteDto>> _loadRoutes() async {
+    final files = await _routeFiles();
     final routes = <RouteDto>[];
-
-    int numFromPath(String path) {
-      final name = path.split('/').last.split('.').first;
-      return int.tryParse(name) ?? 0x7fffffff;
-    }
-
-    files.sort((a, b) => numFromPath(a).compareTo(numFromPath(b)));
 
     for (final path in files) {
       final jsonStr = await rootBundle.loadString(path);
@@ -41,13 +28,48 @@ class RouteLocalDatasource {
     return routes;
   }
 
+  Future<List<String>> _routeFiles() async {
+    final manifest1 = await AssetManifest.loadFromAssetBundle(rootBundle);
+    final assets = manifest1.listAssets();
+
+    final files = assets
+        .where(
+          (p) =>
+              p.startsWith('assets/routes/geojson') && p.endsWith('.geojson'),
+        )
+        .toList();
+
+    int numFromPath(String path) {
+      final name = path.split('/').last.split('.').first;
+      return int.tryParse(name) ?? 0x7fffffff;
+    }
+
+    files.sort((a, b) => numFromPath(a).compareTo(numFromPath(b)));
+    return files;
+  }
+
+  /// List of asset paths for bundled GeoJSON route files
+  Future<List<RouteDto>> fetchRoutes() async {
+    if (_routesCache != null) return _routesCache!;
+    if (_loadFuture != null) return _loadFuture!;
+
+    _loadFuture = _loadRoutes();
+    try {
+      final routes = await _loadFuture!;
+      _routesCache = routes;
+      return routes;
+    } finally {
+      _loadFuture = null;
+    }
+  }
+
   /// Fetches a single route by ID from local assets
   Future<RouteDto?> fetchRouteById(String id) async {
-    final routes = await fetchRoutes();
-    try {
-      return routes.firstWhere((route) => route.id == id);
-    } catch (_) {
-      return null;
+    if (_routesByIdCache == null) {
+      final routes = await fetchRoutes();
+      _routesByIdCache = {for (final route in routes) route.id: route};
     }
+
+    return _routesByIdCache![id];
   }
 }
