@@ -65,7 +65,7 @@ class _RoutesState extends State<Routes> {
       LocationComponentSettings(
         enabled: true,
         pulsingEnabled: true,
-        pulsingColor: Theme.of(context).colorScheme.primary.value,
+        pulsingColor: Theme.of(context).colorScheme.primary.toARGB32(),
         showAccuracyRing: true,
         puckBearingEnabled: true,
       ),
@@ -102,7 +102,7 @@ class _RoutesState extends State<Routes> {
     // Create polyline annotation
     final polylineOptions = PolylineAnnotationOptions(
       geometry: LineString(coordinates: positions),
-      lineColor: Theme.of(context).colorScheme.primary.value,
+      lineColor: Colors.blue.toARGB32(),
       lineWidth: 5.0,
       lineOpacity: 0.9,
     );
@@ -127,7 +127,7 @@ class _RoutesState extends State<Routes> {
     // Create polyline annotation with different color for stage
     final polylineOptions = PolylineAnnotationOptions(
       geometry: LineString(coordinates: positions),
-      lineColor: Theme.of(context).colorScheme.tertiary.value,
+      lineColor: Colors.blue.toARGB32(),
       lineWidth: 6.0,
       lineOpacity: 1.0,
     );
@@ -217,30 +217,6 @@ class _RoutesState extends State<Routes> {
         MapAnimationOptions(duration: 500),
       );
     }
-  }
-
-  Future<void> _zoomIn() async {
-    if (_mapboxMap == null) return;
-
-    final currentCamera = await _mapboxMap!.getCameraState();
-    final newZoom = (currentCamera.zoom + 1).clamp(0.0, 22.0);
-
-    await _mapboxMap!.flyTo(
-      CameraOptions(zoom: newZoom),
-      MapAnimationOptions(duration: 300),
-    );
-  }
-
-  Future<void> _zoomOut() async {
-    if (_mapboxMap == null) return;
-
-    final currentCamera = await _mapboxMap!.getCameraState();
-    final newZoom = (currentCamera.zoom - 1).clamp(0.0, 22.0);
-
-    await _mapboxMap!.flyTo(
-      CameraOptions(zoom: newZoom),
-      MapAnimationOptions(duration: 300),
-    );
   }
 
   Future<void> _goToUserLocation() async {
@@ -351,26 +327,6 @@ class _RoutesState extends State<Routes> {
                             ? Icons.my_location_rounded
                             : Icons.location_disabled_rounded,
                       ),
-                    ),
-                    const SizedBox(height: 6),
-                    // Zoom In FAB
-                    FloatingActionButton.small(
-                      heroTag: 'zoom_in_fab',
-                      onPressed: _zoomIn,
-                      backgroundColor: colorScheme.surface,
-                      foregroundColor: colorScheme.onSurface,
-                      elevation: 2,
-                      child: const Icon(Icons.add_rounded),
-                    ),
-                    const SizedBox(height: 6),
-                    // Zoom Out FAB
-                    FloatingActionButton.small(
-                      heroTag: 'zoom_out_fab',
-                      onPressed: _zoomOut,
-                      backgroundColor: colorScheme.surface,
-                      foregroundColor: colorScheme.onSurface,
-                      elevation: 2,
-                      child: const Icon(Icons.remove_rounded),
                     ),
                   ],
                 ),
