@@ -264,7 +264,7 @@ class _ElevationGraph extends StatelessWidget {
             ),
             const Spacer(),
             Text(
-              '${minElevation.toInt()}m - ${maxElevation.toInt()}m',
+              '${minElevation.toInt()}m, ${maxElevation.toInt()}m',
               style: TextStyle(
                 fontSize: 11,
                 color: isSelected

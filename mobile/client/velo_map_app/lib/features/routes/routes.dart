@@ -23,9 +23,9 @@ class _RoutesState extends State<Routes> {
   PolylineAnnotationManager? _polylineManager;
   bool _locationPermissionGranted = false;
 
-  static const double _min = 0.15;
-  static const double _mid = 0.35;
-  static const double _max = 0.65;
+  static const double _min = 0.108;
+  static const double _mid = 0.40;
+  static const double _max = 0.96;
 
   final snapSizes = <double>[_min, _mid, _max];
 
@@ -339,7 +339,7 @@ class _RoutesState extends State<Routes> {
               // Bottom sheet with routes list
               DraggableScrollableSheet(
                 controller: _sheet,
-                initialChildSize: _mid,
+                initialChildSize: _min,
                 minChildSize: _min,
                 maxChildSize: _max,
                 snap: true,
@@ -383,8 +383,6 @@ class _RoutesState extends State<Routes> {
         children: [
           // Handle + Header
           _buildSheetHeader(context, state, colorScheme),
-          const Divider(height: 1),
-
           // Content
           Expanded(
             child: state.error != null

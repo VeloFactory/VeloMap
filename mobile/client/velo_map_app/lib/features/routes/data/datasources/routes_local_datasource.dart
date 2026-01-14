@@ -20,8 +20,10 @@ class RouteLocalDatasource {
 
     final routes = <RouteDto>[];
 
-    int numFromPath(String p) =>
-        int.tryParse(p.split('/').last.replaceAll('.json', '')) ?? 0;
+    int numFromPath(String path) {
+      final name = path.split('/').last.split('.').first;
+      return int.tryParse(name) ?? 0x7fffffff;
+    }
 
     files.sort((a, b) => numFromPath(a).compareTo(numFromPath(b)));
 
