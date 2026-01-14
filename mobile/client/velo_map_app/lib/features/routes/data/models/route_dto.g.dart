@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'route_model.dart';
+part of 'route_dto.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
@@ -31,7 +31,7 @@ Map<String, dynamic> _$RouteStageToJson(_RouteStage instance) =>
       'coordinates': instance.coordinates,
     };
 
-_RouteModel _$RouteModelFromJson(Map<String, dynamic> json) => _RouteModel(
+_RouteDto _$RouteDtoFromJson(Map<String, dynamic> json) => _RouteDto(
   id: json['id'] as String,
   name: json['name'] as String,
   description: json['description'] as String,
@@ -51,15 +51,14 @@ _RouteModel _$RouteModelFromJson(Map<String, dynamic> json) => _RouteModel(
       const [],
 );
 
-Map<String, dynamic> _$RouteModelToJson(_RouteModel instance) =>
-    <String, dynamic>{
-      'id': instance.id,
-      'name': instance.name,
-      'description': instance.description,
-      'distanceKm': instance.distanceKm,
-      'elevationGainM': instance.elevationGainM,
-      'difficulty': instance.difficulty,
-      'routeNumber': instance.routeNumber,
-      'coordinates': instance.coordinates,
-      'stages': instance.stages,
-    };
+Map<String, dynamic> _$RouteDtoToJson(_RouteDto instance) => <String, dynamic>{
+  'id': instance.id,
+  'name': instance.name,
+  'description': instance.description,
+  'distanceKm': instance.distanceKm,
+  'elevationGainM': instance.elevationGainM,
+  'difficulty': instance.difficulty,
+  'routeNumber': instance.routeNumber,
+  'coordinates': instance.coordinates,
+  'stages': instance.stages,
+};

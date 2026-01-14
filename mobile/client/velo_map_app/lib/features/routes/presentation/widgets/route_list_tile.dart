@@ -1,14 +1,15 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:velo_map_app/features/routes/domain/models/route_model.dart';
+import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
+import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
 
 class RouteListTile extends StatelessWidget {
-  final RouteModel route;
+  final RouteEntity route;
   final bool isSelected;
   final VoidCallback onTap;
-  final RouteStage? selectedStage;
-  final void Function(RouteStage stage)? onStageSelected;
+  final RouteStageEntity? selectedStage;
+  final void Function(RouteStageEntity stage)? onStageSelected;
   final VoidCallback? onStageClear;
 
   const RouteListTile({
@@ -70,7 +71,7 @@ class RouteListTile extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 8),
-                
+
                 // Description
                 Text(
                   route.description,
@@ -83,7 +84,7 @@ class RouteListTile extends StatelessWidget {
                   overflow: TextOverflow.ellipsis,
                 ),
                 const SizedBox(height: 12),
-                
+
                 // Metadata row
                 Row(
                   children: [
@@ -100,20 +101,20 @@ class RouteListTile extends StatelessWidget {
                     ),
                   ],
                 ),
-                
+
                 // Expanded content when selected
                 if (isSelected) ...[
                   const SizedBox(height: 16),
                   const Divider(height: 1),
                   const SizedBox(height: 16),
-                  
+
                   // Elevation Graph
                   _ElevationGraph(
                     elevations: _extractElevations(route.coordinates),
                     colorScheme: colorScheme,
                     isSelected: isSelected,
                   ),
-                  
+
                   // Stages list (if route has stages)
                   if (route.stages.isNotEmpty) ...[
                     const SizedBox(height: 16),
@@ -125,63 +126,67 @@ class RouteListTile extends StatelessWidget {
                       colorScheme: colorScheme,
                     ),
                   ],
-                  
+
                   const SizedBox(height: 16),
-                  
+
                   // Action buttons
-                  Row(
-                    children: [
-                      Expanded(
-                        child: OutlinedButton.icon(
-                          onPressed: () {
-                            // TODO: Implement share functionality
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text('Share functionality coming soon'),
-                                duration: Duration(seconds: 2),
-                              ),
-                            );
-                          },
-                          icon: Icon(
-                            Icons.share_rounded,
-                            size: 18,
-                            color: colorScheme.primary,
-                          ),
-                          label: Text(
-                            'Share',
-                            style: TextStyle(color: colorScheme.primary),
-                          ),
-                          style: OutlinedButton.styleFrom(
-                            side: BorderSide(color: colorScheme.primary),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                          ),
-                        ),
-                      ),
-                      const SizedBox(width: 12),
-                      Expanded(
-                        child: FilledButton.icon(
-                          onPressed: () {
-                            // TODO: Implement download functionality
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text('Download functionality coming soon'),
-                                duration: Duration(seconds: 2),
-                              ),
-                            );
-                          },
-                          icon: const Icon(Icons.download_rounded, size: 18),
-                          label: const Text('Download'),
-                          style: FilledButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
+                  // Row(
+                  //   children: [
+                  //     Expanded(
+                  //       child: OutlinedButton.icon(
+                  //         onPressed: () {
+                  //           // TODO: Implement share functionality
+                  //           ScaffoldMessenger.of(context).showSnackBar(
+                  //             const SnackBar(
+                  //               content: Text(
+                  //                 'Share functionality coming soon',
+                  //               ),
+                  //               duration: Duration(seconds: 2),
+                  //             ),
+                  //           );
+                  //         },
+                  //         icon: Icon(
+                  //           Icons.share_rounded,
+                  //           size: 18,
+                  //           color: colorScheme.primary,
+                  //         ),
+                  //         label: Text(
+                  //           'Share',
+                  //           style: TextStyle(color: colorScheme.primary),
+                  //         ),
+                  //         style: OutlinedButton.styleFrom(
+                  //           side: BorderSide(color: colorScheme.primary),
+                  //           shape: RoundedRectangleBorder(
+                  //             borderRadius: BorderRadius.circular(8),
+                  //           ),
+                  //         ),
+                  //       ),
+                  //     ),
+                  //     const SizedBox(width: 12),
+                  //     Expanded(
+                  //       child: FilledButton.icon(
+                  //         onPressed: () {
+                  //           // TODO: Implement download functionality
+                  //           ScaffoldMessenger.of(context).showSnackBar(
+                  //             const SnackBar(
+                  //               content: Text(
+                  //                 'Download functionality coming soon',
+                  //               ),
+                  //               duration: Duration(seconds: 2),
+                  //             ),
+                  //           );
+                  //         },
+                  //         icon: const Icon(Icons.download_rounded, size: 18),
+                  //         label: const Text('Download'),
+                  //         style: FilledButton.styleFrom(
+                  //           shape: RoundedRectangleBorder(
+                  //             borderRadius: BorderRadius.circular(8),
+                  //           ),
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ],
+                  // ),
                 ],
               ],
             ),
@@ -224,10 +229,7 @@ class _ElevationGraph extends StatelessWidget {
         child: Center(
           child: Text(
             'No elevation data available',
-            style: TextStyle(
-              color: colorScheme.onSurfaceVariant,
-              fontSize: 12,
-            ),
+            style: TextStyle(color: colorScheme.onSurfaceVariant, fontSize: 12),
           ),
         ),
       );
@@ -377,11 +379,14 @@ class _ElevationChartPainter extends CustomPainter {
       final current = points[i];
       final next = points[i + 1];
       final controlX = (current.dx + next.dx) / 2;
-      
+
       linePath.cubicTo(
-        controlX, current.dy,
-        controlX, next.dy,
-        next.dx, next.dy,
+        controlX,
+        current.dy,
+        controlX,
+        next.dy,
+        next.dx,
+        next.dy,
       );
     }
 
@@ -487,9 +492,9 @@ class _MetadataChip extends StatelessWidget {
 
 /// Widget to display list of stages for a route
 class _StagesList extends StatelessWidget {
-  final List<RouteStage> stages;
-  final RouteStage? selectedStage;
-  final void Function(RouteStage stage)? onStageSelected;
+  final List<RouteStageEntity> stages;
+  final RouteStageEntity? selectedStage;
+  final void Function(RouteStageEntity stage)? onStageSelected;
   final VoidCallback? onStageClear;
   final ColorScheme colorScheme;
 
@@ -527,7 +532,10 @@ class _StagesList extends StatelessWidget {
               GestureDetector(
                 onTap: onStageClear,
                 child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 4,
+                  ),
                   decoration: BoxDecoration(
                     color: colorScheme.primary.withValues(alpha: 0.2),
                     borderRadius: BorderRadius.circular(12),
@@ -556,18 +564,20 @@ class _StagesList extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 8),
-        ...stages.map((stage) => _StageItem(
-              stage: stage,
-              isSelected: selectedStage?.stage == stage.stage,
-              onTap: () {
-                if (selectedStage?.stage == stage.stage) {
-                  onStageClear?.call();
-                } else {
-                  onStageSelected?.call(stage);
-                }
-              },
-              colorScheme: colorScheme,
-            )),
+        ...stages.map(
+          (stage) => _StageItem(
+            stage: stage,
+            isSelected: selectedStage?.stage == stage.stage,
+            onTap: () {
+              if (selectedStage?.stage == stage.stage) {
+                onStageClear?.call();
+              } else {
+                onStageSelected?.call(stage);
+              }
+            },
+            colorScheme: colorScheme,
+          ),
+        ),
       ],
     );
   }
@@ -575,7 +585,7 @@ class _StagesList extends StatelessWidget {
 
 /// Widget for individual stage item
 class _StageItem extends StatelessWidget {
-  final RouteStage stage;
+  final RouteStageEntity stage;
   final bool isSelected;
   final VoidCallback onTap;
   final ColorScheme colorScheme;
@@ -613,7 +623,9 @@ class _StageItem extends StatelessWidget {
               width: 28,
               height: 28,
               decoration: BoxDecoration(
-                color: isSelected ? colorScheme.primary : colorScheme.primaryContainer,
+                color: isSelected
+                    ? colorScheme.primary
+                    : colorScheme.primaryContainer,
                 shape: BoxShape.circle,
               ),
               child: Center(
@@ -622,7 +634,9 @@ class _StageItem extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.bold,
-                    color: isSelected ? colorScheme.onPrimary : colorScheme.onPrimaryContainer,
+                    color: isSelected
+                        ? colorScheme.onPrimary
+                        : colorScheme.onPrimaryContainer,
                   ),
                 ),
               ),
@@ -649,28 +663,36 @@ class _StageItem extends StatelessWidget {
                       Icon(
                         Icons.straighten_rounded,
                         size: 12,
-                        color: colorScheme.onPrimaryContainer.withValues(alpha: 0.7),
+                        color: colorScheme.onPrimaryContainer.withValues(
+                          alpha: 0.7,
+                        ),
                       ),
                       const SizedBox(width: 2),
                       Text(
                         stage.formattedDistance,
                         style: TextStyle(
                           fontSize: 10,
-                          color: colorScheme.onPrimaryContainer.withValues(alpha: 0.7),
+                          color: colorScheme.onPrimaryContainer.withValues(
+                            alpha: 0.7,
+                          ),
                         ),
                       ),
                       const SizedBox(width: 8),
                       Icon(
                         Icons.trending_up_rounded,
                         size: 12,
-                        color: colorScheme.onPrimaryContainer.withValues(alpha: 0.7),
+                        color: colorScheme.onPrimaryContainer.withValues(
+                          alpha: 0.7,
+                        ),
                       ),
                       const SizedBox(width: 2),
                       Text(
                         stage.formattedElevation,
                         style: TextStyle(
                           fontSize: 10,
-                          color: colorScheme.onPrimaryContainer.withValues(alpha: 0.7),
+                          color: colorScheme.onPrimaryContainer.withValues(
+                            alpha: 0.7,
+                          ),
                         ),
                       ),
                     ],

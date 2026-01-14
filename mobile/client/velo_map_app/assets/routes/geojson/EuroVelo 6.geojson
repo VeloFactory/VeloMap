@@ -1,13 +1,196 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "id": "eurovelo6_route",
-    "name": "EuroVelo 6 Route",
-    "description": "EuroVelo 6 Route - From the Atlantic Ocean to the Black Sea, passing through France, Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, and ending in Romania",
+    "id": "eurovelo_6",
+    "name": "EuroVelo 6",
+    "description": "",
     "distance_km": 6089.831,
     "difficulty": "hard",
     "route_number": 6,
-    "total_stages": 163
+    "total_stages": 163,
+    "cities": [
+      "Saint",
+      "Brevin",
+      "les",
+      "Pins",
+      "Le Pellerin",
+      "Nantes",
+      "Mauves",
+      "sur",
+      "Loire",
+      "Champtoceaux",
+      "Florent",
+      "le",
+      "Vieil",
+      "Chalonnes",
+      "Angers",
+      "Rémy",
+      "la",
+      "Varenne",
+      "Saumur",
+      "Candes",
+      "Martin",
+      "Rigny",
+      "Ussé",
+      "Villandry",
+      "Tours",
+      "Amboise",
+      "Chaumont",
+      "Blois",
+      "Muides",
+      "Beaugency",
+      "Orleans",
+      "Jargeau",
+      "Sully",
+      "Briare",
+      "Sancerre",
+      "Pouilly",
+      "La",
+      "Charité",
+      "Sur",
+      "Cuffy",
+      "Nevers",
+      "Decize",
+      "Cronat",
+      "Bourbon",
+      "Lancy",
+      "Digoin",
+      "Paray",
+      "Monial",
+      "Palinges",
+      "Montceau",
+      "Mines",
+      "Montchanin",
+      "St",
+      "Léger",
+      "Dheune",
+      "Santenay",
+      "Chalon",
+      "Saône",
+      "Verdun",
+      "Doubs",
+      "Seurre",
+      "Jean",
+      "de",
+      "Losne",
+      "Dole",
+      "Vit",
+      "Besançon",
+      "Deluz",
+      "Baume",
+      "Dames",
+      "L'Isle",
+      "Montbéliard",
+      "Montreux",
+      "Jeune",
+      "Mulhouse",
+      "Basel",
+      "Laufenburg (Baden)",
+      "Schaffhausen",
+      "Rheinfelden",
+      "Bad Zurzach",
+      "Stein am Rhein",
+      "Radolfzell",
+      "Tuttlingen",
+      "Sigmaringen",
+      "Riedlingen",
+      "Ehingen (Donau)",
+      "Ulm",
+      "Lauingen (Donau)",
+      "Donauwörth",
+      "Ingolstadt",
+      "Kelheim",
+      "Ratisbon",
+      "Straubing",
+      "Deggendorf",
+      "Vilshofen an der Donau",
+      "Passau",
+      "Passau, Germany",
+      "Obermühl an der Donau",
+      "Linz",
+      "St. Georgen an der Gusen",
+      "Dornach bei Grein",
+      "Emmersdorf an der Donau",
+      "Altenwörth",
+      "Vienna",
+      "Inzell",
+      "Ardagger Markt",
+      "Melk",
+      "Tulln",
+      "Hainburg an der Donau",
+      "Bratislava, Slovakia",
+      "Ňárad",
+      "Komarno",
+      "Esztergom",
+      "Petronell",
+      "Rajka",
+      "Győr",
+      "Komárom",
+      "Szob",
+      "Vác",
+      "Budapest",
+      "Dunakeszi",
+      "Dömsöd",
+      "Harta",
+      "Baja",
+      "Mohács",
+      "Hercegszántó/Bački Breg",
+      "Sombor",
+      "Apatin",
+      "Karavukovo",
+      "Backa Palanka",
+      "Draž",
+      "Osijek",
+      "Vukovar",
+      "Novi Sad",
+      "Belgrade",
+      "Smederevo",
+      "Bela Crvka",
+      "Golubac",
+      "Donji Milanovac",
+      "Kladovo",
+      "Prahovo",
+      "Negotin",
+      "Bregovo",
+      "Vidin",
+      "Orsoya",
+      "Kozloduy",
+      "Oryahovo",
+      "Ostrov",
+      "Dabovan",
+      "Nikopol",
+      "Bjala Voda",
+      "Svishtov",
+      "Dve Mogili",
+      "Ruse",
+      "Baziaș",
+      "Coronini",
+      "Svinita",
+      "Drobeta",
+      "Turnu Severin",
+      "Balta Verde",
+      "Garla Mare",
+      "Calafat",
+      "Piscu Vechi",
+      "Bistret",
+      "Bechet",
+      "Garcov",
+      "Turnu Măgurele",
+      "Lisa",
+      "Bujoru",
+      "Giurgiu",
+      "Tutrakan",
+      "Srebarna",
+      "Silistra",
+      "Oltenița",
+      "Dorobanțu",
+      "Oltina",
+      "Cernavodă",
+      "Crucea",
+      "Nuntași",
+      "Vadu",
+      "Constanta, Romania"
+    ]
   },
   "features": [
     {
@@ -18,7 +201,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.295,
         "elevation_gain": 118.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Saint",
+          "Brevin",
+          "les",
+          "Pins",
+          "Le Pellerin"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -1974,7 +2164,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.919,
         "elevation_gain": 195.9,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Le Pellerin",
+          "Nantes"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -3435,7 +3629,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.429,
         "elevation_gain": 97.4,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Nantes",
+          "Mauves",
+          "sur",
+          "Loire"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -4461,7 +4661,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 12.227,
         "elevation_gain": 56.1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Mauves",
+          "sur",
+          "Loire",
+          "Champtoceaux"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -5097,7 +5303,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.788,
         "elevation_gain": 126.8,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Champtoceaux",
+          "Saint",
+          "Florent",
+          "le",
+          "Vieil"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -6488,7 +6701,16 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.711,
         "elevation_gain": 76.3,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Saint",
+          "Florent",
+          "le",
+          "Vieil",
+          "Chalonnes",
+          "sur",
+          "Loire"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -7344,7 +7566,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.307,
         "elevation_gain": 196.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Chalonnes",
+          "sur",
+          "Loire",
+          "Angers"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -8470,7 +8698,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.655,
         "elevation_gain": 125.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Angers",
+          "Saint",
+          "Rémy",
+          "la",
+          "Varenne"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -9451,7 +9686,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.944,
         "elevation_gain": 366.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Saint",
+          "Rémy",
+          "la",
+          "Varenne",
+          "Saumur"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -10892,7 +11134,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.372,
         "elevation_gain": 287.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Saumur",
+          "Candes",
+          "Saint",
+          "Martin"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -12138,7 +12386,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.699,
         "elevation_gain": 126.9,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Candes",
+          "Saint",
+          "Martin",
+          "Rigny",
+          "Ussé"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -13574,7 +13829,12 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.49,
         "elevation_gain": 101.9,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Rigny",
+          "Ussé",
+          "Villandry"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -14935,7 +15195,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.812,
         "elevation_gain": 150.9,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Villandry",
+          "Tours"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -16556,7 +16820,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.939,
         "elevation_gain": 236.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Tours",
+          "Amboise"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -18462,7 +18730,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.556,
         "elevation_gain": 223.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Amboise",
+          "Chaumont",
+          "sur",
+          "Loire"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -20103,7 +20377,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.384,
         "elevation_gain": 154.2,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Chaumont",
+          "sur",
+          "Loire",
+          "Blois"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -21424,7 +21704,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.635,
         "elevation_gain": 104.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Blois",
+          "Muides",
+          "sur",
+          "Loire"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -22125,7 +22411,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.831,
         "elevation_gain": 80.1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Muides",
+          "sur",
+          "Loire",
+          "Beaugency"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -22986,7 +23278,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.194,
         "elevation_gain": 154.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Beaugency",
+          "Orleans"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -24747,7 +25043,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.111,
         "elevation_gain": 115.0,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Orleans",
+          "Jargeau"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -26023,7 +26323,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.177,
         "elevation_gain": 205.6,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Jargeau",
+          "Sully",
+          "sur",
+          "Loire"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -27724,7 +28030,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.529,
         "elevation_gain": 260.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Sully",
+          "sur",
+          "Loire",
+          "Briare"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -29665,7 +29977,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.287,
         "elevation_gain": 202.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Briare",
+          "Sancerre"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -31506,7 +31822,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 10.951,
         "elevation_gain": 39.8,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Sancerre",
+          "Pouilly",
+          "sur",
+          "Loire"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -32172,7 +32494,16 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.234,
         "elevation_gain": 46.1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Pouilly",
+          "sur",
+          "Loire",
+          "La",
+          "Charité",
+          "Sur",
+          "Loire"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -32693,7 +33024,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.209,
         "elevation_gain": 104.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "La",
+          "Charité",
+          "Sur",
+          "Loire",
+          "Cuffy"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -33479,7 +33817,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.309,
         "elevation_gain": 56.0,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Cuffy",
+          "Nevers"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -34295,7 +34637,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.932,
         "elevation_gain": 164.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Nevers",
+          "Decize"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -35816,7 +36162,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.317,
         "elevation_gain": 146.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Decize",
+          "Cronat"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -37257,7 +37607,12 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.605,
         "elevation_gain": 189.0,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Cronat",
+          "Bourbon",
+          "Lancy"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -38123,7 +38478,12 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.609,
         "elevation_gain": 121.3,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Bourbon",
+          "Lancy",
+          "Digoin"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -39234,7 +39594,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.651,
         "elevation_gain": 57.3,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Digoin",
+          "Paray",
+          "le",
+          "Monial"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -40045,7 +40411,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.2,
         "elevation_gain": 190.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Paray",
+          "le",
+          "Monial",
+          "Palinges"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -40931,7 +41303,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.976,
         "elevation_gain": 321.2,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Palinges",
+          "Montceau",
+          "les",
+          "Mines"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -42517,7 +42895,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 14.235,
         "elevation_gain": 115.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Montceau",
+          "les",
+          "Mines",
+          "Montchanin"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -43493,7 +43877,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.674,
         "elevation_gain": 82.0,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Montchanin",
+          "St",
+          "Léger",
+          "sur",
+          "Dheune"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -44699,7 +45090,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 8.167,
         "elevation_gain": 19.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "St",
+          "Léger",
+          "sur",
+          "Dheune",
+          "Santenay"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -45110,7 +45508,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.181,
         "elevation_gain": 106.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Santenay",
+          "Chalon",
+          "sur",
+          "Saône"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -46561,7 +46965,16 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.928,
         "elevation_gain": 136.2,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Chalon",
+          "sur",
+          "Saône",
+          "Verdun",
+          "sur",
+          "le",
+          "Doubs"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -48077,7 +48490,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.193,
         "elevation_gain": 61.1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Verdun",
+          "sur",
+          "le",
+          "Doubs",
+          "Seurre"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -49008,7 +49428,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.779,
         "elevation_gain": 95.8,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Seurre",
+          "Saint",
+          "Jean",
+          "de",
+          "Losne"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -50194,7 +50621,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.495,
         "elevation_gain": 136.9,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Saint",
+          "Jean",
+          "de",
+          "Losne",
+          "Dole"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -51255,7 +51689,12 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.684,
         "elevation_gain": 171.2,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Dole",
+          "Saint",
+          "Vit"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -52486,7 +52925,12 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.322,
         "elevation_gain": 386.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Saint",
+          "Vit",
+          "Besançon"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -53662,7 +54106,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.294,
         "elevation_gain": 150.1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Besançon",
+          "Deluz"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -54308,7 +54756,13 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.735,
         "elevation_gain": 397.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Deluz",
+          "Baume",
+          "les",
+          "Dames"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -54874,7 +55328,16 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.943,
         "elevation_gain": 494.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Baume",
+          "les",
+          "Dames",
+          "L'Isle",
+          "sur",
+          "le",
+          "Doubs"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -56120,7 +56583,14 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.954,
         "elevation_gain": 149.1,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "L'Isle",
+          "sur",
+          "le",
+          "Doubs",
+          "Montbéliard"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -56961,7 +57431,12 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.367,
         "elevation_gain": 140.4,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Montbéliard",
+          "Montreux",
+          "Jeune"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -57967,7 +58442,12 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.815,
         "elevation_gain": 75.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Montreux",
+          "Jeune",
+          "Mulhouse"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -59293,7 +59773,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.169,
         "elevation_gain": 180.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Mulhouse",
+          "Basel"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -61179,7 +61663,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.111,
         "elevation_gain": 408.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Basel",
+          "Laufenburg (Baden)"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -63735,7 +64223,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.553,
         "elevation_gain": 740.4,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Laufenburg (Baden)",
+          "Schaffhausen"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -67041,7 +67533,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.041,
         "elevation_gain": 238.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Basel",
+          "Rheinfelden"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -68672,7 +69168,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.785,
         "elevation_gain": 674.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Rheinfelden",
+          "Bad Zurzach"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -72213,7 +72713,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.506,
         "elevation_gain": 877.9,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Bad Zurzach",
+          "Schaffhausen"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -75899,7 +76403,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.055,
         "elevation_gain": 228.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Schaffhausen",
+          "Stein am Rhein"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -77200,7 +77708,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.306,
         "elevation_gain": 230.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Stein am Rhein",
+          "Radolfzell"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -78706,7 +79218,11 @@
         "description": "DEVELOPED",
         "distance_km": 37.153,
         "elevation_gain": 779.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Radolfzell",
+          "Tuttlingen"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -81097,7 +81613,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.59,
         "elevation_gain": 1043.9,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Tuttlingen",
+          "Sigmaringen"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -85383,7 +85903,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.695,
         "elevation_gain": 208.2,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Sigmaringen",
+          "Riedlingen"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -87374,7 +87898,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.654,
         "elevation_gain": 427.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Riedlingen",
+          "Ehingen (Donau)"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -89750,7 +90278,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.751,
         "elevation_gain": 163.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Ehingen (Donau)",
+          "Ulm"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -91716,7 +92248,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.49,
         "elevation_gain": 182.0,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Ulm",
+          "Lauingen (Donau)"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -93967,7 +94503,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.356,
         "elevation_gain": 187.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Lauingen (Donau)",
+          "Donauwörth"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -96698,7 +97238,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.55,
         "elevation_gain": 501.5,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Donauwörth",
+          "Ingolstadt"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -100594,7 +101138,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.537,
         "elevation_gain": 469.2,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Ingolstadt",
+          "Kelheim"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -104455,7 +105003,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.024,
         "elevation_gain": 362.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Kelheim",
+          "Ratisbon"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -106851,7 +107403,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.212,
         "elevation_gain": 191.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Ratisbon",
+          "Straubing"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -109397,7 +109953,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.612,
         "elevation_gain": 163.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Straubing",
+          "Deggendorf"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -111088,7 +111648,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.472,
         "elevation_gain": 199.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Deggendorf",
+          "Vilshofen an der Donau"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -113194,7 +113758,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.919,
         "elevation_gain": 229.3,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Vilshofen an der Donau",
+          "Passau"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -114620,7 +115188,11 @@
         "description": "DEVELOPED",
         "distance_km": 50.444,
         "elevation_gain": 609.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Passau, Germany",
+          "Obermühl an der Donau"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -117051,7 +117623,11 @@
         "description": "DEVELOPED",
         "distance_km": 46.224,
         "elevation_gain": 710.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Obermühl an der Donau",
+          "Linz"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -119817,7 +120393,11 @@
         "description": "DEVELOPED",
         "distance_km": 15.377,
         "elevation_gain": 37.7,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Linz",
+          "St. Georgen an der Gusen"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -120258,7 +120838,11 @@
         "description": "DEVELOPED",
         "distance_km": 39.863,
         "elevation_gain": 218.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "St. Georgen an der Gusen",
+          "Dornach bei Grein"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -122479,7 +123063,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.568,
         "elevation_gain": 757.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Dornach bei Grein",
+          "Emmersdorf an der Donau"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -125010,7 +125598,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.885,
         "elevation_gain": 691.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Emmersdorf an der Donau",
+          "Altenwörth"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -127826,7 +128418,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.382,
         "elevation_gain": 272.3,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Altenwörth",
+          "Vienna"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -130507,7 +131103,11 @@
         "description": "DEVELOPED",
         "distance_km": 45.806,
         "elevation_gain": 733.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Passau",
+          "Inzell"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -132858,7 +133458,11 @@
         "description": "DEVELOPED",
         "distance_km": 49.055,
         "elevation_gain": 731.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Inzell",
+          "Linz"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -135084,7 +135688,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.505,
         "elevation_gain": 202.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "St. Georgen an der Gusen",
+          "Ardagger Markt"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -137480,7 +138088,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.388,
         "elevation_gain": 618.3,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Ardagger Markt",
+          "Melk"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -139986,7 +140598,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.87,
         "elevation_gain": 370.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Melk",
+          "Altenwörth"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -141422,7 +142038,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.86,
         "elevation_gain": 125.6,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Tulln",
+          "Vienna"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -141948,7 +142568,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.491,
         "elevation_gain": 230.3,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Vienna",
+          "Hainburg an der Donau"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -143509,7 +144133,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.958,
         "elevation_gain": 113.3,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Hainburg an der Donau",
+          "Bratislava, Slovakia"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -144295,7 +144923,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.671,
         "elevation_gain": 199.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Bratislava, Slovakia",
+          "Ňárad"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -146146,7 +146778,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.233,
         "elevation_gain": 154.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Ňárad",
+          "Komarno"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -148102,7 +148738,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.545,
         "elevation_gain": 162.3,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Komarno",
+          "Esztergom"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -150053,7 +150693,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.702,
         "elevation_gain": 279.6,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Vienna",
+          "Petronell"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -151794,7 +152438,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.23,
         "elevation_gain": 134.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Petronell",
+          "Bratislava, Slovakia"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -153000,7 +153648,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.765,
         "elevation_gain": 54.7,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Bratislava, Slovakia",
+          "Rajka"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -153736,7 +154388,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.2,
         "elevation_gain": 187.7,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Rajka",
+          "Győr"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -156372,7 +157028,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.07,
         "elevation_gain": 135.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Győr",
+          "Komárom"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -157933,7 +158593,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.887,
         "elevation_gain": 225.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Komárom",
+          "Esztergom"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -159869,7 +160533,11 @@
         "description": "DEVELOPED",
         "distance_km": 20.354,
         "elevation_gain": 163.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Esztergom",
+          "Szob"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -161135,7 +161803,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.1,
         "elevation_gain": 259.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Szob",
+          "Vác"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -163021,7 +163693,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.123,
         "elevation_gain": 200.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Vác",
+          "Budapest"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -164842,7 +165518,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.513,
         "elevation_gain": 116.0,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Vác",
+          "Dunakeszi"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -166083,7 +166763,11 @@
         "description": "DEVELOPED",
         "distance_km": 15.705,
         "elevation_gain": 110.3,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Dunakeszi",
+          "Budapest"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -167084,7 +167768,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.833,
         "elevation_gain": 183.9,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Budapest",
+          "Dömsöd"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -169130,7 +169818,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.895,
         "elevation_gain": 147.6,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Dömsöd",
+          "Harta"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -170851,7 +171543,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 68.788,
         "elevation_gain": 178.4,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Harta",
+          "Baja"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -173242,7 +173938,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.633,
         "elevation_gain": 156.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Baja",
+          "Mohács"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -174083,7 +174783,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.815,
         "elevation_gain": 11.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Mohács",
+          "Hercegszántó/Bački Breg"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -174204,7 +174908,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.79,
         "elevation_gain": 81.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Hercegszántó/Bački Breg",
+          "Sombor"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -175165,7 +175873,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.889,
         "elevation_gain": 56.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Sombor",
+          "Apatin"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -175981,7 +176693,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.035,
         "elevation_gain": 83.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Apatin",
+          "Karavukovo"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -176967,7 +177683,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 79.854,
         "elevation_gain": 121.0,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Karavukovo",
+          "Backa Palanka"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -178268,7 +178988,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.236,
         "elevation_gain": 70.3,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Mohács",
+          "Draž"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -179069,7 +179793,11 @@
         "description": "DEVELOPED",
         "distance_km": 52.121,
         "elevation_gain": 188.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Draž",
+          "Osijek"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -179810,7 +180538,11 @@
         "description": "DEVELOPED",
         "distance_km": 46.154,
         "elevation_gain": 154.3,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Osijek",
+          "Vukovar"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -181386,7 +182118,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.4,
         "elevation_gain": 204.0,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Vukovar",
+          "Backa Palanka"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -181892,7 +182628,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.806,
         "elevation_gain": 126.0,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Backa Palanka",
+          "Novi Sad"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -183003,7 +183743,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 95.474,
         "elevation_gain": 599.3,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Novi Sad",
+          "Belgrade"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -184869,7 +185613,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.426,
         "elevation_gain": 144.7,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Belgrade",
+          "Smederevo"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -186510,7 +187258,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.322,
         "elevation_gain": 125.6,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Smederevo",
+          "Bela Crvka"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -187526,7 +188278,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.09,
         "elevation_gain": 406.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Bela Crvka",
+          "Golubac"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -190027,7 +190783,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.828,
         "elevation_gain": 1386.1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Golubac",
+          "Donji Milanovac"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -192468,7 +193228,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.836,
         "elevation_gain": 1318.6,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Donji Milanovac",
+          "Kladovo"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -194294,7 +195058,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.407,
         "elevation_gain": 592.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Kladovo",
+          "Prahovo"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -196845,7 +197613,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 8.198,
         "elevation_gain": 12.6,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Prahovo",
+          "Negotin"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -197001,7 +197773,11 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.836,
         "elevation_gain": 224.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Negotin",
+          "Bregovo"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -197907,7 +198683,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.747,
         "elevation_gain": 266.2,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Bregovo",
+          "Vidin"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -199553,7 +200333,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.847,
         "elevation_gain": 226.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Vidin",
+          "Orsoya"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -200799,7 +201583,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 56.757,
         "elevation_gain": 411.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Orsoya",
+          "Kozloduy"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -202040,7 +202828,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 32.704,
         "elevation_gain": 179.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Kozloduy",
+          "Oryahovo"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -203041,7 +203833,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 19.902,
         "elevation_gain": 150.5,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Oryahovo",
+          "Ostrov"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -203767,7 +204563,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.839,
         "elevation_gain": 302.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Ostrov",
+          "Dabovan"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -204808,7 +205608,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.365,
         "elevation_gain": 190.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Dabovan",
+          "Nikopol"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -205754,7 +206558,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.898,
         "elevation_gain": 227.2,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Nikopol",
+          "Bjala Voda"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -206395,7 +207203,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.753,
         "elevation_gain": 128.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Bjala Voda",
+          "Svishtov"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -207021,7 +207833,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.3,
         "elevation_gain": 725.0,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Svishtov",
+          "Dve Mogili"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -209087,7 +209903,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 35.709,
         "elevation_gain": 445.0,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Dve Mogili",
+          "Ruse"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -210103,7 +210923,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.836,
         "elevation_gain": 214.0,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Bela Crvka",
+          "Baziaș"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -210354,7 +211178,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.335,
         "elevation_gain": 140.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Baziaș",
+          "Coronini"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -210555,7 +211383,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 48.844,
         "elevation_gain": 349.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Coronini",
+          "Svinita"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -210946,7 +211778,12 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 74.115,
         "elevation_gain": 793.1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Svinita",
+          "Drobeta",
+          "Turnu Severin"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -211547,7 +212384,12 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 65.737,
         "elevation_gain": 187.1,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Drobeta",
+          "Turnu Severin",
+          "Balta Verde"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -211903,7 +212745,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 3.13,
         "elevation_gain": 24.3,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Balta Verde",
+          "Prahovo"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -211954,7 +212800,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 32.878,
         "elevation_gain": 231.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Balta Verde",
+          "Garla Mare"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -213005,7 +213855,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.914,
         "elevation_gain": 181.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Garla Mare",
+          "Calafat"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -215121,7 +215975,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 51.895,
         "elevation_gain": 226.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Calafat",
+          "Piscu Vechi"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -218632,7 +219490,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.65,
         "elevation_gain": 98.5,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Piscu Vechi",
+          "Bistret"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -220243,7 +221105,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.318,
         "elevation_gain": 154.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Bistret",
+          "Bechet"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -223089,7 +223955,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.775,
         "elevation_gain": 130.2,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Bechet",
+          "Garcov"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -224365,7 +225235,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 21.253,
         "elevation_gain": 33.3,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Garcov",
+          "Turnu Măgurele"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -224646,7 +225520,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.296,
         "elevation_gain": 87.0,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Turnu Măgurele",
+          "Lisa"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -225237,7 +226115,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.768,
         "elevation_gain": 115.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Lisa",
+          "Bujoru"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -225688,7 +226570,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.898,
         "elevation_gain": 68.1,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Bujoru",
+          "Giurgiu"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -226129,7 +227015,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 65.235,
         "elevation_gain": 176.0,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Ruse",
+          "Tutrakan"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -226990,7 +227880,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 51.31,
         "elevation_gain": 671.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Tutrakan",
+          "Srebarna"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -228276,7 +229170,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 20.741,
         "elevation_gain": 137.3,
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "cities": [
+          "Srebarna",
+          "Silistra"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -228767,7 +229665,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 67.465,
         "elevation_gain": 95.8,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Giurgiu",
+          "Oltenița"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -229563,7 +230465,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.361,
         "elevation_gain": 55.8,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Oltenița",
+          "Dorobanțu"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -230059,7 +230965,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.794,
         "elevation_gain": 39.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Dorobanțu",
+          "Silistra"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -230380,7 +231290,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 48.938,
         "elevation_gain": 697.4,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Silistra",
+          "Oltina"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -232026,7 +232940,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 53.95,
         "elevation_gain": 876.7,
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "cities": [
+          "Oltina",
+          "Cernavodă"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -234107,7 +235025,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 53.049,
         "elevation_gain": 682.0,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Cernavodă",
+          "Crucea"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -235363,7 +236285,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.754,
         "elevation_gain": 388.2,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Crucea",
+          "Nuntași"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -236284,7 +237210,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.905,
         "elevation_gain": 87.9,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Nuntași",
+          "Vadu"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -236780,7 +237710,11 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.835,
         "elevation_gain": 167.7,
-        "difficulty": "moderate"
+        "difficulty": "moderate",
+        "cities": [
+          "Vadu",
+          "Constanta, Romania"
+        ]
       },
       "geometry": {
         "type": "LineString",

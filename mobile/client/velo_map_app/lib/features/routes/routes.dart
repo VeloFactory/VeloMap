@@ -3,8 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geolocator/geolocator.dart' hide Position;
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:velo_map_app/features/routes/domain/models/route_model.dart';
+import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
+import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_bloc.dart';
+import 'package:velo_map_app/features/routes/presentation/bloc/routes_event.dart';
+import 'package:velo_map_app/features/routes/presentation/bloc/routes_state.dart';
 import 'package:velo_map_app/features/routes/presentation/widgets/route_list_tile.dart';
 
 class Routes extends StatefulWidget {
@@ -73,13 +76,11 @@ class _RoutesState extends State<Routes> {
     _mapboxMap = mapboxMap;
 
     // Disable scale bar
-    await mapboxMap.scaleBar.updateSettings(
-      ScaleBarSettings(enabled: false),
-    );
+    await mapboxMap.scaleBar.updateSettings(ScaleBarSettings(enabled: false));
 
     // Create polyline annotation manager for drawing routes
-    _polylineManager =
-        await mapboxMap.annotations.createPolylineAnnotationManager();
+    _polylineManager = await mapboxMap.annotations
+        .createPolylineAnnotationManager();
 
     // Enable user location if permission already granted
     if (_locationPermissionGranted) {
@@ -87,7 +88,7 @@ class _RoutesState extends State<Routes> {
     }
   }
 
-  Future<void> _drawRoute(RouteModel route) async {
+  Future<void> _drawRoute(RouteEntity route) async {
     if (_polylineManager == null || _mapboxMap == null) return;
 
     // Clear existing annotations
@@ -112,7 +113,7 @@ class _RoutesState extends State<Routes> {
     await _fitCameraToBounds(route);
   }
 
-  Future<void> _drawStage(RouteStage stage) async {
+  Future<void> _drawStage(RouteStageEntity stage) async {
     if (_polylineManager == null || _mapboxMap == null) return;
 
     // Clear existing annotations
@@ -137,7 +138,7 @@ class _RoutesState extends State<Routes> {
     await _fitCameraToStageBounds(stage);
   }
 
-  Future<void> _fitCameraToStageBounds(RouteStage stage) async {
+  Future<void> _fitCameraToStageBounds(RouteStageEntity stage) async {
     if (_mapboxMap == null || stage.coordinates.isEmpty) return;
 
     // Calculate bounding box for stage
@@ -162,20 +163,22 @@ class _RoutesState extends State<Routes> {
         northeast: Point(coordinates: Position(maxLng, maxLat)),
         infiniteBounds: false,
       ),
-      MbxEdgeInsets(top: padding, left: padding, bottom: padding + 200, right: padding),
+      MbxEdgeInsets(
+        top: padding,
+        left: padding,
+        bottom: padding + 200,
+        right: padding,
+      ),
       null,
       null,
       null,
       null,
     );
 
-    await _mapboxMap!.flyTo(
-      cameraOptions,
-      MapAnimationOptions(duration: 800),
-    );
+    await _mapboxMap!.flyTo(cameraOptions, MapAnimationOptions(duration: 800));
   }
 
-  Future<void> _fitCameraToBounds(RouteModel route) async {
+  Future<void> _fitCameraToBounds(RouteEntity route) async {
     if (_mapboxMap == null) return;
 
     final bbox = route.boundingBox;
@@ -188,17 +191,19 @@ class _RoutesState extends State<Routes> {
         northeast: Point(coordinates: Position(bbox[2], bbox[3])),
         infiniteBounds: false,
       ),
-      MbxEdgeInsets(top: padding, left: padding, bottom: padding + 200, right: padding),
+      MbxEdgeInsets(
+        top: padding,
+        left: padding,
+        bottom: padding + 200,
+        right: padding,
+      ),
       null,
       null,
       null,
       null,
     );
 
-    await _mapboxMap!.flyTo(
-      cameraOptions,
-      MapAnimationOptions(duration: 800),
-    );
+    await _mapboxMap!.flyTo(cameraOptions, MapAnimationOptions(duration: 800));
   }
 
   Future<void> _clearRoute() async {
@@ -208,10 +213,7 @@ class _RoutesState extends State<Routes> {
     // Reset camera to default
     if (_mapboxMap != null) {
       await _mapboxMap!.flyTo(
-        CameraOptions(
-          center: _defaultCenter,
-          zoom: _defaultZoom,
-        ),
+        CameraOptions(center: _defaultCenter, zoom: _defaultZoom),
         MapAnimationOptions(duration: 500),
       );
     }
@@ -255,10 +257,7 @@ class _RoutesState extends State<Routes> {
       await _mapboxMap!.flyTo(
         CameraOptions(
           center: Point(
-            coordinates: Position(
-              position.longitude,
-              position.latitude,
-            ),
+            coordinates: Position(position.longitude, position.latitude),
           ),
           zoom: 15.0,
         ),
@@ -379,9 +378,7 @@ class _RoutesState extends State<Routes> {
 
               // Loading indicator
               if (state.isLoading)
-                const Center(
-                  child: CircularProgressIndicator(),
-                ),
+                const Center(child: CircularProgressIndicator()),
 
               // Bottom sheet with routes list
               DraggableScrollableSheet(
@@ -437,8 +434,8 @@ class _RoutesState extends State<Routes> {
             child: state.error != null
                 ? _buildErrorView(state.error!, colorScheme)
                 : state.routes.isEmpty && !state.isLoading
-                    ? _buildEmptyView(colorScheme)
-                    : _buildRoutesList(scrollController, state),
+                ? _buildEmptyView(colorScheme)
+                : _buildRoutesList(scrollController, state),
           ),
         ],
       ),
@@ -495,26 +492,22 @@ class _RoutesState extends State<Routes> {
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Row(
               children: [
-                Icon(
-                  Icons.route_rounded,
-                  color: colorScheme.primary,
-                  size: 24,
-                ),
+                Icon(Icons.route_rounded, color: colorScheme.primary, size: 24),
                 const SizedBox(width: 10),
                 Text(
                   'EuroVelo Routes',
                   style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                        fontWeight: FontWeight.w600,
-                        color: colorScheme.onSurface,
-                      ),
+                    fontWeight: FontWeight.w600,
+                    color: colorScheme.onSurface,
+                  ),
                 ),
                 const Spacer(),
                 if (state.selectedRoute != null)
                   TextButton.icon(
                     onPressed: () {
                       context.read<RoutesBloc>().add(
-                            const RoutesEvent.clearSelection(),
-                          );
+                        const RoutesEvent.clearSelection(),
+                      );
                     },
                     icon: Icon(
                       Icons.close_rounded,
@@ -535,7 +528,10 @@ class _RoutesState extends State<Routes> {
     );
   }
 
-  Widget _buildRoutesList(ScrollController scrollController, RoutesState state) {
+  Widget _buildRoutesList(
+    ScrollController scrollController,
+    RoutesState state,
+  ) {
     return ListView.builder(
       controller: scrollController,
       padding: const EdgeInsets.only(top: 8, bottom: 24),
@@ -550,7 +546,9 @@ class _RoutesState extends State<Routes> {
           selectedStage: isSelected ? state.selectedStage : null,
           onTap: () {
             if (isSelected) {
-              context.read<RoutesBloc>().add(const RoutesEvent.clearSelection());
+              context.read<RoutesBloc>().add(
+                const RoutesEvent.clearSelection(),
+              );
             } else {
               context.read<RoutesBloc>().add(RoutesEvent.selectRoute(route));
             }
@@ -559,7 +557,9 @@ class _RoutesState extends State<Routes> {
             context.read<RoutesBloc>().add(RoutesEvent.selectStage(stage));
           },
           onStageClear: () {
-            context.read<RoutesBloc>().add(const RoutesEvent.clearStageSelection());
+            context.read<RoutesBloc>().add(
+              const RoutesEvent.clearStageSelection(),
+            );
           },
         );
       },
@@ -587,23 +587,23 @@ class _RoutesState extends State<Routes> {
                 color: colorScheme.onSurface,
               ),
             ),
-            const SizedBox(height: 8),
-            Text(
-              error,
-              style: TextStyle(
-                fontSize: 14,
-                color: colorScheme.onSurfaceVariant,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 24),
-            FilledButton.icon(
-              onPressed: () {
-                context.read<RoutesBloc>().add(const RoutesEvent.load());
-              },
-              icon: const Icon(Icons.refresh_rounded),
-              label: const Text('Retry'),
-            ),
+            // const SizedBox(height: 8),
+            // Text(
+            //   error,
+            //   style: TextStyle(
+            //     fontSize: 14,
+            //     color: colorScheme.onSurfaceVariant,
+            //   ),
+            //   textAlign: TextAlign.center,
+            // ),
+            // const SizedBox(height: 24),
+            // FilledButton.icon(
+            //   onPressed: () {
+            //     context.read<RoutesBloc>().add(const RoutesEvent.load());
+            //   },
+            //   icon: const Icon(Icons.refresh_rounded),
+            //   label: const Text('Retry'),
+            // ),
           ],
         ),
       ),
@@ -617,11 +617,7 @@ class _RoutesState extends State<Routes> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(
-              Icons.map_outlined,
-              size: 48,
-              color: colorScheme.outline,
-            ),
+            Icon(Icons.map_outlined, size: 48, color: colorScheme.outline),
             const SizedBox(height: 16),
             Text(
               'No routes available',

@@ -3,8 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 import 'package:velo_map_app/app/router.dart';
 import 'package:velo_map_app/features/routes/data/repositories/route_repository_impl.dart';
-import 'package:velo_map_app/features/routes/domain/repositories/route_repository.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_bloc.dart';
+import 'package:velo_map_app/features/routes/presentation/bloc/routes_event.dart';
 
 class App extends StatefulWidget {
   const App({super.key});
@@ -31,18 +31,16 @@ class AppState extends State<App> {
         // Repository provider - swap this to switch data sources
         // Stage 1: Local data source (GeoJSON assets)
         // Stage 2: Replace with remote API implementation
-        Provider<RouteRepository>(
-          create: (_) => RouteRepositoryImpl(),
-        ),
+        Provider<RouteRepository>(create: (_) => RouteRepositoryImpl()),
       ],
       child: Builder(
         builder: (context) {
           return MultiBlocProvider(
             providers: [
               BlocProvider<RoutesBloc>(
-                create: (context) => RoutesBloc(
-                  repository: context.read<RouteRepository>(),
-                )..add(const RoutesEvent.load()),
+                create: (context) =>
+                    RoutesBloc(repository: context.read<RouteRepository>())
+                      ..add(const RoutesEvent.load()),
               ),
             ],
             child: MaterialApp.router(
@@ -78,9 +76,7 @@ class AppState extends State<App> {
       ),
       cardTheme: CardThemeData(
         elevation: 1,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
       filledButtonTheme: FilledButtonThemeData(
         style: FilledButton.styleFrom(
@@ -92,13 +88,11 @@ class AppState extends State<App> {
       ),
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(8),
-          ),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
         ),
       ),
       dividerTheme: DividerThemeData(
-        color: colorScheme.outlineVariant.withOpacity(0.5),
+        color: colorScheme.outlineVariant.withAlpha(128),
         thickness: 1,
       ),
     );
@@ -123,9 +117,7 @@ class AppState extends State<App> {
       ),
       cardTheme: CardThemeData(
         elevation: 2,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
       filledButtonTheme: FilledButtonThemeData(
         style: FilledButton.styleFrom(
@@ -137,13 +129,11 @@ class AppState extends State<App> {
       ),
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(8),
-          ),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
         ),
       ),
       dividerTheme: DividerThemeData(
-        color: colorScheme.outlineVariant.withOpacity(0.3),
+        color: colorScheme.outlineVariant.withAlpha(128),
         thickness: 1,
       ),
     );

@@ -1,7 +1,9 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
+import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
 
-part 'route_model.freezed.dart';
-part 'route_model.g.dart';
+part 'route_dto.freezed.dart';
+part 'route_dto.g.dart';
 
 /// Model for a route stage (segment)
 @freezed
@@ -26,13 +28,25 @@ sealed class RouteStage with _$RouteStage {
 
   /// Returns elevation as formatted string (e.g., "245 m")
   String get formattedElevation => '${elevationGain.toStringAsFixed(0)} m';
+
+  RouteStageEntity toEntity() {
+    return RouteStageEntity(
+      stage: stage,
+      name: name,
+      description: description,
+      distanceKm: distanceKm,
+      elevationGain: elevationGain,
+      difficulty: difficulty,
+      coordinates: coordinates,
+    );
+  }
 }
 
 @freezed
-sealed class RouteModel with _$RouteModel {
-  const RouteModel._();
+sealed class RouteDto with _$RouteDto {
+  const RouteDto._();
 
-  const factory RouteModel({
+  const factory RouteDto({
     required String id,
     required String name,
     required String description,
@@ -42,13 +56,13 @@ sealed class RouteModel with _$RouteModel {
     required int routeNumber,
     required List<List<double>> coordinates,
     @Default([]) List<RouteStage> stages,
-  }) = _RouteModel;
+  }) = _RouteDto;
 
-  factory RouteModel.fromJson(Map<String, dynamic> json) =>
-      _$RouteModelFromJson(json);
+  factory RouteDto.fromJson(Map<String, dynamic> json) =>
+      _$RouteDtoFromJson(json);
 
   /// Factory to parse a GeoJSON Feature or FeatureCollection into RouteModel
-  factory RouteModel.fromGeoJson(Map<String, dynamic> geoJson) {
+  factory RouteDto.fromGeoJson(Map<String, dynamic> geoJson) {
     final type = geoJson['type'] as String;
 
     // Handle FeatureCollection (multi-stage routes)
@@ -61,21 +75,23 @@ sealed class RouteModel with _$RouteModel {
   }
 
   /// Parse a single Feature GeoJSON
-  static RouteModel _fromSingleFeature(Map<String, dynamic> geoJson) {
+  static RouteDto _fromSingleFeature(Map<String, dynamic> geoJson) {
     final properties = geoJson['properties'] as Map<String, dynamic>;
     final geometry = geoJson['geometry'] as Map<String, dynamic>;
     final rawCoords = geometry['coordinates'] as List<dynamic>;
 
     final coordinates = rawCoords
-        .map((coord) => (coord as List<dynamic>)
-            .map((c) => (c as num).toDouble())
-            .toList())
+        .map(
+          (coord) => (coord as List<dynamic>)
+              .map((c) => (c as num).toDouble())
+              .toList(),
+        )
         .toList();
 
     // Calculate elevation gain from coordinates (if elevation data exists)
     final elevationGain = _calculateElevationGain(coordinates);
 
-    return RouteModel(
+    return RouteDto(
       id: properties['id'] as String,
       name: properties['name'] as String,
       description: properties['description'] as String,
@@ -88,14 +104,14 @@ sealed class RouteModel with _$RouteModel {
   }
 
   /// Parse a FeatureCollection GeoJSON (multi-stage routes)
-  static RouteModel _fromFeatureCollection(Map<String, dynamic> geoJson) {
+  static RouteDto _fromFeatureCollection(Map<String, dynamic> geoJson) {
     final properties = geoJson['properties'] as Map<String, dynamic>;
     final features = geoJson['features'] as List<dynamic>;
 
     // Merge coordinates from all features, avoiding duplicates at stage boundaries
     final allCoordinates = <List<double>>[];
     final stages = <RouteStage>[];
-    
+
     for (int i = 0; i < features.length; i++) {
       final feature = features[i] as Map<String, dynamic>;
       final featureProps = feature['properties'] as Map<String, dynamic>;
@@ -103,34 +119,41 @@ sealed class RouteModel with _$RouteModel {
       final rawCoords = geometry['coordinates'] as List<dynamic>;
 
       final stageCoords = rawCoords
-          .map((coord) => (coord as List<dynamic>)
-              .map((c) => (c as num).toDouble())
-              .toList())
+          .map(
+            (coord) => (coord as List<dynamic>)
+                .map((c) => (c as num).toDouble())
+                .toList(),
+          )
           .toList();
 
       // Create RouteStage
-      stages.add(RouteStage(
-        stage: (featureProps['stage'] as num).toInt(),
-        name: featureProps['name'] as String,
-        description: featureProps['description'] as String,
-        distanceKm: (featureProps['distance_km'] as num).toDouble(),
-        elevationGain: (featureProps['elevation_gain'] as num).toDouble(),
-        difficulty: featureProps['difficulty'] as String,
-        coordinates: stageCoords,
-      ));
+      stages.add(
+        RouteStage(
+          stage: (featureProps['stage'] as num).toInt(),
+          name: featureProps['name'] as String,
+          description: featureProps['description'] as String,
+          distanceKm: (featureProps['distance_km'] as num).toDouble(),
+          elevationGain: (featureProps['elevation_gain'] as num).toDouble(),
+          difficulty: featureProps['difficulty'] as String,
+          coordinates: stageCoords,
+        ),
+      );
 
       // Skip first coordinate if it matches the last one from previous stage
-      final startIndex = (i > 0 && 
-          allCoordinates.isNotEmpty && 
-          _coordinatesMatch(allCoordinates.last, stageCoords.first)) ? 1 : 0;
-      
+      final startIndex =
+          (i > 0 &&
+              allCoordinates.isNotEmpty &&
+              _coordinatesMatch(allCoordinates.last, stageCoords.first))
+          ? 1
+          : 0;
+
       allCoordinates.addAll(stageCoords.sublist(startIndex));
     }
 
     // Calculate elevation gain from merged coordinates
     final elevationGain = _calculateElevationGain(allCoordinates);
 
-    return RouteModel(
+    return RouteDto(
       id: properties['id'] as String,
       name: properties['name'] as String,
       description: properties['description'] as String,
@@ -210,5 +233,19 @@ sealed class RouteModel with _$RouteModel {
     }
 
     return [minLng, minLat, maxLng, maxLat];
+  }
+
+  RouteEntity toEntity() {
+    return RouteEntity(
+      id: id,
+      name: name,
+      description: description,
+      distanceKm: distanceKm,
+      elevationGainM: elevationGainM,
+      difficulty: difficulty,
+      routeNumber: routeNumber,
+      coordinates: coordinates,
+      stages: stages.map((s) => s.toEntity()).toList(),
+    );
   }
 }

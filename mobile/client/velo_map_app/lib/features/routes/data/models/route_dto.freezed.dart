@@ -3,7 +3,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'route_model.dart';
+part of 'route_dto.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -294,22 +294,22 @@ as List<List<double>>,
 
 
 /// @nodoc
-mixin _$RouteModel {
+mixin _$RouteDto {
 
  String get id; String get name; String get description; double get distanceKm; double get elevationGainM; String get difficulty; int get routeNumber; List<List<double>> get coordinates; List<RouteStage> get stages;
-/// Create a copy of RouteModel
+/// Create a copy of RouteDto
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
 @pragma('vm:prefer-inline')
-$RouteModelCopyWith<RouteModel> get copyWith => _$RouteModelCopyWithImpl<RouteModel>(this as RouteModel, _$identity);
+$RouteDtoCopyWith<RouteDto> get copyWith => _$RouteDtoCopyWithImpl<RouteDto>(this as RouteDto, _$identity);
 
-  /// Serializes this RouteModel to a JSON map.
+  /// Serializes this RouteDto to a JSON map.
   Map<String, dynamic> toJson();
 
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is RouteModel&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.distanceKm, distanceKm) || other.distanceKm == distanceKm)&&(identical(other.elevationGainM, elevationGainM) || other.elevationGainM == elevationGainM)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&(identical(other.routeNumber, routeNumber) || other.routeNumber == routeNumber)&&const DeepCollectionEquality().equals(other.coordinates, coordinates)&&const DeepCollectionEquality().equals(other.stages, stages));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is RouteDto&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.distanceKm, distanceKm) || other.distanceKm == distanceKm)&&(identical(other.elevationGainM, elevationGainM) || other.elevationGainM == elevationGainM)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&(identical(other.routeNumber, routeNumber) || other.routeNumber == routeNumber)&&const DeepCollectionEquality().equals(other.coordinates, coordinates)&&const DeepCollectionEquality().equals(other.stages, stages));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -318,15 +318,15 @@ int get hashCode => Object.hash(runtimeType,id,name,description,distanceKm,eleva
 
 @override
 String toString() {
-  return 'RouteModel(id: $id, name: $name, description: $description, distanceKm: $distanceKm, elevationGainM: $elevationGainM, difficulty: $difficulty, routeNumber: $routeNumber, coordinates: $coordinates, stages: $stages)';
+  return 'RouteDto(id: $id, name: $name, description: $description, distanceKm: $distanceKm, elevationGainM: $elevationGainM, difficulty: $difficulty, routeNumber: $routeNumber, coordinates: $coordinates, stages: $stages)';
 }
 
 
 }
 
 /// @nodoc
-abstract mixin class $RouteModelCopyWith<$Res>  {
-  factory $RouteModelCopyWith(RouteModel value, $Res Function(RouteModel) _then) = _$RouteModelCopyWithImpl;
+abstract mixin class $RouteDtoCopyWith<$Res>  {
+  factory $RouteDtoCopyWith(RouteDto value, $Res Function(RouteDto) _then) = _$RouteDtoCopyWithImpl;
 @useResult
 $Res call({
  String id, String name, String description, double distanceKm, double elevationGainM, String difficulty, int routeNumber, List<List<double>> coordinates, List<RouteStage> stages
@@ -337,14 +337,14 @@ $Res call({
 
 }
 /// @nodoc
-class _$RouteModelCopyWithImpl<$Res>
-    implements $RouteModelCopyWith<$Res> {
-  _$RouteModelCopyWithImpl(this._self, this._then);
+class _$RouteDtoCopyWithImpl<$Res>
+    implements $RouteDtoCopyWith<$Res> {
+  _$RouteDtoCopyWithImpl(this._self, this._then);
 
-  final RouteModel _self;
-  final $Res Function(RouteModel) _then;
+  final RouteDto _self;
+  final $Res Function(RouteDto) _then;
 
-/// Create a copy of RouteModel
+/// Create a copy of RouteDto
 /// with the given fields replaced by the non-null parameter values.
 @pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? name = null,Object? description = null,Object? distanceKm = null,Object? elevationGainM = null,Object? difficulty = null,Object? routeNumber = null,Object? coordinates = null,Object? stages = null,}) {
   return _then(_self.copyWith(
@@ -364,8 +364,8 @@ as List<RouteStage>,
 }
 
 
-/// Adds pattern-matching-related methods to [RouteModel].
-extension RouteModelPatterns on RouteModel {
+/// Adds pattern-matching-related methods to [RouteDto].
+extension RouteDtoPatterns on RouteDto {
 /// A variant of `map` that fallback to returning `orElse`.
 ///
 /// It is equivalent to doing:
@@ -378,10 +378,10 @@ extension RouteModelPatterns on RouteModel {
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeMap<TResult extends Object?>(TResult Function( _RouteModel value)?  $default,{required TResult orElse(),}){
+@optionalTypeArgs TResult maybeMap<TResult extends Object?>(TResult Function( _RouteDto value)?  $default,{required TResult orElse(),}){
 final _that = this;
 switch (_that) {
-case _RouteModel() when $default != null:
+case _RouteDto() when $default != null:
 return $default(_that);case _:
   return orElse();
 
@@ -400,10 +400,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult map<TResult extends Object?>(TResult Function( _RouteModel value)  $default,){
+@optionalTypeArgs TResult map<TResult extends Object?>(TResult Function( _RouteDto value)  $default,){
 final _that = this;
 switch (_that) {
-case _RouteModel():
+case _RouteDto():
 return $default(_that);}
 }
 /// A variant of `map` that fallback to returning `null`.
@@ -418,10 +418,10 @@ return $default(_that);}
 /// }
 /// ```
 
-@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>(TResult? Function( _RouteModel value)?  $default,){
+@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>(TResult? Function( _RouteDto value)?  $default,){
 final _that = this;
 switch (_that) {
-case _RouteModel() when $default != null:
+case _RouteDto() when $default != null:
 return $default(_that);case _:
   return null;
 
@@ -441,7 +441,7 @@ return $default(_that);case _:
 
 @optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
-case _RouteModel() when $default != null:
+case _RouteDto() when $default != null:
 return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages);case _:
   return orElse();
 
@@ -462,7 +462,7 @@ return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.ele
 
 @optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages)  $default,) {final _that = this;
 switch (_that) {
-case _RouteModel():
+case _RouteDto():
 return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages);}
 }
 /// A variant of `when` that fallback to returning `null`
@@ -479,7 +479,7 @@ return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.ele
 
 @optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages)?  $default,) {final _that = this;
 switch (_that) {
-case _RouteModel() when $default != null:
+case _RouteDto() when $default != null:
 return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages);case _:
   return null;
 
@@ -491,9 +491,9 @@ return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.ele
 /// @nodoc
 @JsonSerializable()
 
-class _RouteModel extends RouteModel {
-  const _RouteModel({required this.id, required this.name, required this.description, required this.distanceKm, required this.elevationGainM, required this.difficulty, required this.routeNumber, required final  List<List<double>> coordinates, final  List<RouteStage> stages = const []}): _coordinates = coordinates,_stages = stages,super._();
-  factory _RouteModel.fromJson(Map<String, dynamic> json) => _$RouteModelFromJson(json);
+class _RouteDto extends RouteDto {
+  const _RouteDto({required this.id, required this.name, required this.description, required this.distanceKm, required this.elevationGainM, required this.difficulty, required this.routeNumber, required final  List<List<double>> coordinates, final  List<RouteStage> stages = const []}): _coordinates = coordinates,_stages = stages,super._();
+  factory _RouteDto.fromJson(Map<String, dynamic> json) => _$RouteDtoFromJson(json);
 
 @override final  String id;
 @override final  String name;
@@ -517,20 +517,20 @@ class _RouteModel extends RouteModel {
 }
 
 
-/// Create a copy of RouteModel
+/// Create a copy of RouteDto
 /// with the given fields replaced by the non-null parameter values.
 @override @JsonKey(includeFromJson: false, includeToJson: false)
 @pragma('vm:prefer-inline')
-_$RouteModelCopyWith<_RouteModel> get copyWith => __$RouteModelCopyWithImpl<_RouteModel>(this, _$identity);
+_$RouteDtoCopyWith<_RouteDto> get copyWith => __$RouteDtoCopyWithImpl<_RouteDto>(this, _$identity);
 
 @override
 Map<String, dynamic> toJson() {
-  return _$RouteModelToJson(this, );
+  return _$RouteDtoToJson(this, );
 }
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RouteModel&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.distanceKm, distanceKm) || other.distanceKm == distanceKm)&&(identical(other.elevationGainM, elevationGainM) || other.elevationGainM == elevationGainM)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&(identical(other.routeNumber, routeNumber) || other.routeNumber == routeNumber)&&const DeepCollectionEquality().equals(other._coordinates, _coordinates)&&const DeepCollectionEquality().equals(other._stages, _stages));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RouteDto&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.distanceKm, distanceKm) || other.distanceKm == distanceKm)&&(identical(other.elevationGainM, elevationGainM) || other.elevationGainM == elevationGainM)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&(identical(other.routeNumber, routeNumber) || other.routeNumber == routeNumber)&&const DeepCollectionEquality().equals(other._coordinates, _coordinates)&&const DeepCollectionEquality().equals(other._stages, _stages));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -539,15 +539,15 @@ int get hashCode => Object.hash(runtimeType,id,name,description,distanceKm,eleva
 
 @override
 String toString() {
-  return 'RouteModel(id: $id, name: $name, description: $description, distanceKm: $distanceKm, elevationGainM: $elevationGainM, difficulty: $difficulty, routeNumber: $routeNumber, coordinates: $coordinates, stages: $stages)';
+  return 'RouteDto(id: $id, name: $name, description: $description, distanceKm: $distanceKm, elevationGainM: $elevationGainM, difficulty: $difficulty, routeNumber: $routeNumber, coordinates: $coordinates, stages: $stages)';
 }
 
 
 }
 
 /// @nodoc
-abstract mixin class _$RouteModelCopyWith<$Res> implements $RouteModelCopyWith<$Res> {
-  factory _$RouteModelCopyWith(_RouteModel value, $Res Function(_RouteModel) _then) = __$RouteModelCopyWithImpl;
+abstract mixin class _$RouteDtoCopyWith<$Res> implements $RouteDtoCopyWith<$Res> {
+  factory _$RouteDtoCopyWith(_RouteDto value, $Res Function(_RouteDto) _then) = __$RouteDtoCopyWithImpl;
 @override @useResult
 $Res call({
  String id, String name, String description, double distanceKm, double elevationGainM, String difficulty, int routeNumber, List<List<double>> coordinates, List<RouteStage> stages
@@ -558,17 +558,17 @@ $Res call({
 
 }
 /// @nodoc
-class __$RouteModelCopyWithImpl<$Res>
-    implements _$RouteModelCopyWith<$Res> {
-  __$RouteModelCopyWithImpl(this._self, this._then);
+class __$RouteDtoCopyWithImpl<$Res>
+    implements _$RouteDtoCopyWith<$Res> {
+  __$RouteDtoCopyWithImpl(this._self, this._then);
 
-  final _RouteModel _self;
-  final $Res Function(_RouteModel) _then;
+  final _RouteDto _self;
+  final $Res Function(_RouteDto) _then;
 
-/// Create a copy of RouteModel
+/// Create a copy of RouteDto
 /// with the given fields replaced by the non-null parameter values.
 @override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? name = null,Object? description = null,Object? distanceKm = null,Object? elevationGainM = null,Object? difficulty = null,Object? routeNumber = null,Object? coordinates = null,Object? stages = null,}) {
-  return _then(_RouteModel(
+  return _then(_RouteDto(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,name: null == name ? _self.name : name // ignore: cast_nullable_to_non_nullable
 as String,description: null == description ? _self.description : description // ignore: cast_nullable_to_non_nullable

@@ -1,76 +1,54 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:velo_map_app/features/routes/domain/models/route_model.dart';
-import 'package:velo_map_app/features/routes/domain/repositories/route_repository.dart';
-
-part 'routes_bloc.freezed.dart';
-
-// Events
-@freezed
-sealed class RoutesEvent with _$RoutesEvent {
-  const factory RoutesEvent.load() = _Load;
-  const factory RoutesEvent.selectRoute(RouteModel route) = _SelectRoute;
-  const factory RoutesEvent.clearSelection() = _ClearSelection;
-  const factory RoutesEvent.selectStage(RouteStage stage) = _SelectStage;
-  const factory RoutesEvent.clearStageSelection() = _ClearStageSelection;
-}
-
-// State
-@freezed
-sealed class RoutesState with _$RoutesState {
-  const factory RoutesState({
-    @Default([]) List<RouteModel> routes,
-    @Default(false) bool isLoading,
-    String? error,
-    RouteModel? selectedRoute,
-    RouteStage? selectedStage,
-  }) = _RoutesState;
-}
+import 'package:velo_map_app/features/routes/data/repositories/route_repository_impl.dart';
+import 'package:velo_map_app/features/routes/presentation/bloc/routes_event.dart';
+import 'package:velo_map_app/features/routes/presentation/bloc/routes_state.dart';
 
 // Bloc
 class RoutesBloc extends Bloc<RoutesEvent, RoutesState> {
   final RouteRepository _repository;
 
   RoutesBloc({required RouteRepository repository})
-      : _repository = repository,
-        super(const RoutesState()) {
-    on<_Load>(_onLoad);
-    on<_SelectRoute>(_onSelectRoute);
-    on<_ClearSelection>(_onClearSelection);
-    on<_SelectStage>(_onSelectStage);
-    on<_ClearStageSelection>(_onClearStageSelection);
+    : _repository = repository,
+      super(const RoutesState()) {
+    on<Load>(_onLoad);
+    on<SelectRoute>(_onSelectRoute);
+    on<ClearSelection>(_onClearSelection);
+    on<SelectStage>(_onSelectStage);
+    on<ClearStageSelection>(_onClearStageSelection);
   }
 
-  Future<void> _onLoad(_Load event, Emitter<RoutesState> emit) async {
+  Future<void> _onLoad(Load event, Emitter<RoutesState> emit) async {
     emit(state.copyWith(isLoading: true, error: null));
 
-    try {
-      final routes = await _repository.getRoutes();
-      emit(state.copyWith(
-        routes: routes,
-        isLoading: false,
-      ));
-    } catch (e) {
-      emit(state.copyWith(
-        isLoading: false,
-        error: 'Failed to load routes: $e',
-      ));
-    }
+    final result = await _repository.getRoutes();
+
+    result.fold(
+      (failure) {
+        final message = failure.toString();
+        emit(state.copyWith(isLoading: false, error: message));
+      },
+      (routes) {
+        emit(state.copyWith(routes: routes, isLoading: false));
+      },
+    );
   }
 
-  void _onSelectRoute(_SelectRoute event, Emitter<RoutesState> emit) {
+  void _onSelectRoute(SelectRoute event, Emitter<RoutesState> emit) {
     emit(state.copyWith(selectedRoute: event.route, selectedStage: null));
   }
 
-  void _onClearSelection(_ClearSelection event, Emitter<RoutesState> emit) {
+  void _onClearSelection(ClearSelection event, Emitter<RoutesState> emit) {
     emit(state.copyWith(selectedRoute: null, selectedStage: null));
   }
 
-  void _onSelectStage(_SelectStage event, Emitter<RoutesState> emit) {
+  void _onSelectStage(SelectStage event, Emitter<RoutesState> emit) {
     emit(state.copyWith(selectedStage: event.stage));
   }
 
-  void _onClearStageSelection(_ClearStageSelection event, Emitter<RoutesState> emit) {
+  void _onClearStageSelection(
+    ClearStageSelection event,
+    Emitter<RoutesState> emit,
+  ) {
     emit(state.copyWith(selectedStage: null));
   }
 }
