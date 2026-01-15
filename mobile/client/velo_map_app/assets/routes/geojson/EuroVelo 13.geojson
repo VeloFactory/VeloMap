@@ -93,8 +93,7 @@
       "Barth",
       "Rostock",
       "Wismar",
-      "Travemünde",
-      "Priwall",
+      "Travemünde-Priwall",
       "Ratzeburg",
       "Zarrentin am Schaalsee",
       "Boizenburg",
@@ -107,8 +106,7 @@
       "Ilsenburg",
       "Bad Sachsa",
       "Heiligenstadt",
-      "Bad Sooden",
-      "Allendorf",
+      "Bad Sooden-Allendorf",
       "Treffurt",
       "Gerstungen",
       "Vacha",
@@ -201,8 +199,7 @@
       "Baziaș",
       "Coronini",
       "Svinita",
-      "Drobeta",
-      "Turnu Severin",
+      "Drobeta-Turnu Severin",
       "Balta Verde",
       "Prahovo",
       "Golubac",
@@ -138183,8 +138180,7 @@
         "difficulty": "moderate",
         "cities": [
           "Wismar",
-          "Travemünde",
-          "Priwall"
+          "Travemünde-Priwall"
         ]
       },
       "geometry": {
@@ -140688,8 +140684,7 @@
         "elevation_gain": 379.4,
         "difficulty": "moderate",
         "cities": [
-          "Travemünde",
-          "Priwall",
+          "Travemünde-Priwall",
           "Ratzeburg"
         ]
       },
@@ -168750,8 +168745,7 @@
         "difficulty": "moderate",
         "cities": [
           "Heiligenstadt",
-          "Bad Sooden",
-          "Allendorf"
+          "Bad Sooden-Allendorf"
         ]
       },
       "geometry": {
@@ -171100,8 +171094,7 @@
         "elevation_gain": 388.0,
         "difficulty": "moderate",
         "cities": [
-          "Bad Sooden",
-          "Allendorf",
+          "Bad Sooden-Allendorf",
           "Treffurt"
         ]
       },
@@ -309387,8 +309380,7 @@
         "difficulty": "hard",
         "cities": [
           "Svinita",
-          "Drobeta",
-          "Turnu Severin"
+          "Drobeta-Turnu Severin"
         ]
       },
       "geometry": {
@@ -309992,8 +309984,7 @@
         "elevation_gain": 187.1,
         "difficulty": "hard",
         "cities": [
-          "Drobeta",
-          "Turnu Severin",
+          "Drobeta-Turnu Severin",
           "Balta Verde"
         ]
       },

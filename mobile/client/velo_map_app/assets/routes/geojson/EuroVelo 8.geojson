@@ -52,19 +52,13 @@
       "Sant Feliu de Guíxols",
       "L'Escala",
       "Le Perthus",
-      "Argelès",
-      "sur",
-      "Mer",
-      "Canet",
-      "en",
-      "Roussillon",
+      "Argelès-sur-Mer",
+      "Canet-en-Roussillon",
       "Leucate",
       "Narbonne",
       "Béziers",
       "Sète",
-      "Le Grau",
-      "du",
-      "Roi",
+      "Le Grau-du-Roi",
       "Tarascon",
       "Cavaillon",
       "Apt",
@@ -125125,9 +125119,7 @@
         "difficulty": "moderate",
         "cities": [
           "Le Perthus",
-          "Argelès",
-          "sur",
-          "Mer"
+          "Argelès-sur-Mer"
         ]
       },
       "geometry": {
@@ -129511,12 +129503,8 @@
         "elevation_gain": 64.1,
         "difficulty": "easy",
         "cities": [
-          "Argelès",
-          "sur",
-          "Mer",
-          "Canet",
-          "en",
-          "Roussillon"
+          "Argelès-sur-Mer",
+          "Canet-en-Roussillon"
         ]
       },
       "geometry": {
@@ -130910,9 +130898,7 @@
         "elevation_gain": 115.9,
         "difficulty": "moderate",
         "cities": [
-          "Canet",
-          "en",
-          "Roussillon",
+          "Canet-en-Roussillon",
           "Leucate"
         ]
       },
@@ -140258,9 +140244,7 @@
         "difficulty": "moderate",
         "cities": [
           "Sète",
-          "Le Grau",
-          "du",
-          "Roi"
+          "Le Grau-du-Roi"
         ]
       },
       "geometry": {
@@ -143674,9 +143658,7 @@
         "elevation_gain": 129.9,
         "difficulty": "hard",
         "cities": [
-          "Le Grau",
-          "du",
-          "Roi",
+          "Le Grau-du-Roi",
           "Tarascon"
         ]
       },

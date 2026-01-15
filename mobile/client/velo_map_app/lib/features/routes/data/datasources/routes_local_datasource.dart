@@ -29,20 +29,25 @@ class RouteLocalDatasource {
   }
 
   Future<List<String>> _routeFiles() async {
+    const allowedRoutes = {6, 9, 14};
+
     final manifest1 = await AssetManifest.loadFromAssetBundle(rootBundle);
     final assets = manifest1.listAssets();
+
+    int numFromPath(String path) {
+      final name = path.split('/').last.split('.').first;
+      final match = RegExp(r'\d+').firstMatch(name);
+      return match != null ? int.parse(match.group(0)!) : 0x7fffffff;
+    }
 
     final files = assets
         .where(
           (p) =>
-              p.startsWith('assets/routes/geojson') && p.endsWith('.geojson'),
+              p.startsWith('assets/routes/geojson') &&
+              p.endsWith('.geojson') &&
+              allowedRoutes.contains(numFromPath(p)),
         )
         .toList();
-
-    int numFromPath(String path) {
-      final name = path.split('/').last.split('.').first;
-      return int.tryParse(name) ?? 0x7fffffff;
-    }
 
     files.sort((a, b) => numFromPath(a).compareTo(numFromPath(b)));
     return files;

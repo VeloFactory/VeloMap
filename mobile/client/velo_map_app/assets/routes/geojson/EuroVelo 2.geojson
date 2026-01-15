@@ -20,9 +20,7 @@
       "Dolgellau",
       "Llanidloes",
       "Builth",
-      "Hay",
-      "on",
-      "Wye",
+      "Hay-on-Wye",
       "Abergavenny",
       "Chepstow",
       "Bristol",
@@ -49,8 +47,7 @@
       "Havixbeck",
       "Münster",
       "Warendorf",
-      "Rheda",
-      "Wiedenbrück",
+      "Rheda-Wiedenbrück",
       "Schloß Holte",
       "Detmold",
       "Marienmünster",
@@ -22863,9 +22860,7 @@
         "difficulty": "moderate",
         "cities": [
           "Builth",
-          "Hay",
-          "on",
-          "Wye"
+          "Hay-on-Wye"
         ]
       },
       "geometry": {
@@ -24519,9 +24514,7 @@
         "elevation_gain": 646.5,
         "difficulty": "moderate",
         "cities": [
-          "Hay",
-          "on",
-          "Wye",
+          "Hay-on-Wye",
           "Abergavenny"
         ]
       },
@@ -83477,8 +83470,7 @@
         "difficulty": "moderate",
         "cities": [
           "Warendorf",
-          "Rheda",
-          "Wiedenbrück"
+          "Rheda-Wiedenbrück"
         ]
       },
       "geometry": {
@@ -86117,8 +86109,7 @@
         "elevation_gain": 157.7,
         "difficulty": "moderate",
         "cities": [
-          "Rheda",
-          "Wiedenbrück",
+          "Rheda-Wiedenbrück",
           "Schloß Holte"
         ]
       },

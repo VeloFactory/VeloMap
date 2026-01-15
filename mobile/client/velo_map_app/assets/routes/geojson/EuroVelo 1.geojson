@@ -163,69 +163,49 @@
       "Okehampton",
       "Roscoff",
       "Morlaix",
-      "Carhaix",
-      "Plouguer",
+      "Carhaix-Plouguer",
       "Rostrenen",
-      "Mûr",
-      "de",
-      "Bretagne",
+      "Mûr-de-Bretagne",
       "Pontivy",
       "Josselin",
       "Peillac",
       "Redon",
       "Blain",
-      "Nort",
-      "sur",
-      "Erdre",
+      "Nort-sur-Erdre",
       "Nantes",
       "Plymouth",
       "Le Pellerin",
-      "Saint",
-      "Brevin",
-      "les",
-      "Pins",
+      "Saint-Brevin-les-Pins",
       "Pornic",
       "Bouin",
-      "La Barre",
-      "Monts",
-      "Fromentine",
-      "Gilles",
-      "Croix",
-      "Vie",
-      "Les Sables",
-      "d'Olonne",
-      "La Tranche",
-      "Mer",
+      "La Barre-de-Monts-Fromentine",
+      "Saint-Gilles-Croix-de-Vie",
+      "Les Sables-d'Olonne",
+      "La Tranche-sur-Mer",
       "Marans",
       "La Rochelle",
       "Rochefort",
       "Marennes",
       "Royan",
-      "Le Verdon",
+      "Le Verdon-sur-Mer",
       "Montalivet les Bains",
       "Hourtin Plage",
       "Lacanau",
-      "Lège",
-      "Cap",
-      "Ferret",
+      "Lège-Cap-Ferret",
       "Arcachon",
       "Biscarosse Plage",
-      "Parentis",
-      "en",
-      "Born",
+      "Parentis-en-Born",
       "Mimizan Plage",
       "Léon",
       "Capbreton",
       "Bayonne",
       "Biarritz",
-      "Jean",
-      "Luz",
+      "Saint-Jean-de-Luz",
       "Hendaye",
       "Santesteban",
       "Sarasate",
       "Pamplona",
-      "Estella",
-      "Lizarra",
+      "Estella-Lizarra",
       "Logroño",
       "Nájera",
       "Santo Domingo de la Calzada",
@@ -355568,8 +355548,7 @@
         "difficulty": "moderate",
         "cities": [
           "Morlaix",
-          "Carhaix",
-          "Plouguer"
+          "Carhaix-Plouguer"
         ]
       },
       "geometry": {
@@ -358378,8 +358357,7 @@
         "elevation_gain": 309.7,
         "difficulty": "moderate",
         "cities": [
-          "Carhaix",
-          "Plouguer",
+          "Carhaix-Plouguer",
           "Rostrenen"
         ]
       },
@@ -360200,9 +360178,7 @@
         "difficulty": "moderate",
         "cities": [
           "Rostrenen",
-          "Mûr",
-          "de",
-          "Bretagne"
+          "Mûr-de-Bretagne"
         ]
       },
       "geometry": {
@@ -362126,9 +362102,7 @@
         "elevation_gain": 190.4,
         "difficulty": "easy",
         "cities": [
-          "Mûr",
-          "de",
-          "Bretagne",
+          "Mûr-de-Bretagne",
           "Pontivy"
         ]
       },
@@ -372169,9 +372143,7 @@
         "difficulty": "easy",
         "cities": [
           "Blain",
-          "Nort",
-          "sur",
-          "Erdre"
+          "Nort-sur-Erdre"
         ]
       },
       "geometry": {
@@ -373490,9 +373462,7 @@
         "elevation_gain": 304.3,
         "difficulty": "moderate",
         "cities": [
-          "Nort",
-          "sur",
-          "Erdre",
+          "Nort-sur-Erdre",
           "Nantes"
         ]
       },
@@ -382803,10 +382773,7 @@
         "difficulty": "moderate",
         "cities": [
           "Le Pellerin",
-          "Saint",
-          "Brevin",
-          "les",
-          "Pins"
+          "Saint-Brevin-les-Pins"
         ]
       },
       "geometry": {
@@ -384765,10 +384732,7 @@
         "elevation_gain": 331.1,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Brevin",
-          "les",
-          "Pins",
+          "Saint-Brevin-les-Pins",
           "Pornic"
         ]
       },
@@ -390024,10 +389988,7 @@
         "difficulty": "moderate",
         "cities": [
           "Bouin",
-          "La Barre",
-          "de",
-          "Monts",
-          "Fromentine"
+          "La Barre-de-Monts-Fromentine"
         ]
       },
       "geometry": {
@@ -392886,15 +392847,8 @@
         "elevation_gain": 235.0,
         "difficulty": "moderate",
         "cities": [
-          "La Barre",
-          "de",
-          "Monts",
-          "Fromentine",
-          "Saint",
-          "Gilles",
-          "Croix",
-          "de",
-          "Vie"
+          "La Barre-de-Monts-Fromentine",
+          "Saint-Gilles-Croix-de-Vie"
         ]
       },
       "geometry": {
@@ -395923,13 +395877,8 @@
         "elevation_gain": 283.7,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Gilles",
-          "Croix",
-          "de",
-          "Vie",
-          "Les Sables",
-          "d'Olonne"
+          "Saint-Gilles-Croix-de-Vie",
+          "Les Sables-d'Olonne"
         ]
       },
       "geometry": {
@@ -399968,11 +399917,8 @@
         "elevation_gain": 285.6,
         "difficulty": "moderate",
         "cities": [
-          "Les Sables",
-          "d'Olonne",
-          "La Tranche",
-          "sur",
-          "Mer"
+          "Les Sables-d'Olonne",
+          "La Tranche-sur-Mer"
         ]
       },
       "geometry": {
@@ -403576,9 +403522,7 @@
         "elevation_gain": 86.8,
         "difficulty": "moderate",
         "cities": [
-          "La Tranche",
-          "sur",
-          "Mer",
+          "La Tranche-sur-Mer",
           "Marans"
         ]
       },
@@ -415083,9 +415027,7 @@
         "elevation_gain": 129.4,
         "difficulty": "moderate",
         "cities": [
-          "Le Verdon",
-          "sur",
-          "Mer",
+          "Le Verdon-sur-Mer",
           "Montalivet les Bains"
         ]
       },
@@ -420041,9 +419983,7 @@
         "difficulty": "moderate",
         "cities": [
           "Lacanau",
-          "Lège",
-          "Cap",
-          "Ferret"
+          "Lège-Cap-Ferret"
         ]
       },
       "geometry": {
@@ -422732,9 +422672,7 @@
         "elevation_gain": 201.7,
         "difficulty": "moderate",
         "cities": [
-          "Lège",
-          "Cap",
-          "Ferret",
+          "Lège-Cap-Ferret",
           "Arcachon"
         ]
       },
@@ -427010,9 +426948,7 @@
         "difficulty": "moderate",
         "cities": [
           "Biscarosse Plage",
-          "Parentis",
-          "en",
-          "Born"
+          "Parentis-en-Born"
         ]
       },
       "geometry": {
@@ -429176,9 +429112,7 @@
         "elevation_gain": 281.7,
         "difficulty": "moderate",
         "cities": [
-          "Parentis",
-          "en",
-          "Born",
+          "Parentis-en-Born",
           "Mimizan Plage"
         ]
       },
@@ -440819,10 +440753,7 @@
         "difficulty": "moderate",
         "cities": [
           "Biarritz",
-          "Saint",
-          "Jean",
-          "de",
-          "Luz"
+          "Saint-Jean-de-Luz"
         ]
       },
       "geometry": {
@@ -442161,10 +442092,7 @@
         "elevation_gain": 283.2,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Jean",
-          "de",
-          "Luz",
+          "Saint-Jean-de-Luz",
           "Hendaye"
         ]
       },
@@ -453280,8 +453208,7 @@
         "difficulty": "hard",
         "cities": [
           "Pamplona",
-          "Estella",
-          "Lizarra"
+          "Estella-Lizarra"
         ]
       },
       "geometry": {
@@ -457885,8 +457812,7 @@
         "elevation_gain": 861.3,
         "difficulty": "hard",
         "cities": [
-          "Estella",
-          "Lizarra",
+          "Estella-Lizarra",
           "Logroño"
         ]
       },

@@ -80,68 +80,49 @@
       "Tergnier",
       "Noyon",
       "Compiègne",
-      "Pont",
-      "Sainte",
-      "Maxence",
-      "Ver",
-      "sur",
-      "Launette",
+      "Pont-Sainte-Maxence",
+      "Ver-sur-Launette",
       "Paris",
-      "Corbeil",
-      "Essones",
+      "Corbeil-Essones",
       "Melun",
       "Fontainebleau",
       "Nemours",
       "Montargis",
-      "Rogny",
-      "les",
-      "Sept",
-      "Écluses",
+      "Rogny-les-Sept-Écluses",
       "Briare",
-      "Sully",
-      "Loire",
+      "Sully-sur-Loire",
       "Orleans",
-      "Meung",
+      "Meung-sur-Loire",
       "Blois",
       "Amboise",
       "Tours",
-      "Maure",
-      "de",
-      "Touraine",
+      "Sainte-Maure-de-Touraine",
       "Châtellerault",
-      "Lussac",
-      "Châteaux",
+      "Lussac-les-Châteaux",
       "Confolens",
       "Massignac",
       "Marthon",
       "Angoulême",
-      "Barbezieux",
-      "Saint",
-      "Hilaire",
+      "Barbezieux-Saint-Hilaire",
       "Clérac",
       "Libourne",
       "Créon",
       "Bordeaux",
       "Hostens",
       "Langon",
-      "Buzet",
-      "Baïse",
+      "Buzet-sur-Baïse",
       "Mézin",
       "Escalans",
-      "Mont",
-      "Marsan",
+      "Mont-de-Marsan",
       "Dax",
       "Urt",
-      "Palais",
-      "Jean",
-      "Pied",
-      "Port",
+      "Saint-Palais",
+      "Saint-Jean-Pied-de-Port",
       "Cabane d'Orgambide",
       "Roncesvalles",
       "Aoiz/Agoitz",
       "Pamplona",
-      "Estella",
-      "Lizarra",
+      "Estella-Lizarra",
       "Logroño",
       "Nájera",
       "Santo Domingo de la Calzada",
@@ -171743,9 +171724,7 @@
         "difficulty": "moderate",
         "cities": [
           "Compiègne",
-          "Pont",
-          "Sainte",
-          "Maxence"
+          "Pont-Sainte-Maxence"
         ]
       },
       "geometry": {
@@ -173564,12 +173543,8 @@
         "elevation_gain": 291.7,
         "difficulty": "moderate",
         "cities": [
-          "Pont",
-          "Sainte",
-          "Maxence",
-          "Ver",
-          "sur",
-          "Launette"
+          "Pont-Sainte-Maxence",
+          "Ver-sur-Launette"
         ]
       },
       "geometry": {
@@ -174673,9 +174648,7 @@
         "elevation_gain": 245.0,
         "difficulty": "moderate",
         "cities": [
-          "Ver",
-          "sur",
-          "Launette",
+          "Ver-sur-Launette",
           "Paris"
         ]
       },
@@ -176786,8 +176759,7 @@
         "difficulty": "moderate",
         "cities": [
           "Paris",
-          "Corbeil",
-          "Essones"
+          "Corbeil-Essones"
         ]
       },
       "geometry": {
@@ -179166,8 +179138,7 @@
         "elevation_gain": 202.5,
         "difficulty": "moderate",
         "cities": [
-          "Corbeil",
-          "Essones",
+          "Corbeil-Essones",
           "Melun"
         ]
       },
@@ -183798,10 +183769,7 @@
         "difficulty": "moderate",
         "cities": [
           "Montargis",
-          "Rogny",
-          "les",
-          "Sept",
-          "Écluses"
+          "Rogny-les-Sept-Écluses"
         ]
       },
       "geometry": {
@@ -185630,10 +185598,7 @@
         "elevation_gain": 131.4,
         "difficulty": "easy",
         "cities": [
-          "Rogny",
-          "les",
-          "Sept",
-          "Écluses",
+          "Rogny-les-Sept-Écluses",
           "Briare"
         ]
       },
@@ -187024,9 +186989,7 @@
         "difficulty": "moderate",
         "cities": [
           "Briare",
-          "Sully",
-          "sur",
-          "Loire"
+          "Sully-sur-Loire"
         ]
       },
       "geometry": {
@@ -188970,9 +188933,7 @@
         "elevation_gain": 299.6,
         "difficulty": "moderate",
         "cities": [
-          "Sully",
-          "sur",
-          "Loire",
+          "Sully-sur-Loire",
           "Orleans"
         ]
       },
@@ -191928,9 +191889,7 @@
         "difficulty": "easy",
         "cities": [
           "Orleans",
-          "Meung",
-          "sur",
-          "Loire"
+          "Meung-sur-Loire"
         ]
       },
       "geometry": {
@@ -193159,9 +193118,7 @@
         "elevation_gain": 209.4,
         "difficulty": "moderate",
         "cities": [
-          "Meung",
-          "sur",
-          "Loire",
+          "Meung-sur-Loire",
           "Blois"
         ]
       },
@@ -200527,10 +200484,7 @@
         "difficulty": "moderate",
         "cities": [
           "Tours",
-          "Sainte",
-          "Maure",
-          "de",
-          "Touraine"
+          "Sainte-Maure-de-Touraine"
         ]
       },
       "geometry": {
@@ -202889,10 +202843,7 @@
         "elevation_gain": 257.6,
         "difficulty": "moderate",
         "cities": [
-          "Sainte",
-          "Maure",
-          "de",
-          "Touraine",
+          "Sainte-Maure-de-Touraine",
           "Châtellerault"
         ]
       },
@@ -205023,9 +204974,7 @@
         "difficulty": "moderate",
         "cities": [
           "Châtellerault",
-          "Lussac",
-          "les",
-          "Châteaux"
+          "Lussac-les-Châteaux"
         ]
       },
       "geometry": {
@@ -208379,9 +208328,7 @@
         "elevation_gain": 914.0,
         "difficulty": "hard",
         "cities": [
-          "Lussac",
-          "les",
-          "Châteaux",
+          "Lussac-les-Châteaux",
           "Confolens"
         ]
       },
@@ -217792,9 +217739,7 @@
         "difficulty": "moderate",
         "cities": [
           "Angoulême",
-          "Barbezieux",
-          "Saint",
-          "Hilaire"
+          "Barbezieux-Saint-Hilaire"
         ]
       },
       "geometry": {
@@ -221283,9 +221228,7 @@
         "elevation_gain": 246.5,
         "difficulty": "moderate",
         "cities": [
-          "Barbezieux",
-          "Saint",
-          "Hilaire",
+          "Barbezieux-Saint-Hilaire",
           "Clérac"
         ]
       },
@@ -230376,9 +230319,7 @@
         "difficulty": "hard",
         "cities": [
           "Langon",
-          "Buzet",
-          "sur",
-          "Baïse"
+          "Buzet-sur-Baïse"
         ]
       },
       "geometry": {
@@ -232757,9 +232698,7 @@
         "elevation_gain": 380.7,
         "difficulty": "moderate",
         "cities": [
-          "Buzet",
-          "sur",
-          "Baïse",
+          "Buzet-sur-Baïse",
           "Mézin"
         ]
       },
@@ -235470,9 +235409,7 @@
         "difficulty": "moderate",
         "cities": [
           "Escalans",
-          "Mont",
-          "de",
-          "Marsan"
+          "Mont-de-Marsan"
         ]
       },
       "geometry": {
@@ -237196,9 +237133,7 @@
         "elevation_gain": 473.9,
         "difficulty": "hard",
         "cities": [
-          "Mont",
-          "de",
-          "Marsan",
+          "Mont-de-Marsan",
           "Dax"
         ]
       },
@@ -243484,8 +243419,7 @@
         "difficulty": "moderate",
         "cities": [
           "Urt",
-          "Saint",
-          "Palais"
+          "Saint-Palais"
         ]
       },
       "geometry": {
@@ -247349,13 +247283,8 @@
         "elevation_gain": 953.1,
         "difficulty": "hard",
         "cities": [
-          "Saint",
-          "Palais",
-          "Saint",
-          "Jean",
-          "Pied",
-          "de",
-          "Port"
+          "Saint-Palais",
+          "Saint-Jean-Pied-de-Port"
         ]
       },
       "geometry": {
@@ -250489,11 +250418,7 @@
         "elevation_gain": 1199.9,
         "difficulty": "hard",
         "cities": [
-          "Saint",
-          "Jean",
-          "Pied",
-          "de",
-          "Port",
+          "Saint-Jean-Pied-de-Port",
           "Cabane d'Orgambide"
         ]
       },
@@ -261124,8 +261049,7 @@
         "difficulty": "hard",
         "cities": [
           "Pamplona",
-          "Estella",
-          "Lizarra"
+          "Estella-Lizarra"
         ]
       },
       "geometry": {
@@ -265729,8 +265653,7 @@
         "elevation_gain": 861.3,
         "difficulty": "hard",
         "cities": [
-          "Estella",
-          "Lizarra",
+          "Estella-Lizarra",
           "Logroño"
         ]
       },

@@ -15,7 +15,10 @@ EARTH_RADIUS_M = 6371000.0
 
 DIFF_ORDER = {"easy": 0, "moderate": 1, "hard": 2}
 
-CITY_DASH_RE = re.compile(r"\s*(?:-|–|—|−)\s*")  # -, en dash, em dash, minus
+# Regex to split city separators, but NOT hyphens within compound city names
+# Splits on dashes that have whitespace on at least one side (city separators)
+# Does NOT split on dashes without spaces (e.g., "Mauves-sur-Loire")
+CITY_SEP_RE = re.compile(r"\s+(?:-|–|—|−)\s*|\s*(?:-|–|—|−)\s+")
 
 
 def _get_text(el: Optional[ET.Element]) -> Optional[str]:
@@ -227,7 +230,7 @@ def extract_cities_from_name(name: str) -> List[str]:
     # Убираем суффикс "(...)" если есть
     s = re.sub(r"\s*\([^)]*\)\s*$", "", s).strip()
 
-    parts = [p.strip() for p in CITY_DASH_RE.split(s) if p.strip()]
+    parts = [p.strip() for p in CITY_SEP_RE.split(s) if p.strip()]
     return parts
 
 

@@ -72,8 +72,7 @@
       "Rudbøl",
       "Bredstedt",
       "Husum",
-      "Sankt Peter",
-      "Böhl",
+      "Sankt Peter-Böhl",
       "Meldorf",
       "Glückstadt",
       "Elmshorn",
@@ -98,17 +97,15 @@
       "Noordwijk",
       "The Hague",
       "Hook of Holland",
-      "Burgh",
-      "Haamstede",
+      "Burgh-Haamstede",
       "Vlissingen",
       "Breskens",
       "Cadzand",
       "Ostende",
       "De Panne",
       "Dunkerque",
-      "Loon",
-      "Plage",
-      "Oye",
+      "Loon-Plage",
+      "Oye-Plage",
       "Calais",
       "Canterbury",
       "Dover",
@@ -133,16 +130,12 @@
       "Scarborough",
       "Whitby",
       "Great Ayton",
-      "Stockton",
-      "on",
-      "Tees",
+      "Stockton-on-Tees",
       "Sunderland",
       "Newcastle upon Tyne",
       "Amble",
       "North Sunderland",
-      "Berwick",
-      "upon",
-      "Tweed",
+      "Berwick-upon-Tweed",
       "Dunbar",
       "Edinburgh",
       "Kinross",
@@ -172711,8 +172704,7 @@
         "difficulty": "moderate",
         "cities": [
           "Husum",
-          "Sankt Peter",
-          "Böhl"
+          "Sankt Peter-Böhl"
         ]
       },
       "geometry": {
@@ -175271,8 +175263,7 @@
         "elevation_gain": 78.7,
         "difficulty": "moderate",
         "cities": [
-          "Sankt Peter",
-          "Böhl",
+          "Sankt Peter-Böhl",
           "Meldorf"
         ]
       },
@@ -236123,8 +236114,7 @@
         "difficulty": "hard",
         "cities": [
           "Hook of Holland",
-          "Burgh",
-          "Haamstede"
+          "Burgh-Haamstede"
         ]
       },
       "geometry": {
@@ -240508,8 +240498,7 @@
         "elevation_gain": 275.4,
         "difficulty": "moderate",
         "cities": [
-          "Burgh",
-          "Haamstede",
+          "Burgh-Haamstede",
           "Vlissingen"
         ]
       },
@@ -248854,8 +248843,7 @@
         "elevation_gain": 55.8,
         "difficulty": "easy",
         "cities": [
-          "Loon",
-          "Plage",
+          "Loon-Plage",
           "Dunkerque"
         ]
       },
@@ -250050,10 +250038,8 @@
         "elevation_gain": 55.8,
         "difficulty": "easy",
         "cities": [
-          "Oye",
-          "Plage",
-          "Loon",
-          "Plage"
+          "Oye-Plage",
+          "Loon-Plage"
         ]
       },
       "geometry": {
@@ -251578,8 +251564,7 @@
         "difficulty": "easy",
         "cities": [
           "Calais",
-          "Oye",
-          "Plage"
+          "Oye-Plage"
         ]
       },
       "geometry": {
@@ -306614,9 +306599,7 @@
         "difficulty": "moderate",
         "cities": [
           "Great Ayton",
-          "Stockton",
-          "on",
-          "Tees"
+          "Stockton-on-Tees"
         ]
       },
       "geometry": {
@@ -309050,9 +309033,7 @@
         "elevation_gain": 458.9,
         "difficulty": "moderate",
         "cities": [
-          "Stockton",
-          "on",
-          "Tees",
+          "Stockton-on-Tees",
           "Sunderland"
         ]
       },
@@ -318768,9 +318749,7 @@
         "difficulty": "moderate",
         "cities": [
           "North Sunderland",
-          "Berwick",
-          "upon",
-          "Tweed"
+          "Berwick-upon-Tweed"
         ]
       },
       "geometry": {
@@ -320574,9 +320553,7 @@
         "elevation_gain": 674.5,
         "difficulty": "moderate",
         "cities": [
-          "Berwick",
-          "upon",
-          "Tweed",
+          "Berwick-upon-Tweed",
           "Dunbar"
         ]
       },

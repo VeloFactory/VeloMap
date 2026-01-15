@@ -138,8 +138,7 @@
       "Zingst",
       "Rostock",
       "Wismar",
-      "Travemünde",
-      "Priwall",
+      "Travemünde-Priwall",
       "Neustadt in Holstein",
       "Großenbrode",
       "Puttgarden",
@@ -214479,8 +214478,7 @@
         "difficulty": "moderate",
         "cities": [
           "Wismar",
-          "Travemünde",
-          "Priwall"
+          "Travemünde-Priwall"
         ]
       },
       "geometry": {
@@ -216984,8 +216982,7 @@
         "elevation_gain": 190.6,
         "difficulty": "moderate",
         "cities": [
-          "Travemünde",
-          "Priwall",
+          "Travemünde-Priwall",
           "Neustadt in Holstein"
         ]
       },

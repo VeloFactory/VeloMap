@@ -10,26 +10,18 @@
     "total_stages": 32,
     "cities": [
       "Langres",
-      "Pouilly",
-      "en",
-      "bassigny",
-      "Montigny",
-      "le",
-      "Roi",
+      "Pouilly-en-bassigny",
+      "Montigny-le-Roi",
       "Bourmont",
       "Neufchâteau",
       "Vaucouleurs",
       "Commercy",
-      "St",
-      "Mihiel",
+      "St-Mihiel",
       "Verdun",
-      "Dun",
-      "Sur",
-      "Meuse",
+      "Dun-Sur-Meuse",
       "Stenay",
       "Sedan",
-      "Charleville",
-      "Mézières",
+      "Charleville-Mézières",
       "Monthermé",
       "Haybes",
       "Givet",
@@ -63,9 +55,7 @@
         "difficulty": "moderate",
         "cities": [
           "Langres",
-          "Pouilly",
-          "en",
-          "bassigny"
+          "Pouilly-en-bassigny"
         ]
       },
       "geometry": {
@@ -1794,12 +1784,8 @@
         "elevation_gain": 74.6,
         "difficulty": "easy",
         "cities": [
-          "Pouilly",
-          "en",
-          "bassigny",
-          "Montigny",
-          "le",
-          "Roi"
+          "Pouilly-en-bassigny",
+          "Montigny-le-Roi"
         ]
       },
       "geometry": {
@@ -2143,9 +2129,7 @@
         "elevation_gain": 221.5,
         "difficulty": "moderate",
         "cities": [
-          "Montigny",
-          "le",
-          "Roi",
+          "Montigny-le-Roi",
           "Bourmont"
         ]
       },
@@ -6406,8 +6390,7 @@
         "difficulty": "moderate",
         "cities": [
           "Commercy",
-          "St",
-          "Mihiel"
+          "St-Mihiel"
         ]
       },
       "geometry": {
@@ -7116,8 +7099,7 @@
         "elevation_gain": 200.8,
         "difficulty": "moderate",
         "cities": [
-          "St",
-          "Mihiel",
+          "St-Mihiel",
           "Verdun"
         ]
       },
@@ -8098,9 +8080,7 @@
         "difficulty": "moderate",
         "cities": [
           "Verdun",
-          "Dun",
-          "Sur",
-          "Meuse"
+          "Dun-Sur-Meuse"
         ]
       },
       "geometry": {
@@ -9124,9 +9104,7 @@
         "elevation_gain": 78.8,
         "difficulty": "easy",
         "cities": [
-          "Dun",
-          "Sur",
-          "Meuse",
+          "Dun-Sur-Meuse",
           "Stenay"
         ]
       },
@@ -10992,8 +10970,7 @@
         "difficulty": "moderate",
         "cities": [
           "Sedan",
-          "Charleville",
-          "Mézières"
+          "Charleville-Mézières"
         ]
       },
       "geometry": {
@@ -12142,8 +12119,7 @@
         "elevation_gain": 216.9,
         "difficulty": "moderate",
         "cities": [
-          "Charleville",
-          "Mézières",
+          "Charleville-Mézières",
           "Monthermé"
         ]
       },

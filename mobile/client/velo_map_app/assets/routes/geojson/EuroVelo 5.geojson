@@ -15,8 +15,7 @@
       "Guines",
       "Audruicq",
       "Wittes",
-      "Saint",
-      "Venant",
+      "Saint-Venant",
       "Houdain",
       "Lens",
       "Bauvin",
@@ -28,12 +27,8 @@
       "Wavre",
       "Namur",
       "Dinant",
-      "Marche",
-      "en",
-      "Famenne",
-      "La",
-      "Roche",
-      "Ardenne",
+      "Marche-en-Famenne",
+      "La-Roche-en-Ardenne",
       "Bastogne",
       "Martelange",
       "Kleinbettingen",
@@ -44,9 +39,7 @@
       "Gondrexange",
       "Saverne",
       "Strasbourg",
-      "Soultz",
-      "les",
-      "Bains",
+      "Soultz-les-Bains",
       "Châtenois",
       "Turckheim",
       "Cernay",
@@ -7313,8 +7306,7 @@
         "difficulty": "easy",
         "cities": [
           "Wittes",
-          "Saint",
-          "Venant"
+          "Saint-Venant"
         ]
       },
       "geometry": {
@@ -7733,8 +7725,7 @@
         "elevation_gain": 203.8,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Venant",
+          "Saint-Venant",
           "Houdain"
         ]
       },
@@ -25565,9 +25556,7 @@
         "difficulty": "hard",
         "cities": [
           "Dinant",
-          "Marche",
-          "en",
-          "Famenne"
+          "Marche-en-Famenne"
         ]
       },
       "geometry": {
@@ -28381,13 +28370,8 @@
         "elevation_gain": 367.8,
         "difficulty": "moderate",
         "cities": [
-          "Marche",
-          "en",
-          "Famenne",
-          "La",
-          "Roche",
-          "en",
-          "Ardenne"
+          "Marche-en-Famenne",
+          "La-Roche-en-Ardenne"
         ]
       },
       "geometry": {
@@ -30361,10 +30345,7 @@
         "elevation_gain": 806.4,
         "difficulty": "hard",
         "cities": [
-          "La",
-          "Roche",
-          "en",
-          "Ardenne",
+          "La-Roche-en-Ardenne",
           "Bastogne"
         ]
       },
@@ -51290,9 +51271,7 @@
         "difficulty": "easy",
         "cities": [
           "Strasbourg",
-          "Soultz",
-          "les",
-          "Bains"
+          "Soultz-les-Bains"
         ]
       },
       "geometry": {
@@ -52941,9 +52920,7 @@
         "elevation_gain": 613.3,
         "difficulty": "moderate",
         "cities": [
-          "Soultz",
-          "les",
-          "Bains",
+          "Soultz-les-Bains",
           "Châtenois"
         ]
       },

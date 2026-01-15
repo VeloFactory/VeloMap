@@ -17,45 +17,33 @@
       "Le Bouveret",
       "Morges",
       "Geneva",
-      "Saint",
-      "Gingolph",
+      "Saint-Gingolph",
       "Thonon",
-      "Chens",
-      "sur",
-      "Léman",
+      "Chens-sur-Léman",
       "Valleiry",
-      "Clarafond",
-      "Arcine",
+      "Clarafond-Arcine",
       "Ruffieux",
       "Belley",
       "Groslée",
-      "La Balme",
-      "les",
-      "Grottes",
+      "La Balme-les-Grottes",
       "Jons",
       "Lyon",
       "Givors",
       "Sablons",
-      "Tournon",
-      "Rhône",
+      "Tournon-sur-Rhône",
       "Valence",
       "Le Pouzin",
-      "Châteauneuf",
-      "du",
-      "Pont",
-      "Esprit",
+      "Châteauneuf-du-Rhône",
+      "Pont-Saint-Esprit",
       "Caderousse",
       "Avignon",
       "Tarascon",
       "Arles",
-      "Port",
-      "Louis",
+      "Port-Saint-Louis-du-Rhône",
       "Beaucaire",
-      "Gilles",
-      "Aigues",
-      "Mortes",
-      "Palavas",
-      "Flots",
+      "Saint-Gilles",
+      "Aigues-Mortes",
+      "Palavas-les-Flots",
       "Sète"
     ]
   },
@@ -18211,8 +18199,7 @@
         "difficulty": "easy",
         "cities": [
           "Le Bouveret",
-          "Saint",
-          "Gingolph"
+          "Saint-Gingolph"
         ]
       },
       "geometry": {
@@ -18541,8 +18528,7 @@
         "elevation_gain": 512.4,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Gingolph",
+          "Saint-Gingolph",
           "Thonon"
         ]
       },
@@ -19853,9 +19839,7 @@
         "difficulty": "moderate",
         "cities": [
           "Thonon",
-          "Chens",
-          "sur",
-          "Léman"
+          "Chens-sur-Léman"
         ]
       },
       "geometry": {
@@ -21294,9 +21278,7 @@
         "elevation_gain": 133.0,
         "difficulty": "easy",
         "cities": [
-          "Chens",
-          "sur",
-          "Léman",
+          "Chens-sur-Léman",
           "Geneva"
         ]
       },
@@ -23652,8 +23634,7 @@
         "difficulty": "moderate",
         "cities": [
           "Valleiry",
-          "Clarafond",
-          "Arcine"
+          "Clarafond-Arcine"
         ]
       },
       "geometry": {
@@ -24577,8 +24558,7 @@
         "elevation_gain": 340.1,
         "difficulty": "moderate",
         "cities": [
-          "Clarafond",
-          "Arcine",
+          "Clarafond-Arcine",
           "Ruffieux"
         ]
       },
@@ -29844,9 +29824,7 @@
         "difficulty": "moderate",
         "cities": [
           "Groslée",
-          "La Balme",
-          "les",
-          "Grottes"
+          "La Balme-les-Grottes"
         ]
       },
       "geometry": {
@@ -32635,9 +32613,7 @@
         "elevation_gain": 298.2,
         "difficulty": "moderate",
         "cities": [
-          "La Balme",
-          "les",
-          "Grottes",
+          "La Balme-les-Grottes",
           "Jons"
         ]
       },
@@ -39478,9 +39454,7 @@
         "difficulty": "moderate",
         "cities": [
           "Sablons",
-          "Tournon",
-          "sur",
-          "Rhône"
+          "Tournon-sur-Rhône"
         ]
       },
       "geometry": {
@@ -41779,9 +41753,7 @@
         "elevation_gain": 122.9,
         "difficulty": "easy",
         "cities": [
-          "Tournon",
-          "sur",
-          "Rhône",
+          "Tournon-sur-Rhône",
           "Valence"
         ]
       },
@@ -45407,9 +45379,7 @@
         "difficulty": "moderate",
         "cities": [
           "Le Pouzin",
-          "Châteauneuf",
-          "du",
-          "Rhône"
+          "Châteauneuf-du-Rhône"
         ]
       },
       "geometry": {
@@ -48043,12 +48013,8 @@
         "elevation_gain": 215.9,
         "difficulty": "moderate",
         "cities": [
-          "Châteauneuf",
-          "du",
-          "Rhône",
-          "Pont",
-          "Saint",
-          "Esprit"
+          "Châteauneuf-du-Rhône",
+          "Pont-Saint-Esprit"
         ]
       },
       "geometry": {
@@ -49787,9 +49753,7 @@
         "elevation_gain": 104.3,
         "difficulty": "moderate",
         "cities": [
-          "Pont",
-          "Saint",
-          "Esprit",
+          "Pont-Saint-Esprit",
           "Caderousse"
         ]
       },
@@ -55405,11 +55369,7 @@
         "difficulty": "moderate",
         "cities": [
           "Arles",
-          "Port",
-          "Saint",
-          "Louis",
-          "du",
-          "Rhône"
+          "Port-Saint-Louis-du-Rhône"
         ]
       },
       "geometry": {
@@ -56924,8 +56884,7 @@
         "difficulty": "moderate",
         "cities": [
           "Beaucaire",
-          "Saint",
-          "Gilles"
+          "Saint-Gilles"
         ]
       },
       "geometry": {
@@ -57889,10 +57848,8 @@
         "elevation_gain": 51.7,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Gilles",
-          "Aigues",
-          "Mortes"
+          "Saint-Gilles",
+          "Aigues-Mortes"
         ]
       },
       "geometry": {
@@ -58906,11 +58863,8 @@
         "elevation_gain": 66.1,
         "difficulty": "moderate",
         "cities": [
-          "Aigues",
-          "Mortes",
-          "Palavas",
-          "les",
-          "Flots"
+          "Aigues-Mortes",
+          "Palavas-les-Flots"
         ]
       },
       "geometry": {
@@ -60069,9 +60023,7 @@
         "elevation_gain": 161.8,
         "difficulty": "moderate",
         "cities": [
-          "Palavas",
-          "les",
-          "Flots",
+          "Palavas-les-Flots",
           "Sète"
         ]
       },

@@ -12,54 +12,36 @@
       "Roscoff",
       "Morlaix",
       "Plougasnou",
-      "Plestin",
-      "les",
-      "grèves",
+      "Plestin-les-grèves",
       "Lannion",
-      "Perros",
-      "Guirec",
+      "Perros-Guirec",
       "Tréguier",
       "Paimpol",
-      "Saint",
-      "Quay",
-      "Portrieux",
-      "Brieuc",
+      "Saint-Quay-Portrieux",
+      "Saint-Brieuc",
       "Erquy",
       "Matignon",
       "Pleslin",
-      "Malo",
+      "Saint-Malo",
       "Cancale",
       "Le Vivier",
       "Pontorson",
       "Céaux",
-      "Mortain",
-      "Bocage",
+      "Mortain-Bocage",
       "Vire",
-      "Pont",
-      "Farcy",
-      "Lô",
-      "Jean",
-      "de",
-      "Daye",
+      "Pont-Farcy",
+      "Saint-Lô",
+      "Saint-Jean-de-Daye",
       "Carentan",
       "La Haye",
-      "Sauveur",
-      "le",
-      "Vicomte",
-      "Bricquebec",
-      "en",
-      "Cotentin",
+      "Saint-Sauveur-le-Vicomte",
+      "Bricquebec-en-Cotentin",
       "Cherbourg",
-      "Vaast",
-      "la",
-      "Hougue",
+      "Saint-Vaast-la-Hougue",
       "Utah Beach",
-      "Grandcamps",
-      "Maisy",
-      "Port",
-      "Bessin",
-      "Arromanches",
-      "Bains",
+      "Grandcamps-Maisy",
+      "Port-en-Bessin",
+      "Arromanches-les-Bains",
       "Ouistreham",
       "Cabourg",
       "Deauville",
@@ -67,23 +49,19 @@
       "Havre",
       "Etretat",
       "Fécamp",
-      "Valery",
-      "Caux",
+      "Saint-Valery-en-Caux",
       "Dieppe",
       "Le Tréport",
-      "Cayeux",
-      "sur",
-      "Mer",
+      "Cayeux-sur-Mer",
       "Le Crotoy",
       "Berck",
       "Le Touquet",
-      "Boulogne",
+      "Boulogne-sur-Mer",
       "Wimereux",
       "Wissant",
       "Calais",
-      "Oye",
-      "Plage",
-      "Loon",
+      "Oye-Plage",
+      "Loon-Plage",
       "Dunkerque",
       "De Panne",
       "Ostende",
@@ -145,8 +123,7 @@
       "Krakow",
       "Niepołomice",
       "Tarnów",
-      "Jodlowka",
-      "Walki",
+      "Jodlowka-Walki",
       "Przecław",
       "Rzeszów",
       "Dynów",
@@ -5103,9 +5080,7 @@
         "difficulty": "moderate",
         "cities": [
           "Plougasnou",
-          "Plestin",
-          "les",
-          "grèves"
+          "Plestin-les-grèves"
         ]
       },
       "geometry": {
@@ -6919,9 +6894,7 @@
         "elevation_gain": 340.8,
         "difficulty": "moderate",
         "cities": [
-          "Plestin",
-          "les",
-          "grèves",
+          "Plestin-les-grèves",
           "Lannion"
         ]
       },
@@ -8767,8 +8740,7 @@
         "difficulty": "moderate",
         "cities": [
           "Lannion",
-          "Perros",
-          "Guirec"
+          "Perros-Guirec"
         ]
       },
       "geometry": {
@@ -12512,8 +12484,7 @@
         "elevation_gain": 216.0,
         "difficulty": "moderate",
         "cities": [
-          "Perros",
-          "Guirec",
+          "Perros-Guirec",
           "Tréguier"
         ]
       },
@@ -15839,9 +15810,7 @@
         "difficulty": "moderate",
         "cities": [
           "Paimpol",
-          "Saint",
-          "Quay",
-          "Portrieux"
+          "Saint-Quay-Portrieux"
         ]
       },
       "geometry": {
@@ -19270,11 +19239,8 @@
         "elevation_gain": 397.7,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Quay",
-          "Portrieux",
-          "Saint",
-          "Brieuc"
+          "Saint-Quay-Portrieux",
+          "Saint-Brieuc"
         ]
       },
       "geometry": {
@@ -21503,8 +21469,7 @@
         "elevation_gain": 557.3,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Brieuc",
+          "Saint-Brieuc",
           "Erquy"
         ]
       },
@@ -28415,8 +28380,7 @@
         "difficulty": "moderate",
         "cities": [
           "Pleslin",
-          "Saint",
-          "Malo"
+          "Saint-Malo"
         ]
       },
       "geometry": {
@@ -30175,8 +30139,7 @@
         "elevation_gain": 150.9,
         "difficulty": "easy",
         "cities": [
-          "Saint",
-          "Malo",
+          "Saint-Malo",
           "Cancale"
         ]
       },
@@ -34277,8 +34240,7 @@
         "difficulty": "moderate",
         "cities": [
           "Céaux",
-          "Mortain",
-          "Bocage"
+          "Mortain-Bocage"
         ]
       },
       "geometry": {
@@ -35677,8 +35639,7 @@
         "elevation_gain": 474.1,
         "difficulty": "moderate",
         "cities": [
-          "Mortain",
-          "Bocage",
+          "Mortain-Bocage",
           "Vire"
         ]
       },
@@ -37679,8 +37640,7 @@
         "difficulty": "moderate",
         "cities": [
           "Vire",
-          "Pont",
-          "Farcy"
+          "Pont-Farcy"
         ]
       },
       "geometry": {
@@ -39989,10 +39949,8 @@
         "elevation_gain": 455.2,
         "difficulty": "moderate",
         "cities": [
-          "Pont",
-          "Farcy",
-          "Saint",
-          "Lô"
+          "Pont-Farcy",
+          "Saint-Lô"
         ]
       },
       "geometry": {
@@ -42581,12 +42539,8 @@
         "elevation_gain": 303.6,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Lô",
-          "Saint",
-          "Jean",
-          "de",
-          "Daye"
+          "Saint-Lô",
+          "Saint-Jean-de-Daye"
         ]
       },
       "geometry": {
@@ -44765,10 +44719,7 @@
         "elevation_gain": 81.0,
         "difficulty": "easy",
         "cities": [
-          "Saint",
-          "Jean",
-          "de",
-          "Daye",
+          "Saint-Jean-de-Daye",
           "Carentan"
         ]
       },
@@ -46749,10 +46700,7 @@
         "difficulty": "easy",
         "cities": [
           "La Haye",
-          "Saint",
-          "Sauveur",
-          "le",
-          "Vicomte"
+          "Saint-Sauveur-le-Vicomte"
         ]
       },
       "geometry": {
@@ -47381,13 +47329,8 @@
         "elevation_gain": 101.3,
         "difficulty": "easy",
         "cities": [
-          "Saint",
-          "Sauveur",
-          "le",
-          "Vicomte",
-          "Bricquebec",
-          "en",
-          "Cotentin"
+          "Saint-Sauveur-le-Vicomte",
+          "Bricquebec-en-Cotentin"
         ]
       },
       "geometry": {
@@ -47936,9 +47879,7 @@
         "elevation_gain": 365.2,
         "difficulty": "moderate",
         "cities": [
-          "Bricquebec",
-          "en",
-          "Cotentin",
+          "Bricquebec-en-Cotentin",
           "Cherbourg"
         ]
       },
@@ -49894,10 +49835,7 @@
         "difficulty": "moderate",
         "cities": [
           "Cherbourg",
-          "Saint",
-          "Vaast",
-          "la",
-          "Hougue"
+          "Saint-Vaast-la-Hougue"
         ]
       },
       "geometry": {
@@ -53656,10 +53594,7 @@
         "elevation_gain": 256.5,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Vaast",
-          "la",
-          "Hougue",
+          "Saint-Vaast-la-Hougue",
           "Utah Beach"
         ]
       },
@@ -57380,8 +57315,7 @@
         "difficulty": "moderate",
         "cities": [
           "Carentan",
-          "Grandcamps",
-          "Maisy"
+          "Grandcamps-Maisy"
         ]
       },
       "geometry": {
@@ -59210,11 +59144,8 @@
         "elevation_gain": 487.4,
         "difficulty": "moderate",
         "cities": [
-          "Grandcamps",
-          "Maisy",
-          "Port",
-          "en",
-          "Bessin"
+          "Grandcamps-Maisy",
+          "Port-en-Bessin"
         ]
       },
       "geometry": {
@@ -61483,12 +61414,8 @@
         "elevation_gain": 246.0,
         "difficulty": "moderate",
         "cities": [
-          "Port",
-          "en",
-          "Bessin",
-          "Arromanches",
-          "les",
-          "Bains"
+          "Port-en-Bessin",
+          "Arromanches-les-Bains"
         ]
       },
       "geometry": {
@@ -62782,9 +62709,7 @@
         "elevation_gain": 197.3,
         "difficulty": "moderate",
         "cities": [
-          "Arromanches",
-          "les",
-          "Bains",
+          "Arromanches-les-Bains",
           "Ouistreham"
         ]
       },
@@ -75440,10 +75365,7 @@
         "difficulty": "moderate",
         "cities": [
           "Fécamp",
-          "Saint",
-          "Valery",
-          "en",
-          "Caux"
+          "Saint-Valery-en-Caux"
         ]
       },
       "geometry": {
@@ -78162,10 +78084,7 @@
         "elevation_gain": 502.3,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Valery",
-          "en",
-          "Caux",
+          "Saint-Valery-en-Caux",
           "Dieppe"
         ]
       },
@@ -82226,9 +82145,7 @@
         "difficulty": "easy",
         "cities": [
           "Le Tréport",
-          "Cayeux",
-          "sur",
-          "Mer"
+          "Cayeux-sur-Mer"
         ]
       },
       "geometry": {
@@ -83557,9 +83474,7 @@
         "elevation_gain": 83.6,
         "difficulty": "moderate",
         "cities": [
-          "Cayeux",
-          "sur",
-          "Mer",
+          "Cayeux-sur-Mer",
           "Le Crotoy"
         ]
       },
@@ -88460,9 +88375,7 @@
         "difficulty": "moderate",
         "cities": [
           "Le Touquet",
-          "Boulogne",
-          "sur",
-          "Mer"
+          "Boulogne-sur-Mer"
         ]
       },
       "geometry": {
@@ -90111,9 +90024,7 @@
         "elevation_gain": 194.7,
         "difficulty": "easy",
         "cities": [
-          "Boulogne",
-          "sur",
-          "Mer",
+          "Boulogne-sur-Mer",
           "Wimereux"
         ]
       },
@@ -93534,8 +93445,7 @@
         "difficulty": "easy",
         "cities": [
           "Calais",
-          "Oye",
-          "Plage"
+          "Oye-Plage"
         ]
       },
       "geometry": {
@@ -94579,10 +94489,8 @@
         "elevation_gain": 55.8,
         "difficulty": "easy",
         "cities": [
-          "Oye",
-          "Plage",
-          "Loon",
-          "Plage"
+          "Oye-Plage",
+          "Loon-Plage"
         ]
       },
       "geometry": {
@@ -96106,8 +96014,7 @@
         "elevation_gain": 55.8,
         "difficulty": "easy",
         "cities": [
-          "Loon",
-          "Plage",
+          "Loon-Plage",
           "Dunkerque"
         ]
       },
@@ -238373,8 +238280,7 @@
         "difficulty": "moderate",
         "cities": [
           "Tarnów",
-          "Jodlowka",
-          "Walki"
+          "Jodlowka-Walki"
         ]
       },
       "geometry": {
@@ -239873,8 +239779,7 @@
         "elevation_gain": 207.0,
         "difficulty": "moderate",
         "cities": [
-          "Jodlowka",
-          "Walki",
+          "Jodlowka-Walki",
           "Przecław"
         ]
       },

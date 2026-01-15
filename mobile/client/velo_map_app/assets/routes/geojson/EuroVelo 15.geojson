@@ -28,38 +28,31 @@
       "Radolfzell",
       "Rheinheim",
       "Kembs",
-      "Neuf",
-      "Brisach",
+      "Neuf-Brisach",
       "Strasbourg",
       "Lauterbourg",
-      "Wörth am Rhein",
-      "Maximiliansau",
+      "Wörth am Rhein-Maximiliansau",
       "Breisach am Rhein",
-      "Kappel",
-      "Grafenhausen",
+      "Kappel-Grafenhausen",
       "Kehl",
-      "Rastatt",
-      "Plittersdorf",
+      "Rastatt-Plittersdorf",
       "Karlsruhe",
       "Speyer",
-      "Ludwigshafen",
-      "Oggersheim",
+      "Ludwigshafen-Oggersheim",
       "Eich",
       "Mainz",
       "Bingen am Rhein",
       "Rheinhausen",
       "Mannheim",
       "Gernsheim",
-      "Oestrich",
-      "Winkel",
+      "Oestrich-Winkel",
       "Rüdesheim am Rhein",
       "Bad Salzig",
       "Koblenz",
       "Rolandswerth",
       "Bonn",
       "Cologne",
-      "Kamp",
-      "Bornhofen",
+      "Kamp-Bornhofen",
       "Rheinbreitbach",
       "Dusseldorf",
       "Duisburg",
@@ -40502,8 +40495,7 @@
         "difficulty": "moderate",
         "cities": [
           "Kembs",
-          "Neuf",
-          "Brisach"
+          "Neuf-Brisach"
         ]
       },
       "geometry": {
@@ -42622,8 +42614,7 @@
         "elevation_gain": 107.1,
         "difficulty": "hard",
         "cities": [
-          "Neuf",
-          "Brisach",
+          "Neuf-Brisach",
           "Strasbourg"
         ]
       },
@@ -49009,8 +49000,7 @@
         "difficulty": "easy",
         "cities": [
           "Lauterbourg",
-          "Wörth am Rhein",
-          "Maximiliansau"
+          "Wörth am Rhein-Maximiliansau"
         ]
       },
       "geometry": {
@@ -52150,8 +52140,7 @@
         "difficulty": "moderate",
         "cities": [
           "Breisach am Rhein",
-          "Kappel",
-          "Grafenhausen"
+          "Kappel-Grafenhausen"
         ]
       },
       "geometry": {
@@ -54090,8 +54079,7 @@
         "elevation_gain": 155.7,
         "difficulty": "moderate",
         "cities": [
-          "Kappel",
-          "Grafenhausen",
+          "Kappel-Grafenhausen",
           "Kehl"
         ]
       },
@@ -55782,8 +55770,7 @@
         "difficulty": "moderate",
         "cities": [
           "Kehl",
-          "Rastatt",
-          "Plittersdorf"
+          "Rastatt-Plittersdorf"
         ]
       },
       "geometry": {
@@ -58197,8 +58184,7 @@
         "elevation_gain": 161.6,
         "difficulty": "moderate",
         "cities": [
-          "Rastatt",
-          "Plittersdorf",
+          "Rastatt-Plittersdorf",
           "Karlsruhe"
         ]
       },
@@ -60179,8 +60165,7 @@
         "difficulty": "easy",
         "cities": [
           "Karlsruhe",
-          "Wörth am Rhein",
-          "Maximiliansau"
+          "Wörth am Rhein-Maximiliansau"
         ]
       },
       "geometry": {
@@ -60364,8 +60349,7 @@
         "elevation_gain": 264.9,
         "difficulty": "moderate",
         "cities": [
-          "Wörth am Rhein",
-          "Maximiliansau",
+          "Wörth am Rhein-Maximiliansau",
           "Speyer"
         ]
       },
@@ -63351,8 +63335,7 @@
         "difficulty": "moderate",
         "cities": [
           "Speyer",
-          "Ludwigshafen",
-          "Oggersheim"
+          "Ludwigshafen-Oggersheim"
         ]
       },
       "geometry": {
@@ -65146,8 +65129,7 @@
         "elevation_gain": 158.6,
         "difficulty": "moderate",
         "cities": [
-          "Ludwigshafen",
-          "Oggersheim",
+          "Ludwigshafen-Oggersheim",
           "Eich"
         ]
       },
@@ -79883,8 +79865,7 @@
         "difficulty": "easy",
         "cities": [
           "Mainz",
-          "Oestrich",
-          "Winkel"
+          "Oestrich-Winkel"
         ]
       },
       "geometry": {
@@ -80933,8 +80914,7 @@
         "elevation_gain": 65.7,
         "difficulty": "easy",
         "cities": [
-          "Oestrich",
-          "Winkel",
+          "Oestrich-Winkel",
           "Rüdesheim am Rhein"
         ]
       },
@@ -90674,8 +90654,7 @@
         "elevation_gain": 223.3,
         "difficulty": "moderate",
         "cities": [
-          "Kamp",
-          "Bornhofen",
+          "Kamp-Bornhofen",
           "Koblenz"
         ]
       },

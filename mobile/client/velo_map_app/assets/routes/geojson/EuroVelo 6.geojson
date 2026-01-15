@@ -9,80 +9,56 @@
     "route_number": 6,
     "total_stages": 163,
     "cities": [
-      "Saint",
-      "Brevin",
-      "les",
-      "Pins",
+      "Saint-Brevin-les-Pins",
       "Le Pellerin",
       "Nantes",
-      "Mauves",
-      "sur",
-      "Loire",
+      "Mauves-sur-Loire",
       "Champtoceaux",
-      "Florent",
-      "le",
-      "Vieil",
-      "Chalonnes",
+      "Saint-Florent-le-Vieil",
+      "Chalonnes-sur-Loire",
       "Angers",
-      "Rémy",
-      "la",
-      "Varenne",
+      "Saint-Rémy-la-Varenne",
       "Saumur",
-      "Candes",
-      "Martin",
-      "Rigny",
-      "Ussé",
+      "Candes-Saint-Martin",
+      "Rigny-Ussé",
       "Villandry",
       "Tours",
       "Amboise",
-      "Chaumont",
+      "Chaumont-sur-Loire",
       "Blois",
-      "Muides",
+      "Muides-sur-Loire",
       "Beaugency",
       "Orleans",
       "Jargeau",
-      "Sully",
+      "Sully-sur-Loire",
       "Briare",
       "Sancerre",
-      "Pouilly",
-      "La",
-      "Charité",
-      "Sur",
+      "Pouilly-sur-Loire",
+      "La-Charité-Sur-Loire",
       "Cuffy",
       "Nevers",
       "Decize",
       "Cronat",
-      "Bourbon",
-      "Lancy",
+      "Bourbon-Lancy",
       "Digoin",
-      "Paray",
-      "Monial",
+      "Paray-le-Monial",
       "Palinges",
-      "Montceau",
-      "Mines",
+      "Montceau-les-Mines",
       "Montchanin",
-      "St",
-      "Léger",
-      "Dheune",
+      "St-Léger-sur-Dheune",
       "Santenay",
-      "Chalon",
-      "Saône",
-      "Verdun",
-      "Doubs",
+      "Chalon-sur-Saône",
+      "Verdun-sur-le-Doubs",
       "Seurre",
-      "Jean",
-      "de",
-      "Losne",
+      "Saint-Jean-de-Losne",
       "Dole",
-      "Vit",
+      "Saint-Vit",
       "Besançon",
       "Deluz",
-      "Baume",
-      "Dames",
-      "L'Isle",
+      "Baume-les-Dames",
+      "L'Isle-sur-le-Doubs",
       "Montbéliard",
-      "Montreux",
-      "Jeune",
+      "Montreux-Jeune",
       "Mulhouse",
       "Basel",
       "Laufenburg (Baden)",
@@ -166,8 +142,7 @@
       "Baziaș",
       "Coronini",
       "Svinita",
-      "Drobeta",
-      "Turnu Severin",
+      "Drobeta-Turnu Severin",
       "Balta Verde",
       "Garla Mare",
       "Calafat",
@@ -203,10 +178,7 @@
         "elevation_gain": 118.4,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Brevin",
-          "les",
-          "Pins",
+          "Saint-Brevin-les-Pins",
           "Le Pellerin"
         ]
       },
@@ -3632,9 +3604,7 @@
         "difficulty": "easy",
         "cities": [
           "Nantes",
-          "Mauves",
-          "sur",
-          "Loire"
+          "Mauves-sur-Loire"
         ]
       },
       "geometry": {
@@ -4663,9 +4633,7 @@
         "elevation_gain": 56.1,
         "difficulty": "easy",
         "cities": [
-          "Mauves",
-          "sur",
-          "Loire",
+          "Mauves-sur-Loire",
           "Champtoceaux"
         ]
       },
@@ -5306,10 +5274,7 @@
         "difficulty": "easy",
         "cities": [
           "Champtoceaux",
-          "Saint",
-          "Florent",
-          "le",
-          "Vieil"
+          "Saint-Florent-le-Vieil"
         ]
       },
       "geometry": {
@@ -6703,13 +6668,8 @@
         "elevation_gain": 76.3,
         "difficulty": "easy",
         "cities": [
-          "Saint",
-          "Florent",
-          "le",
-          "Vieil",
-          "Chalonnes",
-          "sur",
-          "Loire"
+          "Saint-Florent-le-Vieil",
+          "Chalonnes-sur-Loire"
         ]
       },
       "geometry": {
@@ -7568,9 +7528,7 @@
         "elevation_gain": 196.5,
         "difficulty": "easy",
         "cities": [
-          "Chalonnes",
-          "sur",
-          "Loire",
+          "Chalonnes-sur-Loire",
           "Angers"
         ]
       },
@@ -8701,10 +8659,7 @@
         "difficulty": "moderate",
         "cities": [
           "Angers",
-          "Saint",
-          "Rémy",
-          "la",
-          "Varenne"
+          "Saint-Rémy-la-Varenne"
         ]
       },
       "geometry": {
@@ -9688,10 +9643,7 @@
         "elevation_gain": 366.8,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Rémy",
-          "la",
-          "Varenne",
+          "Saint-Rémy-la-Varenne",
           "Saumur"
         ]
       },
@@ -11137,9 +11089,7 @@
         "difficulty": "moderate",
         "cities": [
           "Saumur",
-          "Candes",
-          "Saint",
-          "Martin"
+          "Candes-Saint-Martin"
         ]
       },
       "geometry": {
@@ -12388,11 +12338,8 @@
         "elevation_gain": 126.9,
         "difficulty": "easy",
         "cities": [
-          "Candes",
-          "Saint",
-          "Martin",
-          "Rigny",
-          "Ussé"
+          "Candes-Saint-Martin",
+          "Rigny-Ussé"
         ]
       },
       "geometry": {
@@ -13831,8 +13778,7 @@
         "elevation_gain": 101.9,
         "difficulty": "easy",
         "cities": [
-          "Rigny",
-          "Ussé",
+          "Rigny-Ussé",
           "Villandry"
         ]
       },
@@ -18733,9 +18679,7 @@
         "difficulty": "moderate",
         "cities": [
           "Amboise",
-          "Chaumont",
-          "sur",
-          "Loire"
+          "Chaumont-sur-Loire"
         ]
       },
       "geometry": {
@@ -20379,9 +20323,7 @@
         "elevation_gain": 154.2,
         "difficulty": "easy",
         "cities": [
-          "Chaumont",
-          "sur",
-          "Loire",
+          "Chaumont-sur-Loire",
           "Blois"
         ]
       },
@@ -21707,9 +21649,7 @@
         "difficulty": "easy",
         "cities": [
           "Blois",
-          "Muides",
-          "sur",
-          "Loire"
+          "Muides-sur-Loire"
         ]
       },
       "geometry": {
@@ -22413,9 +22353,7 @@
         "elevation_gain": 80.1,
         "difficulty": "easy",
         "cities": [
-          "Muides",
-          "sur",
-          "Loire",
+          "Muides-sur-Loire",
           "Beaugency"
         ]
       },
@@ -26326,9 +26264,7 @@
         "difficulty": "moderate",
         "cities": [
           "Jargeau",
-          "Sully",
-          "sur",
-          "Loire"
+          "Sully-sur-Loire"
         ]
       },
       "geometry": {
@@ -28032,9 +27968,7 @@
         "elevation_gain": 260.1,
         "difficulty": "moderate",
         "cities": [
-          "Sully",
-          "sur",
-          "Loire",
+          "Sully-sur-Loire",
           "Briare"
         ]
       },
@@ -31825,9 +31759,7 @@
         "difficulty": "easy",
         "cities": [
           "Sancerre",
-          "Pouilly",
-          "sur",
-          "Loire"
+          "Pouilly-sur-Loire"
         ]
       },
       "geometry": {
@@ -32496,13 +32428,8 @@
         "elevation_gain": 46.1,
         "difficulty": "easy",
         "cities": [
-          "Pouilly",
-          "sur",
-          "Loire",
-          "La",
-          "Charité",
-          "Sur",
-          "Loire"
+          "Pouilly-sur-Loire",
+          "La-Charité-Sur-Loire"
         ]
       },
       "geometry": {
@@ -33026,10 +32953,7 @@
         "elevation_gain": 104.8,
         "difficulty": "moderate",
         "cities": [
-          "La",
-          "Charité",
-          "Sur",
-          "Loire",
+          "La-Charité-Sur-Loire",
           "Cuffy"
         ]
       },
@@ -37610,8 +37534,7 @@
         "difficulty": "easy",
         "cities": [
           "Cronat",
-          "Bourbon",
-          "Lancy"
+          "Bourbon-Lancy"
         ]
       },
       "geometry": {
@@ -38480,8 +38403,7 @@
         "elevation_gain": 121.3,
         "difficulty": "moderate",
         "cities": [
-          "Bourbon",
-          "Lancy",
+          "Bourbon-Lancy",
           "Digoin"
         ]
       },
@@ -39597,9 +39519,7 @@
         "difficulty": "easy",
         "cities": [
           "Digoin",
-          "Paray",
-          "le",
-          "Monial"
+          "Paray-le-Monial"
         ]
       },
       "geometry": {
@@ -40413,9 +40333,7 @@
         "elevation_gain": 190.5,
         "difficulty": "easy",
         "cities": [
-          "Paray",
-          "le",
-          "Monial",
+          "Paray-le-Monial",
           "Palinges"
         ]
       },
@@ -41306,9 +41224,7 @@
         "difficulty": "moderate",
         "cities": [
           "Palinges",
-          "Montceau",
-          "les",
-          "Mines"
+          "Montceau-les-Mines"
         ]
       },
       "geometry": {
@@ -42897,9 +42813,7 @@
         "elevation_gain": 115.5,
         "difficulty": "easy",
         "cities": [
-          "Montceau",
-          "les",
-          "Mines",
+          "Montceau-les-Mines",
           "Montchanin"
         ]
       },
@@ -43880,10 +43794,7 @@
         "difficulty": "easy",
         "cities": [
           "Montchanin",
-          "St",
-          "Léger",
-          "sur",
-          "Dheune"
+          "St-Léger-sur-Dheune"
         ]
       },
       "geometry": {
@@ -45092,10 +45003,7 @@
         "elevation_gain": 19.5,
         "difficulty": "easy",
         "cities": [
-          "St",
-          "Léger",
-          "sur",
-          "Dheune",
+          "St-Léger-sur-Dheune",
           "Santenay"
         ]
       },
@@ -45511,9 +45419,7 @@
         "difficulty": "easy",
         "cities": [
           "Santenay",
-          "Chalon",
-          "sur",
-          "Saône"
+          "Chalon-sur-Saône"
         ]
       },
       "geometry": {
@@ -46967,13 +46873,8 @@
         "elevation_gain": 136.2,
         "difficulty": "easy",
         "cities": [
-          "Chalon",
-          "sur",
-          "Saône",
-          "Verdun",
-          "sur",
-          "le",
-          "Doubs"
+          "Chalon-sur-Saône",
+          "Verdun-sur-le-Doubs"
         ]
       },
       "geometry": {
@@ -48492,10 +48393,7 @@
         "elevation_gain": 61.1,
         "difficulty": "easy",
         "cities": [
-          "Verdun",
-          "sur",
-          "le",
-          "Doubs",
+          "Verdun-sur-le-Doubs",
           "Seurre"
         ]
       },
@@ -49431,10 +49329,7 @@
         "difficulty": "easy",
         "cities": [
           "Seurre",
-          "Saint",
-          "Jean",
-          "de",
-          "Losne"
+          "Saint-Jean-de-Losne"
         ]
       },
       "geometry": {
@@ -50623,10 +50518,7 @@
         "elevation_gain": 136.9,
         "difficulty": "easy",
         "cities": [
-          "Saint",
-          "Jean",
-          "de",
-          "Losne",
+          "Saint-Jean-de-Losne",
           "Dole"
         ]
       },
@@ -51692,8 +51584,7 @@
         "difficulty": "moderate",
         "cities": [
           "Dole",
-          "Saint",
-          "Vit"
+          "Saint-Vit"
         ]
       },
       "geometry": {
@@ -52927,8 +52818,7 @@
         "elevation_gain": 386.8,
         "difficulty": "moderate",
         "cities": [
-          "Saint",
-          "Vit",
+          "Saint-Vit",
           "Besançon"
         ]
       },
@@ -54759,9 +54649,7 @@
         "difficulty": "moderate",
         "cities": [
           "Deluz",
-          "Baume",
-          "les",
-          "Dames"
+          "Baume-les-Dames"
         ]
       },
       "geometry": {
@@ -55330,13 +55218,8 @@
         "elevation_gain": 494.1,
         "difficulty": "moderate",
         "cities": [
-          "Baume",
-          "les",
-          "Dames",
-          "L'Isle",
-          "sur",
-          "le",
-          "Doubs"
+          "Baume-les-Dames",
+          "L'Isle-sur-le-Doubs"
         ]
       },
       "geometry": {
@@ -56585,10 +56468,7 @@
         "elevation_gain": 149.1,
         "difficulty": "easy",
         "cities": [
-          "L'Isle",
-          "sur",
-          "le",
-          "Doubs",
+          "L'Isle-sur-le-Doubs",
           "Montbéliard"
         ]
       },
@@ -57434,8 +57314,7 @@
         "difficulty": "easy",
         "cities": [
           "Montbéliard",
-          "Montreux",
-          "Jeune"
+          "Montreux-Jeune"
         ]
       },
       "geometry": {
@@ -58444,8 +58323,7 @@
         "elevation_gain": 75.4,
         "difficulty": "moderate",
         "cities": [
-          "Montreux",
-          "Jeune",
+          "Montreux-Jeune",
           "Mulhouse"
         ]
       },
@@ -211781,8 +211659,7 @@
         "difficulty": "hard",
         "cities": [
           "Svinita",
-          "Drobeta",
-          "Turnu Severin"
+          "Drobeta-Turnu Severin"
         ]
       },
       "geometry": {
@@ -212386,8 +212263,7 @@
         "elevation_gain": 187.1,
         "difficulty": "hard",
         "cities": [
-          "Drobeta",
-          "Turnu Severin",
+          "Drobeta-Turnu Severin",
           "Balta Verde"
         ]
       },
