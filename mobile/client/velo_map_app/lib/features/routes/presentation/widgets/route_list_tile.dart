@@ -127,6 +127,14 @@ class RouteListTile extends StatelessWidget {
                       label: route.formattedElevation,
                       isSelected: isSelected,
                     ),
+                    if (route.stages.isNotEmpty) ...[
+                      const SizedBox(width: 16),
+                      _MetadataChip(
+                        icon: Icons.alt_route_rounded,
+                        label: '${route.stages.length} stages',
+                        isSelected: isSelected,
+                      ),
+                    ],
                   ],
                 ),
 
@@ -481,7 +489,7 @@ class _ScrollableStagesList extends StatelessWidget {
   final ColorScheme colorScheme;
 
   /// Maximum height for the stages list container
-  static const double _maxHeight = 200.0;
+  static const double _maxHeight = 250.0;
 
   const _ScrollableStagesList({
     required this.stages,
@@ -496,25 +504,11 @@ class _ScrollableStagesList extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        // Header row - fixed outside scrollable area
-        Row(
-          children: [
-            Icon(
-              Icons.alt_route_rounded,
-              size: 16,
-              color: colorScheme.onPrimaryContainer,
-            ),
-            const SizedBox(width: 6),
-            Text(
-              'Stages (${stages.length})',
-              style: TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
-                color: colorScheme.onPrimaryContainer,
-              ),
-            ),
-            const Spacer(),
-            if (selectedStage != null)
+        // Header row with "Show full route" button (only when stage is selected)
+        if (selectedStage != null) ...[
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
               GestureDetector(
                 onTap: onStageClear,
                 child: Container(
@@ -547,9 +541,10 @@ class _ScrollableStagesList extends StatelessWidget {
                   ),
                 ),
               ),
-          ],
-        ),
-        const SizedBox(height: 8),
+            ],
+          ),
+          const SizedBox(height: 8),
+        ],
         // Scrollable stages list with fixed height
         Container(
           constraints: const BoxConstraints(maxHeight: _maxHeight),
