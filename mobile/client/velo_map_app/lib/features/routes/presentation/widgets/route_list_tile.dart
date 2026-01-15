@@ -68,6 +68,34 @@ class RouteListTile extends StatelessWidget {
                         ),
                       ),
                     ),
+                    if (isSelected) ...[
+                      _ActionIconButton(
+                        icon: Icons.share_rounded,
+                        onPressed: () {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Share functionality coming soon'),
+                              duration: Duration(seconds: 2),
+                            ),
+                          );
+                        },
+                        colorScheme: colorScheme,
+                      ),
+                      const SizedBox(width: 4),
+                      _ActionIconButton(
+                        icon: Icons.download_rounded,
+                        onPressed: () {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Download functionality coming soon'),
+                              duration: Duration(seconds: 2),
+                            ),
+                          );
+                        },
+                        colorScheme: colorScheme,
+                        filled: true,
+                      ),
+                    ],
                   ],
                 ),
                 const SizedBox(height: 8),
@@ -99,6 +127,14 @@ class RouteListTile extends StatelessWidget {
                       label: route.formattedElevation,
                       isSelected: isSelected,
                     ),
+                    if (route.stages.isNotEmpty) ...[
+                      const SizedBox(width: 16),
+                      _MetadataChip(
+                        icon: Icons.alt_route_rounded,
+                        label: '${route.stages.length} stages',
+                        isSelected: isSelected,
+                      ),
+                    ],
                   ],
                 ),
 
@@ -108,17 +144,20 @@ class RouteListTile extends StatelessWidget {
                   const Divider(height: 1),
                   const SizedBox(height: 16),
 
-                  // Elevation Graph
+                  // Elevation Graph - fixed at top, shows stage profile when stage is selected
                   _ElevationGraph(
-                    elevations: _extractElevations(route.coordinates),
+                    elevations: selectedStage != null
+                        ? _extractElevations(selectedStage!.coordinates)
+                        : _extractElevations(route.coordinates),
                     colorScheme: colorScheme,
                     isSelected: isSelected,
+                    stageName: selectedStage?.name,
                   ),
 
-                  // Stages list (if route has stages)
+                  // Stages list (if route has stages) - scrollable independently
                   if (route.stages.isNotEmpty) ...[
                     const SizedBox(height: 16),
-                    _StagesList(
+                    _ScrollableStagesList(
                       stages: route.stages,
                       selectedStage: selectedStage,
                       onStageSelected: onStageSelected,
@@ -127,66 +166,6 @@ class RouteListTile extends StatelessWidget {
                     ),
                   ],
 
-                  const SizedBox(height: 16),
-
-                  // Action buttons
-                  Row(
-                    children: [
-                      Expanded(
-                        child: OutlinedButton.icon(
-                          onPressed: () {
-                            // TODO: Implement share functionality
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text(
-                                  'Share functionality coming soon',
-                                ),
-                                duration: Duration(seconds: 2),
-                              ),
-                            );
-                          },
-                          icon: Icon(
-                            Icons.share_rounded,
-                            size: 18,
-                            color: colorScheme.primary,
-                          ),
-                          label: Text(
-                            'Share',
-                            style: TextStyle(color: colorScheme.primary),
-                          ),
-                          style: OutlinedButton.styleFrom(
-                            side: BorderSide(color: colorScheme.primary),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                          ),
-                        ),
-                      ),
-                      const SizedBox(width: 12),
-                      Expanded(
-                        child: FilledButton.icon(
-                          onPressed: () {
-                            // TODO: Implement download functionality
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text(
-                                  'Download functionality coming soon',
-                                ),
-                                duration: Duration(seconds: 2),
-                              ),
-                            );
-                          },
-                          icon: const Icon(Icons.download_rounded, size: 18),
-                          label: const Text('Download'),
-                          style: FilledButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
                 ],
               ],
             ),
@@ -210,11 +189,13 @@ class _ElevationGraph extends StatelessWidget {
   final List<double> elevations;
   final ColorScheme colorScheme;
   final bool isSelected;
+  final String? stageName;
 
   const _ElevationGraph({
     required this.elevations,
     required this.colorScheme,
     required this.isSelected,
+    this.stageName,
   });
 
   @override
@@ -239,32 +220,40 @@ class _ElevationGraph extends StatelessWidget {
     final maxElevation = elevations.reduce(math.max);
     final elevationRange = maxElevation - minElevation;
 
+    final profileTitle = stageName != null 
+        ? 'Stage: $stageName' 
+        : 'Elevation Profile';
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
           children: [
             Icon(
-              Icons.show_chart_rounded,
+              stageName != null ? Icons.alt_route_rounded : Icons.show_chart_rounded,
               size: 16,
               color: isSelected
                   ? colorScheme.onPrimaryContainer
                   : colorScheme.onSurfaceVariant,
             ),
             const SizedBox(width: 6),
-            Text(
-              'Elevation Profile',
-              style: TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
-                color: isSelected
-                    ? colorScheme.onPrimaryContainer
-                    : colorScheme.onSurfaceVariant,
+            Expanded(
+              child: Text(
+                profileTitle,
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w600,
+                  color: isSelected
+                      ? colorScheme.onPrimaryContainer
+                      : colorScheme.onSurfaceVariant,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
             ),
-            const Spacer(),
+            const SizedBox(width: 8),
             Text(
-              '${minElevation.toInt()}m, ${maxElevation.toInt()}m',
+              '${minElevation.toInt()}m – ${maxElevation.toInt()}m',
               style: TextStyle(
                 fontSize: 11,
                 color: isSelected
@@ -490,15 +479,19 @@ class _MetadataChip extends StatelessWidget {
   }
 }
 
-/// Widget to display list of stages for a route
-class _StagesList extends StatelessWidget {
+/// Widget to display scrollable list of stages for a route
+/// The stages list has a fixed height and scrolls independently
+class _ScrollableStagesList extends StatelessWidget {
   final List<RouteStageEntity> stages;
   final RouteStageEntity? selectedStage;
   final void Function(RouteStageEntity stage)? onStageSelected;
   final VoidCallback? onStageClear;
   final ColorScheme colorScheme;
 
-  const _StagesList({
+  /// Maximum height for the stages list container
+  static const double _maxHeight = 250.0;
+
+  const _ScrollableStagesList({
     required this.stages,
     required this.selectedStage,
     required this.onStageSelected,
@@ -511,24 +504,11 @@ class _StagesList extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
-          children: [
-            Icon(
-              Icons.alt_route_rounded,
-              size: 16,
-              color: colorScheme.onPrimaryContainer,
-            ),
-            const SizedBox(width: 6),
-            Text(
-              'Stages',
-              style: TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
-                color: colorScheme.onPrimaryContainer,
-              ),
-            ),
-            const Spacer(),
-            if (selectedStage != null)
+        // Header row with "Show full route" button (only when stage is selected)
+        if (selectedStage != null) ...[
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
               GestureDetector(
                 onTap: onStageClear,
                 child: Container(
@@ -561,21 +541,41 @@ class _StagesList extends StatelessWidget {
                   ),
                 ),
               ),
-          ],
-        ),
-        const SizedBox(height: 8),
-        ...stages.map(
-          (stage) => _StageItem(
-            stage: stage,
-            isSelected: selectedStage?.stage == stage.stage,
-            onTap: () {
-              if (selectedStage?.stage == stage.stage) {
-                onStageClear?.call();
-              } else {
-                onStageSelected?.call(stage);
-              }
-            },
-            colorScheme: colorScheme,
+            ],
+          ),
+          const SizedBox(height: 8),
+        ],
+        // Scrollable stages list with fixed height
+        Container(
+          constraints: const BoxConstraints(maxHeight: _maxHeight),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(8),
+            border: Border.all(
+              color: colorScheme.outline.withValues(alpha: 0.2),
+            ),
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: ListView.builder(
+              shrinkWrap: true,
+              padding: const EdgeInsets.all(6),
+              itemCount: stages.length,
+              itemBuilder: (context, index) {
+                final stage = stages[index];
+                return _StageItem(
+                  stage: stage,
+                  isSelected: selectedStage?.stage == stage.stage,
+                  onTap: () {
+                    if (selectedStage?.stage == stage.stage) {
+                      onStageClear?.call();
+                    } else {
+                      onStageSelected?.call(stage);
+                    }
+                  },
+                  colorScheme: colorScheme,
+                );
+              },
+            ),
           ),
         ),
       ],
@@ -707,6 +707,64 @@ class _StageItem extends StatelessWidget {
               color: isSelected ? colorScheme.primary : colorScheme.outline,
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Icon button for share/download actions in the card header
+class _ActionIconButton extends StatelessWidget {
+  final IconData icon;
+  final VoidCallback onPressed;
+  final ColorScheme colorScheme;
+  final bool filled;
+
+  const _ActionIconButton({
+    required this.icon,
+    required this.onPressed,
+    required this.colorScheme,
+    this.filled = false,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    if (filled) {
+      return Material(
+        color: colorScheme.primary,
+        borderRadius: BorderRadius.circular(8),
+        child: InkWell(
+          onTap: onPressed,
+          borderRadius: BorderRadius.circular(8),
+          child: Padding(
+            padding: const EdgeInsets.all(8),
+            child: Icon(
+              icon,
+              size: 20,
+              color: colorScheme.onPrimary,
+            ),
+          ),
+        ),
+      );
+    }
+
+    return Material(
+      color: Colors.transparent,
+      borderRadius: BorderRadius.circular(8),
+      child: InkWell(
+        onTap: onPressed,
+        borderRadius: BorderRadius.circular(8),
+        child: Container(
+          padding: const EdgeInsets.all(8),
+          decoration: BoxDecoration(
+            border: Border.all(color: colorScheme.primary),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Icon(
+            icon,
+            size: 20,
+            color: colorScheme.primary,
+          ),
         ),
       ),
     );
