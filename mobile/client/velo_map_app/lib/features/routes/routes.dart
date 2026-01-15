@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geolocator/geolocator.dart' hide Position;
+import 'package:geolocator/geolocator.dart' as geo;
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
@@ -85,6 +85,31 @@ class _RoutesState extends State<Routes> {
     // Enable user location if permission already granted
     if (_locationPermissionGranted) {
       await _enableUserLocation();
+      await _moveToCurrentLocation();
+    }
+  }
+
+  /// Move camera to current location if available (no animation, used at startup)
+  Future<void> _moveToCurrentLocation() async {
+    if (_mapboxMap == null) return;
+
+    try {
+      final position = await geo.Geolocator.getCurrentPosition(
+        locationSettings: geo.LocationSettings(
+          accuracy: geo.LocationAccuracy.medium,
+          timeLimit: const Duration(seconds: 5),
+        ),
+      );
+      await _mapboxMap!.setCamera(
+        CameraOptions(
+          center: Point(
+            coordinates: Position(position.longitude, position.latitude),
+          ),
+          zoom: _defaultZoom,
+        ),
+      );
+    } catch (_) {
+      // Location unavailable - keep default Tel Aviv position
     }
   }
 
@@ -228,7 +253,7 @@ class _RoutesState extends State<Routes> {
 
     try {
       // Get current position using Geolocator
-      final position = await Geolocator.getCurrentPosition();
+      final position = await geo.Geolocator.getCurrentPosition();
 
       await _mapboxMap!.flyTo(
         CameraOptions(
@@ -241,7 +266,7 @@ class _RoutesState extends State<Routes> {
       );
     } catch (e) {
       // If getting current position fails, try last known position
-      final lastPosition = await Geolocator.getLastKnownPosition();
+      final lastPosition = await geo.Geolocator.getLastKnownPosition();
       if (lastPosition != null && _mapboxMap != null) {
         await _mapboxMap!.flyTo(
           CameraOptions(
