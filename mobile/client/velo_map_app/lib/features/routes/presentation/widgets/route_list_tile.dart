@@ -136,7 +136,7 @@ class RouteListTile extends StatelessWidget {
                   const Divider(height: 1),
                   const SizedBox(height: 16),
 
-                  // Elevation Graph - shows stage profile when stage is selected, otherwise full route
+                  // Elevation Graph - fixed at top, shows stage profile when stage is selected
                   _ElevationGraph(
                     elevations: selectedStage != null
                         ? _extractElevations(selectedStage!.coordinates)
@@ -146,10 +146,10 @@ class RouteListTile extends StatelessWidget {
                     stageName: selectedStage?.name,
                   ),
 
-                  // Stages list (if route has stages)
+                  // Stages list (if route has stages) - scrollable independently
                   if (route.stages.isNotEmpty) ...[
                     const SizedBox(height: 16),
-                    _StagesList(
+                    _ScrollableStagesList(
                       stages: route.stages,
                       selectedStage: selectedStage,
                       onStageSelected: onStageSelected,
@@ -471,15 +471,19 @@ class _MetadataChip extends StatelessWidget {
   }
 }
 
-/// Widget to display list of stages for a route
-class _StagesList extends StatelessWidget {
+/// Widget to display scrollable list of stages for a route
+/// The stages list has a fixed height and scrolls independently
+class _ScrollableStagesList extends StatelessWidget {
   final List<RouteStageEntity> stages;
   final RouteStageEntity? selectedStage;
   final void Function(RouteStageEntity stage)? onStageSelected;
   final VoidCallback? onStageClear;
   final ColorScheme colorScheme;
 
-  const _StagesList({
+  /// Maximum height for the stages list container
+  static const double _maxHeight = 200.0;
+
+  const _ScrollableStagesList({
     required this.stages,
     required this.selectedStage,
     required this.onStageSelected,
@@ -492,6 +496,7 @@ class _StagesList extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // Header row - fixed outside scrollable area
         Row(
           children: [
             Icon(
@@ -501,7 +506,7 @@ class _StagesList extends StatelessWidget {
             ),
             const SizedBox(width: 6),
             Text(
-              'Stages',
+              'Stages (${stages.length})',
               style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w600,
@@ -545,18 +550,37 @@ class _StagesList extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 8),
-        ...stages.map(
-          (stage) => _StageItem(
-            stage: stage,
-            isSelected: selectedStage?.stage == stage.stage,
-            onTap: () {
-              if (selectedStage?.stage == stage.stage) {
-                onStageClear?.call();
-              } else {
-                onStageSelected?.call(stage);
-              }
-            },
-            colorScheme: colorScheme,
+        // Scrollable stages list with fixed height
+        Container(
+          constraints: const BoxConstraints(maxHeight: _maxHeight),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(8),
+            border: Border.all(
+              color: colorScheme.outline.withValues(alpha: 0.2),
+            ),
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: ListView.builder(
+              shrinkWrap: true,
+              padding: const EdgeInsets.all(6),
+              itemCount: stages.length,
+              itemBuilder: (context, index) {
+                final stage = stages[index];
+                return _StageItem(
+                  stage: stage,
+                  isSelected: selectedStage?.stage == stage.stage,
+                  onTap: () {
+                    if (selectedStage?.stage == stage.stage) {
+                      onStageClear?.call();
+                    } else {
+                      onStageSelected?.call(stage);
+                    }
+                  },
+                  colorScheme: colorScheme,
+                );
+              },
+            ),
           ),
         ),
       ],
