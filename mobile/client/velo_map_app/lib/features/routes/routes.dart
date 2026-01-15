@@ -75,8 +75,26 @@ class _RoutesState extends State<Routes> {
   void _onMapCreated(MapboxMap mapboxMap) async {
     _mapboxMap = mapboxMap;
 
+    // Get screen height before async operations
+    final screenHeight = MediaQuery.of(context).size.height;
+
     // Disable scale bar
     await mapboxMap.scaleBar.updateSettings(ScaleBarSettings(enabled: false));
+
+    // Configure compass - position it 10px above location button
+    // Location button is at: (screenHeight * _mid + 16) from bottom
+    // Location button height: 40px (FloatingActionButton.small)
+    // Compass should be 10px above that
+    final bottomSheetMidHeight = screenHeight * _mid;
+    final locationButtonBottom = bottomSheetMidHeight + 16; // 16px margin above sheet at mid height
+    final compassBottom = locationButtonBottom + 40 + 10; // 40px button + 10px spacing
+    
+    await mapboxMap.compass.updateSettings(CompassSettings(
+      enabled: true,
+      position: OrnamentPosition.BOTTOM_RIGHT,
+      marginBottom: compassBottom,
+      marginRight: 16,
+    ));
 
     // Create polyline annotation manager for drawing routes
     _polylineManager = await mapboxMap.annotations
@@ -372,28 +390,23 @@ class _RoutesState extends State<Routes> {
                 ),
               ),
 
-              // Map controls (Location + Zoom)
+              // Location button - right side, just above the bottom sheet at default (mid) height
               Positioned(
-                left: 16,
-                top: MediaQuery.of(context).padding.top + 16,
-                child: Column(
-                  children: [
-                    // Location FAB
-                    FloatingActionButton.small(
-                      heroTag: 'location_fab',
-                      onPressed: _goToUserLocation,
-                      backgroundColor: colorScheme.surface,
-                      foregroundColor: _locationPermissionGranted
-                          ? colorScheme.primary
-                          : colorScheme.outline,
-                      elevation: 2,
-                      child: Icon(
-                        _locationPermissionGranted
-                            ? Icons.my_location_rounded
-                            : Icons.location_disabled_rounded,
-                      ),
-                    ),
-                  ],
+                right: 16,
+                bottom: MediaQuery.of(context).size.height * _mid + 16,
+                child: FloatingActionButton.small(
+                  heroTag: 'location_fab',
+                  onPressed: _goToUserLocation,
+                  backgroundColor: colorScheme.surface,
+                  foregroundColor: _locationPermissionGranted
+                      ? colorScheme.primary
+                      : colorScheme.outline,
+                  elevation: 2,
+                  child: Icon(
+                    _locationPermissionGranted
+                        ? Icons.my_location_rounded
+                        : Icons.location_disabled_rounded,
+                  ),
                 ),
               ),
 
