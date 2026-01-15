@@ -68,6 +68,34 @@ class RouteListTile extends StatelessWidget {
                         ),
                       ),
                     ),
+                    if (isSelected) ...[
+                      _ActionIconButton(
+                        icon: Icons.share_rounded,
+                        onPressed: () {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Share functionality coming soon'),
+                              duration: Duration(seconds: 2),
+                            ),
+                          );
+                        },
+                        colorScheme: colorScheme,
+                      ),
+                      const SizedBox(width: 4),
+                      _ActionIconButton(
+                        icon: Icons.download_rounded,
+                        onPressed: () {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Download functionality coming soon'),
+                              duration: Duration(seconds: 2),
+                            ),
+                          );
+                        },
+                        colorScheme: colorScheme,
+                        filled: true,
+                      ),
+                    ],
                   ],
                 ),
                 const SizedBox(height: 8),
@@ -127,66 +155,6 @@ class RouteListTile extends StatelessWidget {
                     ),
                   ],
 
-                  const SizedBox(height: 16),
-
-                  // Action buttons
-                  Row(
-                    children: [
-                      Expanded(
-                        child: OutlinedButton.icon(
-                          onPressed: () {
-                            // TODO: Implement share functionality
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text(
-                                  'Share functionality coming soon',
-                                ),
-                                duration: Duration(seconds: 2),
-                              ),
-                            );
-                          },
-                          icon: Icon(
-                            Icons.share_rounded,
-                            size: 18,
-                            color: colorScheme.primary,
-                          ),
-                          label: Text(
-                            'Share',
-                            style: TextStyle(color: colorScheme.primary),
-                          ),
-                          style: OutlinedButton.styleFrom(
-                            side: BorderSide(color: colorScheme.primary),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                          ),
-                        ),
-                      ),
-                      const SizedBox(width: 12),
-                      Expanded(
-                        child: FilledButton.icon(
-                          onPressed: () {
-                            // TODO: Implement download functionality
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text(
-                                  'Download functionality coming soon',
-                                ),
-                                duration: Duration(seconds: 2),
-                              ),
-                            );
-                          },
-                          icon: const Icon(Icons.download_rounded, size: 18),
-                          label: const Text('Download'),
-                          style: FilledButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
                 ],
               ],
             ),
@@ -707,6 +675,64 @@ class _StageItem extends StatelessWidget {
               color: isSelected ? colorScheme.primary : colorScheme.outline,
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Icon button for share/download actions in the card header
+class _ActionIconButton extends StatelessWidget {
+  final IconData icon;
+  final VoidCallback onPressed;
+  final ColorScheme colorScheme;
+  final bool filled;
+
+  const _ActionIconButton({
+    required this.icon,
+    required this.onPressed,
+    required this.colorScheme,
+    this.filled = false,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    if (filled) {
+      return Material(
+        color: colorScheme.primary,
+        borderRadius: BorderRadius.circular(8),
+        child: InkWell(
+          onTap: onPressed,
+          borderRadius: BorderRadius.circular(8),
+          child: Padding(
+            padding: const EdgeInsets.all(8),
+            child: Icon(
+              icon,
+              size: 20,
+              color: colorScheme.onPrimary,
+            ),
+          ),
+        ),
+      );
+    }
+
+    return Material(
+      color: Colors.transparent,
+      borderRadius: BorderRadius.circular(8),
+      child: InkWell(
+        onTap: onPressed,
+        borderRadius: BorderRadius.circular(8),
+        child: Container(
+          padding: const EdgeInsets.all(8),
+          decoration: BoxDecoration(
+            border: Border.all(color: colorScheme.primary),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Icon(
+            icon,
+            size: 20,
+            color: colorScheme.primary,
+          ),
         ),
       ),
     );
