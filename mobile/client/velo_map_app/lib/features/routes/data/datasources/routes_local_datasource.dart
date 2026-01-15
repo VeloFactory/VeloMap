@@ -29,7 +29,7 @@ class RouteLocalDatasource {
   }
 
   Future<List<String>> _routeFiles() async {
-    const allowedRoutes = {6, 9, 14};
+    const allowedRoutes = {6, 9, 14, 1, 4};
 
     final manifest1 = await AssetManifest.loadFromAssetBundle(rootBundle);
     final assets = manifest1.listAssets();
