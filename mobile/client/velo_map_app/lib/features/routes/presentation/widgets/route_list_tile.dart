@@ -136,11 +136,14 @@ class RouteListTile extends StatelessWidget {
                   const Divider(height: 1),
                   const SizedBox(height: 16),
 
-                  // Elevation Graph
+                  // Elevation Graph - shows stage profile when stage is selected, otherwise full route
                   _ElevationGraph(
-                    elevations: _extractElevations(route.coordinates),
+                    elevations: selectedStage != null
+                        ? _extractElevations(selectedStage!.coordinates)
+                        : _extractElevations(route.coordinates),
                     colorScheme: colorScheme,
                     isSelected: isSelected,
+                    stageName: selectedStage?.name,
                   ),
 
                   // Stages list (if route has stages)
@@ -178,11 +181,13 @@ class _ElevationGraph extends StatelessWidget {
   final List<double> elevations;
   final ColorScheme colorScheme;
   final bool isSelected;
+  final String? stageName;
 
   const _ElevationGraph({
     required this.elevations,
     required this.colorScheme,
     required this.isSelected,
+    this.stageName,
   });
 
   @override
@@ -207,32 +212,40 @@ class _ElevationGraph extends StatelessWidget {
     final maxElevation = elevations.reduce(math.max);
     final elevationRange = maxElevation - minElevation;
 
+    final profileTitle = stageName != null 
+        ? 'Stage: $stageName' 
+        : 'Elevation Profile';
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
           children: [
             Icon(
-              Icons.show_chart_rounded,
+              stageName != null ? Icons.alt_route_rounded : Icons.show_chart_rounded,
               size: 16,
               color: isSelected
                   ? colorScheme.onPrimaryContainer
                   : colorScheme.onSurfaceVariant,
             ),
             const SizedBox(width: 6),
-            Text(
-              'Elevation Profile',
-              style: TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
-                color: isSelected
-                    ? colorScheme.onPrimaryContainer
-                    : colorScheme.onSurfaceVariant,
+            Expanded(
+              child: Text(
+                profileTitle,
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w600,
+                  color: isSelected
+                      ? colorScheme.onPrimaryContainer
+                      : colorScheme.onSurfaceVariant,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
             ),
-            const Spacer(),
+            const SizedBox(width: 8),
             Text(
-              '${minElevation.toInt()}m, ${maxElevation.toInt()}m',
+              '${minElevation.toInt()}m – ${maxElevation.toInt()}m',
               style: TextStyle(
                 fontSize: 11,
                 color: isSelected
