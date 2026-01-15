@@ -235,8 +235,48 @@ class _RoutesState extends State<Routes> {
     if (_polylineManager == null) return;
     await _polylineManager!.deleteAll();
 
-    // Reset camera to default
+    // Return to user's location, or default if unavailable
     if (_mapboxMap != null) {
+      if (_locationPermissionGranted) {
+        try {
+          // First try last known position (instant, no waiting)
+          final lastPosition = await geo.Geolocator.getLastKnownPosition();
+          if (lastPosition != null) {
+            await _mapboxMap!.flyTo(
+              CameraOptions(
+                center: Point(
+                  coordinates: Position(lastPosition.longitude, lastPosition.latitude),
+                ),
+                zoom: _defaultZoom,
+              ),
+              MapAnimationOptions(duration: 500),
+            );
+            return;
+          }
+          
+          // If no last known, try current position with short timeout
+          final position = await geo.Geolocator.getCurrentPosition(
+            locationSettings: geo.LocationSettings(
+              accuracy: geo.LocationAccuracy.low,
+              timeLimit: const Duration(seconds: 2),
+            ),
+          );
+          await _mapboxMap!.flyTo(
+            CameraOptions(
+              center: Point(
+                coordinates: Position(position.longitude, position.latitude),
+              ),
+              zoom: _defaultZoom,
+            ),
+            MapAnimationOptions(duration: 500),
+          );
+          return;
+        } catch (_) {
+          // Fall through to default location
+        }
+      }
+      
+      // Fallback to default location if current location unavailable
       await _mapboxMap!.flyTo(
         CameraOptions(center: _defaultCenter, zoom: _defaultZoom),
         MapAnimationOptions(duration: 500),
