@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [master, develop]
+    branches: [master, routes_details]
   pull_request:
-    branches: [master, develop]
+    branches: [master, routes_details]
 
 jobs:
   analyze-and-test:
