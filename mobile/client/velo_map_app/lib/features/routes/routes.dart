@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_bloc.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_event.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_state.dart';
@@ -22,6 +23,7 @@ class _RoutesState extends State<Routes> {
   final FocusNode _searchFocusNode = FocusNode();
   final MapController _mapController = MapController();
   bool _isSearchVisible = false;
+  List<RouteEntity>? _lastRoutes;
 
   static const double _min = 0.108;
   static const double _mid = 0.40;
@@ -106,12 +108,30 @@ class _RoutesState extends State<Routes> {
     final polylineManager =
         await mapboxMap.annotations.createPolylineAnnotationManager();
     _mapController.setPolylineManager(polylineManager);
+    _mapController.setRouteTapHandler(_showRouteId);
+
+    final routes = context.read<RoutesBloc>().state.routes;
+    final hasRoutes = routes.isNotEmpty;
+    if (hasRoutes) {
+      await _mapController.drawRoutes(routes);
+      await _mapController.fitCameraToRoutes(routes);
+      _lastRoutes = routes;
+    }
 
     // Enable user location if permission already granted
     if (_mapController.locationPermissionGranted) {
       await _enableUserLocation();
-      await _mapController.moveToCurrentLocation();
+      if (!hasRoutes) {
+        await _mapController.moveToCurrentLocation();
+      }
     }
+  }
+
+  void _showRouteId(String routeId) {
+    ScaffoldMessenger.of(context).clearSnackBars();
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Route ID: $routeId')),
+    );
   }
 
   @override
@@ -120,15 +140,24 @@ class _RoutesState extends State<Routes> {
     final colorScheme = theme.colorScheme;
 
     return BlocConsumer<RoutesBloc, RoutesState>(
+      listenWhen: (previous, current) =>
+          previous.routes != current.routes ||
+          previous.selectedRoute != current.selectedRoute ||
+          previous.selectedStage != current.selectedStage,
       listener: (context, state) {
-        final lineColor = colorScheme.primary.toARGB32();
+        final selectedRoute = state.selectedRoute;
 
-        if (state.selectedRoute != null) {
+        if (selectedRoute != null) {
+          final lineColor = Color(selectedRoute.colorValue).toARGB32();
           // If a stage is selected, draw only that stage; otherwise draw full route
           if (state.selectedStage != null) {
-            _mapController.drawStage(state.selectedStage!, lineColor);
+            _mapController.drawStage(
+              state.selectedStage!,
+              lineColor,
+              routeId: selectedRoute.id,
+            );
           } else {
-            _mapController.drawRoute(state.selectedRoute!, lineColor);
+            _mapController.drawRoute(selectedRoute, lineColor);
           }
           // Expand sheet to show route details
           if (_sheet.isAttached) {
@@ -139,7 +168,15 @@ class _RoutesState extends State<Routes> {
             );
           }
         } else {
-          _mapController.clearRoute();
+          if (state.routes.isNotEmpty) {
+            _mapController.drawRoutes(state.routes);
+            if (_lastRoutes != state.routes) {
+              _mapController.fitCameraToRoutes(state.routes);
+              _lastRoutes = state.routes;
+            }
+          } else {
+            _mapController.clearRoute();
+          }
           // Collapse sheet when no route selected
           if (_sheet.isAttached) {
             _sheet.animateTo(

@@ -8,6 +8,7 @@ class RouteEntity {
   final double elevationGainM;
   final String difficulty;
   final int routeNumber;
+  final int colorValue;
   final List<List<double>> coordinates;
   final List<RouteStageEntity> stages;
   final List<String> cities;
@@ -20,6 +21,7 @@ class RouteEntity {
     required this.elevationGainM,
     required this.difficulty,
     required this.routeNumber,
+    required this.colorValue,
     required this.coordinates,
     this.stages = const [],
     this.cities = const [],
