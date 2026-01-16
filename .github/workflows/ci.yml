@@ -1,10 +1,20 @@
-name: CI
+name: Flutter CI
 
 on:
   push:
-    branches: [master, routes_details]
+    branches: [master, develop]
+    paths:
+      - 'mobile/client/velo_map_app/**'
+      - '.github/workflows/ci.yml'
   pull_request:
-    branches: [master, routes_details]
+    branches: [master, develop]
+    paths:
+      - 'mobile/client/velo_map_app/**'
+      - '.github/workflows/ci.yml'
+
+defaults:
+  run:
+    working-directory: mobile/client/velo_map_app
 
 jobs:
   analyze-and-test:
@@ -21,6 +31,7 @@ jobs:
           flutter-version: '3.10.7'
           channel: 'stable'
           cache: true
+          cache-path: ${{ runner.tool_cache }}/flutter
 
       - name: Install dependencies
         run: flutter pub get
@@ -42,7 +53,7 @@ jobs:
       - name: Upload coverage reports
         uses: codecov/codecov-action@v4
         with:
-          file: coverage/lcov.info
+          file: mobile/client/velo_map_app/coverage/lcov.info
           fail_ci_if_error: false
         continue-on-error: true
 
@@ -67,6 +78,7 @@ jobs:
           flutter-version: '3.10.7'
           channel: 'stable'
           cache: true
+          cache-path: ${{ runner.tool_cache }}/flutter
 
       - name: Install dependencies
         run: flutter pub get
@@ -85,7 +97,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: build/app/outputs/flutter-apk/app-debug.apk
+          path: mobile/client/velo_map_app/build/app/outputs/flutter-apk/app-debug.apk
           retention-days: 7
 
   build-ios:
@@ -103,6 +115,7 @@ jobs:
           flutter-version: '3.10.7'
           channel: 'stable'
           cache: true
+          cache-path: ${{ runner.tool_cache }}/flutter
 
       - name: Install dependencies
         run: flutter pub get
