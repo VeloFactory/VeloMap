@@ -19,9 +19,12 @@ class Routes extends StatefulWidget {
 
 class _RoutesState extends State<Routes> {
   final DraggableScrollableController _sheet = DraggableScrollableController();
+  final TextEditingController _searchController = TextEditingController();
+  final FocusNode _searchFocusNode = FocusNode();
   MapboxMap? _mapboxMap;
   PolylineAnnotationManager? _polylineManager;
   bool _locationPermissionGranted = false;
+  bool _isSearchVisible = false;
 
   static const double _min = 0.108;
   static const double _mid = 0.40;
@@ -42,7 +45,26 @@ class _RoutesState extends State<Routes> {
   @override
   void dispose() {
     _sheet.dispose();
+    _searchController.dispose();
+    _searchFocusNode.dispose();
     super.dispose();
+  }
+
+  void _toggleSearch() {
+    setState(() {
+      _isSearchVisible = !_isSearchVisible;
+      if (_isSearchVisible) {
+        _searchFocusNode.requestFocus();
+      } else {
+        _searchController.clear();
+        _searchFocusNode.unfocus();
+        context.read<RoutesBloc>().add(const RoutesEvent.clearSearch());
+      }
+    });
+  }
+
+  void _onSearchChanged(String query) {
+    context.read<RoutesBloc>().add(RoutesEvent.search(query));
   }
 
   Future<void> _requestLocationPermission() async {
@@ -378,6 +400,8 @@ class _RoutesState extends State<Routes> {
       },
       builder: (context, state) {
         return Scaffold(
+          // Prevent keyboard from pushing UI up when search is active
+          resizeToAvoidBottomInset: !_isSearchVisible,
           body: Stack(
             children: [
               // Map
@@ -409,6 +433,10 @@ class _RoutesState extends State<Routes> {
                   ),
                 ),
               ),
+
+              // Search overlay at top of screen
+              if (_isSearchVisible)
+                _buildSearchOverlay(context, state, colorScheme),
 
               // Loading indicator
               if (state.isLoading)
@@ -520,41 +548,280 @@ class _RoutesState extends State<Routes> {
           ),
           const SizedBox(height: 16),
           // Title row
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Row(
-              children: [
-                Icon(Icons.route_rounded, color: colorScheme.primary, size: 24),
-                const SizedBox(width: 10),
-                Text(
-                  'EuroVelo Routes',
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.w600,
-                    color: colorScheme.onSurface,
-                  ),
+          _buildTitleRow(context, state, colorScheme),
+          const SizedBox(height: 12),
+        ],
+      ),
+    );
+  }
+
+  /// Get autocomplete suggestions based on search query
+  List<String> _getAutocompleteSuggestions(RoutesState state) {
+    final query = _searchController.text.toLowerCase();
+    if (query.isEmpty) return [];
+
+    // Collect all unique cities from all routes
+    final allCities = <String>{};
+    for (final route in state.routes) {
+      allCities.addAll(route.cities);
+    }
+
+    // Filter and limit suggestions
+    return allCities
+        .where((city) => city.toLowerCase().contains(query))
+        .take(8)
+        .toList()
+      ..sort((a, b) {
+        // Prioritize cities that start with the query
+        final aStarts = a.toLowerCase().startsWith(query);
+        final bStarts = b.toLowerCase().startsWith(query);
+        if (aStarts && !bStarts) return -1;
+        if (!aStarts && bStarts) return 1;
+        return a.compareTo(b);
+      });
+  }
+
+  void _onSuggestionSelected(String city) {
+    _searchController.text = city;
+    _searchController.selection = TextSelection.collapsed(offset: city.length);
+    _onSearchChanged(city);
+    // Close the search bar after selecting a city
+    setState(() {
+      _isSearchVisible = false;
+      _searchFocusNode.unfocus();
+    });
+  }
+
+  Widget _buildSearchOverlay(
+    BuildContext context,
+    RoutesState state,
+    ColorScheme colorScheme,
+  ) {
+    final suggestions = _getAutocompleteSuggestions(state);
+
+    return Positioned(
+      top: 0,
+      left: 0,
+      right: 0,
+      child: Container(
+        color: colorScheme.surface,
+        child: SafeArea(
+          bottom: false,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // Search bar
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+                child: Row(
+                  children: [
+                    // Back button
+                    IconButton(
+                      onPressed: _toggleSearch,
+                      icon: Icon(
+                        Icons.arrow_back_rounded,
+                        color: colorScheme.onSurface,
+                      ),
+                    ),
+                    // Search field
+                    Expanded(
+                      child: TextField(
+                        controller: _searchController,
+                        focusNode: _searchFocusNode,
+                        onChanged: (query) {
+                          _onSearchChanged(query);
+                          setState(() {}); // Refresh suggestions
+                        },
+                        autofocus: true,
+                        decoration: InputDecoration(
+                          hintText: 'Search by city name...',
+                          filled: true,
+                          fillColor: colorScheme.surfaceContainerHighest,
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: BorderSide.none,
+                          ),
+                          contentPadding: const EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 12,
+                          ),
+                          suffixIcon: _searchController.text.isNotEmpty
+                              ? IconButton(
+                                  onPressed: () {
+                                    _searchController.clear();
+                                    _onSearchChanged('');
+                                    setState(() {});
+                                  },
+                                  icon: Icon(
+                                    Icons.clear_rounded,
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                                )
+                              : null,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-                const Spacer(),
-                if (state.selectedRoute != null)
-                  TextButton.icon(
-                    onPressed: () {
-                      context.read<RoutesBloc>().add(
-                        const RoutesEvent.clearSelection(),
+              ),
+              // Autocomplete suggestions
+              if (suggestions.isNotEmpty)
+                Container(
+                  constraints: const BoxConstraints(maxHeight: 300),
+                  decoration: BoxDecoration(
+                    color: colorScheme.surface,
+                    boxShadow: [
+                      BoxShadow(
+                        blurRadius: 8,
+                        spreadRadius: 1,
+                        offset: const Offset(0, 4),
+                        color: colorScheme.shadow.withValues(alpha: 0.1),
+                      ),
+                    ],
+                  ),
+                  child: ListView.builder(
+                    shrinkWrap: true,
+                    padding: EdgeInsets.zero,
+                    itemCount: suggestions.length,
+                    itemBuilder: (context, index) {
+                      final city = suggestions[index];
+                      return ListTile(
+                        leading: Icon(
+                          Icons.location_city_rounded,
+                          color: colorScheme.primary,
+                          size: 20,
+                        ),
+                        title: _buildHighlightedText(
+                          city,
+                          _searchController.text,
+                          colorScheme,
+                        ),
+                        onTap: () => _onSuggestionSelected(city),
+                        dense: true,
                       );
                     },
-                    icon: Icon(
-                      Icons.close_rounded,
-                      size: 18,
-                      color: colorScheme.primary,
-                    ),
-                    label: Text(
-                      'Clear',
-                      style: TextStyle(color: colorScheme.primary),
-                    ),
                   ),
-              ],
+                ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  /// Build text with the search query highlighted
+  Widget _buildHighlightedText(
+    String text,
+    String query,
+    ColorScheme colorScheme,
+  ) {
+    if (query.isEmpty) return Text(text);
+
+    final lowerText = text.toLowerCase();
+    final lowerQuery = query.toLowerCase();
+    final matchStart = lowerText.indexOf(lowerQuery);
+
+    if (matchStart < 0) return Text(text);
+
+    final matchEnd = matchStart + query.length;
+    return RichText(
+      text: TextSpan(
+        style: TextStyle(color: colorScheme.onSurface, fontSize: 14),
+        children: [
+          TextSpan(text: text.substring(0, matchStart)),
+          TextSpan(
+            text: text.substring(matchStart, matchEnd),
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: colorScheme.primary,
             ),
           ),
-          const SizedBox(height: 12),
+          TextSpan(text: text.substring(matchEnd)),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildTitleRow(
+    BuildContext context,
+    RoutesState state,
+    ColorScheme colorScheme,
+  ) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 20),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Title row with search and clear buttons
+          Row(
+            children: [
+              Icon(Icons.route_rounded, color: colorScheme.primary, size: 24),
+              const SizedBox(width: 10),
+              Text(
+                'EuroVelo Routes',
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.w600,
+                  color: colorScheme.onSurface,
+                ),
+              ),
+              const Spacer(),
+              // Search icon button
+              IconButton(
+                onPressed: _toggleSearch,
+                icon: Icon(
+                  Icons.search_rounded,
+                  color: colorScheme.onSurfaceVariant,
+                ),
+                tooltip: 'Search by city',
+              ),
+              // Clear button (text only)
+              if (state.selectedRoute != null)
+                TextButton(
+                  onPressed: () {
+                    context.read<RoutesBloc>().add(
+                      const RoutesEvent.clearSelection(),
+                    );
+                  },
+                  child: Text(
+                    'Clear',
+                    style: TextStyle(color: colorScheme.primary),
+                  ),
+                ),
+            ],
+          ),
+          // Active filter chip - shown below title when search is active
+          if (state.isSearchActive)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: InputChip(
+                label: Text(
+                  state.searchQuery,
+                  style: TextStyle(
+                    color: colorScheme.onSecondaryContainer,
+                    fontSize: 13,
+                  ),
+                ),
+                avatar: Icon(
+                  Icons.search_rounded,
+                  size: 18,
+                  color: colorScheme.onSecondaryContainer,
+                ),
+                deleteIcon: Icon(
+                  Icons.close_rounded,
+                  size: 18,
+                  color: colorScheme.onSecondaryContainer,
+                ),
+                onDeleted: () {
+                  _searchController.clear();
+                  context.read<RoutesBloc>().add(const RoutesEvent.clearSearch());
+                },
+                onPressed: _toggleSearch,
+                backgroundColor: colorScheme.secondaryContainer,
+                side: BorderSide.none,
+                padding: const EdgeInsets.symmetric(horizontal: 4),
+                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
+            ),
         ],
       ),
     );
@@ -564,12 +831,20 @@ class _RoutesState extends State<Routes> {
     ScrollController scrollController,
     RoutesState state,
   ) {
+    // Use filteredRoutes for search, or all routes if no search
+    final displayedRoutes = state.filteredRoutes;
+    
+    // Show "no results" if search is active but no matches
+    if (state.isSearchActive && displayedRoutes.isEmpty) {
+      return _buildNoSearchResultsView(Theme.of(context).colorScheme);
+    }
+    
     return ListView.builder(
       controller: scrollController,
       padding: const EdgeInsets.only(top: 8, bottom: 24),
-      itemCount: state.routes.length,
+      itemCount: displayedRoutes.length,
       itemBuilder: (context, index) {
-        final route = state.routes[index];
+        final route = displayedRoutes[index];
         final isSelected = state.selectedRoute?.id == route.id;
 
         return RouteListTile(
@@ -595,6 +870,41 @@ class _RoutesState extends State<Routes> {
           },
         );
       },
+    );
+  }
+
+  Widget _buildNoSearchResultsView(ColorScheme colorScheme) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(32),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              Icons.search_off_rounded,
+              size: 48,
+              color: colorScheme.outline,
+            ),
+            const SizedBox(height: 16),
+            Text(
+              'No routes found',
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w600,
+                color: colorScheme.onSurface,
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'Try searching for a different city',
+              style: TextStyle(
+                fontSize: 14,
+                color: colorScheme.onSurfaceVariant,
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 

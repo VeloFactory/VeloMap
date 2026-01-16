@@ -10,6 +10,7 @@ class RouteEntity {
   final int routeNumber;
   final List<List<double>> coordinates;
   final List<RouteStageEntity> stages;
+  final List<String> cities;
 
   const RouteEntity({
     required this.id,
@@ -21,6 +22,7 @@ class RouteEntity {
     required this.routeNumber,
     required this.coordinates,
     this.stages = const [],
+    this.cities = const [],
   });
 
   String get formattedElevation => '${elevationGainM.toStringAsFixed(0)} m';

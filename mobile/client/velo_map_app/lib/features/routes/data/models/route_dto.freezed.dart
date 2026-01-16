@@ -296,7 +296,7 @@ as List<List<double>>,
 /// @nodoc
 mixin _$RouteDto {
 
- String get id; String get name; String get description; double get distanceKm; double get elevationGainM; String get difficulty; int get routeNumber; List<List<double>> get coordinates; List<RouteStage> get stages;
+ String get id; String get name; String get description; double get distanceKm; double get elevationGainM; String get difficulty; int get routeNumber; List<List<double>> get coordinates; List<RouteStage> get stages; List<String> get cities;
 /// Create a copy of RouteDto
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -309,16 +309,16 @@ $RouteDtoCopyWith<RouteDto> get copyWith => _$RouteDtoCopyWithImpl<RouteDto>(thi
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is RouteDto&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.distanceKm, distanceKm) || other.distanceKm == distanceKm)&&(identical(other.elevationGainM, elevationGainM) || other.elevationGainM == elevationGainM)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&(identical(other.routeNumber, routeNumber) || other.routeNumber == routeNumber)&&const DeepCollectionEquality().equals(other.coordinates, coordinates)&&const DeepCollectionEquality().equals(other.stages, stages));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is RouteDto&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.distanceKm, distanceKm) || other.distanceKm == distanceKm)&&(identical(other.elevationGainM, elevationGainM) || other.elevationGainM == elevationGainM)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&(identical(other.routeNumber, routeNumber) || other.routeNumber == routeNumber)&&const DeepCollectionEquality().equals(other.coordinates, coordinates)&&const DeepCollectionEquality().equals(other.stages, stages)&&const DeepCollectionEquality().equals(other.cities, cities));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,id,name,description,distanceKm,elevationGainM,difficulty,routeNumber,const DeepCollectionEquality().hash(coordinates),const DeepCollectionEquality().hash(stages));
+int get hashCode => Object.hash(runtimeType,id,name,description,distanceKm,elevationGainM,difficulty,routeNumber,const DeepCollectionEquality().hash(coordinates),const DeepCollectionEquality().hash(stages),const DeepCollectionEquality().hash(cities));
 
 @override
 String toString() {
-  return 'RouteDto(id: $id, name: $name, description: $description, distanceKm: $distanceKm, elevationGainM: $elevationGainM, difficulty: $difficulty, routeNumber: $routeNumber, coordinates: $coordinates, stages: $stages)';
+  return 'RouteDto(id: $id, name: $name, description: $description, distanceKm: $distanceKm, elevationGainM: $elevationGainM, difficulty: $difficulty, routeNumber: $routeNumber, coordinates: $coordinates, stages: $stages, cities: $cities)';
 }
 
 
@@ -329,7 +329,7 @@ abstract mixin class $RouteDtoCopyWith<$Res>  {
   factory $RouteDtoCopyWith(RouteDto value, $Res Function(RouteDto) _then) = _$RouteDtoCopyWithImpl;
 @useResult
 $Res call({
- String id, String name, String description, double distanceKm, double elevationGainM, String difficulty, int routeNumber, List<List<double>> coordinates, List<RouteStage> stages
+ String id, String name, String description, double distanceKm, double elevationGainM, String difficulty, int routeNumber, List<List<double>> coordinates, List<RouteStage> stages, List<String> cities
 });
 
 
@@ -346,7 +346,7 @@ class _$RouteDtoCopyWithImpl<$Res>
 
 /// Create a copy of RouteDto
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? name = null,Object? description = null,Object? distanceKm = null,Object? elevationGainM = null,Object? difficulty = null,Object? routeNumber = null,Object? coordinates = null,Object? stages = null,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? name = null,Object? description = null,Object? distanceKm = null,Object? elevationGainM = null,Object? difficulty = null,Object? routeNumber = null,Object? coordinates = null,Object? stages = null,Object? cities = null,}) {
   return _then(_self.copyWith(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,name: null == name ? _self.name : name // ignore: cast_nullable_to_non_nullable
@@ -357,7 +357,8 @@ as double,difficulty: null == difficulty ? _self.difficulty : difficulty // igno
 as String,routeNumber: null == routeNumber ? _self.routeNumber : routeNumber // ignore: cast_nullable_to_non_nullable
 as int,coordinates: null == coordinates ? _self.coordinates : coordinates // ignore: cast_nullable_to_non_nullable
 as List<List<double>>,stages: null == stages ? _self.stages : stages // ignore: cast_nullable_to_non_nullable
-as List<RouteStage>,
+as List<RouteStage>,cities: null == cities ? _self.cities : cities // ignore: cast_nullable_to_non_nullable
+as List<String>,
   ));
 }
 
@@ -439,10 +440,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages,  List<String> cities)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _RouteDto() when $default != null:
-return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages);case _:
+return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages,_that.cities);case _:
   return orElse();
 
 }
@@ -460,10 +461,10 @@ return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.ele
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages,  List<String> cities)  $default,) {final _that = this;
 switch (_that) {
 case _RouteDto():
-return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages);}
+return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages,_that.cities);}
 }
 /// A variant of `when` that fallback to returning `null`
 ///
@@ -477,10 +478,10 @@ return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.ele
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String name,  String description,  double distanceKm,  double elevationGainM,  String difficulty,  int routeNumber,  List<List<double>> coordinates,  List<RouteStage> stages,  List<String> cities)?  $default,) {final _that = this;
 switch (_that) {
 case _RouteDto() when $default != null:
-return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages);case _:
+return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.elevationGainM,_that.difficulty,_that.routeNumber,_that.coordinates,_that.stages,_that.cities);case _:
   return null;
 
 }
@@ -492,7 +493,7 @@ return $default(_that.id,_that.name,_that.description,_that.distanceKm,_that.ele
 @JsonSerializable()
 
 class _RouteDto extends RouteDto {
-  const _RouteDto({required this.id, required this.name, required this.description, required this.distanceKm, required this.elevationGainM, required this.difficulty, required this.routeNumber, required final  List<List<double>> coordinates, final  List<RouteStage> stages = const []}): _coordinates = coordinates,_stages = stages,super._();
+  const _RouteDto({required this.id, required this.name, required this.description, required this.distanceKm, required this.elevationGainM, required this.difficulty, required this.routeNumber, required final  List<List<double>> coordinates, final  List<RouteStage> stages = const [], final  List<String> cities = const []}): _coordinates = coordinates,_stages = stages,_cities = cities,super._();
   factory _RouteDto.fromJson(Map<String, dynamic> json) => _$RouteDtoFromJson(json);
 
 @override final  String id;
@@ -516,6 +517,13 @@ class _RouteDto extends RouteDto {
   return EqualUnmodifiableListView(_stages);
 }
 
+ final  List<String> _cities;
+@override@JsonKey() List<String> get cities {
+  if (_cities is EqualUnmodifiableListView) return _cities;
+  // ignore: implicit_dynamic_type
+  return EqualUnmodifiableListView(_cities);
+}
+
 
 /// Create a copy of RouteDto
 /// with the given fields replaced by the non-null parameter values.
@@ -530,16 +538,16 @@ Map<String, dynamic> toJson() {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RouteDto&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.distanceKm, distanceKm) || other.distanceKm == distanceKm)&&(identical(other.elevationGainM, elevationGainM) || other.elevationGainM == elevationGainM)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&(identical(other.routeNumber, routeNumber) || other.routeNumber == routeNumber)&&const DeepCollectionEquality().equals(other._coordinates, _coordinates)&&const DeepCollectionEquality().equals(other._stages, _stages));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RouteDto&&(identical(other.id, id) || other.id == id)&&(identical(other.name, name) || other.name == name)&&(identical(other.description, description) || other.description == description)&&(identical(other.distanceKm, distanceKm) || other.distanceKm == distanceKm)&&(identical(other.elevationGainM, elevationGainM) || other.elevationGainM == elevationGainM)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&(identical(other.routeNumber, routeNumber) || other.routeNumber == routeNumber)&&const DeepCollectionEquality().equals(other._coordinates, _coordinates)&&const DeepCollectionEquality().equals(other._stages, _stages)&&const DeepCollectionEquality().equals(other._cities, _cities));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,id,name,description,distanceKm,elevationGainM,difficulty,routeNumber,const DeepCollectionEquality().hash(_coordinates),const DeepCollectionEquality().hash(_stages));
+int get hashCode => Object.hash(runtimeType,id,name,description,distanceKm,elevationGainM,difficulty,routeNumber,const DeepCollectionEquality().hash(_coordinates),const DeepCollectionEquality().hash(_stages),const DeepCollectionEquality().hash(_cities));
 
 @override
 String toString() {
-  return 'RouteDto(id: $id, name: $name, description: $description, distanceKm: $distanceKm, elevationGainM: $elevationGainM, difficulty: $difficulty, routeNumber: $routeNumber, coordinates: $coordinates, stages: $stages)';
+  return 'RouteDto(id: $id, name: $name, description: $description, distanceKm: $distanceKm, elevationGainM: $elevationGainM, difficulty: $difficulty, routeNumber: $routeNumber, coordinates: $coordinates, stages: $stages, cities: $cities)';
 }
 
 
@@ -550,7 +558,7 @@ abstract mixin class _$RouteDtoCopyWith<$Res> implements $RouteDtoCopyWith<$Res>
   factory _$RouteDtoCopyWith(_RouteDto value, $Res Function(_RouteDto) _then) = __$RouteDtoCopyWithImpl;
 @override @useResult
 $Res call({
- String id, String name, String description, double distanceKm, double elevationGainM, String difficulty, int routeNumber, List<List<double>> coordinates, List<RouteStage> stages
+ String id, String name, String description, double distanceKm, double elevationGainM, String difficulty, int routeNumber, List<List<double>> coordinates, List<RouteStage> stages, List<String> cities
 });
 
 
@@ -567,7 +575,7 @@ class __$RouteDtoCopyWithImpl<$Res>
 
 /// Create a copy of RouteDto
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? name = null,Object? description = null,Object? distanceKm = null,Object? elevationGainM = null,Object? difficulty = null,Object? routeNumber = null,Object? coordinates = null,Object? stages = null,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? name = null,Object? description = null,Object? distanceKm = null,Object? elevationGainM = null,Object? difficulty = null,Object? routeNumber = null,Object? coordinates = null,Object? stages = null,Object? cities = null,}) {
   return _then(_RouteDto(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,name: null == name ? _self.name : name // ignore: cast_nullable_to_non_nullable
@@ -578,7 +586,8 @@ as double,difficulty: null == difficulty ? _self.difficulty : difficulty // igno
 as String,routeNumber: null == routeNumber ? _self.routeNumber : routeNumber // ignore: cast_nullable_to_non_nullable
 as int,coordinates: null == coordinates ? _self._coordinates : coordinates // ignore: cast_nullable_to_non_nullable
 as List<List<double>>,stages: null == stages ? _self._stages : stages // ignore: cast_nullable_to_non_nullable
-as List<RouteStage>,
+as List<RouteStage>,cities: null == cities ? _self._cities : cities // ignore: cast_nullable_to_non_nullable
+as List<String>,
   ));
 }
 
