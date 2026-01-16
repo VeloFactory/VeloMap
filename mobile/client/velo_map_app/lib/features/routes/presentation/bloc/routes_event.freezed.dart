@@ -55,7 +55,7 @@ extension RoutesEventPatterns on RoutesEvent {
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeMap<TResult extends Object?>({TResult Function( Load value)?  load,TResult Function( SelectRoute value)?  selectRoute,TResult Function( ClearSelection value)?  clearSelection,TResult Function( SelectStage value)?  selectStage,TResult Function( ClearStageSelection value)?  clearStageSelection,required TResult orElse(),}){
+@optionalTypeArgs TResult maybeMap<TResult extends Object?>({TResult Function( Load value)?  load,TResult Function( SelectRoute value)?  selectRoute,TResult Function( ClearSelection value)?  clearSelection,TResult Function( SelectStage value)?  selectStage,TResult Function( ClearStageSelection value)?  clearStageSelection,TResult Function( Search value)?  search,TResult Function( ClearSearch value)?  clearSearch,required TResult orElse(),}){
 final _that = this;
 switch (_that) {
 case Load() when load != null:
@@ -63,7 +63,9 @@ return load(_that);case SelectRoute() when selectRoute != null:
 return selectRoute(_that);case ClearSelection() when clearSelection != null:
 return clearSelection(_that);case SelectStage() when selectStage != null:
 return selectStage(_that);case ClearStageSelection() when clearStageSelection != null:
-return clearStageSelection(_that);case _:
+return clearStageSelection(_that);case Search() when search != null:
+return search(_that);case ClearSearch() when clearSearch != null:
+return clearSearch(_that);case _:
   return orElse();
 
 }
@@ -81,7 +83,7 @@ return clearStageSelection(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult map<TResult extends Object?>({required TResult Function( Load value)  load,required TResult Function( SelectRoute value)  selectRoute,required TResult Function( ClearSelection value)  clearSelection,required TResult Function( SelectStage value)  selectStage,required TResult Function( ClearStageSelection value)  clearStageSelection,}){
+@optionalTypeArgs TResult map<TResult extends Object?>({required TResult Function( Load value)  load,required TResult Function( SelectRoute value)  selectRoute,required TResult Function( ClearSelection value)  clearSelection,required TResult Function( SelectStage value)  selectStage,required TResult Function( ClearStageSelection value)  clearStageSelection,required TResult Function( Search value)  search,required TResult Function( ClearSearch value)  clearSearch,}){
 final _that = this;
 switch (_that) {
 case Load():
@@ -89,7 +91,9 @@ return load(_that);case SelectRoute():
 return selectRoute(_that);case ClearSelection():
 return clearSelection(_that);case SelectStage():
 return selectStage(_that);case ClearStageSelection():
-return clearStageSelection(_that);}
+return clearStageSelection(_that);case Search():
+return search(_that);case ClearSearch():
+return clearSearch(_that);}
 }
 /// A variant of `map` that fallback to returning `null`.
 ///
@@ -103,7 +107,7 @@ return clearStageSelection(_that);}
 /// }
 /// ```
 
-@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>({TResult? Function( Load value)?  load,TResult? Function( SelectRoute value)?  selectRoute,TResult? Function( ClearSelection value)?  clearSelection,TResult? Function( SelectStage value)?  selectStage,TResult? Function( ClearStageSelection value)?  clearStageSelection,}){
+@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>({TResult? Function( Load value)?  load,TResult? Function( SelectRoute value)?  selectRoute,TResult? Function( ClearSelection value)?  clearSelection,TResult? Function( SelectStage value)?  selectStage,TResult? Function( ClearStageSelection value)?  clearStageSelection,TResult? Function( Search value)?  search,TResult? Function( ClearSearch value)?  clearSearch,}){
 final _that = this;
 switch (_that) {
 case Load() when load != null:
@@ -111,7 +115,9 @@ return load(_that);case SelectRoute() when selectRoute != null:
 return selectRoute(_that);case ClearSelection() when clearSelection != null:
 return clearSelection(_that);case SelectStage() when selectStage != null:
 return selectStage(_that);case ClearStageSelection() when clearStageSelection != null:
-return clearStageSelection(_that);case _:
+return clearStageSelection(_that);case Search() when search != null:
+return search(_that);case ClearSearch() when clearSearch != null:
+return clearSearch(_that);case _:
   return null;
 
 }
@@ -128,14 +134,16 @@ return clearStageSelection(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>({TResult Function()?  load,TResult Function( RouteEntity route)?  selectRoute,TResult Function()?  clearSelection,TResult Function( RouteStageEntity stage)?  selectStage,TResult Function()?  clearStageSelection,required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>({TResult Function()?  load,TResult Function( RouteEntity route)?  selectRoute,TResult Function()?  clearSelection,TResult Function( RouteStageEntity stage)?  selectStage,TResult Function()?  clearStageSelection,TResult Function( String query)?  search,TResult Function()?  clearSearch,required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case Load() when load != null:
 return load();case SelectRoute() when selectRoute != null:
 return selectRoute(_that.route);case ClearSelection() when clearSelection != null:
 return clearSelection();case SelectStage() when selectStage != null:
 return selectStage(_that.stage);case ClearStageSelection() when clearStageSelection != null:
-return clearStageSelection();case _:
+return clearStageSelection();case Search() when search != null:
+return search(_that.query);case ClearSearch() when clearSearch != null:
+return clearSearch();case _:
   return orElse();
 
 }
@@ -153,14 +161,16 @@ return clearStageSelection();case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>({required TResult Function()  load,required TResult Function( RouteEntity route)  selectRoute,required TResult Function()  clearSelection,required TResult Function( RouteStageEntity stage)  selectStage,required TResult Function()  clearStageSelection,}) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>({required TResult Function()  load,required TResult Function( RouteEntity route)  selectRoute,required TResult Function()  clearSelection,required TResult Function( RouteStageEntity stage)  selectStage,required TResult Function()  clearStageSelection,required TResult Function( String query)  search,required TResult Function()  clearSearch,}) {final _that = this;
 switch (_that) {
 case Load():
 return load();case SelectRoute():
 return selectRoute(_that.route);case ClearSelection():
 return clearSelection();case SelectStage():
 return selectStage(_that.stage);case ClearStageSelection():
-return clearStageSelection();}
+return clearStageSelection();case Search():
+return search(_that.query);case ClearSearch():
+return clearSearch();}
 }
 /// A variant of `when` that fallback to returning `null`
 ///
@@ -174,14 +184,16 @@ return clearStageSelection();}
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>({TResult? Function()?  load,TResult? Function( RouteEntity route)?  selectRoute,TResult? Function()?  clearSelection,TResult? Function( RouteStageEntity stage)?  selectStage,TResult? Function()?  clearStageSelection,}) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>({TResult? Function()?  load,TResult? Function( RouteEntity route)?  selectRoute,TResult? Function()?  clearSelection,TResult? Function( RouteStageEntity stage)?  selectStage,TResult? Function()?  clearStageSelection,TResult? Function( String query)?  search,TResult? Function()?  clearSearch,}) {final _that = this;
 switch (_that) {
 case Load() when load != null:
 return load();case SelectRoute() when selectRoute != null:
 return selectRoute(_that.route);case ClearSelection() when clearSelection != null:
 return clearSelection();case SelectStage() when selectStage != null:
 return selectStage(_that.stage);case ClearStageSelection() when clearStageSelection != null:
-return clearStageSelection();case _:
+return clearStageSelection();case Search() when search != null:
+return search(_that.query);case ClearSearch() when clearSearch != null:
+return clearSearch();case _:
   return null;
 
 }
@@ -409,6 +421,104 @@ int get hashCode => runtimeType.hashCode;
 @override
 String toString() {
   return 'RoutesEvent.clearStageSelection()';
+}
+
+
+}
+
+
+
+
+/// @nodoc
+
+
+class Search implements RoutesEvent {
+  const Search(this.query);
+  
+
+ final  String query;
+
+/// Create a copy of RoutesEvent
+/// with the given fields replaced by the non-null parameter values.
+@JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+$SearchCopyWith<Search> get copyWith => _$SearchCopyWithImpl<Search>(this, _$identity);
+
+
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Search&&(identical(other.query, query) || other.query == query));
+}
+
+
+@override
+int get hashCode => Object.hash(runtimeType,query);
+
+@override
+String toString() {
+  return 'RoutesEvent.search(query: $query)';
+}
+
+
+}
+
+/// @nodoc
+abstract mixin class $SearchCopyWith<$Res> implements $RoutesEventCopyWith<$Res> {
+  factory $SearchCopyWith(Search value, $Res Function(Search) _then) = _$SearchCopyWithImpl;
+@useResult
+$Res call({
+ String query
+});
+
+
+
+
+}
+/// @nodoc
+class _$SearchCopyWithImpl<$Res>
+    implements $SearchCopyWith<$Res> {
+  _$SearchCopyWithImpl(this._self, this._then);
+
+  final Search _self;
+  final $Res Function(Search) _then;
+
+/// Create a copy of RoutesEvent
+/// with the given fields replaced by the non-null parameter values.
+@pragma('vm:prefer-inline') $Res call({Object? query = null,}) {
+  return _then(Search(
+null == query ? _self.query : query // ignore: cast_nullable_to_non_nullable
+as String,
+  ));
+}
+
+
+}
+
+/// @nodoc
+
+
+class ClearSearch implements RoutesEvent {
+  const ClearSearch();
+  
+
+
+
+
+
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is ClearSearch);
+}
+
+
+@override
+int get hashCode => runtimeType.hashCode;
+
+@override
+String toString() {
+  return 'RoutesEvent.clearSearch()';
 }
 
 

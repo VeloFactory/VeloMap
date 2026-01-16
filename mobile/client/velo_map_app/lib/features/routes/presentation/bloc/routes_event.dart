@@ -12,4 +12,6 @@ sealed class RoutesEvent with _$RoutesEvent {
   const factory RoutesEvent.clearSelection() = ClearSelection;
   const factory RoutesEvent.selectStage(RouteStageEntity stage) = SelectStage;
   const factory RoutesEvent.clearStageSelection() = ClearStageSelection;
+  const factory RoutesEvent.search(String query) = Search;
+  const factory RoutesEvent.clearSearch() = ClearSearch;
 }

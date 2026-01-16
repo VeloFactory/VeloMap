@@ -15,6 +15,8 @@ class RoutesBloc extends Bloc<RoutesEvent, RoutesState> {
     on<ClearSelection>(_onClearSelection);
     on<SelectStage>(_onSelectStage);
     on<ClearStageSelection>(_onClearStageSelection);
+    on<Search>(_onSearch);
+    on<ClearSearch>(_onClearSearch);
   }
 
   Future<void> _onLoad(Load event, Emitter<RoutesState> emit) async {
@@ -50,5 +52,13 @@ class RoutesBloc extends Bloc<RoutesEvent, RoutesState> {
     Emitter<RoutesState> emit,
   ) {
     emit(state.copyWith(selectedStage: null));
+  }
+
+  void _onSearch(Search event, Emitter<RoutesState> emit) {
+    emit(state.copyWith(searchQuery: event.query));
+  }
+
+  void _onClearSearch(ClearSearch event, Emitter<RoutesState> emit) {
+    emit(state.copyWith(searchQuery: ''));
   }
 }

@@ -56,6 +56,7 @@ sealed class RouteDto with _$RouteDto {
     required int routeNumber,
     required List<List<double>> coordinates,
     @Default([]) List<RouteStage> stages,
+    @Default([]) List<String> cities,
   }) = _RouteDto;
 
   factory RouteDto.fromJson(Map<String, dynamic> json) =>
@@ -91,6 +92,12 @@ sealed class RouteDto with _$RouteDto {
     // Calculate elevation gain from coordinates (if elevation data exists)
     final elevationGain = _calculateElevationGain(coordinates);
 
+    // Parse cities list
+    final citiesList = (properties['cities'] as List<dynamic>?)
+            ?.map((c) => c as String)
+            .toList() ??
+        <String>[];
+
     return RouteDto(
       id: properties['id'] as String,
       name: properties['name'] as String,
@@ -100,6 +107,7 @@ sealed class RouteDto with _$RouteDto {
       difficulty: properties['difficulty'] as String,
       routeNumber: (properties['route_number'] as num).toInt(),
       coordinates: coordinates,
+      cities: citiesList,
     );
   }
 
@@ -153,6 +161,12 @@ sealed class RouteDto with _$RouteDto {
     // Calculate elevation gain from merged coordinates
     final elevationGain = _calculateElevationGain(allCoordinates);
 
+    // Parse cities list
+    final citiesList = (properties['cities'] as List<dynamic>?)
+            ?.map((c) => c as String)
+            .toList() ??
+        <String>[];
+
     return RouteDto(
       id: properties['id'] as String,
       name: properties['name'] as String,
@@ -163,6 +177,7 @@ sealed class RouteDto with _$RouteDto {
       routeNumber: (properties['route_number'] as num).toInt(),
       coordinates: allCoordinates,
       stages: stages,
+      cities: citiesList,
     );
   }
 
@@ -246,6 +261,7 @@ sealed class RouteDto with _$RouteDto {
       routeNumber: routeNumber,
       coordinates: coordinates,
       stages: stages.map((s) => s.toEntity()).toList(),
+      cities: cities,
     );
   }
 }
