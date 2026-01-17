@@ -3,7 +3,6 @@ import 'dart:developer';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class BlocObservable extends BlocObserver {
-  
   @override
   void onEvent(Bloc bloc, Object? event) {
     super.onEvent(bloc, event);
@@ -16,6 +15,4 @@ class BlocObservable extends BlocObserver {
     super.onError(bloc, error, stackTrace);
     log('onError -- bloc: ${bloc.runtimeType}, error: $error');
   }
-
 }
-

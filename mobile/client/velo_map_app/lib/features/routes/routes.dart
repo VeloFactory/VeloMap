@@ -105,11 +105,12 @@ class _RoutesState extends State<Routes> {
     );
 
     // Create polyline annotation manager for drawing routes
-    final polylineManager =
-        await mapboxMap.annotations.createPolylineAnnotationManager();
+    final polylineManager = await mapboxMap.annotations
+        .createPolylineAnnotationManager();
     _mapController.setPolylineManager(polylineManager);
     _mapController.setRouteTapHandler(_showRouteId);
 
+    if (!mounted) return;
     final routes = context.read<RoutesBloc>().state.routes;
     final hasRoutes = routes.isNotEmpty;
     if (hasRoutes) {
@@ -129,9 +130,9 @@ class _RoutesState extends State<Routes> {
 
   void _showRouteId(String routeId) {
     ScaffoldMessenger.of(context).clearSnackBars();
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Route ID: $routeId')),
-    );
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(SnackBar(content: Text('Route ID: $routeId')));
   }
 
   @override
@@ -271,5 +272,4 @@ class _RoutesState extends State<Routes> {
       },
     );
   }
-
 }

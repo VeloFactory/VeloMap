@@ -94,7 +94,8 @@ sealed class RouteDto with _$RouteDto {
     final elevationGain = _calculateElevationGain(coordinates);
 
     // Parse cities list
-    final citiesList = (properties['cities'] as List<dynamic>?)
+    final citiesList =
+        (properties['cities'] as List<dynamic>?)
             ?.map((c) => c as String)
             .toList() ??
         <String>[];
@@ -163,7 +164,8 @@ sealed class RouteDto with _$RouteDto {
     final elevationGain = _calculateElevationGain(allCoordinates);
 
     // Parse cities list
-    final citiesList = (properties['cities'] as List<dynamic>?)
+    final citiesList =
+        (properties['cities'] as List<dynamic>?)
             ?.map((c) => c as String)
             .toList() ??
         <String>[];
