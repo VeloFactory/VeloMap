@@ -170,6 +170,11 @@ flutter pub get
 flutter run -d iPhone
 ```
 
+#### Check size 
+```bash
+flutter build apk --analyze-size --target-platform android-arm64
+```
+
 ### Mapbox not loading
 Ensure your `MAPBOX_KEY` is set correctly in the `.env` file and the key has the necessary permissions for Maps SDK.
 
