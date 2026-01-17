@@ -80,15 +80,8 @@ sealed class RouteDto with _$RouteDto {
   static RouteDto _fromSingleFeature(Map<String, dynamic> geoJson) {
     final properties = geoJson['properties'] as Map<String, dynamic>;
     final geometry = geoJson['geometry'] as Map<String, dynamic>;
-    final rawCoords = geometry['coordinates'] as List<dynamic>;
 
-    final coordinates = rawCoords
-        .map(
-          (coord) => (coord as List<dynamic>)
-              .map((c) => (c as num).toDouble())
-              .toList(),
-        )
-        .toList();
+    final coordinates = _extractCoordinates(geometry);
 
     // Calculate elevation gain from coordinates (if elevation data exists)
     final elevationGain = _calculateElevationGain(coordinates);
@@ -118,7 +111,7 @@ sealed class RouteDto with _$RouteDto {
     final properties = geoJson['properties'] as Map<String, dynamic>;
     final features = geoJson['features'] as List<dynamic>;
 
-    // Merge coordinates from all features, avoiding duplicates at stage boundaries
+    // Merge coordinates from all features, handling MultiLineString gaps
     final allCoordinates = <List<double>>[];
     final stages = <RouteStage>[];
 
@@ -126,15 +119,9 @@ sealed class RouteDto with _$RouteDto {
       final feature = features[i] as Map<String, dynamic>;
       final featureProps = feature['properties'] as Map<String, dynamic>;
       final geometry = feature['geometry'] as Map<String, dynamic>;
-      final rawCoords = geometry['coordinates'] as List<dynamic>;
 
-      final stageCoords = rawCoords
-          .map(
-            (coord) => (coord as List<dynamic>)
-                .map((c) => (c as num).toDouble())
-                .toList(),
-          )
-          .toList();
+      // Use _extractCoordinates to handle both LineString and MultiLineString
+      final stageCoords = _extractCoordinates(geometry);
 
       // Create RouteStage
       stages.add(
@@ -149,15 +136,36 @@ sealed class RouteDto with _$RouteDto {
         ),
       );
 
-      // Skip first coordinate if it matches the last one from previous stage
-      final startIndex =
-          (i > 0 &&
-              allCoordinates.isNotEmpty &&
-              _coordinatesMatch(allCoordinates.last, stageCoords.first))
-          ? 1
-          : 0;
+      // Find valid (non-empty) coordinates for boundary matching
+      final lastValid = allCoordinates.isNotEmpty
+          ? allCoordinates.lastWhere((c) => c.isNotEmpty, orElse: () => <double>[])
+          : <double>[];
+      final firstValid = stageCoords.isNotEmpty
+          ? stageCoords.firstWhere((c) => c.isNotEmpty, orElse: () => <double>[])
+          : <double>[];
 
-      allCoordinates.addAll(stageCoords.sublist(startIndex));
+      // Check if this stage connects to the previous one
+      final isConnected = i == 0 ||
+          (lastValid.isNotEmpty &&
+              firstValid.isNotEmpty &&
+              _coordinatesAreClose(lastValid, firstValid));
+
+      // Add gap marker if stages are not connected (e.g., ferry crossing)
+      if (i > 0 && !isConnected) {
+        allCoordinates.add(<double>[]); // Gap marker
+      }
+
+      // Skip first coordinate if it exactly matches the last one from previous stage
+      final shouldSkipFirst = i > 0 &&
+          lastValid.isNotEmpty &&
+          firstValid.isNotEmpty &&
+          _coordinatesMatch(lastValid, firstValid);
+
+      if (shouldSkipFirst && stageCoords.isNotEmpty) {
+        allCoordinates.addAll(stageCoords.sublist(1));
+      } else {
+        allCoordinates.addAll(stageCoords);
+      }
     }
 
     // Calculate elevation gain from merged coordinates
@@ -184,10 +192,60 @@ sealed class RouteDto with _$RouteDto {
     );
   }
 
+  /// Extract coordinates from geometry, handling both LineString and MultiLineString
+  static List<List<double>> _extractCoordinates(Map<String, dynamic> geometry) {
+    final geometryType = geometry['type'] as String;
+    final rawCoords = geometry['coordinates'] as List<dynamic>;
+
+    if (geometryType == 'MultiLineString') {
+      // MultiLineString: coordinates is array of lines, each line is array of points
+      // We need to flatten but keep segments separate (don't connect them)
+      final result = <List<double>>[];
+      for (final line in rawCoords) {
+        final lineCoords = (line as List<dynamic>)
+            .map(
+              (coord) => (coord as List<dynamic>)
+                  .map((c) => (c as num).toDouble())
+                  .toList(),
+            )
+            .toList();
+        result.addAll(lineCoords);
+        // Add a null marker between segments to indicate a gap
+        // We'll use an empty coordinate as a marker
+        result.add(<double>[]);
+      }
+      // Remove the trailing marker
+      if (result.isNotEmpty && result.last.isEmpty) {
+        result.removeLast();
+      }
+      return result;
+    }
+
+    // LineString: coordinates is array of points
+    return rawCoords
+        .map(
+          (coord) => (coord as List<dynamic>)
+              .map((c) => (c as num).toDouble())
+              .toList(),
+        )
+        .toList();
+  }
+
   /// Check if two coordinates are the same (lng, lat match)
   static bool _coordinatesMatch(List<double> a, List<double> b) {
     if (a.length < 2 || b.length < 2) return false;
     return a[0] == b[0] && a[1] == b[1];
+  }
+
+  /// Check if two coordinates are close enough to be considered connected
+  /// Uses a threshold of ~5km (about 0.05 degrees at mid-latitudes)
+  /// Points further apart are considered a gap (e.g., ferry crossing)
+  static bool _coordinatesAreClose(List<double> a, List<double> b) {
+    if (a.length < 2 || b.length < 2) return false;
+    const threshold = 0.05; // ~5km at mid-latitudes
+    final dLng = (a[0] - b[0]).abs();
+    final dLat = (a[1] - b[1]).abs();
+    return dLng < threshold && dLat < threshold;
   }
 
   /// Calculate total elevation gain from coordinates with elevation (3rd value)
@@ -221,29 +279,33 @@ sealed class RouteDto with _$RouteDto {
 
   /// Returns the center point of the route for initial map positioning
   List<double> get centerPoint {
-    if (coordinates.isEmpty) return [0.0, 0.0];
+    // Filter out empty coordinates (gap markers)
+    final validCoords = coordinates.where((c) => c.length >= 2).toList();
+    if (validCoords.isEmpty) return [0.0, 0.0];
 
     double sumLng = 0;
     double sumLat = 0;
 
-    for (final coord in coordinates) {
+    for (final coord in validCoords) {
       sumLng += coord[0];
       sumLat += coord[1];
     }
 
-    return [sumLng / coordinates.length, sumLat / coordinates.length];
+    return [sumLng / validCoords.length, sumLat / validCoords.length];
   }
 
   /// Returns bounding box [minLng, minLat, maxLng, maxLat]
   List<double> get boundingBox {
-    if (coordinates.isEmpty) return [0, 0, 0, 0];
+    // Filter out empty coordinates (gap markers)
+    final validCoords = coordinates.where((c) => c.length >= 2).toList();
+    if (validCoords.isEmpty) return [0, 0, 0, 0];
 
-    double minLng = coordinates.first[0];
-    double maxLng = coordinates.first[0];
-    double minLat = coordinates.first[1];
-    double maxLat = coordinates.first[1];
+    double minLng = validCoords.first[0];
+    double maxLng = validCoords.first[0];
+    double minLat = validCoords.first[1];
+    double maxLat = validCoords.first[1];
 
-    for (final coord in coordinates) {
+    for (final coord in validCoords) {
       if (coord[0] < minLng) minLng = coord[0];
       if (coord[0] > maxLng) maxLng = coord[0];
       if (coord[1] < minLat) minLat = coord[1];

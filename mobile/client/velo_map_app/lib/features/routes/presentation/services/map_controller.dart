@@ -137,21 +137,25 @@ class MapController {
     // Clear existing annotations
     await _polylineManager!.deleteAll();
 
-    // Convert coordinates to Position list
-    final positions = route.coordinates
-        .map((coord) => Position(coord[0], coord[1]))
-        .toList();
+    // Split coordinates into segments at empty markers (gaps)
+    final segments = _splitAtGaps(route.coordinates);
 
-    // Create polyline annotation
-    final polylineOptions = PolylineAnnotationOptions(
-      geometry: LineString(coordinates: positions),
-      lineColor: lineColor,
-      lineWidth: 5.0,
-      lineOpacity: 0.9,
-      customData: {'routeId': route.id},
-    );
+    // Create polyline for each segment
+    for (final segment in segments) {
+      if (segment.length < 2) continue;
 
-    await _polylineManager!.create(polylineOptions);
+      final positions = segment.map((coord) => Position(coord[0], coord[1])).toList();
+
+      final polylineOptions = PolylineAnnotationOptions(
+        geometry: LineString(coordinates: positions),
+        lineColor: lineColor,
+        lineWidth: 5.0,
+        lineOpacity: 0.9,
+        customData: {'routeId': route.id},
+      );
+
+      await _polylineManager!.create(polylineOptions);
+    }
 
     // Fit camera to route bounds
     await fitCameraToBounds(route.boundingBox);
@@ -166,19 +170,26 @@ class MapController {
     for (final route in routes) {
       if (route.coordinates.isEmpty) continue;
 
-      final positions = route.coordinates
-          .map((coord) => Position(coord[0], coord[1]))
-          .toList();
+      // Split coordinates into segments at empty markers (gaps)
+      final segments = _splitAtGaps(route.coordinates);
 
-      final polylineOptions = PolylineAnnotationOptions(
-        geometry: LineString(coordinates: positions),
-        lineColor: route.colorValue,
-        lineWidth: 5.0,
-        lineOpacity: 0.9,
-        customData: {'routeId': route.id},
-      );
+      // Create polyline for each segment
+      for (final segment in segments) {
+        if (segment.length < 2) continue;
 
-      await _polylineManager!.create(polylineOptions);
+        final positions =
+            segment.map((coord) => Position(coord[0], coord[1])).toList();
+
+        final polylineOptions = PolylineAnnotationOptions(
+          geometry: LineString(coordinates: positions),
+          lineColor: route.colorValue,
+          lineWidth: 5.0,
+          lineOpacity: 0.9,
+          customData: {'routeId': route.id},
+        );
+
+        await _polylineManager!.create(polylineOptions);
+      }
     }
   }
 
@@ -193,21 +204,27 @@ class MapController {
     // Clear existing annotations
     await _polylineManager!.deleteAll();
 
-    // Convert coordinates to Position list
-    final positions = stage.coordinates
-        .map((coord) => Position(coord[0], coord[1]))
-        .toList();
+    // Split coordinates into segments at empty markers (gaps)
+    final segments = _splitAtGaps(stage.coordinates);
 
-    // Create polyline annotation with different style for stage
-    final polylineOptions = PolylineAnnotationOptions(
-      geometry: LineString(coordinates: positions),
-      lineColor: lineColor,
-      lineWidth: 6.0,
-      lineOpacity: 1.0,
-      customData: routeId != null ? {'routeId': routeId} : null,
-    );
+    // Create polyline for each segment
+    for (final segment in segments) {
+      if (segment.length < 2) continue;
 
-    await _polylineManager!.create(polylineOptions);
+      final positions =
+          segment.map((coord) => Position(coord[0], coord[1])).toList();
+
+      // Create polyline annotation with different style for stage
+      final polylineOptions = PolylineAnnotationOptions(
+        geometry: LineString(coordinates: positions),
+        lineColor: lineColor,
+        lineWidth: 6.0,
+        lineOpacity: 1.0,
+        customData: routeId != null ? {'routeId': routeId} : null,
+      );
+
+      await _polylineManager!.create(polylineOptions);
+    }
 
     // Fit camera to stage bounds
     await fitCameraToStageBounds(stage);
@@ -301,13 +318,17 @@ class MapController {
   Future<void> fitCameraToStageBounds(RouteStageEntity stage) async {
     if (_mapboxMap == null || stage.coordinates.isEmpty) return;
 
-    // Calculate bounding box for stage
-    double minLng = stage.coordinates.first[0];
-    double maxLng = stage.coordinates.first[0];
-    double minLat = stage.coordinates.first[1];
-    double maxLat = stage.coordinates.first[1];
+    // Filter out empty coordinates (gap markers)
+    final validCoords = stage.coordinates.where((c) => c.length >= 2).toList();
+    if (validCoords.isEmpty) return;
 
-    for (final coord in stage.coordinates) {
+    // Calculate bounding box for stage
+    double minLng = validCoords.first[0];
+    double maxLng = validCoords.first[0];
+    double minLat = validCoords.first[1];
+    double maxLat = validCoords.first[1];
+
+    for (final coord in validCoords) {
       if (coord[0] < minLng) minLng = coord[0];
       if (coord[0] > maxLng) maxLng = coord[0];
       if (coord[1] < minLat) minLat = coord[1];
@@ -342,6 +363,31 @@ class MapController {
     final bounds = _routesBounds(routes);
     if (bounds == null) return;
     await fitCameraToBounds(bounds);
+  }
+
+  /// Split coordinates into segments at empty markers (gaps from MultiLineString)
+  List<List<List<double>>> _splitAtGaps(List<List<double>> coordinates) {
+    final segments = <List<List<double>>>[];
+    var currentSegment = <List<double>>[];
+
+    for (final coord in coordinates) {
+      if (coord.isEmpty) {
+        // Empty coordinate marks a gap between segments
+        if (currentSegment.isNotEmpty) {
+          segments.add(currentSegment);
+          currentSegment = <List<double>>[];
+        }
+      } else {
+        currentSegment.add(coord);
+      }
+    }
+
+    // Don't forget the last segment
+    if (currentSegment.isNotEmpty) {
+      segments.add(currentSegment);
+    }
+
+    return segments;
   }
 
   List<double>? _routesBounds(List<RouteEntity> routes) {
