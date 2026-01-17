@@ -110,6 +110,7 @@ class _RoutesState extends State<Routes> {
     _mapController.setPolylineManager(polylineManager);
     _mapController.setRouteTapHandler(_showRouteId);
 
+    if (!mounted) return;
     final routes = context.read<RoutesBloc>().state.routes;
     final hasRoutes = routes.isNotEmpty;
     if (hasRoutes) {
