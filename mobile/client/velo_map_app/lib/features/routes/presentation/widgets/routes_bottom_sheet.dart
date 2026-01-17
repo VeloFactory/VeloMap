@@ -54,8 +54,8 @@ class RoutesBottomSheet extends StatelessWidget {
             child: state.error != null
                 ? _buildErrorView(state.error!, colorScheme)
                 : state.routes.isEmpty && !state.isLoading
-                    ? _buildEmptyView(colorScheme)
-                    : _buildRoutesList(context),
+                ? _buildEmptyView(colorScheme)
+                : _buildRoutesList(context),
           ),
         ],
       ),
@@ -69,7 +69,9 @@ class RoutesBottomSheet extends StatelessWidget {
         if (!controller.isAttached) return;
         final screenH = MediaQuery.of(context).size.height;
         final delta = -details.delta.dy / screenH;
-        final next = (controller.size + delta).clamp(minSize, maxSize).toDouble();
+        final next = (controller.size + delta)
+            .clamp(minSize, maxSize)
+            .toDouble();
         controller.jumpTo(next);
       },
       onVerticalDragEnd: (_) {
@@ -102,10 +104,10 @@ class RoutesBottomSheet extends StatelessWidget {
               borderRadius: BorderRadius.circular(2),
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
+
           // Title row
           _buildTitleRow(context, colorScheme),
-          const SizedBox(height: 12),
         ],
       ),
     );
@@ -125,9 +127,9 @@ class RoutesBottomSheet extends StatelessWidget {
               Text(
                 'EuroVelo Routes',
                 style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      fontWeight: FontWeight.w600,
-                      color: colorScheme.onSurface,
-                    ),
+                  fontWeight: FontWeight.w600,
+                  color: colorScheme.onSurface,
+                ),
               ),
               const Spacer(),
               // Search icon button
@@ -144,8 +146,8 @@ class RoutesBottomSheet extends StatelessWidget {
                 TextButton(
                   onPressed: () {
                     context.read<RoutesBloc>().add(
-                          const RoutesEvent.clearSelection(),
-                        );
+                      const RoutesEvent.clearSelection(),
+                    );
                   },
                   child: Text(
                     'Clear',
@@ -177,9 +179,9 @@ class RoutesBottomSheet extends StatelessWidget {
                   color: colorScheme.onSecondaryContainer,
                 ),
                 onDeleted: () {
-                  context
-                      .read<RoutesBloc>()
-                      .add(const RoutesEvent.clearSearch());
+                  context.read<RoutesBloc>().add(
+                    const RoutesEvent.clearSearch(),
+                  );
                 },
                 onPressed: onSearchPressed,
                 backgroundColor: colorScheme.secondaryContainer,
@@ -216,8 +218,8 @@ class RoutesBottomSheet extends StatelessWidget {
           onTap: () {
             if (isSelected) {
               context.read<RoutesBloc>().add(
-                    const RoutesEvent.clearSelection(),
-                  );
+                const RoutesEvent.clearSelection(),
+              );
             } else {
               context.read<RoutesBloc>().add(RoutesEvent.selectRoute(route));
             }
@@ -227,8 +229,8 @@ class RoutesBottomSheet extends StatelessWidget {
           },
           onStageClear: () {
             context.read<RoutesBloc>().add(
-                  const RoutesEvent.clearStageSelection(),
-                );
+              const RoutesEvent.clearStageSelection(),
+            );
           },
         );
       },

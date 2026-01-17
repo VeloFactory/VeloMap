@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:flutter/rendering.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
@@ -23,5 +24,6 @@ void main() async {
   final key = dotenv.env['MAPBOX_KEY'] ?? 'NO_KEY';
   MapboxOptions.setAccessToken(key);
 
+  // debugPaintSizeEnabled = false;
   runApp(App(key: application));
 }
