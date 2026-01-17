@@ -1,6 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
+import 'package:velo_map_app/features/routes/domain/services/route_color_resolver.dart';
 
 part 'route_dto.freezed.dart';
 part 'route_dto.g.dart';
@@ -251,6 +252,7 @@ sealed class RouteDto with _$RouteDto {
   }
 
   RouteEntity toEntity() {
+    const resolver = RouteColorResolver();
     return RouteEntity(
       id: id,
       name: name,
@@ -259,6 +261,7 @@ sealed class RouteDto with _$RouteDto {
       elevationGainM: elevationGainM,
       difficulty: difficulty,
       routeNumber: routeNumber,
+      colorValue: resolver.resolve(id: id, routeNumber: routeNumber),
       coordinates: coordinates,
       stages: stages.map((s) => s.toEntity()).toList(),
       cities: cities,

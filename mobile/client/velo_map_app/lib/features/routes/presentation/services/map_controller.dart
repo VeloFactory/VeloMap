@@ -7,6 +7,7 @@ import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.
 class MapController {
   MapboxMap? _mapboxMap;
   PolylineAnnotationManager? _polylineManager;
+  Cancelable? _polylineTapCancelable;
   bool _locationPermissionGranted = false;
 
   // Default camera position (Tel Aviv area)
@@ -22,6 +23,20 @@ class MapController {
 
   void setPolylineManager(PolylineAnnotationManager manager) {
     _polylineManager = manager;
+  }
+
+  void setRouteTapHandler(void Function(String routeId) onRouteTap) {
+    if (_polylineManager == null) return;
+    _polylineTapCancelable?.cancel();
+    _polylineTapCancelable = _polylineManager!.tapEvents(
+      onTap: (annotation) {
+        final data = annotation.customData;
+        final routeId = data?['routeId'];
+        if (routeId is String && routeId.isNotEmpty) {
+          onRouteTap(routeId);
+        }
+      },
+    );
   }
 
   void setLocationPermissionGranted(bool granted) {
@@ -133,6 +148,7 @@ class MapController {
       lineColor: lineColor,
       lineWidth: 5.0,
       lineOpacity: 0.9,
+      customData: {'routeId': route.id},
     );
 
     await _polylineManager!.create(polylineOptions);
@@ -141,8 +157,37 @@ class MapController {
     await fitCameraToBounds(route.boundingBox);
   }
 
+  /// Draw all routes on the map
+  Future<void> drawRoutes(List<RouteEntity> routes) async {
+    if (_polylineManager == null || _mapboxMap == null) return;
+
+    await _polylineManager!.deleteAll();
+
+    for (final route in routes) {
+      if (route.coordinates.isEmpty) continue;
+
+      final positions = route.coordinates
+          .map((coord) => Position(coord[0], coord[1]))
+          .toList();
+
+      final polylineOptions = PolylineAnnotationOptions(
+        geometry: LineString(coordinates: positions),
+        lineColor: route.colorValue,
+        lineWidth: 5.0,
+        lineOpacity: 0.9,
+        customData: {'routeId': route.id},
+      );
+
+      await _polylineManager!.create(polylineOptions);
+    }
+  }
+
   /// Draw a route stage on the map
-  Future<void> drawStage(RouteStageEntity stage, int lineColor) async {
+  Future<void> drawStage(
+    RouteStageEntity stage,
+    int lineColor, {
+    String? routeId,
+  }) async {
     if (_polylineManager == null || _mapboxMap == null) return;
 
     // Clear existing annotations
@@ -159,6 +204,7 @@ class MapController {
       lineColor: lineColor,
       lineWidth: 6.0,
       lineOpacity: 1.0,
+      customData: routeId != null ? {'routeId': routeId} : null,
     );
 
     await _polylineManager!.create(polylineOptions);
@@ -291,8 +337,40 @@ class MapController {
     await _mapboxMap!.flyTo(cameraOptions, MapAnimationOptions(duration: 800));
   }
 
+  /// Fit camera to bounds that include all routes
+  Future<void> fitCameraToRoutes(List<RouteEntity> routes) async {
+    final bounds = _routesBounds(routes);
+    if (bounds == null) return;
+    await fitCameraToBounds(bounds);
+  }
+
+  List<double>? _routesBounds(List<RouteEntity> routes) {
+    double? minLng;
+    double? maxLng;
+    double? minLat;
+    double? maxLat;
+
+    for (final route in routes) {
+      if (route.coordinates.isEmpty) continue;
+      final bbox = route.boundingBox;
+
+      minLng = minLng == null ? bbox[0] : (bbox[0] < minLng ? bbox[0] : minLng);
+      minLat = minLat == null ? bbox[1] : (bbox[1] < minLat ? bbox[1] : minLat);
+      maxLng = maxLng == null ? bbox[2] : (bbox[2] > maxLng ? bbox[2] : maxLng);
+      maxLat = maxLat == null ? bbox[3] : (bbox[3] > maxLat ? bbox[3] : maxLat);
+    }
+
+    if (minLng == null || minLat == null || maxLng == null || maxLat == null) {
+      return null;
+    }
+
+    return [minLng, minLat, maxLng, maxLat];
+  }
+
   void dispose() {
     _mapboxMap = null;
     _polylineManager = null;
+    _polylineTapCancelable?.cancel();
+    _polylineTapCancelable = null;
   }
 }
