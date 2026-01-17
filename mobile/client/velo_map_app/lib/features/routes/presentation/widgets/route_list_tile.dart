@@ -87,7 +87,9 @@ class RouteListTile extends StatelessWidget {
                         onPressed: () {
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
-                              content: Text('Download functionality coming soon'),
+                              content: Text(
+                                'Download functionality coming soon',
+                              ),
                               duration: Duration(seconds: 2),
                             ),
                           );
@@ -165,7 +167,6 @@ class RouteListTile extends StatelessWidget {
                       colorScheme: colorScheme,
                     ),
                   ],
-
                 ],
               ],
             ),
@@ -220,8 +221,8 @@ class _ElevationGraph extends StatelessWidget {
     final maxElevation = elevations.reduce(math.max);
     final elevationRange = maxElevation - minElevation;
 
-    final profileTitle = stageName != null 
-        ? 'Stage: $stageName' 
+    final profileTitle = stageName != null
+        ? 'Stage: $stageName'
         : 'Elevation Profile';
 
     return Column(
@@ -230,7 +231,9 @@ class _ElevationGraph extends StatelessWidget {
         Row(
           children: [
             Icon(
-              stageName != null ? Icons.alt_route_rounded : Icons.show_chart_rounded,
+              stageName != null
+                  ? Icons.alt_route_rounded
+                  : Icons.show_chart_rounded,
               size: 16,
               color: isSelected
                   ? colorScheme.onPrimaryContainer
@@ -738,11 +741,7 @@ class _ActionIconButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(8),
           child: Padding(
             padding: const EdgeInsets.all(8),
-            child: Icon(
-              icon,
-              size: 20,
-              color: colorScheme.onPrimary,
-            ),
+            child: Icon(icon, size: 20, color: colorScheme.onPrimary),
           ),
         ),
       );
@@ -760,11 +759,7 @@ class _ActionIconButton extends StatelessWidget {
             border: Border.all(color: colorScheme.primary),
             borderRadius: BorderRadius.circular(8),
           ),
-          child: Icon(
-            icon,
-            size: 20,
-            color: colorScheme.primary,
-          ),
+          child: Icon(icon, size: 20, color: colorScheme.primary),
         ),
       ),
     );

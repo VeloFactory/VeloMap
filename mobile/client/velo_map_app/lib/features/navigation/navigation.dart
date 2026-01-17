@@ -9,5 +9,4 @@ class Navigation extends StatelessWidget {
   }
 }
 
-
-/****  Coming soon — route navigation will be implemented here   ****/ 
+/****  Coming soon — route navigation will be implemented here   ****/

@@ -21,13 +21,11 @@ sealed class RoutesState with _$RoutesState {
   /// Returns filtered routes based on search query matching city names
   List<RouteEntity> get filteredRoutes {
     if (searchQuery.isEmpty) return routes;
-    
+
     final query = searchQuery.toLowerCase();
     return routes.where((route) {
       // Check if any city contains the search query
-      return route.cities.any(
-        (city) => city.toLowerCase().contains(query),
-      );
+      return route.cities.any((city) => city.toLowerCase().contains(query));
     }).toList();
   }
 

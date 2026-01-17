@@ -51,9 +51,7 @@ class MapController {
     if (_mapboxMap == null) return;
 
     // Disable scale bar
-    await _mapboxMap!.scaleBar.updateSettings(
-      ScaleBarSettings(enabled: false),
-    );
+    await _mapboxMap!.scaleBar.updateSettings(ScaleBarSettings(enabled: false));
 
     // Configure compass - position it 10px above location button
     // Location button is at: (screenHeight * bottomSheetMidHeight + 16) from bottom
@@ -61,12 +59,14 @@ class MapController {
     final locationButtonBottom = screenHeight * bottomSheetMidHeight + 16;
     final compassBottom = locationButtonBottom + 40 + 10;
 
-    await _mapboxMap!.compass.updateSettings(CompassSettings(
-      enabled: true,
-      position: OrnamentPosition.BOTTOM_RIGHT,
-      marginBottom: compassBottom,
-      marginRight: 16,
-    ));
+    await _mapboxMap!.compass.updateSettings(
+      CompassSettings(
+        enabled: true,
+        position: OrnamentPosition.BOTTOM_RIGHT,
+        marginBottom: compassBottom,
+        marginRight: 16,
+      ),
+    );
   }
 
   /// Move camera to current location if available (no animation, used at startup)
