@@ -72,27 +72,13 @@ class RouteListTile extends StatelessWidget {
                         ),
                       ),
                     ),
-                    if (isSelected) ...[
-                      _ActionIconButton(
-                        icon: Icons.share_rounded,
-                        onPressed: () {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('Share functionality coming soon'),
-                              duration: Duration(seconds: 2),
-                            ),
-                          );
-                        },
-                        colorScheme: colorScheme,
-                      ),
-                      const SizedBox(width: 4),
+                    if (isSelected)
                       _ActionIconButton(
                         icon: Icons.download_rounded,
-                        onPressed: () => _downloadGpx(context),
+                        onPressed: () => _showDownloadOptions(context),
                         colorScheme: colorScheme,
                         filled: true,
                       ),
-                    ],
                   ],
                 ),
                 const SizedBox(height: 8),
@@ -180,9 +166,77 @@ class RouteListTile extends StatelessWidget {
         .toList();
   }
 
-  Future<void> _downloadGpx(BuildContext context) async {
+  void _showDownloadOptions(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final name = selectedStage != null
+        ? '${route.name} - ${selectedStage!.name}'
+        : route.name;
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: colorScheme.surface,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+      ),
+      builder: (context) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 16),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Text(
+                  'Export GPX',
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: colorScheme.onSurface,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 8),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Text(
+                  name,
+                  style: TextStyle(
+                    fontSize: 14,
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+              const SizedBox(height: 16),
+              ListTile(
+                leading: Icon(Icons.send_rounded, color: colorScheme.primary),
+                title: const Text('Send file'),
+                subtitle: const Text('Share via email, messaging apps, etc.'),
+                onTap: () {
+                  Navigator.pop(context);
+                  _exportAndShare(context);
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.open_in_new_rounded, color: colorScheme.primary),
+                title: const Text('Open in application'),
+                subtitle: const Text('Open in other application...'),
+                onTap: () {
+                  Navigator.pop(context);
+                  _exportAndOpen(context);
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Future<void> _exportAndShare(BuildContext context) async {
     try {
-      // If a stage is selected, download the stage; otherwise download the full route
       if (selectedStage != null) {
         await _gpxExporter.exportAndShare(
           coordinates: selectedStage!.coordinates,
@@ -201,6 +255,33 @@ class RouteListTile extends StatelessWidget {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text('Failed to export GPX: $e'),
+            duration: const Duration(seconds: 3),
+          ),
+        );
+      }
+    }
+  }
+
+  Future<void> _exportAndOpen(BuildContext context) async {
+    try {
+      if (selectedStage != null) {
+        await _gpxExporter.exportAndOpen(
+          coordinates: selectedStage!.coordinates,
+          name: '${route.name} - ${selectedStage!.name}',
+          description: 'Stage ${selectedStage!.stage} of ${route.name}',
+        );
+      } else {
+        await _gpxExporter.exportAndOpen(
+          coordinates: route.coordinates,
+          name: route.name,
+          description: route.description,
+        );
+      }
+    } catch (e) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Failed to open GPX: $e'),
             duration: const Duration(seconds: 3),
           ),
         );

@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:open_filex/open_filex.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 
@@ -11,6 +12,42 @@ class GpxExporter {
   /// [name] - Name of the route/stage for the GPX file
   /// [description] - Optional description for the GPX metadata
   Future<void> exportAndShare({
+    required List<List<double>> coordinates,
+    required String name,
+    String? description,
+  }) async {
+    final filePath = await _createGpxFile(
+      coordinates: coordinates,
+      name: name,
+      description: description,
+    );
+
+    // Share the file
+    await Share.shareXFiles([XFile(filePath)], subject: '$name - GPX Track');
+  }
+
+  /// Export coordinates to GPX format and open in an external app
+  ///
+  /// [coordinates] - List of [lng, lat, elevation] coordinates
+  /// [name] - Name of the route/stage for the GPX file
+  /// [description] - Optional description for the GPX metadata
+  Future<OpenResult> exportAndOpen({
+    required List<List<double>> coordinates,
+    required String name,
+    String? description,
+  }) async {
+    final filePath = await _createGpxFile(
+      coordinates: coordinates,
+      name: name,
+      description: description,
+    );
+
+    // Open the file with external app
+    return await OpenFilex.open(filePath, type: 'application/gpx+xml');
+  }
+
+  /// Create GPX file and return its path
+  Future<String> _createGpxFile({
     required List<List<double>> coordinates,
     required String name,
     String? description,
@@ -28,8 +65,7 @@ class GpxExporter {
     final file = File('${tempDir.path}/$fileName.gpx');
     await file.writeAsString(gpxContent);
 
-    // Share the file
-    await Share.shareXFiles([XFile(file.path)], subject: '$name - GPX Track');
+    return file.path;
   }
 
   /// Generate GPX XML content from coordinates
