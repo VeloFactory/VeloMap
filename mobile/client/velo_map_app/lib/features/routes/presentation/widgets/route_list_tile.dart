@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
+import 'package:velo_map_app/features/routes/domain/services/gpx_exporter.dart';
 
 class RouteListTile extends StatelessWidget {
   final RouteEntity route;
@@ -11,6 +12,8 @@ class RouteListTile extends StatelessWidget {
   final RouteStageEntity? selectedStage;
   final void Function(RouteStageEntity stage)? onStageSelected;
   final VoidCallback? onStageClear;
+
+  static final _gpxExporter = GpxExporter();
 
   const RouteListTile({
     super.key,
@@ -85,16 +88,7 @@ class RouteListTile extends StatelessWidget {
                       const SizedBox(width: 4),
                       _ActionIconButton(
                         icon: Icons.download_rounded,
-                        onPressed: () {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text(
-                                'Download functionality coming soon',
-                              ),
-                              duration: Duration(seconds: 2),
-                            ),
-                          );
-                        },
+                        onPressed: () => _downloadGpx(context),
                         colorScheme: colorScheme,
                         filled: true,
                       ),
@@ -184,6 +178,34 @@ class RouteListTile extends StatelessWidget {
         .where((coord) => coord.length >= 3)
         .map((coord) => coord[2])
         .toList();
+  }
+
+  Future<void> _downloadGpx(BuildContext context) async {
+    try {
+      // If a stage is selected, download the stage; otherwise download the full route
+      if (selectedStage != null) {
+        await _gpxExporter.exportAndShare(
+          coordinates: selectedStage!.coordinates,
+          name: '${route.name} - ${selectedStage!.name}',
+          description: 'Stage ${selectedStage!.stage} of ${route.name}',
+        );
+      } else {
+        await _gpxExporter.exportAndShare(
+          coordinates: route.coordinates,
+          name: route.name,
+          description: route.description,
+        );
+      }
+    } catch (e) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Failed to export GPX: $e'),
+            duration: const Duration(seconds: 3),
+          ),
+        );
+      }
+    }
   }
 }
 
