@@ -43,52 +43,30 @@ class MapController {
     _locationPermissionGranted = granted;
   }
 
-  /// Configure map settings (scale bar, compass positioning)
-  Future<void> configureMapSettings({
-    required double screenHeight,
-    required double bottomSheetMidHeight,
-  }) async {
+  /// Configure map settings (scale bar, disable native compass - using Flutter widget instead)
+  Future<void> configureMapSettings() async {
     if (_mapboxMap == null) return;
 
     // Disable scale bar
     await _mapboxMap!.scaleBar.updateSettings(ScaleBarSettings(enabled: false));
 
-    // Configure compass - position it above location button
-    await updateCompassPosition(
-      screenHeight: screenHeight,
-      bottomSheetHeight: bottomSheetMidHeight,
-    );
+    // Disable native compass - we use a Flutter widget instead for instant response
+    await _mapboxMap!.compass.updateSettings(CompassSettings(enabled: false));
   }
 
-  /// Update compass position based on bottom sheet height
-  Future<void> updateCompassPosition({
-    required double screenHeight,
-    required double bottomSheetHeight,
-    bool hidden = false,
-  }) async {
+  /// Reset map bearing to north (0 degrees)
+  Future<void> resetBearing() async {
     if (_mapboxMap == null) return;
 
-    // Hide compass when sheet is maximized
-    if (hidden) {
-      await _mapboxMap!.compass.updateSettings(
-        CompassSettings(enabled: false),
-      );
-      return;
-    }
-
-    // Location button is at: (screenHeight * bottomSheetHeight + 16) from bottom
-    // Location button height: 40px (FloatingActionButton.small)
-    // Compass should be 10px above the location button
-    final locationButtonBottom = screenHeight * bottomSheetHeight + 16;
-    final compassBottom = locationButtonBottom + 40 + 10;
-
-    await _mapboxMap!.compass.updateSettings(
-      CompassSettings(
-        enabled: true,
-        position: OrnamentPosition.BOTTOM_RIGHT,
-        marginBottom: compassBottom,
-        marginRight: 16,
+    final cameraState = await _mapboxMap!.getCameraState();
+    await _mapboxMap!.flyTo(
+      CameraOptions(
+        center: cameraState.center,
+        zoom: cameraState.zoom,
+        bearing: 0,
+        pitch: cameraState.pitch,
       ),
+      MapAnimationOptions(duration: 300),
     );
   }
 

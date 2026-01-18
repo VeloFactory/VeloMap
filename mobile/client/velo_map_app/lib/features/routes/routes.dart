@@ -25,6 +25,7 @@ class _RoutesState extends State<Routes> {
   bool _isSearchVisible = false;
   List<RouteEntity>? _lastRoutes;
   double _currentSheetSize = _min;
+  double _mapBearing = 0.0;
 
   static const double _min = 0.108;
   static const double _mid = 0.40;
@@ -46,20 +47,7 @@ class _RoutesState extends State<Routes> {
       setState(() {
         _currentSheetSize = newSize;
       });
-      _updateCompassPosition();
     }
-  }
-
-  void _updateCompassPosition() {
-    if (_mapController.mapboxMap == null) return;
-    final screenHeight = MediaQuery.of(context).size.height;
-    // Hide compass when sheet is maximized (> 90%)
-    final isMaximized = _currentSheetSize >= 0.9;
-    _mapController.updateCompassPosition(
-      screenHeight: screenHeight,
-      bottomSheetHeight: _currentSheetSize,
-      hidden: isMaximized,
-    );
   }
 
   @override
@@ -121,14 +109,8 @@ class _RoutesState extends State<Routes> {
   void _onMapCreated(MapboxMap mapboxMap) async {
     _mapController.setMapboxMap(mapboxMap);
 
-    // Get screen height before async operations
-    final screenHeight = MediaQuery.of(context).size.height;
-
-    // Configure map settings
-    await _mapController.configureMapSettings(
-      screenHeight: screenHeight,
-      bottomSheetMidHeight: _mid,
-    );
+    // Configure map settings (disable native compass, we use Flutter widget instead)
+    await _mapController.configureMapSettings();
 
     // Create polyline annotation manager for drawing routes
     final polylineManager = await mapboxMap.annotations
@@ -224,31 +206,61 @@ class _RoutesState extends State<Routes> {
               MapWidget(
                 key: const ValueKey("mapWidget"),
                 onMapCreated: _onMapCreated,
+                onCameraChangeListener: (cameraChangedEventData) {
+                  // Track bearing for compass visibility
+                  final bearing = cameraChangedEventData.cameraState.bearing;
+                  if (bearing != _mapBearing) {
+                    setState(() {
+                      _mapBearing = bearing;
+                    });
+                  }
+                },
                 cameraOptions: CameraOptions(
                   center: MapController.defaultCenter,
                   zoom: MapController.defaultZoom,
                 ),
               ),
 
-              // Location button - right side, bound to bottom sheet position
+              // Map control buttons - right side, bound to bottom sheet position
               // Hide when sheet is maximized (> 90%)
               if (_currentSheetSize < 0.9)
                 Positioned(
                   right: 16,
                   bottom: MediaQuery.of(context).size.height * _currentSheetSize + 16,
-                  child: FloatingActionButton.small(
-                    heroTag: 'location_fab',
-                    onPressed: _mapController.goToUserLocation,
-                    backgroundColor: colorScheme.surface,
-                    foregroundColor: _mapController.locationPermissionGranted
-                        ? colorScheme.primary
-                        : colorScheme.outline,
-                    elevation: 2,
-                    child: Icon(
-                      _mapController.locationPermissionGranted
-                          ? Icons.my_location_rounded
-                          : Icons.location_disabled_rounded,
-                    ),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      // Compass button - only show when map is rotated (not aligned to north)
+                      if (_mapBearing.abs() > 1.0) ...[
+                        FloatingActionButton.small(
+                          heroTag: 'compass_fab',
+                          onPressed: _mapController.resetBearing,
+                          backgroundColor: colorScheme.surface,
+                          foregroundColor: colorScheme.primary,
+                          elevation: 2,
+                          child: Transform.rotate(
+                            angle: -_mapBearing * (3.14159265359 / 180),
+                            child: const Icon(Icons.navigation_rounded),
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                      ],
+                      // Location button
+                      FloatingActionButton.small(
+                        heroTag: 'location_fab',
+                        onPressed: _mapController.goToUserLocation,
+                        backgroundColor: colorScheme.surface,
+                        foregroundColor: _mapController.locationPermissionGranted
+                            ? colorScheme.primary
+                            : colorScheme.outline,
+                        elevation: 2,
+                        child: Icon(
+                          _mapController.locationPermissionGranted
+                              ? Icons.my_location_rounded
+                              : Icons.location_disabled_rounded,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
 
