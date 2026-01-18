@@ -53,10 +53,33 @@ class MapController {
     // Disable scale bar
     await _mapboxMap!.scaleBar.updateSettings(ScaleBarSettings(enabled: false));
 
-    // Configure compass - position it 10px above location button
-    // Location button is at: (screenHeight * bottomSheetMidHeight + 16) from bottom
+    // Configure compass - position it above location button
+    await updateCompassPosition(
+      screenHeight: screenHeight,
+      bottomSheetHeight: bottomSheetMidHeight,
+    );
+  }
+
+  /// Update compass position based on bottom sheet height
+  Future<void> updateCompassPosition({
+    required double screenHeight,
+    required double bottomSheetHeight,
+    bool hidden = false,
+  }) async {
+    if (_mapboxMap == null) return;
+
+    // Hide compass when sheet is maximized
+    if (hidden) {
+      await _mapboxMap!.compass.updateSettings(
+        CompassSettings(enabled: false),
+      );
+      return;
+    }
+
+    // Location button is at: (screenHeight * bottomSheetHeight + 16) from bottom
     // Location button height: 40px (FloatingActionButton.small)
-    final locationButtonBottom = screenHeight * bottomSheetMidHeight + 16;
+    // Compass should be 10px above the location button
+    final locationButtonBottom = screenHeight * bottomSheetHeight + 16;
     final compassBottom = locationButtonBottom + 40 + 10;
 
     await _mapboxMap!.compass.updateSettings(

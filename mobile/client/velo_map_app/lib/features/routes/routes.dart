@@ -24,6 +24,7 @@ class _RoutesState extends State<Routes> {
   final MapController _mapController = MapController();
   bool _isSearchVisible = false;
   List<RouteEntity>? _lastRoutes;
+  double _currentSheetSize = _min;
 
   static const double _min = 0.108;
   static const double _mid = 0.40;
@@ -34,11 +35,36 @@ class _RoutesState extends State<Routes> {
   @override
   void initState() {
     super.initState();
+    _sheet.addListener(_onSheetPositionChanged);
     _requestLocationPermission();
+  }
+
+  void _onSheetPositionChanged() {
+    if (!_sheet.isAttached) return;
+    final newSize = _sheet.size;
+    if (newSize != _currentSheetSize) {
+      setState(() {
+        _currentSheetSize = newSize;
+      });
+      _updateCompassPosition();
+    }
+  }
+
+  void _updateCompassPosition() {
+    if (_mapController.mapboxMap == null) return;
+    final screenHeight = MediaQuery.of(context).size.height;
+    // Hide compass when sheet is maximized (> 90%)
+    final isMaximized = _currentSheetSize >= 0.9;
+    _mapController.updateCompassPosition(
+      screenHeight: screenHeight,
+      bottomSheetHeight: _currentSheetSize,
+      hidden: isMaximized,
+    );
   }
 
   @override
   void dispose() {
+    _sheet.removeListener(_onSheetPositionChanged);
     _sheet.dispose();
     _searchController.dispose();
     _searchFocusNode.dispose();
@@ -204,25 +230,27 @@ class _RoutesState extends State<Routes> {
                 ),
               ),
 
-              // Location button - right side, just above the bottom sheet at default (mid) height
-              Positioned(
-                right: 16,
-                bottom: MediaQuery.of(context).size.height * _mid + 16,
-                child: FloatingActionButton.small(
-                  heroTag: 'location_fab',
-                  onPressed: _mapController.goToUserLocation,
-                  backgroundColor: colorScheme.surface,
-                  foregroundColor: _mapController.locationPermissionGranted
-                      ? colorScheme.primary
-                      : colorScheme.outline,
-                  elevation: 2,
-                  child: Icon(
-                    _mapController.locationPermissionGranted
-                        ? Icons.my_location_rounded
-                        : Icons.location_disabled_rounded,
+              // Location button - right side, bound to bottom sheet position
+              // Hide when sheet is maximized (> 90%)
+              if (_currentSheetSize < 0.9)
+                Positioned(
+                  right: 16,
+                  bottom: MediaQuery.of(context).size.height * _currentSheetSize + 16,
+                  child: FloatingActionButton.small(
+                    heroTag: 'location_fab',
+                    onPressed: _mapController.goToUserLocation,
+                    backgroundColor: colorScheme.surface,
+                    foregroundColor: _mapController.locationPermissionGranted
+                        ? colorScheme.primary
+                        : colorScheme.outline,
+                    elevation: 2,
+                    child: Icon(
+                      _mapController.locationPermissionGranted
+                          ? Icons.my_location_rounded
+                          : Icons.location_disabled_rounded,
+                    ),
                   ),
                 ),
-              ),
 
               // Search overlay at top of screen
               if (_isSearchVisible)
