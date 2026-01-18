@@ -220,7 +220,10 @@ class RouteListTile extends StatelessWidget {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.open_in_new_rounded, color: colorScheme.primary),
+                leading: Icon(
+                  Icons.open_in_new_rounded,
+                  color: colorScheme.primary,
+                ),
                 title: const Text('Open in application'),
                 subtitle: const Text('Open in other application...'),
                 onTap: () {
