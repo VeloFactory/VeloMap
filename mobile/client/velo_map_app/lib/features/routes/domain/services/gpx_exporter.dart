@@ -6,7 +6,7 @@ import 'package:share_plus/share_plus.dart';
 /// Service for exporting routes and stages to GPX format
 class GpxExporter {
   /// Export coordinates to GPX format and share the file
-  /// 
+  ///
   /// [coordinates] - List of [lng, lat, elevation] coordinates
   /// [name] - Name of the route/stage for the GPX file
   /// [description] - Optional description for the GPX metadata
@@ -29,10 +29,7 @@ class GpxExporter {
     await file.writeAsString(gpxContent);
 
     // Share the file
-    await Share.shareXFiles(
-      [XFile(file.path)],
-      subject: '$name - GPX Track',
-    );
+    await Share.shareXFiles([XFile(file.path)], subject: '$name - GPX Track');
   }
 
   /// Generate GPX XML content from coordinates
@@ -42,23 +39,27 @@ class GpxExporter {
     String? description,
   }) {
     final buffer = StringBuffer();
-    
+
     // GPX header
     buffer.writeln('<?xml version="1.0" encoding="UTF-8"?>');
     buffer.writeln('<gpx version="1.1" creator="VeloMap App"');
     buffer.writeln('  xmlns="http://www.topografix.com/GPX/1/1"');
     buffer.writeln('  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"');
-    buffer.writeln('  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">');
-    
+    buffer.writeln(
+      '  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">',
+    );
+
     // Metadata
     buffer.writeln('  <metadata>');
     buffer.writeln('    <name>${_escapeXml(name)}</name>');
     if (description != null && description.isNotEmpty) {
       buffer.writeln('    <desc>${_escapeXml(description)}</desc>');
     }
-    buffer.writeln('    <time>${DateTime.now().toUtc().toIso8601String()}</time>');
+    buffer.writeln(
+      '    <time>${DateTime.now().toUtc().toIso8601String()}</time>',
+    );
     buffer.writeln('  </metadata>');
-    
+
     // Track
     buffer.writeln('  <trk>');
     buffer.writeln('    <name>${_escapeXml(name)}</name>');
@@ -66,15 +67,15 @@ class GpxExporter {
       buffer.writeln('    <desc>${_escapeXml(description)}</desc>');
     }
     buffer.writeln('    <trkseg>');
-    
+
     // Track points
     for (final coord in coordinates) {
       if (coord.length < 2) continue;
-      
+
       final lon = coord[0];
       final lat = coord[1];
       final hasElevation = coord.length >= 3;
-      
+
       if (hasElevation) {
         final ele = coord[2];
         buffer.writeln('      <trkpt lat="$lat" lon="$lon">');
@@ -84,11 +85,11 @@ class GpxExporter {
         buffer.writeln('      <trkpt lat="$lat" lon="$lon"/>');
       }
     }
-    
+
     buffer.writeln('    </trkseg>');
     buffer.writeln('  </trk>');
     buffer.writeln('</gpx>');
-    
+
     return buffer.toString();
   }
 
