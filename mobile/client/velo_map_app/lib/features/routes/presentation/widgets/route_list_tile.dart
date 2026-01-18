@@ -3,7 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
-import 'package:velo_map_app/features/routes/domain/services/gpx_exporter.dart';
+import 'package:velo_map_app/core/utils/gpx_exporter.dart';
 
 class RouteListTile extends StatelessWidget {
   final RouteEntity route;

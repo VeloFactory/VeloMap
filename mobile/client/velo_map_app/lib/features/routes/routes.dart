@@ -7,6 +7,7 @@ import 'package:velo_map_app/features/routes/presentation/bloc/routes_bloc.dart'
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_event.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_state.dart';
 import 'package:velo_map_app/features/routes/presentation/services/map_controller.dart';
+import 'package:velo_map_app/features/routes/presentation/widgets/map_layers_sheet.dart';
 import 'package:velo_map_app/features/routes/presentation/widgets/routes_bottom_sheet.dart';
 import 'package:velo_map_app/features/routes/presentation/widgets/routes_search_bar.dart';
 
@@ -26,6 +27,9 @@ class _RoutesState extends State<Routes> {
   List<RouteEntity>? _lastRoutes;
   double _currentSheetSize = _min;
   double _mapBearing = 0.0;
+
+  // POI layer configuration
+  MapLayerConfig _layerConfig = const MapLayerConfig();
 
   static const double _min = 0.108;
   static const double _mid = 0.40;
@@ -143,6 +147,19 @@ class _RoutesState extends State<Routes> {
     ).showSnackBar(SnackBar(content: Text('Route ID: $routeId')));
   }
 
+  void _showLayersDialog() {
+    MapLayersSheet.show(
+      context: context,
+      config: _layerConfig,
+      onConfigChanged: (newConfig) {
+        setState(() {
+          _layerConfig = newConfig;
+        });
+        // TODO: Apply layers to map
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -226,7 +243,9 @@ class _RoutesState extends State<Routes> {
               if (_currentSheetSize < 0.9)
                 Positioned(
                   right: 16,
-                  bottom: MediaQuery.of(context).size.height * _currentSheetSize + 16,
+                  bottom:
+                      MediaQuery.of(context).size.height * _currentSheetSize +
+                      16,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
@@ -245,12 +264,25 @@ class _RoutesState extends State<Routes> {
                         ),
                         const SizedBox(height: 8),
                       ],
+                      // Layers button
+                      FloatingActionButton.small(
+                        heroTag: 'layers_fab',
+                        onPressed: _showLayersDialog,
+                        backgroundColor: colorScheme.surface,
+                        foregroundColor: _layerConfig.hasActiveLayers
+                            ? colorScheme.primary
+                            : colorScheme.onSurfaceVariant,
+                        elevation: 2,
+                        child: const Icon(Icons.layers_rounded),
+                      ),
+                      const SizedBox(height: 8),
                       // Location button
                       FloatingActionButton.small(
                         heroTag: 'location_fab',
                         onPressed: _mapController.goToUserLocation,
                         backgroundColor: colorScheme.surface,
-                        foregroundColor: _mapController.locationPermissionGranted
+                        foregroundColor:
+                            _mapController.locationPermissionGranted
                             ? colorScheme.primary
                             : colorScheme.outline,
                         elevation: 2,
