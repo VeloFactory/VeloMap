@@ -76,14 +76,6 @@ class _RoutesSearchBarState extends State<RoutesSearchBar> {
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
                 child: Row(
                   children: [
-                    // Back button
-                    IconButton(
-                      onPressed: widget.onClose,
-                      icon: Icon(
-                        Icons.arrow_back_rounded,
-                        color: colorScheme.onSurface,
-                      ),
-                    ),
                     // Search field
                     Expanded(
                       child: TextField(
@@ -95,6 +87,10 @@ class _RoutesSearchBarState extends State<RoutesSearchBar> {
                           hintText: 'Search by city name...',
                           filled: true,
                           fillColor: colorScheme.surfaceContainerHighest,
+                          prefixIcon: Icon(
+                            Icons.search_rounded,
+                            color: colorScheme.onSurfaceVariant,
+                          ),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(12),
                             borderSide: BorderSide.none,
@@ -115,6 +111,18 @@ class _RoutesSearchBarState extends State<RoutesSearchBar> {
                                   ),
                                 )
                               : null,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    // Cancel button
+                    TextButton(
+                      onPressed: widget.onClose,
+                      child: Text(
+                        'Cancel',
+                        style: TextStyle(
+                          color: colorScheme.primary,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                     ),
