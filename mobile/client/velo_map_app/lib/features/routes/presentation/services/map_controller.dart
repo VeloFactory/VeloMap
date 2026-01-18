@@ -274,7 +274,7 @@ class MapController {
   Future<void> fitCameraToBounds(List<double> bbox) async {
     if (_mapboxMap == null) return;
 
-    const padding = 80.0;
+    const padding = 10.0;
 
     final cameraOptions = await _mapboxMap!.cameraForCoordinateBounds(
       CoordinateBounds(
