@@ -129,6 +129,11 @@ flutter build apk --release
 flutter build appbundle --release
 ```
 
+### Format 
+```bash
+dart format .
+```
+
 ## Project Structure
 
 ```
