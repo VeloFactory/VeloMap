@@ -54,6 +54,7 @@ class RouteListTile extends StatelessWidget {
                   children: [
                     _RouteNumberBadge(
                       routeNumber: route.routeNumber,
+                      routeColor: Color(route.colorValue),
                       isSelected: isSelected,
                     ),
                     const SizedBox(width: 12),
@@ -401,22 +402,24 @@ class _ElevationChartPainter extends CustomPainter {
 
 class _RouteNumberBadge extends StatelessWidget {
   final int routeNumber;
+  final Color routeColor;
   final bool isSelected;
 
   const _RouteNumberBadge({
     required this.routeNumber,
+    required this.routeColor,
     required this.isSelected,
   });
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    final bgColor = isSelected
-        ? colorScheme.primary
-        : colorScheme.primaryContainer;
-    final textColor = isSelected
-        ? colorScheme.onPrimary
-        : colorScheme.onPrimaryContainer;
+    // Use route color for the badge background
+    final bgColor = routeColor;
+    // Calculate contrasting text color based on background luminance
+    final textColor = routeColor.computeLuminance() > 0.5
+        ? Colors.black
+        : Colors.white;
 
     return Container(
       width: 40,
