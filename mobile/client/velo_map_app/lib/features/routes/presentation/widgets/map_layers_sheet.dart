@@ -4,13 +4,13 @@ import 'package:velo_map_app/features/routes/domain/models/map_layer_config.dart
 export 'package:velo_map_app/features/routes/domain/models/map_layer_config.dart';
 
 /// Bottom sheet widget for selecting POI layers to display on the map
-class MapLayersSheet extends StatelessWidget {
-  final MapLayerConfig config;
+class MapLayersSheet extends StatefulWidget {
+  final MapLayerConfig initialConfig;
   final ValueChanged<MapLayerConfig> onConfigChanged;
 
   const MapLayersSheet({
     super.key,
-    required this.config,
+    required this.initialConfig,
     required this.onConfigChanged,
   });
 
@@ -26,9 +26,31 @@ class MapLayersSheet extends StatelessWidget {
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
       ),
-      builder: (context) =>
-          MapLayersSheet(config: config, onConfigChanged: onConfigChanged),
+      builder: (context) => MapLayersSheet(
+        initialConfig: config,
+        onConfigChanged: onConfigChanged,
+      ),
     );
+  }
+
+  @override
+  State<MapLayersSheet> createState() => _MapLayersSheetState();
+}
+
+class _MapLayersSheetState extends State<MapLayersSheet> {
+  late MapLayerConfig _config;
+
+  @override
+  void initState() {
+    super.initState();
+    _config = widget.initialConfig;
+  }
+
+  void _updateConfig(MapLayerConfig newConfig) {
+    setState(() {
+      _config = newConfig;
+    });
+    widget.onConfigChanged(newConfig);
   }
 
   @override
@@ -75,9 +97,9 @@ class MapLayersSheet extends StatelessWidget {
 
             // Restaurants checkbox
             _LayerCheckbox(
-              value: config.showRestaurants,
+              value: _config.showRestaurants,
               onChanged: (value) {
-                onConfigChanged(config.copyWith(showRestaurants: value));
+                _updateConfig(_config.copyWith(showRestaurants: value));
               },
               title: 'Restaurants',
               subtitle: 'Cafes, restaurants, food places',
@@ -87,9 +109,9 @@ class MapLayersSheet extends StatelessWidget {
 
             // Hotels checkbox
             _LayerCheckbox(
-              value: config.showHotels,
+              value: _config.showHotels,
               onChanged: (value) {
-                onConfigChanged(config.copyWith(showHotels: value));
+                _updateConfig(_config.copyWith(showHotels: value));
               },
               title: 'Hotels',
               subtitle: 'Hotels, hostels, B&Bs',
@@ -99,9 +121,9 @@ class MapLayersSheet extends StatelessWidget {
 
             // Camping checkbox
             _LayerCheckbox(
-              value: config.showCamping,
+              value: _config.showCamping,
               onChanged: (value) {
-                onConfigChanged(config.copyWith(showCamping: value));
+                _updateConfig(_config.copyWith(showCamping: value));
               },
               title: 'Camping',
               subtitle: 'Campsites, caravan parks',
