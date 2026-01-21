@@ -31,9 +31,9 @@ class _RoutesState extends State<Routes> {
   // POI layer configuration
   MapLayerConfig _layerConfig = const MapLayerConfig();
 
-  static const double _min = 0.108;
-  static const double _mid = 0.40;
-  static const double _max = 0.96;
+  static const double _min = 0.10;
+  static const double _mid = 0.50;
+  static const double _max = 0.90;
 
   final snapSizes = <double>[_min, _mid, _max];
 
@@ -69,6 +69,14 @@ class _RoutesState extends State<Routes> {
       _isSearchVisible = !_isSearchVisible;
       if (_isSearchVisible) {
         _searchFocusNode.requestFocus();
+        // Collapse sheet to mid if it's maximized
+        if (_sheet.isAttached && _sheet.size > _mid) {
+          _sheet.animateTo(
+            _mid,
+            duration: const Duration(milliseconds: 300),
+            curve: Curves.easeOutCubic,
+          );
+        }
       } else {
         _searchController.clear();
         _searchFocusNode.unfocus();
@@ -120,7 +128,7 @@ class _RoutesState extends State<Routes> {
     final polylineManager = await mapboxMap.annotations
         .createPolylineAnnotationManager();
     _mapController.setPolylineManager(polylineManager);
-    _mapController.setRouteTapHandler(_showRouteId);
+    _mapController.setRouteTapHandler(_onRouteTapped);
 
     if (!mounted) return;
     final routes = context.read<RoutesBloc>().state.routes;
@@ -140,11 +148,12 @@ class _RoutesState extends State<Routes> {
     }
   }
 
-  void _showRouteId(String routeId) {
-    ScaffoldMessenger.of(context).clearSnackBars();
-    ScaffoldMessenger.of(
-      context,
-    ).showSnackBar(SnackBar(content: Text('Route ID: $routeId')));
+  void _onRouteTapped(String routeId) {
+    final routes = context.read<RoutesBloc>().state.routes;
+    final route = routes.where((r) => r.id == routeId).firstOrNull;
+    if (route != null) {
+      context.read<RoutesBloc>().add(RoutesEvent.selectRoute(route));
+    }
   }
 
   void _showLayersDialog() {
@@ -185,10 +194,10 @@ class _RoutesState extends State<Routes> {
           } else {
             _mapController.drawRoute(selectedRoute, lineColor);
           }
-          // Expand sheet to show route details
+          // Expand sheet to show route details (mid size to keep map visible)
           if (_sheet.isAttached) {
             _sheet.animateTo(
-              _max,
+              _mid,
               duration: const Duration(milliseconds: 300),
               curve: Curves.easeOutCubic,
             );
