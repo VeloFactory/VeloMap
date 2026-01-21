@@ -95,6 +95,11 @@ While the app is running in debug mode, you can use these keyboard shortcuts in 
 
 ### Flutter DevTools
 
+Check size
+```bash
+flutter build apk --analyze-size --target-platform android-arm64
+```
+
 Launch Flutter DevTools for advanced debugging:
 ```bash
 flutter pub global activate devtools
