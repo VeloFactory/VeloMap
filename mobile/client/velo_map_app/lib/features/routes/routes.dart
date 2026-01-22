@@ -131,6 +131,11 @@ class _RoutesState extends State<Routes> {
     _mapController.setPolylineManager(polylineManager);
     _mapController.setRouteTapHandler(_onRouteTapped);
 
+    // Create point annotation manager for status markers
+    final pointManager = await mapboxMap.annotations
+        .createPointAnnotationManager();
+    _mapController.setPointManager(pointManager);
+
     if (!mounted) return;
     final routes = context.read<RoutesBloc>().state.routes;
     final hasRoutes = routes.isNotEmpty;

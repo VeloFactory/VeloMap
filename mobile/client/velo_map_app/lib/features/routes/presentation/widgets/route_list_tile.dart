@@ -711,6 +711,8 @@ class _StageItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final status = stage.status;
+
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -759,6 +761,7 @@ class _StageItem extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  // Stage name
                   Text(
                     stage.name,
                     style: TextStyle(
@@ -770,6 +773,7 @@ class _StageItem extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 2),
+                  // Metadata row with status icon
                   Row(
                     children: [
                       Icon(
@@ -805,6 +809,16 @@ class _StageItem extends StatelessWidget {
                           color: colorScheme.onPrimaryContainer.withValues(
                             alpha: 0.7,
                           ),
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      // Status icon
+                      Tooltip(
+                        message: status.label,
+                        child: Icon(
+                          status.icon,
+                          size: 14,
+                          color: status.color,
                         ),
                       ),
                     ],

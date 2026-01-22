@@ -1,12 +1,18 @@
+import 'dart:typed_data';
+import 'dart:ui' as ui;
+
+import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart' as geo;
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
+import 'package:velo_map_app/features/routes/domain/models/route_stage_status.dart';
 
 /// Manages map operations including route drawing, camera positioning, and location
 class MapController {
   MapboxMap? _mapboxMap;
   PolylineAnnotationManager? _polylineManager;
+  PointAnnotationManager? _pointManager;
   Cancelable? _polylineTapCancelable;
   bool _locationPermissionGranted = false;
 
@@ -23,6 +29,10 @@ class MapController {
 
   void setPolylineManager(PolylineAnnotationManager manager) {
     _polylineManager = manager;
+  }
+
+  void setPointManager(PointAnnotationManager manager) {
+    _pointManager = manager;
   }
 
   void setRouteTapHandler(void Function(String routeId) onRouteTap) {
@@ -137,6 +147,7 @@ class MapController {
 
     // Clear existing annotations
     await _polylineManager!.deleteAll();
+    await clearStatusMarker();
 
     // Convert coordinates to Position list
     final positions = route.coordinates
@@ -163,6 +174,7 @@ class MapController {
     if (_polylineManager == null || _mapboxMap == null) return;
 
     await _polylineManager!.deleteAll();
+    await clearStatusMarker();
 
     for (final route in routes) {
       if (route.stages.isEmpty) continue;
@@ -187,7 +199,7 @@ class MapController {
     }
   }
 
-  /// Draw a route stage on the map
+  /// Draw a route stage on the map with status marker
   Future<void> drawStage(
     RouteStageEntity stage,
     int lineColor, {
@@ -197,6 +209,7 @@ class MapController {
 
     // Clear existing annotations
     await _polylineManager!.deleteAll();
+    await clearStatusMarker();
 
     // Convert coordinates to Position list
     final positions = stage.coordinates
@@ -214,14 +227,145 @@ class MapController {
 
     await _polylineManager!.create(polylineOptions);
 
+    // Show status marker at the start of the stage
+    await showStageStatusMarker(stage);
+
     // Fit camera to stage bounds
     await fitCameraToStageBounds(stage);
+  }
+
+  /// Show status markers along the stage route
+  Future<void> showStageStatusMarker(RouteStageEntity stage) async {
+    if (_pointManager == null || stage.coordinates.isEmpty) return;
+
+    // Generate status icon image
+    final status = stage.status;
+    final iconBytes = await _generateStatusIconImage(status);
+
+    if (iconBytes == null) return;
+
+    // Get positions for markers: start, 1/3, 2/3, and end of route
+    final coords = stage.coordinates;
+    final markerIndices = _getMarkerIndices(coords.length);
+
+    for (final index in markerIndices) {
+      final coord = coords[index];
+      final position = Position(coord[0], coord[1]);
+
+      // Create point annotation with status icon
+      final pointOptions = PointAnnotationOptions(
+        geometry: Point(coordinates: position),
+        image: iconBytes,
+        iconSize: 1.0,
+        iconAnchor: IconAnchor.CENTER,
+      );
+
+      await _pointManager!.create(pointOptions);
+    }
+  }
+
+  /// Get indices for placing markers along the route
+  /// Places markers at start, ~1/3, ~2/3, and end positions
+  List<int> _getMarkerIndices(int totalCoords) {
+    if (totalCoords <= 0) return [];
+    if (totalCoords == 1) return [0];
+    if (totalCoords <= 3) return [0, totalCoords - 1];
+    if (totalCoords <= 6) return [0, totalCoords ~/ 2, totalCoords - 1];
+
+    // For longer routes, place 4 markers
+    return [
+      0, // Start
+      totalCoords ~/ 3, // 1/3 of the way
+      (totalCoords * 2) ~/ 3, // 2/3 of the way
+      totalCoords - 1, // End
+    ];
+  }
+
+  /// Clear all status markers from the map
+  Future<void> clearStatusMarker() async {
+    if (_pointManager == null) return;
+    await _pointManager!.deleteAll();
+  }
+
+  /// Generate a status icon image as bytes
+  Future<Uint8List?> _generateStatusIconImage(RouteStageStatus status) async {
+    // Larger size for better visibility on map
+    const size = 80.0;
+    const padding = 12.0;
+
+    final recorder = ui.PictureRecorder();
+    final canvas = Canvas(recorder);
+
+    // Draw background circle
+    final bgPaint = Paint()
+      ..color = Colors.white
+      ..style = PaintingStyle.fill;
+
+    final shadowPaint = Paint()
+      ..color = Colors.black.withOpacity(0.3)
+      ..style = PaintingStyle.fill
+      ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 4);
+
+    // Draw shadow
+    canvas.drawCircle(
+      const Offset(size / 2, size / 2 + 3),
+      size / 2 - padding,
+      shadowPaint,
+    );
+
+    // Draw white background
+    canvas.drawCircle(
+      const Offset(size / 2, size / 2),
+      size / 2 - padding,
+      bgPaint,
+    );
+
+    // Draw colored border
+    final borderPaint = Paint()
+      ..color = status.color
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 4;
+
+    canvas.drawCircle(
+      const Offset(size / 2, size / 2),
+      size / 2 - padding,
+      borderPaint,
+    );
+
+    // Draw status icon using a text painter with material icons font
+    final iconPainter = TextPainter(
+      text: TextSpan(
+        text: String.fromCharCode(status.icon.codePoint),
+        style: TextStyle(
+          fontSize: 36,
+          fontFamily: status.icon.fontFamily,
+          package: status.icon.fontPackage,
+          color: status.color,
+        ),
+      ),
+      textDirection: TextDirection.ltr,
+    );
+    iconPainter.layout();
+    iconPainter.paint(
+      canvas,
+      Offset(
+        (size - iconPainter.width) / 2,
+        (size - iconPainter.height) / 2,
+      ),
+    );
+
+    final picture = recorder.endRecording();
+    final image = await picture.toImage(size.toInt(), size.toInt());
+    final byteData = await image.toByteData(format: ui.ImageByteFormat.png);
+
+    return byteData?.buffer.asUint8List();
   }
 
   /// Clear route from map and return to user location or default
   Future<void> clearRoute() async {
     if (_polylineManager == null) return;
     await _polylineManager!.deleteAll();
+    await clearStatusMarker();
 
     // Return to user's location, or default if unavailable
     if (_mapboxMap != null) {
