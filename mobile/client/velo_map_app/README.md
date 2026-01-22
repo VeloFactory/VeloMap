@@ -139,6 +139,11 @@ flutter build appbundle --release
 dart format .
 ```
 
+### Analuze issues
+```bash
+flutter analyze --fatal-infos
+```
+
 ## Project Structure
 
 ```
