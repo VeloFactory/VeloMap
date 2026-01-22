@@ -348,10 +348,7 @@ class MapController {
     iconPainter.layout();
     iconPainter.paint(
       canvas,
-      Offset(
-        (size - iconPainter.width) / 2,
-        (size - iconPainter.height) / 2,
-      ),
+      Offset((size - iconPainter.width) / 2, (size - iconPainter.height) / 2),
     );
 
     final picture = recorder.endRecording();

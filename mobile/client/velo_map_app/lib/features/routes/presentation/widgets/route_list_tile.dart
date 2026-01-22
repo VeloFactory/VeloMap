@@ -806,11 +806,7 @@ class _StageItem extends StatelessWidget {
                       // Status icon
                       Tooltip(
                         message: status.label,
-                        child: Icon(
-                          status.icon,
-                          size: 14,
-                          color: status.color,
-                        ),
+                        child: Icon(status.icon, size: 14, color: status.color),
                       ),
                     ],
                   ),
