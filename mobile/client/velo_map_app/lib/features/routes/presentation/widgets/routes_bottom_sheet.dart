@@ -66,11 +66,19 @@ class RoutesBottomSheet extends StatelessWidget {
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
       onTap: () {
-        // When sheet is minimized and user taps, expand to middle
         if (!controller.isAttached) return;
+        // Toggle: minimize if opened, expand to middle if minimized
         if (controller.size <= minSize + 0.01) {
+          // Sheet is minimized -> expand to middle
           controller.animateTo(
             midSize,
+            duration: const Duration(milliseconds: 300),
+            curve: Curves.easeOutCubic,
+          );
+        } else {
+          // Sheet is opened -> minimize
+          controller.animateTo(
+            minSize,
             duration: const Duration(milliseconds: 300),
             curve: Curves.easeOutCubic,
           );
