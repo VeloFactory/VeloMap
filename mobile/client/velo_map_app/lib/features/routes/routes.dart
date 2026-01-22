@@ -292,7 +292,7 @@ class _RoutesState extends State<Routes> {
                             ? colorScheme.primary
                             : colorScheme.onSurfaceVariant,
                         elevation: 2,
-                        child: const Icon(Icons.layers_rounded),
+                        child: const Icon(Icons.place),
                       ),
                       const SizedBox(height: 8),
                       // Location button

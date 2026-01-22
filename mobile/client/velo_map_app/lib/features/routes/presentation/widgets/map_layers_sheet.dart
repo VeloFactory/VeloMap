@@ -69,7 +69,7 @@ class _MapLayersSheetState extends State<MapLayersSheet> {
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 children: [
-                  Icon(Icons.layers_rounded, color: colorScheme.primary),
+                  Icon(Icons.place, color: colorScheme.primary),
                   const SizedBox(width: 12),
                   Text(
                     'Map Layers',
