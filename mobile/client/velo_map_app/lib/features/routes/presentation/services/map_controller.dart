@@ -165,21 +165,25 @@ class MapController {
     await _polylineManager!.deleteAll();
 
     for (final route in routes) {
-      if (route.coordinates.isEmpty) continue;
+      if (route.stages.isEmpty) continue;
 
-      final positions = route.coordinates
-          .map((coord) => Position(coord[0], coord[1]))
-          .toList();
+      for (final stage in route.stages) {
+        if (stage.coordinates.isEmpty) continue;
 
-      final polylineOptions = PolylineAnnotationOptions(
-        geometry: LineString(coordinates: positions),
-        lineColor: route.colorValue,
-        lineWidth: 5.0,
-        lineOpacity: 0.9,
-        customData: {'routeId': route.id},
-      );
+        final positions = stage.coordinates
+            .map((coord) => Position(coord[0], coord[1]))
+            .toList();
 
-      await _polylineManager!.create(polylineOptions);
+        final polylineOptions = PolylineAnnotationOptions(
+          geometry: LineString(coordinates: positions),
+          lineColor: route.colorValue,
+          lineWidth: 5.0,
+          lineOpacity: 0.9,
+          customData: {'routeId': route.id},
+        );
+
+        await _polylineManager!.create(polylineOptions);
+      }
     }
   }
 
