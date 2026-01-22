@@ -22,7 +22,7 @@ sealed class RoutesState with _$RoutesState {
   /// with selected route always at the top
   List<RouteEntity> get filteredRoutes {
     List<RouteEntity> filtered;
-    
+
     if (searchQuery.isEmpty) {
       filtered = routes;
     } else {
@@ -32,10 +32,12 @@ sealed class RoutesState with _$RoutesState {
         return route.cities.any((city) => city.toLowerCase().contains(query));
       }).toList();
     }
-    
+
     // Put selected route at top
     if (selectedRoute != null) {
-      final selectedIndex = filtered.indexWhere((r) => r.id == selectedRoute!.id);
+      final selectedIndex = filtered.indexWhere(
+        (r) => r.id == selectedRoute!.id,
+      );
       if (selectedIndex > 0) {
         // Create a new list with selected route at top
         final result = <RouteEntity>[selectedRoute!];
@@ -47,7 +49,7 @@ sealed class RoutesState with _$RoutesState {
         return result;
       }
     }
-    
+
     return filtered;
   }
 

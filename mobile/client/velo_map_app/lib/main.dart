@@ -12,7 +12,7 @@ final application = GlobalKey();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   // Hide system navigation bar (immersive mode)
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   final dir = await getApplicationDocumentsDirectory();

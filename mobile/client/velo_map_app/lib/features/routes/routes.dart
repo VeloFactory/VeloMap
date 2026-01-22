@@ -204,7 +204,8 @@ class _RoutesState extends State<Routes> {
             );
           }
           // Scroll list to top to show selected route
-          if (_listScrollController != null && _listScrollController!.hasClients) {
+          if (_listScrollController != null &&
+              _listScrollController!.hasClients) {
             _listScrollController!.animateTo(
               0,
               duration: const Duration(milliseconds: 300),
