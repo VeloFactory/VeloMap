@@ -94,7 +94,6 @@ class RouteListTile extends StatelessWidget {
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                 ),
-                const SizedBox(height: 12),
 
                 // Metadata row
                 Row(
@@ -123,9 +122,9 @@ class RouteListTile extends StatelessWidget {
 
                 // Expanded content when selected
                 if (isSelected) ...[
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 12),
                   const Divider(height: 1),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 12),
 
                   // Elevation Graph - fixed at top, shows stage profile when stage is selected
                   _ElevationGraph(
