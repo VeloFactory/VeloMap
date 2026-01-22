@@ -138,21 +138,25 @@ class MapController {
     // Clear existing annotations
     await _polylineManager!.deleteAll();
 
-    // Convert coordinates to Position list
-    final positions = route.coordinates
-        .map((coord) => Position(coord[0], coord[1]))
-        .toList();
+    if (route.stages.isNotEmpty) {
+      for (final stage in route.stages) {
+        if (stage.coordinates.isEmpty) continue;
 
-    // Create polyline annotation
-    final polylineOptions = PolylineAnnotationOptions(
-      geometry: LineString(coordinates: positions),
-      lineColor: lineColor,
-      lineWidth: 5.0,
-      lineOpacity: 0.9,
-      customData: {'routeId': route.id},
-    );
+        final positions = stage.coordinates
+            .map((coord) => Position(coord[0], coord[1]))
+            .toList();
 
-    await _polylineManager!.create(polylineOptions);
+        final polylineOptions = PolylineAnnotationOptions(
+          geometry: LineString(coordinates: positions),
+          lineColor: lineColor,
+          lineWidth: 5.0,
+          lineOpacity: 0.9,
+          customData: {'routeId': route.id},
+        );
+
+        await _polylineManager!.create(polylineOptions);
+      }
+    }
 
     // Fit camera to route bounds
     await fitCameraToBounds(route.boundingBox);
