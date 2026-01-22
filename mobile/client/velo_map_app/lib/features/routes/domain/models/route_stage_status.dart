@@ -34,7 +34,7 @@ enum RouteStageStatus {
   IconData get icon {
     switch (this) {
       case RouteStageStatus.certified:
-        return Icons.verified_rounded;
+        return Icons.check_circle;
       case RouteStageStatus.developedWithSigns:
         return Icons.signpost_rounded;
       case RouteStageStatus.developed:
@@ -42,7 +42,7 @@ enum RouteStageStatus {
       case RouteStageStatus.underDevelopment:
         return Icons.construction_rounded;
       case RouteStageStatus.planning:
-        return Icons.pending_rounded;
+        return Icons.lightbulb_outline;
       case RouteStageStatus.unknown:
         return Icons.help_outline_rounded;
     }
