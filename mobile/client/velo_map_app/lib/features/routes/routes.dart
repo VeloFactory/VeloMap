@@ -23,6 +23,7 @@ class _RoutesState extends State<Routes> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
   final MapController _mapController = MapController();
+  ScrollController? _listScrollController;
   bool _isSearchVisible = false;
   List<RouteEntity>? _lastRoutes;
   double _currentSheetSize = _min;
@@ -31,9 +32,9 @@ class _RoutesState extends State<Routes> {
   // POI layer configuration
   MapLayerConfig _layerConfig = const MapLayerConfig();
 
-  static const double _min = 0.10;
-  static const double _mid = 0.50;
-  static const double _max = 0.90;
+  static const double _min = 0.12;
+  static const double _mid = 0.45;
+  static const double _max = 0.92;
 
   final snapSizes = <double>[_min, _mid, _max];
 
@@ -202,6 +203,14 @@ class _RoutesState extends State<Routes> {
               curve: Curves.easeOutCubic,
             );
           }
+          // Scroll list to top to show selected route
+          if (_listScrollController != null && _listScrollController!.hasClients) {
+            _listScrollController!.animateTo(
+              0,
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeOutCubic,
+            );
+          }
         } else {
           if (state.routes.isNotEmpty) {
             _mapController.drawRoutes(state.routes);
@@ -335,6 +344,8 @@ class _RoutesState extends State<Routes> {
                 snap: true,
                 snapSizes: snapSizes,
                 builder: (context, scrollController) {
+                  // Store reference to scroll controller for scrolling to top
+                  _listScrollController = scrollController;
                   return RoutesBottomSheet(
                     controller: _sheet,
                     scrollController: scrollController,
