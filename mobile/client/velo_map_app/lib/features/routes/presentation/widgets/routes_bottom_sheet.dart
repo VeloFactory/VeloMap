@@ -65,6 +65,17 @@ class RoutesBottomSheet extends StatelessWidget {
   Widget _buildSheetHeader(BuildContext context, ColorScheme colorScheme) {
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
+      onTap: () {
+        // When sheet is minimized and user taps, expand to middle
+        if (!controller.isAttached) return;
+        if (controller.size <= minSize + 0.01) {
+          controller.animateTo(
+            midSize,
+            duration: const Duration(milliseconds: 300),
+            curve: Curves.easeOutCubic,
+          );
+        }
+      },
       onVerticalDragUpdate: (details) {
         if (!controller.isAttached) return;
         final screenH = MediaQuery.of(context).size.height;
