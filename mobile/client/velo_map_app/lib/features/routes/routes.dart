@@ -32,7 +32,7 @@ class _RoutesState extends State<Routes> {
   // POI layer configuration
   MapLayerConfig _layerConfig = const MapLayerConfig();
 
-  static const double _min = 0.12;
+  static const double _min = 0.105;
   static const double _mid = 0.45;
   static const double _max = 0.92;
 
