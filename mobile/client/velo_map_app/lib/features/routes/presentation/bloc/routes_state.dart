@@ -18,15 +18,39 @@ sealed class RoutesState with _$RoutesState {
     @Default('') String searchQuery,
   }) = _RoutesState;
 
-  /// Returns filtered routes based on search query matching city names
+  /// Returns filtered routes based on search query matching city names,
+  /// with selected route always at the top
   List<RouteEntity> get filteredRoutes {
-    if (searchQuery.isEmpty) return routes;
+    List<RouteEntity> filtered;
 
-    final query = searchQuery.toLowerCase();
-    return routes.where((route) {
-      // Check if any city contains the search query
-      return route.cities.any((city) => city.toLowerCase().contains(query));
-    }).toList();
+    if (searchQuery.isEmpty) {
+      filtered = routes;
+    } else {
+      final query = searchQuery.toLowerCase();
+      filtered = routes.where((route) {
+        // Check if any city contains the search query
+        return route.cities.any((city) => city.toLowerCase().contains(query));
+      }).toList();
+    }
+
+    // Put selected route at top
+    if (selectedRoute != null) {
+      final selectedIndex = filtered.indexWhere(
+        (r) => r.id == selectedRoute!.id,
+      );
+      if (selectedIndex > 0) {
+        // Create a new list with selected route at top
+        final result = <RouteEntity>[selectedRoute!];
+        for (int i = 0; i < filtered.length; i++) {
+          if (i != selectedIndex) {
+            result.add(filtered[i]);
+          }
+        }
+        return result;
+      }
+    }
+
+    return filtered;
   }
 
   /// Whether search is active

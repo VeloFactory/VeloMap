@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 // import 'package:flutter/rendering.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
@@ -11,6 +12,9 @@ final application = GlobalKey();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Hide system navigation bar (immersive mode)
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   final dir = await getApplicationDocumentsDirectory();
   final storage = await HydratedStorage.build(
     storageDirectory: HydratedStorageDirectory(dir.path),

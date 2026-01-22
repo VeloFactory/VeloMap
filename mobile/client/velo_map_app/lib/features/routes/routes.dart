@@ -23,6 +23,7 @@ class _RoutesState extends State<Routes> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
   final MapController _mapController = MapController();
+  ScrollController? _listScrollController;
   bool _isSearchVisible = false;
   List<RouteEntity>? _lastRoutes;
   double _currentSheetSize = _min;
@@ -31,9 +32,9 @@ class _RoutesState extends State<Routes> {
   // POI layer configuration
   MapLayerConfig _layerConfig = const MapLayerConfig();
 
-  static const double _min = 0.108;
-  static const double _mid = 0.40;
-  static const double _max = 0.96;
+  static const double _min = 0.12;
+  static const double _mid = 0.45;
+  static const double _max = 0.92;
 
   final snapSizes = <double>[_min, _mid, _max];
 
@@ -69,6 +70,14 @@ class _RoutesState extends State<Routes> {
       _isSearchVisible = !_isSearchVisible;
       if (_isSearchVisible) {
         _searchFocusNode.requestFocus();
+        // Collapse sheet to mid if it's maximized
+        if (_sheet.isAttached && _sheet.size > _mid) {
+          _sheet.animateTo(
+            _mid,
+            duration: const Duration(milliseconds: 300),
+            curve: Curves.easeOutCubic,
+          );
+        }
       } else {
         _searchController.clear();
         _searchFocusNode.unfocus();
@@ -120,7 +129,7 @@ class _RoutesState extends State<Routes> {
     final polylineManager = await mapboxMap.annotations
         .createPolylineAnnotationManager();
     _mapController.setPolylineManager(polylineManager);
-    _mapController.setRouteTapHandler(_showRouteId);
+    _mapController.setRouteTapHandler(_onRouteTapped);
 
     if (!mounted) return;
     final routes = context.read<RoutesBloc>().state.routes;
@@ -140,11 +149,12 @@ class _RoutesState extends State<Routes> {
     }
   }
 
-  void _showRouteId(String routeId) {
-    ScaffoldMessenger.of(context).clearSnackBars();
-    ScaffoldMessenger.of(
-      context,
-    ).showSnackBar(SnackBar(content: Text('Route ID: $routeId')));
+  void _onRouteTapped(String routeId) {
+    final routes = context.read<RoutesBloc>().state.routes;
+    final route = routes.where((r) => r.id == routeId).firstOrNull;
+    if (route != null) {
+      context.read<RoutesBloc>().add(RoutesEvent.selectRoute(route));
+    }
   }
 
   void _showLayersDialog() {
@@ -185,10 +195,19 @@ class _RoutesState extends State<Routes> {
           } else {
             _mapController.drawRoute(selectedRoute, lineColor);
           }
-          // Expand sheet to show route details
+          // Expand sheet to show route details (mid size to keep map visible)
           if (_sheet.isAttached) {
             _sheet.animateTo(
-              _max,
+              _mid,
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeOutCubic,
+            );
+          }
+          // Scroll list to top to show selected route
+          if (_listScrollController != null &&
+              _listScrollController!.hasClients) {
+            _listScrollController!.animateTo(
+              0,
               duration: const Duration(milliseconds: 300),
               curve: Curves.easeOutCubic,
             );
@@ -326,6 +345,8 @@ class _RoutesState extends State<Routes> {
                 snap: true,
                 snapSizes: snapSizes,
                 builder: (context, scrollController) {
+                  // Store reference to scroll controller for scrolling to top
+                  _listScrollController = scrollController;
                   return RoutesBottomSheet(
                     controller: _sheet,
                     scrollController: scrollController,
