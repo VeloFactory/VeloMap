@@ -126,14 +126,14 @@ class _RoutesState extends State<Routes> {
     await _mapController.configureMapSettings();
 
     // Create polyline annotation manager for drawing routes
-    final polylineManager =
-        await mapboxMap.annotations.createPolylineAnnotationManager();
+    final polylineManager = await mapboxMap.annotations
+        .createPolylineAnnotationManager();
     _mapController.setPolylineManager(polylineManager);
     _mapController.setRouteTapHandler(_onRouteTapped);
 
     // Create point annotation manager for status markers
-    final pointManager =
-        await mapboxMap.annotations.createPointAnnotationManager();
+    final pointManager = await mapboxMap.annotations
+        .createPointAnnotationManager();
     _mapController.setPointManager(pointManager);
 
     if (!mounted) return;

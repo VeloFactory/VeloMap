@@ -245,10 +245,7 @@ class MapController {
   // ============================================================================
 
   /// Draw all routes on the map
-  Future<void> _drawAllRoutes(
-    List<RouteEntity> routes,
-    int operationId,
-  ) async {
+  Future<void> _drawAllRoutes(List<RouteEntity> routes, int operationId) async {
     for (final route in routes) {
       if (route.stages.isEmpty) continue;
 
@@ -258,10 +255,9 @@ class MapController {
         // Check if operation is still valid before each draw
         if (operationId != _drawOperationId) return;
 
-        final positions =
-            stage.coordinates
-                .map((coord) => Position(coord[0], coord[1]))
-                .toList();
+        final positions = stage.coordinates
+            .map((coord) => Position(coord[0], coord[1]))
+            .toList();
 
         final polylineOptions = PolylineAnnotationOptions(
           geometry: LineString(coordinates: positions),
@@ -290,10 +286,9 @@ class MapController {
       // Check if operation is still valid
       if (operationId != _drawOperationId) return;
 
-      final positions =
-          stage.coordinates
-              .map((coord) => Position(coord[0], coord[1]))
-              .toList();
+      final positions = stage.coordinates
+          .map((coord) => Position(coord[0], coord[1]))
+          .toList();
 
       final polylineOptions = PolylineAnnotationOptions(
         geometry: LineString(coordinates: positions),
@@ -319,10 +314,9 @@ class MapController {
     // Check if operation is still valid
     if (operationId != _drawOperationId) return;
 
-    final positions =
-        stage.coordinates
-            .map((coord) => Position(coord[0], coord[1]))
-            .toList();
+    final positions = stage.coordinates
+        .map((coord) => Position(coord[0], coord[1]))
+        .toList();
 
     // Draw polyline with slightly thicker line for emphasis
     final polylineOptions = PolylineAnnotationOptions(
@@ -405,16 +399,14 @@ class MapController {
     final canvas = Canvas(recorder);
 
     // Draw background circle
-    final bgPaint =
-        Paint()
-          ..color = Colors.white
-          ..style = PaintingStyle.fill;
+    final bgPaint = Paint()
+      ..color = Colors.white
+      ..style = PaintingStyle.fill;
 
-    final shadowPaint =
-        Paint()
-          ..color = Colors.black.withValues(alpha: 0.3)
-          ..style = PaintingStyle.fill
-          ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 4);
+    final shadowPaint = Paint()
+      ..color = Colors.black.withValues(alpha: 0.3)
+      ..style = PaintingStyle.fill
+      ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 4);
 
     // Draw shadow
     canvas.drawCircle(
@@ -431,11 +423,10 @@ class MapController {
     );
 
     // Draw colored border
-    final borderPaint =
-        Paint()
-          ..color = status.color
-          ..style = PaintingStyle.stroke
-          ..strokeWidth = 4;
+    final borderPaint = Paint()
+      ..color = status.color
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 4;
 
     canvas.drawCircle(
       const Offset(size / 2, size / 2),
