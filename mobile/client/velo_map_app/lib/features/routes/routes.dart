@@ -119,6 +119,15 @@ class _RoutesState extends State<Routes> {
     );
   }
 
+  /// Called once when Mapbox map finishes initializing.
+  ///
+  /// NOTE: We call updateMapDisplay here AND in the BlocConsumer listener.
+  /// This is intentional because:
+  /// - _onMapCreated: Handles case when BLoC state loaded BEFORE map was ready
+  /// - listener: Handles all state changes AFTER map is ready
+  ///
+  /// The MapController's operation ID mechanism prevents duplicate draws if both
+  /// fire close together - the stale operation will detect a newer ID and exit early.
   void _onMapCreated(MapboxMap mapboxMap) async {
     _mapController.setMapboxMap(mapboxMap);
 
@@ -138,7 +147,7 @@ class _RoutesState extends State<Routes> {
 
     if (!mounted) return;
 
-    // Get current BLoC state and display accordingly
+    // Draw routes based on current BLoC state (may already have loaded data)
     final state = context.read<RoutesBloc>().state;
 
     if (state.selectedStage != null && state.selectedRoute != null) {
@@ -203,8 +212,9 @@ class _RoutesState extends State<Routes> {
           previous.routes != current.routes ||
           previous.selectedRoute != current.selectedRoute ||
           previous.selectedStage != current.selectedStage,
+      // NOTE: This listener also calls updateMapDisplay (see _onMapCreated doc comment).
+      // This handles all state changes AFTER the map is ready.
       listener: (context, state) {
-        // Update map display based on current selection state
         if (state.selectedStage != null && state.selectedRoute != null) {
           // Stage is selected - show only that stage
           _mapController.updateMapDisplay(

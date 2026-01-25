@@ -31,7 +31,28 @@ class MapController {
   Cancelable? _polylineTapCancelable;
   bool _locationPermissionGranted = false;
 
-  /// Operation ID to prevent race conditions when rapidly switching routes
+  /// Operation ID to prevent race conditions when rapidly switching routes.
+  ///
+  /// HOW IT WORKS:
+  /// - Each call to [updateMapDisplay] increments this counter and captures its value
+  /// - After every `await`, we compare: "Is my captured ID still the current one?"
+  /// - If not, a newer operation started → we exit early (our operation is "stale")
+  ///
+  /// EXAMPLE - User rapidly taps Route A → B → C:
+  /// ```
+  /// Call #1 (A): operationId=1, _drawOperationId becomes 1
+  ///   await clearAnnotations()...
+  /// Call #2 (B): operationId=2, _drawOperationId becomes 2  ← Call #2 starts
+  ///   await clearAnnotations()...
+  /// Call #1 resumes: check 1 != 2 → EXIT (stale)
+  /// Call #3 (C): operationId=3, _drawOperationId becomes 3  ← Call #3 starts
+  ///   await clearAnnotations()...
+  /// Call #2 resumes: check 2 != 3 → EXIT (stale)
+  /// Call #3 resumes: check 3 == 3 → CONTINUE ✓
+  /// Call #3 completes: Route C is drawn
+  /// ```
+  ///
+  /// RESULT: Only the last selection (Route C) actually draws, others abort.
   int _drawOperationId = 0;
 
   // Default camera position (Tel Aviv area)
