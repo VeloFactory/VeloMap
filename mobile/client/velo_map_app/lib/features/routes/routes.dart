@@ -25,14 +25,19 @@ class _RoutesState extends State<Routes> {
   final MapController _mapController = MapController();
   ScrollController? _listScrollController;
   bool _isSearchVisible = false;
-  List<RouteEntity>? _lastRoutes;
+  List<RouteEntity>?
+  _lastDisplayedRoutes; // Track last displayed routes for camera behavior
+  RouteEntity?
+  _previousSelectedRoute; // Track previous selection for clear behavior
+  String _previousSearchQuery =
+      ''; // Track previous search query for camera behavior
   double _currentSheetSize = _min;
   double _mapBearing = 0.0;
 
   // POI layer configuration
   MapLayerConfig _layerConfig = const MapLayerConfig();
 
-  static const double _min = 0.12;
+  static const double _min = 0.105;
   static const double _mid = 0.45;
   static const double _max = 0.92;
 
@@ -87,7 +92,12 @@ class _RoutesState extends State<Routes> {
   }
 
   void _onSearchChanged(String query) {
-    context.read<RoutesBloc>().add(RoutesEvent.search(query));
+    final bloc = context.read<RoutesBloc>();
+    // Clear any route/stage selection when searching - user wants to see filtered list
+    if (bloc.state.selectedRoute != null) {
+      bloc.add(const RoutesEvent.clearSelection());
+    }
+    bloc.add(RoutesEvent.search(query));
   }
 
   Future<void> _requestLocationPermission() async {
@@ -119,6 +129,15 @@ class _RoutesState extends State<Routes> {
     );
   }
 
+  /// Called once when Mapbox map finishes initializing.
+  ///
+  /// NOTE: We call updateMapDisplay here AND in the BlocConsumer listener.
+  /// This is intentional because:
+  /// - _onMapCreated: Handles case when BLoC state loaded BEFORE map was ready
+  /// - listener: Handles all state changes AFTER map is ready
+  ///
+  /// The MapController's operation ID mechanism prevents duplicate draws if both
+  /// fire close together - the stale operation will detect a newer ID and exit early.
   void _onMapCreated(MapboxMap mapboxMap) async {
     _mapController.setMapboxMap(mapboxMap);
 
@@ -131,19 +150,42 @@ class _RoutesState extends State<Routes> {
     _mapController.setPolylineManager(polylineManager);
     _mapController.setRouteTapHandler(_onRouteTapped);
 
+    // Create point annotation manager for status markers
+    final pointManager = await mapboxMap.annotations
+        .createPointAnnotationManager();
+    _mapController.setPointManager(pointManager);
+
     if (!mounted) return;
-    final routes = context.read<RoutesBloc>().state.routes;
-    final hasRoutes = routes.isNotEmpty;
-    if (hasRoutes) {
-      await _mapController.drawRoutes(routes);
-      await _mapController.fitCameraToRoutes(routes);
-      _lastRoutes = routes;
+
+    // Draw routes based on current BLoC state (may already have loaded data)
+    final state = context.read<RoutesBloc>().state;
+
+    if (state.selectedStage != null && state.selectedRoute != null) {
+      // Stage is selected - show only that stage
+      await _mapController.updateMapDisplay(
+        mode: MapDisplayMode.singleStage,
+        selectedRoute: state.selectedRoute,
+        selectedStage: state.selectedStage,
+      );
+    } else if (state.selectedRoute != null) {
+      // Route is selected - show only that route
+      await _mapController.updateMapDisplay(
+        mode: MapDisplayMode.singleRoute,
+        selectedRoute: state.selectedRoute,
+      );
+    } else if (state.routes.isNotEmpty) {
+      // No selection - show all routes
+      await _mapController.updateMapDisplay(
+        mode: MapDisplayMode.allRoutes,
+        allRoutes: state.routes,
+      );
+      _lastDisplayedRoutes = state.routes;
     }
 
     // Enable user location if permission already granted
     if (_mapController.locationPermissionGranted) {
       await _enableUserLocation();
-      if (!hasRoutes) {
+      if (state.routes.isEmpty) {
         await _mapController.moveToCurrentLocation();
       }
     }
@@ -179,23 +221,42 @@ class _RoutesState extends State<Routes> {
       listenWhen: (previous, current) =>
           previous.routes != current.routes ||
           previous.selectedRoute != current.selectedRoute ||
-          previous.selectedStage != current.selectedStage,
+          previous.selectedStage != current.selectedStage ||
+          previous.searchQuery !=
+              current.searchQuery, // Listen to search changes
+      // NOTE: This listener also calls updateMapDisplay (see _onMapCreated doc comment).
+      // This handles all state changes AFTER the map is ready.
       listener: (context, state) {
-        final selectedRoute = state.selectedRoute;
+        // Capture previous state before updating
+        final wasViewingRoute = _previousSelectedRoute != null;
+        final searchChanged = _previousSearchQuery != state.searchQuery;
 
-        if (selectedRoute != null) {
-          final lineColor = Color(selectedRoute.colorValue).toARGB32();
-          // If a stage is selected, draw only that stage; otherwise draw full route
-          if (state.selectedStage != null) {
-            _mapController.drawStage(
-              state.selectedStage!,
-              lineColor,
-              routeId: selectedRoute.id,
+        if (state.selectedStage != null && state.selectedRoute != null) {
+          // Stage is selected - show only that stage
+          _mapController.updateMapDisplay(
+            mode: MapDisplayMode.singleStage,
+            selectedRoute: state.selectedRoute,
+            selectedStage: state.selectedStage,
+          );
+          _previousSelectedRoute = state.selectedRoute;
+          _previousSearchQuery = state.searchQuery;
+          // Expand sheet to show route details
+          if (_sheet.isAttached) {
+            _sheet.animateTo(
+              _mid,
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeOutCubic,
             );
-          } else {
-            _mapController.drawRoute(selectedRoute, lineColor);
           }
-          // Expand sheet to show route details (mid size to keep map visible)
+        } else if (state.selectedRoute != null) {
+          // Route is selected - show only that route
+          _mapController.updateMapDisplay(
+            mode: MapDisplayMode.singleRoute,
+            selectedRoute: state.selectedRoute,
+          );
+          _previousSelectedRoute = state.selectedRoute;
+          _previousSearchQuery = state.searchQuery;
+          // Expand sheet to show route details
           if (_sheet.isAttached) {
             _sheet.animateTo(
               _mid,
@@ -213,15 +274,32 @@ class _RoutesState extends State<Routes> {
             );
           }
         } else {
-          if (state.routes.isNotEmpty) {
-            _mapController.drawRoutes(state.routes);
-            if (_lastRoutes != state.routes) {
-              _mapController.fitCameraToRoutes(state.routes);
-              _lastRoutes = state.routes;
-            }
+          // No selection - show filtered routes (or all if no search)
+          final routesToDisplay = state.filteredRoutes;
+
+          // Fit camera when:
+          // 1. User cleared selection (was viewing a route/stage, now viewing list)
+          // 2. Search query changed (show filtered results)
+          // 3. Routes list changed (new data loaded)
+          final routesChanged = _lastDisplayedRoutes != routesToDisplay;
+          final shouldFitCamera =
+              wasViewingRoute || searchChanged || routesChanged;
+
+          if (routesToDisplay.isNotEmpty) {
+            _mapController.updateMapDisplay(
+              mode: MapDisplayMode.allRoutes,
+              allRoutes: routesToDisplay,
+              fitCamera: shouldFitCamera,
+            );
+            _lastDisplayedRoutes = routesToDisplay;
           } else {
-            _mapController.clearRoute();
+            _mapController.updateMapDisplay(
+              mode: MapDisplayMode.empty,
+              fitCamera: false,
+            );
           }
+          _previousSelectedRoute = null;
+          _previousSearchQuery = state.searchQuery;
           // Collapse sheet when no route selected
           if (_sheet.isAttached) {
             _sheet.animateTo(
@@ -292,7 +370,7 @@ class _RoutesState extends State<Routes> {
                             ? colorScheme.primary
                             : colorScheme.onSurfaceVariant,
                         elevation: 2,
-                        child: const Icon(Icons.layers_rounded),
+                        child: const Icon(Icons.place),
                       ),
                       const SizedBox(height: 8),
                       // Location button

@@ -1,3 +1,5 @@
+import 'package:velo_map_app/features/routes/domain/models/route_stage_status.dart';
+
 class RouteStageEntity {
   final int stage;
   final String name;
@@ -19,4 +21,7 @@ class RouteStageEntity {
 
   String get formattedDistance => '${distanceKm.toStringAsFixed(1)} km';
   String get formattedElevation => '${elevationGain.toStringAsFixed(0)} m';
+
+  /// Get the development status parsed from description
+  RouteStageStatus get status => RouteStageStatus.fromDescription(description);
 }

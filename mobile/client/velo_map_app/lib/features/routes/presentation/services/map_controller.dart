@@ -1,14 +1,59 @@
+import 'dart:typed_data';
+import 'dart:ui' as ui;
+
+import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart' as geo;
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
+import 'package:velo_map_app/features/routes/domain/models/route_stage_status.dart';
+
+/// Display modes for the map
+enum MapDisplayMode {
+  /// Show all routes on the map
+  allRoutes,
+
+  /// Show a single selected route
+  singleRoute,
+
+  /// Show a single stage of a route
+  singleStage,
+
+  /// Empty map - no routes displayed
+  empty,
+}
 
 /// Manages map operations including route drawing, camera positioning, and location
 class MapController {
   MapboxMap? _mapboxMap;
   PolylineAnnotationManager? _polylineManager;
+  PointAnnotationManager? _pointManager;
   Cancelable? _polylineTapCancelable;
   bool _locationPermissionGranted = false;
+
+  /// Operation ID to prevent race conditions when rapidly switching routes.
+  ///
+  /// HOW IT WORKS:
+  /// - Each call to [updateMapDisplay] increments this counter and captures its value
+  /// - After every `await`, we compare: "Is my captured ID still the current one?"
+  /// - If not, a newer operation started → we exit early (our operation is "stale")
+  ///
+  /// EXAMPLE - User rapidly taps Route A → B → C:
+  /// ```
+  /// Call #1 (A): operationId=1, _drawOperationId becomes 1
+  ///   await clearAnnotations()...
+  /// Call #2 (B): operationId=2, _drawOperationId becomes 2  ← Call #2 starts
+  ///   await clearAnnotations()...
+  /// Call #1 resumes: check 1 != 2 → EXIT (stale)
+  /// Call #3 (C): operationId=3, _drawOperationId becomes 3  ← Call #3 starts
+  ///   await clearAnnotations()...
+  /// Call #2 resumes: check 2 != 3 → EXIT (stale)
+  /// Call #3 resumes: check 3 == 3 → CONTINUE ✓
+  /// Call #3 completes: Route C is drawn
+  /// ```
+  ///
+  /// RESULT: Only the last selection (Route C) actually draws, others abort.
+  int _drawOperationId = 0;
 
   // Default camera position (Tel Aviv area)
   static final defaultCenter = Point(coordinates: Position(34.78, 32.08));
@@ -23,6 +68,10 @@ class MapController {
 
   void setPolylineManager(PolylineAnnotationManager manager) {
     _polylineManager = manager;
+  }
+
+  void setPointManager(PointAnnotationManager manager) {
+    _pointManager = manager;
   }
 
   void setRouteTapHandler(void Function(String routeId) onRouteTap) {
@@ -131,48 +180,101 @@ class MapController {
     }
   }
 
-  /// Draw a full route on the map
-  Future<void> drawRoute(RouteEntity route, int lineColor) async {
-    if (_polylineManager == null || _mapboxMap == null) return;
+  // ============================================================================
+  // UNIFIED MAP DISPLAY API
+  // ============================================================================
 
-    // Clear existing annotations
-    await _polylineManager!.deleteAll();
-
-    if (route.stages.isNotEmpty) {
-      for (final stage in route.stages) {
-        if (stage.coordinates.isEmpty) continue;
-
-        final positions = stage.coordinates
-            .map((coord) => Position(coord[0], coord[1]))
-            .toList();
-
-        final polylineOptions = PolylineAnnotationOptions(
-          geometry: LineString(coordinates: positions),
-          lineColor: lineColor,
-          lineWidth: 5.0,
-          lineOpacity: 0.9,
-          customData: {'routeId': route.id},
-        );
-
-        await _polylineManager!.create(polylineOptions);
-      }
+  /// Clear all annotations from the map (polylines and point markers)
+  Future<void> clearAllAnnotations() async {
+    if (_polylineManager != null) {
+      await _polylineManager!.deleteAll();
     }
-
-    // Fit camera to route bounds
-    await fitCameraToBounds(route.boundingBox);
+    if (_pointManager != null) {
+      await _pointManager!.deleteAll();
+    }
   }
 
+  /// Unified method to update map display based on current state.
+  /// Handles race conditions by cancelling stale operations.
+  ///
+  /// - [mode]: What to display on the map
+  /// - [allRoutes]: Required for [MapDisplayMode.allRoutes]
+  /// - [selectedRoute]: Required for [MapDisplayMode.singleRoute] and [MapDisplayMode.singleStage]
+  /// - [selectedStage]: Required for [MapDisplayMode.singleStage]
+  /// - [fitCamera]: Whether to animate camera to fit content (default: true)
+  Future<void> updateMapDisplay({
+    required MapDisplayMode mode,
+    List<RouteEntity>? allRoutes,
+    RouteEntity? selectedRoute,
+    RouteStageEntity? selectedStage,
+    bool fitCamera = true,
+  }) async {
+    if (_mapboxMap == null || _polylineManager == null) return;
+
+    // Increment operation ID - any previous operation becomes stale
+    final operationId = ++_drawOperationId;
+
+    // Step 1: Always clear everything first
+    await clearAllAnnotations();
+
+    // Check if this operation is still valid
+    if (operationId != _drawOperationId) return;
+
+    // Step 2: Draw based on mode
+    switch (mode) {
+      case MapDisplayMode.allRoutes:
+        if (allRoutes == null || allRoutes.isEmpty) return;
+        await _drawAllRoutes(allRoutes, operationId);
+        if (operationId != _drawOperationId) return;
+        if (fitCamera) {
+          await fitCameraToRoutes(allRoutes);
+        }
+
+      case MapDisplayMode.singleRoute:
+        if (selectedRoute == null) return;
+        final lineColor = Color(selectedRoute.colorValue).toARGB32();
+        await _drawSingleRoute(selectedRoute, lineColor, operationId);
+        if (operationId != _drawOperationId) return;
+        if (fitCamera) {
+          await fitCameraToBounds(selectedRoute.boundingBox);
+        }
+
+      case MapDisplayMode.singleStage:
+        if (selectedRoute == null || selectedStage == null) return;
+        final lineColor = Color(selectedRoute.colorValue).toARGB32();
+        await _drawSingleStage(
+          selectedStage,
+          lineColor,
+          selectedRoute.id,
+          operationId,
+        );
+        if (operationId != _drawOperationId) return;
+        if (fitCamera) {
+          await _fitCameraToStageBounds(selectedStage);
+        }
+
+      case MapDisplayMode.empty:
+        // Already cleared, optionally return to user location
+        if (fitCamera) {
+          await _returnToDefaultLocation();
+        }
+    }
+  }
+
+  // ============================================================================
+  // PRIVATE DRAWING METHODS
+  // ============================================================================
+
   /// Draw all routes on the map
-  Future<void> drawRoutes(List<RouteEntity> routes) async {
-    if (_polylineManager == null || _mapboxMap == null) return;
-
-    await _polylineManager!.deleteAll();
-
+  Future<void> _drawAllRoutes(List<RouteEntity> routes, int operationId) async {
     for (final route in routes) {
       if (route.stages.isEmpty) continue;
 
       for (final stage in route.stages) {
         if (stage.coordinates.isEmpty) continue;
+
+        // Check if operation is still valid before each draw
+        if (operationId != _drawOperationId) return;
 
         final positions = stage.coordinates
             .map((coord) => Position(coord[0], coord[1]))
@@ -191,92 +293,249 @@ class MapController {
     }
   }
 
-  /// Draw a route stage on the map
-  Future<void> drawStage(
+  /// Draw a single route on the map
+  Future<void> _drawSingleRoute(
+    RouteEntity route,
+    int lineColor,
+    int operationId,
+  ) async {
+    if (route.stages.isEmpty) return;
+
+    for (final stage in route.stages) {
+      if (stage.coordinates.isEmpty) continue;
+
+      // Check if operation is still valid
+      if (operationId != _drawOperationId) return;
+
+      final positions = stage.coordinates
+          .map((coord) => Position(coord[0], coord[1]))
+          .toList();
+
+      final polylineOptions = PolylineAnnotationOptions(
+        geometry: LineString(coordinates: positions),
+        lineColor: lineColor,
+        lineWidth: 5.0,
+        lineOpacity: 0.9,
+        customData: {'routeId': route.id},
+      );
+
+      await _polylineManager!.create(polylineOptions);
+    }
+  }
+
+  /// Draw a single stage on the map with status markers
+  Future<void> _drawSingleStage(
     RouteStageEntity stage,
-    int lineColor, {
-    String? routeId,
-  }) async {
-    if (_polylineManager == null || _mapboxMap == null) return;
+    int lineColor,
+    String routeId,
+    int operationId,
+  ) async {
+    if (stage.coordinates.isEmpty) return;
 
-    // Clear existing annotations
-    await _polylineManager!.deleteAll();
+    // Check if operation is still valid
+    if (operationId != _drawOperationId) return;
 
-    // Convert coordinates to Position list
     final positions = stage.coordinates
         .map((coord) => Position(coord[0], coord[1]))
         .toList();
 
-    // Create polyline annotation with different style for stage
+    // Draw polyline with slightly thicker line for emphasis
     final polylineOptions = PolylineAnnotationOptions(
       geometry: LineString(coordinates: positions),
       lineColor: lineColor,
       lineWidth: 6.0,
       lineOpacity: 1.0,
-      customData: routeId != null ? {'routeId': routeId} : null,
+      customData: {'routeId': routeId},
     );
 
     await _polylineManager!.create(polylineOptions);
 
-    // Fit camera to stage bounds
-    await fitCameraToStageBounds(stage);
+    // Check again before adding markers
+    if (operationId != _drawOperationId) return;
+
+    // Add status markers along the stage
+    await _showStageStatusMarkers(stage, operationId);
   }
 
-  /// Clear route from map and return to user location or default
-  Future<void> clearRoute() async {
-    if (_polylineManager == null) return;
-    await _polylineManager!.deleteAll();
+  /// Show status markers along the stage route
+  Future<void> _showStageStatusMarkers(
+    RouteStageEntity stage,
+    int operationId,
+  ) async {
+    if (_pointManager == null || stage.coordinates.isEmpty) return;
 
-    // Return to user's location, or default if unavailable
-    if (_mapboxMap != null) {
-      if (_locationPermissionGranted) {
-        try {
-          // First try last known position (instant, no waiting)
-          final lastPosition = await geo.Geolocator.getLastKnownPosition();
-          if (lastPosition != null) {
-            await _mapboxMap!.flyTo(
-              CameraOptions(
-                center: Point(
-                  coordinates: Position(
-                    lastPosition.longitude,
-                    lastPosition.latitude,
-                  ),
-                ),
-                zoom: defaultZoom,
-              ),
-              MapAnimationOptions(duration: 500),
-            );
-            return;
-          }
+    // Generate status icon image
+    final status = stage.status;
+    final iconBytes = await _generateStatusIconImage(status);
 
-          // If no last known, try current position with short timeout
-          final position = await geo.Geolocator.getCurrentPosition(
-            locationSettings: geo.LocationSettings(
-              accuracy: geo.LocationAccuracy.low,
-              timeLimit: const Duration(seconds: 2),
-            ),
-          );
+    if (iconBytes == null) return;
+    if (operationId != _drawOperationId) return;
+
+    // Get positions for markers: start, 1/3, 2/3, and end of route
+    final coords = stage.coordinates;
+    final markerIndices = _getMarkerIndices(coords.length);
+
+    for (final index in markerIndices) {
+      if (operationId != _drawOperationId) return;
+
+      final coord = coords[index];
+      final position = Position(coord[0], coord[1]);
+
+      // Create point annotation with status icon
+      final pointOptions = PointAnnotationOptions(
+        geometry: Point(coordinates: position),
+        image: iconBytes,
+        iconSize: 1.0,
+        iconAnchor: IconAnchor.CENTER,
+      );
+
+      await _pointManager!.create(pointOptions);
+    }
+  }
+
+  /// Get indices for placing markers along the route
+  /// Places markers at start, ~1/3, ~2/3, and end positions
+  List<int> _getMarkerIndices(int totalCoords) {
+    if (totalCoords <= 0) return [];
+    if (totalCoords == 1) return [0];
+    if (totalCoords <= 3) return [0, totalCoords - 1];
+    if (totalCoords <= 6) return [0, totalCoords ~/ 2, totalCoords - 1];
+
+    // For longer routes, place 4 markers
+    return [
+      0, // Start
+      totalCoords ~/ 3, // 1/3 of the way
+      (totalCoords * 2) ~/ 3, // 2/3 of the way
+      totalCoords - 1, // End
+    ];
+  }
+
+  /// Generate a status icon image as bytes
+  Future<Uint8List?> _generateStatusIconImage(RouteStageStatus status) async {
+    // Larger size for better visibility on map
+    const size = 80.0;
+    const padding = 12.0;
+
+    final recorder = ui.PictureRecorder();
+    final canvas = Canvas(recorder);
+
+    // Draw background circle
+    final bgPaint = Paint()
+      ..color = Colors.white
+      ..style = PaintingStyle.fill;
+
+    final shadowPaint = Paint()
+      ..color = Colors.black.withValues(alpha: 0.3)
+      ..style = PaintingStyle.fill
+      ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 4);
+
+    // Draw shadow
+    canvas.drawCircle(
+      const Offset(size / 2, size / 2 + 3),
+      size / 2 - padding,
+      shadowPaint,
+    );
+
+    // Draw white background
+    canvas.drawCircle(
+      const Offset(size / 2, size / 2),
+      size / 2 - padding,
+      bgPaint,
+    );
+
+    // Draw colored border
+    final borderPaint = Paint()
+      ..color = status.color
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 4;
+
+    canvas.drawCircle(
+      const Offset(size / 2, size / 2),
+      size / 2 - padding,
+      borderPaint,
+    );
+
+    // Draw status icon using a text painter with material icons font
+    final iconPainter = TextPainter(
+      text: TextSpan(
+        text: String.fromCharCode(status.icon.codePoint),
+        style: TextStyle(
+          fontSize: 36,
+          fontFamily: status.icon.fontFamily,
+          package: status.icon.fontPackage,
+          color: status.color,
+        ),
+      ),
+      textDirection: TextDirection.ltr,
+    );
+    iconPainter.layout();
+    iconPainter.paint(
+      canvas,
+      Offset((size - iconPainter.width) / 2, (size - iconPainter.height) / 2),
+    );
+
+    final picture = recorder.endRecording();
+    final image = await picture.toImage(size.toInt(), size.toInt());
+    final byteData = await image.toByteData(format: ui.ImageByteFormat.png);
+
+    return byteData?.buffer.asUint8List();
+  }
+
+  // ============================================================================
+  // CAMERA METHODS
+  // ============================================================================
+
+  /// Return to user's location or default position
+  Future<void> _returnToDefaultLocation() async {
+    if (_mapboxMap == null) return;
+
+    if (_locationPermissionGranted) {
+      try {
+        // First try last known position (instant, no waiting)
+        final lastPosition = await geo.Geolocator.getLastKnownPosition();
+        if (lastPosition != null) {
           await _mapboxMap!.flyTo(
             CameraOptions(
               center: Point(
-                coordinates: Position(position.longitude, position.latitude),
+                coordinates: Position(
+                  lastPosition.longitude,
+                  lastPosition.latitude,
+                ),
               ),
               zoom: defaultZoom,
             ),
             MapAnimationOptions(duration: 500),
           );
           return;
-        } catch (_) {
-          // Fall through to default location
         }
-      }
 
-      // Fallback to default location if current location unavailable
-      await _mapboxMap!.flyTo(
-        CameraOptions(center: defaultCenter, zoom: defaultZoom),
-        MapAnimationOptions(duration: 500),
-      );
+        // If no last known, try current position with short timeout
+        final position = await geo.Geolocator.getCurrentPosition(
+          locationSettings: geo.LocationSettings(
+            accuracy: geo.LocationAccuracy.low,
+            timeLimit: const Duration(seconds: 2),
+          ),
+        );
+        await _mapboxMap!.flyTo(
+          CameraOptions(
+            center: Point(
+              coordinates: Position(position.longitude, position.latitude),
+            ),
+            zoom: defaultZoom,
+          ),
+          MapAnimationOptions(duration: 500),
+        );
+        return;
+      } catch (_) {
+        // Fall through to default location
+      }
     }
+
+    // Fallback to default location if current location unavailable
+    await _mapboxMap!.flyTo(
+      CameraOptions(center: defaultCenter, zoom: defaultZoom),
+      MapAnimationOptions(duration: 500),
+    );
   }
 
   /// Fit camera to route bounding box
@@ -307,7 +566,7 @@ class MapController {
   }
 
   /// Fit camera to stage bounding box
-  Future<void> fitCameraToStageBounds(RouteStageEntity stage) async {
+  Future<void> _fitCameraToStageBounds(RouteStageEntity stage) async {
     if (_mapboxMap == null || stage.coordinates.isEmpty) return;
 
     // Calculate bounding box for stage
@@ -379,7 +638,9 @@ class MapController {
   void dispose() {
     _mapboxMap = null;
     _polylineManager = null;
+    _pointManager = null;
     _polylineTapCancelable?.cancel();
     _polylineTapCancelable = null;
+    _drawOperationId = 0;
   }
 }

@@ -659,34 +659,25 @@ class _ScrollableStagesList extends StatelessWidget {
         // Scrollable stages list with fixed height
         Container(
           constraints: const BoxConstraints(maxHeight: _maxHeight),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(8),
-            border: Border.all(
-              color: colorScheme.outline.withValues(alpha: 0.2),
-            ),
-          ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(8),
-            child: ListView.builder(
-              shrinkWrap: true,
-              padding: const EdgeInsets.all(6),
-              itemCount: stages.length,
-              itemBuilder: (context, index) {
-                final stage = stages[index];
-                return _StageItem(
-                  stage: stage,
-                  isSelected: selectedStage?.stage == stage.stage,
-                  onTap: () {
-                    if (selectedStage?.stage == stage.stage) {
-                      onStageClear?.call();
-                    } else {
-                      onStageSelected?.call(stage);
-                    }
-                  },
-                  colorScheme: colorScheme,
-                );
-              },
-            ),
+          child: ListView.builder(
+            shrinkWrap: true,
+            padding: EdgeInsets.zero,
+            itemCount: stages.length,
+            itemBuilder: (context, index) {
+              final stage = stages[index];
+              return _StageItem(
+                stage: stage,
+                isSelected: selectedStage?.stage == stage.stage,
+                onTap: () {
+                  if (selectedStage?.stage == stage.stage) {
+                    onStageClear?.call();
+                  } else {
+                    onStageSelected?.call(stage);
+                  }
+                },
+                colorScheme: colorScheme,
+              );
+            },
           ),
         ),
       ],
@@ -710,11 +701,13 @@ class _StageItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final status = stage.status;
+
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        margin: const EdgeInsets.only(bottom: 6),
-        padding: const EdgeInsets.all(10),
+        margin: const EdgeInsets.only(bottom: 4),
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
         decoration: BoxDecoration(
           color: isSelected
               ? colorScheme.primary.withValues(alpha: 0.15)
@@ -758,6 +751,7 @@ class _StageItem extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  // Stage name
                   Text(
                     stage.name,
                     style: TextStyle(
@@ -769,6 +763,7 @@ class _StageItem extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 2),
+                  // Metadata row with status icon
                   Row(
                     children: [
                       Icon(
@@ -805,6 +800,12 @@ class _StageItem extends StatelessWidget {
                             alpha: 0.7,
                           ),
                         ),
+                      ),
+                      const SizedBox(width: 8),
+                      // Status icon
+                      Tooltip(
+                        message: status.label,
+                        child: Icon(status.icon, size: 14, color: status.color),
                       ),
                     ],
                   ),

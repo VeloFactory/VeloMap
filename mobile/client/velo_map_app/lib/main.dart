@@ -13,6 +13,9 @@ final application = GlobalKey();
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  // Lock to portrait mode only
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+
   // Hide system navigation bar (immersive mode)
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   final dir = await getApplicationDocumentsDirectory();
