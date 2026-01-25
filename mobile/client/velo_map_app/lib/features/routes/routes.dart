@@ -25,9 +25,12 @@ class _RoutesState extends State<Routes> {
   final MapController _mapController = MapController();
   ScrollController? _listScrollController;
   bool _isSearchVisible = false;
-  List<RouteEntity>? _lastRoutes;
+  List<RouteEntity>?
+  _lastDisplayedRoutes; // Track last displayed routes for camera behavior
   RouteEntity?
   _previousSelectedRoute; // Track previous selection for clear behavior
+  String _previousSearchQuery =
+      ''; // Track previous search query for camera behavior
   double _currentSheetSize = _min;
   double _mapBearing = 0.0;
 
@@ -89,7 +92,12 @@ class _RoutesState extends State<Routes> {
   }
 
   void _onSearchChanged(String query) {
-    context.read<RoutesBloc>().add(RoutesEvent.search(query));
+    final bloc = context.read<RoutesBloc>();
+    // Clear any route/stage selection when searching - user wants to see filtered list
+    if (bloc.state.selectedRoute != null) {
+      bloc.add(const RoutesEvent.clearSelection());
+    }
+    bloc.add(RoutesEvent.search(query));
   }
 
   Future<void> _requestLocationPermission() async {
@@ -171,7 +179,7 @@ class _RoutesState extends State<Routes> {
         mode: MapDisplayMode.allRoutes,
         allRoutes: state.routes,
       );
-      _lastRoutes = state.routes;
+      _lastDisplayedRoutes = state.routes;
     }
 
     // Enable user location if permission already granted
@@ -213,14 +221,15 @@ class _RoutesState extends State<Routes> {
       listenWhen: (previous, current) =>
           previous.routes != current.routes ||
           previous.selectedRoute != current.selectedRoute ||
-          previous.selectedStage != current.selectedStage,
+          previous.selectedStage != current.selectedStage ||
+          previous.searchQuery !=
+              current.searchQuery, // Listen to search changes
       // NOTE: This listener also calls updateMapDisplay (see _onMapCreated doc comment).
       // This handles all state changes AFTER the map is ready.
-      // NOTE: Search query changes don't trigger this listener - search only filters
-      // the bottom sheet list, doesn't affect the map.
       listener: (context, state) {
-        // Capture previous selection before updating
+        // Capture previous state before updating
         final wasViewingRoute = _previousSelectedRoute != null;
+        final searchChanged = _previousSearchQuery != state.searchQuery;
 
         if (state.selectedStage != null && state.selectedRoute != null) {
           // Stage is selected - show only that stage
@@ -230,6 +239,7 @@ class _RoutesState extends State<Routes> {
             selectedStage: state.selectedStage,
           );
           _previousSelectedRoute = state.selectedRoute;
+          _previousSearchQuery = state.searchQuery;
           // Expand sheet to show route details
           if (_sheet.isAttached) {
             _sheet.animateTo(
@@ -245,6 +255,7 @@ class _RoutesState extends State<Routes> {
             selectedRoute: state.selectedRoute,
           );
           _previousSelectedRoute = state.selectedRoute;
+          _previousSearchQuery = state.searchQuery;
           // Expand sheet to show route details
           if (_sheet.isAttached) {
             _sheet.animateTo(
@@ -263,20 +274,24 @@ class _RoutesState extends State<Routes> {
             );
           }
         } else {
-          // No selection - show all routes
-          // Fit camera to all routes when:
-          // 1. User cleared selection (was viewing a route/stage, now viewing all)
-          // 2. Routes list changed (new data loaded)
-          final routesChanged = _lastRoutes != state.routes;
-          final shouldFitCamera = wasViewingRoute || routesChanged;
+          // No selection - show filtered routes (or all if no search)
+          final routesToDisplay = state.filteredRoutes;
 
-          if (state.routes.isNotEmpty) {
+          // Fit camera when:
+          // 1. User cleared selection (was viewing a route/stage, now viewing list)
+          // 2. Search query changed (show filtered results)
+          // 3. Routes list changed (new data loaded)
+          final routesChanged = _lastDisplayedRoutes != routesToDisplay;
+          final shouldFitCamera =
+              wasViewingRoute || searchChanged || routesChanged;
+
+          if (routesToDisplay.isNotEmpty) {
             _mapController.updateMapDisplay(
               mode: MapDisplayMode.allRoutes,
-              allRoutes: state.routes,
+              allRoutes: routesToDisplay,
               fitCamera: shouldFitCamera,
             );
-            _lastRoutes = state.routes;
+            _lastDisplayedRoutes = routesToDisplay;
           } else {
             _mapController.updateMapDisplay(
               mode: MapDisplayMode.empty,
@@ -284,6 +299,7 @@ class _RoutesState extends State<Routes> {
             );
           }
           _previousSelectedRoute = null;
+          _previousSearchQuery = state.searchQuery;
           // Collapse sheet when no route selected
           if (_sheet.isAttached) {
             _sheet.animateTo(
