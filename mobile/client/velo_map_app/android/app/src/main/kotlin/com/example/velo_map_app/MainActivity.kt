@@ -1,4 +1,4 @@
-package com.example.velo_map_app
+package app.velofactory.velomap
 
 import io.flutter.embedding.android.FlutterActivity
 
