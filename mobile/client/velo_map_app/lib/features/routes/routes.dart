@@ -126,29 +126,47 @@ class _RoutesState extends State<Routes> {
     await _mapController.configureMapSettings();
 
     // Create polyline annotation manager for drawing routes
-    final polylineManager = await mapboxMap.annotations
-        .createPolylineAnnotationManager();
+    final polylineManager =
+        await mapboxMap.annotations.createPolylineAnnotationManager();
     _mapController.setPolylineManager(polylineManager);
     _mapController.setRouteTapHandler(_onRouteTapped);
 
     // Create point annotation manager for status markers
-    final pointManager = await mapboxMap.annotations
-        .createPointAnnotationManager();
+    final pointManager =
+        await mapboxMap.annotations.createPointAnnotationManager();
     _mapController.setPointManager(pointManager);
 
     if (!mounted) return;
-    final routes = context.read<RoutesBloc>().state.routes;
-    final hasRoutes = routes.isNotEmpty;
-    if (hasRoutes) {
-      await _mapController.drawRoutes(routes);
-      await _mapController.fitCameraToRoutes(routes);
-      _lastRoutes = routes;
+
+    // Get current BLoC state and display accordingly
+    final state = context.read<RoutesBloc>().state;
+
+    if (state.selectedStage != null && state.selectedRoute != null) {
+      // Stage is selected - show only that stage
+      await _mapController.updateMapDisplay(
+        mode: MapDisplayMode.singleStage,
+        selectedRoute: state.selectedRoute,
+        selectedStage: state.selectedStage,
+      );
+    } else if (state.selectedRoute != null) {
+      // Route is selected - show only that route
+      await _mapController.updateMapDisplay(
+        mode: MapDisplayMode.singleRoute,
+        selectedRoute: state.selectedRoute,
+      );
+    } else if (state.routes.isNotEmpty) {
+      // No selection - show all routes
+      await _mapController.updateMapDisplay(
+        mode: MapDisplayMode.allRoutes,
+        allRoutes: state.routes,
+      );
+      _lastRoutes = state.routes;
     }
 
     // Enable user location if permission already granted
     if (_mapController.locationPermissionGranted) {
       await _enableUserLocation();
-      if (!hasRoutes) {
+      if (state.routes.isEmpty) {
         await _mapController.moveToCurrentLocation();
       }
     }
@@ -186,21 +204,29 @@ class _RoutesState extends State<Routes> {
           previous.selectedRoute != current.selectedRoute ||
           previous.selectedStage != current.selectedStage,
       listener: (context, state) {
-        final selectedRoute = state.selectedRoute;
-
-        if (selectedRoute != null) {
-          final lineColor = Color(selectedRoute.colorValue).toARGB32();
-          // If a stage is selected, draw only that stage; otherwise draw full route
-          if (state.selectedStage != null) {
-            _mapController.drawStage(
-              state.selectedStage!,
-              lineColor,
-              routeId: selectedRoute.id,
+        // Update map display based on current selection state
+        if (state.selectedStage != null && state.selectedRoute != null) {
+          // Stage is selected - show only that stage
+          _mapController.updateMapDisplay(
+            mode: MapDisplayMode.singleStage,
+            selectedRoute: state.selectedRoute,
+            selectedStage: state.selectedStage,
+          );
+          // Expand sheet to show route details
+          if (_sheet.isAttached) {
+            _sheet.animateTo(
+              _mid,
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeOutCubic,
             );
-          } else {
-            _mapController.drawRoute(selectedRoute, lineColor);
           }
-          // Expand sheet to show route details (mid size to keep map visible)
+        } else if (state.selectedRoute != null) {
+          // Route is selected - show only that route
+          _mapController.updateMapDisplay(
+            mode: MapDisplayMode.singleRoute,
+            selectedRoute: state.selectedRoute,
+          );
+          // Expand sheet to show route details
           if (_sheet.isAttached) {
             _sheet.animateTo(
               _mid,
@@ -218,14 +244,21 @@ class _RoutesState extends State<Routes> {
             );
           }
         } else {
+          // No selection - show all routes or empty
           if (state.routes.isNotEmpty) {
-            _mapController.drawRoutes(state.routes);
-            if (_lastRoutes != state.routes) {
-              _mapController.fitCameraToRoutes(state.routes);
-              _lastRoutes = state.routes;
-            }
+            // Only fit camera if routes changed
+            final shouldFitCamera = _lastRoutes != state.routes;
+            _mapController.updateMapDisplay(
+              mode: MapDisplayMode.allRoutes,
+              allRoutes: state.routes,
+              fitCamera: shouldFitCamera,
+            );
+            _lastRoutes = state.routes;
           } else {
-            _mapController.clearRoute();
+            _mapController.updateMapDisplay(
+              mode: MapDisplayMode.empty,
+              fitCamera: false,
+            );
           }
           // Collapse sheet when no route selected
           if (_sheet.isAttached) {
