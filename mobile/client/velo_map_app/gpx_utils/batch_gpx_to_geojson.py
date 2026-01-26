@@ -233,6 +233,14 @@ def extract_cities_from_name(name: str) -> List[str]:
     parts = [p.strip() for p in CITY_SEP_RE.split(s) if p.strip()]
     return parts
 
+import unicodedata
+
+def normalize_city_name(text: str) -> str:
+    return (
+        unicodedata.normalize("NFD", text)
+        .encode("ascii", "ignore")
+        .decode("ascii")
+    )
 
 def build_geojson(
     tracks: List[Dict[str, Any]],
@@ -272,6 +280,7 @@ def build_geojson(
         # NEW: cities per feature, and aggregate into collection
         cities = extract_cities_from_name(name)
         for c in cities:
+            c = normalize_city_name(c)
             if c not in seen_cities:
                 seen_cities.add(c)
                 collection_cities.append(c)
