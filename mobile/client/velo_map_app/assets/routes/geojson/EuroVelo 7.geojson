@@ -10,70 +10,70 @@
     "total_stages": 144,
     "cities": [
       "Nordkapp",
-      "Honningsvåg",
-      "Repvåg",
+      "Honningsvag",
+      "Repvag",
       "Olderfjord",
       "Sennalandet",
       "Alta",
       "Masi",
       "Kautokeino",
-      "Enontekiö",
+      "Enontekio",
       "Karesuando",
       "Vittangi",
-      "Gällivare Municipality",
+      "Gallivare Municipality",
       "Hakkas",
-      "Överkalix",
-      "Töre",
+      "Overkalix",
+      "Tore",
       "Lulea",
       "Pitea",
       "Byske",
-      "Skellefteå",
-      "Lövånger",
+      "Skelleftea",
+      "Lovanger",
       "Robertsfors",
       "Umea",
       "Nordmaling",
       "Husum",
-      "Örnsköldsvik",
-      "Ullånger",
-      "Härnösand",
+      "Ornskoldsvik",
+      "Ullanger",
+      "Harnosand",
       "Sundsvall",
       "Friggesund",
       "Ljusdal",
-      "Bollnäs",
-      "Åmot",
+      "Bollnas",
+      "Amot",
       "Falun",
-      "Borlänge",
+      "Borlange",
       "Ludvika",
       "Kopparberg",
-      "Örebro",
-      "Åtorp",
-      "Otterbäcken",
+      "Orebro",
+      "Atorp",
+      "Otterbacken",
       "Mariestad",
-      "Lidköping",
-      "Vänersborg",
+      "Lidkoping",
+      "Vanersborg",
       "Lilla Edet",
       "Goteborg",
       "Kungsbacka",
       "Varberg",
       "Falkenberg",
       "Halmstad",
-      "Båstad",
-      "Ängelholms kommun",
-      "Höganäs",
+      "Bastad",
+      "Angelholms kommun",
+      "Hoganas",
       "Helsingborg",
       "Helsingor",
       "Copenhagen",
-      "Køge",
-      "Rødvig",
+      "Kge",
+      "Rdvig",
       "Stege",
-      "Nykøbing Falster",
-      "Stubbekøbing",
+      "Nykbing Falster",
+      "Stubbekbing",
       "Gedser",
       "Rostock",
-      "Güstrow",
+      "Gustrow",
       "Waren",
       "Wesenberg",
-      "Fürstenberg/Havel",
+      "Furstenberg/Havel",
       "Liebenwalde",
       "Hennigsdorf",
       "Berlin",
@@ -87,11 +87,11 @@
       "Litomerice",
       "Melnik",
       "Prague",
-      "Živohošť",
-      "Zvíkovské Podhradí",
-      "Týn nad Vltavou",
+      "Zivohost",
+      "Zvikovske Podhradi",
+      "Tyn nad Vltavou",
       "Cesky Krumlov",
-      "Vyšší Brod",
+      "Vyssi Brod",
       "Rading",
       "St. Georgen an der Gusen",
       "Linz",
@@ -101,7 +101,7 @@
       "Burghausen",
       "Salzburg",
       "Bischofshofen",
-      "Böckstein",
+      "Bockstein",
       "Obervellach",
       "Greifenburg",
       "Lienz",
@@ -142,7 +142,7 @@
       "Firmo",
       "Bisignano",
       "Campo San Lorenzo",
-      "Trepidò Sottano",
+      "Trepido Sottano",
       "Taverna",
       "Girifalco",
       "Serra San Bruno",
@@ -157,8 +157,8 @@
       "Marzamemi",
       "Pozzallo",
       "Valletta",
-      "Birżebbuġa",
-      "Ċirkewwa",
+      "Birzebbuga",
+      "Cirkewwa",
       "Mgarr",
       "Qala"
     ]
@@ -168,7 +168,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Nordkapp – Honningsvåg (DEVELOPED)",
+        "name": "Nordkapp – Honningsvåg",
         "description": "DEVELOPED",
         "distance_km": 31.129,
         "elevation_gain": 616.6,
@@ -1838,7 +1838,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Honningsvåg – Repvåg (DEVELOPED)",
+        "name": "Honningsvåg – Repvåg",
         "description": "DEVELOPED",
         "distance_km": 51.475,
         "elevation_gain": 1576.3,
@@ -3758,7 +3758,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Repvåg – Olderfjord (DEVELOPED)",
+        "name": "Repvåg – Olderfjord",
         "description": "DEVELOPED",
         "distance_km": 44.119,
         "elevation_gain": 1222.4,
@@ -6133,7 +6133,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: Olderfjord – Sennalandet (DEVELOPED)",
+        "name": "Olderfjord – Sennalandet",
         "description": "DEVELOPED",
         "distance_km": 52.851,
         "elevation_gain": 670.0,
@@ -7428,7 +7428,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Sennalandet – Alta (DEVELOPED)",
+        "name": "Sennalandet – Alta",
         "description": "DEVELOPED",
         "distance_km": 53.091,
         "elevation_gain": 617.6,
@@ -9438,7 +9438,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Alta – Masi (DEVELOPED_WITH_SIGNS)",
+        "name": "Alta – Masi",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.995,
         "elevation_gain": 940.2,
@@ -12683,7 +12683,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Masi – Kautokeino (DEVELOPED_WITH_SIGNS)",
+        "name": "Masi – Kautokeino",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.226,
         "elevation_gain": 566.2,
@@ -14808,7 +14808,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Kautokeino – Enontekiö (DEVELOPED_WITH_SIGNS)",
+        "name": "Kautokeino – Enontekiö",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.059,
         "elevation_gain": 249.1,
@@ -15768,7 +15768,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Enontekiö – Karesuando (PLANNING)",
+        "name": "Enontekiö – Karesuando",
         "description": "PLANNING",
         "distance_km": 101.998,
         "elevation_gain": 393.2,
@@ -18683,7 +18683,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Karesuando – Vittangi (UNDER_DEVELOPMENT)",
+        "name": "Karesuando – Vittangi",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 104.723,
         "elevation_gain": 456.9,
@@ -21718,7 +21718,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Vittangi – Gällivare Municipality (UNDER_DEVELOPMENT)",
+        "name": "Vittangi – Gällivare Municipality",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 96.109,
         "elevation_gain": 706.8,
@@ -24488,7 +24488,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Gällivare Municipality – Hakkas (UNDER_DEVELOPMENT)",
+        "name": "Gällivare Municipality – Hakkas",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 46.882,
         "elevation_gain": 164.4,
@@ -25708,7 +25708,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Hakkas – Överkalix (UNDER_DEVELOPMENT)",
+        "name": "Hakkas – Överkalix",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 88.197,
         "elevation_gain": 783.4,
@@ -27833,7 +27833,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Överkalix – Töre (UNDER_DEVELOPMENT)",
+        "name": "Överkalix – Töre",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.987,
         "elevation_gain": 259.2,
@@ -29223,7 +29223,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Lulea – Töre (UNDER_DEVELOPMENT)",
+        "name": "Lulea – Töre",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 73.267,
         "elevation_gain": 286.7,
@@ -30783,7 +30783,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Pitea – Lulea (UNDER_DEVELOPMENT)",
+        "name": "Pitea – Lulea",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 76.899,
         "elevation_gain": 247.6,
@@ -31848,7 +31848,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Byske – Pitea (UNDER_DEVELOPMENT)",
+        "name": "Byske – Pitea",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.542,
         "elevation_gain": 303.0,
@@ -32558,7 +32558,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Skellefteå – Byske (UNDER_DEVELOPMENT)",
+        "name": "Skellefteå – Byske",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.878,
         "elevation_gain": 215.2,
@@ -33468,7 +33468,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Lövånger – Skellefteå (UNDER_DEVELOPMENT)",
+        "name": "Lövånger – Skellefteå",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 71.316,
         "elevation_gain": 362.2,
@@ -34583,7 +34583,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: Robertsfors – Lövånger (UNDER_DEVELOPMENT)",
+        "name": "Robertsfors – Lövånger",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.062,
         "elevation_gain": 269.9,
@@ -35368,7 +35368,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Umea – Robertsfors (UNDER_DEVELOPMENT)",
+        "name": "Umea – Robertsfors",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 76.114,
         "elevation_gain": 390.9,
@@ -36593,7 +36593,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Nordmaling – Umea (UNDER_DEVELOPMENT)",
+        "name": "Nordmaling – Umea",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 62.276,
         "elevation_gain": 255.0,
@@ -37768,7 +37768,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Husum – Nordmaling (UNDER_DEVELOPMENT)",
+        "name": "Husum – Nordmaling",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 71.204,
         "elevation_gain": 669.4,
@@ -39133,7 +39133,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Örnsköldsvik – Husum (UNDER_DEVELOPMENT)",
+        "name": "Örnsköldsvik – Husum",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.119,
         "elevation_gain": 309.4,
@@ -40163,7 +40163,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: Ullånger – Örnsköldsvik (UNDER_DEVELOPMENT)",
+        "name": "Ullånger – Örnsköldsvik",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.432,
         "elevation_gain": 1046.1,
@@ -41453,7 +41453,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: Härnösand – Ullånger (UNDER_DEVELOPMENT)",
+        "name": "Härnösand – Ullånger",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 80.128,
         "elevation_gain": 1242.4,
@@ -43218,7 +43218,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Sundsvall – Härnösand (UNDER_DEVELOPMENT)",
+        "name": "Sundsvall – Härnösand",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.64,
         "elevation_gain": 736.3,
@@ -44728,7 +44728,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Sundsvall – Friggesund (UNDER_DEVELOPMENT)",
+        "name": "Sundsvall – Friggesund",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 94.676,
         "elevation_gain": 1071.7,
@@ -49848,7 +49848,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Friggesund – Ljusdal (UNDER_DEVELOPMENT)",
+        "name": "Friggesund – Ljusdal",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.499,
         "elevation_gain": 503.9,
@@ -52393,7 +52393,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Ljusdal – Bollnäs (UNDER_DEVELOPMENT)",
+        "name": "Ljusdal – Bollnäs",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 67.68,
         "elevation_gain": 530.1,
@@ -55093,7 +55093,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Bollnäs – Åmot (UNDER_DEVELOPMENT)",
+        "name": "Bollnäs – Åmot",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.942,
         "elevation_gain": 650.9,
@@ -58178,7 +58178,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Åmot – Falun (UNDER_DEVELOPMENT)",
+        "name": "Åmot – Falun",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 56.223,
         "elevation_gain": 554.6,
@@ -61353,7 +61353,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Falun – Borlänge (UNDER_DEVELOPMENT)",
+        "name": "Falun – Borlänge",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.176,
         "elevation_gain": 265.6,
@@ -63563,7 +63563,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Borlänge – Ludvika (UNDER_DEVELOPMENT)",
+        "name": "Borlänge – Ludvika",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.121,
         "elevation_gain": 542.4,
@@ -65973,7 +65973,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: Ludvika – Kopparberg (UNDER_DEVELOPMENT)",
+        "name": "Ludvika – Kopparberg",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.471,
         "elevation_gain": 386.1,
@@ -67373,7 +67373,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Kopparberg – Örebro (UNDER_DEVELOPMENT)",
+        "name": "Kopparberg – Örebro",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 85.5,
         "elevation_gain": 812.6,
@@ -73043,7 +73043,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: Örebro – Åtorp (DEVELOPED)",
+        "name": "Örebro – Åtorp",
         "description": "DEVELOPED",
         "distance_km": 62.356,
         "elevation_gain": 478.0,
@@ -75853,7 +75853,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Åtorp – Otterbäcken (DEVELOPED)",
+        "name": "Åtorp – Otterbäcken",
         "description": "DEVELOPED",
         "distance_km": 36.313,
         "elevation_gain": 332.8,
@@ -78033,7 +78033,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Otterbäcken – Mariestad (DEVELOPED)",
+        "name": "Otterbäcken – Mariestad",
         "description": "DEVELOPED",
         "distance_km": 50.962,
         "elevation_gain": 366.3,
@@ -80628,7 +80628,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Mariestad – Lidköping (DEVELOPED)",
+        "name": "Mariestad – Lidköping",
         "description": "DEVELOPED",
         "distance_km": 64.221,
         "elevation_gain": 506.7,
@@ -84728,7 +84728,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Lidköping – Vänersborg (DEVELOPED)",
+        "name": "Lidköping – Vänersborg",
         "description": "DEVELOPED",
         "distance_km": 88.254,
         "elevation_gain": 563.0,
@@ -89903,7 +89903,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: Vänersborg – Lilla Edet (PLANNING)",
+        "name": "Vänersborg – Lilla Edet",
         "description": "PLANNING",
         "distance_km": 37.355,
         "elevation_gain": 412.0,
@@ -92293,7 +92293,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Lilla Edet – Goteborg (PLANNING)",
+        "name": "Lilla Edet – Goteborg",
         "description": "PLANNING",
         "distance_km": 59.604,
         "elevation_gain": 576.2,
@@ -96583,7 +96583,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Goteborg – Kungsbacka (DEVELOPED)",
+        "name": "Goteborg – Kungsbacka",
         "description": "DEVELOPED",
         "distance_km": 63.991,
         "elevation_gain": 553.4,
@@ -101138,7 +101138,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Kungsbacka – Varberg (DEVELOPED)",
+        "name": "Kungsbacka – Varberg",
         "description": "DEVELOPED",
         "distance_km": 71.353,
         "elevation_gain": 537.5,
@@ -106348,7 +106348,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Varberg – Falkenberg (DEVELOPED)",
+        "name": "Varberg – Falkenberg",
         "description": "DEVELOPED",
         "distance_km": 39.616,
         "elevation_gain": 162.0,
@@ -108763,7 +108763,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Falkenberg – Halmstad (DEVELOPED)",
+        "name": "Falkenberg – Halmstad",
         "description": "DEVELOPED",
         "distance_km": 57.439,
         "elevation_gain": 339.1,
@@ -112048,7 +112048,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: Halmstad – Båstad (DEVELOPED)",
+        "name": "Halmstad – Båstad",
         "description": "DEVELOPED",
         "distance_km": 39.051,
         "elevation_gain": 184.3,
@@ -114453,7 +114453,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Båstad – Ängelholms kommun (DEVELOPED)",
+        "name": "Båstad – Ängelholms kommun",
         "description": "DEVELOPED",
         "distance_km": 55.475,
         "elevation_gain": 458.0,
@@ -118058,7 +118058,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Ängelholms kommun – Höganäs (DEVELOPED)",
+        "name": "Ängelholms kommun – Höganäs",
         "description": "DEVELOPED",
         "distance_km": 40.236,
         "elevation_gain": 214.3,
@@ -120173,7 +120173,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Höganäs – Helsingborg (DEVELOPED)",
+        "name": "Höganäs – Helsingborg",
         "description": "DEVELOPED",
         "distance_km": 21.854,
         "elevation_gain": 123.9,
@@ -121073,7 +121073,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Helsingor – Copenhagen (DEVELOPED)",
+        "name": "Helsingor – Copenhagen",
         "description": "DEVELOPED",
         "distance_km": 48.767,
         "elevation_gain": 280.6,
@@ -123658,7 +123658,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Copenhagen – Køge (DEVELOPED_WITH_SIGNS)",
+        "name": "Copenhagen – Køge",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.014,
         "elevation_gain": 180.2,
@@ -126368,7 +126368,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Køge – Rødvig (DEVELOPED_WITH_SIGNS)",
+        "name": "Køge – Rødvig",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.959,
         "elevation_gain": 127.2,
@@ -127733,7 +127733,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: Rødvig – Stege (DEVELOPED_WITH_SIGNS)",
+        "name": "Rødvig – Stege",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.694,
         "elevation_gain": 357.3,
@@ -130778,7 +130778,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Stege – Nykøbing Falster (DEVELOPED_WITH_SIGNS)",
+        "name": "Stege – Nykøbing Falster",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.105,
         "elevation_gain": 145.2,
@@ -132203,7 +132203,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Nykøbing Falster – Stubbekøbing (DEVELOPED_WITH_SIGNS)",
+        "name": "Nykøbing Falster – Stubbekøbing",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.58,
         "elevation_gain": 181.1,
@@ -133758,7 +133758,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Stubbekøbing – Gedser (DEVELOPED_WITH_SIGNS)",
+        "name": "Stubbekøbing – Gedser",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.931,
         "elevation_gain": 67.1,
@@ -134628,7 +134628,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Rostock – Güstrow (DEVELOPED)",
+        "name": "Rostock – Güstrow",
         "description": "DEVELOPED",
         "distance_km": 63.508,
         "elevation_gain": 314.3,
@@ -137628,7 +137628,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Güstrow – Waren (DEVELOPED)",
+        "name": "Güstrow – Waren",
         "description": "DEVELOPED",
         "distance_km": 80.105,
         "elevation_gain": 676.8,
@@ -141293,7 +141293,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Waren – Wesenberg (DEVELOPED)",
+        "name": "Waren – Wesenberg",
         "description": "DEVELOPED",
         "distance_km": 64.706,
         "elevation_gain": 452.1,
@@ -144563,7 +144563,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Wesenberg – Fürstenberg/Havel (DEVELOPED)",
+        "name": "Wesenberg – Fürstenberg/Havel",
         "description": "DEVELOPED",
         "distance_km": 36.241,
         "elevation_gain": 399.4,
@@ -146263,7 +146263,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Fürstenberg/Havel – Liebenwalde (DEVELOPED)",
+        "name": "Fürstenberg/Havel – Liebenwalde",
         "description": "DEVELOPED",
         "distance_km": 58.169,
         "elevation_gain": 267.5,
@@ -147908,7 +147908,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Liebenwalde – Hennigsdorf (DEVELOPED)",
+        "name": "Liebenwalde – Hennigsdorf",
         "description": "DEVELOPED",
         "distance_km": 42.117,
         "elevation_gain": 203.9,
@@ -149218,7 +149218,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: Hennigsdorf – Berlin (DEVELOPED)",
+        "name": "Hennigsdorf – Berlin",
         "description": "DEVELOPED",
         "distance_km": 24.552,
         "elevation_gain": 138.3,
@@ -150203,7 +150203,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Berlin – Potsdam (DEVELOPED)",
+        "name": "Berlin – Potsdam",
         "description": "DEVELOPED",
         "distance_km": 31.219,
         "elevation_gain": 282.2,
@@ -151018,7 +151018,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Potsdam – Bad Belzig (DEVELOPED)",
+        "name": "Potsdam – Bad Belzig",
         "description": "DEVELOPED",
         "distance_km": 57.04,
         "elevation_gain": 380.8,
@@ -152693,7 +152693,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Bad Belzig – Lutherstadt Wittenberg (DEVELOPED)",
+        "name": "Bad Belzig – Lutherstadt Wittenberg",
         "description": "DEVELOPED",
         "distance_km": 37.929,
         "elevation_gain": 250.3,
@@ -153728,7 +153728,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Lutherstadt Wittenberg – Torgau (DEVELOPED)",
+        "name": "Lutherstadt Wittenberg – Torgau",
         "description": "DEVELOPED",
         "distance_km": 69.462,
         "elevation_gain": 290.3,
@@ -157553,7 +157553,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Torgau – Riesa (DEVELOPED)",
+        "name": "Torgau – Riesa",
         "description": "DEVELOPED",
         "distance_km": 49.714,
         "elevation_gain": 253.5,
@@ -160748,7 +160748,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Riesa – Dresden (DEVELOPED)",
+        "name": "Riesa – Dresden",
         "description": "DEVELOPED",
         "distance_km": 51.87,
         "elevation_gain": 474.8,
@@ -164248,7 +164248,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Dresden – Decin (DEVELOPED)",
+        "name": "Dresden – Decin",
         "description": "DEVELOPED",
         "distance_km": 56.022,
         "elevation_gain": 489.6,
@@ -166998,7 +166998,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: Decin – Litomerice (DEVELOPED_WITH_SIGNS)",
+        "name": "Decin – Litomerice",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.918,
         "elevation_gain": 756.0,
@@ -171083,7 +171083,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Litomerice – Melnik (DEVELOPED_WITH_SIGNS)",
+        "name": "Litomerice – Melnik",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.428,
         "elevation_gain": 272.6,
@@ -173728,7 +173728,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Melnik – Prague (DEVELOPED_WITH_SIGNS)",
+        "name": "Melnik – Prague",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.091,
         "elevation_gain": 512.5,
@@ -177508,7 +177508,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: Prague – Živohošť (DEVELOPED)",
+        "name": "Prague – Živohošť",
         "description": "DEVELOPED",
         "distance_km": 55.076,
         "elevation_gain": 1017.6,
@@ -181813,7 +181813,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Živohošť – Zvíkovské Podhradí (DEVELOPED)",
+        "name": "Živohošť – Zvíkovské Podhradí",
         "description": "DEVELOPED",
         "distance_km": 64.847,
         "elevation_gain": 1111.0,
@@ -186668,7 +186668,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: Zvíkovské Podhradí – Týn nad Vltavou (DEVELOPED_WITH_SIGNS)",
+        "name": "Zvíkovské Podhradí – Týn nad Vltavou",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.607,
         "elevation_gain": 665.6,
@@ -189268,7 +189268,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Týn nad Vltavou – Cesky Krumlov (DEVELOPED_WITH_SIGNS)",
+        "name": "Týn nad Vltavou – Cesky Krumlov",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.827,
         "elevation_gain": 1119.3,
@@ -194038,7 +194038,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Cesky Krumlov – Vyšší Brod (DEVELOPED_WITH_SIGNS)",
+        "name": "Cesky Krumlov – Vyšší Brod",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.601,
         "elevation_gain": 947.4,
@@ -196718,7 +196718,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Vyšší Brod – Rading (DEVELOPED)",
+        "name": "Vyšší Brod – Rading",
         "description": "DEVELOPED",
         "distance_km": 13.954,
         "elevation_gain": 401.2,
@@ -197723,7 +197723,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: Rading – St. Georgen an der Gusen (DEVELOPED_WITH_SIGNS)",
+        "name": "Rading – St. Georgen an der Gusen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.937,
         "elevation_gain": 587.8,
@@ -200613,7 +200613,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: St. Georgen an der Gusen – Linz (DEVELOPED)",
+        "name": "St. Georgen an der Gusen – Linz",
         "description": "DEVELOPED",
         "distance_km": 15.851,
         "elevation_gain": 60.2,
@@ -201208,7 +201208,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: Linz – Inzell (DEVELOPED)",
+        "name": "Linz – Inzell",
         "description": "DEVELOPED",
         "distance_km": 49.446,
         "elevation_gain": 640.6,
@@ -203353,7 +203353,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Inzell – Passau (DEVELOPED)",
+        "name": "Inzell – Passau",
         "description": "DEVELOPED",
         "distance_km": 44.254,
         "elevation_gain": 681.2,
@@ -205513,7 +205513,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Passau – Kirchdorf am Inn (DEVELOPED_WITH_SIGNS)",
+        "name": "Passau – Kirchdorf am Inn",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.66,
         "elevation_gain": 627.1,
@@ -208548,7 +208548,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Kirchdorf am Inn – Burghausen (DEVELOPED_WITH_SIGNS)",
+        "name": "Kirchdorf am Inn – Burghausen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.842,
         "elevation_gain": 410.1,
@@ -210863,7 +210863,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Burghausen – Salzburg (DEVELOPED_WITH_SIGNS)",
+        "name": "Burghausen – Salzburg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.289,
         "elevation_gain": 455.5,
@@ -212898,7 +212898,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Salzburg – Bischofshofen (DEVELOPED_WITH_SIGNS)",
+        "name": "Salzburg – Bischofshofen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.036,
         "elevation_gain": 898.4,
@@ -215868,7 +215868,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Bischofshofen – Böckstein (DEVELOPED_WITH_SIGNS)",
+        "name": "Bischofshofen – Böckstein",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.579,
         "elevation_gain": 1586.9,
@@ -219783,7 +219783,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Obervellach – Greifenburg (DEVELOPED_WITH_SIGNS)",
+        "name": "Obervellach – Greifenburg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.946,
         "elevation_gain": 837.9,
@@ -223423,7 +223423,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Greifenburg – Lienz (DEVELOPED_WITH_SIGNS)",
+        "name": "Greifenburg – Lienz",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.928,
         "elevation_gain": 422.0,
@@ -225558,7 +225558,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: Lienz – Arnbach (DEVELOPED_WITH_SIGNS)",
+        "name": "Lienz – Arnbach",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.256,
         "elevation_gain": 746.1,
@@ -227783,7 +227783,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Arnbach – Rio di Pusteria  (DEVELOPED)",
+        "name": "Arnbach – Rio di Pusteria",
         "description": "DEVELOPED",
         "distance_km": 68.691,
         "elevation_gain": 921.0,
@@ -231278,7 +231278,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Rio di Pusteria  – Bolzano (DEVELOPED)",
+        "name": "Rio di Pusteria  – Bolzano",
         "description": "DEVELOPED",
         "distance_km": 59.152,
         "elevation_gain": 1145.4,
@@ -234658,7 +234658,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Bolzano – Trento (DEVELOPED)",
+        "name": "Bolzano – Trento",
         "description": "DEVELOPED",
         "distance_km": 63.618,
         "elevation_gain": 323.2,
@@ -236453,7 +236453,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Trento – Rivoli Veronese (DEVELOPED)",
+        "name": "Trento – Rivoli Veronese",
         "description": "DEVELOPED",
         "distance_km": 73.35,
         "elevation_gain": 708.5,
@@ -238988,7 +238988,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Rivoli Veronese – Peschiera del Garda (DEVELOPED)",
+        "name": "Rivoli Veronese – Peschiera del Garda",
         "description": "DEVELOPED",
         "distance_km": 26.902,
         "elevation_gain": 293.3,
@@ -240608,7 +240608,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Peschiera del Garda – Mantua, Italy (DEVELOPED)",
+        "name": "Peschiera del Garda – Mantua, Italy",
         "description": "DEVELOPED",
         "distance_km": 44.368,
         "elevation_gain": 146.0,
@@ -242393,7 +242393,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Mantua, Italy – San Benedetto Po (UNDER_DEVELOPMENT)",
+        "name": "Mantua, Italy – San Benedetto Po",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.648,
         "elevation_gain": 118.4,
@@ -243678,7 +243678,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: San Benedetto Po – Mirandola (UNDER_DEVELOPMENT)",
+        "name": "San Benedetto Po – Mirandola",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.911,
         "elevation_gain": 116.0,
@@ -245798,7 +245798,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Mirandola – Bologna (DEVELOPED_WITH_SIGNS)",
+        "name": "Mirandola – Bologna",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.018,
         "elevation_gain": 189.6,
@@ -248158,7 +248158,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Bologna – Sasso Marconi (DEVELOPED)",
+        "name": "Bologna – Sasso Marconi",
         "description": "DEVELOPED",
         "distance_km": 19.196,
         "elevation_gain": 235.5,
@@ -249173,7 +249173,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Sasso Marconi – Vergato (UNDER_DEVELOPMENT)",
+        "name": "Sasso Marconi – Vergato",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.089,
         "elevation_gain": 478.7,
@@ -250918,7 +250918,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Vergato – Pistoia (UNDER_DEVELOPMENT)",
+        "name": "Vergato – Pistoia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.877,
         "elevation_gain": 2461.7,
@@ -256733,7 +256733,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Pistoia – Florence (UNDER_DEVELOPMENT)",
+        "name": "Pistoia – Florence",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 45.925,
         "elevation_gain": 239.1,
@@ -259568,7 +259568,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Florence – San Giovanni Valdarno (UNDER_DEVELOPMENT)",
+        "name": "Florence – San Giovanni Valdarno",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.24,
         "elevation_gain": 665.4,
@@ -262658,7 +262658,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: San Giovanni Valdarno – Arezzo (UNDER_DEVELOPMENT)",
+        "name": "San Giovanni Valdarno – Arezzo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.876,
         "elevation_gain": 628.7,
@@ -266008,7 +266008,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Arezzo – Chiusi (DEVELOPED)",
+        "name": "Arezzo – Chiusi",
         "description": "DEVELOPED",
         "distance_km": 65.659,
         "elevation_gain": 144.3,
@@ -268093,7 +268093,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Chiusi – Allerona Scalo (DEVELOPED)",
+        "name": "Chiusi – Allerona Scalo",
         "description": "DEVELOPED",
         "distance_km": 45.042,
         "elevation_gain": 712.4,
@@ -271018,7 +271018,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Allerona Scalo – Alviano Scalo (UNDER_DEVELOPMENT)",
+        "name": "Allerona Scalo – Alviano Scalo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.853,
         "elevation_gain": 696.4,
@@ -273468,7 +273468,7 @@
       "type": "Feature",
       "properties": {
         "stage": 112,
-        "name": "112: Alviano Scalo – Orte (DEVELOPED)",
+        "name": "Alviano Scalo – Orte",
         "description": "DEVELOPED",
         "distance_km": 31.503,
         "elevation_gain": 696.9,
@@ -275418,7 +275418,7 @@
       "type": "Feature",
       "properties": {
         "stage": 113,
-        "name": "113: Orte – Calcata Vecchia (PLANNING)",
+        "name": "Orte – Calcata Vecchia",
         "description": "PLANNING",
         "distance_km": 54.856,
         "elevation_gain": 1063.0,
@@ -278573,7 +278573,7 @@
       "type": "Feature",
       "properties": {
         "stage": 114,
-        "name": "114: Calcata Vecchia – Castel Giubileo (PLANNING)",
+        "name": "Calcata Vecchia – Castel Giubileo",
         "description": "PLANNING",
         "distance_km": 33.439,
         "elevation_gain": 497.6,
@@ -280213,7 +280213,7 @@
       "type": "Feature",
       "properties": {
         "stage": 115,
-        "name": "115: Castel Giubileo – Rome (DEVELOPED)",
+        "name": "Castel Giubileo – Rome",
         "description": "DEVELOPED",
         "distance_km": 20.361,
         "elevation_gain": 110.6,
@@ -280913,7 +280913,7 @@
       "type": "Feature",
       "properties": {
         "stage": 116,
-        "name": "116: Rome – Frattocchie (DEVELOPED)",
+        "name": "Rome – Frattocchie",
         "description": "DEVELOPED",
         "distance_km": 17.081,
         "elevation_gain": 204.0,
@@ -281203,7 +281203,7 @@
       "type": "Feature",
       "properties": {
         "stage": 117,
-        "name": "117: Frattocchie – Velletri (UNDER_DEVELOPMENT)",
+        "name": "Frattocchie – Velletri",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 20.289,
         "elevation_gain": 524.7,
@@ -282458,7 +282458,7 @@
       "type": "Feature",
       "properties": {
         "stage": 118,
-        "name": "118: Velletri – Latina (UNDER_DEVELOPMENT)",
+        "name": "Velletri – Latina",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 44.906,
         "elevation_gain": 344.2,
@@ -285013,7 +285013,7 @@
       "type": "Feature",
       "properties": {
         "stage": 119,
-        "name": "119: Latina – San Felice Circeo (UNDER_DEVELOPMENT)",
+        "name": "Latina – San Felice Circeo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.144,
         "elevation_gain": 126.2,
@@ -285838,7 +285838,7 @@
       "type": "Feature",
       "properties": {
         "stage": 120,
-        "name": "120: San Felice Circeo – Sperlonga (UNDER_DEVELOPMENT)",
+        "name": "San Felice Circeo – Sperlonga",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.143,
         "elevation_gain": 138.1,
@@ -287228,7 +287228,7 @@
       "type": "Feature",
       "properties": {
         "stage": 121,
-        "name": "121: Sperlonga – Minturno (UNDER_DEVELOPMENT)",
+        "name": "Sperlonga – Minturno",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 46.28,
         "elevation_gain": 1126.6,
@@ -290168,7 +290168,7 @@
       "type": "Feature",
       "properties": {
         "stage": 122,
-        "name": "122: Salerno – Agropoli (UNDER_DEVELOPMENT)",
+        "name": "Salerno – Agropoli",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 44.376,
         "elevation_gain": 116.6,
@@ -291083,7 +291083,7 @@
       "type": "Feature",
       "properties": {
         "stage": 123,
-        "name": "123: Agropoli – Ascea (UNDER_DEVELOPMENT)",
+        "name": "Agropoli – Ascea",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.12,
         "elevation_gain": 1999.4,
@@ -294883,7 +294883,7 @@
       "type": "Feature",
       "properties": {
         "stage": 124,
-        "name": "124: Ascea – Sapri (UNDER_DEVELOPMENT)",
+        "name": "Ascea – Sapri",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 69.095,
         "elevation_gain": 1948.4,
@@ -298888,7 +298888,7 @@
       "type": "Feature",
       "properties": {
         "stage": 125,
-        "name": "125: Sapri – Laino Castello (DEVELOPED)",
+        "name": "Sapri – Laino Castello",
         "description": "DEVELOPED",
         "distance_km": 72.584,
         "elevation_gain": 2836.2,
@@ -305183,7 +305183,7 @@
       "type": "Feature",
       "properties": {
         "stage": 126,
-        "name": "126: Laino Castello – Firmo (DEVELOPED_WITH_SIGNS)",
+        "name": "Laino Castello – Firmo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.979,
         "elevation_gain": 2098.2,
@@ -308178,7 +308178,7 @@
       "type": "Feature",
       "properties": {
         "stage": 127,
-        "name": "127: Firmo – Bisignano (DEVELOPED_WITH_SIGNS)",
+        "name": "Firmo – Bisignano",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.606,
         "elevation_gain": 1586.6,
@@ -310788,7 +310788,7 @@
       "type": "Feature",
       "properties": {
         "stage": 128,
-        "name": "128: Bisignano – Campo San Lorenzo (DEVELOPED_WITH_SIGNS)",
+        "name": "Bisignano – Campo San Lorenzo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.993,
         "elevation_gain": 1938.3,
@@ -313338,7 +313338,7 @@
       "type": "Feature",
       "properties": {
         "stage": 129,
-        "name": "129: Campo San Lorenzo – Trepidò Sottano (DEVELOPED_WITH_SIGNS)",
+        "name": "Campo San Lorenzo – Trepidò Sottano",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.217,
         "elevation_gain": 1394.7,
@@ -315478,7 +315478,7 @@
       "type": "Feature",
       "properties": {
         "stage": 130,
-        "name": "130: Trepidò Sottano – Taverna (DEVELOPED_WITH_SIGNS)",
+        "name": "Trepidò Sottano – Taverna",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.943,
         "elevation_gain": 1434.1,
@@ -317598,7 +317598,7 @@
       "type": "Feature",
       "properties": {
         "stage": 131,
-        "name": "131: Taverna – Girifalco (DEVELOPED_WITH_SIGNS)",
+        "name": "Taverna – Girifalco",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.666,
         "elevation_gain": 3259.1,
@@ -321418,7 +321418,7 @@
       "type": "Feature",
       "properties": {
         "stage": 132,
-        "name": "132: Girifalco – Serra San Bruno (DEVELOPED_WITH_SIGNS)",
+        "name": "Girifalco – Serra San Bruno",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.859,
         "elevation_gain": 1415.9,
@@ -323478,7 +323478,7 @@
       "type": "Feature",
       "properties": {
         "stage": 133,
-        "name": "133: Serra San Bruno – Cittanova (DEVELOPED_WITH_SIGNS)",
+        "name": "Serra San Bruno – Cittanova",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.982,
         "elevation_gain": 1492.8,
@@ -326133,7 +326133,7 @@
       "type": "Feature",
       "properties": {
         "stage": 134,
-        "name": "134: Cittanova – Reggio Calabria (DEVELOPED_WITH_SIGNS)",
+        "name": "Cittanova – Reggio Calabria",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 85.696,
         "elevation_gain": 2264.4,
@@ -329933,7 +329933,7 @@
       "type": "Feature",
       "properties": {
         "stage": 135,
-        "name": "135: Santa Teresa di Riva – Marina di Cottone (UNDER_DEVELOPMENT)",
+        "name": "Santa Teresa di Riva – Marina di Cottone",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.496,
         "elevation_gain": 180.8,
@@ -330118,7 +330118,7 @@
       "type": "Feature",
       "properties": {
         "stage": 136,
-        "name": "136: Marina di Cottone – Catania (UNDER_DEVELOPMENT)",
+        "name": "Marina di Cottone – Catania",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.6,
         "elevation_gain": 312.3,
@@ -330438,7 +330438,7 @@
       "type": "Feature",
       "properties": {
         "stage": 137,
-        "name": "137: Catania – Priolo Gargallo (UNDER_DEVELOPMENT)",
+        "name": "Catania – Priolo Gargallo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 52.988,
         "elevation_gain": 233.3,
@@ -330723,7 +330723,7 @@
       "type": "Feature",
       "properties": {
         "stage": 138,
-        "name": "138: Priolo Gargallo – Siracusa (UNDER_DEVELOPMENT)",
+        "name": "Priolo Gargallo – Siracusa",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 18.483,
         "elevation_gain": 31.7,
@@ -330843,7 +330843,7 @@
       "type": "Feature",
       "properties": {
         "stage": 139,
-        "name": "139: Siracusa – Noto (PLANNING)",
+        "name": "Siracusa – Noto",
         "description": "PLANNING",
         "distance_km": 36.995,
         "elevation_gain": 173.1,
@@ -331043,7 +331043,7 @@
       "type": "Feature",
       "properties": {
         "stage": 140,
-        "name": "140: Noto – Marzamemi (PLANNING)",
+        "name": "Noto – Marzamemi",
         "description": "PLANNING",
         "distance_km": 32.591,
         "elevation_gain": 189.6,
@@ -331298,7 +331298,7 @@
       "type": "Feature",
       "properties": {
         "stage": 141,
-        "name": "141: Marzamemi – Pozzallo (PLANNING)",
+        "name": "Marzamemi – Pozzallo",
         "description": "PLANNING",
         "distance_km": 46.742,
         "elevation_gain": 160.4,
@@ -331568,7 +331568,7 @@
       "type": "Feature",
       "properties": {
         "stage": 142,
-        "name": "142: Valletta – Birżebbuġa (PLANNING)",
+        "name": "Valletta – Birżebbuġa",
         "description": "PLANNING",
         "distance_km": 13.599,
         "elevation_gain": 177.5,
@@ -332553,7 +332553,7 @@
       "type": "Feature",
       "properties": {
         "stage": 143,
-        "name": "143: Birżebbuġa – Ċirkewwa (UNDER_DEVELOPMENT)",
+        "name": "Birżebbuġa – Ċirkewwa",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.181,
         "elevation_gain": 780.7,
@@ -335633,7 +335633,7 @@
       "type": "Feature",
       "properties": {
         "stage": 144,
-        "name": "144: Mgarr – Qala (PLANNING)",
+        "name": "Mgarr – Qala",
         "description": "PLANNING",
         "distance_km": 42.173,
         "elevation_gain": 903.1,

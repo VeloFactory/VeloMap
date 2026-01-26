@@ -19,19 +19,19 @@
       "Swiecie",
       "Bydgoszcz",
       "Welcz Maly",
-      "Żnin",
+      "Znin",
       "Drewno",
       "Gniezno",
       "Poznan",
-      "Gostyń",
+      "Gostyn",
       "Baranowice",
-      "Wrocław",
-      "Świdnica",
-      "Ząbkowice Śląskie",
-      "Błotnica",
-      "Głuchołazy",
+      "Wrocaw",
+      "Swidnica",
+      "Zabkowice Slaskie",
+      "Botnica",
+      "Guchoazy",
       "Jesenik",
-      "Hanušovice",
+      "Hanusovice",
       "Novy Dvur",
       "Olomouc",
       "Plumlov",
@@ -46,11 +46,11 @@
       "Baden",
       "Wiener Neustadt",
       "Grimmenstein",
-      "Mönichkirchen",
+      "Monichkirchen",
       "Bad Waltersdorf",
       "Fehring Brunn",
       "Bad Radkersburg",
-      "Šentilj",
+      "Sentilj",
       "Maribor",
       "Celje",
       "Ljubljana",
@@ -71,7 +71,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "01: Mikoszewo – Gdansk, Poland (DEVELOPED_WITH_SIGNS)",
+        "name": "Mikoszewo – Gdansk, Poland",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.801,
         "elevation_gain": 75.5,
@@ -926,7 +926,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "02: Mikoszewo – Leszkowy (DEVELOPED_WITH_SIGNS)",
+        "name": "Mikoszewo – Leszkowy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.986,
         "elevation_gain": 31.0,
@@ -1446,7 +1446,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "03: Leszkowy – Tczew (DEVELOPED_WITH_SIGNS)",
+        "name": "Leszkowy – Tczew",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.92,
         "elevation_gain": 60.7,
@@ -2291,7 +2291,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "04: Tczew – Gniew (DEVELOPED_WITH_SIGNS)",
+        "name": "Tczew – Gniew",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.202,
         "elevation_gain": 175.8,
@@ -3396,7 +3396,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "05: Gniew – Kozielec (DEVELOPED_WITH_SIGNS)",
+        "name": "Gniew – Kozielec",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.18,
         "elevation_gain": 280.6,
@@ -4626,7 +4626,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "06: Kozielec – Grudziadz (PLANNING)",
+        "name": "Kozielec – Grudziadz",
         "description": "PLANNING",
         "distance_km": 24.575,
         "elevation_gain": 60.7,
@@ -5641,7 +5641,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "07: Grudziadz – Swiecie (PLANNING)",
+        "name": "Grudziadz – Swiecie",
         "description": "PLANNING",
         "distance_km": 26.83,
         "elevation_gain": 141.9,
@@ -6826,7 +6826,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "08: Swiecie – Bydgoszcz (PLANNING)",
+        "name": "Swiecie – Bydgoszcz",
         "description": "PLANNING",
         "distance_km": 47.683,
         "elevation_gain": 217.7,
@@ -8356,7 +8356,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "09: Mikoszewo – Tczew (DEVELOPED_WITH_SIGNS)",
+        "name": "Mikoszewo – Tczew",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.975,
         "elevation_gain": 76.4,
@@ -9291,7 +9291,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "10: Tczew – Welcz Maly (DEVELOPED_WITH_SIGNS)",
+        "name": "Tczew – Welcz Maly",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.57,
         "elevation_gain": 189.4,
@@ -12331,7 +12331,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "11: Welcz Maly – Grudziadz (PLANNING)",
+        "name": "Welcz Maly – Grudziadz",
         "description": "PLANNING",
         "distance_km": 20.345,
         "elevation_gain": 219.5,
@@ -13536,7 +13536,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "12: Grudziadz – Bydgoszcz (PLANNING)",
+        "name": "Grudziadz – Bydgoszcz",
         "description": "PLANNING",
         "distance_km": 66.717,
         "elevation_gain": 412.8,
@@ -17071,7 +17071,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "13: Bydgoszcz – Żnin (PLANNING)",
+        "name": "Bydgoszcz – Żnin",
         "description": "PLANNING",
         "distance_km": 75.956,
         "elevation_gain": 441.2,
@@ -21181,7 +21181,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "14: Żnin – Drewno (PLANNING)",
+        "name": "Żnin – Drewno",
         "description": "PLANNING",
         "distance_km": 21.841,
         "elevation_gain": 130.7,
@@ -22266,7 +22266,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "15: Drewno – Gniezno (PLANNING)",
+        "name": "Drewno – Gniezno",
         "description": "PLANNING",
         "distance_km": 45.675,
         "elevation_gain": 217.5,
@@ -23921,7 +23921,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "16: Gniezno – Poznan (UNDER_DEVELOPMENT)",
+        "name": "Gniezno – Poznan",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 66.829,
         "elevation_gain": 432.7,
@@ -27541,7 +27541,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "17: Poznan – Gostyń (PLANNING)",
+        "name": "Poznan – Gostyń",
         "description": "PLANNING",
         "distance_km": 79.658,
         "elevation_gain": 363.2,
@@ -30396,7 +30396,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "18: Gostyń – Baranowice (PLANNING)",
+        "name": "Gostyń – Baranowice",
         "description": "PLANNING",
         "distance_km": 58.825,
         "elevation_gain": 181.3,
@@ -31731,7 +31731,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "19: Baranowice – Wrocław (PLANNING)",
+        "name": "Baranowice – Wrocław",
         "description": "PLANNING",
         "distance_km": 73.499,
         "elevation_gain": 365.3,
@@ -33746,7 +33746,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "20: Wrocław – Świdnica (PLANNING)",
+        "name": "Wrocław – Świdnica",
         "description": "PLANNING",
         "distance_km": 63.632,
         "elevation_gain": 335.1,
@@ -35336,7 +35336,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "21: Świdnica – Ząbkowice Śląskie (PLANNING)",
+        "name": "Świdnica – Ząbkowice Śląskie",
         "description": "PLANNING",
         "distance_km": 57.525,
         "elevation_gain": 392.3,
@@ -36976,7 +36976,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "22: Ząbkowice Śląskie – Błotnica (PLANNING)",
+        "name": "Ząbkowice Śląskie – Błotnica",
         "description": "PLANNING",
         "distance_km": 21.676,
         "elevation_gain": 98.1,
@@ -37776,7 +37776,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "23: Błotnica – Głuchołazy (DEVELOPED_WITH_SIGNS)",
+        "name": "Błotnica – Głuchołazy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.901,
         "elevation_gain": 395.3,
@@ -40891,7 +40891,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "24: Głuchołazy – Jesenik (DEVELOPED_WITH_SIGNS)",
+        "name": "Głuchołazy – Jesenik",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.75,
         "elevation_gain": 248.3,
@@ -42401,7 +42401,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "25: Jesenik – Hanušovice (DEVELOPED_WITH_SIGNS)",
+        "name": "Jesenik – Hanušovice",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.984,
         "elevation_gain": 660.1,
@@ -45196,7 +45196,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "26: Hanušovice – Novy Dvur (DEVELOPED_WITH_SIGNS)",
+        "name": "Hanušovice – Novy Dvur",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.167,
         "elevation_gain": 300.6,
@@ -47476,7 +47476,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "27: Novy Dvur – Olomouc (DEVELOPED_WITH_SIGNS)",
+        "name": "Novy Dvur – Olomouc",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.703,
         "elevation_gain": 224.8,
@@ -50746,7 +50746,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "28: Olomouc – Plumlov (DEVELOPED_WITH_SIGNS)",
+        "name": "Olomouc – Plumlov",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.002,
         "elevation_gain": 315.6,
@@ -52906,7 +52906,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "29: Plumlov – Brno (DEVELOPED_WITH_SIGNS)",
+        "name": "Plumlov – Brno",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 68.803,
         "elevation_gain": 1446.6,
@@ -58696,7 +58696,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "30: Brno – Mikulov, Czechia (DEVELOPED_WITH_SIGNS)",
+        "name": "Brno – Mikulov, Czechia",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 72.342,
         "elevation_gain": 383.7,
@@ -62171,7 +62171,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "31: Mikulov, Czechia – Breclav (DEVELOPED_WITH_SIGNS)",
+        "name": "Mikulov, Czechia – Breclav",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.736,
         "elevation_gain": 253.9,
@@ -63961,7 +63961,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "32: Breclav – Altlichtenwarth (DEVELOPED_WITH_SIGNS)",
+        "name": "Breclav – Altlichtenwarth",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.445,
         "elevation_gain": 191.0,
@@ -64631,7 +64631,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "33: Altlichtenwarth – Mistelbach (DEVELOPED_WITH_SIGNS)",
+        "name": "Altlichtenwarth – Mistelbach",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.842,
         "elevation_gain": 137.5,
@@ -66246,7 +66246,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "34: Mistelbach – Wolkersdorf (DEVELOPED_WITH_SIGNS)",
+        "name": "Mistelbach – Wolkersdorf",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.723,
         "elevation_gain": 395.4,
@@ -68801,7 +68801,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "35: Wolkersdorf – Vienna (DEVELOPED_WITH_SIGNS)",
+        "name": "Wolkersdorf – Vienna",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.541,
         "elevation_gain": 97.6,
@@ -70286,7 +70286,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "36: Vienna – Vienna Altes Landgut (DEVELOPED_WITH_SIGNS)",
+        "name": "Vienna – Vienna Altes Landgut",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.468,
         "elevation_gain": 192.9,
@@ -71151,7 +71151,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "37: Vienna Altes Landgut – Baden (DEVELOPED_WITH_SIGNS)",
+        "name": "Vienna Altes Landgut – Baden",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.351,
         "elevation_gain": 133.4,
@@ -72896,7 +72896,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "38: Baden – Wiener Neustadt (DEVELOPED_WITH_SIGNS)",
+        "name": "Baden – Wiener Neustadt",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.942,
         "elevation_gain": 113.0,
@@ -74091,7 +74091,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "39: Wiener Neustadt – Grimmenstein (DEVELOPED_WITH_SIGNS)",
+        "name": "Wiener Neustadt – Grimmenstein",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.682,
         "elevation_gain": 360.6,
@@ -76681,7 +76681,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "40: Grimmenstein – Mönichkirchen (DEVELOPED_WITH_SIGNS)",
+        "name": "Grimmenstein – Mönichkirchen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.057,
         "elevation_gain": 786.6,
@@ -78231,7 +78231,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "41: Mönichkirchen – Bad Waltersdorf (DEVELOPED_WITH_SIGNS)",
+        "name": "Mönichkirchen – Bad Waltersdorf",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.723,
         "elevation_gain": 838.4,
@@ -82401,7 +82401,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "42: Bad Waltersdorf – Fehring Brunn (DEVELOPED_WITH_SIGNS)",
+        "name": "Bad Waltersdorf – Fehring Brunn",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.832,
         "elevation_gain": 662.7,
@@ -86231,7 +86231,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "43: Fehring Brunn – Bad Radkersburg (DEVELOPED_WITH_SIGNS)",
+        "name": "Fehring Brunn – Bad Radkersburg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.696,
         "elevation_gain": 611.2,
@@ -89681,7 +89681,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "44: Bad Radkersburg – Šentilj (DEVELOPED_WITH_SIGNS)",
+        "name": "Bad Radkersburg – Šentilj",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.743,
         "elevation_gain": 365.7,
@@ -92956,7 +92956,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "45: Šentilj – Maribor (DEVELOPED_WITH_SIGNS)",
+        "name": "Šentilj – Maribor",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.976,
         "elevation_gain": 344.2,
@@ -94606,7 +94606,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "46: Maribor – Celje (UNDER_DEVELOPMENT)",
+        "name": "Maribor – Celje",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.796,
         "elevation_gain": 719.6,
@@ -97581,7 +97581,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "47: Celje – Ljubljana (UNDER_DEVELOPMENT)",
+        "name": "Celje – Ljubljana",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 76.016,
         "elevation_gain": 748.1,
@@ -100461,7 +100461,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "48: Ljubljana – Postojna (UNDER_DEVELOPMENT)",
+        "name": "Ljubljana – Postojna",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.157,
         "elevation_gain": 879.4,
@@ -103336,7 +103336,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "49: Postojna – Draga (UNDER_DEVELOPMENT)",
+        "name": "Postojna – Draga",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 44.686,
         "elevation_gain": 735.7,
@@ -105661,7 +105661,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "50: Draga – Trieste, Italy (UNDER_DEVELOPMENT)",
+        "name": "Draga – Trieste, Italy",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.61,
         "elevation_gain": 255.3,
@@ -107086,7 +107086,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "51: Trieste, Italy – Muggia (UNDER_DEVELOPMENT)",
+        "name": "Trieste, Italy – Muggia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.095,
         "elevation_gain": 230.5,
@@ -108186,7 +108186,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "52: Muggia – Secovlje/Plovanija border pass (UNDER_DEVELOPMENT)",
+        "name": "Muggia – Secovlje/Plovanija border pass",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.812,
         "elevation_gain": 480.0,
@@ -111141,7 +111141,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "53: Secovlje/Plovanija border pass – Buje (DEVELOPED)",
+        "name": "Secovlje/Plovanija border pass – Buje",
         "description": "DEVELOPED",
         "distance_km": 8.205,
         "elevation_gain": 234.8,
@@ -111706,7 +111706,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "54: Buje – Buzet (DEVELOPED)",
+        "name": "Buje – Buzet",
         "description": "DEVELOPED",
         "distance_km": 39.798,
         "elevation_gain": 799.5,
@@ -114236,7 +114236,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "55: Buzet – Pazin (DEVELOPED)",
+        "name": "Buzet – Pazin",
         "description": "DEVELOPED",
         "distance_km": 29.718,
         "elevation_gain": 975.7,
@@ -116531,7 +116531,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "56: Pazin – Barban (DEVELOPED)",
+        "name": "Pazin – Barban",
         "description": "DEVELOPED",
         "distance_km": 24.223,
         "elevation_gain": 350.3,
@@ -118066,7 +118066,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "57: Barban – Pula (DEVELOPED)",
+        "name": "Barban – Pula",
         "description": "DEVELOPED",
         "distance_km": 29.893,
         "elevation_gain": 162.7,

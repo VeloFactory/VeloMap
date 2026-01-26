@@ -11,15 +11,15 @@
     "cities": [
       "Bergen",
       "Haljem",
-      "Sandvikvåg",
-      "Langevåg",
-      "Buavåg",
+      "Sandvikvag",
+      "Langevag",
+      "Buavag",
       "Haugesund",
       "Nedstrand",
       "Eidssund",
       "Skipavik",
       "Hjelmeland",
-      "Jørpeland",
+      "Jrpeland",
       "Oanes",
       "Lauvvika",
       "Stavanger",
@@ -33,10 +33,10 @@
       "Kristiansand",
       "Lillesand",
       "Arendal",
-      "Risør",
-      "Øysang",
+      "Risr",
+      "ysang",
       "Stabbestad",
-      "Kragerø",
+      "Krager",
       "Langesund",
       "Stavern",
       "Sanderfjord",
@@ -45,7 +45,7 @@
       "Sarpsborg",
       "Svinesund",
       "Stromstad",
-      "Fjällbacka",
+      "Fjallbacka",
       "Uddevalla",
       "Kungalv",
       "Goteborg",
@@ -63,18 +63,18 @@
       "Hune",
       "Slettestrand",
       "Hanstholm",
-      "Klitmøller",
-      "Thyborøn",
-      "Søndervig",
+      "Klitmller",
+      "Thyborn",
+      "Sndervig",
       "Nymindegab",
       "Esbjerg",
-      "Brøns",
-      "Rudbøl",
+      "Brns",
+      "Rudbl",
       "Bredstedt",
       "Husum",
-      "Sankt Peter-Böhl",
+      "Sankt Peter-Bohl",
       "Meldorf",
-      "Glückstadt",
+      "Gluckstadt",
       "Elmshorn",
       "Hamburg",
       "Himmelpforten",
@@ -172,7 +172,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Bergen – Haljem (DEVELOPED_WITH_SIGNS)",
+        "name": "Bergen – Haljem",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.604,
         "elevation_gain": 1002.0,
@@ -4312,7 +4312,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Sandvikvåg – Langevåg (DEVELOPED_WITH_SIGNS)",
+        "name": "Sandvikvåg – Langevåg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 75.447,
         "elevation_gain": 1608.3,
@@ -10422,7 +10422,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Buavåg – Haugesund (DEVELOPED_WITH_SIGNS)",
+        "name": "Buavåg – Haugesund",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.331,
         "elevation_gain": 360.7,
@@ -12597,7 +12597,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: Haugesund – Nedstrand (DEVELOPED_WITH_SIGNS)",
+        "name": "Haugesund – Nedstrand",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.785,
         "elevation_gain": 918.6,
@@ -16332,7 +16332,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Eidssund – Skipavik (DEVELOPED)",
+        "name": "Eidssund – Skipavik",
         "description": "DEVELOPED",
         "distance_km": 12.708,
         "elevation_gain": 468.0,
@@ -17307,7 +17307,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Hjelmeland – Jørpeland (DEVELOPED)",
+        "name": "Hjelmeland – Jørpeland",
         "description": "DEVELOPED",
         "distance_km": 59.564,
         "elevation_gain": 1514.1,
@@ -21482,7 +21482,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Jørpeland – Oanes (DEVELOPED)",
+        "name": "Jørpeland – Oanes",
         "description": "DEVELOPED",
         "distance_km": 24.212,
         "elevation_gain": 576.9,
@@ -23642,7 +23642,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Lauvvika – Stavanger (DEVELOPED)",
+        "name": "Lauvvika – Stavanger",
         "description": "DEVELOPED",
         "distance_km": 39.319,
         "elevation_gain": 591.2,
@@ -26677,7 +26677,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Stavanger – Bore (DEVELOPED_WITH_SIGNS)",
+        "name": "Stavanger – Bore",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.951,
         "elevation_gain": 418.8,
@@ -29867,7 +29867,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Bore – Vigrestad (DEVELOPED_WITH_SIGNS)",
+        "name": "Bore – Vigrestad",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.993,
         "elevation_gain": 222.4,
@@ -31517,7 +31517,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Vigrestad – Sogndalsstranda (DEVELOPED_WITH_SIGNS)",
+        "name": "Vigrestad – Sogndalsstranda",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.954,
         "elevation_gain": 1272.2,
@@ -37322,7 +37322,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Sogndalsstranda – Flekkefjord (DEVELOPED_WITH_SIGNS)",
+        "name": "Sogndalsstranda – Flekkefjord",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.344,
         "elevation_gain": 1729.6,
@@ -41377,7 +41377,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Flekkefjord – Vestbygd (DEVELOPED_WITH_SIGNS)",
+        "name": "Flekkefjord – Vestbygd",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.753,
         "elevation_gain": 2131.4,
@@ -47087,7 +47087,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Vestbygd – Lindesnes (DEVELOPED_WITH_SIGNS)",
+        "name": "Vestbygd – Lindesnes",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.401,
         "elevation_gain": 1585.7,
@@ -51487,7 +51487,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Lindesnes – Mandal (DEVELOPED_WITH_SIGNS)",
+        "name": "Lindesnes – Mandal",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.195,
         "elevation_gain": 1033.9,
@@ -55047,7 +55047,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Mandal – Kristiansand (DEVELOPED)",
+        "name": "Mandal – Kristiansand",
         "description": "DEVELOPED",
         "distance_km": 61.068,
         "elevation_gain": 1188.8,
@@ -60342,7 +60342,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Kristiansand – Lillesand (DEVELOPED_WITH_SIGNS)",
+        "name": "Kristiansand – Lillesand",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.762,
         "elevation_gain": 718.0,
@@ -63967,7 +63967,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Lillesand – Arendal (DEVELOPED_WITH_SIGNS)",
+        "name": "Lillesand – Arendal",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.469,
         "elevation_gain": 649.1,
@@ -66792,7 +66792,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Arendal – Risør (DEVELOPED_WITH_SIGNS)",
+        "name": "Arendal – Risør",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.911,
         "elevation_gain": 1460.3,
@@ -72657,7 +72657,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: Øysang – Stabbestad (DEVELOPED_WITH_SIGNS)",
+        "name": "Øysang – Stabbestad",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.064,
         "elevation_gain": 297.6,
@@ -73802,7 +73802,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Kragerø – Langesund (DEVELOPED_WITH_SIGNS)",
+        "name": "Kragerø – Langesund",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.274,
         "elevation_gain": 1157.3,
@@ -78522,7 +78522,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Langesund – Stavern (DEVELOPED_WITH_SIGNS)",
+        "name": "Langesund – Stavern",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.312,
         "elevation_gain": 865.4,
@@ -83057,7 +83057,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Stavern – Sanderfjord (DEVELOPED_WITH_SIGNS)",
+        "name": "Stavern – Sanderfjord",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.003,
         "elevation_gain": 321.7,
@@ -85427,7 +85427,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Sanderfjord – Horten (DEVELOPED_WITH_SIGNS)",
+        "name": "Sanderfjord – Horten",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.728,
         "elevation_gain": 704.8,
@@ -90127,7 +90127,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: Moss – Sarpsborg (DEVELOPED)",
+        "name": "Moss – Sarpsborg",
         "description": "DEVELOPED",
         "distance_km": 72.389,
         "elevation_gain": 985.9,
@@ -95892,7 +95892,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: Sarpsborg – Svinesund (DEVELOPED)",
+        "name": "Sarpsborg – Svinesund",
         "description": "DEVELOPED",
         "distance_km": 25.471,
         "elevation_gain": 282.8,
@@ -97572,7 +97572,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Svinesund – Stromstad (UNDER_DEVELOPMENT)",
+        "name": "Svinesund – Stromstad",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.988,
         "elevation_gain": 444.9,
@@ -99287,7 +99287,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Stromstad – Fjällbacka (UNDER_DEVELOPMENT)",
+        "name": "Stromstad – Fjällbacka",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.588,
         "elevation_gain": 799.4,
@@ -103267,7 +103267,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Fjällbacka – Uddevalla (UNDER_DEVELOPMENT)",
+        "name": "Fjällbacka – Uddevalla",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.348,
         "elevation_gain": 701.5,
@@ -107407,7 +107407,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Uddevalla – Kungalv (UNDER_DEVELOPMENT)",
+        "name": "Uddevalla – Kungalv",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 81.932,
         "elevation_gain": 1054.6,
@@ -113922,7 +113922,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Kungalv – Goteborg (UNDER_DEVELOPMENT)",
+        "name": "Kungalv – Goteborg",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.906,
         "elevation_gain": 288.8,
@@ -116247,7 +116247,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Goteborg – Kungsbacka (DEVELOPED)",
+        "name": "Goteborg – Kungsbacka",
         "description": "DEVELOPED",
         "distance_km": 63.991,
         "elevation_gain": 553.4,
@@ -120802,7 +120802,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Kungsbacka – Varberg (DEVELOPED)",
+        "name": "Kungsbacka – Varberg",
         "description": "DEVELOPED",
         "distance_km": 71.353,
         "elevation_gain": 537.5,
@@ -126012,7 +126012,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Varberg – Falkenberg (DEVELOPED)",
+        "name": "Varberg – Falkenberg",
         "description": "DEVELOPED",
         "distance_km": 39.616,
         "elevation_gain": 162.0,
@@ -128427,7 +128427,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: Falkenberg – Halmstad (DEVELOPED)",
+        "name": "Falkenberg – Halmstad",
         "description": "DEVELOPED",
         "distance_km": 57.439,
         "elevation_gain": 339.1,
@@ -131712,7 +131712,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Grenaa – Fjellerup Strand (DEVELOPED)",
+        "name": "Grenaa – Fjellerup Strand",
         "description": "DEVELOPED",
         "distance_km": 43.118,
         "elevation_gain": 308.2,
@@ -133347,7 +133347,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: Fjellerup Strand – Hadsund (DEVELOPED)",
+        "name": "Fjellerup Strand – Hadsund",
         "description": "DEVELOPED",
         "distance_km": 50.182,
         "elevation_gain": 271.4,
@@ -135302,7 +135302,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Hadsund – Hals (DEVELOPED)",
+        "name": "Hadsund – Hals",
         "description": "DEVELOPED",
         "distance_km": 45.439,
         "elevation_gain": 229.9,
@@ -137267,7 +137267,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Hals – Frederikshavn (DEVELOPED)",
+        "name": "Hals – Frederikshavn",
         "description": "DEVELOPED",
         "distance_km": 63.251,
         "elevation_gain": 174.6,
@@ -139482,7 +139482,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Frederikshavn – Skagen (DEVELOPED)",
+        "name": "Frederikshavn – Skagen",
         "description": "DEVELOPED",
         "distance_km": 48.443,
         "elevation_gain": 135.4,
@@ -141722,7 +141722,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Skagen – Hirtshals (DEVELOPED)",
+        "name": "Skagen – Hirtshals",
         "description": "DEVELOPED",
         "distance_km": 55.634,
         "elevation_gain": 211.6,
@@ -144727,7 +144727,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: Hirtshals – Hune (DEVELOPED)",
+        "name": "Hirtshals – Hune",
         "description": "DEVELOPED",
         "distance_km": 60.857,
         "elevation_gain": 308.7,
@@ -148082,7 +148082,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Hune – Slettestrand (DEVELOPED)",
+        "name": "Hune – Slettestrand",
         "description": "DEVELOPED",
         "distance_km": 23.249,
         "elevation_gain": 63.2,
@@ -149097,7 +149097,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Slettestrand – Hanstholm (DEVELOPED)",
+        "name": "Slettestrand – Hanstholm",
         "description": "DEVELOPED",
         "distance_km": 66.718,
         "elevation_gain": 305.5,
@@ -152737,7 +152737,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Hanstholm – Klitmøller (DEVELOPED)",
+        "name": "Hanstholm – Klitmøller",
         "description": "DEVELOPED",
         "distance_km": 11.504,
         "elevation_gain": 35.2,
@@ -153242,7 +153242,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Klitmøller – Thyborøn (DEVELOPED)",
+        "name": "Klitmøller – Thyborøn",
         "description": "DEVELOPED",
         "distance_km": 61.198,
         "elevation_gain": 190.7,
@@ -156002,7 +156002,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Thyborøn – Søndervig (DEVELOPED)",
+        "name": "Thyborøn – Søndervig",
         "description": "DEVELOPED",
         "distance_km": 78.342,
         "elevation_gain": 176.0,
@@ -159382,7 +159382,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: Søndervig – Nymindegab (DEVELOPED)",
+        "name": "Søndervig – Nymindegab",
         "description": "DEVELOPED",
         "distance_km": 41.957,
         "elevation_gain": 145.5,
@@ -162867,7 +162867,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Nymindegab – Esbjerg (DEVELOPED)",
+        "name": "Nymindegab – Esbjerg",
         "description": "DEVELOPED",
         "distance_km": 59.282,
         "elevation_gain": 199.7,
@@ -165427,7 +165427,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Esbjerg – Brøns (DEVELOPED)",
+        "name": "Esbjerg – Brøns",
         "description": "DEVELOPED",
         "distance_km": 61.71,
         "elevation_gain": 136.5,
@@ -168072,7 +168072,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Brøns – Rudbøl (DEVELOPED)",
+        "name": "Brøns – Rudbøl",
         "description": "DEVELOPED",
         "distance_km": 41.877,
         "elevation_gain": 72.2,
@@ -169392,7 +169392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Rudbøl – Bredstedt (DEVELOPED)",
+        "name": "Rudbøl – Bredstedt",
         "description": "DEVELOPED",
         "distance_km": 60.631,
         "elevation_gain": 61.5,
@@ -171092,7 +171092,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Bredstedt – Husum (DEVELOPED)",
+        "name": "Bredstedt – Husum",
         "description": "DEVELOPED",
         "distance_km": 42.533,
         "elevation_gain": 75.3,
@@ -172697,7 +172697,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Husum – Sankt Peter-Böhl (DEVELOPED)",
+        "name": "Husum – Sankt Peter-Böhl",
         "description": "DEVELOPED",
         "distance_km": 53.617,
         "elevation_gain": 102.2,
@@ -175257,7 +175257,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: Sankt Peter-Böhl – Meldorf (DEVELOPED)",
+        "name": "Sankt Peter-Böhl – Meldorf",
         "description": "DEVELOPED",
         "distance_km": 55.539,
         "elevation_gain": 78.7,
@@ -177387,7 +177387,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Meldorf – Glückstadt (DEVELOPED)",
+        "name": "Meldorf – Glückstadt",
         "description": "DEVELOPED",
         "distance_km": 70.878,
         "elevation_gain": 232.3,
@@ -180727,7 +180727,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Glückstadt – Elmshorn (DEVELOPED)",
+        "name": "Glückstadt – Elmshorn",
         "description": "DEVELOPED",
         "distance_km": 25.86,
         "elevation_gain": 50.8,
@@ -181597,7 +181597,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Elmshorn – Hamburg (DEVELOPED)",
+        "name": "Elmshorn – Hamburg",
         "description": "DEVELOPED",
         "distance_km": 57.686,
         "elevation_gain": 305.9,
@@ -184082,7 +184082,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Hamburg – Himmelpforten (DEVELOPED)",
+        "name": "Hamburg – Himmelpforten",
         "description": "DEVELOPED",
         "distance_km": 64.678,
         "elevation_gain": 202.1,
@@ -187722,7 +187722,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Himmelpforten – Cuxhaven (DEVELOPED)",
+        "name": "Himmelpforten – Cuxhaven",
         "description": "DEVELOPED",
         "distance_km": 70.033,
         "elevation_gain": 269.6,
@@ -191137,7 +191137,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Cuxhaven – Bremerhaven (DEVELOPED)",
+        "name": "Cuxhaven – Bremerhaven",
         "description": "DEVELOPED",
         "distance_km": 54.532,
         "elevation_gain": 163.0,
@@ -193662,7 +193662,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Bremerhaven – Varel (DEVELOPED)",
+        "name": "Bremerhaven – Varel",
         "description": "DEVELOPED",
         "distance_km": 75.674,
         "elevation_gain": 124.9,
@@ -196212,7 +196212,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Varel – Wilhelmshaven (DEVELOPED)",
+        "name": "Varel – Wilhelmshaven",
         "description": "DEVELOPED",
         "distance_km": 47.119,
         "elevation_gain": 108.8,
@@ -198052,7 +198052,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Wilhelmshaven – Jever (DEVELOPED)",
+        "name": "Wilhelmshaven – Jever",
         "description": "DEVELOPED",
         "distance_km": 33.049,
         "elevation_gain": 113.9,
@@ -200582,7 +200582,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: Jever – Norden (DEVELOPED)",
+        "name": "Jever – Norden",
         "description": "DEVELOPED",
         "distance_km": 74.744,
         "elevation_gain": 111.7,
@@ -203337,7 +203337,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Norden – Greetsiel (DEVELOPED)",
+        "name": "Norden – Greetsiel",
         "description": "DEVELOPED",
         "distance_km": 46.587,
         "elevation_gain": 87.6,
@@ -205477,7 +205477,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Greetsiel – Emden (DEVELOPED)",
+        "name": "Greetsiel – Emden",
         "description": "DEVELOPED",
         "distance_km": 48.999,
         "elevation_gain": 127.4,
@@ -208002,7 +208002,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Emden – Bad Nieuweschans (DEVELOPED)",
+        "name": "Emden – Bad Nieuweschans",
         "description": "DEVELOPED",
         "distance_km": 50.046,
         "elevation_gain": 110.9,
@@ -210472,7 +210472,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Bad Nieuweschans – Delfzijl (DEVELOPED_WITH_SIGNS)",
+        "name": "Bad Nieuweschans – Delfzijl",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.677,
         "elevation_gain": 76.0,
@@ -212177,7 +212177,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Delfzijl – Ulrum (DEVELOPED_WITH_SIGNS)",
+        "name": "Delfzijl – Ulrum",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.257,
         "elevation_gain": 132.7,
@@ -215397,7 +215397,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Ulrum – Holwerd (DEVELOPED_WITH_SIGNS)",
+        "name": "Ulrum – Holwerd",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.95,
         "elevation_gain": 113.7,
@@ -218652,7 +218652,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Holwerd – Harlingen (DEVELOPED_WITH_SIGNS)",
+        "name": "Holwerd – Harlingen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 68.931,
         "elevation_gain": 124.4,
@@ -221952,7 +221952,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: Harlingen – Den Helder (DEVELOPED_WITH_SIGNS)",
+        "name": "Harlingen – Den Helder",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 75.124,
         "elevation_gain": 104.1,
@@ -223987,7 +223987,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Den Helder – Egmond (DEVELOPED_WITH_SIGNS)",
+        "name": "Den Helder – Egmond",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.767,
         "elevation_gain": 259.5,
@@ -227807,7 +227807,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Egmond – IJmuiden (DEVELOPED_WITH_SIGNS)",
+        "name": "Egmond – IJmuiden",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.186,
         "elevation_gain": 131.1,
@@ -229762,7 +229762,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: IJmuiden – Noordwijk (DEVELOPED_WITH_SIGNS)",
+        "name": "IJmuiden – Noordwijk",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.026,
         "elevation_gain": 230.0,
@@ -232912,7 +232912,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Noordwijk – The Hague (DEVELOPED_WITH_SIGNS)",
+        "name": "Noordwijk – The Hague",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.562,
         "elevation_gain": 145.6,
@@ -234717,7 +234717,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: The Hague – Hook of Holland (DEVELOPED_WITH_SIGNS)",
+        "name": "The Hague – Hook of Holland",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.55,
         "elevation_gain": 85.4,
@@ -236107,7 +236107,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Hook of Holland – Burgh-Haamstede (DEVELOPED_WITH_SIGNS)",
+        "name": "Hook of Holland – Burgh-Haamstede",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 78.235,
         "elevation_gain": 267.2,
@@ -240492,7 +240492,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Burgh-Haamstede – Vlissingen (DEVELOPED_WITH_SIGNS)",
+        "name": "Burgh-Haamstede – Vlissingen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.619,
         "elevation_gain": 275.4,
@@ -244402,7 +244402,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Breskens – Cadzand (DEVELOPED_WITH_SIGNS)",
+        "name": "Breskens – Cadzand",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.719,
         "elevation_gain": 97.1,
@@ -246147,7 +246147,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: Cadzand – Ostende (DEVELOPED_WITH_SIGNS)",
+        "name": "Cadzand – Ostende",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.996,
         "elevation_gain": 120.0,
@@ -247127,7 +247127,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: Ostende – De Panne (DEVELOPED_WITH_SIGNS)",
+        "name": "Ostende – De Panne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.125,
         "elevation_gain": 119.2,
@@ -248297,7 +248297,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: De Panne – Dunkerque (DEVELOPED_WITH_SIGNS)",
+        "name": "De Panne – Dunkerque",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.467,
         "elevation_gain": 42.3,
@@ -248837,7 +248837,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Loon-Plage – Dunkerque (DEVELOPED_WITH_SIGNS)",
+        "name": "Loon-Plage – Dunkerque",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.131,
         "elevation_gain": 55.8,
@@ -250032,7 +250032,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Oye-Plage – Loon-Plage (DEVELOPED)",
+        "name": "Oye-Plage – Loon-Plage",
         "description": "DEVELOPED",
         "distance_km": 24.721,
         "elevation_gain": 55.8,
@@ -251557,7 +251557,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Calais – Oye-Plage (DEVELOPED_WITH_SIGNS)",
+        "name": "Calais – Oye-Plage",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.691,
         "elevation_gain": 41.1,
@@ -252602,7 +252602,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Canterbury – Dover (DEVELOPED)",
+        "name": "Canterbury – Dover",
         "description": "DEVELOPED",
         "distance_km": 32.74,
         "elevation_gain": 441.9,
@@ -254357,7 +254357,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Canterbury – Faversham (DEVELOPED)",
+        "name": "Canterbury – Faversham",
         "description": "DEVELOPED",
         "distance_km": 26.888,
         "elevation_gain": 199.7,
@@ -255892,7 +255892,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Faversham – Rochester (DEVELOPED)",
+        "name": "Faversham – Rochester",
         "description": "DEVELOPED",
         "distance_km": 45.245,
         "elevation_gain": 324.6,
@@ -259242,7 +259242,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Rochester – Dartford (DEVELOPED)",
+        "name": "Rochester – Dartford",
         "description": "DEVELOPED",
         "distance_km": 32.075,
         "elevation_gain": 349.5,
@@ -261352,7 +261352,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Dartford – London Greenwich (DEVELOPED)",
+        "name": "Dartford – London Greenwich",
         "description": "DEVELOPED",
         "distance_km": 30.184,
         "elevation_gain": 170.9,
@@ -264217,7 +264217,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: London Greenwich – Waltham Cross (DEVELOPED)",
+        "name": "London Greenwich – Waltham Cross",
         "description": "DEVELOPED",
         "distance_km": 29.538,
         "elevation_gain": 140.0,
@@ -266447,7 +266447,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Waltham Cross – Chelmsford (DEVELOPED)",
+        "name": "Waltham Cross – Chelmsford",
         "description": "DEVELOPED",
         "distance_km": 56.818,
         "elevation_gain": 422.0,
@@ -270872,7 +270872,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Chelmsford – Colchester (DEVELOPED)",
+        "name": "Chelmsford – Colchester",
         "description": "DEVELOPED",
         "distance_km": 61.456,
         "elevation_gain": 445.3,
@@ -274637,7 +274637,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Colchester – Ipswich (DEVELOPED)",
+        "name": "Colchester – Ipswich",
         "description": "DEVELOPED",
         "distance_km": 43.519,
         "elevation_gain": 334.1,
@@ -277307,7 +277307,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Ipswich – Halesworth (DEVELOPED)",
+        "name": "Ipswich – Halesworth",
         "description": "DEVELOPED",
         "distance_km": 68.279,
         "elevation_gain": 483.8,
@@ -281082,7 +281082,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Halesworth – Norwich (DEVELOPED)",
+        "name": "Halesworth – Norwich",
         "description": "DEVELOPED",
         "distance_km": 60.938,
         "elevation_gain": 410.2,
@@ -284102,7 +284102,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Norwich – Fakenham (DEVELOPED)",
+        "name": "Norwich – Fakenham",
         "description": "DEVELOPED",
         "distance_km": 53.034,
         "elevation_gain": 297.6,
@@ -286392,7 +286392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Fakenham – Dersingham (DEVELOPED)",
+        "name": "Fakenham – Dersingham",
         "description": "DEVELOPED",
         "distance_km": 59.929,
         "elevation_gain": 485.6,
@@ -288597,7 +288597,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: Dersingham – Wisbech (DEVELOPED)",
+        "name": "Dersingham – Wisbech",
         "description": "DEVELOPED",
         "distance_km": 48.693,
         "elevation_gain": 177.1,
@@ -290902,7 +290902,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Wisbech – Boston (DEVELOPED)",
+        "name": "Wisbech – Boston",
         "description": "DEVELOPED",
         "distance_km": 61.895,
         "elevation_gain": 144.5,
@@ -293857,7 +293857,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Boston – Lincoln (DEVELOPED)",
+        "name": "Boston – Lincoln",
         "description": "DEVELOPED",
         "distance_km": 55.034,
         "elevation_gain": 138.2,
@@ -295442,7 +295442,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Lincoln – Grimsby (DEVELOPED)",
+        "name": "Lincoln – Grimsby",
         "description": "DEVELOPED",
         "distance_km": 44.191,
         "elevation_gain": 319.9,
@@ -296977,7 +296977,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Grimsby – Hull (DEVELOPED)",
+        "name": "Grimsby – Hull",
         "description": "DEVELOPED",
         "distance_km": 44.719,
         "elevation_gain": 273.0,
@@ -298297,7 +298297,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Hull – Bridlington (DEVELOPED)",
+        "name": "Hull – Bridlington",
         "description": "DEVELOPED",
         "distance_km": 78.169,
         "elevation_gain": 415.8,
@@ -301322,7 +301322,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Bridlington – Scarborough (DEVELOPED)",
+        "name": "Bridlington – Scarborough",
         "description": "DEVELOPED",
         "distance_km": 40.917,
         "elevation_gain": 432.2,
@@ -302877,7 +302877,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: Scarborough – Whitby (DEVELOPED)",
+        "name": "Scarborough – Whitby",
         "description": "DEVELOPED",
         "distance_km": 30.603,
         "elevation_gain": 312.8,
@@ -304377,7 +304377,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Whitby – Great Ayton (DEVELOPED)",
+        "name": "Whitby – Great Ayton",
         "description": "DEVELOPED",
         "distance_km": 44.443,
         "elevation_gain": 801.7,
@@ -306592,7 +306592,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Great Ayton – Stockton-on-Tees (DEVELOPED)",
+        "name": "Great Ayton – Stockton-on-Tees",
         "description": "DEVELOPED",
         "distance_km": 38.148,
         "elevation_gain": 180.8,
@@ -309027,7 +309027,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Stockton-on-Tees – Sunderland (DEVELOPED)",
+        "name": "Stockton-on-Tees – Sunderland",
         "description": "DEVELOPED",
         "distance_km": 56.17,
         "elevation_gain": 458.9,
@@ -312137,7 +312137,7 @@
       "type": "Feature",
       "properties": {
         "stage": 112,
-        "name": "112: Sunderland – Newcastle upon Tyne (DEVELOPED)",
+        "name": "Sunderland – Newcastle upon Tyne",
         "description": "DEVELOPED",
         "distance_km": 23.643,
         "elevation_gain": 270.3,
@@ -313792,7 +313792,7 @@
       "type": "Feature",
       "properties": {
         "stage": 113,
-        "name": "113: Newcastle upon Tyne – Amble (DEVELOPED)",
+        "name": "Newcastle upon Tyne – Amble",
         "description": "DEVELOPED",
         "distance_km": 52.194,
         "elevation_gain": 341.5,
@@ -316862,7 +316862,7 @@
       "type": "Feature",
       "properties": {
         "stage": 114,
-        "name": "114: Amble – North Sunderland (DEVELOPED)",
+        "name": "Amble – North Sunderland",
         "description": "DEVELOPED",
         "distance_km": 40.262,
         "elevation_gain": 311.1,
@@ -318742,7 +318742,7 @@
       "type": "Feature",
       "properties": {
         "stage": 115,
-        "name": "115: North Sunderland – Berwick-upon-Tweed (DEVELOPED)",
+        "name": "North Sunderland – Berwick-upon-Tweed",
         "description": "DEVELOPED",
         "distance_km": 44.699,
         "elevation_gain": 404.6,
@@ -320547,7 +320547,7 @@
       "type": "Feature",
       "properties": {
         "stage": 116,
-        "name": "116: Berwick-upon-Tweed – Dunbar (DEVELOPED)",
+        "name": "Berwick-upon-Tweed – Dunbar",
         "description": "DEVELOPED",
         "distance_km": 54.811,
         "elevation_gain": 674.5,
@@ -322867,7 +322867,7 @@
       "type": "Feature",
       "properties": {
         "stage": 117,
-        "name": "117: Dunbar – Edinburgh (DEVELOPED)",
+        "name": "Dunbar – Edinburgh",
         "description": "DEVELOPED",
         "distance_km": 54.232,
         "elevation_gain": 387.5,
@@ -325707,7 +325707,7 @@
       "type": "Feature",
       "properties": {
         "stage": 118,
-        "name": "118: Edinburgh – Kinross (DEVELOPED)",
+        "name": "Edinburgh – Kinross",
         "description": "DEVELOPED",
         "distance_km": 46.467,
         "elevation_gain": 579.6,
@@ -328327,7 +328327,7 @@
       "type": "Feature",
       "properties": {
         "stage": 119,
-        "name": "119: Kinross – St Andrews (DEVELOPED)",
+        "name": "Kinross – St Andrews",
         "description": "DEVELOPED",
         "distance_km": 58.046,
         "elevation_gain": 652.6,
@@ -330897,7 +330897,7 @@
       "type": "Feature",
       "properties": {
         "stage": 120,
-        "name": "120: St Andrews – Dundee (DEVELOPED)",
+        "name": "St Andrews – Dundee",
         "description": "DEVELOPED",
         "distance_km": 36.185,
         "elevation_gain": 241.6,
@@ -333017,7 +333017,7 @@
       "type": "Feature",
       "properties": {
         "stage": 121,
-        "name": "121: Dundee – Montrose (DEVELOPED)",
+        "name": "Dundee – Montrose",
         "description": "DEVELOPED",
         "distance_km": 48.447,
         "elevation_gain": 335.2,
@@ -334997,7 +334997,7 @@
       "type": "Feature",
       "properties": {
         "stage": 122,
-        "name": "122: Montrose – Stonehaven (DEVELOPED)",
+        "name": "Montrose – Stonehaven",
         "description": "DEVELOPED",
         "distance_km": 41.741,
         "elevation_gain": 466.5,
@@ -336527,7 +336527,7 @@
       "type": "Feature",
       "properties": {
         "stage": 123,
-        "name": "123: Stonehaven – Aberdeen (DEVELOPED)",
+        "name": "Stonehaven – Aberdeen",
         "description": "DEVELOPED",
         "distance_km": 42.713,
         "elevation_gain": 517.8,
@@ -338302,7 +338302,7 @@
       "type": "Feature",
       "properties": {
         "stage": 124,
-        "name": "124: Aberdeen – Maud (DEVELOPED_WITH_SIGNS)",
+        "name": "Aberdeen – Maud",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.167,
         "elevation_gain": 597.3,
@@ -340907,7 +340907,7 @@
       "type": "Feature",
       "properties": {
         "stage": 125,
-        "name": "125: Maud – Banff (DEVELOPED_WITH_SIGNS)",
+        "name": "Maud – Banff",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.956,
         "elevation_gain": 487.2,
@@ -342502,7 +342502,7 @@
       "type": "Feature",
       "properties": {
         "stage": 126,
-        "name": "126: Banff – Elgin (DEVELOPED_WITH_SIGNS)",
+        "name": "Banff – Elgin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.262,
         "elevation_gain": 733.6,
@@ -345632,7 +345632,7 @@
       "type": "Feature",
       "properties": {
         "stage": 127,
-        "name": "127: Elgin – Inverness (DEVELOPED_WITH_SIGNS)",
+        "name": "Elgin – Inverness",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.073,
         "elevation_gain": 662.3,
@@ -348327,7 +348327,7 @@
       "type": "Feature",
       "properties": {
         "stage": 128,
-        "name": "128: Inverness – Dingwall (DEVELOPED)",
+        "name": "Inverness – Dingwall",
         "description": "DEVELOPED",
         "distance_km": 36.308,
         "elevation_gain": 385.6,
@@ -350167,7 +350167,7 @@
       "type": "Feature",
       "properties": {
         "stage": 129,
-        "name": "129: Dingwall – Tain (DEVELOPED)",
+        "name": "Dingwall – Tain",
         "description": "DEVELOPED",
         "distance_km": 37.102,
         "elevation_gain": 377.7,
@@ -351607,7 +351607,7 @@
       "type": "Feature",
       "properties": {
         "stage": 130,
-        "name": "130: Tain – Lairg (DEVELOPED)",
+        "name": "Tain – Lairg",
         "description": "DEVELOPED",
         "distance_km": 42.189,
         "elevation_gain": 395.9,
@@ -353312,7 +353312,7 @@
       "type": "Feature",
       "properties": {
         "stage": 131,
-        "name": "131: Lairg – Tongue (DEVELOPED)",
+        "name": "Lairg – Tongue",
         "description": "DEVELOPED",
         "distance_km": 59.784,
         "elevation_gain": 634.0,
@@ -355332,7 +355332,7 @@
       "type": "Feature",
       "properties": {
         "stage": 132,
-        "name": "132: Tongue – Thurso (DEVELOPED)",
+        "name": "Tongue – Thurso",
         "description": "DEVELOPED",
         "distance_km": 67.479,
         "elevation_gain": 1002.7,
@@ -357982,7 +357982,7 @@
       "type": "Feature",
       "properties": {
         "stage": 133,
-        "name": "133: Thurso – Wick (DEVELOPED)",
+        "name": "Thurso – Wick",
         "description": "DEVELOPED",
         "distance_km": 34.159,
         "elevation_gain": 244.8,
@@ -358712,7 +358712,7 @@
       "type": "Feature",
       "properties": {
         "stage": 134,
-        "name": "134: Burwick – Kirkwall (DEVELOPED)",
+        "name": "Burwick – Kirkwall",
         "description": "DEVELOPED",
         "distance_km": 38.307,
         "elevation_gain": 417.7,
@@ -359837,7 +359837,7 @@
       "type": "Feature",
       "properties": {
         "stage": 135,
-        "name": "135: Kirkwall – Swannay (DEVELOPED)",
+        "name": "Kirkwall – Swannay",
         "description": "DEVELOPED",
         "distance_km": 53.495,
         "elevation_gain": 535.2,
@@ -361097,7 +361097,7 @@
       "type": "Feature",
       "properties": {
         "stage": 136,
-        "name": "136: Swannay – Stromness (DEVELOPED)",
+        "name": "Swannay – Stromness",
         "description": "DEVELOPED",
         "distance_km": 34.664,
         "elevation_gain": 332.9,
@@ -362107,7 +362107,7 @@
       "type": "Feature",
       "properties": {
         "stage": 137,
-        "name": "137: Sumburgh – Lerwick (DEVELOPED)",
+        "name": "Sumburgh – Lerwick",
         "description": "DEVELOPED",
         "distance_km": 51.508,
         "elevation_gain": 846.1,
@@ -364497,7 +364497,7 @@
       "type": "Feature",
       "properties": {
         "stage": 138,
-        "name": "138: Lerwick – Mossbank (DEVELOPED)",
+        "name": "Lerwick – Mossbank",
         "description": "DEVELOPED",
         "distance_km": 62.308,
         "elevation_gain": 1105.1,
@@ -367172,7 +367172,7 @@
       "type": "Feature",
       "properties": {
         "stage": 139,
-        "name": "139: Ulsta – Gutcher (DEVELOPED)",
+        "name": "Ulsta – Gutcher",
         "description": "DEVELOPED",
         "distance_km": 28.191,
         "elevation_gain": 341.1,
@@ -368037,7 +368037,7 @@
       "type": "Feature",
       "properties": {
         "stage": 140,
-        "name": "140: Belmont – Norwick (DEVELOPED)",
+        "name": "Belmont – Norwick",
         "description": "DEVELOPED",
         "distance_km": 20.076,
         "elevation_gain": 239.9,

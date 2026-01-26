@@ -17,14 +17,14 @@
       "Szentgotthard",
       "Vasvar",
       "Keszthely",
-      "Balatonfüred",
-      "Székesfehérvár",
+      "Balatonfured",
+      "Szekesfehervar",
       "Budapest",
-      "Gódóllõ",
+      "Godollo",
       "Hatvan",
-      "Matrafüred",
+      "Matrafured",
       "Eger",
-      "Tiszafüred",
+      "Tiszafured",
       "Tiszacsege",
       "Debrecen"
     ]
@@ -34,7 +34,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "01: Zell Am See – Bischofshofen (DEVELOPED_WITH_SIGNS)",
+        "name": "Zell Am See – Bischofshofen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.94,
         "elevation_gain": 1058.6,
@@ -4579,7 +4579,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "02: Bischofshofen – Liezen (DEVELOPED_WITH_SIGNS)",
+        "name": "Bischofshofen – Liezen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 107.816,
         "elevation_gain": 1459.6,
@@ -12284,7 +12284,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "03: Liezen – Graz (DEVELOPED_WITH_SIGNS)",
+        "name": "Liezen – Graz",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 170.238,
         "elevation_gain": 2894.9,
@@ -24954,7 +24954,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "04: Graz – Fehring Brunn (DEVELOPED_WITH_SIGNS)",
+        "name": "Graz – Fehring Brunn",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.006,
         "elevation_gain": 647.1,
@@ -30734,7 +30734,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "05: Fehring Brunn – Szentgotthard (DEVELOPED_WITH_SIGNS)",
+        "name": "Fehring Brunn – Szentgotthard",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.414,
         "elevation_gain": 61.8,
@@ -32844,7 +32844,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "06: Szentgotthard – Vasvar (DEVELOPED_WITH_SIGNS)",
+        "name": "Szentgotthard – Vasvar",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.941,
         "elevation_gain": 608.9,
@@ -35264,7 +35264,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "07: Vasvar – Keszthely (DEVELOPED_WITH_SIGNS)",
+        "name": "Vasvar – Keszthely",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.947,
         "elevation_gain": 491.3,
@@ -37154,7 +37154,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "08: Keszthely – Balatonfüred (DEVELOPED_WITH_SIGNS)",
+        "name": "Keszthely – Balatonfüred",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.23,
         "elevation_gain": 477.2,
@@ -40949,7 +40949,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "09: Balatonfüred – Székesfehérvár (DEVELOPED_WITH_SIGNS)",
+        "name": "Balatonfüred – Székesfehérvár",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.031,
         "elevation_gain": 427.2,
@@ -44309,7 +44309,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "10: Székesfehérvár – Budapest (DEVELOPED_WITH_SIGNS)",
+        "name": "Székesfehérvár – Budapest",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 81.174,
         "elevation_gain": 827.2,
@@ -48359,7 +48359,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "11: Budapest – Gódóllõ (UNDER_DEVELOPMENT)",
+        "name": "Budapest – Gódóllõ",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.026,
         "elevation_gain": 321.7,
@@ -49629,7 +49629,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "12: Gódóllõ – Hatvan (DEVELOPED_WITH_SIGNS)",
+        "name": "Gódóllõ – Hatvan",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.962,
         "elevation_gain": 212.8,
@@ -50999,7 +50999,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "13: Matrafüred – Eger (DEVELOPED_WITH_SIGNS)",
+        "name": "Matrafüred – Eger",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.642,
         "elevation_gain": 535.8,
@@ -53824,7 +53824,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "14: Eger – Tiszafüred (DEVELOPED_WITH_SIGNS)",
+        "name": "Eger – Tiszafüred",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.389,
         "elevation_gain": 387.6,
@@ -55824,7 +55824,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "15: Tiszafüred – Tiszacsege (DEVELOPED)",
+        "name": "Tiszafüred – Tiszacsege",
         "description": "DEVELOPED",
         "distance_km": 22.154,
         "elevation_gain": 40.1,
@@ -56389,7 +56389,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "16: Tiszacsege – Debrecen (DEVELOPED)",
+        "name": "Tiszacsege – Debrecen",
         "description": "DEVELOPED",
         "distance_km": 80.727,
         "elevation_gain": 181.6,
@@ -58429,7 +58429,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "17: Hatvan – Matrafüred (DEVELOPED_WITH_SIGNS)",
+        "name": "Hatvan – Matrafüred",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.843,
         "elevation_gain": 741.0,

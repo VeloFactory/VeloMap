@@ -10,8 +10,8 @@
     "total_stages": 221,
     "cities": [
       "Nordkapp",
-      "Honningsvåg",
-      "Repvåg",
+      "Honningsvag",
+      "Repvag",
       "Olderfjord",
       "Sennalandet",
       "Alta",
@@ -22,35 +22,35 @@
       "Lyngseidet",
       "Svensby",
       "Breivikeidet",
-      "Tromsø",
+      "Troms",
       "Brensholmen",
       "Botnhamn",
       "Skaland",
       "Gryllefjord",
       "Andenes",
-      "Bø",
+      "B",
       "Sortland",
       "Melbu",
-      "Fiskebøl",
-      "Svolvær",
+      "Fiskebl",
+      "Svolvr",
       "Leknes",
       "Moskenes",
-      "Bodø",
+      "Bod",
       "Saltstraumen",
       "Storvik",
-      "Ørnes",
+      "rnes",
       "Vassdalsvik",
-      "Forøy",
-      "Ågskardet",
+      "Fory",
+      "Agskardet",
       "Jektvik",
       "Kilboghavn",
       "Utskarpen",
       "Nesna",
       "Levang",
-      "Sandnessjøen",
-      "Tjøtta",
+      "Sandnessjen",
+      "Tjtta",
       "Vevelstad",
-      "Andalsvågen",
+      "Andalsvagen",
       "Horn",
       "Vennesund",
       "Holm",
@@ -63,25 +63,25 @@
       "Vanvikan",
       "Trondheim",
       "Orkanger",
-      "Kyrksæterøra",
+      "Kyrksterra",
       "Aure",
-      "Tømmervåg",
+      "Tmmervag",
       "Seivika",
-      "Kårvåg",
-      "Elnesvågen",
-      "Mordalsvågen",
+      "Karvag",
+      "Elnesvagen",
+      "Mordalsvagen",
       "Solholmen",
       "Dryna",
-      "Brattvåg",
+      "Brattvag",
       "Hamnsund",
-      "Florø",
-      "Førde",
+      "Flor",
+      "Frde",
       "Askvoll",
       "Fure",
       "Rysjedalsvika",
       "Rutledal",
-      "Sløvåg",
-      "Leirvåg",
+      "Slvag",
+      "Leirvag",
       "Alversund",
       "Bergen",
       "Aberdeen",
@@ -165,7 +165,7 @@
       "Morlaix",
       "Carhaix-Plouguer",
       "Rostrenen",
-      "Mûr-de-Bretagne",
+      "Mur-de-Bretagne",
       "Pontivy",
       "Josselin",
       "Peillac",
@@ -191,12 +191,12 @@
       "Montalivet les Bains",
       "Hourtin Plage",
       "Lacanau",
-      "Lège-Cap-Ferret",
+      "Lege-Cap-Ferret",
       "Arcachon",
       "Biscarosse Plage",
       "Parentis-en-Born",
       "Mimizan Plage",
-      "Léon",
+      "Leon",
       "Capbreton",
       "Bayonne",
       "Biarritz",
@@ -206,13 +206,13 @@
       "Sarasate",
       "Pamplona",
       "Estella-Lizarra",
-      "Logroño",
-      "Nájera",
+      "Logrono",
+      "Najera",
       "Santo Domingo de la Calzada",
       "Belorado",
       "Burgos",
       "Castrojeriz",
-      "Frómista",
+      "Fromista",
       "Palencia",
       "Valladolid",
       "Tordesillas",
@@ -220,7 +220,7 @@
       "Zamora",
       "Salamanca",
       "Fuenterroble de Salvatierra",
-      "Baños de Montemayor",
+      "Banos de Montemayor",
       "Galisteo",
       "Caceres",
       "Merida",
@@ -230,12 +230,12 @@
       "Nerva",
       "Valverde del Camino",
       "San Juan del Puerto",
-      "Gibraleón",
+      "Gibraleon",
       "Ayamonte",
-      "Vila Real de Santo António",
+      "Vila Real de Santo Antonio",
       "Faro",
       "Albufeira",
-      "Portimão",
+      "Portimao",
       "Lagos",
       "Sagres",
       "Carrapateira",
@@ -244,7 +244,7 @@
       "Vila Nova de Milfontes",
       "Sines",
       "Melides",
-      "Tróia",
+      "Troia",
       "Setubal",
       "Cabo Espichel",
       "Almada",
@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Nordkapp – Honningsvåg (DEVELOPED)",
+        "name": "Nordkapp – Honningsvåg",
         "description": "DEVELOPED",
         "distance_km": 31.129,
         "elevation_gain": 616.6,
@@ -1941,7 +1941,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Honningsvåg – Repvåg (DEVELOPED)",
+        "name": "Honningsvåg – Repvåg",
         "description": "DEVELOPED",
         "distance_km": 51.475,
         "elevation_gain": 1576.3,
@@ -3861,7 +3861,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Repvåg – Olderfjord (DEVELOPED)",
+        "name": "Repvåg – Olderfjord",
         "description": "DEVELOPED",
         "distance_km": 44.119,
         "elevation_gain": 1222.4,
@@ -6236,7 +6236,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: Olderfjord – Sennalandet (DEVELOPED)",
+        "name": "Olderfjord – Sennalandet",
         "description": "DEVELOPED",
         "distance_km": 52.851,
         "elevation_gain": 670.0,
@@ -7531,7 +7531,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Sennalandet – Alta (DEVELOPED)",
+        "name": "Sennalandet – Alta",
         "description": "DEVELOPED",
         "distance_km": 53.091,
         "elevation_gain": 617.6,
@@ -9541,7 +9541,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Alta – Isnestoften (DEVELOPED)",
+        "name": "Alta – Isnestoften",
         "description": "DEVELOPED",
         "distance_km": 47.088,
         "elevation_gain": 1118.1,
@@ -12441,7 +12441,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Isnestoften – Burfjord (DEVELOPED)",
+        "name": "Isnestoften – Burfjord",
         "description": "DEVELOPED",
         "distance_km": 51.383,
         "elevation_gain": 633.4,
@@ -14176,7 +14176,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Burfjord – Storslett (DEVELOPED)",
+        "name": "Burfjord – Storslett",
         "description": "DEVELOPED",
         "distance_km": 72.576,
         "elevation_gain": 1297.2,
@@ -17256,7 +17256,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Storslett – Olderdalen (DEVELOPED)",
+        "name": "Storslett – Olderdalen",
         "description": "DEVELOPED",
         "distance_km": 50.389,
         "elevation_gain": 673.4,
@@ -19306,7 +19306,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Lyngseidet – Svensby (DEVELOPED)",
+        "name": "Lyngseidet – Svensby",
         "description": "DEVELOPED",
         "distance_km": 21.892,
         "elevation_gain": 192.8,
@@ -20151,7 +20151,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Breivikeidet – Tromsø (DEVELOPED)",
+        "name": "Breivikeidet – Tromsø",
         "description": "DEVELOPED",
         "distance_km": 48.945,
         "elevation_gain": 600.5,
@@ -22141,7 +22141,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Tromsø – Brensholmen (DEVELOPED)",
+        "name": "Tromsø – Brensholmen",
         "description": "DEVELOPED",
         "distance_km": 59.172,
         "elevation_gain": 660.6,
@@ -24881,7 +24881,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Botnhamn – Skaland (DEVELOPED)",
+        "name": "Botnhamn – Skaland",
         "description": "DEVELOPED",
         "distance_km": 39.944,
         "elevation_gain": 1546.3,
@@ -27096,7 +27096,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Skaland – Gryllefjord (DEVELOPED)",
+        "name": "Skaland – Gryllefjord",
         "description": "DEVELOPED",
         "distance_km": 37.868,
         "elevation_gain": 1250.7,
@@ -29141,7 +29141,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Andenes – Bø (DEVELOPED)",
+        "name": "Andenes – Bø",
         "description": "DEVELOPED",
         "distance_km": 47.945,
         "elevation_gain": 370.9,
@@ -31116,7 +31116,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Bø – Sortland (DEVELOPED)",
+        "name": "Bø – Sortland",
         "description": "DEVELOPED",
         "distance_km": 61.473,
         "elevation_gain": 371.4,
@@ -33066,7 +33066,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Sortland – Melbu (DEVELOPED)",
+        "name": "Sortland – Melbu",
         "description": "DEVELOPED",
         "distance_km": 55.007,
         "elevation_gain": 490.2,
@@ -36061,7 +36061,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Fiskebøl – Svolvær (DEVELOPED)",
+        "name": "Fiskebøl – Svolvær",
         "description": "DEVELOPED",
         "distance_km": 62.77,
         "elevation_gain": 668.9,
@@ -38806,7 +38806,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Svolvær – Leknes (DEVELOPED)",
+        "name": "Svolvær – Leknes",
         "description": "DEVELOPED",
         "distance_km": 68.097,
         "elevation_gain": 1130.9,
@@ -42206,7 +42206,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: Leknes – Moskenes (DEVELOPED)",
+        "name": "Leknes – Moskenes",
         "description": "DEVELOPED",
         "distance_km": 59.101,
         "elevation_gain": 989.7,
@@ -45266,7 +45266,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Bodø – Saltstraumen (DEVELOPED)",
+        "name": "Bodø – Saltstraumen",
         "description": "DEVELOPED",
         "distance_km": 30.095,
         "elevation_gain": 346.7,
@@ -47151,7 +47151,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Saltstraumen – Storvik (DEVELOPED)",
+        "name": "Saltstraumen – Storvik",
         "description": "DEVELOPED",
         "distance_km": 67.509,
         "elevation_gain": 1817.0,
@@ -50441,7 +50441,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Storvik – Ørnes (DEVELOPED)",
+        "name": "Storvik – Ørnes",
         "description": "DEVELOPED",
         "distance_km": 21.196,
         "elevation_gain": 203.4,
@@ -51371,7 +51371,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Vassdalsvik – Forøy (DEVELOPED)",
+        "name": "Vassdalsvik – Forøy",
         "description": "DEVELOPED",
         "distance_km": 30.184,
         "elevation_gain": 374.6,
@@ -52591,7 +52591,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: Ågskardet – Jektvik (DEVELOPED)",
+        "name": "Ågskardet – Jektvik",
         "description": "DEVELOPED",
         "distance_km": 27.869,
         "elevation_gain": 626.3,
@@ -54236,7 +54236,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: Kilboghavn – Utskarpen (DEVELOPED)",
+        "name": "Kilboghavn – Utskarpen",
         "description": "DEVELOPED",
         "distance_km": 59.701,
         "elevation_gain": 1359.2,
@@ -57181,7 +57181,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Utskarpen – Nesna (DEVELOPED)",
+        "name": "Utskarpen – Nesna",
         "description": "DEVELOPED",
         "distance_km": 30.852,
         "elevation_gain": 588.9,
@@ -58751,7 +58751,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Levang – Sandnessjøen (DEVELOPED)",
+        "name": "Levang – Sandnessjøen",
         "description": "DEVELOPED",
         "distance_km": 32.326,
         "elevation_gain": 466.6,
@@ -59971,7 +59971,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Sandnessjøen – Tjøtta (DEVELOPED)",
+        "name": "Sandnessjøen – Tjøtta",
         "description": "DEVELOPED",
         "distance_km": 37.55,
         "elevation_gain": 365.2,
@@ -61481,7 +61481,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Vevelstad – Andalsvågen (DEVELOPED)",
+        "name": "Vevelstad – Andalsvågen",
         "description": "DEVELOPED",
         "distance_km": 16.744,
         "elevation_gain": 100.3,
@@ -62121,7 +62121,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Horn – Vennesund (DEVELOPED)",
+        "name": "Horn – Vennesund",
         "description": "DEVELOPED",
         "distance_km": 57.821,
         "elevation_gain": 508.3,
@@ -64326,7 +64326,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Holm – Hofles (DEVELOPED)",
+        "name": "Holm – Hofles",
         "description": "DEVELOPED",
         "distance_km": 79.042,
         "elevation_gain": 1620.9,
@@ -68301,7 +68301,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Lund – Namsos (DEVELOPED)",
+        "name": "Lund – Namsos",
         "description": "DEVELOPED",
         "distance_km": 54.261,
         "elevation_gain": 1217.5,
@@ -71841,7 +71841,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Namsos – Fossli (DEVELOPED)",
+        "name": "Namsos – Fossli",
         "description": "DEVELOPED",
         "distance_km": 32.931,
         "elevation_gain": 405.4,
@@ -73556,7 +73556,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: Fossli – Steinkjer (DEVELOPED)",
+        "name": "Fossli – Steinkjer",
         "description": "DEVELOPED",
         "distance_km": 47.605,
         "elevation_gain": 588.6,
@@ -76521,7 +76521,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Steinkjer – Vang (DEVELOPED)",
+        "name": "Steinkjer – Vang",
         "description": "DEVELOPED",
         "distance_km": 33.348,
         "elevation_gain": 498.4,
@@ -78491,7 +78491,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: Vang – Vanvikan (DEVELOPED)",
+        "name": "Vang – Vanvikan",
         "description": "DEVELOPED",
         "distance_km": 71.008,
         "elevation_gain": 1850.8,
@@ -82416,7 +82416,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Trondheim – Orkanger (DEVELOPED)",
+        "name": "Trondheim – Orkanger",
         "description": "DEVELOPED",
         "distance_km": 46.172,
         "elevation_gain": 566.0,
@@ -85711,7 +85711,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Orkanger – Kyrksæterøra (DEVELOPED)",
+        "name": "Orkanger – Kyrksæterøra",
         "description": "DEVELOPED",
         "distance_km": 57.151,
         "elevation_gain": 1453.2,
@@ -89861,7 +89861,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Kyrksæterøra – Aure (DEVELOPED)",
+        "name": "Kyrksæterøra – Aure",
         "description": "DEVELOPED",
         "distance_km": 57.02,
         "elevation_gain": 1293.4,
@@ -93581,7 +93581,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Aure – Tømmervåg (DEVELOPED)",
+        "name": "Aure – Tømmervåg",
         "description": "DEVELOPED",
         "distance_km": 42.58,
         "elevation_gain": 823.6,
@@ -96041,7 +96041,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: Seivika – Kårvåg (DEVELOPED)",
+        "name": "Seivika – Kårvåg",
         "description": "DEVELOPED",
         "distance_km": 58.801,
         "elevation_gain": 907.8,
@@ -99046,7 +99046,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Kårvåg – Elnesvågen (DEVELOPED)",
+        "name": "Kårvåg – Elnesvågen",
         "description": "DEVELOPED",
         "distance_km": 54.0,
         "elevation_gain": 334.7,
@@ -101621,7 +101621,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Elnesvågen – Mordalsvågen (DEVELOPED)",
+        "name": "Elnesvågen – Mordalsvågen",
         "description": "DEVELOPED",
         "distance_km": 36.61,
         "elevation_gain": 468.7,
@@ -103581,7 +103581,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Solholmen – Dryna (DEVELOPED)",
+        "name": "Solholmen – Dryna",
         "description": "DEVELOPED",
         "distance_km": 34.565,
         "elevation_gain": 713.0,
@@ -105286,7 +105286,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Brattvåg – Hamnsund (DEVELOPED)",
+        "name": "Brattvåg – Hamnsund",
         "description": "DEVELOPED",
         "distance_km": 19.105,
         "elevation_gain": 224.1,
@@ -106716,7 +106716,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Florø – Førde (DEVELOPED)",
+        "name": "Florø – Førde",
         "description": "DEVELOPED",
         "distance_km": 66.985,
         "elevation_gain": 1751.3,
@@ -111081,7 +111081,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: Førde – Askvoll (DEVELOPED)",
+        "name": "Førde – Askvoll",
         "description": "DEVELOPED",
         "distance_km": 61.49,
         "elevation_gain": 2112.7,
@@ -114896,7 +114896,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Fure – Rysjedalsvika (DEVELOPED)",
+        "name": "Fure – Rysjedalsvika",
         "description": "DEVELOPED",
         "distance_km": 48.962,
         "elevation_gain": 862.8,
@@ -118566,7 +118566,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Rutledal – Sløvåg (DEVELOPED)",
+        "name": "Rutledal – Sløvåg",
         "description": "DEVELOPED",
         "distance_km": 63.035,
         "elevation_gain": 1639.8,
@@ -123826,7 +123826,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Leirvåg – Alversund (DEVELOPED)",
+        "name": "Leirvåg – Alversund",
         "description": "DEVELOPED",
         "distance_km": 53.555,
         "elevation_gain": 664.9,
@@ -127321,7 +127321,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Alversund – Bergen (DEVELOPED)",
+        "name": "Alversund – Bergen",
         "description": "DEVELOPED",
         "distance_km": 32.4,
         "elevation_gain": 860.8,
@@ -130111,7 +130111,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Aberdeen – Maud (DEVELOPED_WITH_SIGNS)",
+        "name": "Aberdeen – Maud",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.167,
         "elevation_gain": 597.3,
@@ -132716,7 +132716,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Maud – Banff (DEVELOPED_WITH_SIGNS)",
+        "name": "Maud – Banff",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.956,
         "elevation_gain": 487.2,
@@ -134311,7 +134311,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: Banff – Elgin (DEVELOPED_WITH_SIGNS)",
+        "name": "Banff – Elgin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.262,
         "elevation_gain": 733.6,
@@ -137441,7 +137441,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Elgin – Inverness (DEVELOPED_WITH_SIGNS)",
+        "name": "Elgin – Inverness",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.073,
         "elevation_gain": 662.3,
@@ -140136,7 +140136,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Inverness – Kingussie (DEVELOPED_WITH_SIGNS)",
+        "name": "Inverness – Kingussie",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 75.736,
         "elevation_gain": 921.1,
@@ -144041,7 +144041,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Kingussie – Pitlochry (DEVELOPED_WITH_SIGNS)",
+        "name": "Kingussie – Pitlochry",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.158,
         "elevation_gain": 579.2,
@@ -146876,7 +146876,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Pitlochry – Killin (DEVELOPED_WITH_SIGNS)",
+        "name": "Pitlochry – Killin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.459,
         "elevation_gain": 943.7,
@@ -149561,7 +149561,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Killin – Callander (DEVELOPED_WITH_SIGNS)",
+        "name": "Killin – Callander",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.167,
         "elevation_gain": 521.4,
@@ -151906,7 +151906,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Callander – Balloch (DEVELOPED_WITH_SIGNS)",
+        "name": "Callander – Balloch",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.307,
         "elevation_gain": 964.1,
@@ -155136,7 +155136,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Balloch – Glasgow (DEVELOPED_WITH_SIGNS)",
+        "name": "Balloch – Glasgow",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.698,
         "elevation_gain": 174.3,
@@ -157386,7 +157386,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Glasgow – Kilwinning (DEVELOPED_WITH_SIGNS)",
+        "name": "Glasgow – Kilwinning",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.576,
         "elevation_gain": 431.9,
@@ -160526,7 +160526,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Kilwinning – Maybole (DEVELOPED_WITH_SIGNS)",
+        "name": "Kilwinning – Maybole",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.84,
         "elevation_gain": 537.7,
@@ -164176,7 +164176,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: Maybole – Newton Stewart (DEVELOPED_WITH_SIGNS)",
+        "name": "Maybole – Newton Stewart",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.137,
         "elevation_gain": 881.4,
@@ -167281,7 +167281,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Newton Stewart – Cairnryan (DEVELOPED_WITH_SIGNS)",
+        "name": "Newton Stewart – Cairnryan",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 73.324,
         "elevation_gain": 582.0,
@@ -170161,7 +170161,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Belfast – Craigavon (DEVELOPED)",
+        "name": "Belfast – Craigavon",
         "description": "DEVELOPED",
         "distance_km": 65.952,
         "elevation_gain": 212.1,
@@ -170701,7 +170701,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Craigavon – Cookstown (DEVELOPED)",
+        "name": "Craigavon – Cookstown",
         "description": "DEVELOPED",
         "distance_km": 43.999,
         "elevation_gain": 403.7,
@@ -173891,7 +173891,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Cookstown – Lifford (DEVELOPED_WITH_SIGNS)",
+        "name": "Cookstown – Lifford",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.825,
         "elevation_gain": 630.6,
@@ -174311,7 +174311,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Lifford – Bridgend (DEVELOPED)",
+        "name": "Lifford – Bridgend",
         "description": "DEVELOPED",
         "distance_km": 39.244,
         "elevation_gain": 409.3,
@@ -175886,7 +175886,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Bridgend – Letterkenny (DEVELOPED_WITH_SIGNS)",
+        "name": "Bridgend – Letterkenny",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.139,
         "elevation_gain": 675.4,
@@ -178651,7 +178651,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Letterkenny – Creeslough (DEVELOPED_WITH_SIGNS)",
+        "name": "Letterkenny – Creeslough",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.411,
         "elevation_gain": 745.4,
@@ -181931,7 +181931,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: Creeslough – Dungloe (DEVELOPED_WITH_SIGNS)",
+        "name": "Creeslough – Dungloe",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.796,
         "elevation_gain": 962.9,
@@ -186556,7 +186556,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Dungloe – Donegal (DEVELOPED_WITH_SIGNS)",
+        "name": "Dungloe – Donegal",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.636,
         "elevation_gain": 981.6,
@@ -190121,7 +190121,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Donegal – Bundoran (DEVELOPED_WITH_SIGNS)",
+        "name": "Donegal – Bundoran",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.208,
         "elevation_gain": 466.6,
@@ -193121,7 +193121,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: Bundoran – Sligo (DEVELOPED_WITH_SIGNS)",
+        "name": "Bundoran – Sligo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 74.049,
         "elevation_gain": 632.4,
@@ -196621,7 +196621,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Sligo – Coolaney (DEVELOPED_WITH_SIGNS)",
+        "name": "Sligo – Coolaney",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.174,
         "elevation_gain": 322.7,
@@ -198566,7 +198566,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: Coolaney – Ballina (DEVELOPED_WITH_SIGNS)",
+        "name": "Coolaney – Ballina",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 80.108,
         "elevation_gain": 880.8,
@@ -202571,7 +202571,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Ballina – Ballycastle (DEVELOPED_WITH_SIGNS)",
+        "name": "Ballina – Ballycastle",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.757,
         "elevation_gain": 355.8,
@@ -204576,7 +204576,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Ballycastle – Belmullet (DEVELOPED_WITH_SIGNS)",
+        "name": "Ballycastle – Belmullet",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 72.847,
         "elevation_gain": 882.1,
@@ -207761,7 +207761,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Belmullet – Mulranny (DEVELOPED_WITH_SIGNS)",
+        "name": "Belmullet – Mulranny",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.867,
         "elevation_gain": 433.0,
@@ -210496,7 +210496,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: Mulranny – Leenaun (DEVELOPED_WITH_SIGNS)",
+        "name": "Mulranny – Leenaun",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 73.705,
         "elevation_gain": 943.3,
@@ -215631,7 +215631,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: Leenaun – Cleggan (DEVELOPED_WITH_SIGNS)",
+        "name": "Leenaun – Cleggan",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.211,
         "elevation_gain": 554.5,
@@ -218226,7 +218226,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: Cleggan – Clifden (DEVELOPED_WITH_SIGNS)",
+        "name": "Cleggan – Clifden",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.035,
         "elevation_gain": 425.3,
@@ -220381,7 +220381,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Clifden – Derroe (DEVELOPED_WITH_SIGNS)",
+        "name": "Clifden – Derroe",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.943,
         "elevation_gain": 461.7,
@@ -224031,7 +224031,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Derroe – Galway (DEVELOPED_WITH_SIGNS)",
+        "name": "Derroe – Galway",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.699,
         "elevation_gain": 613.9,
@@ -227716,7 +227716,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Galway – Kinvarra (DEVELOPED_WITH_SIGNS)",
+        "name": "Galway – Kinvarra",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.514,
         "elevation_gain": 221.9,
@@ -229826,7 +229826,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Kinvarra – Fanore (DEVELOPED_WITH_SIGNS)",
+        "name": "Kinvarra – Fanore",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.672,
         "elevation_gain": 605.8,
@@ -233251,7 +233251,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Fanore – Lahinch (DEVELOPED_WITH_SIGNS)",
+        "name": "Fanore – Lahinch",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.14,
         "elevation_gain": 567.8,
@@ -235216,7 +235216,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Lahinch – Kilkee (DEVELOPED_WITH_SIGNS)",
+        "name": "Lahinch – Kilkee",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.178,
         "elevation_gain": 570.2,
@@ -237251,7 +237251,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Kilkee – Kilrush (DEVELOPED_WITH_SIGNS)",
+        "name": "Kilkee – Kilrush",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.68,
         "elevation_gain": 965.8,
@@ -240266,7 +240266,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Kilrush – Clarecastle (DEVELOPED_WITH_SIGNS)",
+        "name": "Kilrush – Clarecastle",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.032,
         "elevation_gain": 609.1,
@@ -243256,7 +243256,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: Clarecastle – Limerick (DEVELOPED_WITH_SIGNS)",
+        "name": "Clarecastle – Limerick",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.752,
         "elevation_gain": 469.2,
@@ -246431,7 +246431,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Limerick – Rathkeale (DEVELOPED_WITH_SIGNS)",
+        "name": "Limerick – Rathkeale",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.284,
         "elevation_gain": 257.6,
@@ -248176,7 +248176,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Rathkeale – Abbeyfeale (DEVELOPED_WITH_SIGNS)",
+        "name": "Rathkeale – Abbeyfeale",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.306,
         "elevation_gain": 255.3,
@@ -249646,7 +249646,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Abbeyfeale – Camp (DEVELOPED_WITH_SIGNS)",
+        "name": "Abbeyfeale – Camp",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.055,
         "elevation_gain": 393.0,
@@ -251981,7 +251981,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Camp – Annascaul (DEVELOPED_WITH_SIGNS)",
+        "name": "Camp – Annascaul",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.153,
         "elevation_gain": 1020.5,
@@ -255246,7 +255246,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Annascaul – Glenbeigh (DEVELOPED_WITH_SIGNS)",
+        "name": "Annascaul – Glenbeigh",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.293,
         "elevation_gain": 445.1,
@@ -257351,7 +257351,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Glenbeigh – Waterville (DEVELOPED_WITH_SIGNS)",
+        "name": "Glenbeigh – Waterville",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 73.504,
         "elevation_gain": 1261.9,
@@ -260686,7 +260686,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Waterville – Kenmare (DEVELOPED_WITH_SIGNS)",
+        "name": "Waterville – Kenmare",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.211,
         "elevation_gain": 1253.1,
@@ -265231,7 +265231,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: Kenmare – Ardgroom (DEVELOPED_WITH_SIGNS)",
+        "name": "Kenmare – Ardgroom",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.485,
         "elevation_gain": 502.8,
@@ -268191,7 +268191,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Ardgroom – Castletownbere (DEVELOPED_WITH_SIGNS)",
+        "name": "Ardgroom – Castletownbere",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.583,
         "elevation_gain": 861.1,
@@ -271746,7 +271746,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Castletownbere – Bantry (DEVELOPED_WITH_SIGNS)",
+        "name": "Castletownbere – Bantry",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.25,
         "elevation_gain": 621.6,
@@ -274931,7 +274931,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Bantry – Dunmanus (DEVELOPED_WITH_SIGNS)",
+        "name": "Bantry – Dunmanus",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.565,
         "elevation_gain": 765.9,
@@ -278321,7 +278321,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Dunmanus – Ballydehob (DEVELOPED_WITH_SIGNS)",
+        "name": "Dunmanus – Ballydehob",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.743,
         "elevation_gain": 880.6,
@@ -282196,7 +282196,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Ballydehob – Rosscarbery (DEVELOPED_WITH_SIGNS)",
+        "name": "Ballydehob – Rosscarbery",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.119,
         "elevation_gain": 1314.9,
@@ -287606,7 +287606,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Rosscarbery – Clonakilty (DEVELOPED_WITH_SIGNS)",
+        "name": "Rosscarbery – Clonakilty",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.574,
         "elevation_gain": 325.6,
@@ -289086,7 +289086,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: Clonakilty – Kinsale (DEVELOPED_WITH_SIGNS)",
+        "name": "Clonakilty – Kinsale",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.09,
         "elevation_gain": 981.4,
@@ -293496,7 +293496,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Kinsale – Cobh (DEVELOPED_WITH_SIGNS)",
+        "name": "Kinsale – Cobh",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.856,
         "elevation_gain": 1045.7,
@@ -297616,7 +297616,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Cobh – Youghal (DEVELOPED_WITH_SIGNS)",
+        "name": "Cobh – Youghal",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.71,
         "elevation_gain": 321.3,
@@ -299571,7 +299571,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Youghal – Dungarvan (DEVELOPED_WITH_SIGNS)",
+        "name": "Youghal – Dungarvan",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.436,
         "elevation_gain": 646.8,
@@ -303071,7 +303071,7 @@
       "type": "Feature",
       "properties": {
         "stage": 112,
-        "name": "112: Dungarvan – Waterford (DEVELOPED_WITH_SIGNS)",
+        "name": "Dungarvan – Waterford",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.847,
         "elevation_gain": 426.0,
@@ -304756,7 +304756,7 @@
       "type": "Feature",
       "properties": {
         "stage": 113,
-        "name": "113: Waterford – Ballyhack (DEVELOPED_WITH_SIGNS)",
+        "name": "Waterford – Ballyhack",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.424,
         "elevation_gain": 496.1,
@@ -307271,7 +307271,7 @@
       "type": "Feature",
       "properties": {
         "stage": 114,
-        "name": "114: Ballyhack – Wellingtonbridge (DEVELOPED_WITH_SIGNS)",
+        "name": "Ballyhack – Wellingtonbridge",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.981,
         "elevation_gain": 590.5,
@@ -310346,7 +310346,7 @@
       "type": "Feature",
       "properties": {
         "stage": 115,
-        "name": "115: Wellingtonbridge – Rosslare Harbour (DEVELOPED_WITH_SIGNS)",
+        "name": "Wellingtonbridge – Rosslare Harbour",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.054,
         "elevation_gain": 279.9,
@@ -313611,7 +313611,7 @@
       "type": "Feature",
       "properties": {
         "stage": 116,
-        "name": "116: Fishguard – Haverfordwest (DEVELOPED_WITH_SIGNS)",
+        "name": "Fishguard – Haverfordwest",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.489,
         "elevation_gain": 997.3,
@@ -316941,7 +316941,7 @@
       "type": "Feature",
       "properties": {
         "stage": 117,
-        "name": "117: Haverfordwest – St. Clears (DEVELOPED_WITH_SIGNS)",
+        "name": "Haverfordwest – St. Clears",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 73.444,
         "elevation_gain": 1143.3,
@@ -321446,7 +321446,7 @@
       "type": "Feature",
       "properties": {
         "stage": 118,
-        "name": "118: St. Clears – Llanelli (DEVELOPED_WITH_SIGNS)",
+        "name": "St. Clears – Llanelli",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.207,
         "elevation_gain": 707.2,
@@ -324616,7 +324616,7 @@
       "type": "Feature",
       "properties": {
         "stage": 119,
-        "name": "119: Llanelli – Tondu (DEVELOPED_WITH_SIGNS)",
+        "name": "Llanelli – Tondu",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.925,
         "elevation_gain": 679.3,
@@ -329756,7 +329756,7 @@
       "type": "Feature",
       "properties": {
         "stage": 120,
-        "name": "120: Tondu – Newport (DEVELOPED_WITH_SIGNS)",
+        "name": "Tondu – Newport",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.335,
         "elevation_gain": 844.6,
@@ -334836,7 +334836,7 @@
       "type": "Feature",
       "properties": {
         "stage": 121,
-        "name": "121: Newport – Bristol (DEVELOPED_WITH_SIGNS)",
+        "name": "Newport – Bristol",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.802,
         "elevation_gain": 491.1,
@@ -338781,7 +338781,7 @@
       "type": "Feature",
       "properties": {
         "stage": 122,
-        "name": "122: Bristol – Wells (DEVELOPED_WITH_SIGNS)",
+        "name": "Bristol – Wells",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.129,
         "elevation_gain": 569.7,
@@ -341131,7 +341131,7 @@
       "type": "Feature",
       "properties": {
         "stage": 123,
-        "name": "123: Wells – Bridgwater (DEVELOPED_WITH_SIGNS)",
+        "name": "Wells – Bridgwater",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.476,
         "elevation_gain": 241.0,
@@ -343251,7 +343251,7 @@
       "type": "Feature",
       "properties": {
         "stage": 124,
-        "name": "124: Bridgwater – Bampton (DEVELOPED_WITH_SIGNS)",
+        "name": "Bridgwater – Bampton",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.19,
         "elevation_gain": 609.5,
@@ -347091,7 +347091,7 @@
       "type": "Feature",
       "properties": {
         "stage": 125,
-        "name": "125: Bampton – Barnstaple (DEVELOPED_WITH_SIGNS)",
+        "name": "Bampton – Barnstaple",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.403,
         "elevation_gain": 1066.8,
@@ -349751,7 +349751,7 @@
       "type": "Feature",
       "properties": {
         "stage": 126,
-        "name": "126: Barnstaple – Okehampton (DEVELOPED_WITH_SIGNS)",
+        "name": "Barnstaple – Okehampton",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.171,
         "elevation_gain": 914.2,
@@ -352986,7 +352986,7 @@
       "type": "Feature",
       "properties": {
         "stage": 127,
-        "name": "127: Roscoff – Morlaix (CERTIFIED)",
+        "name": "Roscoff – Morlaix",
         "description": "CERTIFIED",
         "distance_km": 30.282,
         "elevation_gain": 523.2,
@@ -355541,7 +355541,7 @@
       "type": "Feature",
       "properties": {
         "stage": 128,
-        "name": "128: Morlaix – Carhaix-Plouguer (CERTIFIED)",
+        "name": "Morlaix – Carhaix-Plouguer",
         "description": "CERTIFIED",
         "distance_km": 48.134,
         "elevation_gain": 684.1,
@@ -358351,7 +358351,7 @@
       "type": "Feature",
       "properties": {
         "stage": 129,
-        "name": "129: Carhaix-Plouguer – Rostrenen (CERTIFIED)",
+        "name": "Carhaix-Plouguer – Rostrenen",
         "description": "CERTIFIED",
         "distance_km": 32.791,
         "elevation_gain": 309.7,
@@ -360171,7 +360171,7 @@
       "type": "Feature",
       "properties": {
         "stage": 130,
-        "name": "130: Rostrenen – Mûr-de-Bretagne (CERTIFIED)",
+        "name": "Rostrenen – Mûr-de-Bretagne",
         "description": "CERTIFIED",
         "distance_km": 30.388,
         "elevation_gain": 316.1,
@@ -362096,7 +362096,7 @@
       "type": "Feature",
       "properties": {
         "stage": 131,
-        "name": "131: Mûr-de-Bretagne – Pontivy (CERTIFIED)",
+        "name": "Mûr-de-Bretagne – Pontivy",
         "description": "CERTIFIED",
         "distance_km": 22.996,
         "elevation_gain": 190.4,
@@ -363641,7 +363641,7 @@
       "type": "Feature",
       "properties": {
         "stage": 132,
-        "name": "132: Pontivy – Josselin (CERTIFIED)",
+        "name": "Pontivy – Josselin",
         "description": "CERTIFIED",
         "distance_km": 48.081,
         "elevation_gain": 274.7,
@@ -366081,7 +366081,7 @@
       "type": "Feature",
       "properties": {
         "stage": 133,
-        "name": "133: Josselin – Peillac (CERTIFIED)",
+        "name": "Josselin – Peillac",
         "description": "CERTIFIED",
         "distance_km": 45.856,
         "elevation_gain": 253.9,
@@ -369021,7 +369021,7 @@
       "type": "Feature",
       "properties": {
         "stage": 134,
-        "name": "134: Peillac – Redon (CERTIFIED)",
+        "name": "Peillac – Redon",
         "description": "CERTIFIED",
         "distance_km": 17.302,
         "elevation_gain": 109.8,
@@ -369661,7 +369661,7 @@
       "type": "Feature",
       "properties": {
         "stage": 135,
-        "name": "135: Redon – Blain (CERTIFIED)",
+        "name": "Redon – Blain",
         "description": "CERTIFIED",
         "distance_km": 44.789,
         "elevation_gain": 211.7,
@@ -372136,7 +372136,7 @@
       "type": "Feature",
       "properties": {
         "stage": 136,
-        "name": "136: Blain – Nort-sur-Erdre (CERTIFIED)",
+        "name": "Blain – Nort-sur-Erdre",
         "description": "CERTIFIED",
         "distance_km": 23.544,
         "elevation_gain": 73.1,
@@ -373456,7 +373456,7 @@
       "type": "Feature",
       "properties": {
         "stage": 137,
-        "name": "137: Nort-sur-Erdre – Nantes (CERTIFIED)",
+        "name": "Nort-sur-Erdre – Nantes",
         "description": "CERTIFIED",
         "distance_km": 34.743,
         "elevation_gain": 304.3,
@@ -376546,7 +376546,7 @@
       "type": "Feature",
       "properties": {
         "stage": 138,
-        "name": "138: Okehampton – Plymouth (DEVELOPED_WITH_SIGNS)",
+        "name": "Okehampton – Plymouth",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.667,
         "elevation_gain": 1117.9,
@@ -381296,7 +381296,7 @@
       "type": "Feature",
       "properties": {
         "stage": 139,
-        "name": "139: Nantes – Le Pellerin (CERTIFIED)",
+        "name": "Nantes – Le Pellerin",
         "description": "CERTIFIED",
         "distance_km": 23.92,
         "elevation_gain": 193.4,
@@ -382766,7 +382766,7 @@
       "type": "Feature",
       "properties": {
         "stage": 140,
-        "name": "140: Le Pellerin – Saint-Brevin-les-Pins (CERTIFIED)",
+        "name": "Le Pellerin – Saint-Brevin-les-Pins",
         "description": "CERTIFIED",
         "distance_km": 37.295,
         "elevation_gain": 118.2,
@@ -384726,7 +384726,7 @@
       "type": "Feature",
       "properties": {
         "stage": 141,
-        "name": "141: Saint-Brevin-les-Pins – Pornic (CERTIFIED)",
+        "name": "Saint-Brevin-les-Pins – Pornic",
         "description": "CERTIFIED",
         "distance_km": 39.843,
         "elevation_gain": 331.1,
@@ -387256,7 +387256,7 @@
       "type": "Feature",
       "properties": {
         "stage": 142,
-        "name": "142: Pornic – Bouin (CERTIFIED)",
+        "name": "Pornic – Bouin",
         "description": "CERTIFIED",
         "distance_km": 33.805,
         "elevation_gain": 167.8,
@@ -389981,7 +389981,7 @@
       "type": "Feature",
       "properties": {
         "stage": 143,
-        "name": "143: Bouin – La Barre-de-Monts-Fromentine (CERTIFIED)",
+        "name": "Bouin – La Barre-de-Monts-Fromentine",
         "description": "CERTIFIED",
         "distance_km": 34.21,
         "elevation_gain": 113.4,
@@ -392841,7 +392841,7 @@
       "type": "Feature",
       "properties": {
         "stage": 144,
-        "name": "144: La Barre-de-Monts-Fromentine – Saint-Gilles-Croix-de-Vie (CERTIFIED)",
+        "name": "La Barre-de-Monts-Fromentine – Saint-Gilles-Croix-de-Vie",
         "description": "CERTIFIED",
         "distance_km": 35.708,
         "elevation_gain": 235.0,
@@ -395871,7 +395871,7 @@
       "type": "Feature",
       "properties": {
         "stage": 145,
-        "name": "145: Saint-Gilles-Croix-de-Vie – Les Sables-d'Olonne (CERTIFIED)",
+        "name": "Saint-Gilles-Croix-de-Vie – Les Sables-d'Olonne",
         "description": "CERTIFIED",
         "distance_km": 37.145,
         "elevation_gain": 283.7,
@@ -399911,7 +399911,7 @@
       "type": "Feature",
       "properties": {
         "stage": 146,
-        "name": "146: Les Sables-d'Olonne – La Tranche-sur-Mer (CERTIFIED)",
+        "name": "Les Sables-d'Olonne – La Tranche-sur-Mer",
         "description": "CERTIFIED",
         "distance_km": 44.014,
         "elevation_gain": 285.6,
@@ -403516,7 +403516,7 @@
       "type": "Feature",
       "properties": {
         "stage": 147,
-        "name": "147: La Tranche-sur-Mer – Marans (CERTIFIED)",
+        "name": "La Tranche-sur-Mer – Marans",
         "description": "CERTIFIED",
         "distance_km": 46.223,
         "elevation_gain": 86.8,
@@ -405171,7 +405171,7 @@
       "type": "Feature",
       "properties": {
         "stage": 148,
-        "name": "148: Marans – La Rochelle (CERTIFIED)",
+        "name": "Marans – La Rochelle",
         "description": "CERTIFIED",
         "distance_km": 25.673,
         "elevation_gain": 68.6,
@@ -406251,7 +406251,7 @@
       "type": "Feature",
       "properties": {
         "stage": 149,
-        "name": "149: La Rochelle – Rochefort (CERTIFIED)",
+        "name": "La Rochelle – Rochefort",
         "description": "CERTIFIED",
         "distance_km": 50.342,
         "elevation_gain": 221.2,
@@ -409621,7 +409621,7 @@
       "type": "Feature",
       "properties": {
         "stage": 150,
-        "name": "150: Rochefort – Marennes (CERTIFIED)",
+        "name": "Rochefort – Marennes",
         "description": "CERTIFIED",
         "distance_km": 37.702,
         "elevation_gain": 150.7,
@@ -411856,7 +411856,7 @@
       "type": "Feature",
       "properties": {
         "stage": 151,
-        "name": "151: Marennes – Royan (CERTIFIED)",
+        "name": "Marennes – Royan",
         "description": "CERTIFIED",
         "distance_km": 45.321,
         "elevation_gain": 285.4,
@@ -415021,7 +415021,7 @@
       "type": "Feature",
       "properties": {
         "stage": 152,
-        "name": "152: Le Verdon-sur-Mer – Montalivet les Bains (CERTIFIED)",
+        "name": "Le Verdon-sur-Mer – Montalivet les Bains",
         "description": "CERTIFIED",
         "distance_km": 29.993,
         "elevation_gain": 129.4,
@@ -416576,7 +416576,7 @@
       "type": "Feature",
       "properties": {
         "stage": 153,
-        "name": "153: Montalivet les Bains – Hourtin Plage (CERTIFIED)",
+        "name": "Montalivet les Bains – Hourtin Plage",
         "description": "CERTIFIED",
         "distance_km": 20.024,
         "elevation_gain": 63.1,
@@ -417516,7 +417516,7 @@
       "type": "Feature",
       "properties": {
         "stage": 154,
-        "name": "154: Hourtin Plage – Lacanau (CERTIFIED)",
+        "name": "Hourtin Plage – Lacanau",
         "description": "CERTIFIED",
         "distance_km": 33.771,
         "elevation_gain": 417.6,
@@ -419976,7 +419976,7 @@
       "type": "Feature",
       "properties": {
         "stage": 155,
-        "name": "155: Lacanau – Lège-Cap-Ferret (CERTIFIED)",
+        "name": "Lacanau – Lège-Cap-Ferret",
         "description": "CERTIFIED",
         "distance_km": 36.78,
         "elevation_gain": 241.0,
@@ -422666,7 +422666,7 @@
       "type": "Feature",
       "properties": {
         "stage": 156,
-        "name": "156: Lège-Cap-Ferret – Arcachon (CERTIFIED)",
+        "name": "Lège-Cap-Ferret – Arcachon",
         "description": "CERTIFIED",
         "distance_km": 41.997,
         "elevation_gain": 201.7,
@@ -425041,7 +425041,7 @@
       "type": "Feature",
       "properties": {
         "stage": 157,
-        "name": "157: Arcachon – Biscarosse Plage (CERTIFIED)",
+        "name": "Arcachon – Biscarosse Plage",
         "description": "CERTIFIED",
         "distance_km": 25.781,
         "elevation_gain": 246.5,
@@ -426941,7 +426941,7 @@
       "type": "Feature",
       "properties": {
         "stage": 158,
-        "name": "158: Biscarosse Plage – Parentis-en-Born (CERTIFIED)",
+        "name": "Biscarosse Plage – Parentis-en-Born",
         "description": "CERTIFIED",
         "distance_km": 25.497,
         "elevation_gain": 281.3,
@@ -429106,7 +429106,7 @@
       "type": "Feature",
       "properties": {
         "stage": 159,
-        "name": "159: Parentis-en-Born – Mimizan Plage (CERTIFIED)",
+        "name": "Parentis-en-Born – Mimizan Plage",
         "description": "CERTIFIED",
         "distance_km": 31.059,
         "elevation_gain": 281.7,
@@ -431411,7 +431411,7 @@
       "type": "Feature",
       "properties": {
         "stage": 160,
-        "name": "160: Mimizan Plage – Léon (CERTIFIED)",
+        "name": "Mimizan Plage – Léon",
         "description": "CERTIFIED",
         "distance_km": 47.031,
         "elevation_gain": 387.9,
@@ -434546,7 +434546,7 @@
       "type": "Feature",
       "properties": {
         "stage": 161,
-        "name": "161: Léon – Capbreton (CERTIFIED)",
+        "name": "Léon – Capbreton",
         "description": "CERTIFIED",
         "distance_km": 33.097,
         "elevation_gain": 310.3,
@@ -437101,7 +437101,7 @@
       "type": "Feature",
       "properties": {
         "stage": 162,
-        "name": "162: Capbreton – Bayonne (CERTIFIED)",
+        "name": "Capbreton – Bayonne",
         "description": "CERTIFIED",
         "distance_km": 28.923,
         "elevation_gain": 180.2,
@@ -439326,7 +439326,7 @@
       "type": "Feature",
       "properties": {
         "stage": 163,
-        "name": "163: Bayonne – Biarritz (CERTIFIED)",
+        "name": "Bayonne – Biarritz",
         "description": "CERTIFIED",
         "distance_km": 16.221,
         "elevation_gain": 271.7,
@@ -440746,7 +440746,7 @@
       "type": "Feature",
       "properties": {
         "stage": 164,
-        "name": "164: Biarritz – Saint-Jean-de-Luz (CERTIFIED)",
+        "name": "Biarritz – Saint-Jean-de-Luz",
         "description": "CERTIFIED",
         "distance_km": 14.198,
         "elevation_gain": 278.5,
@@ -442086,7 +442086,7 @@
       "type": "Feature",
       "properties": {
         "stage": 165,
-        "name": "165: Saint-Jean-de-Luz – Hendaye (CERTIFIED)",
+        "name": "Saint-Jean-de-Luz – Hendaye",
         "description": "CERTIFIED",
         "distance_km": 20.732,
         "elevation_gain": 283.2,
@@ -443891,7 +443891,7 @@
       "type": "Feature",
       "properties": {
         "stage": 166,
-        "name": "166: Hendaye – Santesteban (DEVELOPED_WITH_SIGNS)",
+        "name": "Hendaye – Santesteban",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.84,
         "elevation_gain": 1133.5,
@@ -446656,7 +446656,7 @@
       "type": "Feature",
       "properties": {
         "stage": 167,
-        "name": "167: Santesteban – Sarasate (DEVELOPED_WITH_SIGNS)",
+        "name": "Santesteban – Sarasate",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.152,
         "elevation_gain": 2372.9,
@@ -452446,7 +452446,7 @@
       "type": "Feature",
       "properties": {
         "stage": 168,
-        "name": "168: Sarasate – Pamplona (DEVELOPED_WITH_SIGNS)",
+        "name": "Sarasate – Pamplona",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.29,
         "elevation_gain": 268.7,
@@ -453201,7 +453201,7 @@
       "type": "Feature",
       "properties": {
         "stage": 169,
-        "name": "169: Pamplona – Estella-Lizarra (DEVELOPED_WITH_SIGNS)",
+        "name": "Pamplona – Estella-Lizarra",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.838,
         "elevation_gain": 1116.7,
@@ -457806,7 +457806,7 @@
       "type": "Feature",
       "properties": {
         "stage": 170,
-        "name": "170: Estella-Lizarra – Logroño (DEVELOPED_WITH_SIGNS)",
+        "name": "Estella-Lizarra – Logroño",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.477,
         "elevation_gain": 861.3,
@@ -461421,7 +461421,7 @@
       "type": "Feature",
       "properties": {
         "stage": 171,
-        "name": "171: Logroño – Nájera (DEVELOPED)",
+        "name": "Logroño – Nájera",
         "description": "DEVELOPED",
         "distance_km": 33.318,
         "elevation_gain": 509.7,
@@ -464191,7 +464191,7 @@
       "type": "Feature",
       "properties": {
         "stage": 172,
-        "name": "172: Nájera – Santo Domingo de la Calzada (DEVELOPED)",
+        "name": "Nájera – Santo Domingo de la Calzada",
         "description": "DEVELOPED",
         "distance_km": 44.059,
         "elevation_gain": 708.7,
@@ -466406,7 +466406,7 @@
       "type": "Feature",
       "properties": {
         "stage": 173,
-        "name": "173: Santo Domingo de la Calzada – Belorado (DEVELOPED)",
+        "name": "Santo Domingo de la Calzada – Belorado",
         "description": "DEVELOPED",
         "distance_km": 25.498,
         "elevation_gain": 438.8,
@@ -467836,7 +467836,7 @@
       "type": "Feature",
       "properties": {
         "stage": 174,
-        "name": "174: Belorado – Burgos (DEVELOPED_WITH_SIGNS)",
+        "name": "Belorado – Burgos",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.987,
         "elevation_gain": 752.3,
@@ -471286,7 +471286,7 @@
       "type": "Feature",
       "properties": {
         "stage": 175,
-        "name": "175: Burgos – Castrojeriz (DEVELOPED_WITH_SIGNS)",
+        "name": "Burgos – Castrojeriz",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.602,
         "elevation_gain": 485.2,
@@ -474271,7 +474271,7 @@
       "type": "Feature",
       "properties": {
         "stage": 176,
-        "name": "176: Castrojeriz – Frómista (DEVELOPED_WITH_SIGNS)",
+        "name": "Castrojeriz – Frómista",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.603,
         "elevation_gain": 160.9,
@@ -475306,7 +475306,7 @@
       "type": "Feature",
       "properties": {
         "stage": 177,
-        "name": "177: Frómista – Palencia (DEVELOPED_WITH_SIGNS)",
+        "name": "Frómista – Palencia",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.537,
         "elevation_gain": 152.1,
@@ -477091,7 +477091,7 @@
       "type": "Feature",
       "properties": {
         "stage": 178,
-        "name": "178: Palencia – Valladolid (DEVELOPED_WITH_SIGNS)",
+        "name": "Palencia – Valladolid",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.899,
         "elevation_gain": 208.7,
@@ -478781,7 +478781,7 @@
       "type": "Feature",
       "properties": {
         "stage": 179,
-        "name": "179: Valladolid – Tordesillas (DEVELOPED_WITH_SIGNS)",
+        "name": "Valladolid – Tordesillas",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.168,
         "elevation_gain": 261.7,
@@ -481261,7 +481261,7 @@
       "type": "Feature",
       "properties": {
         "stage": 180,
-        "name": "180: Tordesillas – Toro (DEVELOPED_WITH_SIGNS)",
+        "name": "Tordesillas – Toro",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.139,
         "elevation_gain": 376.1,
@@ -483786,7 +483786,7 @@
       "type": "Feature",
       "properties": {
         "stage": 181,
-        "name": "181: Toro – Zamora (DEVELOPED_WITH_SIGNS)",
+        "name": "Toro – Zamora",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.63,
         "elevation_gain": 328.8,
@@ -485646,7 +485646,7 @@
       "type": "Feature",
       "properties": {
         "stage": 182,
-        "name": "182: Zamora – Salamanca (DEVELOPED_WITH_SIGNS)",
+        "name": "Zamora – Salamanca",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 68.104,
         "elevation_gain": 633.5,
@@ -489126,7 +489126,7 @@
       "type": "Feature",
       "properties": {
         "stage": 183,
-        "name": "183: Salamanca – Fuenterroble de Salvatierra (DEVELOPED_WITH_SIGNS)",
+        "name": "Salamanca – Fuenterroble de Salvatierra",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.935,
         "elevation_gain": 790.9,
@@ -491596,7 +491596,7 @@
       "type": "Feature",
       "properties": {
         "stage": 184,
-        "name": "184: Fuenterroble de Salvatierra – Baños de Montemayor (DEVELOPED_WITH_SIGNS)",
+        "name": "Fuenterroble de Salvatierra – Baños de Montemayor",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.486,
         "elevation_gain": 528.0,
@@ -493616,7 +493616,7 @@
       "type": "Feature",
       "properties": {
         "stage": 185,
-        "name": "185: Baños de Montemayor – Galisteo (DEVELOPED_WITH_SIGNS)",
+        "name": "Baños de Montemayor – Galisteo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 79.328,
         "elevation_gain": 668.1,
@@ -496096,7 +496096,7 @@
       "type": "Feature",
       "properties": {
         "stage": 186,
-        "name": "186: Galisteo – Caceres (DEVELOPED_WITH_SIGNS)",
+        "name": "Galisteo – Caceres",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 76.744,
         "elevation_gain": 990.2,
@@ -497831,7 +497831,7 @@
       "type": "Feature",
       "properties": {
         "stage": 187,
-        "name": "187: Caceres – Merida (DEVELOPED_WITH_SIGNS)",
+        "name": "Caceres – Merida",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.253,
         "elevation_gain": 509.1,
@@ -500606,7 +500606,7 @@
       "type": "Feature",
       "properties": {
         "stage": 188,
-        "name": "188: Merida – Zafra (DEVELOPED_WITH_SIGNS)",
+        "name": "Merida – Zafra",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.025,
         "elevation_gain": 598.9,
@@ -502806,7 +502806,7 @@
       "type": "Feature",
       "properties": {
         "stage": 189,
-        "name": "189: Zafra – El Real de la Jara (DEVELOPED_WITH_SIGNS)",
+        "name": "Zafra – El Real de la Jara",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.586,
         "elevation_gain": 759.0,
@@ -506096,7 +506096,7 @@
       "type": "Feature",
       "properties": {
         "stage": 190,
-        "name": "190: El Real de la Jara – Puerto Moral (DEVELOPED_WITH_SIGNS)",
+        "name": "El Real de la Jara – Puerto Moral",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.604,
         "elevation_gain": 1137.4,
@@ -509961,7 +509961,7 @@
       "type": "Feature",
       "properties": {
         "stage": 191,
-        "name": "191: Puerto Moral – Nerva (DEVELOPED_WITH_SIGNS)",
+        "name": "Puerto Moral – Nerva",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.953,
         "elevation_gain": 997.7,
@@ -513281,7 +513281,7 @@
       "type": "Feature",
       "properties": {
         "stage": 192,
-        "name": "192: Valverde del Camino – San Juan del Puerto (DEVELOPED)",
+        "name": "Valverde del Camino – San Juan del Puerto",
         "description": "DEVELOPED",
         "distance_km": 33.762,
         "elevation_gain": 157.5,
@@ -514791,7 +514791,7 @@
       "type": "Feature",
       "properties": {
         "stage": 193,
-        "name": "193: San Juan del Puerto – Gibraleón (DEVELOPED)",
+        "name": "San Juan del Puerto – Gibraleón",
         "description": "DEVELOPED",
         "distance_km": 44.057,
         "elevation_gain": 186.6,
@@ -516601,7 +516601,7 @@
       "type": "Feature",
       "properties": {
         "stage": 194,
-        "name": "194: Gibraleón – Ayamonte (DEVELOPED)",
+        "name": "Gibraleón – Ayamonte",
         "description": "DEVELOPED",
         "distance_km": 49.515,
         "elevation_gain": 300.0,
@@ -518266,7 +518266,7 @@
       "type": "Feature",
       "properties": {
         "stage": 195,
-        "name": "195: Vila Real de Santo António – Faro (DEVELOPED)",
+        "name": "Vila Real de Santo António – Faro",
         "description": "DEVELOPED",
         "distance_km": 68.17,
         "elevation_gain": 433.1,
@@ -521931,7 +521931,7 @@
       "type": "Feature",
       "properties": {
         "stage": 196,
-        "name": "196: Faro – Albufeira (DEVELOPED)",
+        "name": "Faro – Albufeira",
         "description": "DEVELOPED",
         "distance_km": 43.368,
         "elevation_gain": 412.0,
@@ -525591,7 +525591,7 @@
       "type": "Feature",
       "properties": {
         "stage": 197,
-        "name": "197: Portimão – Lagos (DEVELOPED)",
+        "name": "Portimão – Lagos",
         "description": "DEVELOPED",
         "distance_km": 24.831,
         "elevation_gain": 201.4,
@@ -527366,7 +527366,7 @@
       "type": "Feature",
       "properties": {
         "stage": 198,
-        "name": "198: Lagos – Sagres (DEVELOPED)",
+        "name": "Lagos – Sagres",
         "description": "DEVELOPED",
         "distance_km": 40.107,
         "elevation_gain": 642.4,
@@ -530126,7 +530126,7 @@
       "type": "Feature",
       "properties": {
         "stage": 199,
-        "name": "199: Sagres – Carrapateira (DEVELOPED_WITH_SIGNS)",
+        "name": "Sagres – Carrapateira",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.585,
         "elevation_gain": 687.3,
@@ -532341,7 +532341,7 @@
       "type": "Feature",
       "properties": {
         "stage": 200,
-        "name": "200: Carrapateira – Aljezur (DEVELOPED_WITH_SIGNS)",
+        "name": "Carrapateira – Aljezur",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.454,
         "elevation_gain": 368.6,
@@ -534171,7 +534171,7 @@
       "type": "Feature",
       "properties": {
         "stage": 201,
-        "name": "201: Aljezur – Odeceixe (DEVELOPED_WITH_SIGNS)",
+        "name": "Aljezur – Odeceixe",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.327,
         "elevation_gain": 321.0,
@@ -535866,7 +535866,7 @@
       "type": "Feature",
       "properties": {
         "stage": 202,
-        "name": "202: Odeceixe – Vila Nova de Milfontes (DEVELOPED)",
+        "name": "Odeceixe – Vila Nova de Milfontes",
         "description": "DEVELOPED",
         "distance_km": 52.719,
         "elevation_gain": 692.0,
@@ -538741,7 +538741,7 @@
       "type": "Feature",
       "properties": {
         "stage": 203,
-        "name": "203: Vila Nova de Milfontes – Sines (DEVELOPED)",
+        "name": "Vila Nova de Milfontes – Sines",
         "description": "DEVELOPED",
         "distance_km": 33.056,
         "elevation_gain": 291.3,
@@ -540651,7 +540651,7 @@
       "type": "Feature",
       "properties": {
         "stage": 204,
-        "name": "204: Sines – Melides (DEVELOPED)",
+        "name": "Sines – Melides",
         "description": "DEVELOPED",
         "distance_km": 36.946,
         "elevation_gain": 319.6,
@@ -542901,7 +542901,7 @@
       "type": "Feature",
       "properties": {
         "stage": 205,
-        "name": "205: Melides – Tróia (DEVELOPED)",
+        "name": "Melides – Tróia",
         "description": "DEVELOPED",
         "distance_km": 41.359,
         "elevation_gain": 137.9,
@@ -543486,7 +543486,7 @@
       "type": "Feature",
       "properties": {
         "stage": 206,
-        "name": "206: Setubal – Cabo Espichel (DEVELOPED)",
+        "name": "Setubal – Cabo Espichel",
         "description": "DEVELOPED",
         "distance_km": 38.817,
         "elevation_gain": 892.7,
@@ -546196,7 +546196,7 @@
       "type": "Feature",
       "properties": {
         "stage": 207,
-        "name": "207: Cabo Espichel – Almada (DEVELOPED)",
+        "name": "Cabo Espichel – Almada",
         "description": "DEVELOPED",
         "distance_km": 39.022,
         "elevation_gain": 389.0,
@@ -548226,7 +548226,7 @@
       "type": "Feature",
       "properties": {
         "stage": 208,
-        "name": "208: Azenhas do Mar – Santacruz (DEVELOPED)",
+        "name": "Azenhas do Mar – Santacruz",
         "description": "DEVELOPED",
         "distance_km": 55.505,
         "elevation_gain": 1147.6,
@@ -552116,7 +552116,7 @@
       "type": "Feature",
       "properties": {
         "stage": 209,
-        "name": "209: Santacruz – Peniche (DEVELOPED)",
+        "name": "Santacruz – Peniche",
         "description": "DEVELOPED",
         "distance_km": 49.889,
         "elevation_gain": 815.8,
@@ -556531,7 +556531,7 @@
       "type": "Feature",
       "properties": {
         "stage": 210,
-        "name": "210: Peniche – Foz Do Arelho (DEVELOPED)",
+        "name": "Peniche – Foz Do Arelho",
         "description": "DEVELOPED",
         "distance_km": 52.326,
         "elevation_gain": 662.9,
@@ -559971,7 +559971,7 @@
       "type": "Feature",
       "properties": {
         "stage": 211,
-        "name": "211: Nazare – Praia da Vieira (DEVELOPED)",
+        "name": "Nazare – Praia da Vieira",
         "description": "DEVELOPED",
         "distance_km": 38.714,
         "elevation_gain": 298.7,
@@ -561591,7 +561591,7 @@
       "type": "Feature",
       "properties": {
         "stage": 212,
-        "name": "212: Praia da Vieira – Marinha das Ondas (DEVELOPED_WITH_SIGNS)",
+        "name": "Praia da Vieira – Marinha das Ondas",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.304,
         "elevation_gain": 235.5,
@@ -562726,7 +562726,7 @@
       "type": "Feature",
       "properties": {
         "stage": 213,
-        "name": "213: Marinha das Ondas – Figueira da Foz (DEVELOPED_WITH_SIGNS)",
+        "name": "Marinha das Ondas – Figueira da Foz",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.298,
         "elevation_gain": 276.7,
@@ -565051,7 +565051,7 @@
       "type": "Feature",
       "properties": {
         "stage": 214,
-        "name": "214: Figueira da Foz – Praia de Mira (DEVELOPED_WITH_SIGNS)",
+        "name": "Figueira da Foz – Praia de Mira",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.327,
         "elevation_gain": 382.6,
@@ -566716,7 +566716,7 @@
       "type": "Feature",
       "properties": {
         "stage": 215,
-        "name": "215: Praia de Mira – Aveiro (DEVELOPED)",
+        "name": "Praia de Mira – Aveiro",
         "description": "DEVELOPED",
         "distance_km": 26.587,
         "elevation_gain": 56.3,
@@ -567936,7 +567936,7 @@
       "type": "Feature",
       "properties": {
         "stage": 216,
-        "name": "216: Aveiro – Ovar (DEVELOPED)",
+        "name": "Aveiro – Ovar",
         "description": "DEVELOPED",
         "distance_km": 39.451,
         "elevation_gain": 156.4,
@@ -570141,7 +570141,7 @@
       "type": "Feature",
       "properties": {
         "stage": 217,
-        "name": "217: Ovar – Porto / Gaia (DEVELOPED)",
+        "name": "Ovar – Porto / Gaia",
         "description": "DEVELOPED",
         "distance_km": 44.013,
         "elevation_gain": 342.6,
@@ -572891,7 +572891,7 @@
       "type": "Feature",
       "properties": {
         "stage": 218,
-        "name": "218: Porto / Gaia – Vila do Conde (DEVELOPED)",
+        "name": "Porto / Gaia – Vila do Conde",
         "description": "DEVELOPED",
         "distance_km": 35.167,
         "elevation_gain": 310.4,
@@ -575311,7 +575311,7 @@
       "type": "Feature",
       "properties": {
         "stage": 219,
-        "name": "219: Vila do Conde – Esposende (DEVELOPED)",
+        "name": "Vila do Conde – Esposende",
         "description": "DEVELOPED",
         "distance_km": 29.089,
         "elevation_gain": 157.6,
@@ -577126,7 +577126,7 @@
       "type": "Feature",
       "properties": {
         "stage": 220,
-        "name": "220: Esposende – Caminha (DEVELOPED)",
+        "name": "Esposende – Caminha",
         "description": "DEVELOPED",
         "distance_km": 50.802,
         "elevation_gain": 418.4,
@@ -581316,7 +581316,7 @@
       "type": "Feature",
       "properties": {
         "stage": 221,
-        "name": "221: Caminha – Valenca (DEVELOPED)",
+        "name": "Caminha – Valenca",
         "description": "DEVELOPED",
         "distance_km": 28.957,
         "elevation_gain": 280.5,

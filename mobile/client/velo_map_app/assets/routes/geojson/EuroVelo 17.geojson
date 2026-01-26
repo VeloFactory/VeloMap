@@ -19,32 +19,32 @@
       "Geneva",
       "Saint-Gingolph",
       "Thonon",
-      "Chens-sur-Léman",
+      "Chens-sur-Leman",
       "Valleiry",
       "Clarafond-Arcine",
       "Ruffieux",
       "Belley",
-      "Groslée",
+      "Groslee",
       "La Balme-les-Grottes",
       "Jons",
       "Lyon",
       "Givors",
       "Sablons",
-      "Tournon-sur-Rhône",
+      "Tournon-sur-Rhone",
       "Valence",
       "Le Pouzin",
-      "Châteauneuf-du-Rhône",
+      "Chateauneuf-du-Rhone",
       "Pont-Saint-Esprit",
       "Caderousse",
       "Avignon",
       "Tarascon",
       "Arles",
-      "Port-Saint-Louis-du-Rhône",
+      "Port-Saint-Louis-du-Rhone",
       "Beaucaire",
       "Saint-Gilles",
       "Aigues-Mortes",
       "Palavas-les-Flots",
-      "Sète"
+      "Sete"
     ]
   },
   "features": [
@@ -52,7 +52,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "01: Andermatt – Oberwald (DEVELOPED_WITH_SIGNS)",
+        "name": "Andermatt – Oberwald",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.045,
         "elevation_gain": 1705.1,
@@ -3307,7 +3307,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "02: Oberwald – Brig (DEVELOPED_WITH_SIGNS)",
+        "name": "Oberwald – Brig",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.853,
         "elevation_gain": 1531.9,
@@ -8502,7 +8502,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "03: Brig – Sierre (DEVELOPED_WITH_SIGNS)",
+        "name": "Brig – Sierre",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.493,
         "elevation_gain": 343.9,
@@ -10617,7 +10617,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "04: Sierre – Martigny (DEVELOPED_WITH_SIGNS)",
+        "name": "Sierre – Martigny",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.33,
         "elevation_gain": 155.0,
@@ -12192,7 +12192,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "05: Martigny – Le Bouveret (DEVELOPED_WITH_SIGNS)",
+        "name": "Martigny – Le Bouveret",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.942,
         "elevation_gain": 157.5,
@@ -12957,7 +12957,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "06: Le Bouveret – Morges (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Bouveret – Morges",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.823,
         "elevation_gain": 798.1,
@@ -14597,7 +14597,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "07: Morges – Geneva (DEVELOPED_WITH_SIGNS)",
+        "name": "Morges – Geneva",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.971,
         "elevation_gain": 525.8,
@@ -18192,7 +18192,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "08: Le Bouveret – Saint-Gingolph (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Bouveret – Saint-Gingolph",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 6.181,
         "elevation_gain": 75.7,
@@ -18522,7 +18522,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "09: Saint-Gingolph – Thonon (UNDER_DEVELOPMENT)",
+        "name": "Saint-Gingolph – Thonon",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.052,
         "elevation_gain": 512.4,
@@ -19832,7 +19832,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "10: Thonon – Chens-sur-Léman (DEVELOPED_WITH_SIGNS)",
+        "name": "Thonon – Chens-sur-Léman",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.188,
         "elevation_gain": 259.5,
@@ -21272,7 +21272,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "11: Chens-sur-Léman – Geneva (DEVELOPED_WITH_SIGNS)",
+        "name": "Chens-sur-Léman – Geneva",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.064,
         "elevation_gain": 133.0,
@@ -22292,7 +22292,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "12: Geneva – Valleiry (DEVELOPED_WITH_SIGNS)",
+        "name": "Geneva – Valleiry",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.487,
         "elevation_gain": 488.0,
@@ -23627,7 +23627,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "13: Valleiry – Clarafond-Arcine (DEVELOPED_WITH_SIGNS)",
+        "name": "Valleiry – Clarafond-Arcine",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.934,
         "elevation_gain": 419.6,
@@ -24552,7 +24552,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "14: Clarafond-Arcine – Ruffieux (UNDER_DEVELOPMENT)",
+        "name": "Clarafond-Arcine – Ruffieux",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 33.728,
         "elevation_gain": 340.1,
@@ -26207,7 +26207,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "15: Ruffieux – Belley (DEVELOPED_WITH_SIGNS)",
+        "name": "Ruffieux – Belley",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.584,
         "elevation_gain": 253.1,
@@ -27487,7 +27487,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "16: Belley – Groslée (DEVELOPED_WITH_SIGNS)",
+        "name": "Belley – Groslée",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.585,
         "elevation_gain": 281.5,
@@ -29817,7 +29817,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "17: Groslée – La Balme-les-Grottes (DEVELOPED_WITH_SIGNS)",
+        "name": "Groslée – La Balme-les-Grottes",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.952,
         "elevation_gain": 328.2,
@@ -32607,7 +32607,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "18: La Balme-les-Grottes – Jons (DEVELOPED_WITH_SIGNS)",
+        "name": "La Balme-les-Grottes – Jons",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.323,
         "elevation_gain": 298.2,
@@ -34507,7 +34507,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "19: Jons – Lyon (DEVELOPED_WITH_SIGNS)",
+        "name": "Jons – Lyon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.794,
         "elevation_gain": 154.1,
@@ -35772,7 +35772,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "20: Lyon – Givors (UNDER_DEVELOPMENT)",
+        "name": "Lyon – Givors",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.281,
         "elevation_gain": 270.1,
@@ -37557,7 +37557,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "21: Givors – Sablons (DEVELOPED_WITH_SIGNS)",
+        "name": "Givors – Sablons",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.665,
         "elevation_gain": 234.7,
@@ -39447,7 +39447,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "22: Sablons – Tournon-sur-Rhône (DEVELOPED_WITH_SIGNS)",
+        "name": "Sablons – Tournon-sur-Rhône",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.35,
         "elevation_gain": 220.8,
@@ -41747,7 +41747,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "23: Tournon-sur-Rhône – Valence (DEVELOPED_WITH_SIGNS)",
+        "name": "Tournon-sur-Rhône – Valence",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.32,
         "elevation_gain": 122.9,
@@ -43162,7 +43162,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "24: Valence – Le Pouzin (DEVELOPED_WITH_SIGNS)",
+        "name": "Valence – Le Pouzin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.825,
         "elevation_gain": 203.4,
@@ -45372,7 +45372,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "25: Le Pouzin – Châteauneuf-du-Rhône (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Pouzin – Châteauneuf-du-Rhône",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.308,
         "elevation_gain": 213.6,
@@ -48007,7 +48007,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "26: Châteauneuf-du-Rhône – Pont-Saint-Esprit (DEVELOPED_WITH_SIGNS)",
+        "name": "Châteauneuf-du-Rhône – Pont-Saint-Esprit",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.31,
         "elevation_gain": 215.9,
@@ -49747,7 +49747,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "27: Pont-Saint-Esprit – Caderousse (DEVELOPED_WITH_SIGNS)",
+        "name": "Pont-Saint-Esprit – Caderousse",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.653,
         "elevation_gain": 104.3,
@@ -51232,7 +51232,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "28: Caderousse – Avignon (DEVELOPED_WITH_SIGNS)",
+        "name": "Caderousse – Avignon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.379,
         "elevation_gain": 147.9,
@@ -52807,7 +52807,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "29: Avignon – Tarascon (DEVELOPED_WITH_SIGNS)",
+        "name": "Avignon – Tarascon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.416,
         "elevation_gain": 239.3,
@@ -54292,7 +54292,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "30: Tarascon – Arles (DEVELOPED_WITH_SIGNS)",
+        "name": "Tarascon – Arles",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.504,
         "elevation_gain": 65.2,
@@ -55362,7 +55362,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "31: Arles – Port-Saint-Louis-du-Rhône (DEVELOPED_WITH_SIGNS)",
+        "name": "Arles – Port-Saint-Louis-du-Rhône",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.626,
         "elevation_gain": 85.9,
@@ -56877,7 +56877,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "32: Beaucaire – Saint-Gilles (DEVELOPED_WITH_SIGNS)",
+        "name": "Beaucaire – Saint-Gilles",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.242,
         "elevation_gain": 53.8,
@@ -57842,7 +57842,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "33: Saint-Gilles – Aigues-Mortes (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Gilles – Aigues-Mortes",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.165,
         "elevation_gain": 51.7,
@@ -58857,7 +58857,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "34: Aigues-Mortes – Palavas-les-Flots (DEVELOPED_WITH_SIGNS)",
+        "name": "Aigues-Mortes – Palavas-les-Flots",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.863,
         "elevation_gain": 66.1,
@@ -60017,7 +60017,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "35: Palavas-les-Flots – Sète (DEVELOPED_WITH_SIGNS)",
+        "name": "Palavas-les-Flots – Sète",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.729,
         "elevation_gain": 161.8,

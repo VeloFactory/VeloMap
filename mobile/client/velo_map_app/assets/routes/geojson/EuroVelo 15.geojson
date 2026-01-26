@@ -10,15 +10,15 @@
     "total_stages": 66,
     "cities": [
       "Andermatt",
-      "Disentis/Mustér",
+      "Disentis/Muster",
       "Breil/Brigels",
       "Castrisch",
       "Chur",
-      "Trübbach",
+      "Trubbach",
       "Buchs",
       "St Margrethen",
       "Mauren",
-      "Gaißau",
+      "Gaiau",
       "Konstanz",
       "Stein am Rhein",
       "Neuhausen am Rheinfall",
@@ -31,7 +31,7 @@
       "Neuf-Brisach",
       "Strasbourg",
       "Lauterbourg",
-      "Wörth am Rhein-Maximiliansau",
+      "Worth am Rhein-Maximiliansau",
       "Breisach am Rhein",
       "Kappel-Grafenhausen",
       "Kehl",
@@ -46,7 +46,7 @@
       "Mannheim",
       "Gernsheim",
       "Oestrich-Winkel",
-      "Rüdesheim am Rhein",
+      "Rudesheim am Rhein",
       "Bad Salzig",
       "Koblenz",
       "Rolandswerth",
@@ -73,7 +73,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "01: Andermatt – Disentis/Mustér (DEVELOPED_WITH_SIGNS)",
+        "name": "Andermatt – Disentis/Mustér",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.983,
         "elevation_gain": 1164.8,
@@ -2873,7 +2873,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "02: Disentis/Mustér – Breil/Brigels (DEVELOPED_WITH_SIGNS)",
+        "name": "Disentis/Mustér – Breil/Brigels",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.464,
         "elevation_gain": 422.1,
@@ -4788,7 +4788,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "03: Breil/Brigels – Castrisch (CERTIFIED)",
+        "name": "Breil/Brigels – Castrisch",
         "description": "CERTIFIED",
         "distance_km": 14.205,
         "elevation_gain": 315.4,
@@ -6008,7 +6008,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "04: Castrisch – Chur (CERTIFIED)",
+        "name": "Castrisch – Chur",
         "description": "CERTIFIED",
         "distance_km": 30.771,
         "elevation_gain": 1170.1,
@@ -8498,7 +8498,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "05: Chur – Trübbach (CERTIFIED)",
+        "name": "Chur – Trübbach",
         "description": "CERTIFIED",
         "distance_km": 34.906,
         "elevation_gain": 378.4,
@@ -10833,7 +10833,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "06: Trübbach – Buchs (CERTIFIED)",
+        "name": "Trübbach – Buchs",
         "description": "CERTIFIED",
         "distance_km": 13.641,
         "elevation_gain": 20.9,
@@ -11163,7 +11163,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "07: Buchs – St Margrethen (CERTIFIED)",
+        "name": "Buchs – St Margrethen",
         "description": "CERTIFIED",
         "distance_km": 42.535,
         "elevation_gain": 161.3,
@@ -12713,7 +12713,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "08: Trübbach – Mauren (CERTIFIED)",
+        "name": "Trübbach – Mauren",
         "description": "CERTIFIED",
         "distance_km": 26.378,
         "elevation_gain": 114.5,
@@ -13983,7 +13983,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "09: Mauren – St Margrethen (CERTIFIED)",
+        "name": "Mauren – St Margrethen",
         "description": "CERTIFIED",
         "distance_km": 34.638,
         "elevation_gain": 108.0,
@@ -15618,7 +15618,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "10: St Margrethen – Gaißau (CERTIFIED)",
+        "name": "St Margrethen – Gaißau",
         "description": "CERTIFIED",
         "distance_km": 16.157,
         "elevation_gain": 56.0,
@@ -16503,7 +16503,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "11: Gaißau – Konstanz (CERTIFIED)",
+        "name": "Gaißau – Konstanz",
         "description": "CERTIFIED",
         "distance_km": 47.583,
         "elevation_gain": 346.0,
@@ -19803,7 +19803,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "12: Konstanz – Stein am Rhein (CERTIFIED)",
+        "name": "Konstanz – Stein am Rhein",
         "description": "CERTIFIED",
         "distance_km": 28.276,
         "elevation_gain": 293.2,
@@ -21743,7 +21743,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "13: Stein am Rhein – Neuhausen am Rheinfall (CERTIFIED)",
+        "name": "Stein am Rhein – Neuhausen am Rheinfall",
         "description": "CERTIFIED",
         "distance_km": 20.779,
         "elevation_gain": 237.8,
@@ -22993,7 +22993,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "14: Neuhausen am Rheinfall – Bad Zurzach (CERTIFIED)",
+        "name": "Neuhausen am Rheinfall – Bad Zurzach",
         "description": "CERTIFIED",
         "distance_km": 50.659,
         "elevation_gain": 809.6,
@@ -26563,7 +26563,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "15: Bad Zurzach – Rheinfelden (CERTIFIED)",
+        "name": "Bad Zurzach – Rheinfelden",
         "description": "CERTIFIED",
         "distance_km": 54.688,
         "elevation_gain": 606.6,
@@ -30083,7 +30083,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "16: Rheinfelden – Basel (CERTIFIED)",
+        "name": "Rheinfelden – Basel",
         "description": "CERTIFIED",
         "distance_km": 21.825,
         "elevation_gain": 185.3,
@@ -31488,7 +31488,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "17: Konstanz – Radolfzell (CERTIFIED)",
+        "name": "Konstanz – Radolfzell",
         "description": "CERTIFIED",
         "distance_km": 19.571,
         "elevation_gain": 100.8,
@@ -32423,7 +32423,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "18: Radolfzell – Stein am Rhein (CERTIFIED)",
+        "name": "Radolfzell – Stein am Rhein",
         "description": "CERTIFIED",
         "distance_km": 25.033,
         "elevation_gain": 256.8,
@@ -34208,7 +34208,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "19: Neuhausen am Rheinfall – Rheinheim (CERTIFIED)",
+        "name": "Neuhausen am Rheinfall – Rheinheim",
         "description": "CERTIFIED",
         "distance_km": 35.736,
         "elevation_gain": 391.5,
@@ -36048,7 +36048,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "20: Rheinheim – Rheinfelden (CERTIFIED)",
+        "name": "Rheinheim – Rheinfelden",
         "description": "CERTIFIED",
         "distance_km": 57.891,
         "elevation_gain": 478.1,
@@ -39263,7 +39263,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "21: Rheinfelden – Basel (CERTIFIED)",
+        "name": "Rheinfelden – Basel",
         "description": "CERTIFIED",
         "distance_km": 16.445,
         "elevation_gain": 79.1,
@@ -40083,7 +40083,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "22: Basel – Kembs (CERTIFIED)",
+        "name": "Basel – Kembs",
         "description": "CERTIFIED",
         "distance_km": 13.976,
         "elevation_gain": 18.6,
@@ -40488,7 +40488,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "23: Kembs – Neuf-Brisach (CERTIFIED)",
+        "name": "Kembs – Neuf-Brisach",
         "description": "CERTIFIED",
         "distance_km": 44.422,
         "elevation_gain": 93.7,
@@ -42608,7 +42608,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "24: Neuf-Brisach – Strasbourg (CERTIFIED)",
+        "name": "Neuf-Brisach – Strasbourg",
         "description": "CERTIFIED",
         "distance_km": 71.404,
         "elevation_gain": 107.1,
@@ -44548,7 +44548,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "25: Strasbourg – Lauterbourg (DEVELOPED_WITH_SIGNS)",
+        "name": "Strasbourg – Lauterbourg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.837,
         "elevation_gain": 301.0,
@@ -48993,7 +48993,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "26: Lauterbourg – Wörth am Rhein-Maximiliansau (CERTIFIED)",
+        "name": "Lauterbourg – Wörth am Rhein-Maximiliansau",
         "description": "CERTIFIED",
         "distance_km": 11.903,
         "elevation_gain": 50.2,
@@ -49608,7 +49608,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "27: Basel – Breisach am Rhein (CERTIFIED)",
+        "name": "Basel – Breisach am Rhein",
         "description": "CERTIFIED",
         "distance_km": 65.113,
         "elevation_gain": 326.2,
@@ -52133,7 +52133,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "28: Breisach am Rhein – Kappel-Grafenhausen (CERTIFIED)",
+        "name": "Breisach am Rhein – Kappel-Grafenhausen",
         "description": "CERTIFIED",
         "distance_km": 46.399,
         "elevation_gain": 203.9,
@@ -54073,7 +54073,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "29: Kappel-Grafenhausen – Kehl (CERTIFIED)",
+        "name": "Kappel-Grafenhausen – Kehl",
         "description": "CERTIFIED",
         "distance_km": 42.541,
         "elevation_gain": 155.7,
@@ -55763,7 +55763,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "30: Kehl – Rastatt-Plittersdorf (CERTIFIED)",
+        "name": "Kehl – Rastatt-Plittersdorf",
         "description": "CERTIFIED",
         "distance_km": 52.977,
         "elevation_gain": 197.3,
@@ -58178,7 +58178,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "31: Rastatt-Plittersdorf – Karlsruhe (CERTIFIED)",
+        "name": "Rastatt-Plittersdorf – Karlsruhe",
         "description": "CERTIFIED",
         "distance_km": 35.074,
         "elevation_gain": 161.6,
@@ -60158,7 +60158,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "32: Karlsruhe – Wörth am Rhein-Maximiliansau (CERTIFIED)",
+        "name": "Karlsruhe – Wörth am Rhein-Maximiliansau",
         "description": "CERTIFIED",
         "distance_km": 2.325,
         "elevation_gain": 15.7,
@@ -60343,7 +60343,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "33: Wörth am Rhein-Maximiliansau – Speyer (CERTIFIED)",
+        "name": "Wörth am Rhein-Maximiliansau – Speyer",
         "description": "CERTIFIED",
         "distance_km": 50.181,
         "elevation_gain": 264.9,
@@ -63328,7 +63328,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "34: Speyer – Ludwigshafen-Oggersheim (CERTIFIED)",
+        "name": "Speyer – Ludwigshafen-Oggersheim",
         "description": "CERTIFIED",
         "distance_km": 32.777,
         "elevation_gain": 0.0,
@@ -65123,7 +65123,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "35: Ludwigshafen-Oggersheim – Eich (CERTIFIED)",
+        "name": "Ludwigshafen-Oggersheim – Eich",
         "description": "CERTIFIED",
         "distance_km": 40.031,
         "elevation_gain": 158.6,
@@ -67273,7 +67273,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "36: Eich – Mainz (CERTIFIED)",
+        "name": "Eich – Mainz",
         "description": "CERTIFIED",
         "distance_km": 37.252,
         "elevation_gain": 245.1,
@@ -69308,7 +69308,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "37: Mainz – Bingen am Rhein (CERTIFIED)",
+        "name": "Mainz – Bingen am Rhein",
         "description": "CERTIFIED",
         "distance_km": 33.014,
         "elevation_gain": 140.0,
@@ -71003,7 +71003,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "38: Karlsruhe – Rheinhausen (UNDER_DEVELOPMENT)",
+        "name": "Karlsruhe – Rheinhausen",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.607,
         "elevation_gain": 254.5,
@@ -72923,7 +72923,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "39: Rheinhausen – Mannheim (CERTIFIED)",
+        "name": "Rheinhausen – Mannheim",
         "description": "CERTIFIED",
         "distance_km": 36.308,
         "elevation_gain": 191.6,
@@ -75023,7 +75023,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "40: Mannheim – Gernsheim (CERTIFIED)",
+        "name": "Mannheim – Gernsheim",
         "description": "CERTIFIED",
         "distance_km": 52.657,
         "elevation_gain": 218.5,
@@ -77538,7 +77538,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "41: Gernsheim – Mainz (CERTIFIED)",
+        "name": "Gernsheim – Mainz",
         "description": "CERTIFIED",
         "distance_km": 44.667,
         "elevation_gain": 182.2,
@@ -79858,7 +79858,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "42: Mainz – Oestrich-Winkel (DEVELOPED_WITH_SIGNS)",
+        "name": "Mainz – Oestrich-Winkel",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.182,
         "elevation_gain": 123.6,
@@ -80908,7 +80908,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "43: Oestrich-Winkel – Rüdesheim am Rhein (CERTIFIED)",
+        "name": "Oestrich-Winkel – Rüdesheim am Rhein",
         "description": "CERTIFIED",
         "distance_km": 8.874,
         "elevation_gain": 65.7,
@@ -81693,7 +81693,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "44: Bingen am Rhein – Bad Salzig (CERTIFIED)",
+        "name": "Bingen am Rhein – Bad Salzig",
         "description": "CERTIFIED",
         "distance_km": 39.016,
         "elevation_gain": 582.8,
@@ -83438,7 +83438,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "45: Bad Salzig – Koblenz (CERTIFIED)",
+        "name": "Bad Salzig – Koblenz",
         "description": "CERTIFIED",
         "distance_km": 26.091,
         "elevation_gain": 299.1,
@@ -84618,7 +84618,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "46: Koblenz – Rolandswerth (CERTIFIED)",
+        "name": "Koblenz – Rolandswerth",
         "description": "CERTIFIED",
         "distance_km": 58.114,
         "elevation_gain": 456.2,
@@ -87798,7 +87798,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "47: Rolandswerth – Bonn (DEVELOPED_WITH_SIGNS)",
+        "name": "Rolandswerth – Bonn",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.041,
         "elevation_gain": 97.8,
@@ -88358,7 +88358,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "48: Bonn – Cologne (DEVELOPED_WITH_SIGNS)",
+        "name": "Bonn – Cologne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.457,
         "elevation_gain": 300.3,
@@ -90648,7 +90648,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "49: Kamp-Bornhofen – Koblenz (CERTIFIED)",
+        "name": "Kamp-Bornhofen – Koblenz",
         "description": "CERTIFIED",
         "distance_km": 26.388,
         "elevation_gain": 223.3,
@@ -91698,7 +91698,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "50: Koblenz – Rheinbreitbach (CERTIFIED)",
+        "name": "Koblenz – Rheinbreitbach",
         "description": "CERTIFIED",
         "distance_km": 54.09,
         "elevation_gain": 585.2,
@@ -95003,7 +95003,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "51: Rheinbreitbach – Bonn (DEVELOPED_WITH_SIGNS)",
+        "name": "Rheinbreitbach – Bonn",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.612,
         "elevation_gain": 87.7,
@@ -95903,7 +95903,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "52: Bonn – Cologne (DEVELOPED_WITH_SIGNS)",
+        "name": "Bonn – Cologne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.93,
         "elevation_gain": 270.4,
@@ -97873,7 +97873,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "53: Cologne – Dusseldorf (DEVELOPED_WITH_SIGNS)",
+        "name": "Cologne – Dusseldorf",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.544,
         "elevation_gain": 290.5,
@@ -101028,7 +101028,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "54: Dusseldorf – Duisburg (DEVELOPED_WITH_SIGNS)",
+        "name": "Dusseldorf – Duisburg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.243,
         "elevation_gain": 218.7,
@@ -103433,7 +103433,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "55: Duisburg – Wesel (DEVELOPED_WITH_SIGNS)",
+        "name": "Duisburg – Wesel",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.773,
         "elevation_gain": 152.8,
@@ -105278,7 +105278,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "56: Wesel – Millingen aan de Rijn (DEVELOPED_WITH_SIGNS)",
+        "name": "Wesel – Millingen aan de Rijn",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.805,
         "elevation_gain": 167.5,
@@ -108158,7 +108158,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "57: Millingen aan de Rijn – Arnhem (DEVELOPED_WITH_SIGNS)",
+        "name": "Millingen aan de Rijn – Arnhem",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.498,
         "elevation_gain": 119.9,
@@ -109483,7 +109483,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "58: Cologne – Dusseldorf (DEVELOPED)",
+        "name": "Cologne – Dusseldorf",
         "description": "DEVELOPED",
         "distance_km": 56.573,
         "elevation_gain": 334.7,
@@ -112568,7 +112568,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "59: Dusseldorf – Duisburg (DEVELOPED_WITH_SIGNS)",
+        "name": "Dusseldorf – Duisburg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.193,
         "elevation_gain": 168.7,
@@ -114263,7 +114263,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "60: Duisburg – Wesel (DEVELOPED_WITH_SIGNS)",
+        "name": "Duisburg – Wesel",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.698,
         "elevation_gain": 244.0,
@@ -116393,7 +116393,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "61: Wesel – Spijk (DEVELOPED_WITH_SIGNS)",
+        "name": "Wesel – Spijk",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.135,
         "elevation_gain": 200.6,
@@ -120053,7 +120053,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "62: Arnhem – Amerongen (DEVELOPED_WITH_SIGNS)",
+        "name": "Arnhem – Amerongen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.32,
         "elevation_gain": 478.8,
@@ -122903,7 +122903,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "63: Amerongen – Gorinchem (DEVELOPED_WITH_SIGNS)",
+        "name": "Amerongen – Gorinchem",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.51,
         "elevation_gain": 236.2,
@@ -127488,7 +127488,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "64: Woudrichem – Dordrecht (DEVELOPED_WITH_SIGNS)",
+        "name": "Woudrichem – Dordrecht",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.493,
         "elevation_gain": 131.7,
@@ -130173,7 +130173,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "65: Dordrecht – Rotterdam (DEVELOPED_WITH_SIGNS)",
+        "name": "Dordrecht – Rotterdam",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.642,
         "elevation_gain": 141.5,
@@ -132678,7 +132678,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "66: Rotterdam – Hook of Holland (DEVELOPED_WITH_SIGNS)",
+        "name": "Rotterdam – Hook of Holland",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.216,
         "elevation_gain": 110.6,

@@ -45,12 +45,12 @@
       "Stadtlohn",
       "Coesfeld",
       "Havixbeck",
-      "Münster",
+      "Munster",
       "Warendorf",
-      "Rheda-Wiedenbrück",
-      "Schloß Holte",
+      "Rheda-Wiedenbruck",
+      "Schlo Holte",
       "Detmold",
-      "Marienmünster",
+      "Marienmunster",
       "Holzminden",
       "Stadtoldendorf",
       "Bad Gandersheim",
@@ -58,7 +58,7 @@
       "Ilsenburg",
       "Gernrode",
       "Ermsleben",
-      "Straßfurt",
+      "Strafurt",
       "Bernburg",
       "Dessau",
       "Lutherstadt Wittenberg",
@@ -67,36 +67,34 @@
       "Berlin",
       "Buckow",
       "Kostrzyn",
-      "Sulęcin",
-      "Międzyrzecz",
+      "Sulecin",
+      "Miedzyrzecz",
       "Dormowo",
-      "Sieraków",
-      "Szamotuły",
+      "Sierakow",
+      "Szamotuy",
       "Poznan",
       "Gniezno",
       "Drewno",
-      "Inowrocław",
+      "Inowrocaw",
       "Torun",
-      "Włocławek",
-      "Płock",
-      "Nowa Wieś",
-      "Nowy Dwór Mazowiecki",
+      "Wocawek",
+      "Pock",
+      "Nowa Wies",
+      "Nowy Dwor Mazowiecki",
       "Warsaw",
-      "Łochów",
-      "Gródek",
+      "ochow",
+      "Grodek",
       "Klepaczew",
       "Kleszczele",
-      "Białowieża",
+      "Biaowieza",
       "Navahrudak",
       "Lubcha",
-      "Клецішча",
-      "Пытань",
-      "Palačanka",
-      "Zaslaŭje",
+      "",
+      "Palacanka",
+      "Zaslauje",
       "Minsk",
       "Lahoysk",
       "Barysaw",
-      "Ляды",
       "Smolensk",
       "Vyazma",
       "Zvenigorod",
@@ -108,7 +106,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "01: Galway – Ballinasloe (UNDER_DEVELOPMENT)",
+        "name": "Galway – Ballinasloe",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 66.625,
         "elevation_gain": 386.4,
@@ -3218,7 +3216,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "02: Ballinasloe – Mullingar (DEVELOPED)",
+        "name": "Ballinasloe – Mullingar",
         "description": "DEVELOPED",
         "distance_km": 72.38,
         "elevation_gain": 360.3,
@@ -5158,7 +5156,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "03: Mullingar – Maynooth (DEVELOPED)",
+        "name": "Mullingar – Maynooth",
         "description": "DEVELOPED",
         "distance_km": 60.009,
         "elevation_gain": 107.0,
@@ -6238,7 +6236,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "04: Maynooth – Dublin ferryport (UNDER_DEVELOPMENT)",
+        "name": "Maynooth – Dublin ferryport",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 26.461,
         "elevation_gain": 38.3,
@@ -6678,7 +6676,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "05: Holyhead – Bangor (DEVELOPED)",
+        "name": "Holyhead – Bangor",
         "description": "DEVELOPED",
         "distance_km": 48.314,
         "elevation_gain": 435.4,
@@ -9488,7 +9486,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "06: Bangor – Porthmadog (DEVELOPED)",
+        "name": "Bangor – Porthmadog",
         "description": "DEVELOPED",
         "distance_km": 59.711,
         "elevation_gain": 730.1,
@@ -12743,7 +12741,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "07: Porthmadog – Dolgellau (DEVELOPED)",
+        "name": "Porthmadog – Dolgellau",
         "description": "DEVELOPED",
         "distance_km": 49.947,
         "elevation_gain": 1143.3,
@@ -16448,7 +16446,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "08: Dolgellau – Llanidloes (DEVELOPED)",
+        "name": "Dolgellau – Llanidloes",
         "description": "DEVELOPED",
         "distance_km": 60.519,
         "elevation_gain": 1684.9,
@@ -19868,7 +19866,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "09: Llanidloes – Builth (DEVELOPED)",
+        "name": "Llanidloes – Builth",
         "description": "DEVELOPED",
         "distance_km": 50.838,
         "elevation_gain": 1053.4,
@@ -22853,7 +22851,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "10: Builth – Hay-on-Wye (DEVELOPED)",
+        "name": "Builth – Hay-on-Wye",
         "description": "DEVELOPED",
         "distance_km": 33.691,
         "elevation_gain": 414.0,
@@ -24508,7 +24506,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "11: Hay-on-Wye – Abergavenny (DEVELOPED)",
+        "name": "Hay-on-Wye – Abergavenny",
         "description": "DEVELOPED",
         "distance_km": 35.502,
         "elevation_gain": 646.5,
@@ -26428,7 +26426,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "12: Abergavenny – Chepstow (DEVELOPED)",
+        "name": "Abergavenny – Chepstow",
         "description": "DEVELOPED",
         "distance_km": 43.531,
         "elevation_gain": 751.3,
@@ -28613,7 +28611,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "13: Chepstow – Bristol (DEVELOPED)",
+        "name": "Chepstow – Bristol",
         "description": "DEVELOPED",
         "distance_km": 32.215,
         "elevation_gain": 267.1,
@@ -30788,7 +30786,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "14: Bristol – Bath (DEVELOPED)",
+        "name": "Bristol – Bath",
         "description": "DEVELOPED",
         "distance_km": 26.046,
         "elevation_gain": 190.1,
@@ -32068,7 +32066,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "15: Bath – Devizes (DEVELOPED)",
+        "name": "Bath – Devizes",
         "description": "DEVELOPED",
         "distance_km": 35.361,
         "elevation_gain": 310.0,
@@ -33848,7 +33846,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "16: Devizes – Newbury (DEVELOPED)",
+        "name": "Devizes – Newbury",
         "description": "DEVELOPED",
         "distance_km": 63.004,
         "elevation_gain": 475.9,
@@ -36728,7 +36726,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "17: Newbury – Reading (DEVELOPED)",
+        "name": "Newbury – Reading",
         "description": "DEVELOPED",
         "distance_km": 31.912,
         "elevation_gain": 106.6,
@@ -39398,7 +39396,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "18: Reading – Windsor (DEVELOPED)",
+        "name": "Reading – Windsor",
         "description": "DEVELOPED",
         "distance_km": 38.12,
         "elevation_gain": 256.7,
@@ -42418,7 +42416,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "19: Windsor – London Richmond (DEVELOPED)",
+        "name": "Windsor – London Richmond",
         "description": "DEVELOPED",
         "distance_km": 50.76,
         "elevation_gain": 295.3,
@@ -45768,7 +45766,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "20: London Richmond – London Greenwich (DEVELOPED)",
+        "name": "London Richmond – London Greenwich",
         "description": "DEVELOPED",
         "distance_km": 27.527,
         "elevation_gain": 186.3,
@@ -47473,7 +47471,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "21: London Greenwich – Waltham Cross (DEVELOPED)",
+        "name": "London Greenwich – Waltham Cross",
         "description": "DEVELOPED",
         "distance_km": 29.538,
         "elevation_gain": 140.0,
@@ -49703,7 +49701,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "22: Waltham Cross – Chelmsford (DEVELOPED)",
+        "name": "Waltham Cross – Chelmsford",
         "description": "DEVELOPED",
         "distance_km": 56.818,
         "elevation_gain": 422.0,
@@ -54128,7 +54126,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "23: Chelmsford – Colchester (DEVELOPED)",
+        "name": "Chelmsford – Colchester",
         "description": "DEVELOPED",
         "distance_km": 61.456,
         "elevation_gain": 445.3,
@@ -57893,7 +57891,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "24: Colchester – Harwich (DEVELOPED)",
+        "name": "Colchester – Harwich",
         "description": "DEVELOPED",
         "distance_km": 38.16,
         "elevation_gain": 200.6,
@@ -60383,7 +60381,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "25: Hook of Holland – The Hague (DEVELOPED_WITH_SIGNS)",
+        "name": "Hook of Holland – The Hague",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.694,
         "elevation_gain": 137.1,
@@ -61838,7 +61836,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "26: The Hague – Utrecht (DEVELOPED)",
+        "name": "The Hague – Utrecht",
         "description": "DEVELOPED",
         "distance_km": 81.554,
         "elevation_gain": 221.3,
@@ -66398,7 +66396,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "27: Utrecht – Amerongen (DEVELOPED)",
+        "name": "Utrecht – Amerongen",
         "description": "DEVELOPED",
         "distance_km": 39.143,
         "elevation_gain": 141.4,
@@ -68378,7 +68376,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "28: Amerongen – Arnhem (DEVELOPED)",
+        "name": "Amerongen – Arnhem",
         "description": "DEVELOPED",
         "distance_km": 48.54,
         "elevation_gain": 446.2,
@@ -71283,7 +71281,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "29: Arnhem – Borculo (DEVELOPED)",
+        "name": "Arnhem – Borculo",
         "description": "DEVELOPED",
         "distance_km": 69.717,
         "elevation_gain": 432.2,
@@ -74828,7 +74826,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "30: Borculo – Zwillbrock (DEVELOPED)",
+        "name": "Borculo – Zwillbrock",
         "description": "DEVELOPED",
         "distance_km": 27.538,
         "elevation_gain": 80.5,
@@ -76133,7 +76131,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "31: Zwillbrock – Stadtlohn (DEVELOPED)",
+        "name": "Zwillbrock – Stadtlohn",
         "description": "DEVELOPED",
         "distance_km": 29.17,
         "elevation_gain": 108.3,
@@ -77388,7 +77386,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "32: Stadtlohn – Coesfeld (DEVELOPED)",
+        "name": "Stadtlohn – Coesfeld",
         "description": "DEVELOPED",
         "distance_km": 27.948,
         "elevation_gain": 175.1,
@@ -78508,7 +78506,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "33: Coesfeld – Havixbeck (DEVELOPED)",
+        "name": "Coesfeld – Havixbeck",
         "description": "DEVELOPED",
         "distance_km": 30.484,
         "elevation_gain": 242.3,
@@ -80093,7 +80091,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "34: Havixbeck – Münster (DEVELOPED)",
+        "name": "Havixbeck – Münster",
         "description": "DEVELOPED",
         "distance_km": 24.356,
         "elevation_gain": 123.4,
@@ -81708,7 +81706,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "35: Münster – Warendorf (DEVELOPED)",
+        "name": "Münster – Warendorf",
         "description": "DEVELOPED",
         "distance_km": 30.57,
         "elevation_gain": 164.5,
@@ -83463,7 +83461,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "36: Warendorf – Rheda-Wiedenbrück (DEVELOPED)",
+        "name": "Warendorf – Rheda-Wiedenbrück",
         "description": "DEVELOPED",
         "distance_km": 50.435,
         "elevation_gain": 264.2,
@@ -86103,7 +86101,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "37: Rheda-Wiedenbrück – Schloß Holte (DEVELOPED)",
+        "name": "Rheda-Wiedenbrück – Schloß Holte",
         "description": "DEVELOPED",
         "distance_km": 34.021,
         "elevation_gain": 157.7,
@@ -88308,7 +88306,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "38: Schloß Holte – Detmold (DEVELOPED)",
+        "name": "Schloß Holte – Detmold",
         "description": "DEVELOPED",
         "distance_km": 32.27,
         "elevation_gain": 257.4,
@@ -89913,7 +89911,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "39: Detmold – Marienmünster (DEVELOPED)",
+        "name": "Detmold – Marienmünster",
         "description": "DEVELOPED",
         "distance_km": 44.371,
         "elevation_gain": 679.4,
@@ -92713,7 +92711,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "40: Marienmünster – Holzminden (DEVELOPED)",
+        "name": "Marienmünster – Holzminden",
         "description": "DEVELOPED",
         "distance_km": 27.537,
         "elevation_gain": 227.7,
@@ -94678,7 +94676,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "41: Holzminden – Stadtoldendorf (DEVELOPED)",
+        "name": "Holzminden – Stadtoldendorf",
         "description": "DEVELOPED",
         "distance_km": 19.341,
         "elevation_gain": 219.7,
@@ -95703,7 +95701,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "42: Stadtoldendorf – Bad Gandersheim (DEVELOPED)",
+        "name": "Stadtoldendorf – Bad Gandersheim",
         "description": "DEVELOPED",
         "distance_km": 43.139,
         "elevation_gain": 351.1,
@@ -97978,7 +97976,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "43: Bad Gandersheim – Goslar (DEVELOPED)",
+        "name": "Bad Gandersheim – Goslar",
         "description": "DEVELOPED",
         "distance_km": 42.332,
         "elevation_gain": 729.1,
@@ -100643,7 +100641,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "44: Goslar – Ilsenburg (DEVELOPED)",
+        "name": "Goslar – Ilsenburg",
         "description": "DEVELOPED",
         "distance_km": 29.256,
         "elevation_gain": 779.9,
@@ -103058,7 +103056,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "45: Ilsenburg – Gernrode (DEVELOPED)",
+        "name": "Ilsenburg – Gernrode",
         "description": "DEVELOPED",
         "distance_km": 46.995,
         "elevation_gain": 610.3,
@@ -105638,7 +105636,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "46: Gernrode – Ermsleben (DEVELOPED)",
+        "name": "Gernrode – Ermsleben",
         "description": "DEVELOPED",
         "distance_km": 19.616,
         "elevation_gain": 214.9,
@@ -106713,7 +106711,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "47: Ermsleben – Straßfurt (DEVELOPED)",
+        "name": "Ermsleben – Straßfurt",
         "description": "DEVELOPED",
         "distance_km": 38.386,
         "elevation_gain": 150.3,
@@ -108573,7 +108571,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "48: Straßfurt – Bernburg (DEVELOPED)",
+        "name": "Straßfurt – Bernburg",
         "description": "DEVELOPED",
         "distance_km": 23.876,
         "elevation_gain": 174.3,
@@ -110033,7 +110031,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "49: Bernburg – Dessau (DEVELOPED)",
+        "name": "Bernburg – Dessau",
         "description": "DEVELOPED",
         "distance_km": 54.319,
         "elevation_gain": 191.6,
@@ -112388,7 +112386,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "50: Dessau – Lutherstadt Wittenberg (DEVELOPED)",
+        "name": "Dessau – Lutherstadt Wittenberg",
         "description": "DEVELOPED",
         "distance_km": 60.665,
         "elevation_gain": 306.2,
@@ -115393,7 +115391,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "51: Lutherstadt Wittenberg – Bad Belzig (DEVELOPED)",
+        "name": "Lutherstadt Wittenberg – Bad Belzig",
         "description": "DEVELOPED",
         "distance_km": 38.793,
         "elevation_gain": 273.0,
@@ -116478,7 +116476,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "52: Bad Belzig – Potsdam (DEVELOPED)",
+        "name": "Bad Belzig – Potsdam",
         "description": "DEVELOPED",
         "distance_km": 58.364,
         "elevation_gain": 324.9,
@@ -118193,7 +118191,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "53: Potsdam – Berlin (DEVELOPED)",
+        "name": "Potsdam – Berlin",
         "description": "DEVELOPED",
         "distance_km": 31.219,
         "elevation_gain": 288.3,
@@ -119008,7 +119006,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "54: Berlin – Buckow (DEVELOPED)",
+        "name": "Berlin – Buckow",
         "description": "DEVELOPED",
         "distance_km": 79.923,
         "elevation_gain": 376.4,
@@ -120928,7 +120926,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "55: Buckow – Kostrzyn (DEVELOPED)",
+        "name": "Buckow – Kostrzyn",
         "description": "DEVELOPED",
         "distance_km": 59.189,
         "elevation_gain": 215.9,
@@ -122358,7 +122356,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "56: Kostrzyn – Sulęcin (UNDER_DEVELOPMENT)",
+        "name": "Kostrzyn – Sulęcin",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 45.259,
         "elevation_gain": 322.6,
@@ -124003,7 +124001,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "57: Sulęcin – Międzyrzecz (DEVELOPED)",
+        "name": "Sulęcin – Międzyrzecz",
         "description": "DEVELOPED",
         "distance_km": 45.335,
         "elevation_gain": 303.3,
@@ -125733,7 +125731,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "58: Międzyrzecz – Dormowo (DEVELOPED)",
+        "name": "Międzyrzecz – Dormowo",
         "description": "DEVELOPED",
         "distance_km": 25.603,
         "elevation_gain": 208.5,
@@ -126918,7 +126916,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "59: Dormowo – Sieraków (PLANNING)",
+        "name": "Dormowo – Sieraków",
         "description": "PLANNING",
         "distance_km": 33.408,
         "elevation_gain": 259.6,
@@ -128313,7 +128311,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "60: Sieraków – Szamotuły (PLANNING)",
+        "name": "Sieraków – Szamotuły",
         "description": "PLANNING",
         "distance_km": 49.765,
         "elevation_gain": 222.0,
@@ -129173,7 +129171,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "61: Szamotuły – Poznan (PLANNING)",
+        "name": "Szamotuły – Poznan",
         "description": "PLANNING",
         "distance_km": 38.427,
         "elevation_gain": 190.0,
@@ -130853,7 +130851,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "62: Gniezno – Poznan (UNDER_DEVELOPMENT)",
+        "name": "Gniezno – Poznan",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 66.829,
         "elevation_gain": 432.7,
@@ -134473,7 +134471,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "63: Drewno – Gniezno (PLANNING)",
+        "name": "Drewno – Gniezno",
         "description": "PLANNING",
         "distance_km": 45.675,
         "elevation_gain": 217.5,
@@ -136128,7 +136126,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "64: Drewno – Inowrocław (PLANNING)",
+        "name": "Drewno – Inowrocław",
         "description": "PLANNING",
         "distance_km": 36.874,
         "elevation_gain": 144.1,
@@ -137778,7 +137776,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "65: Inowrocław – Torun (PLANNING)",
+        "name": "Inowrocław – Torun",
         "description": "PLANNING",
         "distance_km": 46.843,
         "elevation_gain": 183.7,
@@ -139663,7 +139661,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "66: Torun – Włocławek (PLANNING)",
+        "name": "Torun – Włocławek",
         "description": "PLANNING",
         "distance_km": 58.88,
         "elevation_gain": 286.0,
@@ -142063,7 +142061,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "67: Włocławek – Płock (PLANNING)",
+        "name": "Włocławek – Płock",
         "description": "PLANNING",
         "distance_km": 55.877,
         "elevation_gain": 423.8,
@@ -144223,7 +144221,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "68: Włocławek – Nowa Wieś (PLANNING)",
+        "name": "Włocławek – Nowa Wieś",
         "description": "PLANNING",
         "distance_km": 29.879,
         "elevation_gain": 154.2,
@@ -145543,7 +145541,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "69: Płock – Nowy Dwór Mazowiecki (PLANNING)",
+        "name": "Płock – Nowy Dwór Mazowiecki",
         "description": "PLANNING",
         "distance_km": 83.133,
         "elevation_gain": 206.8,
@@ -147738,7 +147736,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "70: Nowy Dwór Mazowiecki – Warsaw (PLANNING)",
+        "name": "Nowy Dwór Mazowiecki – Warsaw",
         "description": "PLANNING",
         "distance_km": 35.607,
         "elevation_gain": 107.0,
@@ -148713,7 +148711,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "71: Warsaw – Łochów (PLANNING)",
+        "name": "Warsaw – Łochów",
         "description": "PLANNING",
         "distance_km": 58.393,
         "elevation_gain": 148.1,
@@ -150848,7 +150846,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "72: Łochów – Gródek (PLANNING)",
+        "name": "Łochów – Gródek",
         "description": "PLANNING",
         "distance_km": 81.447,
         "elevation_gain": 187.4,
@@ -153178,7 +153176,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "73: Gródek – Klepaczew (PLANNING)",
+        "name": "Gródek – Klepaczew",
         "description": "PLANNING",
         "distance_km": 50.408,
         "elevation_gain": 268.7,
@@ -154993,7 +154991,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "74: Klepaczew – Kleszczele (PLANNING)",
+        "name": "Klepaczew – Kleszczele",
         "description": "PLANNING",
         "distance_km": 85.296,
         "elevation_gain": 351.1,
@@ -155838,7 +155836,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "75: Kleszczele – Białowieża (PLANNING)",
+        "name": "Kleszczele – Białowieża",
         "description": "PLANNING",
         "distance_km": 55.27,
         "elevation_gain": 116.3,
@@ -156048,7 +156046,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "76: Białowieża – Navahrudak (PLANNING)",
+        "name": "Białowieża – Navahrudak",
         "description": "PLANNING",
         "distance_km": 287.718,
         "elevation_gain": 1466.0,
@@ -160243,7 +160241,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "77: Navahrudak – Lubcha (PLANNING)",
+        "name": "Navahrudak – Lubcha",
         "description": "PLANNING",
         "distance_km": 25.127,
         "elevation_gain": 57.0,
@@ -160438,7 +160436,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "78: Lubcha – Клецішча (PLANNING)",
+        "name": "Lubcha – Клецішча",
         "description": "PLANNING",
         "distance_km": 21.958,
         "elevation_gain": 25.0,
@@ -160558,7 +160556,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "79: Клецішча – Пытань (UNDER_DEVELOPMENT)",
+        "name": "Клецішча – Пытань",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 47.917,
         "elevation_gain": 194.0,
@@ -161273,7 +161271,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "80: Пытань – Palačanka (UNDER_DEVELOPMENT)",
+        "name": "Пытань – Palačanka",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 27.814,
         "elevation_gain": 195.0,
@@ -161698,7 +161696,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "81: Palačanka – Zaslaŭje (UNDER_DEVELOPMENT)",
+        "name": "Palačanka – Zaslaŭje",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.835,
         "elevation_gain": 168.0,
@@ -162148,7 +162146,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "82: Zaslaŭje – Minsk (UNDER_DEVELOPMENT)",
+        "name": "Zaslaŭje – Minsk",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.476,
         "elevation_gain": 338.0,
@@ -164048,7 +164046,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "83: Minsk – Lahoysk (PLANNING)",
+        "name": "Minsk – Lahoysk",
         "description": "PLANNING",
         "distance_km": 53.599,
         "elevation_gain": 420.0,
@@ -165423,7 +165421,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "84: Lahoysk – Barysaw (PLANNING)",
+        "name": "Lahoysk – Barysaw",
         "description": "PLANNING",
         "distance_km": 61.647,
         "elevation_gain": 238.0,
@@ -165778,7 +165776,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "85: Barysaw – Ляды (PLANNING)",
+        "name": "Barysaw – Ляды",
         "description": "PLANNING",
         "distance_km": 267.905,
         "elevation_gain": 939.0,
@@ -167453,7 +167451,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "86: Ляды – Smolensk (PLANNING)",
+        "name": "Ляды – Smolensk",
         "description": "PLANNING",
         "distance_km": 68.766,
         "elevation_gain": 0.0,
@@ -169128,7 +169126,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "87: Smolensk – Vyazma (PLANNING)",
+        "name": "Smolensk – Vyazma",
         "description": "PLANNING",
         "distance_km": 172.926,
         "elevation_gain": 0.0,
@@ -173123,7 +173121,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "88: Vyazma – Zvenigorod (PLANNING)",
+        "name": "Vyazma – Zvenigorod",
         "description": "PLANNING",
         "distance_km": 268.694,
         "elevation_gain": 0.0,
@@ -179448,7 +179446,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "89: Zvenigorod – Moscow (PLANNING)",
+        "name": "Zvenigorod – Moscow",
         "description": "PLANNING",
         "distance_km": 82.101,
         "elevation_gain": 0.0,

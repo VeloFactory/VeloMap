@@ -14,10 +14,10 @@
       "Voll",
       "Oppdal",
       "Hjerkinn",
-      "Dombås",
-      "Vågåmo",
+      "Dombas",
+      "Vagamo",
       "Vinstra",
-      "Fåvang",
+      "Favang",
       "Lillehammer",
       "Hamar",
       "Eidsvoll",
@@ -26,7 +26,7 @@
       "Sarpsborg",
       "Svinesund",
       "Stromstad",
-      "Fjällbacka",
+      "Fjallbacka",
       "Uddevalla",
       "Kungalv",
       "Goteborg",
@@ -37,16 +37,16 @@
       "Hobro",
       "Viborg",
       "Kragelund",
-      "Nørre Snede",
+      "Nrre Snede",
       "Jelling",
-      "Bække",
+      "Bkke",
       "Jels",
       "Vojens",
-      "Rødekro",
+      "Rdekro",
       "Padborg",
       "Schleswig",
-      "Büdelsdorf",
-      "Neumünster",
+      "Budelsdorf",
+      "Neumunster",
       "Elmshorn",
       "Hamburg",
       "Sittensen",
@@ -54,8 +54,8 @@
       "Bremen",
       "Vechta",
       "Damme",
-      "Osnabrück",
-      "Münster",
+      "Osnabruck",
+      "Munster",
       "Haltern",
       "Wesel",
       "Duisburg",
@@ -66,7 +66,7 @@
       "Heimbach",
       "Aachen",
       "Herve",
-      "Liège",
+      "Liege",
       "Huy",
       "Namur",
       "Charleroi",
@@ -74,12 +74,12 @@
       "Maubeuge",
       "Liessies",
       "Hirson",
-      "Étréaupont",
+      "Etreaupont",
       "Guise",
       "Ribemont",
       "Tergnier",
       "Noyon",
-      "Compiègne",
+      "Compiegne",
       "Pont-Sainte-Maxence",
       "Ver-sur-Launette",
       "Paris",
@@ -88,7 +88,7 @@
       "Fontainebleau",
       "Nemours",
       "Montargis",
-      "Rogny-les-Sept-Écluses",
+      "Rogny-les-Sept-Ecluses",
       "Briare",
       "Sully-sur-Loire",
       "Orleans",
@@ -97,21 +97,21 @@
       "Amboise",
       "Tours",
       "Sainte-Maure-de-Touraine",
-      "Châtellerault",
-      "Lussac-les-Châteaux",
+      "Chatellerault",
+      "Lussac-les-Chateaux",
       "Confolens",
       "Massignac",
       "Marthon",
-      "Angoulême",
+      "Angouleme",
       "Barbezieux-Saint-Hilaire",
-      "Clérac",
+      "Clerac",
       "Libourne",
-      "Créon",
+      "Creon",
       "Bordeaux",
       "Hostens",
       "Langon",
-      "Buzet-sur-Baïse",
-      "Mézin",
+      "Buzet-sur-Baise",
+      "Mezin",
       "Escalans",
       "Mont-de-Marsan",
       "Dax",
@@ -123,14 +123,14 @@
       "Aoiz/Agoitz",
       "Pamplona",
       "Estella-Lizarra",
-      "Logroño",
-      "Nájera",
+      "Logrono",
+      "Najera",
       "Santo Domingo de la Calzada",
       "Redecilla del Camino",
       "Burgos",
       "Castrojeriz",
-      "Frómista",
-      "Sahagún",
+      "Fromista",
+      "Sahagun",
       "Leon",
       "Astorga",
       "Ponferrada",
@@ -147,7 +147,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Trondheim – Fannrem (PLANNING)",
+        "name": "Trondheim – Fannrem",
         "description": "PLANNING",
         "distance_km": 53.856,
         "elevation_gain": 958.7,
@@ -4637,7 +4637,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Fannrem – Voll (PLANNING)",
+        "name": "Fannrem – Voll",
         "description": "PLANNING",
         "distance_km": 51.217,
         "elevation_gain": 991.6,
@@ -7877,7 +7877,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Voll – Oppdal (PLANNING)",
+        "name": "Voll – Oppdal",
         "description": "PLANNING",
         "distance_km": 47.069,
         "elevation_gain": 1065.8,
@@ -10172,7 +10172,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: Oppdal – Hjerkinn (PLANNING)",
+        "name": "Oppdal – Hjerkinn",
         "description": "PLANNING",
         "distance_km": 51.838,
         "elevation_gain": 1240.8,
@@ -13192,7 +13192,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Hjerkinn – Dombås (PLANNING)",
+        "name": "Hjerkinn – Dombås",
         "description": "PLANNING",
         "distance_km": 33.392,
         "elevation_gain": 321.0,
@@ -15927,7 +15927,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Dombås – Vågåmo (PLANNING)",
+        "name": "Dombås – Vågåmo",
         "description": "PLANNING",
         "distance_km": 56.335,
         "elevation_gain": 1158.8,
@@ -19442,7 +19442,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Vågåmo – Vinstra (PLANNING)",
+        "name": "Vågåmo – Vinstra",
         "description": "PLANNING",
         "distance_km": 59.575,
         "elevation_gain": 1133.3,
@@ -22532,7 +22532,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Vinstra – Fåvang (PLANNING)",
+        "name": "Vinstra – Fåvang",
         "description": "PLANNING",
         "distance_km": 38.29,
         "elevation_gain": 1019.3,
@@ -24977,7 +24977,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Fåvang – Lillehammer (PLANNING)",
+        "name": "Fåvang – Lillehammer",
         "description": "PLANNING",
         "distance_km": 52.3,
         "elevation_gain": 1307.3,
@@ -28337,7 +28337,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Lillehammer – Hamar (DEVELOPED_WITH_SIGNS)",
+        "name": "Lillehammer – Hamar",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.557,
         "elevation_gain": 861.3,
@@ -32667,7 +32667,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Hamar – Eidsvoll (DEVELOPED_WITH_SIGNS)",
+        "name": "Hamar – Eidsvoll",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.556,
         "elevation_gain": 857.3,
@@ -36632,7 +36632,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Eidsvoll – Oslo (DEVELOPED_WITH_SIGNS)",
+        "name": "Eidsvoll – Oslo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 72.245,
         "elevation_gain": 669.1,
@@ -42022,7 +42022,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Oslo – Moss (DEVELOPED)",
+        "name": "Oslo – Moss",
         "description": "DEVELOPED",
         "distance_km": 64.799,
         "elevation_gain": 790.0,
@@ -46557,7 +46557,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Moss – Sarpsborg (DEVELOPED)",
+        "name": "Moss – Sarpsborg",
         "description": "DEVELOPED",
         "distance_km": 65.263,
         "elevation_gain": 774.9,
@@ -51187,7 +51187,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Sarpsborg – Svinesund (DEVELOPED)",
+        "name": "Sarpsborg – Svinesund",
         "description": "DEVELOPED",
         "distance_km": 25.471,
         "elevation_gain": 282.8,
@@ -52867,7 +52867,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Svinesund – Stromstad (UNDER_DEVELOPMENT)",
+        "name": "Svinesund – Stromstad",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.988,
         "elevation_gain": 444.9,
@@ -54582,7 +54582,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Stromstad – Fjällbacka (UNDER_DEVELOPMENT)",
+        "name": "Stromstad – Fjällbacka",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.588,
         "elevation_gain": 799.4,
@@ -58562,7 +58562,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Fjällbacka – Uddevalla (UNDER_DEVELOPMENT)",
+        "name": "Fjällbacka – Uddevalla",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.348,
         "elevation_gain": 701.5,
@@ -62702,7 +62702,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Uddevalla – Kungalv (UNDER_DEVELOPMENT)",
+        "name": "Uddevalla – Kungalv",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 81.932,
         "elevation_gain": 1054.6,
@@ -69217,7 +69217,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: Kungalv – Goteborg (UNDER_DEVELOPMENT)",
+        "name": "Kungalv – Goteborg",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.906,
         "elevation_gain": 288.8,
@@ -71542,7 +71542,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Frederikshavn – Dronninglund (DEVELOPED)",
+        "name": "Frederikshavn – Dronninglund",
         "description": "DEVELOPED",
         "distance_km": 59.706,
         "elevation_gain": 622.7,
@@ -75232,7 +75232,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Dronninglund – Aalborg (DEVELOPED)",
+        "name": "Dronninglund – Aalborg",
         "description": "DEVELOPED",
         "distance_km": 34.579,
         "elevation_gain": 173.6,
@@ -76862,7 +76862,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Aalborg – Rebild (DEVELOPED)",
+        "name": "Aalborg – Rebild",
         "description": "DEVELOPED",
         "distance_km": 31.572,
         "elevation_gain": 354.7,
@@ -78972,7 +78972,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Rebild – Hobro (DEVELOPED)",
+        "name": "Rebild – Hobro",
         "description": "DEVELOPED",
         "distance_km": 32.263,
         "elevation_gain": 216.7,
@@ -80622,7 +80622,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: Hobro – Viborg (DEVELOPED)",
+        "name": "Hobro – Viborg",
         "description": "DEVELOPED",
         "distance_km": 42.983,
         "elevation_gain": 397.9,
@@ -82917,7 +82917,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: Viborg – Kragelund (DEVELOPED_WITH_SIGNS)",
+        "name": "Viborg – Kragelund",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.874,
         "elevation_gain": 290.3,
@@ -84727,7 +84727,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Kragelund – Nørre Snede (DEVELOPED)",
+        "name": "Kragelund – Nørre Snede",
         "description": "DEVELOPED",
         "distance_km": 30.961,
         "elevation_gain": 328.3,
@@ -86257,7 +86257,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Nørre Snede – Jelling (DEVELOPED)",
+        "name": "Nørre Snede – Jelling",
         "description": "DEVELOPED",
         "distance_km": 28.446,
         "elevation_gain": 216.3,
@@ -87682,7 +87682,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Jelling – Bække (DEVELOPED)",
+        "name": "Jelling – Bække",
         "description": "DEVELOPED",
         "distance_km": 33.444,
         "elevation_gain": 165.7,
@@ -88997,7 +88997,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Bække – Jels (DEVELOPED)",
+        "name": "Bække – Jels",
         "description": "DEVELOPED",
         "distance_km": 33.488,
         "elevation_gain": 133.3,
@@ -90547,7 +90547,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Jels – Vojens (DEVELOPED)",
+        "name": "Jels – Vojens",
         "description": "DEVELOPED",
         "distance_km": 18.326,
         "elevation_gain": 69.7,
@@ -91337,7 +91337,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Vojens – Rødekro (DEVELOPED)",
+        "name": "Vojens – Rødekro",
         "description": "DEVELOPED",
         "distance_km": 26.14,
         "elevation_gain": 105.4,
@@ -92637,7 +92637,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Rødekro – Padborg (DEVELOPED)",
+        "name": "Rødekro – Padborg",
         "description": "DEVELOPED",
         "distance_km": 38.394,
         "elevation_gain": 121.5,
@@ -94367,7 +94367,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Padborg – Schleswig (DEVELOPED)",
+        "name": "Padborg – Schleswig",
         "description": "DEVELOPED",
         "distance_km": 51.374,
         "elevation_gain": 432.2,
@@ -97697,7 +97697,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: Schleswig – Büdelsdorf (DEVELOPED)",
+        "name": "Schleswig – Büdelsdorf",
         "description": "DEVELOPED",
         "distance_km": 43.344,
         "elevation_gain": 184.2,
@@ -99472,7 +99472,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Büdelsdorf – Neumünster (DEVELOPED)",
+        "name": "Büdelsdorf – Neumünster",
         "description": "DEVELOPED",
         "distance_km": 47.264,
         "elevation_gain": 177.9,
@@ -101867,7 +101867,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: Neumünster – Elmshorn (DEVELOPED)",
+        "name": "Neumünster – Elmshorn",
         "description": "DEVELOPED",
         "distance_km": 65.365,
         "elevation_gain": 233.8,
@@ -105107,7 +105107,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Elmshorn – Hamburg (DEVELOPED)",
+        "name": "Elmshorn – Hamburg",
         "description": "DEVELOPED",
         "distance_km": 46.845,
         "elevation_gain": 348.9,
@@ -107907,7 +107907,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Hamburg – Sittensen (DEVELOPED)",
+        "name": "Hamburg – Sittensen",
         "description": "DEVELOPED",
         "distance_km": 76.49,
         "elevation_gain": 463.9,
@@ -111082,7 +111082,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Sittensen – Zeven (DEVELOPED)",
+        "name": "Sittensen – Zeven",
         "description": "DEVELOPED",
         "distance_km": 22.623,
         "elevation_gain": 99.0,
@@ -111777,7 +111777,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Zeven – Bremen (DEVELOPED)",
+        "name": "Zeven – Bremen",
         "description": "DEVELOPED",
         "distance_km": 66.699,
         "elevation_gain": 229.9,
@@ -114232,7 +114232,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: Bremen – Vechta (DEVELOPED)",
+        "name": "Bremen – Vechta",
         "description": "DEVELOPED",
         "distance_km": 72.936,
         "elevation_gain": 343.8,
@@ -116837,7 +116837,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Vechta – Damme (DEVELOPED)",
+        "name": "Vechta – Damme",
         "description": "DEVELOPED",
         "distance_km": 47.481,
         "elevation_gain": 254.7,
@@ -119252,7 +119252,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Damme – Osnabrück (DEVELOPED)",
+        "name": "Damme – Osnabrück",
         "description": "DEVELOPED",
         "distance_km": 41.063,
         "elevation_gain": 252.8,
@@ -120902,7 +120902,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Osnabrück – Münster (DEVELOPED)",
+        "name": "Osnabrück – Münster",
         "description": "DEVELOPED",
         "distance_km": 73.718,
         "elevation_gain": 640.4,
@@ -125107,7 +125107,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Münster – Haltern (DEVELOPED)",
+        "name": "Münster – Haltern",
         "description": "DEVELOPED",
         "distance_km": 86.397,
         "elevation_gain": 395.7,
@@ -129572,7 +129572,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Haltern – Wesel (DEVELOPED)",
+        "name": "Haltern – Wesel",
         "description": "DEVELOPED",
         "distance_km": 48.704,
         "elevation_gain": 240.5,
@@ -131917,7 +131917,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: Wesel – Duisburg (DEVELOPED_WITH_SIGNS)",
+        "name": "Wesel – Duisburg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.517,
         "elevation_gain": 191.8,
@@ -134137,7 +134137,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Duisburg – Dusseldorf (DEVELOPED_WITH_SIGNS)",
+        "name": "Duisburg – Dusseldorf",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.896,
         "elevation_gain": 162.9,
@@ -135837,7 +135837,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Dusseldorf – Cologne (DEVELOPED_WITH_SIGNS)",
+        "name": "Dusseldorf – Cologne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.052,
         "elevation_gain": 324.8,
@@ -138807,7 +138807,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Cologne – Bonn (DEVELOPED)",
+        "name": "Cologne – Bonn",
         "description": "DEVELOPED",
         "distance_km": 39.026,
         "elevation_gain": 311.4,
@@ -140907,7 +140907,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Bonn – Euskirchen (DEVELOPED)",
+        "name": "Bonn – Euskirchen",
         "description": "DEVELOPED",
         "distance_km": 45.906,
         "elevation_gain": 386.6,
@@ -143322,7 +143322,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Euskirchen – Heimbach (DEVELOPED)",
+        "name": "Euskirchen – Heimbach",
         "description": "DEVELOPED",
         "distance_km": 30.747,
         "elevation_gain": 491.5,
@@ -145942,7 +145942,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Heimbach – Aachen (DEVELOPED)",
+        "name": "Heimbach – Aachen",
         "description": "DEVELOPED",
         "distance_km": 62.324,
         "elevation_gain": 1002.6,
@@ -150347,7 +150347,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: Aachen – Herve (DEVELOPED_WITH_SIGNS)",
+        "name": "Aachen – Herve",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.85,
         "elevation_gain": 539.3,
@@ -152692,7 +152692,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Herve – Liège (DEVELOPED_WITH_SIGNS)",
+        "name": "Herve – Liège",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.218,
         "elevation_gain": 74.4,
@@ -154182,7 +154182,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Liège – Huy (DEVELOPED_WITH_SIGNS)",
+        "name": "Liège – Huy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.122,
         "elevation_gain": 273.9,
@@ -156547,7 +156547,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Huy – Namur (DEVELOPED_WITH_SIGNS)",
+        "name": "Huy – Namur",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.243,
         "elevation_gain": 208.2,
@@ -157987,7 +157987,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Namur – Charleroi (DEVELOPED_WITH_SIGNS)",
+        "name": "Namur – Charleroi",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.322,
         "elevation_gain": 300.1,
@@ -160687,7 +160687,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Charleroi – Erquelinnes (DEVELOPED_WITH_SIGNS)",
+        "name": "Charleroi – Erquelinnes",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.285,
         "elevation_gain": 429.3,
@@ -163467,7 +163467,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Erquelinnes – Maubeuge (DEVELOPED_WITH_SIGNS)",
+        "name": "Erquelinnes – Maubeuge",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 12.954,
         "elevation_gain": 58.0,
@@ -164212,7 +164212,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Maubeuge – Liessies (DEVELOPED_WITH_SIGNS)",
+        "name": "Maubeuge – Liessies",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.122,
         "elevation_gain": 254.7,
@@ -165617,7 +165617,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Liessies – Hirson (DEVELOPED_WITH_SIGNS)",
+        "name": "Liessies – Hirson",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.142,
         "elevation_gain": 432.3,
@@ -167677,7 +167677,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Hirson – Étréaupont (DEVELOPED_WITH_SIGNS)",
+        "name": "Hirson – Étréaupont",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.744,
         "elevation_gain": 84.1,
@@ -168317,7 +168317,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: Étréaupont – Guise (DEVELOPED_WITH_SIGNS)",
+        "name": "Étréaupont – Guise",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.103,
         "elevation_gain": 133.7,
@@ -168982,7 +168982,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Guise – Ribemont (DEVELOPED_WITH_SIGNS)",
+        "name": "Guise – Ribemont",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.89,
         "elevation_gain": 189.4,
@@ -169797,7 +169797,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Ribemont – Tergnier (DEVELOPED_WITH_SIGNS)",
+        "name": "Ribemont – Tergnier",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.604,
         "elevation_gain": 26.7,
@@ -170187,7 +170187,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Tergnier – Noyon (DEVELOPED_WITH_SIGNS)",
+        "name": "Tergnier – Noyon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.203,
         "elevation_gain": 42.2,
@@ -170632,7 +170632,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Noyon – Compiègne (DEVELOPED_WITH_SIGNS)",
+        "name": "Noyon – Compiègne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.427,
         "elevation_gain": 151.1,
@@ -171717,7 +171717,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Compiègne – Pont-Sainte-Maxence (DEVELOPED_WITH_SIGNS)",
+        "name": "Compiègne – Pont-Sainte-Maxence",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.402,
         "elevation_gain": 165.2,
@@ -173537,7 +173537,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Pont-Sainte-Maxence – Ver-sur-Launette (DEVELOPED_WITH_SIGNS)",
+        "name": "Pont-Sainte-Maxence – Ver-sur-Launette",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.884,
         "elevation_gain": 291.7,
@@ -174642,7 +174642,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Ver-sur-Launette – Paris (UNDER_DEVELOPMENT)",
+        "name": "Ver-sur-Launette – Paris",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 53.332,
         "elevation_gain": 245.0,
@@ -176752,7 +176752,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: Paris – Corbeil-Essones (DEVELOPED_WITH_SIGNS)",
+        "name": "Paris – Corbeil-Essones",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.564,
         "elevation_gain": 205.3,
@@ -179132,7 +179132,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Corbeil-Essones – Melun (UNDER_DEVELOPMENT)",
+        "name": "Corbeil-Essones – Melun",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 26.143,
         "elevation_gain": 202.5,
@@ -180317,7 +180317,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Melun – Fontainebleau (DEVELOPED_WITH_SIGNS)",
+        "name": "Melun – Fontainebleau",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.568,
         "elevation_gain": 190.0,
@@ -181162,7 +181162,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: Fontainebleau – Nemours (DEVELOPED_WITH_SIGNS)",
+        "name": "Fontainebleau – Nemours",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.19,
         "elevation_gain": 149.2,
@@ -182377,7 +182377,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Nemours – Montargis (DEVELOPED_WITH_SIGNS)",
+        "name": "Nemours – Montargis",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.579,
         "elevation_gain": 282.1,
@@ -183762,7 +183762,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: Montargis – Rogny-les-Sept-Écluses (DEVELOPED_WITH_SIGNS)",
+        "name": "Montargis – Rogny-les-Sept-Écluses",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.323,
         "elevation_gain": 281.8,
@@ -185592,7 +185592,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Rogny-les-Sept-Écluses – Briare (DEVELOPED_WITH_SIGNS)",
+        "name": "Rogny-les-Sept-Écluses – Briare",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.876,
         "elevation_gain": 131.4,
@@ -186982,7 +186982,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Briare – Sully-sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Briare – Sully-sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.529,
         "elevation_gain": 238.5,
@@ -188927,7 +188927,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Sully-sur-Loire – Orleans (DEVELOPED_WITH_SIGNS)",
+        "name": "Sully-sur-Loire – Orleans",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.28,
         "elevation_gain": 299.6,
@@ -191882,7 +191882,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: Orleans – Meung-sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Orleans – Meung-sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.077,
         "elevation_gain": 118.4,
@@ -193112,7 +193112,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: Meung-sur-Loire – Blois (DEVELOPED_WITH_SIGNS)",
+        "name": "Meung-sur-Loire – Blois",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.687,
         "elevation_gain": 209.4,
@@ -195287,7 +195287,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: Blois – Amboise (UNDER_DEVELOPMENT)",
+        "name": "Blois – Amboise",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.941,
         "elevation_gain": 358.2,
@@ -198222,7 +198222,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Amboise – Tours (UNDER_DEVELOPMENT)",
+        "name": "Amboise – Tours",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.858,
         "elevation_gain": 269.7,
@@ -200477,7 +200477,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Tours – Sainte-Maure-de-Touraine (UNDER_DEVELOPMENT)",
+        "name": "Tours – Sainte-Maure-de-Touraine",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.862,
         "elevation_gain": 306.3,
@@ -202837,7 +202837,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Sainte-Maure-de-Touraine – Châtellerault (DEVELOPED_WITH_SIGNS)",
+        "name": "Sainte-Maure-de-Touraine – Châtellerault",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.256,
         "elevation_gain": 257.6,
@@ -204967,7 +204967,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Châtellerault – Lussac-les-Châteaux (DEVELOPED_WITH_SIGNS)",
+        "name": "Châtellerault – Lussac-les-Châteaux",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.543,
         "elevation_gain": 463.6,
@@ -208322,7 +208322,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Lussac-les-Châteaux – Confolens (DEVELOPED_WITH_SIGNS)",
+        "name": "Lussac-les-Châteaux – Confolens",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.111,
         "elevation_gain": 914.0,
@@ -211382,7 +211382,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Confolens – Massignac (DEVELOPED_WITH_SIGNS)",
+        "name": "Confolens – Massignac",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.685,
         "elevation_gain": 684.6,
@@ -213417,7 +213417,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Massignac – Marthon (DEVELOPED_WITH_SIGNS)",
+        "name": "Massignac – Marthon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.789,
         "elevation_gain": 495.8,
@@ -215217,7 +215217,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Marthon – Angoulême (DEVELOPED_WITH_SIGNS)",
+        "name": "Marthon – Angoulême",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.268,
         "elevation_gain": 226.0,
@@ -217732,7 +217732,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: Angoulême – Barbezieux-Saint-Hilaire (DEVELOPED_WITH_SIGNS)",
+        "name": "Angoulême – Barbezieux-Saint-Hilaire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.232,
         "elevation_gain": 419.3,
@@ -221222,7 +221222,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Barbezieux-Saint-Hilaire – Clérac (DEVELOPED_WITH_SIGNS)",
+        "name": "Barbezieux-Saint-Hilaire – Clérac",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.531,
         "elevation_gain": 246.5,
@@ -222702,7 +222702,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Clérac – Libourne (DEVELOPED_WITH_SIGNS)",
+        "name": "Clérac – Libourne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.262,
         "elevation_gain": 291.1,
@@ -224672,7 +224672,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Libourne – Créon (DEVELOPED_WITH_SIGNS)",
+        "name": "Libourne – Créon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.746,
         "elevation_gain": 352.6,
@@ -226162,7 +226162,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Créon – Bordeaux (DEVELOPED_WITH_SIGNS)",
+        "name": "Créon – Bordeaux",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.733,
         "elevation_gain": 81.5,
@@ -227122,7 +227122,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Bordeaux – Hostens (DEVELOPED_WITH_SIGNS)",
+        "name": "Bordeaux – Hostens",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.189,
         "elevation_gain": 328.4,
@@ -229252,7 +229252,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Hostens – Langon (DEVELOPED_WITH_SIGNS)",
+        "name": "Hostens – Langon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.136,
         "elevation_gain": 156.2,
@@ -230312,7 +230312,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Langon – Buzet-sur-Baïse (DEVELOPED_WITH_SIGNS)",
+        "name": "Langon – Buzet-sur-Baïse",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.696,
         "elevation_gain": 490.6,
@@ -232692,7 +232692,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: Buzet-sur-Baïse – Mézin (DEVELOPED_WITH_SIGNS)",
+        "name": "Buzet-sur-Baïse – Mézin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.125,
         "elevation_gain": 380.7,
@@ -234297,7 +234297,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Mézin – Escalans (DEVELOPED_WITH_SIGNS)",
+        "name": "Mézin – Escalans",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.153,
         "elevation_gain": 283.8,
@@ -235402,7 +235402,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Escalans – Mont-de-Marsan (DEVELOPED_WITH_SIGNS)",
+        "name": "Escalans – Mont-de-Marsan",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.111,
         "elevation_gain": 345.2,
@@ -237127,7 +237127,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Mont-de-Marsan – Dax (DEVELOPED_WITH_SIGNS)",
+        "name": "Mont-de-Marsan – Dax",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.889,
         "elevation_gain": 473.9,
@@ -240812,7 +240812,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Dax – Urt (DEVELOPED_WITH_SIGNS)",
+        "name": "Dax – Urt",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.169,
         "elevation_gain": 318.3,
@@ -243412,7 +243412,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Urt – Saint-Palais (DEVELOPED_WITH_SIGNS)",
+        "name": "Urt – Saint-Palais",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.161,
         "elevation_gain": 624.1,
@@ -247277,7 +247277,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Saint-Palais – Saint-Jean-Pied-de-Port (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Palais – Saint-Jean-Pied-de-Port",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.388,
         "elevation_gain": 953.1,
@@ -250412,7 +250412,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: Saint-Jean-Pied-de-Port – Cabane d'Orgambide (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Jean-Pied-de-Port – Cabane d'Orgambide",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.681,
         "elevation_gain": 1199.9,
@@ -252497,7 +252497,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Cabane d'Orgambide – Roncesvalles (DEVELOPED_WITH_SIGNS)",
+        "name": "Cabane d'Orgambide – Roncesvalles",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.572,
         "elevation_gain": 629.5,
@@ -254297,7 +254297,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Roncesvalles – Aoiz/Agoitz (DEVELOPED_WITH_SIGNS)",
+        "name": "Roncesvalles – Aoiz/Agoitz",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.86,
         "elevation_gain": 1058.7,
@@ -258842,7 +258842,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Aoiz/Agoitz – Pamplona (DEVELOPED_WITH_SIGNS)",
+        "name": "Aoiz/Agoitz – Pamplona",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.361,
         "elevation_gain": 391.9,
@@ -261042,7 +261042,7 @@
       "type": "Feature",
       "properties": {
         "stage": 112,
-        "name": "112: Pamplona – Estella-Lizarra (DEVELOPED_WITH_SIGNS)",
+        "name": "Pamplona – Estella-Lizarra",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.838,
         "elevation_gain": 1116.7,
@@ -265647,7 +265647,7 @@
       "type": "Feature",
       "properties": {
         "stage": 113,
-        "name": "113: Estella-Lizarra – Logroño (DEVELOPED_WITH_SIGNS)",
+        "name": "Estella-Lizarra – Logroño",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.477,
         "elevation_gain": 861.3,
@@ -269262,7 +269262,7 @@
       "type": "Feature",
       "properties": {
         "stage": 114,
-        "name": "114: Logroño – Nájera (DEVELOPED)",
+        "name": "Logroño – Nájera",
         "description": "DEVELOPED",
         "distance_km": 33.318,
         "elevation_gain": 509.7,
@@ -272032,7 +272032,7 @@
       "type": "Feature",
       "properties": {
         "stage": 115,
-        "name": "115: Nájera – Santo Domingo de la Calzada (DEVELOPED)",
+        "name": "Nájera – Santo Domingo de la Calzada",
         "description": "DEVELOPED",
         "distance_km": 44.059,
         "elevation_gain": 708.7,
@@ -274247,7 +274247,7 @@
       "type": "Feature",
       "properties": {
         "stage": 116,
-        "name": "116: Santo Domingo de la Calzada – Redecilla del Camino (DEVELOPED)",
+        "name": "Santo Domingo de la Calzada – Redecilla del Camino",
         "description": "DEVELOPED",
         "distance_km": 13.63,
         "elevation_gain": 256.5,
@@ -275007,7 +275007,7 @@
       "type": "Feature",
       "properties": {
         "stage": 117,
-        "name": "117: Redecilla del Camino – Burgos (DEVELOPED_WITH_SIGNS)",
+        "name": "Redecilla del Camino – Burgos",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.856,
         "elevation_gain": 934.6,
@@ -279132,7 +279132,7 @@
       "type": "Feature",
       "properties": {
         "stage": 118,
-        "name": "118: Burgos – Castrojeriz (DEVELOPED_WITH_SIGNS)",
+        "name": "Burgos – Castrojeriz",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.602,
         "elevation_gain": 485.2,
@@ -282117,7 +282117,7 @@
       "type": "Feature",
       "properties": {
         "stage": 119,
-        "name": "119: Castrojeriz – Frómista (DEVELOPED_WITH_SIGNS)",
+        "name": "Castrojeriz – Frómista",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.603,
         "elevation_gain": 160.9,
@@ -283152,7 +283152,7 @@
       "type": "Feature",
       "properties": {
         "stage": 120,
-        "name": "120: Frómista – Sahagún (DEVELOPED)",
+        "name": "Frómista – Sahagún",
         "description": "DEVELOPED",
         "distance_km": 52.296,
         "elevation_gain": 321.4,
@@ -284702,7 +284702,7 @@
       "type": "Feature",
       "properties": {
         "stage": 121,
-        "name": "121: Sahagún – Leon (DEVELOPED)",
+        "name": "Sahagún – Leon",
         "description": "DEVELOPED",
         "distance_km": 63.382,
         "elevation_gain": 238.0,
@@ -286207,7 +286207,7 @@
       "type": "Feature",
       "properties": {
         "stage": 122,
-        "name": "122: Leon – Astorga (DEVELOPED)",
+        "name": "Leon – Astorga",
         "description": "DEVELOPED",
         "distance_km": 56.987,
         "elevation_gain": 442.8,
@@ -288517,7 +288517,7 @@
       "type": "Feature",
       "properties": {
         "stage": 123,
-        "name": "123: Astorga – Ponferrada (DEVELOPED)",
+        "name": "Astorga – Ponferrada",
         "description": "DEVELOPED",
         "distance_km": 55.121,
         "elevation_gain": 1114.4,
@@ -292247,7 +292247,7 @@
       "type": "Feature",
       "properties": {
         "stage": 124,
-        "name": "124: Ponferrada – Pedrafita do Cebreiro (DEVELOPED)",
+        "name": "Ponferrada – Pedrafita do Cebreiro",
         "description": "DEVELOPED",
         "distance_km": 48.831,
         "elevation_gain": 1629.9,
@@ -295797,7 +295797,7 @@
       "type": "Feature",
       "properties": {
         "stage": 125,
-        "name": "125: Pedrafita do Cebreiro – Sarria (DEVELOPED_WITH_SIGNS)",
+        "name": "Pedrafita do Cebreiro – Sarria",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.075,
         "elevation_gain": 1972.6,
@@ -300617,7 +300617,7 @@
       "type": "Feature",
       "properties": {
         "stage": 126,
-        "name": "126: Sarria – Melide (DEVELOPED_WITH_SIGNS)",
+        "name": "Sarria – Melide",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.341,
         "elevation_gain": 1594.2,
@@ -306012,7 +306012,7 @@
       "type": "Feature",
       "properties": {
         "stage": 127,
-        "name": "127: Melide – Santiago de Compostela (DEVELOPED_WITH_SIGNS)",
+        "name": "Melide – Santiago de Compostela",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.383,
         "elevation_gain": 1391.2,
@@ -310252,7 +310252,7 @@
       "type": "Feature",
       "properties": {
         "stage": 128,
-        "name": "128: Santiago de Compostela – Olveiroa (DEVELOPED_WITH_SIGNS)",
+        "name": "Santiago de Compostela – Olveiroa",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.072,
         "elevation_gain": 1276.4,
@@ -314392,7 +314392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 129,
-        "name": "129: Olveiroa – Fisterra (DEVELOPED_WITH_SIGNS)",
+        "name": "Olveiroa – Fisterra",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.138,
         "elevation_gain": 849.9,

@@ -10,31 +10,31 @@
     "total_stages": 176,
     "cities": [
       "Stockholm",
-      "Åkersberga",
+      "Akersberga",
       "Gavel",
-      "Österbybruk",
+      "Osterbybruk",
       "Marma",
-      "Gävle",
+      "Gavle",
       "Bergby",
-      "Söderhamn",
+      "Soderhamn",
       "Hudiksvall",
-      "Harmånger",
-      "Armsjötorpet",
+      "Harmanger",
+      "Armsjotorpet",
       "Sundsvall",
       "Bergeforsen",
-      "Härnösand",
-      "Ullånger",
-      "Örnsköldsvik",
+      "Harnosand",
+      "Ullanger",
+      "Ornskoldsvik",
       "Husum",
       "Nordmaling",
       "Umea",
       "Robertsfors",
-      "Lövånger",
-      "Skellefteå",
+      "Lovanger",
+      "Skelleftea",
       "Byske",
       "Pitea",
       "Lulea",
-      "Töre",
+      "Tore",
       "Kalix",
       "Haparanda",
       "Kemi",
@@ -42,14 +42,14 @@
       "Oulu",
       "Liminka",
       "Siikajoki",
-      "Pyhäjoki",
+      "Pyhajoki",
       "Kalajoki",
       "Kokkola",
       "Pietarsaari",
       "Oravainen",
       "Vaasa",
       "Malax",
-      "Närpes",
+      "Narpes",
       "Christinestad",
       "Merikarvia",
       "Yyteri",
@@ -57,14 +57,14 @@
       "Eurajoki",
       "Rauma",
       "Uusikaupunki",
-      "Mynämäki",
+      "Mynamaki",
       "Askainen",
       "Turku",
       "Paimio",
       "Salo",
       "Matilda",
-      "Ekenäs",
-      "Ingå",
+      "Ekenas",
+      "Inga",
       "Kirkkonummi",
       "Helsinki",
       "Porvoo",
@@ -75,7 +75,7 @@
       "Vyborg",
       "St Petersburg",
       "Narva",
-      "Silamäe",
+      "Silamae",
       "Aseri alevik",
       "Karula",
       "Vosu",
@@ -83,31 +83,31 @@
       "Haavakannu",
       "Tallinn",
       "Paldiski",
-      "Nõva küla",
+      "Nova kula",
       "Ridala Parish",
-      "Pühalepa Parish",
-      "Kõrgessaare",
+      "Puhalepa Parish",
+      "Korgessaare",
       "Emmaste Parish",
       "Leisi Parish",
-      "Mustjala küla",
+      "Mustjala kula",
       "Kihelkonna Parish",
       "Kuressaare",
       "Orissaare",
       "Muhu",
       "Hanila",
-      "Tõstamaa",
-      "Pärnu",
-      "Ainaži",
-      "Salacgrīva",
+      "Tostamaa",
+      "Parnu",
+      "Ainazi",
+      "Salacgriva",
       "Saulkrasti",
       "Riga, Latvia",
-      "Jūrmala",
+      "Jurmala",
       "Klapkalnciems",
       "Roja",
       "Kolka",
       "Jaunupe",
       "Ventspils",
-      "Pāvilosta",
+      "Pavilosta",
       "Saraiki",
       "Liepaja",
       "Butinge",
@@ -119,15 +119,15 @@
       "Mikoszewo",
       "Gdansk, Poland",
       "Gdynia",
-      "Sławoszyno",
+      "Sawoszyno",
       "Leba",
       "Rowy",
       "Ustka",
-      "Darłowo",
+      "Darowo",
       "Mielno",
-      "Kołobrzeg",
-      "Dziwnówek",
-      "Świnoujście Port",
+      "Koobrzeg",
+      "Dziwnowek",
+      "Swinoujscie Port",
       "Wolgast",
       "University and Hanseatic City of Greifswald",
       "Hanseatic town Stralsund",
@@ -138,57 +138,57 @@
       "Zingst",
       "Rostock",
       "Wismar",
-      "Travemünde-Priwall",
+      "Travemunde-Priwall",
       "Neustadt in Holstein",
-      "Großenbrode",
+      "Groenbrode",
       "Puttgarden",
       "Oldenburg (Holstein)",
-      "Schönberger Strand",
+      "Schonberger Strand",
       "Kiel",
-      "Eckernförde",
+      "Eckernforde",
       "Kappeln",
       "Padborg",
-      "Sønderborg",
+      "Snderborg",
       "Fynshav, Augustenborg",
-      "Søby",
+      "Sby",
       "Aeroskobing",
       "Svendborg",
       "Nakskov",
-      "Rødbyhavn",
+      "Rdbyhavn",
       "Maribo",
-      "Nykøbing Falster",
-      "Stubbekøbing",
-      "Møns Klint",
+      "Nykbing Falster",
+      "Stubbekbing",
+      "Mns Klint",
       "Stege",
-      "Rødvig",
-      "Køge",
+      "Rdvig",
+      "Kge",
       "Copenhagen",
-      "Malmö",
-      "Skanör",
+      "Malmo",
+      "Skanor",
       "Trelleborg",
       "Ystad",
-      "Rønne",
+      "Rnne",
       "Allinge",
       "Svaneke",
       "Dueodde",
       "Simrishamn",
-      "Brösarp",
+      "Brosarp",
       "Kristianstad",
-      "Sölvesborg",
+      "Solvesborg",
       "Karlshamn",
       "Karlskrona",
-      "Torsås",
+      "Torsas",
       "Smedby",
-      "Mönsterås",
+      "Monsteras",
       "Oskarshamn",
       "Figeholm",
       "Blankaholm",
-      "Västervik",
+      "Vastervik",
       "Loftahammar",
       "Valdemarsvik",
-      "Söderköping",
-      "Nyköping",
-      "Vagnhärad"
+      "Soderkoping",
+      "Nykoping",
+      "Vagnharad"
     ]
   },
   "features": [
@@ -196,7 +196,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Stockholm – Åkersberga (UNDER_DEVELOPMENT)",
+        "name": "Stockholm – Åkersberga",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.775,
         "elevation_gain": 623.1,
@@ -3831,7 +3831,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Åkersberga – Gavel (UNDER_DEVELOPMENT)",
+        "name": "Åkersberga – Gavel",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 50.96,
         "elevation_gain": 541.7,
@@ -6686,7 +6686,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Gavel – Österbybruk (UNDER_DEVELOPMENT)",
+        "name": "Gavel – Österbybruk",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 56.573,
         "elevation_gain": 433.4,
@@ -7951,7 +7951,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: Österbybruk – Marma (UNDER_DEVELOPMENT)",
+        "name": "Österbybruk – Marma",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 63.35,
         "elevation_gain": 435.2,
@@ -9486,7 +9486,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Marma – Gävle (UNDER_DEVELOPMENT)",
+        "name": "Marma – Gävle",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.262,
         "elevation_gain": 85.1,
@@ -10161,7 +10161,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Gävle – Bergby (UNDER_DEVELOPMENT)",
+        "name": "Gävle – Bergby",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 48.572,
         "elevation_gain": 155.5,
@@ -11061,7 +11061,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Bergby – Söderhamn (UNDER_DEVELOPMENT)",
+        "name": "Bergby – Söderhamn",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 51.003,
         "elevation_gain": 193.1,
@@ -11976,7 +11976,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Söderhamn – Hudiksvall (UNDER_DEVELOPMENT)",
+        "name": "Söderhamn – Hudiksvall",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 67.46,
         "elevation_gain": 504.2,
@@ -13376,7 +13376,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Hudiksvall – Harmånger (UNDER_DEVELOPMENT)",
+        "name": "Hudiksvall – Harmånger",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 35.492,
         "elevation_gain": 226.3,
@@ -14246,7 +14246,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Harmånger – Armsjötorpet (UNDER_DEVELOPMENT)",
+        "name": "Harmånger – Armsjötorpet",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.13,
         "elevation_gain": 341.4,
@@ -15261,7 +15261,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Armsjötorpet – Sundsvall (UNDER_DEVELOPMENT)",
+        "name": "Armsjötorpet – Sundsvall",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.953,
         "elevation_gain": 216.7,
@@ -16686,7 +16686,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Sundsvall – Bergeforsen (UNDER_DEVELOPMENT)",
+        "name": "Sundsvall – Bergeforsen",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 24.101,
         "elevation_gain": 284.9,
@@ -18566,7 +18566,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Bergeforsen – Härnösand (UNDER_DEVELOPMENT)",
+        "name": "Bergeforsen – Härnösand",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.828,
         "elevation_gain": 521.3,
@@ -19401,7 +19401,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Härnösand – Ullånger (UNDER_DEVELOPMENT)",
+        "name": "Härnösand – Ullånger",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 80.128,
         "elevation_gain": 1242.4,
@@ -21166,7 +21166,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Ullånger – Örnsköldsvik (UNDER_DEVELOPMENT)",
+        "name": "Ullånger – Örnsköldsvik",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.432,
         "elevation_gain": 1046.1,
@@ -22456,7 +22456,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Örnsköldsvik – Husum (UNDER_DEVELOPMENT)",
+        "name": "Örnsköldsvik – Husum",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.119,
         "elevation_gain": 309.4,
@@ -23486,7 +23486,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Husum – Nordmaling (UNDER_DEVELOPMENT)",
+        "name": "Husum – Nordmaling",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 71.204,
         "elevation_gain": 669.4,
@@ -24851,7 +24851,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Nordmaling – Umea (UNDER_DEVELOPMENT)",
+        "name": "Nordmaling – Umea",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 62.276,
         "elevation_gain": 255.0,
@@ -26026,7 +26026,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Umea – Robertsfors (UNDER_DEVELOPMENT)",
+        "name": "Umea – Robertsfors",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 76.114,
         "elevation_gain": 390.9,
@@ -27251,7 +27251,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: Robertsfors – Lövånger (UNDER_DEVELOPMENT)",
+        "name": "Robertsfors – Lövånger",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.062,
         "elevation_gain": 269.9,
@@ -28036,7 +28036,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Lövånger – Skellefteå (UNDER_DEVELOPMENT)",
+        "name": "Lövånger – Skellefteå",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 71.316,
         "elevation_gain": 362.2,
@@ -29151,7 +29151,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Skellefteå – Byske (UNDER_DEVELOPMENT)",
+        "name": "Skellefteå – Byske",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.878,
         "elevation_gain": 215.2,
@@ -30061,7 +30061,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Byske – Pitea (UNDER_DEVELOPMENT)",
+        "name": "Byske – Pitea",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.542,
         "elevation_gain": 303.0,
@@ -30771,7 +30771,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Pitea – Lulea (UNDER_DEVELOPMENT)",
+        "name": "Pitea – Lulea",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 76.899,
         "elevation_gain": 247.6,
@@ -31836,7 +31836,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: Lulea – Töre (UNDER_DEVELOPMENT)",
+        "name": "Lulea – Töre",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 73.267,
         "elevation_gain": 286.7,
@@ -33396,7 +33396,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: Töre – Kalix (UNDER_DEVELOPMENT)",
+        "name": "Töre – Kalix",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 31.929,
         "elevation_gain": 115.0,
@@ -33926,7 +33926,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Kalix – Haparanda (UNDER_DEVELOPMENT)",
+        "name": "Kalix – Haparanda",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 66.414,
         "elevation_gain": 287.1,
@@ -34761,7 +34761,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Haparanda – Kemi (UNDER_DEVELOPMENT)",
+        "name": "Haparanda – Kemi",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 27.164,
         "elevation_gain": 83.2,
@@ -36216,7 +36216,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Kemi – Kuivaniemi (UNDER_DEVELOPMENT)",
+        "name": "Kemi – Kuivaniemi",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 47.067,
         "elevation_gain": 142.6,
@@ -37506,7 +37506,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Kuivaniemi – Oulu (UNDER_DEVELOPMENT)",
+        "name": "Kuivaniemi – Oulu",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 74.711,
         "elevation_gain": 147.5,
@@ -39811,7 +39811,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Oulu – Liminka (UNDER_DEVELOPMENT)",
+        "name": "Oulu – Liminka",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 26.363,
         "elevation_gain": 26.6,
@@ -40521,7 +40521,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Liminka – Siikajoki (UNDER_DEVELOPMENT)",
+        "name": "Liminka – Siikajoki",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.837,
         "elevation_gain": 47.4,
@@ -41261,7 +41261,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Siikajoki – Pyhäjoki (UNDER_DEVELOPMENT)",
+        "name": "Siikajoki – Pyhäjoki",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 54.427,
         "elevation_gain": 75.6,
@@ -42611,7 +42611,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Pyhäjoki – Kalajoki (UNDER_DEVELOPMENT)",
+        "name": "Pyhäjoki – Kalajoki",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 52.2,
         "elevation_gain": 105.1,
@@ -43581,7 +43581,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: Kalajoki – Kokkola (UNDER_DEVELOPMENT)",
+        "name": "Kalajoki – Kokkola",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 89.402,
         "elevation_gain": 220.8,
@@ -45631,7 +45631,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Kokkola – Pietarsaari (UNDER_DEVELOPMENT)",
+        "name": "Kokkola – Pietarsaari",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.085,
         "elevation_gain": 76.5,
@@ -46376,7 +46376,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: Pietarsaari – Oravainen (UNDER_DEVELOPMENT)",
+        "name": "Pietarsaari – Oravainen",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.359,
         "elevation_gain": 152.5,
@@ -48126,7 +48126,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Oravainen – Vaasa (UNDER_DEVELOPMENT)",
+        "name": "Oravainen – Vaasa",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 75.258,
         "elevation_gain": 241.6,
@@ -50381,7 +50381,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Vaasa – Malax (DEVELOPED_WITH_SIGNS)",
+        "name": "Vaasa – Malax",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.842,
         "elevation_gain": 82.2,
@@ -51981,7 +51981,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Malax – Närpes (DEVELOPED_WITH_SIGNS)",
+        "name": "Malax – Närpes",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 79.236,
         "elevation_gain": 141.3,
@@ -54806,7 +54806,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Närpes – Christinestad (DEVELOPED_WITH_SIGNS)",
+        "name": "Närpes – Christinestad",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.134,
         "elevation_gain": 98.5,
@@ -55966,7 +55966,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: Christinestad – Merikarvia (DEVELOPED_WITH_SIGNS)",
+        "name": "Christinestad – Merikarvia",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.869,
         "elevation_gain": 148.3,
@@ -59056,7 +59056,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Merikarvia – Yyteri (DEVELOPED_WITH_SIGNS)",
+        "name": "Merikarvia – Yyteri",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.344,
         "elevation_gain": 134.8,
@@ -61356,7 +61356,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Yyteri – Pori (DEVELOPED_WITH_SIGNS)",
+        "name": "Yyteri – Pori",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.284,
         "elevation_gain": 21.0,
@@ -62476,7 +62476,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Pori – Eurajoki (DEVELOPED_WITH_SIGNS)",
+        "name": "Pori – Eurajoki",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.481,
         "elevation_gain": 140.8,
@@ -65406,7 +65406,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Eurajoki – Rauma (DEVELOPED_WITH_SIGNS)",
+        "name": "Eurajoki – Rauma",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.615,
         "elevation_gain": 76.6,
@@ -67116,7 +67116,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Rauma – Uusikaupunki (DEVELOPED_WITH_SIGNS)",
+        "name": "Rauma – Uusikaupunki",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.938,
         "elevation_gain": 171.8,
@@ -70211,7 +70211,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: Uusikaupunki – Mynämäki (DEVELOPED_WITH_SIGNS)",
+        "name": "Uusikaupunki – Mynämäki",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.369,
         "elevation_gain": 233.2,
@@ -73626,7 +73626,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Mynämäki – Askainen (DEVELOPED_WITH_SIGNS)",
+        "name": "Mynämäki – Askainen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.895,
         "elevation_gain": 54.1,
@@ -74871,7 +74871,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Askainen – Turku (DEVELOPED_WITH_SIGNS)",
+        "name": "Askainen – Turku",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.68,
         "elevation_gain": 318.6,
@@ -77936,7 +77936,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Turku – Paimio (DEVELOPED_WITH_SIGNS)",
+        "name": "Turku – Paimio",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.635,
         "elevation_gain": 202.8,
@@ -79676,7 +79676,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Paimio – Salo (DEVELOPED_WITH_SIGNS)",
+        "name": "Paimio – Salo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.874,
         "elevation_gain": 260.8,
@@ -81476,7 +81476,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Salo – Matilda (DEVELOPED_WITH_SIGNS)",
+        "name": "Salo – Matilda",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.617,
         "elevation_gain": 382.6,
@@ -82876,7 +82876,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Matilda – Ekenäs (DEVELOPED_WITH_SIGNS)",
+        "name": "Matilda – Ekenäs",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.476,
         "elevation_gain": 650.2,
@@ -85666,7 +85666,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: Ekenäs – Ingå (DEVELOPED_WITH_SIGNS)",
+        "name": "Ekenäs – Ingå",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.086,
         "elevation_gain": 560.7,
@@ -89036,7 +89036,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Ingå – Kirkkonummi (DEVELOPED_WITH_SIGNS)",
+        "name": "Ingå – Kirkkonummi",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.402,
         "elevation_gain": 404.9,
@@ -90376,7 +90376,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Kirkkonummi – Helsinki (DEVELOPED)",
+        "name": "Kirkkonummi – Helsinki",
         "description": "DEVELOPED",
         "distance_km": 44.708,
         "elevation_gain": 426.4,
@@ -91796,7 +91796,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Helsinki – Porvoo (DEVELOPED_WITH_SIGNS)",
+        "name": "Helsinki – Porvoo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.99,
         "elevation_gain": 798.2,
@@ -96206,7 +96206,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Porvoo – Loviisa (DEVELOPED_WITH_SIGNS)",
+        "name": "Porvoo – Loviisa",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.593,
         "elevation_gain": 440.2,
@@ -98871,7 +98871,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Loviisa – Kotka (DEVELOPED_WITH_SIGNS)",
+        "name": "Loviisa – Kotka",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.011,
         "elevation_gain": 322.0,
@@ -102791,7 +102791,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Kotka – Hamina (DEVELOPED_WITH_SIGNS)",
+        "name": "Kotka – Hamina",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.493,
         "elevation_gain": 174.8,
@@ -104921,7 +104921,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Hamina – Vaalimaa (DEVELOPED_WITH_SIGNS)",
+        "name": "Hamina – Vaalimaa",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.345,
         "elevation_gain": 404.4,
@@ -108616,7 +108616,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Vaalimaa – Vyborg (UNDER_DEVELOPMENT)",
+        "name": "Vaalimaa – Vyborg",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 56.266,
         "elevation_gain": 251.7,
@@ -110246,7 +110246,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Vyborg – St Petersburg (UNDER_DEVELOPMENT)",
+        "name": "Vyborg – St Petersburg",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 182.736,
         "elevation_gain": 0.0,
@@ -117871,7 +117871,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: St Petersburg – Narva (UNDER_DEVELOPMENT)",
+        "name": "St Petersburg – Narva",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 188.414,
         "elevation_gain": 0.0,
@@ -121376,7 +121376,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Narva – Silamäe (DEVELOPED_WITH_SIGNS)",
+        "name": "Narva – Silamäe",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.417,
         "elevation_gain": 161.3,
@@ -122331,7 +122331,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Silamäe – Aseri alevik (DEVELOPED_WITH_SIGNS)",
+        "name": "Silamäe – Aseri alevik",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.91,
         "elevation_gain": 351.6,
@@ -124901,7 +124901,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Aseri alevik – Karula (DEVELOPED_WITH_SIGNS)",
+        "name": "Aseri alevik – Karula",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.398,
         "elevation_gain": 265.8,
@@ -126256,7 +126256,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Vosu – Karula (DEVELOPED_WITH_SIGNS)",
+        "name": "Vosu – Karula",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.11,
         "elevation_gain": 159.1,
@@ -127341,7 +127341,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Loksa – Vosu (DEVELOPED_WITH_SIGNS)",
+        "name": "Loksa – Vosu",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.275,
         "elevation_gain": 326.8,
@@ -129991,7 +129991,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Haavakannu – Loksa (DEVELOPED_WITH_SIGNS)",
+        "name": "Haavakannu – Loksa",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.654,
         "elevation_gain": 274.6,
@@ -132191,7 +132191,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Tallinn – Haavakannu (DEVELOPED_WITH_SIGNS)",
+        "name": "Tallinn – Haavakannu",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.095,
         "elevation_gain": 214.2,
@@ -134536,7 +134536,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: Tallinn – Paldiski (DEVELOPED_WITH_SIGNS)",
+        "name": "Tallinn – Paldiski",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.025,
         "elevation_gain": 244.2,
@@ -136916,7 +136916,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Paldiski – Nõva küla (DEVELOPED_WITH_SIGNS)",
+        "name": "Paldiski – Nõva küla",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.256,
         "elevation_gain": 183.3,
@@ -138756,7 +138756,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Nõva küla – Ridala Parish (DEVELOPED_WITH_SIGNS)",
+        "name": "Nõva küla – Ridala Parish",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.927,
         "elevation_gain": 179.2,
@@ -140821,7 +140821,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: Pühalepa Parish – Kõrgessaare (DEVELOPED_WITH_SIGNS)",
+        "name": "Pühalepa Parish – Kõrgessaare",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.657,
         "elevation_gain": 119.4,
@@ -141811,7 +141811,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Kõrgessaare – Emmaste Parish (DEVELOPED_WITH_SIGNS)",
+        "name": "Kõrgessaare – Emmaste Parish",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.644,
         "elevation_gain": 130.5,
@@ -143101,7 +143101,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: Leisi Parish – Mustjala küla (DEVELOPED_WITH_SIGNS)",
+        "name": "Leisi Parish – Mustjala küla",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.028,
         "elevation_gain": 245.2,
@@ -144956,7 +144956,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Mustjala küla – Kihelkonna Parish (DEVELOPED_WITH_SIGNS)",
+        "name": "Mustjala küla – Kihelkonna Parish",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.73,
         "elevation_gain": 131.5,
@@ -145836,7 +145836,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Kihelkonna Parish – Kuressaare (DEVELOPED_WITH_SIGNS)",
+        "name": "Kihelkonna Parish – Kuressaare",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.41,
         "elevation_gain": 184.5,
@@ -147086,7 +147086,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Kuressaare – Orissaare (DEVELOPED_WITH_SIGNS)",
+        "name": "Kuressaare – Orissaare",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.972,
         "elevation_gain": 139.6,
@@ -148331,7 +148331,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: Orissaare – Muhu (DEVELOPED_WITH_SIGNS)",
+        "name": "Orissaare – Muhu",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.944,
         "elevation_gain": 97.9,
@@ -149256,7 +149256,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: Hanila – Tõstamaa (DEVELOPED_WITH_SIGNS)",
+        "name": "Hanila – Tõstamaa",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.419,
         "elevation_gain": 164.8,
@@ -150781,7 +150781,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: Tõstamaa – Pärnu (DEVELOPED_WITH_SIGNS)",
+        "name": "Tõstamaa – Pärnu",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.095,
         "elevation_gain": 136.5,
@@ -152456,7 +152456,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Pärnu – Ainaži (DEVELOPED_WITH_SIGNS)",
+        "name": "Pärnu – Ainaži",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.489,
         "elevation_gain": 240.7,
@@ -154196,7 +154196,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Ainaži – Salacgrīva (UNDER_DEVELOPMENT)",
+        "name": "Ainaži – Salacgrīva",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 14.128,
         "elevation_gain": 26.4,
@@ -154286,7 +154286,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Salacgrīva – Saulkrasti (UNDER_DEVELOPMENT)",
+        "name": "Salacgrīva – Saulkrasti",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 75.076,
         "elevation_gain": 220.8,
@@ -154811,7 +154811,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Saulkrasti – Riga, Latvia (UNDER_DEVELOPMENT)",
+        "name": "Saulkrasti – Riga, Latvia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 51.974,
         "elevation_gain": 133.0,
@@ -155546,7 +155546,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Riga, Latvia – Jūrmala (DEVELOPED_WITH_SIGNS)",
+        "name": "Riga, Latvia – Jūrmala",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.384,
         "elevation_gain": 46.5,
@@ -155986,7 +155986,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Jūrmala – Klapkalnciems (DEVELOPED_WITH_SIGNS)",
+        "name": "Jūrmala – Klapkalnciems",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.548,
         "elevation_gain": 26.8,
@@ -156226,7 +156226,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Klapkalnciems – Roja (DEVELOPED)",
+        "name": "Klapkalnciems – Roja",
         "description": "DEVELOPED",
         "distance_km": 66.371,
         "elevation_gain": 100.4,
@@ -156551,7 +156551,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Roja – Kolka (UNDER_DEVELOPMENT)",
+        "name": "Roja – Kolka",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.015,
         "elevation_gain": 27.7,
@@ -156661,7 +156661,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: Kolka – Jaunupe (DEVELOPED)",
+        "name": "Kolka – Jaunupe",
         "description": "DEVELOPED",
         "distance_km": 58.582,
         "elevation_gain": 36.9,
@@ -156836,7 +156836,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Jaunupe – Ventspils (DEVELOPED_WITH_SIGNS)",
+        "name": "Jaunupe – Ventspils",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.646,
         "elevation_gain": 32.6,
@@ -157036,7 +157036,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Ventspils – Pāvilosta (DEVELOPED)",
+        "name": "Ventspils – Pāvilosta",
         "description": "DEVELOPED",
         "distance_km": 70.909,
         "elevation_gain": 142.5,
@@ -157451,7 +157451,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Pāvilosta – Saraiki (UNDER_DEVELOPMENT)",
+        "name": "Pāvilosta – Saraiki",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 31.13,
         "elevation_gain": 38.5,
@@ -157666,7 +157666,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Saraiki – Liepaja (DEVELOPED_WITH_SIGNS)",
+        "name": "Saraiki – Liepaja",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.261,
         "elevation_gain": 37.2,
@@ -157866,7 +157866,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Liepaja – Butinge (UNDER_DEVELOPMENT)",
+        "name": "Liepaja – Butinge",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 53.759,
         "elevation_gain": 34.5,
@@ -158011,7 +158011,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Butinge – Klaipeda (UNDER_DEVELOPMENT)",
+        "name": "Butinge – Klaipeda",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 47.864,
         "elevation_gain": 80.9,
@@ -158436,7 +158436,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Klaipeda – Neringa municipality (DEVELOPED)",
+        "name": "Klaipeda – Neringa municipality",
         "description": "DEVELOPED",
         "distance_km": 57.108,
         "elevation_gain": 220.0,
@@ -161221,7 +161221,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: Neringa municipality – Kaliningrad (UNDER_DEVELOPMENT)",
+        "name": "Neringa municipality – Kaliningrad",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 177.533,
         "elevation_gain": 384.5,
@@ -162346,7 +162346,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Kaliningrad – Gronowo (UNDER_DEVELOPMENT)",
+        "name": "Kaliningrad – Gronowo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 53.67,
         "elevation_gain": 212.1,
@@ -163111,7 +163111,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Gronowo – Elblag (PLANNING)",
+        "name": "Gronowo – Elblag",
         "description": "PLANNING",
         "distance_km": 56.762,
         "elevation_gain": 415.0,
@@ -164941,7 +164941,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Elblag – Mikoszewo (DEVELOPED_WITH_SIGNS)",
+        "name": "Elblag – Mikoszewo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.962,
         "elevation_gain": 156.1,
@@ -167526,7 +167526,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Mikoszewo – Gdansk, Poland (DEVELOPED_WITH_SIGNS)",
+        "name": "Mikoszewo – Gdansk, Poland",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.801,
         "elevation_gain": 75.5,
@@ -168381,7 +168381,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Gdansk, Poland – Gdynia (DEVELOPED_WITH_SIGNS)",
+        "name": "Gdansk, Poland – Gdynia",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.986,
         "elevation_gain": 146.3,
@@ -169646,7 +169646,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Gdynia – Sławoszyno (DEVELOPED_WITH_SIGNS)",
+        "name": "Gdynia – Sławoszyno",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.135,
         "elevation_gain": 324.2,
@@ -171891,7 +171891,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: Sławoszyno – Leba (DEVELOPED_WITH_SIGNS)",
+        "name": "Sławoszyno – Leba",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.008,
         "elevation_gain": 298.2,
@@ -174136,7 +174136,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Leba – Rowy (DEVELOPED_WITH_SIGNS)",
+        "name": "Leba – Rowy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.865,
         "elevation_gain": 334.4,
@@ -176066,7 +176066,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Rowy – Ustka (DEVELOPED_WITH_SIGNS)",
+        "name": "Rowy – Ustka",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.635,
         "elevation_gain": 123.9,
@@ -176756,7 +176756,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Ustka – Darłowo (DEVELOPED_WITH_SIGNS)",
+        "name": "Ustka – Darłowo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.557,
         "elevation_gain": 175.5,
@@ -177976,7 +177976,7 @@
       "type": "Feature",
       "properties": {
         "stage": 112,
-        "name": "112: Darłowo – Mielno (DEVELOPED_WITH_SIGNS)",
+        "name": "Darłowo – Mielno",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.7,
         "elevation_gain": 171.5,
@@ -180321,7 +180321,7 @@
       "type": "Feature",
       "properties": {
         "stage": 113,
-        "name": "113: Mielno – Kołobrzeg (DEVELOPED_WITH_SIGNS)",
+        "name": "Mielno – Kołobrzeg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.265,
         "elevation_gain": 177.9,
@@ -182446,7 +182446,7 @@
       "type": "Feature",
       "properties": {
         "stage": 114,
-        "name": "114: Kołobrzeg – Dziwnówek (DEVELOPED_WITH_SIGNS)",
+        "name": "Kołobrzeg – Dziwnówek",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.594,
         "elevation_gain": 272.4,
@@ -184776,7 +184776,7 @@
       "type": "Feature",
       "properties": {
         "stage": 115,
-        "name": "115: Dziwnówek – Świnoujście Port (DEVELOPED_WITH_SIGNS)",
+        "name": "Dziwnówek – Świnoujście Port",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.853,
         "elevation_gain": 316.7,
@@ -186661,7 +186661,7 @@
       "type": "Feature",
       "properties": {
         "stage": 116,
-        "name": "116: Świnoujście Port – Wolgast (DEVELOPED)",
+        "name": "Świnoujście Port – Wolgast",
         "description": "DEVELOPED",
         "distance_km": 40.564,
         "elevation_gain": 280.2,
@@ -188571,7 +188571,7 @@
       "type": "Feature",
       "properties": {
         "stage": 117,
-        "name": "117: Wolgast – University and Hanseatic City of Greifswald (DEVELOPED)",
+        "name": "Wolgast – University and Hanseatic City of Greifswald",
         "description": "DEVELOPED",
         "distance_km": 51.552,
         "elevation_gain": 267.1,
@@ -191121,7 +191121,7 @@
       "type": "Feature",
       "properties": {
         "stage": 118,
-        "name": "118: University and Hanseatic City of Greifswald – Hanseatic town Stralsund (DEVELOPED)",
+        "name": "University and Hanseatic City of Greifswald – Hanseatic town Stralsund",
         "description": "DEVELOPED",
         "distance_km": 38.103,
         "elevation_gain": 128.2,
@@ -192021,7 +192021,7 @@
       "type": "Feature",
       "properties": {
         "stage": 119,
-        "name": "119: Hanseatic town Stralsund – Putbus (DEVELOPED)",
+        "name": "Hanseatic town Stralsund – Putbus",
         "description": "DEVELOPED",
         "distance_km": 43.91,
         "elevation_gain": 275.9,
@@ -194141,7 +194141,7 @@
       "type": "Feature",
       "properties": {
         "stage": 120,
-        "name": "120: Putbus – Ostseebad Binz (DEVELOPED)",
+        "name": "Putbus – Ostseebad Binz",
         "description": "DEVELOPED",
         "distance_km": 49.498,
         "elevation_gain": 399.4,
@@ -197536,7 +197536,7 @@
       "type": "Feature",
       "properties": {
         "stage": 121,
-        "name": "121: Ostseebad Binz – Cape Arkona (DEVELOPED)",
+        "name": "Ostseebad Binz – Cape Arkona",
         "description": "DEVELOPED",
         "distance_km": 65.865,
         "elevation_gain": 676.0,
@@ -202191,7 +202191,7 @@
       "type": "Feature",
       "properties": {
         "stage": 122,
-        "name": "122: Cape Arkona – Gingst (DEVELOPED)",
+        "name": "Cape Arkona – Gingst",
         "description": "DEVELOPED",
         "distance_km": 63.977,
         "elevation_gain": 279.2,
@@ -205221,7 +205221,7 @@
       "type": "Feature",
       "properties": {
         "stage": 123,
-        "name": "123: Gingst – Hanseatic town Stralsund (DEVELOPED)",
+        "name": "Gingst – Hanseatic town Stralsund",
         "description": "DEVELOPED",
         "distance_km": 47.546,
         "elevation_gain": 156.9,
@@ -207431,7 +207431,7 @@
       "type": "Feature",
       "properties": {
         "stage": 124,
-        "name": "124: Hanseatic town Stralsund – Zingst (DEVELOPED)",
+        "name": "Hanseatic town Stralsund – Zingst",
         "description": "DEVELOPED",
         "distance_km": 56.089,
         "elevation_gain": 176.8,
@@ -209666,7 +209666,7 @@
       "type": "Feature",
       "properties": {
         "stage": 125,
-        "name": "125: Zingst – Rostock (DEVELOPED)",
+        "name": "Zingst – Rostock",
         "description": "DEVELOPED",
         "distance_km": 64.243,
         "elevation_gain": 203.8,
@@ -211806,7 +211806,7 @@
       "type": "Feature",
       "properties": {
         "stage": 126,
-        "name": "126: Rostock – Wismar (DEVELOPED)",
+        "name": "Rostock – Wismar",
         "description": "DEVELOPED",
         "distance_km": 69.864,
         "elevation_gain": 376.2,
@@ -214471,7 +214471,7 @@
       "type": "Feature",
       "properties": {
         "stage": 127,
-        "name": "127: Wismar – Travemünde-Priwall (DEVELOPED)",
+        "name": "Wismar – Travemünde-Priwall",
         "description": "DEVELOPED",
         "distance_km": 55.185,
         "elevation_gain": 380.5,
@@ -216976,7 +216976,7 @@
       "type": "Feature",
       "properties": {
         "stage": 128,
-        "name": "128: Travemünde-Priwall – Neustadt in Holstein (DEVELOPED)",
+        "name": "Travemünde-Priwall – Neustadt in Holstein",
         "description": "DEVELOPED",
         "distance_km": 26.846,
         "elevation_gain": 190.6,
@@ -218886,7 +218886,7 @@
       "type": "Feature",
       "properties": {
         "stage": 129,
-        "name": "129: Neustadt in Holstein – Großenbrode (DEVELOPED)",
+        "name": "Neustadt in Holstein – Großenbrode",
         "description": "DEVELOPED",
         "distance_km": 66.789,
         "elevation_gain": 315.8,
@@ -223086,7 +223086,7 @@
       "type": "Feature",
       "properties": {
         "stage": 130,
-        "name": "130: Großenbrode – Puttgarden (DEVELOPED)",
+        "name": "Großenbrode – Puttgarden",
         "description": "DEVELOPED",
         "distance_km": 32.187,
         "elevation_gain": 156.4,
@@ -224881,7 +224881,7 @@
       "type": "Feature",
       "properties": {
         "stage": 131,
-        "name": "131: Puttgarden – Großenbrode (DEVELOPED)",
+        "name": "Puttgarden – Großenbrode",
         "description": "DEVELOPED",
         "distance_km": 37.95,
         "elevation_gain": 61.6,
@@ -226521,7 +226521,7 @@
       "type": "Feature",
       "properties": {
         "stage": 132,
-        "name": "132: Großenbrode – Oldenburg (Holstein) (DEVELOPED)",
+        "name": "Großenbrode – Oldenburg (Holstein)",
         "description": "DEVELOPED",
         "distance_km": 32.144,
         "elevation_gain": 168.2,
@@ -228121,7 +228121,7 @@
       "type": "Feature",
       "properties": {
         "stage": 133,
-        "name": "133: Oldenburg (Holstein) – Schönberger Strand (DEVELOPED)",
+        "name": "Oldenburg (Holstein) – Schönberger Strand",
         "description": "DEVELOPED",
         "distance_km": 42.784,
         "elevation_gain": 211.6,
@@ -230321,7 +230321,7 @@
       "type": "Feature",
       "properties": {
         "stage": 134,
-        "name": "134: Schönberger Strand – Kiel (DEVELOPED)",
+        "name": "Schönberger Strand – Kiel",
         "description": "DEVELOPED",
         "distance_km": 30.797,
         "elevation_gain": 172.5,
@@ -231836,7 +231836,7 @@
       "type": "Feature",
       "properties": {
         "stage": 135,
-        "name": "135: Kiel – Eckernförde (DEVELOPED)",
+        "name": "Kiel – Eckernförde",
         "description": "DEVELOPED",
         "distance_km": 46.954,
         "elevation_gain": 285.7,
@@ -233891,7 +233891,7 @@
       "type": "Feature",
       "properties": {
         "stage": 136,
-        "name": "136: Eckernförde – Kappeln (DEVELOPED)",
+        "name": "Eckernförde – Kappeln",
         "description": "DEVELOPED",
         "distance_km": 44.669,
         "elevation_gain": 212.8,
@@ -236216,7 +236216,7 @@
       "type": "Feature",
       "properties": {
         "stage": 137,
-        "name": "137: Kappeln – Padborg (DEVELOPED)",
+        "name": "Kappeln – Padborg",
         "description": "DEVELOPED",
         "distance_km": 79.088,
         "elevation_gain": 677.2,
@@ -240761,7 +240761,7 @@
       "type": "Feature",
       "properties": {
         "stage": 138,
-        "name": "138: Padborg – Sønderborg (DEVELOPED)",
+        "name": "Padborg – Sønderborg",
         "description": "DEVELOPED",
         "distance_km": 33.386,
         "elevation_gain": 360.1,
@@ -242851,7 +242851,7 @@
       "type": "Feature",
       "properties": {
         "stage": 139,
-        "name": "139: Sønderborg – Fynshav, Augustenborg (DEVELOPED_WITH_SIGNS)",
+        "name": "Sønderborg – Fynshav, Augustenborg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.603,
         "elevation_gain": 220.0,
@@ -244531,7 +244531,7 @@
       "type": "Feature",
       "properties": {
         "stage": 140,
-        "name": "140: Søby – Aeroskobing (DEVELOPED_WITH_SIGNS)",
+        "name": "Søby – Aeroskobing",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.473,
         "elevation_gain": 175.6,
@@ -245781,7 +245781,7 @@
       "type": "Feature",
       "properties": {
         "stage": 141,
-        "name": "141: Svendborg – Nakskov (DEVELOPED_WITH_SIGNS)",
+        "name": "Svendborg – Nakskov",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.871,
         "elevation_gain": 185.8,
@@ -247916,7 +247916,7 @@
       "type": "Feature",
       "properties": {
         "stage": 142,
-        "name": "142: Nakskov – Rødbyhavn (DEVELOPED_WITH_SIGNS)",
+        "name": "Nakskov – Rødbyhavn",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.512,
         "elevation_gain": 86.8,
@@ -249776,7 +249776,7 @@
       "type": "Feature",
       "properties": {
         "stage": 143,
-        "name": "143: Rødbyhavn – Maribo (DEVELOPED_WITH_SIGNS)",
+        "name": "Rødbyhavn – Maribo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.467,
         "elevation_gain": 56.6,
@@ -250661,7 +250661,7 @@
       "type": "Feature",
       "properties": {
         "stage": 144,
-        "name": "144: Maribo – Nykøbing Falster (DEVELOPED_WITH_SIGNS)",
+        "name": "Maribo – Nykøbing Falster",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.306,
         "elevation_gain": 67.8,
@@ -251571,7 +251571,7 @@
       "type": "Feature",
       "properties": {
         "stage": 145,
-        "name": "145: Nykøbing Falster – Stubbekøbing (DEVELOPED_WITH_SIGNS)",
+        "name": "Nykøbing Falster – Stubbekøbing",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.58,
         "elevation_gain": 181.1,
@@ -253126,7 +253126,7 @@
       "type": "Feature",
       "properties": {
         "stage": 146,
-        "name": "146: Stubbekøbing – Møns Klint (DEVELOPED_WITH_SIGNS)",
+        "name": "Stubbekøbing – Møns Klint",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.335,
         "elevation_gain": 376.1,
@@ -255566,7 +255566,7 @@
       "type": "Feature",
       "properties": {
         "stage": 147,
-        "name": "147: Møns Klint – Stege (DEVELOPED_WITH_SIGNS)",
+        "name": "Møns Klint – Stege",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.428,
         "elevation_gain": 134.7,
@@ -256751,7 +256751,7 @@
       "type": "Feature",
       "properties": {
         "stage": 148,
-        "name": "148: Rødvig – Stege (DEVELOPED_WITH_SIGNS)",
+        "name": "Rødvig – Stege",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.694,
         "elevation_gain": 357.3,
@@ -259796,7 +259796,7 @@
       "type": "Feature",
       "properties": {
         "stage": 149,
-        "name": "149: Køge – Rødvig (DEVELOPED_WITH_SIGNS)",
+        "name": "Køge – Rødvig",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.959,
         "elevation_gain": 127.2,
@@ -261161,7 +261161,7 @@
       "type": "Feature",
       "properties": {
         "stage": 150,
-        "name": "150: Køge – Copenhagen (DEVELOPED_WITH_SIGNS)",
+        "name": "Køge – Copenhagen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.561,
         "elevation_gain": 201.3,
@@ -264051,7 +264051,7 @@
       "type": "Feature",
       "properties": {
         "stage": 151,
-        "name": "151: Malmö – Skanör (DEVELOPED)",
+        "name": "Malmö – Skanör",
         "description": "DEVELOPED",
         "distance_km": 46.72,
         "elevation_gain": 142.5,
@@ -266656,7 +266656,7 @@
       "type": "Feature",
       "properties": {
         "stage": 152,
-        "name": "152: Skanör – Trelleborg (DEVELOPED)",
+        "name": "Skanör – Trelleborg",
         "description": "DEVELOPED",
         "distance_km": 31.601,
         "elevation_gain": 89.2,
@@ -268266,7 +268266,7 @@
       "type": "Feature",
       "properties": {
         "stage": 153,
-        "name": "153: Trelleborg – Ystad (DEVELOPED)",
+        "name": "Trelleborg – Ystad",
         "description": "DEVELOPED",
         "distance_km": 47.086,
         "elevation_gain": 134.1,
@@ -270566,7 +270566,7 @@
       "type": "Feature",
       "properties": {
         "stage": 154,
-        "name": "154: Rønne – Allinge (DEVELOPED)",
+        "name": "Rønne – Allinge",
         "description": "DEVELOPED",
         "distance_km": 25.013,
         "elevation_gain": 307.4,
@@ -272411,7 +272411,7 @@
       "type": "Feature",
       "properties": {
         "stage": 155,
-        "name": "155: Allinge – Svaneke (DEVELOPED)",
+        "name": "Allinge – Svaneke",
         "description": "DEVELOPED",
         "distance_km": 29.657,
         "elevation_gain": 299.3,
@@ -273806,7 +273806,7 @@
       "type": "Feature",
       "properties": {
         "stage": 156,
-        "name": "156: Svaneke – Dueodde (DEVELOPED)",
+        "name": "Svaneke – Dueodde",
         "description": "DEVELOPED",
         "distance_km": 19.44,
         "elevation_gain": 107.8,
@@ -274736,7 +274736,7 @@
       "type": "Feature",
       "properties": {
         "stage": 157,
-        "name": "157: Dueodde – Rønne (DEVELOPED)",
+        "name": "Dueodde – Rønne",
         "description": "DEVELOPED",
         "distance_km": 29.257,
         "elevation_gain": 131.0,
@@ -275476,7 +275476,7 @@
       "type": "Feature",
       "properties": {
         "stage": 158,
-        "name": "158: Ystad – Simrishamn (DEVELOPED)",
+        "name": "Ystad – Simrishamn",
         "description": "DEVELOPED",
         "distance_km": 53.734,
         "elevation_gain": 218.8,
@@ -278021,7 +278021,7 @@
       "type": "Feature",
       "properties": {
         "stage": 159,
-        "name": "159: Simrishamn – Brösarp (DEVELOPED)",
+        "name": "Simrishamn – Brösarp",
         "description": "DEVELOPED",
         "distance_km": 49.418,
         "elevation_gain": 492.9,
@@ -281011,7 +281011,7 @@
       "type": "Feature",
       "properties": {
         "stage": 160,
-        "name": "160: Brösarp – Kristianstad (DEVELOPED)",
+        "name": "Brösarp – Kristianstad",
         "description": "DEVELOPED",
         "distance_km": 53.033,
         "elevation_gain": 229.1,
@@ -283251,7 +283251,7 @@
       "type": "Feature",
       "properties": {
         "stage": 161,
-        "name": "161: Kristianstad – Sölvesborg (DEVELOPED)",
+        "name": "Kristianstad – Sölvesborg",
         "description": "DEVELOPED",
         "distance_km": 33.087,
         "elevation_gain": 166.2,
@@ -285176,7 +285176,7 @@
       "type": "Feature",
       "properties": {
         "stage": 162,
-        "name": "162: Sölvesborg – Karlshamn (DEVELOPED)",
+        "name": "Sölvesborg – Karlshamn",
         "description": "DEVELOPED",
         "distance_km": 32.921,
         "elevation_gain": 211.2,
@@ -287101,7 +287101,7 @@
       "type": "Feature",
       "properties": {
         "stage": 163,
-        "name": "163: Karlshamn – Karlskrona (PLANNING)",
+        "name": "Karlshamn – Karlskrona",
         "description": "PLANNING",
         "distance_km": 78.652,
         "elevation_gain": 715.9,
@@ -288986,7 +288986,7 @@
       "type": "Feature",
       "properties": {
         "stage": 164,
-        "name": "164: Karlskrona – Torsås (PLANNING)",
+        "name": "Karlskrona – Torsås",
         "description": "PLANNING",
         "distance_km": 58.96,
         "elevation_gain": 344.5,
@@ -290441,7 +290441,7 @@
       "type": "Feature",
       "properties": {
         "stage": 165,
-        "name": "165: Torsås – Smedby (PLANNING)",
+        "name": "Torsås – Smedby",
         "description": "PLANNING",
         "distance_km": 40.712,
         "elevation_gain": 160.4,
@@ -291236,7 +291236,7 @@
       "type": "Feature",
       "properties": {
         "stage": 166,
-        "name": "166: Smedby – Mönsterås (UNDER_DEVELOPMENT)",
+        "name": "Smedby – Mönsterås",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.064,
         "elevation_gain": 233.1,
@@ -292621,7 +292621,7 @@
       "type": "Feature",
       "properties": {
         "stage": 167,
-        "name": "167: Mönsterås – Oskarshamn (UNDER_DEVELOPMENT)",
+        "name": "Mönsterås – Oskarshamn",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 27.801,
         "elevation_gain": 109.3,
@@ -293236,7 +293236,7 @@
       "type": "Feature",
       "properties": {
         "stage": 168,
-        "name": "168: Oskarshamn – Figeholm (UNDER_DEVELOPMENT)",
+        "name": "Oskarshamn – Figeholm",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 51.987,
         "elevation_gain": 300.8,
@@ -294451,7 +294451,7 @@
       "type": "Feature",
       "properties": {
         "stage": 169,
-        "name": "169: Figeholm – Blankaholm (UNDER_DEVELOPMENT)",
+        "name": "Figeholm – Blankaholm",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.448,
         "elevation_gain": 196.0,
@@ -295101,7 +295101,7 @@
       "type": "Feature",
       "properties": {
         "stage": 170,
-        "name": "170: Blankaholm – Västervik (UNDER_DEVELOPMENT)",
+        "name": "Blankaholm – Västervik",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 44.006,
         "elevation_gain": 466.3,
@@ -296261,7 +296261,7 @@
       "type": "Feature",
       "properties": {
         "stage": 171,
-        "name": "171: Västervik – Loftahammar (UNDER_DEVELOPMENT)",
+        "name": "Västervik – Loftahammar",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 45.814,
         "elevation_gain": 315.2,
@@ -297086,7 +297086,7 @@
       "type": "Feature",
       "properties": {
         "stage": 172,
-        "name": "172: Loftahammar – Valdemarsvik (UNDER_DEVELOPMENT)",
+        "name": "Loftahammar – Valdemarsvik",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.478,
         "elevation_gain": 333.4,
@@ -297741,7 +297741,7 @@
       "type": "Feature",
       "properties": {
         "stage": 173,
-        "name": "173: Valdemarsvik – Söderköping (UNDER_DEVELOPMENT)",
+        "name": "Valdemarsvik – Söderköping",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 45.755,
         "elevation_gain": 479.8,
@@ -298856,7 +298856,7 @@
       "type": "Feature",
       "properties": {
         "stage": 174,
-        "name": "174: Söderköping – Nyköping (UNDER_DEVELOPMENT)",
+        "name": "Söderköping – Nyköping",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 65.937,
         "elevation_gain": 593.0,
@@ -300426,7 +300426,7 @@
       "type": "Feature",
       "properties": {
         "stage": 175,
-        "name": "175: Nyköping – Vagnhärad (UNDER_DEVELOPMENT)",
+        "name": "Nyköping – Vagnhärad",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 54.676,
         "elevation_gain": 364.9,
@@ -301226,7 +301226,7 @@
       "type": "Feature",
       "properties": {
         "stage": 176,
-        "name": "176: Vagnhärad – Stockholm (UNDER_DEVELOPMENT)",
+        "name": "Vagnhärad – Stockholm",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 67.439,
         "elevation_gain": 855.7,
