@@ -177,7 +177,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Cadiz – Conil de la Frontera (DEVELOPED_WITH_SIGNS)",
+        "name": "Cadiz – Conil de la Frontera",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.432,
         "elevation_gain": 380.9,
@@ -3862,7 +3862,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Conil de la Frontera – Facinas (DEVELOPED)",
+        "name": "Conil de la Frontera – Facinas",
         "description": "DEVELOPED",
         "distance_km": 80.106,
         "elevation_gain": 981.1,
@@ -8402,7 +8402,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Facinas – San Roque (DEVELOPED_WITH_SIGNS)",
+        "name": "Facinas – San Roque",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.193,
         "elevation_gain": 863.6,
@@ -12442,7 +12442,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: San Roque – Estepona (DEVELOPED)",
+        "name": "San Roque – Estepona",
         "description": "DEVELOPED",
         "distance_km": 48.35,
         "elevation_gain": 540.9,
@@ -15622,7 +15622,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Estepona – Marbella (PLANNING)",
+        "name": "Estepona – Marbella",
         "description": "PLANNING",
         "distance_km": 31.775,
         "elevation_gain": 289.9,
@@ -18422,7 +18422,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Marbella – Fuengirola (PLANNING)",
+        "name": "Marbella – Fuengirola",
         "description": "PLANNING",
         "distance_km": 31.069,
         "elevation_gain": 362.8,
@@ -21687,7 +21687,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Fuengirola – Malaga (PLANNING)",
+        "name": "Fuengirola – Malaga",
         "description": "PLANNING",
         "distance_km": 30.228,
         "elevation_gain": 373.5,
@@ -24247,7 +24247,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Malaga – Torre del Mar (DEVELOPED)",
+        "name": "Malaga – Torre del Mar",
         "description": "DEVELOPED",
         "distance_km": 32.432,
         "elevation_gain": 232.4,
@@ -26027,7 +26027,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Torre del Mar – Almuñecar (UNDER_DEVELOPMENT)",
+        "name": "Torre del Mar – Almuñecar",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 47.217,
         "elevation_gain": 1374.5,
@@ -30027,7 +30027,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Almuñecar – Castell de Ferro (DEVELOPED)",
+        "name": "Almuñecar – Castell de Ferro",
         "description": "DEVELOPED",
         "distance_km": 45.359,
         "elevation_gain": 933.3,
@@ -33697,7 +33697,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Castell de Ferro – Adra (DEVELOPED)",
+        "name": "Castell de Ferro – Adra",
         "description": "DEVELOPED",
         "distance_km": 37.069,
         "elevation_gain": 1275.9,
@@ -36712,7 +36712,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Adra – Almeria (UNDER_DEVELOPMENT)",
+        "name": "Adra – Almeria",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.294,
         "elevation_gain": 767.7,
@@ -40337,7 +40337,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Almeria – Cabo de Gata (DEVELOPED_WITH_SIGNS)",
+        "name": "Almeria – Cabo de Gata",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.67,
         "elevation_gain": 798.1,
@@ -43557,7 +43557,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Cabo de Gata – Carboneras (DEVELOPED_WITH_SIGNS)",
+        "name": "Cabo de Gata – Carboneras",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.462,
         "elevation_gain": 777.8,
@@ -45612,7 +45612,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Carboneras – Villaricos (DEVELOPED)",
+        "name": "Carboneras – Villaricos",
         "description": "DEVELOPED",
         "distance_km": 34.515,
         "elevation_gain": 640.0,
@@ -48107,7 +48107,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Villaricos – Águilas (DEVELOPED_WITH_SIGNS)",
+        "name": "Villaricos – Águilas",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.697,
         "elevation_gain": 413.1,
@@ -49752,7 +49752,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Águilas – Mazarrón (DEVELOPED_WITH_SIGNS)",
+        "name": "Águilas – Mazarrón",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.789,
         "elevation_gain": 1000.0,
@@ -54137,7 +54137,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Mazarrón – Cartagena (DEVELOPED_WITH_SIGNS)",
+        "name": "Mazarrón – Cartagena",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.74,
         "elevation_gain": 599.4,
@@ -56717,7 +56717,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Cartagena – San Pedro del Pinatar (DEVELOPED_WITH_SIGNS)",
+        "name": "Cartagena – San Pedro del Pinatar",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.734,
         "elevation_gain": 598.8,
@@ -59547,7 +59547,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: San Pedro del Pinatar – Murcia (DEVELOPED_WITH_SIGNS)",
+        "name": "San Pedro del Pinatar – Murcia",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.201,
         "elevation_gain": 571.6,
@@ -62577,7 +62577,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Murcia – Guardamar del Segura (DEVELOPED)",
+        "name": "Murcia – Guardamar del Segura",
         "description": "DEVELOPED",
         "distance_km": 49.407,
         "elevation_gain": 169.4,
@@ -65967,7 +65967,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Guardamar del Segura – Elche (DEVELOPED)",
+        "name": "Guardamar del Segura – Elche",
         "description": "DEVELOPED",
         "distance_km": 22.264,
         "elevation_gain": 113.1,
@@ -67212,7 +67212,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Elche – Alicante (DEVELOPED)",
+        "name": "Elche – Alicante",
         "description": "DEVELOPED",
         "distance_km": 35.973,
         "elevation_gain": 184.2,
@@ -69667,7 +69667,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Alicante – Castalla (DEVELOPED)",
+        "name": "Alicante – Castalla",
         "description": "DEVELOPED",
         "distance_km": 53.242,
         "elevation_gain": 963.3,
@@ -73557,7 +73557,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: Castalla – Muro de Alcoy (DEVELOPED)",
+        "name": "Castalla – Muro de Alcoy",
         "description": "DEVELOPED",
         "distance_km": 41.619,
         "elevation_gain": 591.0,
@@ -75812,7 +75812,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: Muro de Alcoy – Gandia (DEVELOPED)",
+        "name": "Muro de Alcoy – Gandia",
         "description": "DEVELOPED",
         "distance_km": 44.522,
         "elevation_gain": 649.6,
@@ -79752,7 +79752,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Gandia – Sollana (DEVELOPED_WITH_SIGNS)",
+        "name": "Gandia – Sollana",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.507,
         "elevation_gain": 140.4,
@@ -82317,7 +82317,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Sollana – Valencia (DEVELOPED_WITH_SIGNS)",
+        "name": "Sollana – Valencia",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.892,
         "elevation_gain": 118.6,
@@ -84027,7 +84027,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Valencia – Sagunt (DEVELOPED_WITH_SIGNS)",
+        "name": "Valencia – Sagunt",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.975,
         "elevation_gain": 197.9,
@@ -86272,7 +86272,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Sagunt – Castellon de la Plana (DEVELOPED_WITH_SIGNS)",
+        "name": "Sagunt – Castellon de la Plana",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.734,
         "elevation_gain": 244.6,
@@ -90052,7 +90052,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Castellon de la Plana – Alcossebre (DEVELOPED)",
+        "name": "Castellon de la Plana – Alcossebre",
         "description": "DEVELOPED",
         "distance_km": 49.346,
         "elevation_gain": 195.3,
@@ -92692,7 +92692,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Alcossebre – Ulldecona (DEVELOPED_WITH_SIGNS)",
+        "name": "Alcossebre – Ulldecona",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.685,
         "elevation_gain": 690.7,
@@ -97207,7 +97207,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Ulldecona – Vandellos i l'Hospitalet de l'Infant (PLANNING)",
+        "name": "Ulldecona – Vandellos i l'Hospitalet de l'Infant",
         "description": "PLANNING",
         "distance_km": 80.245,
         "elevation_gain": 675.1,
@@ -101727,7 +101727,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Vandellos i l'Hospitalet de l'Infant – El Vendrell (PLANNING)",
+        "name": "Vandellos i l'Hospitalet de l'Infant – El Vendrell",
         "description": "PLANNING",
         "distance_km": 69.128,
         "elevation_gain": 604.8,
@@ -106392,7 +106392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: El Vendrell – Sitges (PLANNING)",
+        "name": "El Vendrell – Sitges",
         "description": "PLANNING",
         "distance_km": 29.048,
         "elevation_gain": 262.7,
@@ -108222,7 +108222,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Sitges – Barcelona (DEVELOPED_WITH_SIGNS)",
+        "name": "Sitges – Barcelona",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.711,
         "elevation_gain": 456.5,
@@ -110562,7 +110562,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: Barcelona – Premia de Mar (DEVELOPED_WITH_SIGNS)",
+        "name": "Barcelona – Premia de Mar",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.759,
         "elevation_gain": 87.1,
@@ -111162,7 +111162,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Premia de Mar – Blanes (DEVELOPED)",
+        "name": "Premia de Mar – Blanes",
         "description": "DEVELOPED",
         "distance_km": 44.612,
         "elevation_gain": 379.5,
@@ -113947,7 +113947,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Blanes – Sils (DEVELOPED)",
+        "name": "Blanes – Sils",
         "description": "DEVELOPED",
         "distance_km": 35.234,
         "elevation_gain": 397.4,
@@ -116532,7 +116532,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Sils – Sant Feliu de Guíxols (DEVELOPED_WITH_SIGNS)",
+        "name": "Sils – Sant Feliu de Guíxols",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.001,
         "elevation_gain": 408.7,
@@ -119397,7 +119397,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Sant Feliu de Guíxols – L'Escala (DEVELOPED_WITH_SIGNS)",
+        "name": "Sant Feliu de Guíxols – L'Escala",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.458,
         "elevation_gain": 403.3,
@@ -122687,7 +122687,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: L'Escala – Le Perthus (DEVELOPED_WITH_SIGNS)",
+        "name": "L'Escala – Le Perthus",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.912,
         "elevation_gain": 746.8,
@@ -125112,7 +125112,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Le Perthus – Argelès-sur-Mer (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Perthus – Argelès-sur-Mer",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.316,
         "elevation_gain": 458.4,
@@ -129497,7 +129497,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Argelès-sur-Mer – Canet-en-Roussillon (DEVELOPED_WITH_SIGNS)",
+        "name": "Argelès-sur-Mer – Canet-en-Roussillon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.722,
         "elevation_gain": 64.1,
@@ -130892,7 +130892,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Canet-en-Roussillon – Leucate (DEVELOPED_WITH_SIGNS)",
+        "name": "Canet-en-Roussillon – Leucate",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.051,
         "elevation_gain": 115.9,
@@ -132807,7 +132807,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Leucate – Narbonne (UNDER_DEVELOPMENT)",
+        "name": "Leucate – Narbonne",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.743,
         "elevation_gain": 81.7,
@@ -134272,7 +134272,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Narbonne – Béziers (UNDER_DEVELOPMENT)",
+        "name": "Narbonne – Béziers",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.79,
         "elevation_gain": 391.9,
@@ -137357,7 +137357,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: Béziers – Sète (DEVELOPED_WITH_SIGNS)",
+        "name": "Béziers – Sète",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.04,
         "elevation_gain": 225.6,
@@ -140237,7 +140237,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Sète – Le Grau-du-Roi (DEVELOPED_WITH_SIGNS)",
+        "name": "Sète – Le Grau-du-Roi",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.637,
         "elevation_gain": 217.6,
@@ -143652,7 +143652,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Le Grau-du-Roi – Tarascon (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Grau-du-Roi – Tarascon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.965,
         "elevation_gain": 129.9,
@@ -145812,7 +145812,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Tarascon – Cavaillon (DEVELOPED_WITH_SIGNS)",
+        "name": "Tarascon – Cavaillon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.647,
         "elevation_gain": 161.5,
@@ -147392,7 +147392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Cavaillon – Apt (DEVELOPED_WITH_SIGNS)",
+        "name": "Cavaillon – Apt",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.248,
         "elevation_gain": 247.7,
@@ -148617,7 +148617,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Apt – Manosque (DEVELOPED_WITH_SIGNS)",
+        "name": "Apt – Manosque",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 82.627,
         "elevation_gain": 1477.6,
@@ -154137,7 +154137,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Meyrargues – Barjols (UNDER_DEVELOPMENT)",
+        "name": "Meyrargues – Barjols",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 46.105,
         "elevation_gain": 605.2,
@@ -156652,7 +156652,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: Barjols – Draguignan (UNDER_DEVELOPMENT)",
+        "name": "Barjols – Draguignan",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.955,
         "elevation_gain": 945.1,
@@ -161107,7 +161107,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Draguignan – Montauroux (UNDER_DEVELOPMENT)",
+        "name": "Draguignan – Montauroux",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 50.298,
         "elevation_gain": 1154.6,
@@ -165242,7 +165242,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Montauroux – Cannes (UNDER_DEVELOPMENT)",
+        "name": "Montauroux – Cannes",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.067,
         "elevation_gain": 696.8,
@@ -168662,7 +168662,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Cannes – Nice (DEVELOPED_WITH_SIGNS)",
+        "name": "Cannes – Nice",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.449,
         "elevation_gain": 255.7,
@@ -170627,7 +170627,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Nice – Menton (UNDER_DEVELOPMENT)",
+        "name": "Nice – Menton",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.058,
         "elevation_gain": 1605.6,
@@ -174182,7 +174182,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Menton – Ventimiglia (UNDER_DEVELOPMENT)",
+        "name": "Menton – Ventimiglia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 8.167,
         "elevation_gain": 357.7,
@@ -174937,7 +174937,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Limone – Cuneo (UNDER_DEVELOPMENT)",
+        "name": "Limone – Cuneo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.488,
         "elevation_gain": 303.1,
@@ -176657,7 +176657,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Cuneo – Saluzzo (UNDER_DEVELOPMENT)",
+        "name": "Cuneo – Saluzzo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.157,
         "elevation_gain": 162.1,
@@ -178492,7 +178492,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Saluzzo – Moretta (UNDER_DEVELOPMENT)",
+        "name": "Saluzzo – Moretta",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 31.212,
         "elevation_gain": 66.2,
@@ -179872,7 +179872,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Moretta – Turin (DEVELOPED)",
+        "name": "Moretta – Turin",
         "description": "DEVELOPED",
         "distance_km": 58.861,
         "elevation_gain": 300.4,
@@ -182492,7 +182492,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: Turin – Chivasso (UNDER_DEVELOPMENT)",
+        "name": "Turin – Chivasso",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 19.3,
         "elevation_gain": 56.5,
@@ -183267,7 +183267,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Chivasso – Casale Monferrato (UNDER_DEVELOPMENT)",
+        "name": "Chivasso – Casale Monferrato",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.659,
         "elevation_gain": 181.1,
@@ -185282,7 +185282,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Casale Monferrato – Casone Terraggio (DEVELOPED_WITH_SIGNS)",
+        "name": "Casale Monferrato – Casone Terraggio",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.021,
         "elevation_gain": 106.5,
@@ -186792,7 +186792,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Casone Terraggio – Pavia (UNDER_DEVELOPMENT)",
+        "name": "Casone Terraggio – Pavia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 71.04,
         "elevation_gain": 221.1,
@@ -188982,7 +188982,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Pavia – Piacenza (UNDER_DEVELOPMENT)",
+        "name": "Pavia – Piacenza",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 79.548,
         "elevation_gain": 327.9,
@@ -192447,7 +192447,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Piacenza – Cremona (UNDER_DEVELOPMENT)",
+        "name": "Piacenza – Cremona",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.176,
         "elevation_gain": 196.2,
@@ -194782,7 +194782,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Cremona – Viadana (DEVELOPED)",
+        "name": "Cremona – Viadana",
         "description": "DEVELOPED",
         "distance_km": 58.013,
         "elevation_gain": 208.3,
@@ -197547,7 +197547,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Viadana – San Benedetto Po (UNDER_DEVELOPMENT)",
+        "name": "Viadana – San Benedetto Po",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.314,
         "elevation_gain": 251.4,
@@ -200762,7 +200762,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: San Benedetto Po – Stellata di Bondeno (DEVELOPED)",
+        "name": "San Benedetto Po – Stellata di Bondeno",
         "description": "DEVELOPED",
         "distance_km": 59.455,
         "elevation_gain": 298.4,
@@ -203717,7 +203717,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Stellata di Bondeno – Polesella (DEVELOPED)",
+        "name": "Stellata di Bondeno – Polesella",
         "description": "DEVELOPED",
         "distance_km": 49.349,
         "elevation_gain": 172.6,
@@ -205917,7 +205917,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Polesella – Chioggia (UNDER_DEVELOPMENT)",
+        "name": "Polesella – Chioggia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 77.658,
         "elevation_gain": 207.2,
@@ -208957,7 +208957,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: Pellestrina – Santa Maria del Mare (DEVELOPED)",
+        "name": "Pellestrina – Santa Maria del Mare",
         "description": "DEVELOPED",
         "distance_km": 8.887,
         "elevation_gain": 6.3,
@@ -209522,7 +209522,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Alberoni – Lido de Venezia (UNDER_DEVELOPMENT)",
+        "name": "Alberoni – Lido de Venezia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 11.143,
         "elevation_gain": 26.7,
@@ -209912,7 +209912,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: Lido de Venezia – Jesolo (DEVELOPED)",
+        "name": "Lido de Venezia – Jesolo",
         "description": "DEVELOPED",
         "distance_km": 23.914,
         "elevation_gain": 48.3,
@@ -211182,7 +211182,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Jesolo – Caorle (UNDER_DEVELOPMENT)",
+        "name": "Jesolo – Caorle",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.491,
         "elevation_gain": 52.3,
@@ -212347,7 +212347,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Caorle – Lignano Sabbiadoro  (UNDER_DEVELOPMENT)",
+        "name": "Caorle – Lignano Sabbiadoro",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 58.775,
         "elevation_gain": 109.5,
@@ -214362,7 +214362,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Lignano Sabbiadoro  – Cervignano (UNDER_DEVELOPMENT)",
+        "name": "Lignano Sabbiadoro  – Cervignano",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.737,
         "elevation_gain": 146.0,
@@ -216597,7 +216597,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: Cervignano – Monfalcone (DEVELOPED)",
+        "name": "Cervignano – Monfalcone",
         "description": "DEVELOPED",
         "distance_km": 57.936,
         "elevation_gain": 112.4,
@@ -218517,7 +218517,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: Monfalcone – Trieste, Italy (UNDER_DEVELOPMENT)",
+        "name": "Monfalcone – Trieste, Italy",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.217,
         "elevation_gain": 370.8,
@@ -219792,7 +219792,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: Trieste, Italy – Muggia (UNDER_DEVELOPMENT)",
+        "name": "Trieste, Italy – Muggia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 26.962,
         "elevation_gain": 623.1,
@@ -221847,7 +221847,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Muggia – Predor Valeta (DEVELOPED_WITH_SIGNS)",
+        "name": "Muggia – Predor Valeta",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.162,
         "elevation_gain": 314.1,
@@ -223902,7 +223902,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Predor Valeta – Secovlje/Plovanija border pass (DEVELOPED_WITH_SIGNS)",
+        "name": "Predor Valeta – Secovlje/Plovanija border pass",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 10.129,
         "elevation_gain": 91.2,
@@ -224867,7 +224867,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Secovlje/Plovanija border pass – Vrsar (DEVELOPED)",
+        "name": "Secovlje/Plovanija border pass – Vrsar",
         "description": "DEVELOPED",
         "distance_km": 75.544,
         "elevation_gain": 882.3,
@@ -229987,7 +229987,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Vrsar – Pula (DEVELOPED)",
+        "name": "Vrsar – Pula",
         "description": "DEVELOPED",
         "distance_km": 70.238,
         "elevation_gain": 863.0,
@@ -234577,7 +234577,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Pula – Nedescina (DEVELOPED)",
+        "name": "Pula – Nedescina",
         "description": "DEVELOPED",
         "distance_km": 84.585,
         "elevation_gain": 1461.5,
@@ -239947,7 +239947,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Nedescina – Rijeka (DEVELOPED)",
+        "name": "Nedescina – Rijeka",
         "description": "DEVELOPED",
         "distance_km": 58.508,
         "elevation_gain": 1370.3,
@@ -244512,7 +244512,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Rijeka – Gornji Zagon (DEVELOPED)",
+        "name": "Rijeka – Gornji Zagon",
         "description": "DEVELOPED",
         "distance_km": 54.628,
         "elevation_gain": 1796.0,
@@ -248997,7 +248997,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Gornji Zagon – Krasno Polje (DEVELOPED)",
+        "name": "Gornji Zagon – Krasno Polje",
         "description": "DEVELOPED",
         "distance_km": 53.025,
         "elevation_gain": 1887.2,
@@ -253687,7 +253687,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: Krasno Polje – Klanac (DEVELOPED)",
+        "name": "Krasno Polje – Klanac",
         "description": "DEVELOPED",
         "distance_km": 41.127,
         "elevation_gain": 698.0,
@@ -257127,7 +257127,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Klanac – Gospić (DEVELOPED)",
+        "name": "Klanac – Gospić",
         "description": "DEVELOPED",
         "distance_km": 46.631,
         "elevation_gain": 668.1,
@@ -260347,7 +260347,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Gospić – Lovinac (DEVELOPED)",
+        "name": "Gospić – Lovinac",
         "description": "DEVELOPED",
         "distance_km": 41.833,
         "elevation_gain": 354.8,
@@ -263312,7 +263312,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Lovinac – Maslenica (DEVELOPED)",
+        "name": "Lovinac – Maslenica",
         "description": "DEVELOPED",
         "distance_km": 52.737,
         "elevation_gain": 742.7,
@@ -265822,7 +265822,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Maslenica – Zadar (DEVELOPED_WITH_SIGNS)",
+        "name": "Maslenica – Zadar",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.222,
         "elevation_gain": 637.9,
@@ -268657,7 +268657,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Zadar – Pakostane (DEVELOPED_WITH_SIGNS)",
+        "name": "Zadar – Pakostane",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.368,
         "elevation_gain": 427.1,
@@ -271822,7 +271822,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Pakostane – Sibenik (DEVELOPED_WITH_SIGNS)",
+        "name": "Pakostane – Sibenik",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.326,
         "elevation_gain": 427.4,
@@ -275157,7 +275157,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Sibenik – Trogir (DEVELOPED)",
+        "name": "Sibenik – Trogir",
         "description": "DEVELOPED",
         "distance_km": 56.037,
         "elevation_gain": 1005.7,
@@ -279037,7 +279037,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: Trogir – Split (DEVELOPED)",
+        "name": "Trogir – Split",
         "description": "DEVELOPED",
         "distance_km": 38.549,
         "elevation_gain": 420.5,
@@ -281692,7 +281692,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Split – Makarska (DEVELOPED)",
+        "name": "Split – Makarska",
         "description": "DEVELOPED",
         "distance_km": 74.002,
         "elevation_gain": 2050.5,
@@ -287617,7 +287617,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Makarska – Ploče (DEVELOPED)",
+        "name": "Makarska – Ploče",
         "description": "DEVELOPED",
         "distance_km": 55.74,
         "elevation_gain": 1545.6,
@@ -292522,7 +292522,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Trpanj – Ston (DEVELOPED)",
+        "name": "Trpanj – Ston",
         "description": "DEVELOPED",
         "distance_km": 55.381,
         "elevation_gain": 1459.8,
@@ -296392,7 +296392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Ston – Dubrovnik (DEVELOPED)",
+        "name": "Ston – Dubrovnik",
         "description": "DEVELOPED",
         "distance_km": 55.92,
         "elevation_gain": 1873.6,
@@ -300572,7 +300572,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Dubrovnik – Kobila (DEVELOPED)",
+        "name": "Dubrovnik – Kobila",
         "description": "DEVELOPED",
         "distance_km": 49.988,
         "elevation_gain": 1120.4,
@@ -303692,7 +303692,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Kobila – Herceg Novi (UNDER_DEVELOPMENT)",
+        "name": "Kobila – Herceg Novi",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 7.309,
         "elevation_gain": 115.3,
@@ -304207,7 +304207,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: Herceg Novi – Kotor (UNDER_DEVELOPMENT)",
+        "name": "Herceg Novi – Kotor",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.778,
         "elevation_gain": 976.4,
@@ -308352,7 +308352,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Kotor – Trojica (UNDER_DEVELOPMENT)",
+        "name": "Kotor – Trojica",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.419,
         "elevation_gain": 646.6,
@@ -310727,7 +310727,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Trojica – Cetinje (UNDER_DEVELOPMENT)",
+        "name": "Trojica – Cetinje",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.266,
         "elevation_gain": 2405.3,
@@ -315087,7 +315087,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Cetinje – Rijecki Grad (UNDER_DEVELOPMENT)",
+        "name": "Cetinje – Rijecki Grad",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.187,
         "elevation_gain": 702.8,
@@ -317262,7 +317262,7 @@
       "type": "Feature",
       "properties": {
         "stage": 112,
-        "name": "112: Rijecki Grad – Virpazar (UNDER_DEVELOPMENT)",
+        "name": "Rijecki Grad – Virpazar",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 24.487,
         "elevation_gain": 1024.4,
@@ -320097,7 +320097,7 @@
       "type": "Feature",
       "properties": {
         "stage": 113,
-        "name": "113: Virpazar – Sukobin (UNDER_DEVELOPMENT)",
+        "name": "Virpazar – Sukobin",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.378,
         "elevation_gain": 2313.2,
@@ -325917,7 +325917,7 @@
       "type": "Feature",
       "properties": {
         "stage": 114,
-        "name": "114: Sukobin – Shkoder (UNDER_DEVELOPMENT)",
+        "name": "Sukobin – Shkoder",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 14.739,
         "elevation_gain": 301.0,
@@ -327507,7 +327507,7 @@
       "type": "Feature",
       "properties": {
         "stage": 115,
-        "name": "115: Shkoder – Lezhë (UNDER_DEVELOPMENT)",
+        "name": "Shkoder – Lezhë",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 48.799,
         "elevation_gain": 368.6,
@@ -330302,7 +330302,7 @@
       "type": "Feature",
       "properties": {
         "stage": 116,
-        "name": "116: Lezhë – Tirana (UNDER_DEVELOPMENT)",
+        "name": "Lezhë – Tirana",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 69.946,
         "elevation_gain": 483.0,
@@ -333297,7 +333297,7 @@
       "type": "Feature",
       "properties": {
         "stage": 117,
-        "name": "117: Tirana – Durres (UNDER_DEVELOPMENT)",
+        "name": "Tirana – Durres",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.484,
         "elevation_gain": 104.6,
@@ -333897,7 +333897,7 @@
       "type": "Feature",
       "properties": {
         "stage": 118,
-        "name": "118: Durres – Rrogozhinë (UNDER_DEVELOPMENT)",
+        "name": "Durres – Rrogozhinë",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 35.805,
         "elevation_gain": 110.2,
@@ -334857,7 +334857,7 @@
       "type": "Feature",
       "properties": {
         "stage": 119,
-        "name": "119: Rrogozhinë – Fier (UNDER_DEVELOPMENT)",
+        "name": "Rrogozhinë – Fier",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 54.434,
         "elevation_gain": 207.8,
@@ -336562,7 +336562,7 @@
       "type": "Feature",
       "properties": {
         "stage": 120,
-        "name": "120: Fier – Orikum (DEVELOPED)",
+        "name": "Fier – Orikum",
         "description": "DEVELOPED",
         "distance_km": 53.272,
         "elevation_gain": 576.7,
@@ -339197,7 +339197,7 @@
       "type": "Feature",
       "properties": {
         "stage": 121,
-        "name": "121: Orikum – Gjilek (UNDER_DEVELOPMENT)",
+        "name": "Orikum – Gjilek",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.697,
         "elevation_gain": 1615.4,
@@ -342392,7 +342392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 122,
-        "name": "122: Gjilek – Borsh (UNDER_DEVELOPMENT)",
+        "name": "Gjilek – Borsh",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.285,
         "elevation_gain": 1414.5,
@@ -346052,7 +346052,7 @@
       "type": "Feature",
       "properties": {
         "stage": 123,
-        "name": "123: Borsh – Sarandë (UNDER_DEVELOPMENT)",
+        "name": "Borsh – Sarandë",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 33.314,
         "elevation_gain": 1531.2,
@@ -349802,7 +349802,7 @@
       "type": "Feature",
       "properties": {
         "stage": 124,
-        "name": "124: Sarandë – Mavromati (UNDER_DEVELOPMENT)",
+        "name": "Sarandë – Mavromati",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.887,
         "elevation_gain": 672.3,
@@ -352147,7 +352147,7 @@
       "type": "Feature",
       "properties": {
         "stage": 125,
-        "name": "125: Mavromati – Igoumenitsa (DEVELOPED)",
+        "name": "Mavromati – Igoumenitsa",
         "description": "DEVELOPED",
         "distance_km": 33.099,
         "elevation_gain": 322.5,
@@ -354082,7 +354082,7 @@
       "type": "Feature",
       "properties": {
         "stage": 126,
-        "name": "126: Igoumenitsa – Margariti (DEVELOPED)",
+        "name": "Igoumenitsa – Margariti",
         "description": "DEVELOPED",
         "distance_km": 27.848,
         "elevation_gain": 568.3,
@@ -355587,7 +355587,7 @@
       "type": "Feature",
       "properties": {
         "stage": 127,
-        "name": "127: Margariti – Nea Thesi (DEVELOPED)",
+        "name": "Margariti – Nea Thesi",
         "description": "DEVELOPED",
         "distance_km": 43.45,
         "elevation_gain": 768.1,
@@ -357502,7 +357502,7 @@
       "type": "Feature",
       "properties": {
         "stage": 128,
-        "name": "128: Nea Thesi – Arta (DEVELOPED)",
+        "name": "Nea Thesi – Arta",
         "description": "DEVELOPED",
         "distance_km": 48.696,
         "elevation_gain": 346.2,
@@ -359447,7 +359447,7 @@
       "type": "Feature",
       "properties": {
         "stage": 129,
-        "name": "129: Arta – Amfilochia (DEVELOPED)",
+        "name": "Arta – Amfilochia",
         "description": "DEVELOPED",
         "distance_km": 42.856,
         "elevation_gain": 629.5,
@@ -361552,7 +361552,7 @@
       "type": "Feature",
       "properties": {
         "stage": 130,
-        "name": "130: Amfilochia – Vonitsa (DEVELOPED)",
+        "name": "Amfilochia – Vonitsa",
         "description": "DEVELOPED",
         "distance_km": 37.122,
         "elevation_gain": 678.9,
@@ -363577,7 +363577,7 @@
       "type": "Feature",
       "properties": {
         "stage": 131,
-        "name": "131: Vonitsa – Mytikas (DEVELOPED)",
+        "name": "Vonitsa – Mytikas",
         "description": "DEVELOPED",
         "distance_km": 34.542,
         "elevation_gain": 599.1,
@@ -365272,7 +365272,7 @@
       "type": "Feature",
       "properties": {
         "stage": 132,
-        "name": "132: Mytikas – Astakos (DEVELOPED)",
+        "name": "Mytikas – Astakos",
         "description": "DEVELOPED",
         "distance_km": 31.548,
         "elevation_gain": 608.2,
@@ -366487,7 +366487,7 @@
       "type": "Feature",
       "properties": {
         "stage": 133,
-        "name": "133: Astakos – Messolonghi (DEVELOPED)",
+        "name": "Astakos – Messolonghi",
         "description": "DEVELOPED",
         "distance_km": 48.443,
         "elevation_gain": 392.9,
@@ -368827,7 +368827,7 @@
       "type": "Feature",
       "properties": {
         "stage": 134,
-        "name": "134: Messolonghi – Rio (DEVELOPED)",
+        "name": "Messolonghi – Rio",
         "description": "DEVELOPED",
         "distance_km": 42.057,
         "elevation_gain": 483.7,
@@ -370472,7 +370472,7 @@
       "type": "Feature",
       "properties": {
         "stage": 135,
-        "name": "135: Rio – Diakopto (DEVELOPED)",
+        "name": "Rio – Diakopto",
         "description": "DEVELOPED",
         "distance_km": 48.898,
         "elevation_gain": 612.9,
@@ -373112,7 +373112,7 @@
       "type": "Feature",
       "properties": {
         "stage": 136,
-        "name": "136: Diakopto – Xylokastro (DEVELOPED)",
+        "name": "Diakopto – Xylokastro",
         "description": "DEVELOPED",
         "distance_km": 45.244,
         "elevation_gain": 412.8,
@@ -374952,7 +374952,7 @@
       "type": "Feature",
       "properties": {
         "stage": 137,
-        "name": "137: Xylokastro – Agii Theodori (DEVELOPED)",
+        "name": "Xylokastro – Agii Theodori",
         "description": "DEVELOPED",
         "distance_km": 54.612,
         "elevation_gain": 284.5,
@@ -377217,7 +377217,7 @@
       "type": "Feature",
       "properties": {
         "stage": 138,
-        "name": "138: Agii Theodori – Perama (DEVELOPED)",
+        "name": "Agii Theodori – Perama",
         "description": "DEVELOPED",
         "distance_km": 42.169,
         "elevation_gain": 563.4,
@@ -379107,7 +379107,7 @@
       "type": "Feature",
       "properties": {
         "stage": 139,
-        "name": "139: Perama – Athens (DEVELOPED)",
+        "name": "Perama – Athens",
         "description": "DEVELOPED",
         "distance_km": 25.872,
         "elevation_gain": 307.5,
@@ -380807,7 +380807,7 @@
       "type": "Feature",
       "properties": {
         "stage": 140,
-        "name": "140: Dikili – Bergama (DEVELOPED_WITH_SIGNS)",
+        "name": "Dikili – Bergama",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.872,
         "elevation_gain": 173.1,
@@ -381782,7 +381782,7 @@
       "type": "Feature",
       "properties": {
         "stage": 141,
-        "name": "141: Bergama – Aliaga (DEVELOPED_WITH_SIGNS)",
+        "name": "Bergama – Aliaga",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.492,
         "elevation_gain": 577.5,
@@ -383722,7 +383722,7 @@
       "type": "Feature",
       "properties": {
         "stage": 142,
-        "name": "142: Aliaga – Foça (DEVELOPED_WITH_SIGNS)",
+        "name": "Aliaga – Foça",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.671,
         "elevation_gain": 685.2,
@@ -385117,7 +385117,7 @@
       "type": "Feature",
       "properties": {
         "stage": 143,
-        "name": "143: Foça – Izmir (DEVELOPED_WITH_SIGNS)",
+        "name": "Foça – Izmir",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.291,
         "elevation_gain": 350.4,
@@ -386727,7 +386727,7 @@
       "type": "Feature",
       "properties": {
         "stage": 144,
-        "name": "144: Izmir – Balikliova (DEVELOPED_WITH_SIGNS)",
+        "name": "Izmir – Balikliova",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 78.361,
         "elevation_gain": 671.1,
@@ -389702,7 +389702,7 @@
       "type": "Feature",
       "properties": {
         "stage": 145,
-        "name": "145: Balikliova – Çeşme (DEVELOPED_WITH_SIGNS)",
+        "name": "Balikliova – Çeşme",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.026,
         "elevation_gain": 452.4,
@@ -391202,7 +391202,7 @@
       "type": "Feature",
       "properties": {
         "stage": 146,
-        "name": "146: Çeşme – Sigacik (DEVELOPED_WITH_SIGNS)",
+        "name": "Çeşme – Sigacik",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.663,
         "elevation_gain": 798.6,
@@ -393072,7 +393072,7 @@
       "type": "Feature",
       "properties": {
         "stage": 147,
-        "name": "147: Sigacik – Selcuk (DEVELOPED_WITH_SIGNS)",
+        "name": "Sigacik – Selcuk",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 81.36,
         "elevation_gain": 789.4,
@@ -395142,7 +395142,7 @@
       "type": "Feature",
       "properties": {
         "stage": 148,
-        "name": "148: Nicosia – Ayia Napa (UNDER_DEVELOPMENT)",
+        "name": "Nicosia – Ayia Napa",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 112.585,
         "elevation_gain": 829.1,
@@ -400317,7 +400317,7 @@
       "type": "Feature",
       "properties": {
         "stage": 149,
-        "name": "149: Ayia Napa – Larnaka (UNDER_DEVELOPMENT)",
+        "name": "Ayia Napa – Larnaka",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 65.882,
         "elevation_gain": 387.3,
@@ -403502,7 +403502,7 @@
       "type": "Feature",
       "properties": {
         "stage": 150,
-        "name": "150: Larnaka – Limassol (UNDER_DEVELOPMENT)",
+        "name": "Larnaka – Limassol",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 110.084,
         "elevation_gain": 1145.4,
@@ -409257,7 +409257,7 @@
       "type": "Feature",
       "properties": {
         "stage": 151,
-        "name": "151: Limassol – Paphos (UNDER_DEVELOPMENT)",
+        "name": "Limassol – Paphos",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 69.236,
         "elevation_gain": 901.7,
@@ -412317,7 +412317,7 @@
       "type": "Feature",
       "properties": {
         "stage": 152,
-        "name": "152: Paphos – Polis (UNDER_DEVELOPMENT)",
+        "name": "Paphos – Polis",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.153,
         "elevation_gain": 1061.9,
@@ -416052,7 +416052,7 @@
       "type": "Feature",
       "properties": {
         "stage": 153,
-        "name": "153: Polis – Kykkos (UNDER_DEVELOPMENT)",
+        "name": "Polis – Kykkos",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 109.461,
         "elevation_gain": 6247.7,
@@ -422712,7 +422712,7 @@
       "type": "Feature",
       "properties": {
         "stage": 154,
-        "name": "154: Kykkos – Nicosia (UNDER_DEVELOPMENT)",
+        "name": "Kykkos – Nicosia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 133.736,
         "elevation_gain": 5935.3,

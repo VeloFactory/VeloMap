@@ -172,7 +172,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Saint-Brevin-les-Pins – Le Pellerin (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Brevin-les-Pins – Le Pellerin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.295,
         "elevation_gain": 118.4,
@@ -2132,7 +2132,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Le Pellerin – Nantes (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Pellerin – Nantes",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.919,
         "elevation_gain": 195.9,
@@ -3597,7 +3597,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Nantes – Mauves-sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Nantes – Mauves-sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.429,
         "elevation_gain": 97.4,
@@ -4627,7 +4627,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: Mauves-sur-Loire – Champtoceaux (DEVELOPED_WITH_SIGNS)",
+        "name": "Mauves-sur-Loire – Champtoceaux",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 12.227,
         "elevation_gain": 56.1,
@@ -5267,7 +5267,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Champtoceaux – Saint-Florent-le-Vieil (DEVELOPED_WITH_SIGNS)",
+        "name": "Champtoceaux – Saint-Florent-le-Vieil",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.788,
         "elevation_gain": 126.8,
@@ -6662,7 +6662,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Saint-Florent-le-Vieil – Chalonnes-sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Florent-le-Vieil – Chalonnes-sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.711,
         "elevation_gain": 76.3,
@@ -7522,7 +7522,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Chalonnes-sur-Loire – Angers (DEVELOPED_WITH_SIGNS)",
+        "name": "Chalonnes-sur-Loire – Angers",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.307,
         "elevation_gain": 196.5,
@@ -8652,7 +8652,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Angers – Saint-Rémy-la-Varenne (DEVELOPED_WITH_SIGNS)",
+        "name": "Angers – Saint-Rémy-la-Varenne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.655,
         "elevation_gain": 125.7,
@@ -9637,7 +9637,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Saint-Rémy-la-Varenne – Saumur (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Rémy-la-Varenne – Saumur",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.944,
         "elevation_gain": 366.8,
@@ -11082,7 +11082,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Saumur – Candes-Saint-Martin (DEVELOPED_WITH_SIGNS)",
+        "name": "Saumur – Candes-Saint-Martin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.372,
         "elevation_gain": 287.5,
@@ -12332,7 +12332,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Candes-Saint-Martin – Rigny-Ussé (DEVELOPED_WITH_SIGNS)",
+        "name": "Candes-Saint-Martin – Rigny-Ussé",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.699,
         "elevation_gain": 126.9,
@@ -13772,7 +13772,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Rigny-Ussé – Villandry (DEVELOPED_WITH_SIGNS)",
+        "name": "Rigny-Ussé – Villandry",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.49,
         "elevation_gain": 101.9,
@@ -15137,7 +15137,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Villandry – Tours (DEVELOPED_WITH_SIGNS)",
+        "name": "Villandry – Tours",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.812,
         "elevation_gain": 150.9,
@@ -16762,7 +16762,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Tours – Amboise (DEVELOPED_WITH_SIGNS)",
+        "name": "Tours – Amboise",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.939,
         "elevation_gain": 236.7,
@@ -18672,7 +18672,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Amboise – Chaumont-sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Amboise – Chaumont-sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.556,
         "elevation_gain": 223.1,
@@ -20317,7 +20317,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Chaumont-sur-Loire – Blois (DEVELOPED_WITH_SIGNS)",
+        "name": "Chaumont-sur-Loire – Blois",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.384,
         "elevation_gain": 154.2,
@@ -21642,7 +21642,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Blois – Muides-sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Blois – Muides-sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.635,
         "elevation_gain": 104.5,
@@ -22347,7 +22347,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Muides-sur-Loire – Beaugency (DEVELOPED_WITH_SIGNS)",
+        "name": "Muides-sur-Loire – Beaugency",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.831,
         "elevation_gain": 80.1,
@@ -23212,7 +23212,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Beaugency – Orleans (DEVELOPED_WITH_SIGNS)",
+        "name": "Beaugency – Orleans",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.194,
         "elevation_gain": 154.9,
@@ -24977,7 +24977,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: Orleans – Jargeau (DEVELOPED_WITH_SIGNS)",
+        "name": "Orleans – Jargeau",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.111,
         "elevation_gain": 115.0,
@@ -26257,7 +26257,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Jargeau – Sully-sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Jargeau – Sully-sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.177,
         "elevation_gain": 205.6,
@@ -27962,7 +27962,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Sully-sur-Loire – Briare (DEVELOPED_WITH_SIGNS)",
+        "name": "Sully-sur-Loire – Briare",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.529,
         "elevation_gain": 260.1,
@@ -29907,7 +29907,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Briare – Sancerre (DEVELOPED_WITH_SIGNS)",
+        "name": "Briare – Sancerre",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.287,
         "elevation_gain": 202.1,
@@ -31752,7 +31752,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Sancerre – Pouilly-sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Sancerre – Pouilly-sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 10.951,
         "elevation_gain": 39.8,
@@ -32422,7 +32422,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: Pouilly-sur-Loire – La-Charité-Sur-Loire (DEVELOPED_WITH_SIGNS)",
+        "name": "Pouilly-sur-Loire – La-Charité-Sur-Loire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.234,
         "elevation_gain": 46.1,
@@ -32947,7 +32947,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: La-Charité-Sur-Loire – Cuffy (DEVELOPED_WITH_SIGNS)",
+        "name": "La-Charité-Sur-Loire – Cuffy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.209,
         "elevation_gain": 104.8,
@@ -33737,7 +33737,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Cuffy – Nevers (DEVELOPED_WITH_SIGNS)",
+        "name": "Cuffy – Nevers",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.309,
         "elevation_gain": 56.0,
@@ -34557,7 +34557,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Nevers – Decize (DEVELOPED_WITH_SIGNS)",
+        "name": "Nevers – Decize",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.932,
         "elevation_gain": 164.8,
@@ -36082,7 +36082,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Decize – Cronat (DEVELOPED_WITH_SIGNS)",
+        "name": "Decize – Cronat",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.317,
         "elevation_gain": 146.5,
@@ -37527,7 +37527,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Cronat – Bourbon-Lancy (DEVELOPED_WITH_SIGNS)",
+        "name": "Cronat – Bourbon-Lancy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.605,
         "elevation_gain": 189.0,
@@ -38397,7 +38397,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Bourbon-Lancy – Digoin (DEVELOPED_WITH_SIGNS)",
+        "name": "Bourbon-Lancy – Digoin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.609,
         "elevation_gain": 121.3,
@@ -39512,7 +39512,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Digoin – Paray-le-Monial (DEVELOPED_WITH_SIGNS)",
+        "name": "Digoin – Paray-le-Monial",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.651,
         "elevation_gain": 57.3,
@@ -40327,7 +40327,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Paray-le-Monial – Palinges (DEVELOPED_WITH_SIGNS)",
+        "name": "Paray-le-Monial – Palinges",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.2,
         "elevation_gain": 190.5,
@@ -41217,7 +41217,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Palinges – Montceau-les-Mines (DEVELOPED_WITH_SIGNS)",
+        "name": "Palinges – Montceau-les-Mines",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.976,
         "elevation_gain": 321.2,
@@ -42807,7 +42807,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: Montceau-les-Mines – Montchanin (DEVELOPED_WITH_SIGNS)",
+        "name": "Montceau-les-Mines – Montchanin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 14.235,
         "elevation_gain": 115.5,
@@ -43787,7 +43787,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Montchanin – St-Léger-sur-Dheune (DEVELOPED_WITH_SIGNS)",
+        "name": "Montchanin – St-Léger-sur-Dheune",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.674,
         "elevation_gain": 82.0,
@@ -44997,7 +44997,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: St-Léger-sur-Dheune – Santenay (DEVELOPED_WITH_SIGNS)",
+        "name": "St-Léger-sur-Dheune – Santenay",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 8.167,
         "elevation_gain": 19.5,
@@ -45412,7 +45412,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Santenay – Chalon-sur-Saône (DEVELOPED_WITH_SIGNS)",
+        "name": "Santenay – Chalon-sur-Saône",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.181,
         "elevation_gain": 106.5,
@@ -46867,7 +46867,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Chalon-sur-Saône – Verdun-sur-le-Doubs (DEVELOPED_WITH_SIGNS)",
+        "name": "Chalon-sur-Saône – Verdun-sur-le-Doubs",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.928,
         "elevation_gain": 136.2,
@@ -48387,7 +48387,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Verdun-sur-le-Doubs – Seurre (DEVELOPED_WITH_SIGNS)",
+        "name": "Verdun-sur-le-Doubs – Seurre",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.193,
         "elevation_gain": 61.1,
@@ -49322,7 +49322,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Seurre – Saint-Jean-de-Losne (DEVELOPED_WITH_SIGNS)",
+        "name": "Seurre – Saint-Jean-de-Losne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.779,
         "elevation_gain": 95.8,
@@ -50512,7 +50512,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: Saint-Jean-de-Losne – Dole (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Jean-de-Losne – Dole",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.495,
         "elevation_gain": 136.9,
@@ -51577,7 +51577,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Dole – Saint-Vit (DEVELOPED_WITH_SIGNS)",
+        "name": "Dole – Saint-Vit",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.684,
         "elevation_gain": 171.2,
@@ -52812,7 +52812,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Saint-Vit – Besançon (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Vit – Besançon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.322,
         "elevation_gain": 386.8,
@@ -53992,7 +53992,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Besançon – Deluz (DEVELOPED_WITH_SIGNS)",
+        "name": "Besançon – Deluz",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.294,
         "elevation_gain": 150.1,
@@ -54642,7 +54642,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Deluz – Baume-les-Dames (DEVELOPED_WITH_SIGNS)",
+        "name": "Deluz – Baume-les-Dames",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.735,
         "elevation_gain": 397.5,
@@ -55212,7 +55212,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Baume-les-Dames – L'Isle-sur-le-Doubs (DEVELOPED_WITH_SIGNS)",
+        "name": "Baume-les-Dames – L'Isle-sur-le-Doubs",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.943,
         "elevation_gain": 494.1,
@@ -56462,7 +56462,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: L'Isle-sur-le-Doubs – Montbéliard (DEVELOPED_WITH_SIGNS)",
+        "name": "L'Isle-sur-le-Doubs – Montbéliard",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.954,
         "elevation_gain": 149.1,
@@ -57307,7 +57307,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Montbéliard – Montreux-Jeune (DEVELOPED_WITH_SIGNS)",
+        "name": "Montbéliard – Montreux-Jeune",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.367,
         "elevation_gain": 140.4,
@@ -58317,7 +58317,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Montreux-Jeune – Mulhouse (DEVELOPED_WITH_SIGNS)",
+        "name": "Montreux-Jeune – Mulhouse",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.815,
         "elevation_gain": 75.4,
@@ -59647,7 +59647,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Mulhouse – Basel (DEVELOPED_WITH_SIGNS)",
+        "name": "Mulhouse – Basel",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.169,
         "elevation_gain": 180.8,
@@ -61537,7 +61537,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Basel – Laufenburg (Baden) (DEVELOPED_WITH_SIGNS)",
+        "name": "Basel – Laufenburg (Baden)",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.111,
         "elevation_gain": 408.9,
@@ -64097,7 +64097,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Laufenburg (Baden) – Schaffhausen (DEVELOPED_WITH_SIGNS)",
+        "name": "Laufenburg (Baden) – Schaffhausen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.553,
         "elevation_gain": 740.4,
@@ -67407,7 +67407,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Basel – Rheinfelden (DEVELOPED_WITH_SIGNS)",
+        "name": "Basel – Rheinfelden",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.041,
         "elevation_gain": 238.1,
@@ -69042,7 +69042,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: Rheinfelden – Bad Zurzach (DEVELOPED_WITH_SIGNS)",
+        "name": "Rheinfelden – Bad Zurzach",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.785,
         "elevation_gain": 674.7,
@@ -72587,7 +72587,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Bad Zurzach – Schaffhausen (DEVELOPED_WITH_SIGNS)",
+        "name": "Bad Zurzach – Schaffhausen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.506,
         "elevation_gain": 877.9,
@@ -76277,7 +76277,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Schaffhausen – Stein am Rhein (DEVELOPED_WITH_SIGNS)",
+        "name": "Schaffhausen – Stein am Rhein",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.055,
         "elevation_gain": 228.8,
@@ -77582,7 +77582,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Stein am Rhein – Radolfzell (DEVELOPED_WITH_SIGNS)",
+        "name": "Stein am Rhein – Radolfzell",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.306,
         "elevation_gain": 230.1,
@@ -79092,7 +79092,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Radolfzell – Tuttlingen (DEVELOPED)",
+        "name": "Radolfzell – Tuttlingen",
         "description": "DEVELOPED",
         "distance_km": 37.153,
         "elevation_gain": 779.9,
@@ -81487,7 +81487,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Tuttlingen – Sigmaringen (DEVELOPED_WITH_SIGNS)",
+        "name": "Tuttlingen – Sigmaringen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.59,
         "elevation_gain": 1043.9,
@@ -85777,7 +85777,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Sigmaringen – Riedlingen (DEVELOPED_WITH_SIGNS)",
+        "name": "Sigmaringen – Riedlingen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.695,
         "elevation_gain": 208.2,
@@ -87772,7 +87772,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Riedlingen – Ehingen (Donau) (DEVELOPED_WITH_SIGNS)",
+        "name": "Riedlingen – Ehingen (Donau)",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.654,
         "elevation_gain": 427.9,
@@ -90152,7 +90152,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Ehingen (Donau) – Ulm (DEVELOPED_WITH_SIGNS)",
+        "name": "Ehingen (Donau) – Ulm",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.751,
         "elevation_gain": 163.7,
@@ -92122,7 +92122,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Ulm – Lauingen (Donau) (DEVELOPED_WITH_SIGNS)",
+        "name": "Ulm – Lauingen (Donau)",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.49,
         "elevation_gain": 182.0,
@@ -94377,7 +94377,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: Lauingen (Donau) – Donauwörth (DEVELOPED_WITH_SIGNS)",
+        "name": "Lauingen (Donau) – Donauwörth",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.356,
         "elevation_gain": 187.5,
@@ -97112,7 +97112,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Donauwörth – Ingolstadt (DEVELOPED_WITH_SIGNS)",
+        "name": "Donauwörth – Ingolstadt",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.55,
         "elevation_gain": 501.5,
@@ -101012,7 +101012,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Ingolstadt – Kelheim (DEVELOPED_WITH_SIGNS)",
+        "name": "Ingolstadt – Kelheim",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.537,
         "elevation_gain": 469.2,
@@ -104877,7 +104877,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Kelheim – Ratisbon (DEVELOPED_WITH_SIGNS)",
+        "name": "Kelheim – Ratisbon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.024,
         "elevation_gain": 362.5,
@@ -107277,7 +107277,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Ratisbon – Straubing (DEVELOPED_WITH_SIGNS)",
+        "name": "Ratisbon – Straubing",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.212,
         "elevation_gain": 191.5,
@@ -109827,7 +109827,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Straubing – Deggendorf (DEVELOPED_WITH_SIGNS)",
+        "name": "Straubing – Deggendorf",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.612,
         "elevation_gain": 163.8,
@@ -111522,7 +111522,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Deggendorf – Vilshofen an der Donau (DEVELOPED_WITH_SIGNS)",
+        "name": "Deggendorf – Vilshofen an der Donau",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.472,
         "elevation_gain": 199.1,
@@ -113632,7 +113632,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Vilshofen an der Donau – Passau (DEVELOPED_WITH_SIGNS)",
+        "name": "Vilshofen an der Donau – Passau",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.919,
         "elevation_gain": 229.3,
@@ -115062,7 +115062,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: Passau, Germany – Obermühl an der Donau (DEVELOPED)",
+        "name": "Passau, Germany – Obermühl an der Donau",
         "description": "DEVELOPED",
         "distance_km": 50.444,
         "elevation_gain": 609.4,
@@ -117497,7 +117497,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Obermühl an der Donau – Linz (DEVELOPED)",
+        "name": "Obermühl an der Donau – Linz",
         "description": "DEVELOPED",
         "distance_km": 46.224,
         "elevation_gain": 710.1,
@@ -120267,7 +120267,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Linz – St. Georgen an der Gusen (DEVELOPED)",
+        "name": "Linz – St. Georgen an der Gusen",
         "description": "DEVELOPED",
         "distance_km": 15.377,
         "elevation_gain": 37.7,
@@ -120712,7 +120712,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: St. Georgen an der Gusen – Dornach bei Grein (DEVELOPED)",
+        "name": "St. Georgen an der Gusen – Dornach bei Grein",
         "description": "DEVELOPED",
         "distance_km": 39.863,
         "elevation_gain": 218.9,
@@ -122937,7 +122937,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Dornach bei Grein – Emmersdorf an der Donau (DEVELOPED_WITH_SIGNS)",
+        "name": "Dornach bei Grein – Emmersdorf an der Donau",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.568,
         "elevation_gain": 757.7,
@@ -125472,7 +125472,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: Emmersdorf an der Donau – Altenwörth (DEVELOPED_WITH_SIGNS)",
+        "name": "Emmersdorf an der Donau – Altenwörth",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.885,
         "elevation_gain": 691.7,
@@ -128292,7 +128292,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Altenwörth – Vienna (DEVELOPED_WITH_SIGNS)",
+        "name": "Altenwörth – Vienna",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.382,
         "elevation_gain": 272.3,
@@ -130977,7 +130977,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Passau – Inzell (DEVELOPED)",
+        "name": "Passau – Inzell",
         "description": "DEVELOPED",
         "distance_km": 45.806,
         "elevation_gain": 733.4,
@@ -133332,7 +133332,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Inzell – Linz (DEVELOPED)",
+        "name": "Inzell – Linz",
         "description": "DEVELOPED",
         "distance_km": 49.055,
         "elevation_gain": 731.4,
@@ -135562,7 +135562,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: St. Georgen an der Gusen – Ardagger Markt (DEVELOPED_WITH_SIGNS)",
+        "name": "St. Georgen an der Gusen – Ardagger Markt",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.505,
         "elevation_gain": 202.5,
@@ -137962,7 +137962,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: Ardagger Markt – Melk (DEVELOPED_WITH_SIGNS)",
+        "name": "Ardagger Markt – Melk",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.388,
         "elevation_gain": 618.3,
@@ -140472,7 +140472,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: Melk – Altenwörth (DEVELOPED_WITH_SIGNS)",
+        "name": "Melk – Altenwörth",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.87,
         "elevation_gain": 370.9,
@@ -141912,7 +141912,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Tulln – Vienna (DEVELOPED_WITH_SIGNS)",
+        "name": "Tulln – Vienna",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.86,
         "elevation_gain": 125.6,
@@ -142442,7 +142442,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Vienna – Hainburg an der Donau (DEVELOPED_WITH_SIGNS)",
+        "name": "Vienna – Hainburg an der Donau",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.491,
         "elevation_gain": 230.3,
@@ -144007,7 +144007,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Hainburg an der Donau – Bratislava, Slovakia (DEVELOPED_WITH_SIGNS)",
+        "name": "Hainburg an der Donau – Bratislava, Slovakia",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.958,
         "elevation_gain": 113.3,
@@ -144797,7 +144797,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Bratislava, Slovakia – Ňárad (DEVELOPED_WITH_SIGNS)",
+        "name": "Bratislava, Slovakia – Ňárad",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.671,
         "elevation_gain": 199.5,
@@ -146652,7 +146652,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Ňárad – Komarno (DEVELOPED_WITH_SIGNS)",
+        "name": "Ňárad – Komarno",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.233,
         "elevation_gain": 154.9,
@@ -148612,7 +148612,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Komarno – Esztergom (DEVELOPED_WITH_SIGNS)",
+        "name": "Komarno – Esztergom",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.545,
         "elevation_gain": 162.3,
@@ -150567,7 +150567,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Vienna – Petronell (DEVELOPED_WITH_SIGNS)",
+        "name": "Vienna – Petronell",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.702,
         "elevation_gain": 279.6,
@@ -152312,7 +152312,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Petronell – Bratislava, Slovakia (DEVELOPED_WITH_SIGNS)",
+        "name": "Petronell – Bratislava, Slovakia",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.23,
         "elevation_gain": 134.9,
@@ -153522,7 +153522,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: Bratislava, Slovakia – Rajka (DEVELOPED_WITH_SIGNS)",
+        "name": "Bratislava, Slovakia – Rajka",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.765,
         "elevation_gain": 54.7,
@@ -154262,7 +154262,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Rajka – Győr (DEVELOPED_WITH_SIGNS)",
+        "name": "Rajka – Győr",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.2,
         "elevation_gain": 187.7,
@@ -156902,7 +156902,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Győr – Komárom (DEVELOPED_WITH_SIGNS)",
+        "name": "Győr – Komárom",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.07,
         "elevation_gain": 135.1,
@@ -158467,7 +158467,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Komárom – Esztergom (DEVELOPED_WITH_SIGNS)",
+        "name": "Komárom – Esztergom",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.887,
         "elevation_gain": 225.7,
@@ -160407,7 +160407,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Esztergom – Szob (DEVELOPED)",
+        "name": "Esztergom – Szob",
         "description": "DEVELOPED",
         "distance_km": 20.354,
         "elevation_gain": 163.5,
@@ -161677,7 +161677,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Szob – Vác (DEVELOPED_WITH_SIGNS)",
+        "name": "Szob – Vác",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.1,
         "elevation_gain": 259.1,
@@ -163567,7 +163567,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Vác – Budapest (DEVELOPED_WITH_SIGNS)",
+        "name": "Vác – Budapest",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.123,
         "elevation_gain": 200.5,
@@ -165392,7 +165392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Vác – Dunakeszi (DEVELOPED_WITH_SIGNS)",
+        "name": "Vác – Dunakeszi",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.513,
         "elevation_gain": 116.0,
@@ -166637,7 +166637,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: Dunakeszi – Budapest (DEVELOPED)",
+        "name": "Dunakeszi – Budapest",
         "description": "DEVELOPED",
         "distance_km": 15.705,
         "elevation_gain": 110.3,
@@ -167642,7 +167642,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Budapest – Dömsöd (DEVELOPED_WITH_SIGNS)",
+        "name": "Budapest – Dömsöd",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.833,
         "elevation_gain": 183.9,
@@ -169692,7 +169692,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Dömsöd – Harta (DEVELOPED_WITH_SIGNS)",
+        "name": "Dömsöd – Harta",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.895,
         "elevation_gain": 147.6,
@@ -171417,7 +171417,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Harta – Baja (DEVELOPED_WITH_SIGNS)",
+        "name": "Harta – Baja",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 68.788,
         "elevation_gain": 178.4,
@@ -173812,7 +173812,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Baja – Mohács (DEVELOPED_WITH_SIGNS)",
+        "name": "Baja – Mohács",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.633,
         "elevation_gain": 156.9,
@@ -174657,7 +174657,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Mohács – Hercegszántó/Bački Breg (DEVELOPED_WITH_SIGNS)",
+        "name": "Mohács – Hercegszántó/Bački Breg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.815,
         "elevation_gain": 11.5,
@@ -174782,7 +174782,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Hercegszántó/Bački Breg – Sombor (DEVELOPED_WITH_SIGNS)",
+        "name": "Hercegszántó/Bački Breg – Sombor",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.79,
         "elevation_gain": 81.7,
@@ -175747,7 +175747,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: Sombor – Apatin (DEVELOPED_WITH_SIGNS)",
+        "name": "Sombor – Apatin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.889,
         "elevation_gain": 56.7,
@@ -176567,7 +176567,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Apatin – Karavukovo (DEVELOPED_WITH_SIGNS)",
+        "name": "Apatin – Karavukovo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.035,
         "elevation_gain": 83.7,
@@ -177557,7 +177557,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Karavukovo – Backa Palanka (DEVELOPED_WITH_SIGNS)",
+        "name": "Karavukovo – Backa Palanka",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 79.854,
         "elevation_gain": 121.0,
@@ -178862,7 +178862,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Mohács – Draž (DEVELOPED_WITH_SIGNS)",
+        "name": "Mohács – Draž",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.236,
         "elevation_gain": 70.3,
@@ -179667,7 +179667,7 @@
       "type": "Feature",
       "properties": {
         "stage": 112,
-        "name": "112: Draž – Osijek (DEVELOPED)",
+        "name": "Draž – Osijek",
         "description": "DEVELOPED",
         "distance_km": 52.121,
         "elevation_gain": 188.4,
@@ -180412,7 +180412,7 @@
       "type": "Feature",
       "properties": {
         "stage": 113,
-        "name": "113: Osijek – Vukovar (DEVELOPED)",
+        "name": "Osijek – Vukovar",
         "description": "DEVELOPED",
         "distance_km": 46.154,
         "elevation_gain": 154.3,
@@ -181992,7 +181992,7 @@
       "type": "Feature",
       "properties": {
         "stage": 114,
-        "name": "114: Vukovar – Backa Palanka (DEVELOPED_WITH_SIGNS)",
+        "name": "Vukovar – Backa Palanka",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.4,
         "elevation_gain": 204.0,
@@ -182502,7 +182502,7 @@
       "type": "Feature",
       "properties": {
         "stage": 115,
-        "name": "115: Backa Palanka – Novi Sad (DEVELOPED_WITH_SIGNS)",
+        "name": "Backa Palanka – Novi Sad",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.806,
         "elevation_gain": 126.0,
@@ -183617,7 +183617,7 @@
       "type": "Feature",
       "properties": {
         "stage": 116,
-        "name": "116: Novi Sad – Belgrade (DEVELOPED_WITH_SIGNS)",
+        "name": "Novi Sad – Belgrade",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 95.474,
         "elevation_gain": 599.3,
@@ -185487,7 +185487,7 @@
       "type": "Feature",
       "properties": {
         "stage": 117,
-        "name": "117: Belgrade – Smederevo (DEVELOPED_WITH_SIGNS)",
+        "name": "Belgrade – Smederevo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.426,
         "elevation_gain": 144.7,
@@ -187132,7 +187132,7 @@
       "type": "Feature",
       "properties": {
         "stage": 118,
-        "name": "118: Smederevo – Bela Crvka (DEVELOPED_WITH_SIGNS)",
+        "name": "Smederevo – Bela Crvka",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.322,
         "elevation_gain": 125.6,
@@ -188152,7 +188152,7 @@
       "type": "Feature",
       "properties": {
         "stage": 119,
-        "name": "119: Bela Crvka – Golubac (DEVELOPED_WITH_SIGNS)",
+        "name": "Bela Crvka – Golubac",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.09,
         "elevation_gain": 406.7,
@@ -190657,7 +190657,7 @@
       "type": "Feature",
       "properties": {
         "stage": 120,
-        "name": "120: Golubac – Donji Milanovac (DEVELOPED_WITH_SIGNS)",
+        "name": "Golubac – Donji Milanovac",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.828,
         "elevation_gain": 1386.1,
@@ -193102,7 +193102,7 @@
       "type": "Feature",
       "properties": {
         "stage": 121,
-        "name": "121: Donji Milanovac – Kladovo (DEVELOPED_WITH_SIGNS)",
+        "name": "Donji Milanovac – Kladovo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.836,
         "elevation_gain": 1318.6,
@@ -194932,7 +194932,7 @@
       "type": "Feature",
       "properties": {
         "stage": 122,
-        "name": "122: Kladovo – Prahovo (DEVELOPED_WITH_SIGNS)",
+        "name": "Kladovo – Prahovo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.407,
         "elevation_gain": 592.9,
@@ -197487,7 +197487,7 @@
       "type": "Feature",
       "properties": {
         "stage": 123,
-        "name": "123: Prahovo – Negotin (DEVELOPED_WITH_SIGNS)",
+        "name": "Prahovo – Negotin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 8.198,
         "elevation_gain": 12.6,
@@ -197647,7 +197647,7 @@
       "type": "Feature",
       "properties": {
         "stage": 124,
-        "name": "124: Negotin – Bregovo (DEVELOPED_WITH_SIGNS)",
+        "name": "Negotin – Bregovo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.836,
         "elevation_gain": 224.5,
@@ -198557,7 +198557,7 @@
       "type": "Feature",
       "properties": {
         "stage": 125,
-        "name": "125: Bregovo – Vidin (UNDER_DEVELOPMENT)",
+        "name": "Bregovo – Vidin",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.747,
         "elevation_gain": 266.2,
@@ -200207,7 +200207,7 @@
       "type": "Feature",
       "properties": {
         "stage": 126,
-        "name": "126: Vidin – Orsoya (UNDER_DEVELOPMENT)",
+        "name": "Vidin – Orsoya",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.847,
         "elevation_gain": 226.4,
@@ -201457,7 +201457,7 @@
       "type": "Feature",
       "properties": {
         "stage": 127,
-        "name": "127: Orsoya – Kozloduy (UNDER_DEVELOPMENT)",
+        "name": "Orsoya – Kozloduy",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 56.757,
         "elevation_gain": 411.7,
@@ -202702,7 +202702,7 @@
       "type": "Feature",
       "properties": {
         "stage": 128,
-        "name": "128: Kozloduy – Oryahovo (UNDER_DEVELOPMENT)",
+        "name": "Kozloduy – Oryahovo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 32.704,
         "elevation_gain": 179.5,
@@ -203707,7 +203707,7 @@
       "type": "Feature",
       "properties": {
         "stage": 129,
-        "name": "129: Oryahovo – Ostrov (UNDER_DEVELOPMENT)",
+        "name": "Oryahovo – Ostrov",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 19.902,
         "elevation_gain": 150.5,
@@ -204437,7 +204437,7 @@
       "type": "Feature",
       "properties": {
         "stage": 130,
-        "name": "130: Ostrov – Dabovan (UNDER_DEVELOPMENT)",
+        "name": "Ostrov – Dabovan",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.839,
         "elevation_gain": 302.7,
@@ -205482,7 +205482,7 @@
       "type": "Feature",
       "properties": {
         "stage": 131,
-        "name": "131: Dabovan – Nikopol (UNDER_DEVELOPMENT)",
+        "name": "Dabovan – Nikopol",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.365,
         "elevation_gain": 190.9,
@@ -206432,7 +206432,7 @@
       "type": "Feature",
       "properties": {
         "stage": 132,
-        "name": "132: Nikopol – Bjala Voda (UNDER_DEVELOPMENT)",
+        "name": "Nikopol – Bjala Voda",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.898,
         "elevation_gain": 227.2,
@@ -207077,7 +207077,7 @@
       "type": "Feature",
       "properties": {
         "stage": 133,
-        "name": "133: Bjala Voda – Svishtov (UNDER_DEVELOPMENT)",
+        "name": "Bjala Voda – Svishtov",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.753,
         "elevation_gain": 128.1,
@@ -207707,7 +207707,7 @@
       "type": "Feature",
       "properties": {
         "stage": 134,
-        "name": "134: Svishtov – Dve Mogili (UNDER_DEVELOPMENT)",
+        "name": "Svishtov – Dve Mogili",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.3,
         "elevation_gain": 725.0,
@@ -209777,7 +209777,7 @@
       "type": "Feature",
       "properties": {
         "stage": 135,
-        "name": "135: Dve Mogili – Ruse (UNDER_DEVELOPMENT)",
+        "name": "Dve Mogili – Ruse",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 35.709,
         "elevation_gain": 445.0,
@@ -210797,7 +210797,7 @@
       "type": "Feature",
       "properties": {
         "stage": 136,
-        "name": "136: Bela Crvka – Baziaș (UNDER_DEVELOPMENT)",
+        "name": "Bela Crvka – Baziaș",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.836,
         "elevation_gain": 214.0,
@@ -211052,7 +211052,7 @@
       "type": "Feature",
       "properties": {
         "stage": 137,
-        "name": "137: Baziaș – Coronini (UNDER_DEVELOPMENT)",
+        "name": "Baziaș – Coronini",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.335,
         "elevation_gain": 140.8,
@@ -211257,7 +211257,7 @@
       "type": "Feature",
       "properties": {
         "stage": 138,
-        "name": "138: Coronini – Svinita (UNDER_DEVELOPMENT)",
+        "name": "Coronini – Svinita",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 48.844,
         "elevation_gain": 349.9,
@@ -211652,7 +211652,7 @@
       "type": "Feature",
       "properties": {
         "stage": 139,
-        "name": "139: Svinita – Drobeta-Turnu Severin (UNDER_DEVELOPMENT)",
+        "name": "Svinita – Drobeta-Turnu Severin",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 74.115,
         "elevation_gain": 793.1,
@@ -212257,7 +212257,7 @@
       "type": "Feature",
       "properties": {
         "stage": 140,
-        "name": "140: Drobeta-Turnu Severin – Balta Verde (UNDER_DEVELOPMENT)",
+        "name": "Drobeta-Turnu Severin – Balta Verde",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 65.737,
         "elevation_gain": 187.1,
@@ -212617,7 +212617,7 @@
       "type": "Feature",
       "properties": {
         "stage": 141,
-        "name": "141: Balta Verde – Prahovo (UNDER_DEVELOPMENT)",
+        "name": "Balta Verde – Prahovo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 3.13,
         "elevation_gain": 24.3,
@@ -212672,7 +212672,7 @@
       "type": "Feature",
       "properties": {
         "stage": 142,
-        "name": "142: Balta Verde – Garla Mare (UNDER_DEVELOPMENT)",
+        "name": "Balta Verde – Garla Mare",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 32.878,
         "elevation_gain": 231.9,
@@ -213727,7 +213727,7 @@
       "type": "Feature",
       "properties": {
         "stage": 143,
-        "name": "143: Garla Mare – Calafat (UNDER_DEVELOPMENT)",
+        "name": "Garla Mare – Calafat",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.914,
         "elevation_gain": 181.7,
@@ -215847,7 +215847,7 @@
       "type": "Feature",
       "properties": {
         "stage": 144,
-        "name": "144: Calafat – Piscu Vechi (UNDER_DEVELOPMENT)",
+        "name": "Calafat – Piscu Vechi",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 51.895,
         "elevation_gain": 226.7,
@@ -219362,7 +219362,7 @@
       "type": "Feature",
       "properties": {
         "stage": 145,
-        "name": "145: Piscu Vechi – Bistret (UNDER_DEVELOPMENT)",
+        "name": "Piscu Vechi – Bistret",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.65,
         "elevation_gain": 98.5,
@@ -220977,7 +220977,7 @@
       "type": "Feature",
       "properties": {
         "stage": 146,
-        "name": "146: Bistret – Bechet (UNDER_DEVELOPMENT)",
+        "name": "Bistret – Bechet",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.318,
         "elevation_gain": 154.8,
@@ -223827,7 +223827,7 @@
       "type": "Feature",
       "properties": {
         "stage": 147,
-        "name": "147: Bechet – Garcov (UNDER_DEVELOPMENT)",
+        "name": "Bechet – Garcov",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.775,
         "elevation_gain": 130.2,
@@ -225107,7 +225107,7 @@
       "type": "Feature",
       "properties": {
         "stage": 148,
-        "name": "148: Garcov – Turnu Măgurele (UNDER_DEVELOPMENT)",
+        "name": "Garcov – Turnu Măgurele",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 21.253,
         "elevation_gain": 33.3,
@@ -225392,7 +225392,7 @@
       "type": "Feature",
       "properties": {
         "stage": 149,
-        "name": "149: Turnu Măgurele – Lisa (UNDER_DEVELOPMENT)",
+        "name": "Turnu Măgurele – Lisa",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.296,
         "elevation_gain": 87.0,
@@ -225987,7 +225987,7 @@
       "type": "Feature",
       "properties": {
         "stage": 150,
-        "name": "150: Lisa – Bujoru (UNDER_DEVELOPMENT)",
+        "name": "Lisa – Bujoru",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.768,
         "elevation_gain": 115.1,
@@ -226442,7 +226442,7 @@
       "type": "Feature",
       "properties": {
         "stage": 151,
-        "name": "151: Bujoru – Giurgiu (UNDER_DEVELOPMENT)",
+        "name": "Bujoru – Giurgiu",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.898,
         "elevation_gain": 68.1,
@@ -226887,7 +226887,7 @@
       "type": "Feature",
       "properties": {
         "stage": 152,
-        "name": "152: Ruse – Tutrakan (UNDER_DEVELOPMENT)",
+        "name": "Ruse – Tutrakan",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 65.235,
         "elevation_gain": 176.0,
@@ -227752,7 +227752,7 @@
       "type": "Feature",
       "properties": {
         "stage": 153,
-        "name": "153: Tutrakan – Srebarna (UNDER_DEVELOPMENT)",
+        "name": "Tutrakan – Srebarna",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 51.31,
         "elevation_gain": 671.8,
@@ -229042,7 +229042,7 @@
       "type": "Feature",
       "properties": {
         "stage": 154,
-        "name": "154: Srebarna – Silistra (UNDER_DEVELOPMENT)",
+        "name": "Srebarna – Silistra",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 20.741,
         "elevation_gain": 137.3,
@@ -229537,7 +229537,7 @@
       "type": "Feature",
       "properties": {
         "stage": 155,
-        "name": "155: Giurgiu – Oltenița (UNDER_DEVELOPMENT)",
+        "name": "Giurgiu – Oltenița",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 67.465,
         "elevation_gain": 95.8,
@@ -230337,7 +230337,7 @@
       "type": "Feature",
       "properties": {
         "stage": 156,
-        "name": "156: Oltenița – Dorobanțu (UNDER_DEVELOPMENT)",
+        "name": "Oltenița – Dorobanțu",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.361,
         "elevation_gain": 55.8,
@@ -230837,7 +230837,7 @@
       "type": "Feature",
       "properties": {
         "stage": 157,
-        "name": "157: Dorobanțu – Silistra (UNDER_DEVELOPMENT)",
+        "name": "Dorobanțu – Silistra",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.794,
         "elevation_gain": 39.4,
@@ -231162,7 +231162,7 @@
       "type": "Feature",
       "properties": {
         "stage": 158,
-        "name": "158: Silistra – Oltina (UNDER_DEVELOPMENT)",
+        "name": "Silistra – Oltina",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 48.938,
         "elevation_gain": 697.4,
@@ -232812,7 +232812,7 @@
       "type": "Feature",
       "properties": {
         "stage": 159,
-        "name": "159: Oltina – Cernavodă (UNDER_DEVELOPMENT)",
+        "name": "Oltina – Cernavodă",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 53.95,
         "elevation_gain": 876.7,
@@ -234897,7 +234897,7 @@
       "type": "Feature",
       "properties": {
         "stage": 160,
-        "name": "160: Cernavodă – Crucea (UNDER_DEVELOPMENT)",
+        "name": "Cernavodă – Crucea",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 53.049,
         "elevation_gain": 682.0,
@@ -236157,7 +236157,7 @@
       "type": "Feature",
       "properties": {
         "stage": 161,
-        "name": "161: Crucea – Nuntași (UNDER_DEVELOPMENT)",
+        "name": "Crucea – Nuntași",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.754,
         "elevation_gain": 388.2,
@@ -237082,7 +237082,7 @@
       "type": "Feature",
       "properties": {
         "stage": 162,
-        "name": "162: Nuntași – Vadu (UNDER_DEVELOPMENT)",
+        "name": "Nuntași – Vadu",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.905,
         "elevation_gain": 87.9,
@@ -237582,7 +237582,7 @@
       "type": "Feature",
       "properties": {
         "stage": 163,
-        "name": "163: Vadu – Constanta, Romania (UNDER_DEVELOPMENT)",
+        "name": "Vadu – Constanta, Romania",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.835,
         "elevation_gain": 167.7,

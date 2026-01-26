@@ -48,7 +48,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "01: Langres – Pouilly-en-bassigny (DEVELOPED_WITH_SIGNS)",
+        "name": "Langres – Pouilly-en-bassigny",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.906,
         "elevation_gain": 338.7,
@@ -1778,7 +1778,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "02: Pouilly-en-bassigny – Montigny-le-Roi (DEVELOPED_WITH_SIGNS)",
+        "name": "Pouilly-en-bassigny – Montigny-le-Roi",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 10.66,
         "elevation_gain": 74.6,
@@ -2123,7 +2123,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "03: Montigny-le-Roi – Bourmont (DEVELOPED_WITH_SIGNS)",
+        "name": "Montigny-le-Roi – Bourmont",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.71,
         "elevation_gain": 221.5,
@@ -2818,7 +2818,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "04: Bourmont – Neufchâteau (DEVELOPED_WITH_SIGNS)",
+        "name": "Bourmont – Neufchâteau",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.09,
         "elevation_gain": 436.9,
@@ -4343,7 +4343,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "05: Neufchâteau – Vaucouleurs (DEVELOPED_WITH_SIGNS)",
+        "name": "Neufchâteau – Vaucouleurs",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.217,
         "elevation_gain": 347.1,
@@ -5638,7 +5638,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "06: Vaucouleurs – Commercy (DEVELOPED_WITH_SIGNS)",
+        "name": "Vaucouleurs – Commercy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.923,
         "elevation_gain": 211.8,
@@ -6383,7 +6383,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "07: Commercy – St-Mihiel (DEVELOPED_WITH_SIGNS)",
+        "name": "Commercy – St-Mihiel",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.406,
         "elevation_gain": 221.9,
@@ -7093,7 +7093,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "08: St-Mihiel – Verdun (DEVELOPED_WITH_SIGNS)",
+        "name": "St-Mihiel – Verdun",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.376,
         "elevation_gain": 200.8,
@@ -8073,7 +8073,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "09: Verdun – Dun-Sur-Meuse (DEVELOPED_WITH_SIGNS)",
+        "name": "Verdun – Dun-Sur-Meuse",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.075,
         "elevation_gain": 194.9,
@@ -9098,7 +9098,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "10: Dun-Sur-Meuse – Stenay (DEVELOPED_WITH_SIGNS)",
+        "name": "Dun-Sur-Meuse – Stenay",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 14.365,
         "elevation_gain": 78.8,
@@ -9508,7 +9508,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "11: Stenay – Sedan (DEVELOPED_WITH_SIGNS)",
+        "name": "Stenay – Sedan",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.355,
         "elevation_gain": 385.1,
@@ -10963,7 +10963,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "12: Sedan – Charleville-Mézières (DEVELOPED_WITH_SIGNS)",
+        "name": "Sedan – Charleville-Mézières",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.943,
         "elevation_gain": 156.9,
@@ -12113,7 +12113,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "13: Charleville-Mézières – Monthermé (DEVELOPED_WITH_SIGNS)",
+        "name": "Charleville-Mézières – Monthermé",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.949,
         "elevation_gain": 216.9,
@@ -13013,7 +13013,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "14: Monthermé – Haybes (DEVELOPED_WITH_SIGNS)",
+        "name": "Monthermé – Haybes",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.071,
         "elevation_gain": 417.3,
@@ -14363,7 +14363,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "15: Haybes – Givet (DEVELOPED_WITH_SIGNS)",
+        "name": "Haybes – Givet",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.548,
         "elevation_gain": 352.5,
@@ -15658,7 +15658,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "16: Givet – Dinant (DEVELOPED_WITH_SIGNS)",
+        "name": "Givet – Dinant",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.865,
         "elevation_gain": 269.9,
@@ -17053,7 +17053,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "17: Dinant – Namur (DEVELOPED_WITH_SIGNS)",
+        "name": "Dinant – Namur",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.947,
         "elevation_gain": 233.3,
@@ -18388,7 +18388,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "18: Huy – Namur (DEVELOPED_WITH_SIGNS)",
+        "name": "Huy – Namur",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.243,
         "elevation_gain": 208.2,
@@ -19828,7 +19828,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "19: Liège – Huy (DEVELOPED_WITH_SIGNS)",
+        "name": "Liège – Huy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.122,
         "elevation_gain": 273.9,
@@ -22193,7 +22193,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "20: Liège – Kanne (DEVELOPED_WITH_SIGNS)",
+        "name": "Liège – Kanne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.339,
         "elevation_gain": 92.4,
@@ -23343,7 +23343,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "21: Kanne – Roermond (DEVELOPED_WITH_SIGNS)",
+        "name": "Kanne – Roermond",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 76.679,
         "elevation_gain": 430.1,
@@ -27968,7 +27968,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "22: Kanne – Maastricht (DEVELOPED_WITH_SIGNS)",
+        "name": "Kanne – Maastricht",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 9.558,
         "elevation_gain": 182.9,
@@ -28688,7 +28688,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "23: Maastricht – Ohé en Laak (DEVELOPED_WITH_SIGNS)",
+        "name": "Maastricht – Ohé en Laak",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.516,
         "elevation_gain": 175.1,
@@ -31673,7 +31673,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "24: Ohé en Laak – Roermond (DEVELOPED_WITH_SIGNS)",
+        "name": "Ohé en Laak – Roermond",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.004,
         "elevation_gain": 122.2,
@@ -33193,7 +33193,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "25: Roermond – Venlo (DEVELOPED_WITH_SIGNS)",
+        "name": "Roermond – Venlo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.459,
         "elevation_gain": 206.2,
@@ -35838,7 +35838,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "26: Venlo – Boxmeer (DEVELOPED_WITH_SIGNS)",
+        "name": "Venlo – Boxmeer",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.39,
         "elevation_gain": 233.8,
@@ -39273,7 +39273,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "27: Boxmeer – Maasbommel (DEVELOPED_WITH_SIGNS)",
+        "name": "Boxmeer – Maasbommel",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.201,
         "elevation_gain": 189.3,
@@ -43513,7 +43513,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "28: Maasbommel – Den Bosch (DEVELOPED_WITH_SIGNS)",
+        "name": "Maasbommel – Den Bosch",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.291,
         "elevation_gain": 115.6,
@@ -46453,7 +46453,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "29: Den Bosch – Woudrichem (DEVELOPED_WITH_SIGNS)",
+        "name": "Den Bosch – Woudrichem",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.639,
         "elevation_gain": 104.3,
@@ -48443,7 +48443,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "30: Woudrichem – Dordrecht (DEVELOPED_WITH_SIGNS)",
+        "name": "Woudrichem – Dordrecht",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.819,
         "elevation_gain": 135.8,
@@ -51218,7 +51218,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "31: Dordrecht – Hook of Holland (DEVELOPED_WITH_SIGNS)",
+        "name": "Dordrecht – Hook of Holland",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 92.071,
         "elevation_gain": 298.5,
@@ -56373,7 +56373,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "32: Hook of Holland – Rotterdam (DEVELOPED_WITH_SIGNS)",
+        "name": "Hook of Holland – Rotterdam",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.261,
         "elevation_gain": 151.3,

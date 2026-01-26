@@ -148,7 +148,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Roscoff – Morlaix (DEVELOPED_WITH_SIGNS)",
+        "name": "Roscoff – Morlaix",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.125,
         "elevation_gain": 538.3,
@@ -2818,7 +2818,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Morlaix – Plougasnou (DEVELOPED_WITH_SIGNS)",
+        "name": "Morlaix – Plougasnou",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.765,
         "elevation_gain": 471.8,
@@ -5073,7 +5073,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Plougasnou – Plestin-les-grèves (DEVELOPED_WITH_SIGNS)",
+        "name": "Plougasnou – Plestin-les-grèves",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.8,
         "elevation_gain": 384.1,
@@ -6888,7 +6888,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: Plestin-les-grèves – Lannion (DEVELOPED_WITH_SIGNS)",
+        "name": "Plestin-les-grèves – Lannion",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.564,
         "elevation_gain": 340.8,
@@ -8733,7 +8733,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Lannion – Perros-Guirec (DEVELOPED_WITH_SIGNS)",
+        "name": "Lannion – Perros-Guirec",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.963,
         "elevation_gain": 490.6,
@@ -12478,7 +12478,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Perros-Guirec – Tréguier (DEVELOPED_WITH_SIGNS)",
+        "name": "Perros-Guirec – Tréguier",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.843,
         "elevation_gain": 216.0,
@@ -14213,7 +14213,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Tréguier – Paimpol (DEVELOPED_WITH_SIGNS)",
+        "name": "Tréguier – Paimpol",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.352,
         "elevation_gain": 243.3,
@@ -15803,7 +15803,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Paimpol – Saint-Quay-Portrieux (DEVELOPED_WITH_SIGNS)",
+        "name": "Paimpol – Saint-Quay-Portrieux",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.444,
         "elevation_gain": 559.9,
@@ -19233,7 +19233,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Saint-Quay-Portrieux – Saint-Brieuc (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Quay-Portrieux – Saint-Brieuc",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.907,
         "elevation_gain": 397.7,
@@ -21463,7 +21463,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Saint-Brieuc – Erquy (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Brieuc – Erquy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.105,
         "elevation_gain": 557.3,
@@ -24458,7 +24458,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Erquy – Matignon (DEVELOPED_WITH_SIGNS)",
+        "name": "Erquy – Matignon",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.852,
         "elevation_gain": 459.4,
@@ -26768,7 +26768,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Matignon – Pleslin (DEVELOPED_WITH_SIGNS)",
+        "name": "Matignon – Pleslin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.146,
         "elevation_gain": 244.0,
@@ -28373,7 +28373,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Pleslin – Saint-Malo (DEVELOPED_WITH_SIGNS)",
+        "name": "Pleslin – Saint-Malo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.714,
         "elevation_gain": 319.3,
@@ -30133,7 +30133,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Saint-Malo – Cancale (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Malo – Cancale",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.346,
         "elevation_gain": 150.9,
@@ -30878,7 +30878,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Cancale – Le Vivier (DEVELOPED_WITH_SIGNS)",
+        "name": "Cancale – Le Vivier",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.827,
         "elevation_gain": 123.7,
@@ -31828,7 +31828,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Le Vivier – Pontorson (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Vivier – Pontorson",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.56,
         "elevation_gain": 54.4,
@@ -33033,7 +33033,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Pontorson – Céaux (DEVELOPED_WITH_SIGNS)",
+        "name": "Pontorson – Céaux",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.965,
         "elevation_gain": 82.8,
@@ -34233,7 +34233,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Céaux – Mortain-Bocage (DEVELOPED_WITH_SIGNS)",
+        "name": "Céaux – Mortain-Bocage",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.22,
         "elevation_gain": 294.1,
@@ -35633,7 +35633,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Mortain-Bocage – Vire (DEVELOPED_WITH_SIGNS)",
+        "name": "Mortain-Bocage – Vire",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.778,
         "elevation_gain": 474.1,
@@ -37633,7 +37633,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: Vire – Pont-Farcy (DEVELOPED_WITH_SIGNS)",
+        "name": "Vire – Pont-Farcy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.351,
         "elevation_gain": 617.1,
@@ -39943,7 +39943,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Pont-Farcy – Saint-Lô (DEVELOPED_WITH_SIGNS)",
+        "name": "Pont-Farcy – Saint-Lô",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.929,
         "elevation_gain": 455.2,
@@ -42533,7 +42533,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Saint-Lô – Saint-Jean-de-Daye (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Lô – Saint-Jean-de-Daye",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.651,
         "elevation_gain": 303.6,
@@ -44713,7 +44713,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Saint-Jean-de-Daye – Carentan (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Jean-de-Daye – Carentan",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.049,
         "elevation_gain": 81.0,
@@ -46238,7 +46238,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Carentan – La Haye (DEVELOPED_WITH_SIGNS)",
+        "name": "Carentan – La Haye",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.714,
         "elevation_gain": 94.5,
@@ -46693,7 +46693,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: La Haye – Saint-Sauveur-le-Vicomte (DEVELOPED_WITH_SIGNS)",
+        "name": "La Haye – Saint-Sauveur-le-Vicomte",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.267,
         "elevation_gain": 109.1,
@@ -47323,7 +47323,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: Saint-Sauveur-le-Vicomte – Bricquebec-en-Cotentin (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Sauveur-le-Vicomte – Bricquebec-en-Cotentin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.57,
         "elevation_gain": 101.3,
@@ -47873,7 +47873,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Bricquebec-en-Cotentin – Cherbourg (DEVELOPED_WITH_SIGNS)",
+        "name": "Bricquebec-en-Cotentin – Cherbourg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.113,
         "elevation_gain": 365.2,
@@ -49828,7 +49828,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Cherbourg – Saint-Vaast-la-Hougue (DEVELOPED_WITH_SIGNS)",
+        "name": "Cherbourg – Saint-Vaast-la-Hougue",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.437,
         "elevation_gain": 428.5,
@@ -53588,7 +53588,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Saint-Vaast-la-Hougue – Utah Beach (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Vaast-la-Hougue – Utah Beach",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.492,
         "elevation_gain": 256.5,
@@ -55753,7 +55753,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Utah Beach – Carentan (DEVELOPED_WITH_SIGNS)",
+        "name": "Utah Beach – Carentan",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.519,
         "elevation_gain": 64.5,
@@ -57308,7 +57308,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Carentan – Grandcamps-Maisy (DEVELOPED_WITH_SIGNS)",
+        "name": "Carentan – Grandcamps-Maisy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.649,
         "elevation_gain": 164.2,
@@ -59138,7 +59138,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Grandcamps-Maisy – Port-en-Bessin (DEVELOPED_WITH_SIGNS)",
+        "name": "Grandcamps-Maisy – Port-en-Bessin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.59,
         "elevation_gain": 487.4,
@@ -61408,7 +61408,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Port-en-Bessin – Arromanches-les-Bains (DEVELOPED_WITH_SIGNS)",
+        "name": "Port-en-Bessin – Arromanches-les-Bains",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.959,
         "elevation_gain": 246.0,
@@ -62703,7 +62703,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Arromanches-les-Bains – Ouistreham (DEVELOPED_WITH_SIGNS)",
+        "name": "Arromanches-les-Bains – Ouistreham",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.719,
         "elevation_gain": 197.3,
@@ -64638,7 +64638,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: Ouistreham – Cabourg (DEVELOPED_WITH_SIGNS)",
+        "name": "Ouistreham – Cabourg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.932,
         "elevation_gain": 83.1,
@@ -65918,7 +65918,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Cabourg – Deauville (DEVELOPED_WITH_SIGNS)",
+        "name": "Cabourg – Deauville",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.035,
         "elevation_gain": 382.9,
@@ -68463,7 +68463,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: Deauville – Honfleur (DEVELOPED_WITH_SIGNS)",
+        "name": "Deauville – Honfleur",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.918,
         "elevation_gain": 445.2,
@@ -71338,7 +71338,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Honfleur – Havre (UNDER_DEVELOPMENT)",
+        "name": "Honfleur – Havre",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 11.625,
         "elevation_gain": 5.3,
@@ -71368,7 +71368,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Havre – Etretat (DEVELOPED_WITH_SIGNS)",
+        "name": "Havre – Etretat",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.998,
         "elevation_gain": 396.6,
@@ -74013,7 +74013,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Etretat – Fécamp (DEVELOPED_WITH_SIGNS)",
+        "name": "Etretat – Fécamp",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.822,
         "elevation_gain": 247.3,
@@ -75358,7 +75358,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Fécamp – Saint-Valery-en-Caux (DEVELOPED_WITH_SIGNS)",
+        "name": "Fécamp – Saint-Valery-en-Caux",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.516,
         "elevation_gain": 541.4,
@@ -78078,7 +78078,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: Saint-Valery-en-Caux – Dieppe (DEVELOPED_WITH_SIGNS)",
+        "name": "Saint-Valery-en-Caux – Dieppe",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.193,
         "elevation_gain": 502.3,
@@ -80403,7 +80403,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Dieppe – Le Tréport (DEVELOPED_WITH_SIGNS)",
+        "name": "Dieppe – Le Tréport",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.973,
         "elevation_gain": 401.6,
@@ -82138,7 +82138,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Le Tréport – Cayeux-sur-Mer (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Tréport – Cayeux-sur-Mer",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.567,
         "elevation_gain": 196.6,
@@ -83468,7 +83468,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Cayeux-sur-Mer – Le Crotoy (DEVELOPED_WITH_SIGNS)",
+        "name": "Cayeux-sur-Mer – Le Crotoy",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.328,
         "elevation_gain": 83.6,
@@ -84838,7 +84838,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Le Crotoy – Berck (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Crotoy – Berck",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.594,
         "elevation_gain": 139.8,
@@ -87388,7 +87388,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Berck – Le Touquet (DEVELOPED_WITH_SIGNS)",
+        "name": "Berck – Le Touquet",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.136,
         "elevation_gain": 64.5,
@@ -88368,7 +88368,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: Le Touquet – Boulogne-sur-Mer (DEVELOPED_WITH_SIGNS)",
+        "name": "Le Touquet – Boulogne-sur-Mer",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.5,
         "elevation_gain": 275.0,
@@ -90018,7 +90018,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Boulogne-sur-Mer – Wimereux (DEVELOPED)",
+        "name": "Boulogne-sur-Mer – Wimereux",
         "description": "DEVELOPED",
         "distance_km": 14.304,
         "elevation_gain": 194.7,
@@ -91028,7 +91028,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Wimereux – Wissant (DEVELOPED_WITH_SIGNS)",
+        "name": "Wimereux – Wissant",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.492,
         "elevation_gain": 218.1,
@@ -92263,7 +92263,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Wissant – Calais (DEVELOPED)",
+        "name": "Wissant – Calais",
         "description": "DEVELOPED",
         "distance_km": 25.317,
         "elevation_gain": 244.5,
@@ -93438,7 +93438,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Calais – Oye-Plage (DEVELOPED_WITH_SIGNS)",
+        "name": "Calais – Oye-Plage",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.691,
         "elevation_gain": 41.1,
@@ -94483,7 +94483,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Oye-Plage – Loon-Plage (DEVELOPED)",
+        "name": "Oye-Plage – Loon-Plage",
         "description": "DEVELOPED",
         "distance_km": 24.721,
         "elevation_gain": 55.8,
@@ -96008,7 +96008,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Loon-Plage – Dunkerque (DEVELOPED_WITH_SIGNS)",
+        "name": "Loon-Plage – Dunkerque",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.131,
         "elevation_gain": 55.8,
@@ -97203,7 +97203,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: De Panne – Dunkerque (DEVELOPED_WITH_SIGNS)",
+        "name": "De Panne – Dunkerque",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.467,
         "elevation_gain": 42.3,
@@ -97743,7 +97743,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Ostende – De Panne (DEVELOPED_WITH_SIGNS)",
+        "name": "Ostende – De Panne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.125,
         "elevation_gain": 119.2,
@@ -98913,7 +98913,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Cadzand – Ostende (DEVELOPED_WITH_SIGNS)",
+        "name": "Cadzand – Ostende",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.996,
         "elevation_gain": 120.0,
@@ -99893,7 +99893,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Breskens – Cadzand (DEVELOPED_WITH_SIGNS)",
+        "name": "Breskens – Cadzand",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.719,
         "elevation_gain": 97.1,
@@ -101638,7 +101638,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Vlissingen – Hansweert (DEVELOPED)",
+        "name": "Vlissingen – Hansweert",
         "description": "DEVELOPED",
         "distance_km": 53.864,
         "elevation_gain": 121.5,
@@ -104548,7 +104548,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Hansweert – Essen (DEVELOPED)",
+        "name": "Hansweert – Essen",
         "description": "DEVELOPED",
         "distance_km": 55.855,
         "elevation_gain": 167.2,
@@ -106668,7 +106668,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Essen – Breda (DEVELOPED)",
+        "name": "Essen – Breda",
         "description": "DEVELOPED",
         "distance_km": 33.344,
         "elevation_gain": 122.7,
@@ -108158,7 +108158,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Breda – Eindhoven (DEVELOPED)",
+        "name": "Breda – Eindhoven",
         "description": "DEVELOPED",
         "distance_km": 58.512,
         "elevation_gain": 216.2,
@@ -110578,7 +110578,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Eindhoven – Venlo (DEVELOPED)",
+        "name": "Eindhoven – Venlo",
         "description": "DEVELOPED",
         "distance_km": 77.972,
         "elevation_gain": 240.5,
@@ -114408,7 +114408,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Venlo – Dusseldorf (DEVELOPED)",
+        "name": "Venlo – Dusseldorf",
         "description": "DEVELOPED",
         "distance_km": 62.099,
         "elevation_gain": 220.3,
@@ -116903,7 +116903,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: Dusseldorf – Cologne (DEVELOPED)",
+        "name": "Dusseldorf – Cologne",
         "description": "DEVELOPED",
         "distance_km": 45.605,
         "elevation_gain": 256.5,
@@ -119333,7 +119333,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Cologne – Bonn (DEVELOPED)",
+        "name": "Cologne – Bonn",
         "description": "DEVELOPED",
         "distance_km": 39.026,
         "elevation_gain": 311.4,
@@ -121433,7 +121433,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Bonn – Bad Breisig (DEVELOPED)",
+        "name": "Bonn – Bad Breisig",
         "description": "DEVELOPED",
         "distance_km": 31.565,
         "elevation_gain": 221.8,
@@ -122748,7 +122748,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Bad Breisig – Koblenz (DEVELOPED)",
+        "name": "Bad Breisig – Koblenz",
         "description": "DEVELOPED",
         "distance_km": 38.124,
         "elevation_gain": 298.3,
@@ -124953,7 +124953,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Koblenz – Oberwesel (DEVELOPED)",
+        "name": "Koblenz – Oberwesel",
         "description": "DEVELOPED",
         "distance_km": 42.785,
         "elevation_gain": 638.2,
@@ -126928,7 +126928,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Oberwesel – Bingen am Rhein (DEVELOPED)",
+        "name": "Oberwesel – Bingen am Rhein",
         "description": "DEVELOPED",
         "distance_km": 20.338,
         "elevation_gain": 245.8,
@@ -127763,7 +127763,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Bingen am Rhein – Mainz (DEVELOPED)",
+        "name": "Bingen am Rhein – Mainz",
         "description": "DEVELOPED",
         "distance_km": 33.733,
         "elevation_gain": 0.0,
@@ -129463,7 +129463,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Mainz – Frankfurt (DEVELOPED)",
+        "name": "Mainz – Frankfurt",
         "description": "DEVELOPED",
         "distance_km": 41.065,
         "elevation_gain": 0.0,
@@ -131593,7 +131593,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: Frankfurt – Aschaffenburg (DEVELOPED)",
+        "name": "Frankfurt – Aschaffenburg",
         "description": "DEVELOPED",
         "distance_km": 53.628,
         "elevation_gain": 249.9,
@@ -134378,7 +134378,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Aschaffenburg – Miltenberg (DEVELOPED)",
+        "name": "Aschaffenburg – Miltenberg",
         "description": "DEVELOPED",
         "distance_km": 40.156,
         "elevation_gain": 289.8,
@@ -136543,7 +136543,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Miltenberg – Wertheim (DEVELOPED)",
+        "name": "Miltenberg – Wertheim",
         "description": "DEVELOPED",
         "distance_km": 32.688,
         "elevation_gain": 350.3,
@@ -138513,7 +138513,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: Wertheim – Marktheidenfeld (DEVELOPED)",
+        "name": "Wertheim – Marktheidenfeld",
         "description": "DEVELOPED",
         "distance_km": 23.541,
         "elevation_gain": 280.9,
@@ -140028,7 +140028,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Marktheidenfeld – Gemünden am Main (DEVELOPED)",
+        "name": "Marktheidenfeld – Gemünden am Main",
         "description": "DEVELOPED",
         "distance_km": 32.463,
         "elevation_gain": 375.0,
@@ -141778,7 +141778,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: Gemünden am Main – Würzburg (DEVELOPED)",
+        "name": "Gemünden am Main – Würzburg",
         "description": "DEVELOPED",
         "distance_km": 45.686,
         "elevation_gain": 341.0,
@@ -144173,7 +144173,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Würzburg – Kitzingen (DEVELOPED)",
+        "name": "Würzburg – Kitzingen",
         "description": "DEVELOPED",
         "distance_km": 33.197,
         "elevation_gain": 208.1,
@@ -145848,7 +145848,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Kitzingen – Volkach (DEVELOPED)",
+        "name": "Kitzingen – Volkach",
         "description": "DEVELOPED",
         "distance_km": 29.733,
         "elevation_gain": 197.0,
@@ -147583,7 +147583,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Volkach – Schweinfurt (DEVELOPED)",
+        "name": "Volkach – Schweinfurt",
         "description": "DEVELOPED",
         "distance_km": 29.456,
         "elevation_gain": 318.6,
@@ -149378,7 +149378,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: Schweinfurt – Zeil am Main (DEVELOPED)",
+        "name": "Schweinfurt – Zeil am Main",
         "description": "DEVELOPED",
         "distance_km": 29.465,
         "elevation_gain": 215.4,
@@ -150998,7 +150998,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: Zeil am Main – Bamberg (DEVELOPED)",
+        "name": "Zeil am Main – Bamberg",
         "description": "DEVELOPED",
         "distance_km": 25.199,
         "elevation_gain": 230.0,
@@ -152493,7 +152493,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: Bamberg – Lichtenfels (DEVELOPED)",
+        "name": "Bamberg – Lichtenfels",
         "description": "DEVELOPED",
         "distance_km": 42.784,
         "elevation_gain": 240.3,
@@ -155403,7 +155403,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Lichtenfels – Kulmbach (DEVELOPED)",
+        "name": "Lichtenfels – Kulmbach",
         "description": "DEVELOPED",
         "distance_km": 34.319,
         "elevation_gain": 288.6,
@@ -157808,7 +157808,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Kulmbach – Bayreuth (DEVELOPED)",
+        "name": "Kulmbach – Bayreuth",
         "description": "DEVELOPED",
         "distance_km": 29.448,
         "elevation_gain": 286.8,
@@ -160148,7 +160148,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Bayreuth – Bad Berneck (DEVELOPED)",
+        "name": "Bayreuth – Bad Berneck",
         "description": "DEVELOPED",
         "distance_km": 20.966,
         "elevation_gain": 400.7,
@@ -161823,7 +161823,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Bad Berneck – Bischofsgrün (DEVELOPED)",
+        "name": "Bad Berneck – Bischofsgrün",
         "description": "DEVELOPED",
         "distance_km": 12.637,
         "elevation_gain": 424.9,
@@ -162633,7 +162633,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Bischofsgrün – Wunsiedel (DEVELOPED)",
+        "name": "Bischofsgrün – Wunsiedel",
         "description": "DEVELOPED",
         "distance_km": 23.149,
         "elevation_gain": 369.0,
@@ -164473,7 +164473,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Wunsiedel – Schirnding (DEVELOPED)",
+        "name": "Wunsiedel – Schirnding",
         "description": "DEVELOPED",
         "distance_km": 23.776,
         "elevation_gain": 267.4,
@@ -165998,7 +165998,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Schirnding – Cheb (DEVELOPED_WITH_SIGNS)",
+        "name": "Schirnding – Cheb",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 11.772,
         "elevation_gain": 124.5,
@@ -166688,7 +166688,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Cheb – Carlsbad (DEVELOPED_WITH_SIGNS)",
+        "name": "Cheb – Carlsbad",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.136,
         "elevation_gain": 650.7,
@@ -171418,7 +171418,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: Carlsbad – Jesenice (DEVELOPED_WITH_SIGNS)",
+        "name": "Carlsbad – Jesenice",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.941,
         "elevation_gain": 1503.2,
@@ -177643,7 +177643,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Jesenice – Beroun (DEVELOPED_WITH_SIGNS)",
+        "name": "Jesenice – Beroun",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.973,
         "elevation_gain": 1186.8,
@@ -183153,7 +183153,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Beroun – Prague (DEVELOPED)",
+        "name": "Beroun – Prague",
         "description": "DEVELOPED",
         "distance_km": 46.287,
         "elevation_gain": 383.8,
@@ -186258,7 +186258,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Prague – Nymburk (DEVELOPED_WITH_SIGNS)",
+        "name": "Prague – Nymburk",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.918,
         "elevation_gain": 358.7,
@@ -189983,7 +189983,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Nymburk – Kutna Hora (DEVELOPED_WITH_SIGNS)",
+        "name": "Nymburk – Kutna Hora",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.062,
         "elevation_gain": 359.1,
@@ -192363,7 +192363,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Kutna Hora – Hlinsko (DEVELOPED_WITH_SIGNS)",
+        "name": "Kutna Hora – Hlinsko",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 83.744,
         "elevation_gain": 1429.0,
@@ -198008,7 +198008,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Hlinsko – Bystřice nad Pernštejnem (DEVELOPED_WITH_SIGNS)",
+        "name": "Hlinsko – Bystřice nad Pernštejnem",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.974,
         "elevation_gain": 913.9,
@@ -201758,7 +201758,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Bystřice nad Pernštejnem – Nedvedice (DEVELOPED_WITH_SIGNS)",
+        "name": "Bystřice nad Pernštejnem – Nedvedice",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.241,
         "elevation_gain": 412.3,
@@ -203758,7 +203758,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: Nedvedice – Brno (DEVELOPED)",
+        "name": "Nedvedice – Brno",
         "description": "DEVELOPED",
         "distance_km": 54.001,
         "elevation_gain": 807.8,
@@ -207458,7 +207458,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Brno – Kyjov (DEVELOPED)",
+        "name": "Brno – Kyjov",
         "description": "DEVELOPED",
         "distance_km": 73.796,
         "elevation_gain": 653.2,
@@ -211718,7 +211718,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Kyjov – Uherský Ostroh (DEVELOPED)",
+        "name": "Kyjov – Uherský Ostroh",
         "description": "DEVELOPED",
         "distance_km": 42.407,
         "elevation_gain": 302.2,
@@ -213723,7 +213723,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Uherský Ostroh – Kromeriz (DEVELOPED_WITH_SIGNS)",
+        "name": "Uherský Ostroh – Kromeriz",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.292,
         "elevation_gain": 205.5,
@@ -216168,7 +216168,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Kromeriz – Jeseník nad Odrou (DEVELOPED_WITH_SIGNS)",
+        "name": "Kromeriz – Jeseník nad Odrou",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.459,
         "elevation_gain": 596.8,
@@ -220688,7 +220688,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Jeseník nad Odrou – Ostrava (DEVELOPED)",
+        "name": "Jeseník nad Odrou – Ostrava",
         "description": "DEVELOPED",
         "distance_km": 51.63,
         "elevation_gain": 362.2,
@@ -223983,7 +223983,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Ostrava – Stary Bohumin (PLANNING)",
+        "name": "Ostrava – Stary Bohumin",
         "description": "PLANNING",
         "distance_km": 11.24,
         "elevation_gain": 108.1,
@@ -224883,7 +224883,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: Stary Bohumin – Gołkowice (UNDER_DEVELOPMENT)",
+        "name": "Stary Bohumin – Gołkowice",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 22.384,
         "elevation_gain": 182.3,
@@ -225988,7 +225988,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Gołkowice – Brzeszcze (UNDER_DEVELOPMENT)",
+        "name": "Gołkowice – Brzeszcze",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 64.997,
         "elevation_gain": 434.3,
@@ -228803,7 +228803,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Brzeszcze – Skawina (DEVELOPED)",
+        "name": "Brzeszcze – Skawina",
         "description": "DEVELOPED",
         "distance_km": 73.994,
         "elevation_gain": 295.3,
@@ -233338,7 +233338,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Skawina – Krakow (UNDER_DEVELOPMENT)",
+        "name": "Skawina – Krakow",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.982,
         "elevation_gain": 152.8,
@@ -234823,7 +234823,7 @@
       "type": "Feature",
       "properties": {
         "stage": 112,
-        "name": "112: Krakow – Niepołomice (UNDER_DEVELOPMENT)",
+        "name": "Krakow – Niepołomice",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 16.431,
         "elevation_gain": 27.9,
@@ -235593,7 +235593,7 @@
       "type": "Feature",
       "properties": {
         "stage": 113,
-        "name": "113: Niepołomice – Tarnów (DEVELOPED)",
+        "name": "Niepołomice – Tarnów",
         "description": "DEVELOPED",
         "distance_km": 63.768,
         "elevation_gain": 248.9,
@@ -238273,7 +238273,7 @@
       "type": "Feature",
       "properties": {
         "stage": 114,
-        "name": "114: Tarnów – Jodlowka-Walki (DEVELOPED)",
+        "name": "Tarnów – Jodlowka-Walki",
         "description": "DEVELOPED",
         "distance_km": 29.502,
         "elevation_gain": 190.6,
@@ -239773,7 +239773,7 @@
       "type": "Feature",
       "properties": {
         "stage": 115,
-        "name": "115: Jodlowka-Walki – Przecław (PLANNING)",
+        "name": "Jodlowka-Walki – Przecław",
         "description": "PLANNING",
         "distance_km": 36.727,
         "elevation_gain": 207.0,
@@ -241328,7 +241328,7 @@
       "type": "Feature",
       "properties": {
         "stage": 116,
-        "name": "116: Przecław – Rzeszów (PLANNING)",
+        "name": "Przecław – Rzeszów",
         "description": "PLANNING",
         "distance_km": 68.95,
         "elevation_gain": 504.3,
@@ -244593,7 +244593,7 @@
       "type": "Feature",
       "properties": {
         "stage": 117,
-        "name": "117: Rzeszów – Dynów (PLANNING)",
+        "name": "Rzeszów – Dynów",
         "description": "PLANNING",
         "distance_km": 47.783,
         "elevation_gain": 745.3,
@@ -248038,7 +248038,7 @@
       "type": "Feature",
       "properties": {
         "stage": 118,
-        "name": "118: Dynów – Skopów (PLANNING)",
+        "name": "Dynów – Skopów",
         "description": "PLANNING",
         "distance_km": 51.208,
         "elevation_gain": 678.0,
@@ -251028,7 +251028,7 @@
       "type": "Feature",
       "properties": {
         "stage": 119,
-        "name": "119: Skopów – Przemysl (PLANNING)",
+        "name": "Skopów – Przemysl",
         "description": "PLANNING",
         "distance_km": 38.302,
         "elevation_gain": 578.0,
@@ -253173,7 +253173,7 @@
       "type": "Feature",
       "properties": {
         "stage": 120,
-        "name": "120: Przemysl – Medyka (PLANNING)",
+        "name": "Przemysl – Medyka",
         "description": "PLANNING",
         "distance_km": 15.017,
         "elevation_gain": 76.3,
@@ -253638,7 +253638,7 @@
       "type": "Feature",
       "properties": {
         "stage": 121,
-        "name": "121: Medyka – L'viv (PLANNING)",
+        "name": "Medyka – L'viv",
         "description": "PLANNING",
         "distance_km": 82.108,
         "elevation_gain": 582.0,
@@ -255958,7 +255958,7 @@
       "type": "Feature",
       "properties": {
         "stage": 122,
-        "name": "122: L'viv – Berezhany (PLANNING)",
+        "name": "L'viv – Berezhany",
         "description": "PLANNING",
         "distance_km": 94.188,
         "elevation_gain": 1045.0,
@@ -259468,7 +259468,7 @@
       "type": "Feature",
       "properties": {
         "stage": 123,
-        "name": "123: Berezhany – Kosova (PLANNING)",
+        "name": "Berezhany – Kosova",
         "description": "PLANNING",
         "distance_km": 15.535,
         "elevation_gain": 166.0,
@@ -259923,7 +259923,7 @@
       "type": "Feature",
       "properties": {
         "stage": 124,
-        "name": "124: Kosova – Ternopil (PLANNING)",
+        "name": "Kosova – Ternopil",
         "description": "PLANNING",
         "distance_km": 37.882,
         "elevation_gain": 363.0,
@@ -261038,7 +261038,7 @@
       "type": "Feature",
       "properties": {
         "stage": 125,
-        "name": "125: Ternopil – Kremenets (PLANNING)",
+        "name": "Ternopil – Kremenets",
         "description": "PLANNING",
         "distance_km": 86.606,
         "elevation_gain": 880.0,
@@ -264053,7 +264053,7 @@
       "type": "Feature",
       "properties": {
         "stage": 126,
-        "name": "126: Kremenets – Ostroh (PLANNING)",
+        "name": "Kremenets – Ostroh",
         "description": "PLANNING",
         "distance_km": 80.483,
         "elevation_gain": 714.0,
@@ -267038,7 +267038,7 @@
       "type": "Feature",
       "properties": {
         "stage": 127,
-        "name": "127: Ostroh – Polonne (PLANNING)",
+        "name": "Ostroh – Polonne",
         "description": "PLANNING",
         "distance_km": 88.496,
         "elevation_gain": 512.0,
@@ -270213,7 +270213,7 @@
       "type": "Feature",
       "properties": {
         "stage": 128,
-        "name": "128: Polonne – Zhytomyr (PLANNING)",
+        "name": "Polonne – Zhytomyr",
         "description": "PLANNING",
         "distance_km": 100.347,
         "elevation_gain": 681.0,
@@ -273918,7 +273918,7 @@
       "type": "Feature",
       "properties": {
         "stage": 129,
-        "name": "129: Zhytomyr – Radomyshl (PLANNING)",
+        "name": "Zhytomyr – Radomyshl",
         "description": "PLANNING",
         "distance_km": 73.659,
         "elevation_gain": 630.0,
@@ -277288,7 +277288,7 @@
       "type": "Feature",
       "properties": {
         "stage": 130,
-        "name": "130: Radomyshl – Bilka (PLANNING)",
+        "name": "Radomyshl – Bilka",
         "description": "PLANNING",
         "distance_km": 16.094,
         "elevation_gain": 0.0,
@@ -277318,7 +277318,7 @@
       "type": "Feature",
       "properties": {
         "stage": 131,
-        "name": "131: Bilka – Kyiv (PLANNING)",
+        "name": "Bilka – Kyiv",
         "description": "PLANNING",
         "distance_km": 105.87,
         "elevation_gain": 956.0,

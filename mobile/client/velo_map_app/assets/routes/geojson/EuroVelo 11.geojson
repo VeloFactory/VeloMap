@@ -129,7 +129,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "001: Nordkapp – Honningsvåg (DEVELOPED)",
+        "name": "Nordkapp – Honningsvåg",
         "description": "DEVELOPED",
         "distance_km": 31.129,
         "elevation_gain": 616.6,
@@ -1799,7 +1799,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "002: Honningsvåg – Repvåg (DEVELOPED)",
+        "name": "Honningsvåg – Repvåg",
         "description": "DEVELOPED",
         "distance_km": 51.475,
         "elevation_gain": 1576.3,
@@ -3719,7 +3719,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "003: Repvåg – Olderfjord (DEVELOPED)",
+        "name": "Repvåg – Olderfjord",
         "description": "DEVELOPED",
         "distance_km": 44.119,
         "elevation_gain": 1222.4,
@@ -6094,7 +6094,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "004: Olderfjord – Lakselv (DEVELOPED)",
+        "name": "Olderfjord – Lakselv",
         "description": "DEVELOPED",
         "distance_km": 63.05,
         "elevation_gain": 720.1,
@@ -8404,7 +8404,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "005: Lakselv – Karasjok (PLANNING)",
+        "name": "Lakselv – Karasjok",
         "description": "PLANNING",
         "distance_km": 74.071,
         "elevation_gain": 955.4,
@@ -10764,7 +10764,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "006: Karasjok – Karigasniemi (PLANNING)",
+        "name": "Karasjok – Karigasniemi",
         "description": "PLANNING",
         "distance_km": 17.878,
         "elevation_gain": 161.7,
@@ -11589,7 +11589,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "007: Karigasniemi – Inari (DEVELOPED)",
+        "name": "Karigasniemi – Inari",
         "description": "DEVELOPED",
         "distance_km": 98.652,
         "elevation_gain": 618.7,
@@ -13704,7 +13704,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "008: Inari – Ivalo (UNDER_DEVELOPMENT)",
+        "name": "Inari – Ivalo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.44,
         "elevation_gain": 355.2,
@@ -15754,7 +15754,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "009: Ivalo – Saariselkä (UNDER_DEVELOPMENT)",
+        "name": "Ivalo – Saariselkä",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.491,
         "elevation_gain": 339.4,
@@ -16954,7 +16954,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "010: Saariselkä – Vuotso (UNDER_DEVELOPMENT)",
+        "name": "Saariselkä – Vuotso",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.181,
         "elevation_gain": 226.7,
@@ -18419,7 +18419,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "011: Vuotso – Peurasuvanto (UNDER_DEVELOPMENT)",
+        "name": "Vuotso – Peurasuvanto",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.423,
         "elevation_gain": 152.2,
@@ -19114,7 +19114,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "012: Peurasuvanto – Sodankyla (UNDER_DEVELOPMENT)",
+        "name": "Peurasuvanto – Sodankyla",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 52.838,
         "elevation_gain": 143.7,
@@ -20539,7 +20539,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "013: Sodankyla – Aska (UNDER_DEVELOPMENT)",
+        "name": "Sodankyla – Aska",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.703,
         "elevation_gain": 80.2,
@@ -21189,7 +21189,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "014: Aska – Kemi (UNDER_DEVELOPMENT)",
+        "name": "Aska – Kemi",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 249.299,
         "elevation_gain": 510.3,
@@ -22174,7 +22174,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "015: Kemi – Kuivaniemi (UNDER_DEVELOPMENT)",
+        "name": "Kemi – Kuivaniemi",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 47.067,
         "elevation_gain": 142.6,
@@ -23464,7 +23464,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "016: Kuivaniemi – Oulu (UNDER_DEVELOPMENT)",
+        "name": "Kuivaniemi – Oulu",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 74.711,
         "elevation_gain": 147.5,
@@ -25769,7 +25769,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "017: Oulu – Helsinki (UNDER_DEVELOPMENT)",
+        "name": "Oulu – Helsinki",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 931.601,
         "elevation_gain": 6498.8,
@@ -57609,7 +57609,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "018: Tallinn – Haavakannu (DEVELOPED_WITH_SIGNS)",
+        "name": "Tallinn – Haavakannu",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.095,
         "elevation_gain": 214.2,
@@ -59954,7 +59954,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "019: Haavakannu – Loksa (DEVELOPED_WITH_SIGNS)",
+        "name": "Haavakannu – Loksa",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.654,
         "elevation_gain": 274.6,
@@ -62154,7 +62154,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "020: Loksa – Vosu (DEVELOPED_WITH_SIGNS)",
+        "name": "Loksa – Vosu",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.275,
         "elevation_gain": 326.8,
@@ -64804,7 +64804,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "021: Vosu – Karula (DEVELOPED_WITH_SIGNS)",
+        "name": "Vosu – Karula",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.11,
         "elevation_gain": 159.1,
@@ -65889,7 +65889,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "022: Karula – Rakvere (DEVELOPED_WITH_SIGNS)",
+        "name": "Karula – Rakvere",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.556,
         "elevation_gain": 151.2,
@@ -66739,7 +66739,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "023: Rakvere – Simuna alevik (DEVELOPED_WITH_SIGNS)",
+        "name": "Rakvere – Simuna alevik",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.833,
         "elevation_gain": 286.0,
@@ -67819,7 +67819,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "024: Simuna alevik – Jõgeva Parish (DEVELOPED_WITH_SIGNS)",
+        "name": "Simuna alevik – Jõgeva Parish",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.768,
         "elevation_gain": 189.6,
@@ -68614,7 +68614,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "025: Jõgeva Parish – Tartu (DEVELOPED_WITH_SIGNS)",
+        "name": "Jõgeva Parish – Tartu",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.401,
         "elevation_gain": 417.7,
@@ -70534,7 +70534,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "026: Tartu – Otepää (DEVELOPED_WITH_SIGNS)",
+        "name": "Tartu – Otepää",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.821,
         "elevation_gain": 396.4,
@@ -72059,7 +72059,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "027: Otepää – Valga (DEVELOPED_WITH_SIGNS)",
+        "name": "Otepää – Valga",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 74.645,
         "elevation_gain": 577.8,
@@ -74979,7 +74979,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "028: Valga – Cēsis (DEVELOPED_WITH_SIGNS)",
+        "name": "Valga – Cēsis",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 92.373,
         "elevation_gain": 673.1,
@@ -77489,7 +77489,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "029: Cēsis – Sigulda (UNDER_DEVELOPMENT)",
+        "name": "Cēsis – Sigulda",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.047,
         "elevation_gain": 218.1,
@@ -77739,7 +77739,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "030: Sigulda – Rēzekne (UNDER_DEVELOPMENT)",
+        "name": "Sigulda – Rēzekne",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 256.856,
         "elevation_gain": 755.9,
@@ -78839,7 +78839,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "031: Rēzekne – Zarasai (DEVELOPED_WITH_SIGNS)",
+        "name": "Rēzekne – Zarasai",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 263.388,
         "elevation_gain": 1754.6,
@@ -85079,7 +85079,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "032: Zarasai – Visaginas (PLANNING)",
+        "name": "Zarasai – Visaginas",
         "description": "PLANNING",
         "distance_km": 39.537,
         "elevation_gain": 305.5,
@@ -86364,7 +86364,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "033: Visaginas – Ignalina (PLANNING)",
+        "name": "Visaginas – Ignalina",
         "description": "PLANNING",
         "distance_km": 47.006,
         "elevation_gain": 359.3,
@@ -88434,7 +88434,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "034: Ignalina – Labanoras (PLANNING)",
+        "name": "Ignalina – Labanoras",
         "description": "PLANNING",
         "distance_km": 43.753,
         "elevation_gain": 386.4,
@@ -90459,7 +90459,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "035: Labanoras – Suzionys (PLANNING)",
+        "name": "Labanoras – Suzionys",
         "description": "PLANNING",
         "distance_km": 66.064,
         "elevation_gain": 587.3,
@@ -94194,7 +94194,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "036: Suzionys – Vilnius (PLANNING)",
+        "name": "Suzionys – Vilnius",
         "description": "PLANNING",
         "distance_km": 46.944,
         "elevation_gain": 394.8,
@@ -95824,7 +95824,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "037: Vilnius – Trakai (PLANNING)",
+        "name": "Vilnius – Trakai",
         "description": "PLANNING",
         "distance_km": 34.891,
         "elevation_gain": 317.9,
@@ -97879,7 +97879,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "038: Trakai – Pivasuinai (PLANNING)",
+        "name": "Trakai – Pivasuinai",
         "description": "PLANNING",
         "distance_km": 60.118,
         "elevation_gain": 534.3,
@@ -100314,7 +100314,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "039: Pivasuinai – Merkine (PLANNING)",
+        "name": "Pivasuinai – Merkine",
         "description": "PLANNING",
         "distance_km": 52.5,
         "elevation_gain": 248.6,
@@ -102114,7 +102114,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "040: Merkine – Druskininkai (PLANNING)",
+        "name": "Merkine – Druskininkai",
         "description": "PLANNING",
         "distance_km": 28.283,
         "elevation_gain": 204.4,
@@ -103024,7 +103024,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "041: Druskininkai – Ogrodniki (PLANNING)",
+        "name": "Druskininkai – Ogrodniki",
         "description": "PLANNING",
         "distance_km": 52.856,
         "elevation_gain": 388.8,
@@ -105134,7 +105134,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "042: Ogrodniki – Stary Folwark (PLANNING)",
+        "name": "Ogrodniki – Stary Folwark",
         "description": "PLANNING",
         "distance_km": 43.033,
         "elevation_gain": 261.0,
@@ -107014,7 +107014,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "043: Stary Folwark – Augustow (PLANNING)",
+        "name": "Stary Folwark – Augustow",
         "description": "PLANNING",
         "distance_km": 48.292,
         "elevation_gain": 357.0,
@@ -108794,7 +108794,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "044: Augustow – Rajgród (PLANNING)",
+        "name": "Augustow – Rajgród",
         "description": "PLANNING",
         "distance_km": 52.523,
         "elevation_gain": 211.5,
@@ -110239,7 +110239,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "045: Rajgród – Witkowo (PLANNING)",
+        "name": "Rajgród – Witkowo",
         "description": "PLANNING",
         "distance_km": 68.39,
         "elevation_gain": 261.9,
@@ -111824,7 +111824,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "046: Witkowo – Łomża (PLANNING)",
+        "name": "Witkowo – Łomża",
         "description": "PLANNING",
         "distance_km": 30.616,
         "elevation_gain": 200.1,
@@ -112884,7 +112884,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "047: Łomża – Ostrołęka (PLANNING)",
+        "name": "Łomża – Ostrołęka",
         "description": "PLANNING",
         "distance_km": 50.03,
         "elevation_gain": 200.8,
@@ -113969,7 +113969,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "048: Ostrołęka – Pułtusk (PLANNING)",
+        "name": "Ostrołęka – Pułtusk",
         "description": "PLANNING",
         "distance_km": 81.278,
         "elevation_gain": 244.8,
@@ -115189,7 +115189,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "049: Pułtusk – Zegrze (PLANNING)",
+        "name": "Pułtusk – Zegrze",
         "description": "PLANNING",
         "distance_km": 34.256,
         "elevation_gain": 249.4,
@@ -116834,7 +116834,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "050: Zegrze – Warsaw (PLANNING)",
+        "name": "Zegrze – Warsaw",
         "description": "PLANNING",
         "distance_km": 30.217,
         "elevation_gain": 119.5,
@@ -118414,7 +118414,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "051: Warsaw – Góra Kalwaria (PLANNING)",
+        "name": "Warsaw – Góra Kalwaria",
         "description": "PLANNING",
         "distance_km": 36.674,
         "elevation_gain": 140.5,
@@ -119564,7 +119564,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "052: Góra Kalwaria – Kozienice (PLANNING)",
+        "name": "Góra Kalwaria – Kozienice",
         "description": "PLANNING",
         "distance_km": 70.552,
         "elevation_gain": 160.6,
@@ -121589,7 +121589,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "053: Kozienice – Radom (PLANNING)",
+        "name": "Kozienice – Radom",
         "description": "PLANNING",
         "distance_km": 37.483,
         "elevation_gain": 189.7,
@@ -122804,7 +122804,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "054: Radom – Szydłowiec (PLANNING)",
+        "name": "Radom – Szydłowiec",
         "description": "PLANNING",
         "distance_km": 31.49,
         "elevation_gain": 156.0,
@@ -123904,7 +123904,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "055: Szydłowiec – Stąporków (PLANNING)",
+        "name": "Szydłowiec – Stąporków",
         "description": "PLANNING",
         "distance_km": 30.538,
         "elevation_gain": 219.1,
@@ -124519,7 +124519,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "056: Stąporków – Kielce (PLANNING)",
+        "name": "Stąporków – Kielce",
         "description": "PLANNING",
         "distance_km": 53.79,
         "elevation_gain": 325.0,
@@ -126309,7 +126309,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "057: Kielce – Raków (PLANNING)",
+        "name": "Kielce – Raków",
         "description": "PLANNING",
         "distance_km": 50.261,
         "elevation_gain": 259.8,
@@ -127664,7 +127664,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "058: Raków – Pińczów (PLANNING)",
+        "name": "Raków – Pińczów",
         "description": "PLANNING",
         "distance_km": 56.801,
         "elevation_gain": 224.3,
@@ -129769,7 +129769,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "059: Pińczów – Wislica (PLANNING)",
+        "name": "Pińczów – Wislica",
         "description": "PLANNING",
         "distance_km": 28.347,
         "elevation_gain": 99.7,
@@ -130149,7 +130149,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "060: Wislica – Proszowice (DEVELOPED)",
+        "name": "Wislica – Proszowice",
         "description": "DEVELOPED",
         "distance_km": 45.791,
         "elevation_gain": 306.9,
@@ -132589,7 +132589,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "061: Proszowice – Krakow (UNDER_DEVELOPMENT)",
+        "name": "Proszowice – Krakow",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 31.326,
         "elevation_gain": 198.0,
@@ -133674,7 +133674,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "062: Krakow – Niepołomice (UNDER_DEVELOPMENT)",
+        "name": "Krakow – Niepołomice",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 16.431,
         "elevation_gain": 27.9,
@@ -134444,7 +134444,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "063: Niepołomice – Tarnów (DEVELOPED)",
+        "name": "Niepołomice – Tarnów",
         "description": "DEVELOPED",
         "distance_km": 63.768,
         "elevation_gain": 248.9,
@@ -137124,7 +137124,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "064: Tarnów – Czchów (DEVELOPED)",
+        "name": "Tarnów – Czchów",
         "description": "DEVELOPED",
         "distance_km": 38.213,
         "elevation_gain": 362.8,
@@ -139524,7 +139524,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "065: Czchów – Nowy Sącz (PLANNING)",
+        "name": "Czchów – Nowy Sącz",
         "description": "PLANNING",
         "distance_km": 34.917,
         "elevation_gain": 1199.6,
@@ -141644,7 +141644,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "066: Nowy Sącz – Mníšek nad Popradom (DEVELOPED)",
+        "name": "Nowy Sącz – Mníšek nad Popradom",
         "description": "DEVELOPED",
         "distance_km": 32.097,
         "elevation_gain": 531.1,
@@ -144044,7 +144044,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "067: Mníšek nad Popradom – Muszyna (DEVELOPED_WITH_SIGNS)",
+        "name": "Mníšek nad Popradom – Muszyna",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.751,
         "elevation_gain": 621.1,
@@ -145974,7 +145974,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "068: Muszyna – Zadný Kurčín (DEVELOPED)",
+        "name": "Muszyna – Zadný Kurčín",
         "description": "DEVELOPED",
         "distance_km": 5.668,
         "elevation_gain": 102.1,
@@ -146409,7 +146409,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "069: Zadný Kurčín – Lipany (DEVELOPED_WITH_SIGNS)",
+        "name": "Zadný Kurčín – Lipany",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.392,
         "elevation_gain": 1117.0,
@@ -150499,7 +150499,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "070: Lipany – Prešov (DEVELOPED_WITH_SIGNS)",
+        "name": "Lipany – Prešov",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.8,
         "elevation_gain": 185.4,
@@ -151474,7 +151474,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "071: Prešov – Košice (UNDER_DEVELOPMENT)",
+        "name": "Prešov – Košice",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.748,
         "elevation_gain": 266.1,
@@ -152799,7 +152799,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "072: Košice – Trstené pri Hornáde (UNDER_DEVELOPMENT)",
+        "name": "Košice – Trstené pri Hornáde",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.693,
         "elevation_gain": 92.0,
@@ -153799,7 +153799,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "073: Trstené pri Hornáde – Sátoraljaújhely (DEVELOPED_WITH_SIGNS)",
+        "name": "Trstené pri Hornáde – Sátoraljaújhely",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.942,
         "elevation_gain": 725.7,
@@ -156294,7 +156294,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "074: Sátoraljaújhely – Tokaj (DEVELOPED_WITH_SIGNS)",
+        "name": "Sátoraljaújhely – Tokaj",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.756,
         "elevation_gain": 219.4,
@@ -157619,7 +157619,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "075: Tokaj – Tiszacsege (DEVELOPED_WITH_SIGNS)",
+        "name": "Tokaj – Tiszacsege",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 85.251,
         "elevation_gain": 83.0,
@@ -158019,7 +158019,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "076: Tiszacsege – Tiszafüred (DEVELOPED_WITH_SIGNS)",
+        "name": "Tiszacsege – Tiszafüred",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.332,
         "elevation_gain": 10.7,
@@ -158139,7 +158139,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "077: Tiszafüred – Kisköre (DEVELOPED_WITH_SIGNS)",
+        "name": "Tiszafüred – Kisköre",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.915,
         "elevation_gain": 89.0,
@@ -159344,7 +159344,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "078: Kisköre – Szolnok (DEVELOPED_WITH_SIGNS)",
+        "name": "Kisköre – Szolnok",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.464,
         "elevation_gain": 144.5,
@@ -161119,7 +161119,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "079: Szolnok – Csongrád (DEVELOPED_WITH_SIGNS)",
+        "name": "Szolnok – Csongrád",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.394,
         "elevation_gain": 125.8,
@@ -162604,7 +162604,7 @@
       "type": "Feature",
       "properties": {
         "stage": 80,
-        "name": "080: Csongrád – Szeged (border) (DEVELOPED_WITH_SIGNS)",
+        "name": "Csongrád – Szeged (border)",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 81.716,
         "elevation_gain": 159.5,
@@ -164304,7 +164304,7 @@
       "type": "Feature",
       "properties": {
         "stage": 81,
-        "name": "081: Szeged (border) – Senta (DEVELOPED_WITH_SIGNS)",
+        "name": "Szeged (border) – Senta",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.092,
         "elevation_gain": 90.2,
@@ -165304,7 +165304,7 @@
       "type": "Feature",
       "properties": {
         "stage": 82,
-        "name": "082: Senta – Novi Bečej (DEVELOPED_WITH_SIGNS)",
+        "name": "Senta – Novi Bečej",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.674,
         "elevation_gain": 155.8,
@@ -166819,7 +166819,7 @@
       "type": "Feature",
       "properties": {
         "stage": 83,
-        "name": "083: Novi Bečej – Zrenjanin (DEVELOPED_WITH_SIGNS)",
+        "name": "Novi Bečej – Zrenjanin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.661,
         "elevation_gain": 76.6,
@@ -167834,7 +167834,7 @@
       "type": "Feature",
       "properties": {
         "stage": 84,
-        "name": "084: Zrenjanin – Belgrade (DEVELOPED_WITH_SIGNS)",
+        "name": "Zrenjanin – Belgrade",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 99.889,
         "elevation_gain": 367.4,
@@ -170414,7 +170414,7 @@
       "type": "Feature",
       "properties": {
         "stage": 85,
-        "name": "085: Belgrade – Smederevo (DEVELOPED_WITH_SIGNS)",
+        "name": "Belgrade – Smederevo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.426,
         "elevation_gain": 144.7,
@@ -172059,7 +172059,7 @@
       "type": "Feature",
       "properties": {
         "stage": 86,
-        "name": "086: Smederevo – Požarevac (DEVELOPED_WITH_SIGNS)",
+        "name": "Smederevo – Požarevac",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.267,
         "elevation_gain": 97.5,
@@ -173344,7 +173344,7 @@
       "type": "Feature",
       "properties": {
         "stage": 87,
-        "name": "087: Požarevac – Svilajnac (DEVELOPED_WITH_SIGNS)",
+        "name": "Požarevac – Svilajnac",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.322,
         "elevation_gain": 221.2,
@@ -174684,7 +174684,7 @@
       "type": "Feature",
       "properties": {
         "stage": 88,
-        "name": "088: Svilajnac – Paraćin (DEVELOPED_WITH_SIGNS)",
+        "name": "Svilajnac – Paraćin",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.321,
         "elevation_gain": 355.1,
@@ -176654,7 +176654,7 @@
       "type": "Feature",
       "properties": {
         "stage": 89,
-        "name": "089: Paraćin – Aleksinac (DEVELOPED_WITH_SIGNS)",
+        "name": "Paraćin – Aleksinac",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.424,
         "elevation_gain": 425.2,
@@ -178069,7 +178069,7 @@
       "type": "Feature",
       "properties": {
         "stage": 90,
-        "name": "090: Aleksinac – Nis (DEVELOPED_WITH_SIGNS)",
+        "name": "Aleksinac – Nis",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.726,
         "elevation_gain": 299.7,
@@ -179569,7 +179569,7 @@
       "type": "Feature",
       "properties": {
         "stage": 91,
-        "name": "091: Nis – Leskovac (PLANNING)",
+        "name": "Nis – Leskovac",
         "description": "PLANNING",
         "distance_km": 43.518,
         "elevation_gain": 207.6,
@@ -180759,7 +180759,7 @@
       "type": "Feature",
       "properties": {
         "stage": 92,
-        "name": "092: Leskovac – Vladicin Han (DEVELOPED_WITH_SIGNS)",
+        "name": "Leskovac – Vladicin Han",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.799,
         "elevation_gain": 605.7,
@@ -182519,7 +182519,7 @@
       "type": "Feature",
       "properties": {
         "stage": 93,
-        "name": "093: Vladicin Han – Vranje (DEVELOPED_WITH_SIGNS)",
+        "name": "Vladicin Han – Vranje",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.561,
         "elevation_gain": 294.4,
@@ -183779,7 +183779,7 @@
       "type": "Feature",
       "properties": {
         "stage": 94,
-        "name": "094: Vranje – Selsko (DEVELOPED_WITH_SIGNS)",
+        "name": "Vranje – Selsko",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.669,
         "elevation_gain": 741.2,
@@ -186154,7 +186154,7 @@
       "type": "Feature",
       "properties": {
         "stage": 95,
-        "name": "095: Selsko – Mlado Nagorichane (PLANNING)",
+        "name": "Selsko – Mlado Nagorichane",
         "description": "PLANNING",
         "distance_km": 19.546,
         "elevation_gain": 333.5,
@@ -187384,7 +187384,7 @@
       "type": "Feature",
       "properties": {
         "stage": 96,
-        "name": "096: Mlado Nagorichane – Skopje (PLANNING)",
+        "name": "Mlado Nagorichane – Skopje",
         "description": "PLANNING",
         "distance_km": 51.089,
         "elevation_gain": 572.8,
@@ -190014,7 +190014,7 @@
       "type": "Feature",
       "properties": {
         "stage": 97,
-        "name": "097: Skopje – Doirani (PLANNING)",
+        "name": "Skopje – Doirani",
         "description": "PLANNING",
         "distance_km": 187.897,
         "elevation_gain": 2277.2,
@@ -199604,7 +199604,7 @@
       "type": "Feature",
       "properties": {
         "stage": 98,
-        "name": "098: Doirani – Kilkis (DEVELOPED)",
+        "name": "Doirani – Kilkis",
         "description": "DEVELOPED",
         "distance_km": 28.972,
         "elevation_gain": 346.0,
@@ -200394,7 +200394,7 @@
       "type": "Feature",
       "properties": {
         "stage": 99,
-        "name": "099: Kilkis – Thessaloniki (DEVELOPED)",
+        "name": "Kilkis – Thessaloniki",
         "description": "DEVELOPED",
         "distance_km": 58.988,
         "elevation_gain": 378.4,
@@ -203059,7 +203059,7 @@
       "type": "Feature",
       "properties": {
         "stage": 100,
-        "name": "100: Thessaloniki – Nea Agathoupoli (DEVELOPED)",
+        "name": "Thessaloniki – Nea Agathoupoli",
         "description": "DEVELOPED",
         "distance_km": 76.09,
         "elevation_gain": 234.1,
@@ -205359,7 +205359,7 @@
       "type": "Feature",
       "properties": {
         "stage": 101,
-        "name": "101: Nea Agathoupoli – Olympiaki Akti (DEVELOPED)",
+        "name": "Nea Agathoupoli – Olympiaki Akti",
         "description": "DEVELOPED",
         "distance_km": 27.116,
         "elevation_gain": 209.1,
@@ -206419,7 +206419,7 @@
       "type": "Feature",
       "properties": {
         "stage": 102,
-        "name": "102: Olympiaki Akti – Platamonas (DEVELOPED)",
+        "name": "Olympiaki Akti – Platamonas",
         "description": "DEVELOPED",
         "distance_km": 51.364,
         "elevation_gain": 303.8,
@@ -208654,7 +208654,7 @@
       "type": "Feature",
       "properties": {
         "stage": 103,
-        "name": "103: Platamonas – Larissa (DEVELOPED)",
+        "name": "Platamonas – Larissa",
         "description": "DEVELOPED",
         "distance_km": 47.825,
         "elevation_gain": 413.5,
@@ -210439,7 +210439,7 @@
       "type": "Feature",
       "properties": {
         "stage": 104,
-        "name": "104: Larissa – Almuros (DEVELOPED)",
+        "name": "Larissa – Almuros",
         "description": "DEVELOPED",
         "distance_km": 68.763,
         "elevation_gain": 340.7,
@@ -211894,7 +211894,7 @@
       "type": "Feature",
       "properties": {
         "stage": 105,
-        "name": "105: Almuros – Glyfa (DEVELOPED)",
+        "name": "Almuros – Glyfa",
         "description": "DEVELOPED",
         "distance_km": 38.605,
         "elevation_gain": 611.2,
@@ -213979,7 +213979,7 @@
       "type": "Feature",
       "properties": {
         "stage": 106,
-        "name": "106: Glyfa – Lamia (DEVELOPED)",
+        "name": "Glyfa – Lamia",
         "description": "DEVELOPED",
         "distance_km": 58.695,
         "elevation_gain": 780.4,
@@ -216254,7 +216254,7 @@
       "type": "Feature",
       "properties": {
         "stage": 107,
-        "name": "107: Lamia – Kamena Vourla (DEVELOPED)",
+        "name": "Lamia – Kamena Vourla",
         "description": "DEVELOPED",
         "distance_km": 40.533,
         "elevation_gain": 241.9,
@@ -217899,7 +217899,7 @@
       "type": "Feature",
       "properties": {
         "stage": 108,
-        "name": "108: Kamena Vourla – Skala Atalantis (DEVELOPED)",
+        "name": "Kamena Vourla – Skala Atalantis",
         "description": "DEVELOPED",
         "distance_km": 37.825,
         "elevation_gain": 263.1,
@@ -219589,7 +219589,7 @@
       "type": "Feature",
       "properties": {
         "stage": 109,
-        "name": "109: Skala Atalantis – Thiva (DEVELOPED)",
+        "name": "Skala Atalantis – Thiva",
         "description": "DEVELOPED",
         "distance_km": 82.087,
         "elevation_gain": 919.2,
@@ -223394,7 +223394,7 @@
       "type": "Feature",
       "properties": {
         "stage": 110,
-        "name": "110: Thiva – Skala Oropou (DEVELOPED)",
+        "name": "Thiva – Skala Oropou",
         "description": "DEVELOPED",
         "distance_km": 73.623,
         "elevation_gain": 830.3,
@@ -227704,7 +227704,7 @@
       "type": "Feature",
       "properties": {
         "stage": 111,
-        "name": "111: Skala Oropou – Athens (DEVELOPED)",
+        "name": "Skala Oropou – Athens",
         "description": "DEVELOPED",
         "distance_km": 55.481,
         "elevation_gain": 844.3,

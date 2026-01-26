@@ -99,7 +99,7 @@
       "type": "Feature",
       "properties": {
         "stage": 1,
-        "name": "01: Canterbury – Dover (DEVELOPED)",
+        "name": "Canterbury – Dover",
         "description": "DEVELOPED",
         "distance_km": 32.74,
         "elevation_gain": 441.9,
@@ -1854,7 +1854,7 @@
       "type": "Feature",
       "properties": {
         "stage": 2,
-        "name": "02: Calais – Guines (PLANNING)",
+        "name": "Calais – Guines",
         "description": "PLANNING",
         "distance_km": 12.027,
         "elevation_gain": 33.0,
@@ -2569,7 +2569,7 @@
       "type": "Feature",
       "properties": {
         "stage": 3,
-        "name": "03: Guines – Audruicq (UNDER_DEVELOPMENT)",
+        "name": "Guines – Audruicq",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.191,
         "elevation_gain": 105.5,
@@ -4054,7 +4054,7 @@
       "type": "Feature",
       "properties": {
         "stage": 4,
-        "name": "04: Audruicq – Wittes (PLANNING)",
+        "name": "Audruicq – Wittes",
         "description": "PLANNING",
         "distance_km": 54.989,
         "elevation_gain": 302.5,
@@ -7299,7 +7299,7 @@
       "type": "Feature",
       "properties": {
         "stage": 5,
-        "name": "05: Wittes – Saint-Venant (DEVELOPED_WITH_SIGNS)",
+        "name": "Wittes – Saint-Venant",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 10.137,
         "elevation_gain": 22.5,
@@ -7719,7 +7719,7 @@
       "type": "Feature",
       "properties": {
         "stage": 6,
-        "name": "06: Saint-Venant – Houdain (PLANNING)",
+        "name": "Saint-Venant – Houdain",
         "description": "PLANNING",
         "distance_km": 35.307,
         "elevation_gain": 203.8,
@@ -9779,7 +9779,7 @@
       "type": "Feature",
       "properties": {
         "stage": 7,
-        "name": "07: Houdain – Lens (UNDER_DEVELOPMENT)",
+        "name": "Houdain – Lens",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.823,
         "elevation_gain": 332.6,
@@ -11314,7 +11314,7 @@
       "type": "Feature",
       "properties": {
         "stage": 8,
-        "name": "08: Lens – Bauvin (PLANNING)",
+        "name": "Lens – Bauvin",
         "description": "PLANNING",
         "distance_km": 18.445,
         "elevation_gain": 75.1,
@@ -12064,7 +12064,7 @@
       "type": "Feature",
       "properties": {
         "stage": 9,
-        "name": "09: Bauvin – Lille (DEVELOPED_WITH_SIGNS)",
+        "name": "Bauvin – Lille",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.82,
         "elevation_gain": 114.2,
@@ -13619,7 +13619,7 @@
       "type": "Feature",
       "properties": {
         "stage": 10,
-        "name": "10: Lille – Leers Nord (DEVELOPED_WITH_SIGNS)",
+        "name": "Lille – Leers Nord",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.23,
         "elevation_gain": 113.3,
@@ -15259,7 +15259,7 @@
       "type": "Feature",
       "properties": {
         "stage": 11,
-        "name": "11: Leers Nord – Ronse (DEVELOPED_WITH_SIGNS)",
+        "name": "Leers Nord – Ronse",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.509,
         "elevation_gain": 149.5,
@@ -16349,7 +16349,7 @@
       "type": "Feature",
       "properties": {
         "stage": 12,
-        "name": "12: Ronse – Geraardsbergen (DEVELOPED_WITH_SIGNS)",
+        "name": "Ronse – Geraardsbergen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.701,
         "elevation_gain": 156.8,
@@ -17429,7 +17429,7 @@
       "type": "Feature",
       "properties": {
         "stage": 13,
-        "name": "13: Geraardsbergen – Brussels (DEVELOPED_WITH_SIGNS)",
+        "name": "Geraardsbergen – Brussels",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.453,
         "elevation_gain": 506.3,
@@ -20194,7 +20194,7 @@
       "type": "Feature",
       "properties": {
         "stage": 14,
-        "name": "14: Brussels – Wavre (DEVELOPED_WITH_SIGNS)",
+        "name": "Brussels – Wavre",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.087,
         "elevation_gain": 521.9,
@@ -21804,7 +21804,7 @@
       "type": "Feature",
       "properties": {
         "stage": 15,
-        "name": "15: Wavre – Namur (DEVELOPED_WITH_SIGNS)",
+        "name": "Wavre – Namur",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.391,
         "elevation_gain": 422.8,
@@ -24264,7 +24264,7 @@
       "type": "Feature",
       "properties": {
         "stage": 16,
-        "name": "16: Namur – Dinant (DEVELOPED_WITH_SIGNS)",
+        "name": "Namur – Dinant",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.562,
         "elevation_gain": 315.1,
@@ -25549,7 +25549,7 @@
       "type": "Feature",
       "properties": {
         "stage": 17,
-        "name": "17: Dinant – Marche-en-Famenne (DEVELOPED_WITH_SIGNS)",
+        "name": "Dinant – Marche-en-Famenne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.59,
         "elevation_gain": 882.0,
@@ -28364,7 +28364,7 @@
       "type": "Feature",
       "properties": {
         "stage": 18,
-        "name": "18: Marche-en-Famenne – La-Roche-en-Ardenne (DEVELOPED_WITH_SIGNS)",
+        "name": "Marche-en-Famenne – La-Roche-en-Ardenne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.797,
         "elevation_gain": 367.8,
@@ -30339,7 +30339,7 @@
       "type": "Feature",
       "properties": {
         "stage": 19,
-        "name": "19: La-Roche-en-Ardenne – Bastogne (DEVELOPED_WITH_SIGNS)",
+        "name": "La-Roche-en-Ardenne – Bastogne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.546,
         "elevation_gain": 806.4,
@@ -33034,7 +33034,7 @@
       "type": "Feature",
       "properties": {
         "stage": 20,
-        "name": "20: Bastogne – Martelange (DEVELOPED_WITH_SIGNS)",
+        "name": "Bastogne – Martelange",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.552,
         "elevation_gain": 259.8,
@@ -34649,7 +34649,7 @@
       "type": "Feature",
       "properties": {
         "stage": 21,
-        "name": "21: Martelange – Kleinbettingen (DEVELOPED_WITH_SIGNS)",
+        "name": "Martelange – Kleinbettingen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.126,
         "elevation_gain": 654.0,
@@ -37964,7 +37964,7 @@
       "type": "Feature",
       "properties": {
         "stage": 22,
-        "name": "22: Kleinbettingen – Luxembourg City (DEVELOPED)",
+        "name": "Kleinbettingen – Luxembourg City",
         "description": "DEVELOPED",
         "distance_km": 20.01,
         "elevation_gain": 245.5,
@@ -39269,7 +39269,7 @@
       "type": "Feature",
       "properties": {
         "stage": 23,
-        "name": "23: Luxembourg City – Ellange Gare (DEVELOPED)",
+        "name": "Luxembourg City – Ellange Gare",
         "description": "DEVELOPED",
         "distance_km": 24.956,
         "elevation_gain": 421.5,
@@ -41314,7 +41314,7 @@
       "type": "Feature",
       "properties": {
         "stage": 24,
-        "name": "24: Ellange Gare – Schengen (DEVELOPED_WITH_SIGNS)",
+        "name": "Ellange Gare – Schengen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.072,
         "elevation_gain": 188.1,
@@ -42409,7 +42409,7 @@
       "type": "Feature",
       "properties": {
         "stage": 25,
-        "name": "25: Schengen – Grosbliederstroff (DEVELOPED)",
+        "name": "Schengen – Grosbliederstroff",
         "description": "DEVELOPED",
         "distance_km": 77.293,
         "elevation_gain": 572.1,
@@ -43459,7 +43459,7 @@
       "type": "Feature",
       "properties": {
         "stage": 26,
-        "name": "26: Grosbliederstroff – Gondrexange (DEVELOPED_WITH_SIGNS)",
+        "name": "Grosbliederstroff – Gondrexange",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.856,
         "elevation_gain": 694.2,
@@ -46759,7 +46759,7 @@
       "type": "Feature",
       "properties": {
         "stage": 27,
-        "name": "27: Gondrexange – Saverne (DEVELOPED_WITH_SIGNS)",
+        "name": "Gondrexange – Saverne",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.755,
         "elevation_gain": 452.1,
@@ -49309,7 +49309,7 @@
       "type": "Feature",
       "properties": {
         "stage": 28,
-        "name": "28: Saverne – Strasbourg (DEVELOPED_WITH_SIGNS)",
+        "name": "Saverne – Strasbourg",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.342,
         "elevation_gain": 172.1,
@@ -51264,7 +51264,7 @@
       "type": "Feature",
       "properties": {
         "stage": 29,
-        "name": "29: Strasbourg – Soultz-les-Bains (DEVELOPED_WITH_SIGNS)",
+        "name": "Strasbourg – Soultz-les-Bains",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.265,
         "elevation_gain": 147.0,
@@ -52914,7 +52914,7 @@
       "type": "Feature",
       "properties": {
         "stage": 30,
-        "name": "30: Soultz-les-Bains – Châtenois (DEVELOPED_WITH_SIGNS)",
+        "name": "Soultz-les-Bains – Châtenois",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.789,
         "elevation_gain": 613.3,
@@ -56599,7 +56599,7 @@
       "type": "Feature",
       "properties": {
         "stage": 31,
-        "name": "31: Châtenois – Turckheim (DEVELOPED_WITH_SIGNS)",
+        "name": "Châtenois – Turckheim",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.984,
         "elevation_gain": 168.6,
@@ -58074,7 +58074,7 @@
       "type": "Feature",
       "properties": {
         "stage": 32,
-        "name": "32: Turckheim – Cernay (DEVELOPED_WITH_SIGNS)",
+        "name": "Turckheim – Cernay",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.948,
         "elevation_gain": 491.2,
@@ -61824,7 +61824,7 @@
       "type": "Feature",
       "properties": {
         "stage": 33,
-        "name": "33: Cernay – Mulhouse (DEVELOPED_WITH_SIGNS)",
+        "name": "Cernay – Mulhouse",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.055,
         "elevation_gain": 97.3,
@@ -63904,7 +63904,7 @@
       "type": "Feature",
       "properties": {
         "stage": 34,
-        "name": "34: Mulhouse – Basel (DEVELOPED)",
+        "name": "Mulhouse – Basel",
         "description": "DEVELOPED",
         "distance_km": 38.125,
         "elevation_gain": 183.0,
@@ -66049,7 +66049,7 @@
       "type": "Feature",
       "properties": {
         "stage": 35,
-        "name": "35: Basel – Aarau (DEVELOPED_WITH_SIGNS)",
+        "name": "Basel – Aarau",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.963,
         "elevation_gain": 1164.0,
@@ -70574,7 +70574,7 @@
       "type": "Feature",
       "properties": {
         "stage": 36,
-        "name": "36: Aarau – Luzern (DEVELOPED_WITH_SIGNS)",
+        "name": "Aarau – Luzern",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.814,
         "elevation_gain": 481.8,
@@ -74149,7 +74149,7 @@
       "type": "Feature",
       "properties": {
         "stage": 37,
-        "name": "37: Luzern – Brunnen (DEVELOPED_WITH_SIGNS)",
+        "name": "Luzern – Brunnen",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.518,
         "elevation_gain": 538.0,
@@ -76444,7 +76444,7 @@
       "type": "Feature",
       "properties": {
         "stage": 38,
-        "name": "38: Flüelen – Andermatt (DEVELOPED_WITH_SIGNS)",
+        "name": "Flüelen – Andermatt",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.809,
         "elevation_gain": 1764.3,
@@ -79914,7 +79914,7 @@
       "type": "Feature",
       "properties": {
         "stage": 39,
-        "name": "39: Andermatt – Airolo (DEVELOPED_WITH_SIGNS)",
+        "name": "Andermatt – Airolo",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.267,
         "elevation_gain": 1080.6,
@@ -82719,7 +82719,7 @@
       "type": "Feature",
       "properties": {
         "stage": 40,
-        "name": "40: Airolo – Bellinzona (DEVELOPED_WITH_SIGNS)",
+        "name": "Airolo – Bellinzona",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.766,
         "elevation_gain": 700.3,
@@ -86694,7 +86694,7 @@
       "type": "Feature",
       "properties": {
         "stage": 41,
-        "name": "41: Bellinzona – Agno (DEVELOPED_WITH_SIGNS)",
+        "name": "Bellinzona – Agno",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.076,
         "elevation_gain": 608.7,
@@ -89169,7 +89169,7 @@
       "type": "Feature",
       "properties": {
         "stage": 42,
-        "name": "42: Agno – Chiasso (DEVELOPED_WITH_SIGNS)",
+        "name": "Agno – Chiasso",
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.086,
         "elevation_gain": 748.0,
@@ -92029,7 +92029,7 @@
       "type": "Feature",
       "properties": {
         "stage": 43,
-        "name": "43: Chiasso – Como (PLANNING)",
+        "name": "Chiasso – Como",
         "description": "PLANNING",
         "distance_km": 9.468,
         "elevation_gain": 154.6,
@@ -92764,7 +92764,7 @@
       "type": "Feature",
       "properties": {
         "stage": 44,
-        "name": "44: Como – Misinto (UNDER_DEVELOPMENT)",
+        "name": "Como – Misinto",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 31.665,
         "elevation_gain": 367.4,
@@ -94719,7 +94719,7 @@
       "type": "Feature",
       "properties": {
         "stage": 45,
-        "name": "45: Misinto – Milan (DEVELOPED)",
+        "name": "Misinto – Milan",
         "description": "DEVELOPED",
         "distance_km": 39.665,
         "elevation_gain": 159.9,
@@ -97134,7 +97134,7 @@
       "type": "Feature",
       "properties": {
         "stage": 46,
-        "name": "46: Milan – Pavia (DEVELOPED)",
+        "name": "Milan – Pavia",
         "description": "DEVELOPED",
         "distance_km": 32.082,
         "elevation_gain": 43.1,
@@ -97644,7 +97644,7 @@
       "type": "Feature",
       "properties": {
         "stage": 47,
-        "name": "47: Pavia – Piacenza (UNDER_DEVELOPMENT)",
+        "name": "Pavia – Piacenza",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 79.548,
         "elevation_gain": 327.9,
@@ -101109,7 +101109,7 @@
       "type": "Feature",
       "properties": {
         "stage": 48,
-        "name": "48: Piacenza – Fidenza (UNDER_DEVELOPMENT)",
+        "name": "Piacenza – Fidenza",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 50.185,
         "elevation_gain": 132.4,
@@ -102474,7 +102474,7 @@
       "type": "Feature",
       "properties": {
         "stage": 49,
-        "name": "49: Fidenza – Fornovo (UNDER_DEVELOPMENT)",
+        "name": "Fidenza – Fornovo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.624,
         "elevation_gain": 368.8,
@@ -103369,7 +103369,7 @@
       "type": "Feature",
       "properties": {
         "stage": 50,
-        "name": "50: Fornovo – Passo della Cisa (UNDER_DEVELOPMENT)",
+        "name": "Fornovo – Passo della Cisa",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.475,
         "elevation_gain": 1746.0,
@@ -105389,7 +105389,7 @@
       "type": "Feature",
       "properties": {
         "stage": 51,
-        "name": "51: Passo della Cisa – Pontremoli (DEVELOPED)",
+        "name": "Passo della Cisa – Pontremoli",
         "description": "DEVELOPED",
         "distance_km": 20.418,
         "elevation_gain": 878.4,
@@ -108169,7 +108169,7 @@
       "type": "Feature",
       "properties": {
         "stage": 52,
-        "name": "52: Pontremoli – Aulla (PLANNING)",
+        "name": "Pontremoli – Aulla",
         "description": "PLANNING",
         "distance_km": 23.093,
         "elevation_gain": 440.0,
@@ -110084,7 +110084,7 @@
       "type": "Feature",
       "properties": {
         "stage": 53,
-        "name": "53: Aulla – Sarzana (UNDER_DEVELOPMENT)",
+        "name": "Aulla – Sarzana",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.167,
         "elevation_gain": 1554.3,
@@ -114184,7 +114184,7 @@
       "type": "Feature",
       "properties": {
         "stage": 54,
-        "name": "54: Sarzana – Pietrasanta (UNDER_DEVELOPMENT)",
+        "name": "Sarzana – Pietrasanta",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.676,
         "elevation_gain": 1135.8,
@@ -118094,7 +118094,7 @@
       "type": "Feature",
       "properties": {
         "stage": 55,
-        "name": "55: Pietrasanta – Valpromaro (UNDER_DEVELOPMENT)",
+        "name": "Pietrasanta – Valpromaro",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 19.702,
         "elevation_gain": 402.8,
@@ -119529,7 +119529,7 @@
       "type": "Feature",
       "properties": {
         "stage": 56,
-        "name": "56: Valpromaro – Lucca (DEVELOPED)",
+        "name": "Valpromaro – Lucca",
         "description": "DEVELOPED",
         "distance_km": 16.794,
         "elevation_gain": 298.7,
@@ -121119,7 +121119,7 @@
       "type": "Feature",
       "properties": {
         "stage": 57,
-        "name": "57: Lucca – San Miniato (DEVELOPED)",
+        "name": "Lucca – San Miniato",
         "description": "DEVELOPED",
         "distance_km": 54.71,
         "elevation_gain": 467.0,
@@ -124814,7 +124814,7 @@
       "type": "Feature",
       "properties": {
         "stage": 58,
-        "name": "58: San Miniato – San Gimignano (PLANNING)",
+        "name": "San Miniato – San Gimignano",
         "description": "PLANNING",
         "distance_km": 61.04,
         "elevation_gain": 1275.8,
@@ -129244,7 +129244,7 @@
       "type": "Feature",
       "properties": {
         "stage": 59,
-        "name": "59: San Gimignano – Sienna (DEVELOPED)",
+        "name": "San Gimignano – Sienna",
         "description": "DEVELOPED",
         "distance_km": 49.577,
         "elevation_gain": 966.8,
@@ -133659,7 +133659,7 @@
       "type": "Feature",
       "properties": {
         "stage": 60,
-        "name": "60: Sienna – San Quirico d'Orcia (DEVELOPED)",
+        "name": "Sienna – San Quirico d'Orcia",
         "description": "DEVELOPED",
         "distance_km": 54.867,
         "elevation_gain": 949.7,
@@ -138139,7 +138139,7 @@
       "type": "Feature",
       "properties": {
         "stage": 61,
-        "name": "61: San Quirico d'Orcia – Acquapendente (DEVELOPED)",
+        "name": "San Quirico d'Orcia – Acquapendente",
         "description": "DEVELOPED",
         "distance_km": 67.128,
         "elevation_gain": 1555.6,
@@ -143559,7 +143559,7 @@
       "type": "Feature",
       "properties": {
         "stage": 62,
-        "name": "62: Acquapendente – Viterbo (UNDER_DEVELOPMENT)",
+        "name": "Acquapendente – Viterbo",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.017,
         "elevation_gain": 888.9,
@@ -145449,7 +145449,7 @@
       "type": "Feature",
       "properties": {
         "stage": 63,
-        "name": "63: Viterbo – Mazzano Romano (UNDER_DEVELOPMENT)",
+        "name": "Viterbo – Mazzano Romano",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 52.969,
         "elevation_gain": 722.1,
@@ -147194,7 +147194,7 @@
       "type": "Feature",
       "properties": {
         "stage": 64,
-        "name": "64: Mazzano Romano – Castel Giubileo (PLANNING)",
+        "name": "Mazzano Romano – Castel Giubileo",
         "description": "PLANNING",
         "distance_km": 37.781,
         "elevation_gain": 633.9,
@@ -148584,7 +148584,7 @@
       "type": "Feature",
       "properties": {
         "stage": 65,
-        "name": "65: Castel Giubileo – Rome (DEVELOPED)",
+        "name": "Castel Giubileo – Rome",
         "description": "DEVELOPED",
         "distance_km": 20.361,
         "elevation_gain": 110.6,
@@ -149284,7 +149284,7 @@
       "type": "Feature",
       "properties": {
         "stage": 66,
-        "name": "66: Rome – Frascati (UNDER_DEVELOPMENT)",
+        "name": "Rome – Frascati",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.591,
         "elevation_gain": 447.5,
@@ -151379,7 +151379,7 @@
       "type": "Feature",
       "properties": {
         "stage": 67,
-        "name": "67: Frascati – Paliano (UNDER_DEVELOPMENT)",
+        "name": "Frascati – Paliano",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.79,
         "elevation_gain": 672.3,
@@ -153219,7 +153219,7 @@
       "type": "Feature",
       "properties": {
         "stage": 68,
-        "name": "68: Paliano – Fiuggi (DEVELOPED)",
+        "name": "Paliano – Fiuggi",
         "description": "DEVELOPED",
         "distance_km": 23.751,
         "elevation_gain": 821.2,
@@ -154769,7 +154769,7 @@
       "type": "Feature",
       "properties": {
         "stage": 69,
-        "name": "69: Fiuggi – Ceccano (UNDER_DEVELOPMENT)",
+        "name": "Fiuggi – Ceccano",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.752,
         "elevation_gain": 409.7,
@@ -157259,7 +157259,7 @@
       "type": "Feature",
       "properties": {
         "stage": 70,
-        "name": "70: Ceccano – Cassino (UNDER_DEVELOPMENT)",
+        "name": "Ceccano – Cassino",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.62,
         "elevation_gain": 721.7,
@@ -160369,7 +160369,7 @@
       "type": "Feature",
       "properties": {
         "stage": 71,
-        "name": "71: Cassino – Vairano (DEVELOPED)",
+        "name": "Cassino – Vairano",
         "description": "DEVELOPED",
         "distance_km": 53.598,
         "elevation_gain": 859.6,
@@ -163769,7 +163769,7 @@
       "type": "Feature",
       "properties": {
         "stage": 72,
-        "name": "72: Vairano – Telese Terme (DEVELOPED)",
+        "name": "Vairano – Telese Terme",
         "description": "DEVELOPED",
         "distance_km": 51.536,
         "elevation_gain": 458.3,
@@ -165464,7 +165464,7 @@
       "type": "Feature",
       "properties": {
         "stage": 73,
-        "name": "73: Telese Terme – Benevento (UNDER_DEVELOPMENT)",
+        "name": "Telese Terme – Benevento",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.866,
         "elevation_gain": 528.6,
@@ -167494,7 +167494,7 @@
       "type": "Feature",
       "properties": {
         "stage": 74,
-        "name": "74: Benevento – Candela (UNDER_DEVELOPMENT)",
+        "name": "Benevento – Candela",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 86.774,
         "elevation_gain": 1963.7,
@@ -173839,7 +173839,7 @@
       "type": "Feature",
       "properties": {
         "stage": 75,
-        "name": "75: Candela – Venosa (UNDER_DEVELOPMENT)",
+        "name": "Candela – Venosa",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 50.928,
         "elevation_gain": 580.2,
@@ -175674,7 +175674,7 @@
       "type": "Feature",
       "properties": {
         "stage": 76,
-        "name": "76: Venosa – Gravina di Puglia (UNDER_DEVELOPMENT)",
+        "name": "Venosa – Gravina di Puglia",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 73.317,
         "elevation_gain": 800.3,
@@ -178599,7 +178599,7 @@
       "type": "Feature",
       "properties": {
         "stage": 77,
-        "name": "77: Gravina di Puglia – Matera (UNDER_DEVELOPMENT)",
+        "name": "Gravina di Puglia – Matera",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.149,
         "elevation_gain": 135.8,
@@ -179224,7 +179224,7 @@
       "type": "Feature",
       "properties": {
         "stage": 78,
-        "name": "78: Matera – Palagiano (UNDER_DEVELOPMENT)",
+        "name": "Matera – Palagiano",
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.52,
         "elevation_gain": 214.0,
@@ -180024,7 +180024,7 @@
       "type": "Feature",
       "properties": {
         "stage": 79,
-        "name": "79: Taranto – Brindisi (PLANNING)",
+        "name": "Taranto – Brindisi",
         "description": "PLANNING",
         "distance_km": 80.666,
         "elevation_gain": 372.1,

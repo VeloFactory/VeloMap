@@ -276,6 +276,13 @@ def build_geojson(
                 seen_cities.add(c)
                 collection_cities.append(c)
 
+        # if name contains description text, remove it: <name>01: Langres – Pouilly-en-bassigny (DEVELOPED_WITH_SIGNS)</name>
+        # (DEVELOPED_WITH_SIGNS) is not a city, so we strip it out
+        name = re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()
+
+        # if name contains a prefix like "01:", strip it out: "name": "130: Amfilochia – Vonitsa (DEVELOPED)", - need to remove "130:"
+        name = re.sub(r"^\s*\d+\s*:\s*", "", name).strip()
+
         features.append(
             {
                 "type": "Feature",
@@ -335,7 +342,7 @@ def convert_one(
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Batch convert GPX files to GeoJSON FeatureCollection.")
-    ap.add_argument("--in-dir", default="assets/routes/gpx", help="Input directory with .gpx files")
+    ap.add_argument("--in-dir", default="gpx_utils/gpx", help="Input directory with .gpx files")
     ap.add_argument("--out-dir", default="assets/routes/geojson", help="Output directory for .geojson files")
     ap.add_argument(
         "--difficulty-mode",
@@ -344,7 +351,7 @@ def main() -> int:
         help="How to set difficulty (both stage + collection)",
     )
     ap.add_argument("--difficulty", default=None, help='When fixed mode: "easy" | "moderate" | "hard"')
-    ap.add_argument("--overwrite", action="store_true", help="Overwrite existing .geojson files")
+    ap.add_argument("--overwrite", action="store_true", help="Overwrite existing .geojson files", default=True)
 
     args = ap.parse_args()
 
