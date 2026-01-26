@@ -48,7 +48,7 @@ class RouteListTile extends StatelessWidget {
           curve: Curves.easeInOut,
           alignment: Alignment.topCenter,
           child: Padding(
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 14),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -805,6 +805,9 @@ class _StageItem extends StatelessWidget {
                       // Status icon
                       Tooltip(
                         message: status.label,
+                        triggerMode: TooltipTriggerMode.tap,
+                        waitDuration: Duration.zero,
+                        showDuration: const Duration(seconds: 1),
                         child: Icon(status.icon, size: 14, color: status.color),
                       ),
                     ],
