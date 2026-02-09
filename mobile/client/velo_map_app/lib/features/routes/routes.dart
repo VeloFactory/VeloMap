@@ -313,7 +313,7 @@ class _RoutesState extends State<Routes> {
       builder: (context, state) {
         return Scaffold(
           // Prevent keyboard from pushing UI up when search is active
-          resizeToAvoidBottomInset: !_isSearchVisible,
+          resizeToAvoidBottomInset: false, //!_isSearchVisible,
           body: Stack(
             children: [
               // Map
