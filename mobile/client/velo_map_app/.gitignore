@@ -48,3 +48,4 @@ app.*.map.json
 
 AGENTS.md
 config.toml
+/gpx_utils/.venv

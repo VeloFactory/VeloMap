@@ -30,6 +30,9 @@ class MapController {
   PointAnnotationManager? _pointManager;
   Cancelable? _polylineTapCancelable;
   bool _locationPermissionGranted = false;
+  double _bottomPaddingPx = 0.0;
+
+  static const double _baseCameraPadding = 12.0;
 
   /// Operation ID to prevent race conditions when rapidly switching routes.
   ///
@@ -90,6 +93,28 @@ class MapController {
 
   void setLocationPermissionGranted(bool granted) {
     _locationPermissionGranted = granted;
+  }
+
+  Future<void> updateBottomPadding(
+    double bottomPx,
+    double screenHeightPx,
+  ) async {
+    _bottomPaddingPx = bottomPx;
+    if (_mapboxMap == null) return;
+
+    final cameraState = await _mapboxMap!.getCameraState();
+    await _mapboxMap!.setCamera(
+      CameraOptions(
+        center: cameraState.center,
+        zoom: cameraState.zoom,
+        padding: MbxEdgeInsets(
+          top: _baseCameraPadding,
+          left: _baseCameraPadding,
+          right: _baseCameraPadding,
+          bottom: _baseCameraPadding + _bottomPaddingPx,
+        ),
+      ),
+    );
   }
 
   /// Configure map settings (scale bar, disable native compass - using Flutter widget instead)
