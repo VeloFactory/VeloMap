@@ -12,6 +12,7 @@ class RouteLocalDatasource {
 
   Future<List<RouteDto>> _loadRoutes() async {
     final files = await _routeFiles();
+    final descriptions = await _loadRouteDescriptions();
     final routes = <RouteDto>[];
 
     for (final path in files) {
@@ -19,7 +20,13 @@ class RouteLocalDatasource {
       final decoded = jsonDecode(jsonStr);
 
       if (decoded is Map<String, dynamic>) {
-        routes.add(RouteDto.fromGeoJson(decoded));
+        var dto = RouteDto.fromGeoJson(decoded);
+        // Attach route description from the descriptions JSON
+        final desc = descriptions[dto.routeNumber];
+        if (desc != null) {
+          dto = dto.copyWith(routeDescription: desc);
+        }
+        routes.add(dto);
       } else {
         throw FormatException('Unsupported JSON format in $path');
       }
@@ -28,8 +35,47 @@ class RouteLocalDatasource {
     return routes;
   }
 
+  /// Load route descriptions from the bundled JSON asset.
+  /// Returns a map of routeNumber → description text.
+  Future<Map<int, String>> _loadRouteDescriptions() async {
+    try {
+      final jsonStr = await rootBundle.loadString(
+        'assets/routes/routes_description.json',
+      );
+      final decoded = jsonDecode(jsonStr) as Map<String, dynamic>;
+      final list = decoded['route_description'] as List<dynamic>;
+
+      return {
+        for (final item in list)
+          (item['route_number'] as num).toInt():
+              item['route_description'] as String,
+      };
+    } catch (_) {
+      // If descriptions file is missing or malformed, return empty map
+      return {};
+    }
+  }
+
   Future<List<String>> _routeFiles() async {
-    const allowedRoutes = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 19};
+    const allowedRoutes = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+    };
 
     final manifest1 = await AssetManifest.loadFromAssetBundle(rootBundle);
     final assets = manifest1.listAssets();

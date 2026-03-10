@@ -58,6 +58,7 @@ sealed class RouteDto with _$RouteDto {
     required List<List<double>> coordinates,
     @Default([]) List<RouteStage> stages,
     @Default([]) List<String> cities,
+    @Default('') String routeDescription,
   }) = _RouteDto;
 
   factory RouteDto.fromJson(Map<String, dynamic> json) =>
@@ -267,6 +268,7 @@ sealed class RouteDto with _$RouteDto {
       coordinates: coordinates,
       stages: stages.map((s) => s.toEntity()).toList(),
       cities: cities,
+      routeDescription: routeDescription,
     );
   }
 }
