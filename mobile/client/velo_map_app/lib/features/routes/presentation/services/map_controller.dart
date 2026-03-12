@@ -1,3 +1,4 @@
+import 'dart:developer' as dev;
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
@@ -6,6 +7,7 @@ import 'package:geolocator/geolocator.dart' as geo;
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
+import 'package:velo_map_app/features/routes/domain/models/map_layer_config.dart';
 import 'package:velo_map_app/features/routes/domain/models/route_stage_status.dart';
 
 /// Display modes for the map
@@ -633,6 +635,168 @@ class MapController {
     }
 
     return [minLng, minLat, maxLng, maxLat];
+  }
+
+  // ============================================================================
+  // POI LAYER METHODS
+  // ============================================================================
+
+  // Custom layer IDs for our controlled POI categories
+  static const _poiSourceId = 'velo-poi-source';
+  static const _restaurantsLayerId = 'velo-poi-restaurants';
+  static const _hotelsLayerId = 'velo-poi-hotels';
+  static const _campingLayerId = 'velo-poi-camping';
+
+  /// Hide all built-in Mapbox POI labels so the map starts clean.
+  /// Called once when map is ready.
+  Future<void> hidePOILabels() async {
+    if (_mapboxMap == null) return;
+    try {
+      await _mapboxMap!.style.setStyleImportConfigProperty(
+        'basemap',
+        'showPointOfInterestLabels',
+        false,
+      );
+      dev.log('[POI] Built-in POI labels hidden', name: 'MapController');
+    } catch (e) {
+      dev.log('[POI] hidePOILabels error: $e', name: 'MapController');
+    }
+  }
+
+  /// Apply POI layer config: show/hide custom symbol layers for each category.
+  /// Safe to call multiple times — creates layers on first call, toggles
+  /// visibility on subsequent calls.
+  Future<void> applyLayerConfig(MapLayerConfig config) async {
+    if (_mapboxMap == null) return;
+    dev.log(
+      '[POI] applyLayerConfig: restaurants=${config.showRestaurants} '
+      'hotels=${config.showHotels} camping=${config.showCamping}',
+      name: 'MapController',
+    );
+
+    await _ensurePoiSource();
+
+    await _applyPoiLayer(
+      layerId: _restaurantsLayerId,
+      // food_and_drink covers restaurants, cafes, bars
+      filter: ['==', ['get', 'class'], 'food_and_drink'],
+      visible: config.showRestaurants,
+    );
+    await _applyPoiLayer(
+      layerId: _hotelsLayerId,
+      // lodging covers hotels, hostels, B&Bs
+      filter: ['==', ['get', 'class'], 'lodging'],
+      visible: config.showHotels,
+    );
+    await _applyPoiLayer(
+      layerId: _campingLayerId,
+      filter: [
+        'any',
+        ['==', ['get', 'maki'], 'campsite'],
+        ['==', ['get', 'class'], 'campsite'],
+      ],
+      visible: config.showCamping,
+    );
+  }
+
+  /// Ensure the Mapbox Streets vector source is registered for our custom layers.
+  Future<void> _ensurePoiSource() async {
+    if (_mapboxMap == null) return;
+    try {
+      final exists = await _mapboxMap!.style.styleSourceExists(_poiSourceId);
+      if (!exists) {
+        await _mapboxMap!.style.addSource(
+          VectorSource(
+            id: _poiSourceId,
+            url: 'mapbox://mapbox.mapbox-streets-v8',
+          ),
+        );
+        dev.log('[POI] Source added: $_poiSourceId', name: 'MapController');
+      } else {
+        dev.log('[POI] Source already exists: $_poiSourceId', name: 'MapController');
+      }
+    } catch (e) {
+      dev.log('[POI] _ensurePoiSource error: $e', name: 'MapController');
+    }
+  }
+
+  /// Create or toggle visibility of a single POI symbol layer.
+  Future<void> _applyPoiLayer({
+    required String layerId,
+    required List<dynamic> filter,
+    required bool visible,
+  }) async {
+    if (_mapboxMap == null) return;
+
+    try {
+      final exists = await _mapboxMap!.style.styleLayerExists(layerId);
+      dev.log('[POI] $layerId exists=$exists visible=$visible', name: 'MapController');
+
+      if (!exists) {
+        if (!visible) return; // No need to create an invisible layer
+
+        await _mapboxMap!.style.addLayer(
+          SymbolLayer(
+            id: layerId,
+            sourceId: _poiSourceId,
+            sourceLayer: 'poi_label',
+            minZoom: 13.0,
+          ),
+        );
+        dev.log('[POI] Layer created: $layerId', name: 'MapController');
+
+        // Filter to the specific POI category
+        await _mapboxMap!.style.setStyleLayerProperty(layerId, 'filter', filter);
+
+        // Text label — always visible, no dependency on sprite icons
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'text-field', ['get', 'name'],
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(layerId, 'text-size', 12.0);
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'text-color', '#333333',
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'text-halo-color', '#ffffff',
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'text-halo-width', 1.5,
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'text-allow-overlap', false,
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'text-optional', false,
+        );
+
+        // Icon — try using Maki sprite; mark optional so text still shows if icon missing
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'icon-image', ['get', 'maki'],
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'icon-size', 1.0,
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'icon-optional', true,
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'text-offset', [0.0, 1.5],
+        );
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'text-anchor', 'top',
+        );
+        dev.log('[POI] Layer properties set: $layerId', name: 'MapController');
+      } else {
+        // Layer already exists — just toggle visibility
+        final visibility = visible ? 'visible' : 'none';
+        await _mapboxMap!.style.setStyleLayerProperty(
+          layerId, 'visibility', visibility,
+        );
+        dev.log('[POI] Visibility set $layerId -> $visibility', name: 'MapController');
+      }
+    } catch (e, st) {
+      dev.log('[POI] _applyPoiLayer error for $layerId: $e\n$st', name: 'MapController');
+    }
   }
 
   void dispose() {

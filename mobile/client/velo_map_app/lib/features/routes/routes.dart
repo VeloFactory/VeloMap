@@ -144,6 +144,9 @@ class _RoutesState extends State<Routes> {
     // Configure map settings (disable native compass, we use Flutter widget instead)
     await _mapController.configureMapSettings();
 
+    // Hide all built-in Mapbox POI labels — we control them via MapLayerConfig
+    await _mapController.hidePOILabels();
+
     // Create polyline annotation manager for drawing routes
     final polylineManager = await mapboxMap.annotations
         .createPolylineAnnotationManager();
@@ -207,7 +210,7 @@ class _RoutesState extends State<Routes> {
         setState(() {
           _layerConfig = newConfig;
         });
-        // TODO: Apply layers to map
+        _mapController.applyLayerConfig(newConfig);
       },
     );
   }
