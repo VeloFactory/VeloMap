@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_11",
-    "name": "EuroVelo 11",
+    "name": "East Europe Route",
     "description": "",
     "distance_km": 6924.686,
     "difficulty": "hard",
@@ -122,7 +122,10 @@
       "Thiva",
       "Skala Oropou",
       "Athens"
-    ]
+    ],
+    "full_name": "East Europe Route",
+    "color": "0xFFE67E22",
+    "route_description": "Labelled by some bicycle tourists as the 'Beast of the East', this lengthy route with its 6,550 km stretches from the north-east tip of Norway all the way down to sunny Greece. EuroVelo 11 will lead you through six extremely different capital cities: hip Helsinki, charming Vilnius, the 'Phoenix City' of Warsaw, the 'White City' of Belgrade, exciting Skopje and, last but not least, enchanting ancient Athens. Give it a go and discover a new favourite destination!"
   },
   "features": [
     {

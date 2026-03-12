@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_17",
-    "name": "EuroVelo 17",
+    "name": "Rhone Cycle Route",
     "description": "",
     "distance_km": 1169.965,
     "difficulty": "hard",
@@ -45,7 +45,10 @@
       "Aigues-Mortes",
       "Palavas-les-Flots",
       "Sete"
-    ]
+    ],
+    "full_name": "Rhone Cycle Route",
+    "color": "0xFFC0CA33",
+    "route_description": "The charming alpine village of Andermatt in Switzerland is not only the starting point of EuroVelo 15 but also marks the beginning of EuroVelo 17 - Rhone Cycle Route. Following the course of the River Rhone, the route ends over a 1,250 km later on the beautiful Mediterranean coast of France. Connecting the Alps, Lake Geneva, the lavender fields of Provence and the wild white horses of the Camargue, the shortest EuroVelo route packs in a surprising amount of different cultures, landscapes and experiences."
   },
   "features": [
     {

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_5",
-    "name": "EuroVelo 5",
+    "name": "Via Romea (Francigena)",
     "description": "",
     "distance_km": 3212.642,
     "difficulty": "hard",
@@ -92,7 +92,10 @@
       "Palagiano",
       "Taranto",
       "Brindisi"
-    ]
+    ],
+    "full_name": "Via Romea (Francigena)",
+    "color": "0xFFD8A0C5",
+    "route_description": "Over a thousand years ago, pilgrims traveled all the way from England to Rome. After the Eternal City, the route continued to Jerusalem through the port of Brindisi, along the ancient Via Appia. Now, you can follow their footsteps by cycling EuroVelo 5 our 3,200 km version of this legendary route. The route passes through 7 different countries and links both modern and ancient institutions, with many cathedrals, churches, monuments and museums mixing along this route with the major European Institutions in Brussels, Luxembourg, Strasbourg. Whether you want a short break or a long adventure, EuroVelo 5 offers something for everyone!"
   },
   "features": [
     {

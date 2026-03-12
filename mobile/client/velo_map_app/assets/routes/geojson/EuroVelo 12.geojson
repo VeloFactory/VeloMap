@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_12",
-    "name": "EuroVelo 12",
+    "name": "North Sea Cycle Route",
     "description": "",
     "distance_km": 6707.966,
     "difficulty": "hard",
@@ -165,7 +165,10 @@
       "Gutcher",
       "Belmont",
       "Norwick"
-    ]
+    ],
+    "full_name": "North Sea Cycle Route",
+    "color": "0xFF2E7D32",
+    "route_description": "The North Sea Cycle Route will surprise you with its diversity. Although bordering the same sea it goes from land located below sea level (in the Netherlands) to cliffs of 300 meters in height (Norway). You can sample wee drams in Scotland; pedal along the well maintained cycle paths of Denmark; dance the night away in millennial port cities such as Gothenburg or Hamburg; or stretch out on the inviting beaches of the Netherlands. Expect to be pleasantly surprised along this popular bicycle route which is about 7,050 km long."
   },
   "features": [
     {

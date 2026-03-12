@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_1",
-    "name": "EuroVelo 1",
+    "name": "Atlantic Coast Route",
     "description": "",
     "distance_km": 10317.772,
     "difficulty": "hard",
@@ -264,7 +264,10 @@
       "Esposende",
       "Caminha",
       "Valenca"
-    ]
+    ],
+    "full_name": "Atlantic Coast Route",
+    "color": "0xFF9EAD00",
+    "route_description": "Following Europe's mighty western border, reaching from Scandinavia, to South and Western Portugal, the Atlantic Coast Route visits the majestic fjords of Norway, the wild Irish coastline, the rough cliffs of Brittany and the sun-kissed beaches of Portugal, totalling 11,000 km. Along the way you will not only be seduced by bustling port cities and cosy fishing villages, but you will be impressed by dramatic landscapes and have the chance to enjoy the best seafood each country has to offer."
   },
   "features": [
     {

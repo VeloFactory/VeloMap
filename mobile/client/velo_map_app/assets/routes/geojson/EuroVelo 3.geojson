@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_3",
-    "name": "EuroVelo 3",
+    "name": "Pilgrims Route",
     "description": "",
     "distance_km": 5590.452,
     "difficulty": "hard",
@@ -140,7 +140,10 @@
       "Santiago de Compostela",
       "Olveiroa",
       "Fisterra"
-    ]
+    ],
+    "full_name": "Pilgrims Route",
+    "color": "0xFF4A90E2",
+    "route_description": "Looking for a bit of culture on your next cycle trip, but still want to party? EuroVelo 3 might be the answer. The route will give you a taste of some of Europe's famous pilgrims routes and along the roughly 5,600 km-long way you will be able to discover some of the continent's most impressive religious buildings, including the magnificent cathedrals of Cologne, Aachen and Santiago de Compostela. Linking these sites you will pass through many exciting cities famous for their unbeatable nightlife, including Hamburg, Liège and Paris. The route finishes in Cape Finisterre, considered to be the end of the known world for many centuries."
   },
   "features": [
     {

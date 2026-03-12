@@ -21,6 +21,39 @@ DIFF_ORDER = {"easy": 0, "moderate": 1, "hard": 2}
 CITY_SEP_RE = re.compile(r"\s+(?:-|–|—|−)\s*|\s*(?:-|–|—|−)\s+")
 
 
+def load_route_metadata(metadata_path: Optional[str] = None) -> Dict[int, Dict[str, str]]:
+    """
+    Load route metadata from JSON file.
+    Returns dict: route_number -> {"full_name": ..., "color": ..., "route_description": ...}
+    """
+    if metadata_path is None:
+        # Default: same directory as this script
+        metadata_path = str(Path(__file__).parent / "route_metadata.json")
+
+    path = Path(metadata_path)
+    if not path.exists():
+        print(f"WARNING: Route metadata file not found: {path}", file=sys.stderr)
+        return {}
+
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        result: Dict[int, Dict[str, str]] = {}
+        for item in data.get("routes", []):
+            rn = int(item.get("route_number", 0))
+            if rn > 0:
+                result[rn] = {
+                    "full_name": item.get("route_full_name", ""),
+                    "color": item.get("route_color", ""),
+                    "route_description": item.get("route_description", ""),
+                }
+        return result
+    except Exception as e:
+        print(f"WARNING: Failed to load route metadata: {e}", file=sys.stderr)
+        return {}
+
+
 def _get_text(el: Optional[ET.Element]) -> Optional[str]:
     if el is None:
         return None
@@ -247,6 +280,7 @@ def build_geojson(
     collection_props: Dict[str, Any],
     difficulty_mode: str,
     fixed_difficulty: Optional[str],
+    route_metadata: Optional[Dict[str, str]] = None,
 ) -> Dict[str, Any]:
     features: List[Dict[str, Any]] = []
     stage_difficulties: List[str] = []
@@ -321,6 +355,15 @@ def build_geojson(
         "cities": collection_cities,  # NEW
     }
 
+    # Inject route metadata (full_name, color, route_description) if available
+    if route_metadata:
+        full_name = route_metadata.get("full_name", "")
+        if full_name:
+            out_props["name"] = full_name
+            out_props["full_name"] = full_name
+        out_props["color"] = route_metadata.get("color", "")
+        out_props["route_description"] = route_metadata.get("route_description", "")
+
     return {"type": "FeatureCollection", "properties": out_props, "features": features}
 
 
@@ -329,6 +372,7 @@ def convert_one(
     out_path: Path,
     difficulty_mode: str,
     fixed_difficulty: Optional[str],
+    all_metadata: Optional[Dict[int, Dict[str, str]]] = None,
 ) -> None:
     tracks = parse_gpx_tracks(str(gpx_path))
     if not tracks:
@@ -337,11 +381,16 @@ def convert_one(
     props = infer_props_from_filename(gpx_path)
     props["total_stages"] = len(tracks)
 
+    # Look up metadata for this route's number
+    route_number = props.get("route_number", 0)
+    route_meta = (all_metadata or {}).get(route_number)
+
     geojson = build_geojson(
         tracks=tracks,
         collection_props=props,
         difficulty_mode=difficulty_mode,
         fixed_difficulty=fixed_difficulty,
+        route_metadata=route_meta,
     )
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -376,6 +425,13 @@ def main() -> int:
         print(f"No .gpx files found in: {in_dir}", file=sys.stderr)
         return 2
 
+    # Load route metadata once for all conversions
+    all_metadata = load_route_metadata()
+    if all_metadata:
+        print(f"Loaded metadata for {len(all_metadata)} routes")
+    else:
+        print("WARNING: No route metadata loaded — GeoJSON will lack full_name/color/route_description", file=sys.stderr)
+
     ok = 0
     fail = 0
 
@@ -387,7 +443,7 @@ def main() -> int:
             continue
 
         try:
-            convert_one(gpx, out, args.difficulty_mode, args.difficulty)
+            convert_one(gpx, out, args.difficulty_mode, args.difficulty, all_metadata)
             print(f"OK: {gpx.name} -> {out}")
             ok += 1
         except Exception as e:

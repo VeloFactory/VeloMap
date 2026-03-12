@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_9",
-    "name": "EuroVelo 9",
+    "name": "Baltic – Adriatic",
     "description": "",
     "distance_km": 2250.318,
     "difficulty": "hard",
@@ -64,7 +64,10 @@
       "Pazin",
       "Barban",
       "Pula"
-    ]
+    ],
+    "full_name": "Baltic – Adriatic",
+    "color": "0xFF8E5EA2",
+    "route_description": "With its 2,050 km, EuroVelo 9 - Baltic-Adriatic may not be the longest EuroVelo route but it doesn't mean that this route does not have a lot to offer. Rivers, seas and mountains are on the checklist, and EuroVelo 9 is packed full of adventures over its (relatively!) short distance. Start with a refreshing ride on the Baltic coast and finish the trip with a relaxing swim in the Adriatic Sea. In between you can enjoy welcoming local communities with exquisite culinary traditions in Poland, Czechia, Austria, Slovenia, Italy and Croatia. This route is sometimes called the Amber Route as historically the precious stone amber, found in the Baltic region, was taken by routes such as this to the Mediterranean Sea!"
   },
   "features": [
     {

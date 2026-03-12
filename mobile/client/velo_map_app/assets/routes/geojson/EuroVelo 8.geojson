@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_8",
-    "name": "EuroVelo 8",
+    "name": "Mediterranean Route",
     "description": "",
     "distance_km": 7371.299,
     "difficulty": "hard",
@@ -170,7 +170,10 @@
       "Paphos",
       "Polis",
       "Kykkos"
-    ]
+    ],
+    "full_name": "Mediterranean Route",
+    "color": "0xFF8D4B20",
+    "route_description": "Sparkling emerald seas, kilometres of golden sand, mysterious islands, wonderful food, ancient cities… It isn't hard to find convincing reasons to travel along the Mediterranean! What better way to do it than by bike? Admire Granada's Alhambra, or Gaudi's mind blowing architecture in Barcelona, feel the romance of Venice's canals, Dubrovnik's old town, or pull your bike up alongside a waiting beach, inviting you to just relax. While EuroVelo 8 connects many already popular tourist destinations, there are still lots of undiscovered gems to be found along the way. So what are you waiting for? Get on your bike!"
   },
   "features": [
     {

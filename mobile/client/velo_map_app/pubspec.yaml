@@ -102,7 +102,6 @@ flutter:
   assets:
     - .env
     - assets/routes/geojson/
-    - assets/routes/routes_description.json
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
