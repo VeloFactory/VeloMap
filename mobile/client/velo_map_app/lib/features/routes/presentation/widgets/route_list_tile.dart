@@ -312,9 +312,9 @@ class RouteListTile extends StatelessWidget {
         borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
       ),
       builder: (context) => DraggableScrollableSheet(
-        initialChildSize: 0.45,
+        initialChildSize: 0.6,
         minChildSize: 0.25,
-        maxChildSize: 0.75,
+        maxChildSize: 0.9,
         expand: false,
         builder: (context, scrollController) => SafeArea(
           child: Padding(
