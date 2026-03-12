@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_4",
-    "name": "EuroVelo 4",
+    "name": "Central Europe Route",
     "description": "",
     "distance_km": 5037.749,
     "difficulty": "hard",
@@ -141,7 +141,10 @@
       "Radomyshl",
       "Bilka",
       "Kyiv"
-    ]
+    ],
+    "full_name": "Central Europe Route",
+    "color": "0xFFF2C300",
+    "route_description": "Cycling 5,100 km across Europe from west to east provides a fascinating insight into the world's second most densely populated continent. Waiting for you are outstanding medieval architecture, dynamic cities and history lessons, and yet you can still get away from the crowds on this route, visiting France's dramatic northern coastline and by crossing through the fairy tale Bohemian Forest. EuroVelo 4 is so diverse, you won't know where to begin."
   },
   "features": [
     {

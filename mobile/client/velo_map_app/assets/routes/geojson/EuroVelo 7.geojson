@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_7",
-    "name": "EuroVelo 7",
+    "name": "Sun Route",
     "description": "",
     "distance_km": 7383.544,
     "difficulty": "hard",
@@ -161,7 +161,10 @@
       "Cirkewwa",
       "Mgarr",
       "Qala"
-    ]
+    ],
+    "full_name": "Sun Route",
+    "color": "0xFF7CB342",
+    "route_description": "Explore Europe from the far North to the sunny South. The approximately 7,650 km of the Sun Route will whisk you from the land of the midnight sun to island hopping in the Mediterranean. Culture, sunlight, mountains and a good dose of history make for an unforgettable adventure. There is so much to do: visiting nine European countries (including stops in the cycling havens of Malmö, Copenhagen, Berlin and Bolzano); tackling the Alps, reaching the tip of the 'Italian boot', and experiencing the sunny archipelago of Malta to mention just a few highlights. What are you waiting for? Don't forget to check the ferry timetables: it is the most convenient way to cross the Baltic Sea between Helsingborg (Sweden) and Helsingor (Denmark), and from Gedser to Rostock in Germany. In the South, take a sunny break on the deck and enjoy the crossing from Pozzallo in Italy to Malta."
   },
   "features": [
     {

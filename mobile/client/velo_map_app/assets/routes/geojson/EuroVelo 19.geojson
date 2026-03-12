@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_19",
-    "name": "EuroVelo 19",
+    "name": "Meuse Cycle Route",
     "description": "",
     "distance_km": 1154.998,
     "difficulty": "hard",
@@ -41,7 +41,10 @@
       "Dordrecht",
       "Hook of Holland",
       "Rotterdam"
-    ]
+    ],
+    "full_name": "Meuse Cycle Route",
+    "color": "0xFF8E2C2C",
+    "route_description": "The Meuse Cycle Route follows one of the most important rivers in Europe and welcomes cyclists of all levels! From the plateau of Langres via Hoek van Holland to Rotterdam, step on your bike and discover 3 countries (France, Belgium and Netherlands) by cycling over 1,050 kilometers of marked roads. This attractive and varied route offers ever-changing scenery, with charming towns and villages on both banks of the river, plus there are plenty of cultural heritage sites and culinary treasures from beginning to end."
   },
   "features": [
     {
