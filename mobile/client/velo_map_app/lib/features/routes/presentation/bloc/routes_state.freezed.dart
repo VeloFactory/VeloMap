@@ -14,7 +14,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$RoutesState {
 
- List<RouteEntity> get routes; bool get isLoading; String? get error; RouteEntity? get selectedRoute; RouteStageEntity? get selectedStage; String get searchQuery;
+ List<RouteEntity> get routes; bool get isLoading; String? get error; RouteEntity? get selectedRoute; RouteStageEntity? get selectedStage; String get searchQuery; List<RouteEntity> get plannedRoutes;
 /// Create a copy of RoutesState
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -25,16 +25,16 @@ $RoutesStateCopyWith<RoutesState> get copyWith => _$RoutesStateCopyWithImpl<Rout
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is RoutesState&&const DeepCollectionEquality().equals(other.routes, routes)&&(identical(other.isLoading, isLoading) || other.isLoading == isLoading)&&(identical(other.error, error) || other.error == error)&&(identical(other.selectedRoute, selectedRoute) || other.selectedRoute == selectedRoute)&&(identical(other.selectedStage, selectedStage) || other.selectedStage == selectedStage)&&(identical(other.searchQuery, searchQuery) || other.searchQuery == searchQuery));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is RoutesState&&const DeepCollectionEquality().equals(other.routes, routes)&&(identical(other.isLoading, isLoading) || other.isLoading == isLoading)&&(identical(other.error, error) || other.error == error)&&(identical(other.selectedRoute, selectedRoute) || other.selectedRoute == selectedRoute)&&(identical(other.selectedStage, selectedStage) || other.selectedStage == selectedStage)&&(identical(other.searchQuery, searchQuery) || other.searchQuery == searchQuery)&&const DeepCollectionEquality().equals(other.plannedRoutes, plannedRoutes));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,const DeepCollectionEquality().hash(routes),isLoading,error,selectedRoute,selectedStage,searchQuery);
+int get hashCode => Object.hash(runtimeType,const DeepCollectionEquality().hash(routes),isLoading,error,selectedRoute,selectedStage,searchQuery,const DeepCollectionEquality().hash(plannedRoutes));
 
 @override
 String toString() {
-  return 'RoutesState(routes: $routes, isLoading: $isLoading, error: $error, selectedRoute: $selectedRoute, selectedStage: $selectedStage, searchQuery: $searchQuery)';
+  return 'RoutesState(routes: $routes, isLoading: $isLoading, error: $error, selectedRoute: $selectedRoute, selectedStage: $selectedStage, searchQuery: $searchQuery, plannedRoutes: $plannedRoutes)';
 }
 
 
@@ -45,7 +45,7 @@ abstract mixin class $RoutesStateCopyWith<$Res>  {
   factory $RoutesStateCopyWith(RoutesState value, $Res Function(RoutesState) _then) = _$RoutesStateCopyWithImpl;
 @useResult
 $Res call({
- List<RouteEntity> routes, bool isLoading, String? error, RouteEntity? selectedRoute, RouteStageEntity? selectedStage, String searchQuery
+ List<RouteEntity> routes, bool isLoading, String? error, RouteEntity? selectedRoute, RouteStageEntity? selectedStage, String searchQuery, List<RouteEntity> plannedRoutes
 });
 
 
@@ -62,7 +62,7 @@ class _$RoutesStateCopyWithImpl<$Res>
 
 /// Create a copy of RoutesState
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? routes = null,Object? isLoading = null,Object? error = freezed,Object? selectedRoute = freezed,Object? selectedStage = freezed,Object? searchQuery = null,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? routes = null,Object? isLoading = null,Object? error = freezed,Object? selectedRoute = freezed,Object? selectedStage = freezed,Object? searchQuery = null,Object? plannedRoutes = null,}) {
   return _then(_self.copyWith(
 routes: null == routes ? _self.routes : routes // ignore: cast_nullable_to_non_nullable
 as List<RouteEntity>,isLoading: null == isLoading ? _self.isLoading : isLoading // ignore: cast_nullable_to_non_nullable
@@ -70,7 +70,8 @@ as bool,error: freezed == error ? _self.error : error // ignore: cast_nullable_t
 as String?,selectedRoute: freezed == selectedRoute ? _self.selectedRoute : selectedRoute // ignore: cast_nullable_to_non_nullable
 as RouteEntity?,selectedStage: freezed == selectedStage ? _self.selectedStage : selectedStage // ignore: cast_nullable_to_non_nullable
 as RouteStageEntity?,searchQuery: null == searchQuery ? _self.searchQuery : searchQuery // ignore: cast_nullable_to_non_nullable
-as String,
+as String,plannedRoutes: null == plannedRoutes ? _self.plannedRoutes : plannedRoutes // ignore: cast_nullable_to_non_nullable
+as List<RouteEntity>,
   ));
 }
 
@@ -152,10 +153,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( List<RouteEntity> routes,  bool isLoading,  String? error,  RouteEntity? selectedRoute,  RouteStageEntity? selectedStage,  String searchQuery)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( List<RouteEntity> routes,  bool isLoading,  String? error,  RouteEntity? selectedRoute,  RouteStageEntity? selectedStage,  String searchQuery,  List<RouteEntity> plannedRoutes)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _RoutesState() when $default != null:
-return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_that.selectedStage,_that.searchQuery);case _:
+return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_that.selectedStage,_that.searchQuery,_that.plannedRoutes);case _:
   return orElse();
 
 }
@@ -173,10 +174,10 @@ return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_th
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( List<RouteEntity> routes,  bool isLoading,  String? error,  RouteEntity? selectedRoute,  RouteStageEntity? selectedStage,  String searchQuery)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( List<RouteEntity> routes,  bool isLoading,  String? error,  RouteEntity? selectedRoute,  RouteStageEntity? selectedStage,  String searchQuery,  List<RouteEntity> plannedRoutes)  $default,) {final _that = this;
 switch (_that) {
 case _RoutesState():
-return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_that.selectedStage,_that.searchQuery);}
+return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_that.selectedStage,_that.searchQuery,_that.plannedRoutes);}
 }
 /// A variant of `when` that fallback to returning `null`
 ///
@@ -190,10 +191,10 @@ return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_th
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( List<RouteEntity> routes,  bool isLoading,  String? error,  RouteEntity? selectedRoute,  RouteStageEntity? selectedStage,  String searchQuery)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( List<RouteEntity> routes,  bool isLoading,  String? error,  RouteEntity? selectedRoute,  RouteStageEntity? selectedStage,  String searchQuery,  List<RouteEntity> plannedRoutes)?  $default,) {final _that = this;
 switch (_that) {
 case _RoutesState() when $default != null:
-return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_that.selectedStage,_that.searchQuery);case _:
+return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_that.selectedStage,_that.searchQuery,_that.plannedRoutes);case _:
   return null;
 
 }
@@ -205,7 +206,7 @@ return $default(_that.routes,_that.isLoading,_that.error,_that.selectedRoute,_th
 
 
 class _RoutesState extends RoutesState {
-  const _RoutesState({final  List<RouteEntity> routes = const [], this.isLoading = false, this.error, this.selectedRoute, this.selectedStage, this.searchQuery = ''}): _routes = routes,super._();
+  const _RoutesState({final  List<RouteEntity> routes = const [], this.isLoading = false, this.error, this.selectedRoute, this.selectedStage, this.searchQuery = '', final  List<RouteEntity> plannedRoutes = const []}): _routes = routes,_plannedRoutes = plannedRoutes,super._();
   
 
  final  List<RouteEntity> _routes;
@@ -220,6 +221,13 @@ class _RoutesState extends RoutesState {
 @override final  RouteEntity? selectedRoute;
 @override final  RouteStageEntity? selectedStage;
 @override@JsonKey() final  String searchQuery;
+ final  List<RouteEntity> _plannedRoutes;
+@override@JsonKey() List<RouteEntity> get plannedRoutes {
+  if (_plannedRoutes is EqualUnmodifiableListView) return _plannedRoutes;
+  // ignore: implicit_dynamic_type
+  return EqualUnmodifiableListView(_plannedRoutes);
+}
+
 
 /// Create a copy of RoutesState
 /// with the given fields replaced by the non-null parameter values.
@@ -231,16 +239,16 @@ _$RoutesStateCopyWith<_RoutesState> get copyWith => __$RoutesStateCopyWithImpl<_
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RoutesState&&const DeepCollectionEquality().equals(other._routes, _routes)&&(identical(other.isLoading, isLoading) || other.isLoading == isLoading)&&(identical(other.error, error) || other.error == error)&&(identical(other.selectedRoute, selectedRoute) || other.selectedRoute == selectedRoute)&&(identical(other.selectedStage, selectedStage) || other.selectedStage == selectedStage)&&(identical(other.searchQuery, searchQuery) || other.searchQuery == searchQuery));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RoutesState&&const DeepCollectionEquality().equals(other._routes, _routes)&&(identical(other.isLoading, isLoading) || other.isLoading == isLoading)&&(identical(other.error, error) || other.error == error)&&(identical(other.selectedRoute, selectedRoute) || other.selectedRoute == selectedRoute)&&(identical(other.selectedStage, selectedStage) || other.selectedStage == selectedStage)&&(identical(other.searchQuery, searchQuery) || other.searchQuery == searchQuery)&&const DeepCollectionEquality().equals(other._plannedRoutes, _plannedRoutes));
 }
 
 
 @override
-int get hashCode => Object.hash(runtimeType,const DeepCollectionEquality().hash(_routes),isLoading,error,selectedRoute,selectedStage,searchQuery);
+int get hashCode => Object.hash(runtimeType,const DeepCollectionEquality().hash(_routes),isLoading,error,selectedRoute,selectedStage,searchQuery,const DeepCollectionEquality().hash(_plannedRoutes));
 
 @override
 String toString() {
-  return 'RoutesState(routes: $routes, isLoading: $isLoading, error: $error, selectedRoute: $selectedRoute, selectedStage: $selectedStage, searchQuery: $searchQuery)';
+  return 'RoutesState(routes: $routes, isLoading: $isLoading, error: $error, selectedRoute: $selectedRoute, selectedStage: $selectedStage, searchQuery: $searchQuery, plannedRoutes: $plannedRoutes)';
 }
 
 
@@ -251,7 +259,7 @@ abstract mixin class _$RoutesStateCopyWith<$Res> implements $RoutesStateCopyWith
   factory _$RoutesStateCopyWith(_RoutesState value, $Res Function(_RoutesState) _then) = __$RoutesStateCopyWithImpl;
 @override @useResult
 $Res call({
- List<RouteEntity> routes, bool isLoading, String? error, RouteEntity? selectedRoute, RouteStageEntity? selectedStage, String searchQuery
+ List<RouteEntity> routes, bool isLoading, String? error, RouteEntity? selectedRoute, RouteStageEntity? selectedStage, String searchQuery, List<RouteEntity> plannedRoutes
 });
 
 
@@ -268,7 +276,7 @@ class __$RoutesStateCopyWithImpl<$Res>
 
 /// Create a copy of RoutesState
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? routes = null,Object? isLoading = null,Object? error = freezed,Object? selectedRoute = freezed,Object? selectedStage = freezed,Object? searchQuery = null,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? routes = null,Object? isLoading = null,Object? error = freezed,Object? selectedRoute = freezed,Object? selectedStage = freezed,Object? searchQuery = null,Object? plannedRoutes = null,}) {
   return _then(_RoutesState(
 routes: null == routes ? _self._routes : routes // ignore: cast_nullable_to_non_nullable
 as List<RouteEntity>,isLoading: null == isLoading ? _self.isLoading : isLoading // ignore: cast_nullable_to_non_nullable
@@ -276,7 +284,8 @@ as bool,error: freezed == error ? _self.error : error // ignore: cast_nullable_t
 as String?,selectedRoute: freezed == selectedRoute ? _self.selectedRoute : selectedRoute // ignore: cast_nullable_to_non_nullable
 as RouteEntity?,selectedStage: freezed == selectedStage ? _self.selectedStage : selectedStage // ignore: cast_nullable_to_non_nullable
 as RouteStageEntity?,searchQuery: null == searchQuery ? _self.searchQuery : searchQuery // ignore: cast_nullable_to_non_nullable
-as String,
+as String,plannedRoutes: null == plannedRoutes ? _self._plannedRoutes : plannedRoutes // ignore: cast_nullable_to_non_nullable
+as List<RouteEntity>,
   ));
 }
 

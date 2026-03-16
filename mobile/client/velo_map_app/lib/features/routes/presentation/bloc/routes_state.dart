@@ -16,10 +16,11 @@ sealed class RoutesState with _$RoutesState {
     RouteEntity? selectedRoute,
     RouteStageEntity? selectedStage,
     @Default('') String searchQuery,
+    @Default([]) List<RouteEntity> plannedRoutes,
   }) = _RoutesState;
 
   /// Returns filtered routes based on search query matching city names,
-  /// with selected route always at the top
+  /// with planned routes at the top, then selected route, then the rest
   List<RouteEntity> get filteredRoutes {
     List<RouteEntity> filtered;
 
@@ -46,8 +47,13 @@ sealed class RoutesState with _$RoutesState {
             result.add(filtered[i]);
           }
         }
-        return result;
+        filtered = result;
       }
+    }
+
+    // When planner mode is active, show ONLY the planned routes
+    if (plannedRoutes.isNotEmpty) {
+      return plannedRoutes;
     }
 
     return filtered;
@@ -55,4 +61,7 @@ sealed class RoutesState with _$RoutesState {
 
   /// Whether search is active
   bool get isSearchActive => searchQuery.isNotEmpty;
+
+  /// Whether there are active planned routes
+  bool get hasPlannedRoutes => plannedRoutes.isNotEmpty;
 }

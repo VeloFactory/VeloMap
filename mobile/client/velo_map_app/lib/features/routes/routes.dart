@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:velo_map_app/features/route_planner/presentation/cubit/route_planner_cubit.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_bloc.dart';
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_event.dart';
@@ -222,11 +223,18 @@ class _RoutesState extends State<Routes> {
           previous.routes != current.routes ||
           previous.selectedRoute != current.selectedRoute ||
           previous.selectedStage != current.selectedStage ||
-          previous.searchQuery !=
-              current.searchQuery, // Listen to search changes
+          previous.searchQuery != current.searchQuery ||
+          previous.plannedRoutes != current.plannedRoutes,
       // NOTE: This listener also calls updateMapDisplay (see _onMapCreated doc comment).
       // This handles all state changes AFTER the map is ready.
       listener: (context, state) {
+        // Initialize route planner when routes are loaded
+        if (state.routes.isNotEmpty) {
+          context
+              .read<RoutePlannerCubit>()
+              .initializeWithRoutes(state.routes);
+        }
+
         // Capture previous state before updating
         final wasViewingRoute = _previousSelectedRoute != null;
         final searchChanged = _previousSearchQuery != state.searchQuery;
