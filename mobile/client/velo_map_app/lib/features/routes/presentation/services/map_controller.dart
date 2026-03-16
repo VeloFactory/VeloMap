@@ -668,7 +668,11 @@ class MapController {
           'type': 'circle',
           'source': _poiSourceId,
           'source-layer': 'poi_label',
-          'filter': ['==', ['get', 'class'], 'lodging'],
+          'filter': [
+            '==',
+            ['get', 'class'],
+            'lodging',
+          ],
           'minzoom': 12,
           'layout': {'visibility': 'none'},
           'paint': {
@@ -688,7 +692,11 @@ class MapController {
           'type': 'circle',
           'source': _poiSourceId,
           'source-layer': 'poi_label',
-          'filter': ['==', ['get', 'class'], 'food_and_drink'],
+          'filter': [
+            '==',
+            ['get', 'class'],
+            'food_and_drink',
+          ],
           'minzoom': 12,
           'layout': {'visibility': 'none'},
           'paint': {
@@ -708,7 +716,11 @@ class MapController {
           'type': 'circle',
           'source': _poiSourceId,
           'source-layer': 'poi_label',
-          'filter': ['==', ['get', 'class'], 'campsite'],
+          'filter': [
+            '==',
+            ['get', 'class'],
+            'campsite',
+          ],
           'minzoom': 12,
           'layout': {'visibility': 'none'},
           'paint': {
