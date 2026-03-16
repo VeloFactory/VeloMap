@@ -720,8 +720,40 @@ class MapController {
         }),
         null,
       );
+
+      // Hide the default map POI labels so only our controlled layers show
+      await _hideDefaultPoiLabels();
     } catch (e) {
       debugPrint('MapController: POI layer init failed: $e');
+    }
+  }
+
+  /// Hides built-in Mapbox POI icons/labels from the basemap.
+  ///
+  /// Covers both style variants:
+  /// - Standard style (default v2.x): uses the import config API
+  /// - Legacy styles (Streets / Outdoors): hides the `poi-label` layer directly
+  Future<void> _hideDefaultPoiLabels() async {
+    // Standard style — disable POI labels via import config
+    try {
+      await _mapboxMap!.style.setStyleImportConfigProperty(
+        'basemap',
+        'showPointOfInterestLabels',
+        false,
+      );
+    } catch (_) {
+      // Not a Standard style import — ignore
+    }
+
+    // Legacy styles — hide the poi-label layer if it exists
+    try {
+      await _mapboxMap!.style.setStyleLayerProperty(
+        'poi-label',
+        'visibility',
+        'none',
+      );
+    } catch (_) {
+      // Layer doesn't exist in this style — ignore
     }
   }
 
