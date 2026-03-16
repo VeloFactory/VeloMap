@@ -155,6 +155,10 @@ class _RoutesState extends State<Routes> {
         .createPointAnnotationManager();
     _mapController.setPointManager(pointManager);
 
+    // Initialize POI layers (hidden by default) and apply any saved config
+    await _mapController.initPoiLayers();
+    await _mapController.updatePoiLayers(_layerConfig);
+
     if (!mounted) return;
 
     // Draw routes based on current BLoC state (may already have loaded data)
@@ -207,7 +211,7 @@ class _RoutesState extends State<Routes> {
         setState(() {
           _layerConfig = newConfig;
         });
-        // TODO: Apply layers to map
+        _mapController.updatePoiLayers(newConfig);
       },
     );
   }

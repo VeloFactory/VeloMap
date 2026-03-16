@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
@@ -6,6 +7,7 @@ import 'package:geolocator/geolocator.dart' as geo;
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
+import 'package:velo_map_app/features/routes/domain/models/map_layer_config.dart';
 import 'package:velo_map_app/features/routes/domain/models/route_stage_status.dart';
 
 /// Display modes for the map
@@ -633,6 +635,115 @@ class MapController {
     }
 
     return [minLng, minLat, maxLng, maxLat];
+  }
+
+  // ============================================================================
+  // POI LAYER METHODS
+  // ============================================================================
+
+  static const String _poiSourceId = 'velo-poi-source';
+  static const String _hotelLayerId = 'velo-poi-hotels';
+  static const String _restaurantLayerId = 'velo-poi-restaurants';
+  static const String _campingLayerId = 'velo-poi-camping';
+
+  /// Initialize hidden POI layers using Mapbox Streets vector tiles.
+  /// Must be called once after the map is created.
+  Future<void> initPoiLayers() async {
+    if (_mapboxMap == null) return;
+
+    try {
+      // Add the Mapbox Streets v8 vector source for POI data
+      await _mapboxMap!.style.addStyleSource(
+        _poiSourceId,
+        jsonEncode({
+          'type': 'vector',
+          'url': 'mapbox://mapbox.mapbox-streets-v8',
+        }),
+      );
+
+      // Hotels / lodging
+      await _mapboxMap!.style.addStyleLayer(
+        jsonEncode({
+          'id': _hotelLayerId,
+          'type': 'circle',
+          'source': _poiSourceId,
+          'source-layer': 'poi_label',
+          'filter': ['==', ['get', 'class'], 'lodging'],
+          'minzoom': 12,
+          'layout': {'visibility': 'none'},
+          'paint': {
+            'circle-radius': 7,
+            'circle-color': '#1565c0',
+            'circle-stroke-width': 1.5,
+            'circle-stroke-color': '#ffffff',
+          },
+        }),
+        null,
+      );
+
+      // Restaurants / food & drink
+      await _mapboxMap!.style.addStyleLayer(
+        jsonEncode({
+          'id': _restaurantLayerId,
+          'type': 'circle',
+          'source': _poiSourceId,
+          'source-layer': 'poi_label',
+          'filter': ['==', ['get', 'class'], 'food_and_drink'],
+          'minzoom': 12,
+          'layout': {'visibility': 'none'},
+          'paint': {
+            'circle-radius': 7,
+            'circle-color': '#e65100',
+            'circle-stroke-width': 1.5,
+            'circle-stroke-color': '#ffffff',
+          },
+        }),
+        null,
+      );
+
+      // Camping / campsites
+      await _mapboxMap!.style.addStyleLayer(
+        jsonEncode({
+          'id': _campingLayerId,
+          'type': 'circle',
+          'source': _poiSourceId,
+          'source-layer': 'poi_label',
+          'filter': ['==', ['get', 'class'], 'campsite'],
+          'minzoom': 12,
+          'layout': {'visibility': 'none'},
+          'paint': {
+            'circle-radius': 7,
+            'circle-color': '#2e7d32',
+            'circle-stroke-width': 1.5,
+            'circle-stroke-color': '#ffffff',
+          },
+        }),
+        null,
+      );
+    } catch (e) {
+      debugPrint('MapController: POI layer init failed: $e');
+    }
+  }
+
+  /// Show or hide each POI category on the map based on [config].
+  Future<void> updatePoiLayers(MapLayerConfig config) async {
+    if (_mapboxMap == null) return;
+
+    try {
+      await _setLayerVisibility(_hotelLayerId, config.showHotels);
+      await _setLayerVisibility(_restaurantLayerId, config.showRestaurants);
+      await _setLayerVisibility(_campingLayerId, config.showCamping);
+    } catch (e) {
+      debugPrint('MapController: updatePoiLayers failed: $e');
+    }
+  }
+
+  Future<void> _setLayerVisibility(String layerId, bool visible) async {
+    await _mapboxMap!.style.setStyleLayerProperty(
+      layerId,
+      'visibility',
+      visible ? 'visible' : 'none',
+    );
   }
 
   void dispose() {
