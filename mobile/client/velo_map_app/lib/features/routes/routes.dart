@@ -8,6 +8,7 @@ import 'package:velo_map_app/features/routes/presentation/bloc/routes_event.dart
 import 'package:velo_map_app/features/routes/presentation/bloc/routes_state.dart';
 import 'package:velo_map_app/features/routes/presentation/services/map_controller.dart';
 import 'package:velo_map_app/features/routes/presentation/widgets/map_layers_sheet.dart';
+import 'package:velo_map_app/features/routes/presentation/widgets/poi_info_sheet.dart';
 import 'package:velo_map_app/features/routes/presentation/widgets/routes_bottom_sheet.dart';
 import 'package:velo_map_app/features/routes/presentation/widgets/routes_search_bar.dart';
 
@@ -155,6 +156,13 @@ class _RoutesState extends State<Routes> {
         .createPointAnnotationManager();
     _mapController.setPointManager(pointManager);
 
+    // Initialize POI layers (hidden by default) and apply any saved config
+    await _mapController.initPoiLayers();
+    await _mapController.updatePoiLayers(_layerConfig);
+
+    // Register POI tap handler
+    _mapController.setPOITapHandler(_onPoiTapped);
+
     if (!mounted) return;
 
     // Draw routes based on current BLoC state (may already have loaded data)
@@ -191,6 +199,11 @@ class _RoutesState extends State<Routes> {
     }
   }
 
+  void _onPoiTapped(PoiInfo poi) {
+    if (!mounted) return;
+    PoiInfoSheet.show(context, poi);
+  }
+
   void _onRouteTapped(String routeId) {
     final routes = context.read<RoutesBloc>().state.routes;
     final route = routes.where((r) => r.id == routeId).firstOrNull;
@@ -207,7 +220,7 @@ class _RoutesState extends State<Routes> {
         setState(() {
           _layerConfig = newConfig;
         });
-        // TODO: Apply layers to map
+        _mapController.updatePoiLayers(newConfig);
       },
     );
   }
@@ -320,6 +333,8 @@ class _RoutesState extends State<Routes> {
               MapWidget(
                 key: const ValueKey("mapWidget"),
                 onMapCreated: _onMapCreated,
+                onTapListener: (context) =>
+                    _mapController.handleMapTap(context.touchPosition),
                 onCameraChangeListener: (cameraChangedEventData) {
                   // Track bearing for compass visibility
                   final bearing = cameraChangedEventData.cameraState.bearing;

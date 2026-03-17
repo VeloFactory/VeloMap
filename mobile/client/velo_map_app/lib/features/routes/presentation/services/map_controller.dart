@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
@@ -6,7 +7,53 @@ import 'package:geolocator/geolocator.dart' as geo;
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
+import 'package:velo_map_app/features/routes/domain/models/map_layer_config.dart';
 import 'package:velo_map_app/features/routes/domain/models/route_stage_status.dart';
+
+// ============================================================================
+// POI DATA TYPES
+// ============================================================================
+
+/// Category of a point-of-interest
+enum PoiCategory { hotel, restaurant, camping, other }
+
+extension PoiCategoryX on PoiCategory {
+  String get label => switch (this) {
+    PoiCategory.hotel => 'Hotel / Lodging',
+    PoiCategory.restaurant => 'Restaurant / Food',
+    PoiCategory.camping => 'Camping',
+    PoiCategory.other => 'Point of Interest',
+  };
+
+  IconData get icon => switch (this) {
+    PoiCategory.hotel => Icons.hotel_rounded,
+    PoiCategory.restaurant => Icons.restaurant_rounded,
+    PoiCategory.camping => Icons.forest_rounded,
+    PoiCategory.other => Icons.place_rounded,
+  };
+
+  Color get color => switch (this) {
+    PoiCategory.hotel => const Color(0xFF1565C0),
+    PoiCategory.restaurant => const Color(0xFFE65100),
+    PoiCategory.camping => const Color(0xFF2E7D32),
+    PoiCategory.other => const Color(0xFF555555),
+  };
+}
+
+/// Carries the data for a single tapped POI
+class PoiInfo {
+  const PoiInfo({
+    required this.name,
+    required this.category,
+    required this.lat,
+    required this.lng,
+  });
+
+  final String name;
+  final PoiCategory category;
+  final double lat;
+  final double lng;
+}
 
 /// Display modes for the map
 enum MapDisplayMode {
@@ -30,6 +77,7 @@ class MapController {
   PointAnnotationManager? _pointManager;
   Cancelable? _polylineTapCancelable;
   bool _locationPermissionGranted = false;
+  void Function(PoiInfo)? _poiTapCallback;
 
   /// Operation ID to prevent race conditions when rapidly switching routes.
   ///
@@ -635,12 +683,268 @@ class MapController {
     return [minLng, minLat, maxLng, maxLat];
   }
 
+  // ============================================================================
+  // POI LAYER METHODS
+  // ============================================================================
+
+  static const String _poiSourceId = 'velo-poi-source';
+  static const String _hotelLayerId = 'velo-poi-hotels';
+  static const String _restaurantLayerId = 'velo-poi-restaurants';
+  static const String _campingLayerId = 'velo-poi-camping';
+  static const String _hotelLabelId = 'velo-poi-hotels-label';
+  static const String _restaurantLabelId = 'velo-poi-restaurants-label';
+  static const String _campingLabelId = 'velo-poi-camping-label';
+
+  /// Initialize hidden POI layers using Mapbox Streets vector tiles.
+  /// Must be called once after the map is created.
+  Future<void> initPoiLayers() async {
+    if (_mapboxMap == null) return;
+
+    try {
+      // Add the Mapbox Streets v8 vector source for POI data
+      await _mapboxMap!.style.addStyleSource(
+        _poiSourceId,
+        jsonEncode({
+          'type': 'vector',
+          'url': 'mapbox://mapbox.mapbox-streets-v8',
+        }),
+      );
+
+      // Hotels / lodging
+      await _mapboxMap!.style.addStyleLayer(
+        jsonEncode({
+          'id': _hotelLayerId,
+          'type': 'circle',
+          'source': _poiSourceId,
+          'source-layer': 'poi_label',
+          'filter': [
+            '==',
+            ['get', 'class'],
+            'lodging',
+          ],
+          'minzoom': 12,
+          'layout': {'visibility': 'none'},
+          'paint': {
+            'circle-radius': 7,
+            'circle-color': '#1565c0',
+            'circle-stroke-width': 1.5,
+            'circle-stroke-color': '#ffffff',
+          },
+        }),
+        null,
+      );
+
+      // Restaurants / food & drink
+      await _mapboxMap!.style.addStyleLayer(
+        jsonEncode({
+          'id': _restaurantLayerId,
+          'type': 'circle',
+          'source': _poiSourceId,
+          'source-layer': 'poi_label',
+          'filter': [
+            '==',
+            ['get', 'class'],
+            'food_and_drink',
+          ],
+          'minzoom': 12,
+          'layout': {'visibility': 'none'},
+          'paint': {
+            'circle-radius': 7,
+            'circle-color': '#e65100',
+            'circle-stroke-width': 1.5,
+            'circle-stroke-color': '#ffffff',
+          },
+        }),
+        null,
+      );
+
+      // Camping / campsites
+      await _mapboxMap!.style.addStyleLayer(
+        jsonEncode({
+          'id': _campingLayerId,
+          'type': 'circle',
+          'source': _poiSourceId,
+          'source-layer': 'poi_label',
+          'filter': [
+            '==',
+            ['get', 'class'],
+            'campsite',
+          ],
+          'minzoom': 12,
+          'layout': {'visibility': 'none'},
+          'paint': {
+            'circle-radius': 7,
+            'circle-color': '#2e7d32',
+            'circle-stroke-width': 1.5,
+            'circle-stroke-color': '#ffffff',
+          },
+        }),
+        null,
+      );
+
+      // Text label layers — show POI names from zoom 14 to avoid clutter
+      for (final entry in [
+        (_hotelLabelId, 'lodging', '#1565c0'),
+        (_restaurantLabelId, 'food_and_drink', '#e65100'),
+        (_campingLabelId, 'campsite', '#2e7d32'),
+      ]) {
+        final (layerId, classValue, textColor) = entry;
+        await _mapboxMap!.style.addStyleLayer(
+          jsonEncode({
+            'id': layerId,
+            'type': 'symbol',
+            'source': _poiSourceId,
+            'source-layer': 'poi_label',
+            'filter': [
+              '==',
+              ['get', 'class'],
+              classValue,
+            ],
+            'minzoom': 14,
+            'layout': {
+              'visibility': 'none',
+              'text-field': ['get', 'name'],
+              'text-size': 11,
+              'text-offset': [0, 1.2],
+              'text-anchor': 'top',
+              'text-max-width': 8,
+              'text-allow-overlap': false,
+            },
+            'paint': {
+              'text-color': textColor,
+              'text-halo-color': '#ffffff',
+              'text-halo-width': 2,
+            },
+          }),
+          null,
+        );
+      }
+
+      // Hide the default map POI labels so only our controlled layers show
+      await _hideDefaultPoiLabels();
+    } catch (e) {
+      debugPrint('MapController: POI layer init failed: $e');
+    }
+  }
+
+  /// Hides built-in Mapbox POI icons/labels from the basemap.
+  ///
+  /// Covers both style variants:
+  /// - Standard style (default v2.x): uses the import config API
+  /// - Legacy styles (Streets / Outdoors): hides the `poi-label` layer directly
+  Future<void> _hideDefaultPoiLabels() async {
+    // Standard style — disable POI labels via import config
+    try {
+      await _mapboxMap!.style.setStyleImportConfigProperty(
+        'basemap',
+        'showPointOfInterestLabels',
+        false,
+      );
+    } catch (_) {
+      // Not a Standard style import — ignore
+    }
+
+    // Legacy styles — hide the poi-label layer if it exists
+    try {
+      await _mapboxMap!.style.setStyleLayerProperty(
+        'poi-label',
+        'visibility',
+        'none',
+      );
+    } catch (_) {
+      // Layer doesn't exist in this style — ignore
+    }
+  }
+
+  /// Show or hide each POI category on the map based on [config].
+  Future<void> updatePoiLayers(MapLayerConfig config) async {
+    if (_mapboxMap == null) return;
+
+    try {
+      await _setLayerVisibility(_hotelLayerId, config.showHotels);
+      await _setLayerVisibility(_hotelLabelId, config.showHotels);
+      await _setLayerVisibility(_restaurantLayerId, config.showRestaurants);
+      await _setLayerVisibility(_restaurantLabelId, config.showRestaurants);
+      await _setLayerVisibility(_campingLayerId, config.showCamping);
+      await _setLayerVisibility(_campingLabelId, config.showCamping);
+    } catch (e) {
+      debugPrint('MapController: updatePoiLayers failed: $e');
+    }
+  }
+
+  /// Register a callback that fires when the user taps a visible POI.
+  void setPOITapHandler(void Function(PoiInfo info)? callback) {
+    _poiTapCallback = callback;
+  }
+
+  /// Query the map at [position] for any of our POI layers and fire the
+  /// registered callback if a feature is found.
+  Future<void> handleMapTap(ScreenCoordinate position) async {
+    if (_mapboxMap == null || _poiTapCallback == null) return;
+
+    try {
+      final features = await _mapboxMap!.queryRenderedFeatures(
+        RenderedQueryGeometry.fromScreenCoordinate(position),
+        RenderedQueryOptions(
+          layerIds: [_hotelLayerId, _restaurantLayerId, _campingLayerId],
+          filter: null,
+        ),
+      );
+
+      if (features.isEmpty) return;
+
+      final qrf = features.firstWhere((f) => f != null, orElse: () => null);
+      if (qrf == null) return;
+
+      final props =
+          qrf.queriedFeature.feature['properties'] as Map<Object?, Object?>?;
+      final geom =
+          qrf.queriedFeature.feature['geometry'] as Map<Object?, Object?>?;
+
+      final name =
+          (props?['name'] as String?)?.trim() ??
+          (props?['name_en'] as String?)?.trim() ??
+          '';
+      if (name.isEmpty) return;
+
+      final poiClass = props?['class'] as String? ?? '';
+      final category = switch (poiClass) {
+        'lodging' => PoiCategory.hotel,
+        'food_and_drink' => PoiCategory.restaurant,
+        'campsite' => PoiCategory.camping,
+        _ => PoiCategory.other,
+      };
+
+      final coords = geom?['coordinates'] as List?;
+      double lat = 0, lng = 0;
+      if (coords != null && coords.length >= 2) {
+        lng = (coords[0] as num).toDouble();
+        lat = (coords[1] as num).toDouble();
+      }
+
+      _poiTapCallback!(
+        PoiInfo(name: name, category: category, lat: lat, lng: lng),
+      );
+    } catch (e) {
+      debugPrint('MapController: POI tap query failed: $e');
+    }
+  }
+
+  Future<void> _setLayerVisibility(String layerId, bool visible) async {
+    await _mapboxMap!.style.setStyleLayerProperty(
+      layerId,
+      'visibility',
+      visible ? 'visible' : 'none',
+    );
+  }
+
   void dispose() {
     _mapboxMap = null;
     _polylineManager = null;
     _pointManager = null;
     _polylineTapCancelable?.cancel();
     _polylineTapCancelable = null;
+    _poiTapCallback = null;
     _drawOperationId = 0;
   }
 }

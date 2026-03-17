@@ -1,6 +1,6 @@
 # VeloMap Architecture Guide
 
-Welcome to VeloMap! This guide will help you understand the project architecture, data flow, and codebase organization.
+Welcome to VeloMap! This guide explains the project architecture, data flow, and codebase organization.
 
 ## 📋 Table of Contents
 
@@ -21,12 +21,12 @@ Welcome to VeloMap! This guide will help you understand the project architecture
 
 **VeloMap** is a Flutter mobile application for exploring EuroVelo cycling routes across Europe. The app displays routes on an interactive Mapbox map with features like:
 
-- 🗺️ Interactive map with cycling routes
+- 🗺️ Interactive map with EuroVelo cycling routes
 - 🔍 Search routes by city
 - 📍 User location tracking
-- 🏨 POI (Points of Interest) layer toggles (hotels, campings, restaurants)
+- 🏨 POI layer toggles (hotels, restaurants, campsites) with tap-to-info
 - 📊 Route details with stages, distance, and elevation
-- 🧭 Turn-by-turn navigation (coming soon)
+- 🧭 Stage status tracking (planned, in-progress, completed)
 
 ### Tech Stack
 
@@ -39,6 +39,7 @@ Welcome to VeloMap! This guide will help you understand the project architecture
 | Dartz | Functional programming (Either type) |
 | go_router | Declarative navigation |
 | Geolocator | Device location services |
+| url_launcher | Open external apps (Google Maps) |
 
 ---
 
@@ -61,7 +62,7 @@ Welcome to VeloMap! This guide will help you understand the project architecture
    ```bash
    cp .env.example .env
    ```
-   
+
 3. **Add your Mapbox key to `.env`**
    ```
    MAPBOX_KEY=your_mapbox_access_token_here
@@ -91,32 +92,25 @@ VeloMap follows **Clean Architecture** principles, separating concerns into dist
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                     PRESENTATION LAYER                       │
-│  (UI Widgets, BLoC/Cubit, MapController, Screens)           │
+│  (UI Widgets, BLoC, MapController, Screens)                 │
 ├─────────────────────────────────────────────────────────────┤
 │                       DOMAIN LAYER                           │
-│  (Entities, Business Logic, Repository Interfaces)          │
+│  (Entities, Value Models, Repository Interfaces)            │
 ├─────────────────────────────────────────────────────────────┤
 │                        DATA LAYER                            │
 │  (DTOs, Datasources, Repository Implementations)            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### Why Clean Architecture?
-
-1. **Separation of Concerns** - Each layer has a single responsibility
-2. **Testability** - Easy to mock dependencies and write unit tests
-3. **Maintainability** - Changes in one layer don't affect others
-4. **Scalability** - Easy to add new features without touching existing code
-
 ### Dependency Rule
 
-Dependencies point **inward** - outer layers depend on inner layers, never the reverse:
+Dependencies point **inward** — outer layers depend on inner layers, never the reverse:
 
 ```
 Presentation → Domain ← Data
 ```
 
-The **Domain layer** is the core and has no dependencies on other layers.
+The **Domain layer** has no dependencies on other layers.
 
 ---
 
@@ -124,79 +118,89 @@ The **Domain layer** is the core and has no dependencies on other layers.
 
 ```
 lib/
-├── main.dart                    # App entry point
-├── app/                         # Application configuration
-│   ├── app.dart                 # Root widget with providers
-│   └── router.dart              # Navigation routes (go_router)
+├── main.dart                         # App entry point
+├── app/
+│   ├── app.dart                      # Root widget with providers
+│   └── router.dart                   # go_router navigation config
 │
-├── core/                        # Shared utilities
-│   ├── errors/                  # Error handling
-│   │   ├── bloc_observable.dart # BLoC error logging
-│   │   ├── data_exceptions.dart # Data layer exceptions
-│   │   └── failure.dart         # Failure types for Either
-│   ├── network/                 # API client (for future use)
-│   │   └── api_client.dart
-│   └── theme/                   # App theming
-│       └── app_theme.dart
+├── core/
+│   ├── errors/
+│   │   ├── bloc_observable.dart      # Global BLoC error logging
+│   │   ├── data_exceptions.dart      # Data layer exception types
+│   │   └── failure.dart              # Failure types for Either
+│   ├── network/
+│   │   └── api_client.dart           # HTTP client (future use)
+│   ├── theme/
+│   │   └── app_theme.dart            # Light / dark MaterialTheme
+│   └── utils/
+│       └── gpx_exporter.dart         # Export route to GPX file
 │
-└── features/                    # Feature modules
-    ├── routes/                  # Main routes feature
-    │   ├── routes.dart          # Barrel file (exports)
-    │   ├── data/                # Data layer
-    │   │   ├── datasources/     # Data sources
-    │   │   ├── models/          # DTOs (Data Transfer Objects)
-    │   │   └── repositories/    # Repository implementations
-    │   ├── domain/              # Domain layer
-    │   │   ├── entities/        # Business entities
-    │   │   └── services/        # Domain services
-    │   └── presentation/        # Presentation layer
-    │       ├── bloc/            # BLoC (events, states)
-    │       ├── services/        # UI services (MapController)
-    │       └── widgets/         # UI components
-    │
-    ├── poi/                     # Points of Interest feature
-    │   ├── poi.dart             # Barrel file
+└── features/
+    ├── routes/                       # Main feature
+    │   ├── routes.dart               # Entry screen (Routes widget)
+    │   ├── data/
+    │   │   ├── datasources/
+    │   │   │   ├── routes_local_datasource.dart   # Reads GeoJSON from assets
+    │   │   │   └── routes_remote_datasource.dart  # Future remote source
+    │   │   ├── models/
+    │   │   │   ├── route_dto.dart                 # GeoJSON → DTO
+    │   │   │   ├── route_dto.freezed.dart          # Generated
+    │   │   │   └── route_dto.g.dart               # Generated
+    │   │   └── repositories/
+    │   │       └── route_repository_impl.dart     # DTO → Entity
+    │   ├── domain/
+    │   │   ├── entities/
+    │   │   │   ├── route_entity.dart              # Route business model
+    │   │   │   └── route_stage_entity.dart        # Individual stage model
+    │   │   └── models/
+    │   │       ├── map_layer_config.dart          # POI layer toggle config
+    │   │       └── route_stage_status.dart        # Stage status enum
     │   └── presentation/
-    │       ├── cubit/           # Cubit for simple state
+    │       ├── bloc/
+    │       │   ├── routes_bloc.dart
+    │       │   ├── routes_event.dart
+    │       │   └── routes_state.dart
+    │       ├── services/
+    │       │   └── map_controller.dart            # All Mapbox operations
     │       └── widgets/
+    │           ├── map_layers_sheet.dart          # POI layer toggle sheet
+    │           ├── poi_info_sheet.dart            # POI tap info popup
+    │           ├── route_list_tile.dart           # Route list item
+    │           ├── routes_bottom_sheet.dart       # Draggable route list
+    │           └── routes_search_bar.dart         # City search bar
     │
-    └── navigation/              # Navigation feature (planned)
+    ├── poi/                          # Reserved for future dedicated POI feature
+    │   └── presentation/
+    │       ├── cubit/                # (empty placeholder)
+    │       └── widgets/              # (empty placeholder)
+    │
+    └── navigation/                   # Reserved for future navigation feature
         └── navigation.dart
+```
 
+### Assets
+
+```
 assets/
-├── icons/                       # App icons
+├── icons/
+│   └── launcher_icon.png
 └── routes/
-    └── geojson/                 # Route data files (EuroVelo 1-19)
+    └── geojson/                      # EuroVelo route data (EuroVelo 1–19)
 ```
-
-### Barrel Files
-
-Each feature has a `feature.dart` barrel file that exports public APIs:
-
-```dart
-// lib/features/poi/poi.dart
-export 'presentation/cubit/poi_layers_cubit.dart';
-export 'presentation/cubit/poi_layers_state.dart';
-export 'presentation/widgets/poi_layers_button.dart';
-```
-
-This allows clean imports: `import 'package:velo_map_app/features/poi/poi.dart';`
 
 ---
 
 ## 🔄 State Management
 
-VeloMap uses **flutter_bloc** with two patterns:
+VeloMap uses **flutter_bloc** with the BLoC pattern for the Routes feature.
 
-### 1. BLoC Pattern (for complex features)
-
-Used for the Routes feature with multiple events and complex state transitions.
+### BLoC Pattern
 
 ```
 ┌──────────────┐     ┌──────────┐     ┌──────────┐
 │    Event     │ ──▶ │   BLoC   │ ──▶ │  State   │
 └──────────────┘     └──────────┘     └──────────┘
-    (User action)    (Business logic)   (UI updates)
+  (User action)    (Business logic)   (UI updates)
 ```
 
 **Events** (`routes_event.dart`):
@@ -205,55 +209,42 @@ Used for the Routes feature with multiple events and complex state transitions.
 sealed class RoutesEvent with _$RoutesEvent {
   const factory RoutesEvent.load() = Load;
   const factory RoutesEvent.selectRoute(RouteEntity route) = SelectRoute;
+  const factory RoutesEvent.selectStage(RouteStageEntity stage) = SelectStage;
   const factory RoutesEvent.clearSelection() = ClearSelection;
+  const factory RoutesEvent.clearSearch() = ClearSearch;
   const factory RoutesEvent.search(String query) = Search;
-  // ...
 }
 ```
 
 **State** (`routes_state.dart`):
 ```dart
 @freezed
-sealed class RoutesState with _$RoutesState {
+class RoutesState with _$RoutesState {
   const factory RoutesState({
     @Default([]) List<RouteEntity> routes,
     @Default(false) bool isLoading,
     String? error,
     RouteEntity? selectedRoute,
-    // ...
+    RouteStageEntity? selectedStage,
+    @Default('') String searchQuery,
   }) = _RoutesState;
 }
 ```
 
-### 2. Cubit Pattern (for simple features)
+### POI Layer State
 
-Used for POI layers with simple toggle operations.
+POI layer visibility is **not** managed by a separate Cubit. It is a plain `MapLayerConfig` value object held directly in `_RoutesState` of the `Routes` screen widget. When the user toggles layers in `MapLayersSheet`, the callback updates `_layerConfig` via `setState` and calls `MapController.updatePoiLayers(config)` directly.
 
 ```dart
-class PoiLayersCubit extends HydratedCubit<PoiLayersState> {
-  void toggleHotels() {
-    emit(state.copyWith(showHotels: !state.showHotels));
-  }
+// domain/models/map_layer_config.dart
+class MapLayerConfig {
+  final bool showHotels;
+  final bool showRestaurants;
+  final bool showCamping;
 }
 ```
 
-### HydratedBloc for Persistence
-
-POI settings persist across app restarts using `hydrated_bloc`:
-
-```dart
-class PoiLayersCubit extends HydratedCubit<PoiLayersState> {
-  @override
-  PoiLayersState? fromJson(Map<String, dynamic> json) {
-    return PoiLayersState(showHotels: json['showHotels'] ?? false);
-  }
-
-  @override
-  Map<String, dynamic>? toJson(PoiLayersState state) {
-    return {'showHotels': state.showHotels};
-  }
-}
-```
+This keeps the POI toggle logic simple and co-located with the map screen that owns it.
 
 ---
 
@@ -262,63 +253,54 @@ class PoiLayersCubit extends HydratedCubit<PoiLayersState> {
 ### Loading Routes
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                           APP STARTUP                                    │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  1. RoutesBloc created → dispatches Load event                          │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  2. RoutesBloc._onLoad() calls repository.getRoutes()                   │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  3. RouteRepositoryImpl calls datasource.fetchRoutes()                  │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  4. RouteLocalDatasource reads GeoJSON files from assets                │
-│     - Parses JSON → RouteDto objects                                    │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  5. Repository converts DTOs → RouteEntity (domain objects)             │
-│     - Returns Either<Failure, List<RouteEntity>>                        │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  6. BLoC emits new RoutesState with loaded routes                       │
-└─────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  7. BlocConsumer rebuilds UI → MapController draws routes on map        │
-└─────────────────────────────────────────────────────────────────────────┘
+App startup
+  → RoutesBloc dispatches Load event
+  → RoutesBloc._onLoad() calls RouteRepository.getRoutes()
+  → RouteRepositoryImpl calls RouteLocalDatasource.fetchRoutes()
+  → RouteLocalDatasource reads GeoJSON from assets/ → parses to RouteDto
+  → Repository converts RouteDto → RouteEntity
+  → Returns Either<Failure, List<RouteEntity>>
+  → BLoC emits RoutesState(routes: [...])
+  → BlocConsumer rebuilds UI → MapController draws routes on map
 ```
 
 ### Selecting a Route
 
 ```
-User taps route → SelectRoute event → BLoC emits state with selectedRoute
-                                            │
-                                            ▼
-                    BlocConsumer.listener → MapController.drawRoute()
-                                            │
-                                            ▼
-                              Map zooms to route, bottom sheet expands
+User taps route polyline on map
+  → MapController polyline tap listener fires
+  → _onRouteTapped(routeId) dispatches SelectRoute event
+  → BLoC emits state with selectedRoute set
+  → BlocConsumer.listener → MapController.updateMapDisplay(singleRoute)
+  → Map re-draws single route, camera fits to its bounds
+  → Bottom sheet expands to mid size
+```
+
+### POI Layer Toggle
+
+```
+User taps layers FAB
+  → MapLayersSheet.show() opens modal bottom sheet
+  → User toggles hotel/restaurant/camping switches
+  → onConfigChanged(newConfig) callback fires
+  → _layerConfig updated via setState
+  → MapController.updatePoiLayers(config) sets Mapbox layer visibility
+```
+
+### POI Tap Flow
+
+```
+User taps a visible POI dot on the map
+  → MapWidget.onTapListener fires with ScreenCoordinate
+  → MapController.handleMapTap(position)
+  → mapboxMap.queryRenderedFeatures with POI layer IDs
+  → Feature properties extracted (name, class, coordinates)
+  → _poiTapCallback(PoiInfo) fires
+  → PoiInfoSheet.show(context, poi) opens bottom sheet
+  → User can open in Google Maps or copy name
 ```
 
 ### Error Handling with Either
-
-The repository returns `Either<Failure, T>` for explicit error handling:
 
 ```dart
 Future<Either<Failure, List<RouteEntity>>> getRoutes() async {
@@ -345,35 +327,36 @@ result.fold(
 
 ### Routes Feature (`lib/features/routes/`)
 
-The main feature displaying cycling routes on the map.
+The only active feature. Manages EuroVelo routes, map display, POI layers, and stage tracking.
 
 #### Data Layer
-- **`RouteLocalDatasource`** - Reads GeoJSON files from assets
-- **`RouteDto`** - Data Transfer Object with JSON parsing
-- **`RouteRepositoryImpl`** - Converts DTOs to entities
+- **`RouteLocalDatasource`** — Reads GeoJSON files from `assets/routes/geojson/`, parses them into `RouteDto`
+- **`RouteDto`** — Handles both `FeatureCollection` (multi-stage) and single-`Feature` GeoJSON
+- **`RouteRepositoryImpl`** — Converts DTOs to `RouteEntity` domain objects
 
 #### Domain Layer
-- **`RouteEntity`** - Business model with computed properties (centerPoint, boundingBox)
-- **`RouteStageEntity`** - Individual stage of a multi-stage route
-- **`RouteColorResolver`** - Assigns colors to routes
+- **`RouteEntity`** — Route with computed properties (`centerPoint`, `boundingBox`, `coordinates`)
+- **`RouteStageEntity`** — A named segment of a route with coordinates, distance, and status
+- **`RouteStageStatus`** — Enum: `planned | inProgress | completed`, carries color and icon
+- **`MapLayerConfig`** — Value object for POI layer visibility flags
 
 #### Presentation Layer
-- **`RoutesBloc`** - Manages routes state (loading, selection, search)
-- **`MapController`** - Manages Mapbox map operations
-- **`RoutesBottomSheet`** - UI for route list and details
-- **`RoutesSearchBar`** - Search by city functionality
+- **`RoutesBloc`** — Manages loading, route/stage selection, and search filter
+- **`MapController`** — All Mapbox map operations (see Key Components)
+- **`Routes`** — Main screen: hosts `MapWidget` + `DraggableScrollableSheet`
+- **`RoutesBottomSheet`** — Route list, stage list, and route detail inside a draggable sheet
+- **`RouteListTile`** — Single route item with color swatch and distance
+- **`RoutesSearchBar`** — City autocomplete search overlay
+- **`MapLayersSheet`** — Modal sheet with POI category toggles
+- **`PoiInfoSheet`** — Modal sheet shown when a POI is tapped on the map
 
 ### POI Feature (`lib/features/poi/`)
 
-Manages Points of Interest visibility on the map.
-
-- **`PoiLayersCubit`** - Simple state for toggling POI layers
-- **`PoiLayersButton`** - UI button with dropdown for layer selection
-- Uses `HydratedCubit` for persistent state
+Currently an **empty placeholder**. The `cubit/` and `widgets/` directories are reserved for a future self-contained POI feature (e.g. custom user-added POIs, offline POI data). Current POI functionality lives inside the Routes feature.
 
 ### Navigation Feature (`lib/features/navigation/`)
 
-**Coming soon** - Will provide turn-by-turn navigation.
+**Stub only** — reserved for future turn-by-turn navigation.
 
 ---
 
@@ -381,24 +364,70 @@ Manages Points of Interest visibility on the map.
 
 ### MapController (`presentation/services/map_controller.dart`)
 
-Manages all Mapbox map operations:
+Owns all interactions with the Mapbox SDK. Designed to be created once per `Routes` screen lifecycle.
+
+#### Race-condition protection
+
+Each call to `updateMapDisplay` captures an incrementing `_drawOperationId`. After every `await`, the method checks whether its captured ID is still current; if not, it exits early. This prevents stale draw operations when the user rapidly switches routes.
+
+#### Public API
 
 ```dart
-class MapController {
-  MapboxMap? _mapboxMap;
-  PolylineAnnotationManager? _polylineManager;
-  
-  // Camera operations
-  Future<void> fitCameraToRoutes(List<RouteEntity> routes);
-  Future<void> goToUserLocation();
-  
-  // Route drawing
-  Future<void> drawRoute(RouteEntity route, int lineColor);
-  Future<void> drawRoutes(List<RouteEntity> routes);
-  Future<void> clearRoute();
-  
-  // POI layers
-  Future<void> updatePoiLayers(PoiLayersState state);
+// Setup (called in _onMapCreated)
+void setMapboxMap(MapboxMap map)
+void setPolylineManager(PolylineAnnotationManager manager)
+void setPointManager(PointAnnotationManager manager)
+void setRouteTapHandler(void Function(String routeId) onRouteTap)
+void setPOITapHandler(void Function(PoiInfo) callback)
+Future<void> configureMapSettings()
+
+// Map display — unified entry point
+Future<void> updateMapDisplay({
+  required MapDisplayMode mode,   // allRoutes | singleRoute | singleStage | empty
+  List<RouteEntity>? allRoutes,
+  RouteEntity? selectedRoute,
+  RouteStageEntity? selectedStage,
+  bool fitCamera = true,
+})
+
+// Camera
+Future<void> goToUserLocation()
+Future<void> moveToCurrentLocation()   // no animation, used at startup
+Future<void> resetBearing()
+Future<void> fitCameraToBounds(List<double> bbox)
+Future<void> fitCameraToRoutes(List<RouteEntity> routes)
+
+// POI layers (Mapbox Streets v8 vector tiles)
+Future<void> initPoiLayers()                          // call once after map created
+Future<void> updatePoiLayers(MapLayerConfig config)   // show/hide by category
+Future<void> handleMapTap(ScreenCoordinate position)  // query features at tap point
+```
+
+#### POI layer architecture
+
+`initPoiLayers` adds six style layers to the Mapbox map at runtime using the `mapbox.mapbox-streets-v8` vector tile source:
+
+| Layer ID | Type | Source layer | Class filter | Min zoom |
+|---|---|---|---|---|
+| `velo-poi-hotels` | circle | `poi_label` | `lodging` | 12 |
+| `velo-poi-hotels-label` | symbol | `poi_label` | `lodging` | 14 |
+| `velo-poi-restaurants` | circle | `poi_label` | `food_and_drink` | 12 |
+| `velo-poi-restaurants-label` | symbol | `poi_label` | `food_and_drink` | 14 |
+| `velo-poi-camping` | circle | `poi_label` | `campsite` | 12 |
+| `velo-poi-camping-label` | symbol | `poi_label` | `campsite` | 14 |
+
+All layers start hidden (`visibility: none`). The native Mapbox POI labels are hidden via the Standard style import config and the legacy `poi-label` layer.
+
+#### PoiInfo / PoiCategory
+
+```dart
+enum PoiCategory { hotel, restaurant, camping, other }
+
+class PoiInfo {
+  final String name;
+  final PoiCategory category;
+  final double lat;
+  final double lng;
 }
 ```
 
@@ -412,15 +441,13 @@ factory RouteDto.fromGeoJson(Map<String, dynamic> geoJson) {
   if (type == 'FeatureCollection') {
     return _fromFeatureCollection(geoJson);  // Multi-stage route
   }
-  return _fromSingleFeature(geoJson);  // Simple route
+  return _fromSingleFeature(geoJson);        // Simple single-stage route
 }
 ```
 
-Handles both `LineString` and `MultiLineString` geometries, including gaps (ferry crossings).
+Handles both `LineString` and `MultiLineString` geometries (including gaps for ferry crossings).
 
 ### App Configuration (`app/app.dart`)
-
-Sets up providers and BLoC:
 
 ```dart
 class App extends StatelessWidget {
@@ -429,22 +456,29 @@ class App extends StatelessWidget {
       providers: [
         Provider<RouteRepository>(create: (_) => RouteRepositoryImpl()),
       ],
-      child: MultiBlocProvider(
-        providers: [
-          BlocProvider<RoutesBloc>(
-            create: (context) => RoutesBloc(repository: context.read())
-              ..add(const RoutesEvent.load()),
+      child: Builder(builder: (context) {
+        return MultiBlocProvider(
+          providers: [
+            BlocProvider<RoutesBloc>(
+              create: (context) =>
+                  RoutesBloc(repository: context.read<RouteRepository>())
+                    ..add(const RoutesEvent.load()),
+            ),
+          ],
+          child: MaterialApp.router(
+            theme: AppTheme.light(),
+            darkTheme: AppTheme.dark(),
+            themeMode: ThemeMode.system,
+            routerConfig: router,
           ),
-          BlocProvider<PoiLayersCubit>(
-            create: (_) => PoiLayersCubit(),
-          ),
-        ],
-        child: MaterialApp.router(routerConfig: router),
-      ),
+        );
+      }),
     );
   }
 }
 ```
+
+Only `RoutesBloc` is registered globally. POI state lives locally in the `Routes` screen.
 
 ---
 
@@ -452,8 +486,8 @@ class App extends StatelessWidget {
 
 VeloMap uses code generation for:
 
-1. **Freezed** - Immutable classes, union types, copyWith
-2. **json_serializable** - JSON serialization
+1. **Freezed** — Immutable classes, union types, `copyWith`
+2. **json_serializable** — JSON serialization for DTOs
 
 ### Running Build Runner
 
@@ -467,26 +501,8 @@ flutter pub run build_runner watch --delete-conflicting-outputs
 
 ### Generated Files
 
-- `*.freezed.dart` - Freezed implementations
-- `*.g.dart` - JSON serialization
-
-### Example Freezed Class
-
-```dart
-// routes_state.dart
-@freezed
-sealed class RoutesState with _$RoutesState {
-  const factory RoutesState({
-    @Default([]) List<RouteEntity> routes,
-    @Default(false) bool isLoading,
-  }) = _RoutesState;
-}
-```
-
-Generates:
-- `copyWith()` method
-- `==` operator and `hashCode`
-- `toString()`
+- `*.freezed.dart` — Freezed implementations
+- `*.g.dart` — JSON serialization helpers
 
 ---
 
@@ -496,43 +512,35 @@ Generates:
 
 ```
 lib/features/new_feature/
-├── new_feature.dart           # Barrel file
 ├── data/
 │   ├── datasources/
 │   ├── models/
 │   └── repositories/
 ├── domain/
-│   └── entities/
+│   ├── entities/
+│   └── models/
 └── presentation/
-    ├── bloc/  (or cubit/)
+    ├── bloc/   (or cubit/)
     └── widgets/
 ```
 
 ### 2. Define Domain Entities
 
 ```dart
-// domain/entities/my_entity.dart
 class MyEntity {
   final String id;
   final String name;
-  
   const MyEntity({required this.id, required this.name});
 }
 ```
 
-### 3. Create Data Models
+### 3. Create Data Models (Freezed + json_serializable)
 
 ```dart
-// data/models/my_dto.dart
 @freezed
 sealed class MyDto with _$MyDto {
-  const factory MyDto({
-    required String id,
-    required String name,
-  }) = _MyDto;
-
+  const factory MyDto({required String id, required String name}) = _MyDto;
   factory MyDto.fromJson(Map<String, dynamic> json) => _$MyDtoFromJson(json);
-  
   MyEntity toEntity() => MyEntity(id: id, name: name);
 }
 ```
@@ -540,14 +548,11 @@ sealed class MyDto with _$MyDto {
 ### 4. Implement Repository
 
 ```dart
-// data/repositories/my_repository_impl.dart
 abstract class MyRepository {
   Future<Either<Failure, List<MyEntity>>> getAll();
 }
 
 class MyRepositoryImpl implements MyRepository {
-  final MyDatasource _datasource;
-  
   @override
   Future<Either<Failure, List<MyEntity>>> getAll() async {
     try {
@@ -560,16 +565,13 @@ class MyRepositoryImpl implements MyRepository {
 }
 ```
 
-### 5. Create BLoC/Cubit
+### 5. Create BLoC
 
 ```dart
-// presentation/bloc/my_bloc.dart
 class MyBloc extends Bloc<MyEvent, MyState> {
-  final MyRepository _repository;
-  
   MyBloc({required MyRepository repository})
-    : _repository = repository,
-      super(const MyState()) {
+      : _repository = repository,
+        super(const MyState()) {
     on<LoadMyData>(_onLoad);
   }
 }
@@ -579,25 +581,16 @@ class MyBloc extends Bloc<MyEvent, MyState> {
 
 ```dart
 // app/app.dart
-MultiBlocProvider(
-  providers: [
-    // ... existing providers
-    BlocProvider<MyBloc>(
-      create: (context) => MyBloc(repository: context.read()),
-    ),
-  ],
-)
+BlocProvider<MyBloc>(
+  create: (context) => MyBloc(repository: context.read()),
+),
 ```
 
 ### 7. Add Route (if needed)
 
 ```dart
 // app/router.dart
-final router = GoRouter(
-  routes: [
-    GoRoute(path: '/my-feature', builder: (_, __) => const MyScreen()),
-  ],
-);
+GoRoute(path: '/my-feature', builder: (_, __) => const MyScreen()),
 ```
 
 ---
@@ -606,7 +599,6 @@ final router = GoRouter(
 
 - [Flutter BLoC Documentation](https://bloclibrary.dev/)
 - [Freezed Package](https://pub.dev/packages/freezed)
-- [Clean Architecture in Flutter](https://resocoder.com/clean-architecture-tdd/)
 - [Mapbox Maps Flutter SDK](https://docs.mapbox.com/flutter/)
 - [go_router Documentation](https://pub.dev/packages/go_router)
 
@@ -614,10 +606,10 @@ final router = GoRouter(
 
 ## 🤝 Contributing
 
-1. Follow the existing architecture patterns
-2. Run code generation after modifying Freezed classes
+1. Follow the existing Clean Architecture layer separation
+2. Run `build_runner` after modifying Freezed classes
 3. Keep features self-contained in their feature folders
 4. Use `Either<Failure, T>` for error handling in repositories
-5. Write barrel files for clean imports
+5. Add all Mapbox map operations to `MapController`, never directly in widgets
 
 Happy coding! 🚴‍♂️
