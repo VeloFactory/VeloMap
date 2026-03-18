@@ -9,6 +9,9 @@ defaults:
   run:
     working-directory: mobile/client/velo_map_app
 
+permissions:
+  contents: write
+  
 jobs:
   release-android:
     name: Build & Release Android APK
