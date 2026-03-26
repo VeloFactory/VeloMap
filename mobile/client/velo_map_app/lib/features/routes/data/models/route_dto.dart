@@ -16,7 +16,6 @@ sealed class RouteStage with _$RouteStage {
     required String description,
     required double distanceKm,
     required double elevationGain,
-    required String difficulty,
     required List<List<double>> coordinates,
   }) = _RouteStage;
 
@@ -36,7 +35,6 @@ sealed class RouteStage with _$RouteStage {
       description: description,
       distanceKm: distanceKm,
       elevationGain: elevationGain,
-      difficulty: difficulty,
       coordinates: coordinates,
     );
   }
@@ -52,7 +50,6 @@ sealed class RouteDto with _$RouteDto {
     required String description,
     required double distanceKm,
     required double elevationGainM,
-    required String difficulty,
     required int routeNumber,
     required List<List<double>> coordinates,
     @Default([]) List<RouteStage> stages,
@@ -108,7 +105,6 @@ sealed class RouteDto with _$RouteDto {
       description: properties['description'] as String,
       distanceKm: (properties['distance_km'] as num).toDouble(),
       elevationGainM: elevationGain,
-      difficulty: properties['difficulty'] as String,
       routeNumber: (properties['route_number'] as num).toInt(),
       coordinates: coordinates,
       cities: citiesList,
@@ -149,7 +145,6 @@ sealed class RouteDto with _$RouteDto {
           description: featureProps['description'] as String,
           distanceKm: (featureProps['distance_km'] as num).toDouble(),
           elevationGain: (featureProps['elevation_gain'] as num).toDouble(),
-          difficulty: featureProps['difficulty'] as String,
           coordinates: stageCoords,
         ),
       );
@@ -181,7 +176,6 @@ sealed class RouteDto with _$RouteDto {
       description: properties['description'] as String,
       distanceKm: (properties['distance_km'] as num).toDouble(),
       elevationGainM: elevationGain,
-      difficulty: properties['difficulty'] as String,
       routeNumber: (properties['route_number'] as num).toInt(),
       coordinates: allCoordinates,
       stages: stages,
@@ -278,7 +272,6 @@ sealed class RouteDto with _$RouteDto {
       description: description,
       distanceKm: distanceKm,
       elevationGainM: elevationGainM,
-      difficulty: difficulty,
       routeNumber: routeNumber,
       colorValue: colorValue,
       coordinates: coordinates,

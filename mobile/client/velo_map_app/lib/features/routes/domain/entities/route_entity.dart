@@ -6,7 +6,6 @@ class RouteEntity {
   final String description;
   final double distanceKm;
   final double elevationGainM;
-  final String difficulty;
   final int routeNumber;
   final int colorValue;
   final List<List<double>> coordinates;
@@ -21,7 +20,6 @@ class RouteEntity {
     required this.description,
     required this.distanceKm,
     required this.elevationGainM,
-    required this.difficulty,
     required this.routeNumber,
     required this.colorValue,
     required this.coordinates,

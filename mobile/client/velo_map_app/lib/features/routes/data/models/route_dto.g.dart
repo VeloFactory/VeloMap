@@ -12,7 +12,6 @@ _RouteStage _$RouteStageFromJson(Map<String, dynamic> json) => _RouteStage(
   description: json['description'] as String,
   distanceKm: (json['distanceKm'] as num).toDouble(),
   elevationGain: (json['elevationGain'] as num).toDouble(),
-  difficulty: json['difficulty'] as String,
   coordinates: (json['coordinates'] as List<dynamic>)
       .map(
         (e) => (e as List<dynamic>).map((e) => (e as num).toDouble()).toList(),
@@ -27,7 +26,6 @@ Map<String, dynamic> _$RouteStageToJson(_RouteStage instance) =>
       'description': instance.description,
       'distanceKm': instance.distanceKm,
       'elevationGain': instance.elevationGain,
-      'difficulty': instance.difficulty,
       'coordinates': instance.coordinates,
     };
 
@@ -37,7 +35,6 @@ _RouteDto _$RouteDtoFromJson(Map<String, dynamic> json) => _RouteDto(
   description: json['description'] as String,
   distanceKm: (json['distanceKm'] as num).toDouble(),
   elevationGainM: (json['elevationGainM'] as num).toDouble(),
-  difficulty: json['difficulty'] as String,
   routeNumber: (json['routeNumber'] as num).toInt(),
   coordinates: (json['coordinates'] as List<dynamic>)
       .map(
@@ -63,7 +60,6 @@ Map<String, dynamic> _$RouteDtoToJson(_RouteDto instance) => <String, dynamic>{
   'description': instance.description,
   'distanceKm': instance.distanceKm,
   'elevationGainM': instance.elevationGainM,
-  'difficulty': instance.difficulty,
   'routeNumber': instance.routeNumber,
   'coordinates': instance.coordinates,
   'stages': instance.stages,

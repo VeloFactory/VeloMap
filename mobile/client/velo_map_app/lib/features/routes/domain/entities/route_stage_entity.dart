@@ -6,7 +6,6 @@ class RouteStageEntity {
   final String description;
   final double distanceKm;
   final double elevationGain;
-  final String difficulty;
   final List<List<double>> coordinates;
 
   const RouteStageEntity({
@@ -15,7 +14,6 @@ class RouteStageEntity {
     required this.description,
     required this.distanceKm,
     required this.elevationGain,
-    required this.difficulty,
     required this.coordinates,
   });
 
