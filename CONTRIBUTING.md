@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to VeloMap! 🚴‍♂️
 
-VeloMap is an open-source Flutter application for exploring EuroVelo cycling routes across Europe. We welcome contributions from developers of all skill levels.
+VeloMap is an open-source Flutter application for exploring cycling routes across Europe. We welcome contributions from developers of all skill levels.
 
 ## Table of Contents
 

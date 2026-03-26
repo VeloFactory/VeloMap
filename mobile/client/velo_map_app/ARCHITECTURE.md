@@ -19,9 +19,9 @@ Welcome to VeloMap! This guide explains the project architecture, data flow, and
 
 ## 🎯 Project Overview
 
-**VeloMap** is a Flutter mobile application for exploring EuroVelo cycling routes across Europe. The app displays routes on an interactive Mapbox map with features like:
+**VeloMap** is a Flutter mobile application for exploring cycling routes across Europe. The app displays routes on an interactive Mapbox map with features like:
 
-- 🗺️ Interactive map with EuroVelo cycling routes
+- 🗺️ Interactive map with cycling routes
 - 🔍 Search routes by city
 - 📍 User location tracking
 - 🏨 POI layer toggles (hotels, restaurants, campsites) with tap-to-info
@@ -327,7 +327,7 @@ result.fold(
 
 ### Routes Feature (`lib/features/routes/`)
 
-The only active feature. Manages EuroVelo routes, map display, POI layers, and stage tracking.
+The only active feature. Manages routes, map display, POI layers, and stage tracking.
 
 #### Data Layer
 - **`RouteLocalDatasource`** — Reads GeoJSON files from `assets/routes/geojson/`, parses them into `RouteDto`

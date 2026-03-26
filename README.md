@@ -2,11 +2,11 @@
 
 [![Flutter CI](https://github.com/VeloFactory/VeloMap/actions/workflows/ci.yml/badge.svg)](https://github.com/VeloFactory/VeloMap/actions/workflows/ci.yml)
 
-A mobile application for exploring EuroVelo cycling routes across Europe.
+A mobile application for exploring cycling routes across Europe.
 
 ## 🎯 Features
 
-- 🗺️ Interactive Mapbox map with 17 EuroVelo routes
+- 🗺️ Interactive Mapbox map with Europe cycling routes
 - 🔍 Search routes by city
 - 📍 User location tracking
 - 📊 Route details with stages, distance, and elevation profiles
