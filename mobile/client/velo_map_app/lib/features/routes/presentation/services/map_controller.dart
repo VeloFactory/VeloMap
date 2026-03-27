@@ -79,7 +79,7 @@ class MapController {
   bool _locationPermissionGranted = false;
   double _bottomPaddingPx = 0.0;
 
-  static const double _baseCameraPadding = 12.0;
+  static const double _baseCameraPadding = 0.0;
   void Function(PoiInfo)? _poiTapCallback;
 
   /// Operation ID to prevent race conditions when rapidly switching routes.
