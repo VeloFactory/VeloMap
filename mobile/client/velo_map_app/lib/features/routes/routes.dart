@@ -55,6 +55,10 @@ class _RoutesState extends State<Routes> {
     if (!_sheet.isAttached) return;
     final newSize = _sheet.size;
     if (newSize != _currentSheetSize) {
+      final screenHeightPx = MediaQuery.of(context).size.height;
+      final sheetHeightPx = screenHeightPx * newSize;
+      _mapController.updateBottomPadding(sheetHeightPx, screenHeightPx);
+
       setState(() {
         _currentSheetSize = newSize;
       });
