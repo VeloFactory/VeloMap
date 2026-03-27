@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_15",
-    "name": "EuroVelo 15",
+    "name": "Rhine Cycle Route",
     "description": "",
     "distance_km": 2446.067,
     "difficulty": "hard",
@@ -66,7 +66,10 @@
       "Dordrecht",
       "Rotterdam",
       "Hook of Holland"
-    ]
+    ],
+    "full_name": "Rhine Cycle Route",
+    "color": "0xFF1E3A8A",
+    "route_description": "Suitable for cyclists of all fitness levels and abilities, the Rhine Cycle Route runs along one of the longest rivers in Europe from the Swiss Alps to the North Sea. The Rhine has fostered a cultural and economic dialogue between the Alpine regions and Northern Europe for over 2,000 years. Explore the beauty of this river landscape and the picturesque towns and villages lining its banks."
   },
   "features": [
     {

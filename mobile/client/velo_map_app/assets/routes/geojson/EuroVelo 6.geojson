@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_6",
-    "name": "EuroVelo 6",
+    "name": "Atlantic – Black Sea",
     "description": "",
     "distance_km": 6089.831,
     "difficulty": "hard",
@@ -165,7 +165,10 @@
       "Nuntasi",
       "Vadu",
       "Constanta, Romania"
-    ]
+    ],
+    "full_name": "Atlantic – Black Sea",
+    "color": "0xFFA0005A",
+    "route_description": "EuroVelo 6 – Atlantic–Black Sea is one of the most popular EuroVelo routes, and it's little wonder why. Coasts, rivers, castles, top-class infrastructure and a nice flat topography make this route into every cycle tourists' dream journey. The famous sections along the Loire and the Danube Rivers are known to cycle tourists around the world, and for good reason. In France you'll taste the best wines after cycling through the vineyards, in Vienna you'll visit the most stunning museums, and in Serbia you'll experience the warmth of the people. Come and see what all the fuss is about!"
   },
   "features": [
     {

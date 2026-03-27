@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_10",
-    "name": "EuroVelo 10",
+    "name": "Baltic Sea Cycle Route",
     "description": "",
     "distance_km": 8747.256,
     "difficulty": "hard",
@@ -189,7 +189,10 @@
       "Soderkoping",
       "Nykoping",
       "Vagnharad"
-    ]
+    ],
+    "full_name": "Baltic Sea Cycle Route",
+    "color": "0xFFF4B400",
+    "route_description": "The coastline of the Baltic Sea takes in beaches, cliffs, woodland, ports and marinas as well as thousands of islands large and small. It passes through the different cultures that have grown up along the shores . It is an attractive destination and EuroVelo 10 will give you the perfect opportunity to get better acquainted with this corner of Europe. Five beguiling capital cities; glamorous Saint Petersburg and Hanseatic towns like Gdansk and Lübeck provide lots of cultural highlights. In between, you will have a unique opportunity to get back to nature exploring the seashore."
   },
   "features": [
     {

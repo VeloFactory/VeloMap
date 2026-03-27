@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_2",
-    "name": "EuroVelo 2",
+    "name": "Capitals Route",
     "description": "",
     "distance_km": 4842.897,
     "difficulty": "hard",
@@ -99,7 +99,10 @@
       "Vyazma",
       "Zvenigorod",
       "Moscow"
-    ]
+    ],
+    "full_name": "Capitals Route",
+    "color": "0xFF9FB6C9",
+    "route_description": "Dublin, London, Berlin, Warsaw, Minsk and Moscow: six compelling but different cities that are united by the 5,000 km long Capital Route. You can either start in the welcoming atmosphere of Ireland's Pubs or with a photo at the awe-inspiring Red Square in Moscow. In between you can combine first class dining, partying and culture in the capitals and other cities along the route, with beautiful scenery such as the untouched Białowieża Forest between Poland and Belarus, or Snowdonia National Park in the UK."
   },
   "features": [
     {

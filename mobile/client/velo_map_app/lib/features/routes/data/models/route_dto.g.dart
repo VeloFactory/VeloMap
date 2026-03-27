@@ -52,6 +52,9 @@ _RouteDto _$RouteDtoFromJson(Map<String, dynamic> json) => _RouteDto(
   cities:
       (json['cities'] as List<dynamic>?)?.map((e) => e as String).toList() ??
       const [],
+  routeDescription: json['routeDescription'] as String? ?? '',
+  fullName: json['fullName'] as String? ?? '',
+  colorValue: (json['colorValue'] as num?)?.toInt() ?? 0xFF546E7A,
 );
 
 Map<String, dynamic> _$RouteDtoToJson(_RouteDto instance) => <String, dynamic>{
@@ -65,4 +68,7 @@ Map<String, dynamic> _$RouteDtoToJson(_RouteDto instance) => <String, dynamic>{
   'coordinates': instance.coordinates,
   'stages': instance.stages,
   'cities': instance.cities,
+  'routeDescription': instance.routeDescription,
+  'fullName': instance.fullName,
+  'colorValue': instance.colorValue,
 };

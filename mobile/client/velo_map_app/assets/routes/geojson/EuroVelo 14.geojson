@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_14",
-    "name": "EuroVelo 14",
+    "name": "Waters of Central Europe",
     "description": "",
     "distance_km": 1142.48,
     "difficulty": "hard",
@@ -27,7 +27,10 @@
       "Tiszafured",
       "Tiszacsege",
       "Debrecen"
-    ]
+    ],
+    "full_name": "Waters of Central Europe",
+    "color": "0xFF4DB6AC",
+    "route_description": "Crossing Austria and Hungary, EuroVelo 14 provides an important east–west link and connects to the EuroVelo routes 7, 9 and 13. The route's name refers to the fact that it connects several important waterways – rivers, lakes and spas – located in central Europe. Indeed, the theme is arguably stronger when experienced on the route as it becomes apparent just how much of the itinerary is located close to water. EuroVelo 14 connects some beautiful landscapes and also provides a great cycling adventure for those that want to travel longer distances. Additionally, the route is very well served by train services."
   },
   "features": [
     {

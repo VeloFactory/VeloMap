@@ -1,7 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_entity.dart';
 import 'package:velo_map_app/features/routes/domain/entities/route_stage_entity.dart';
-import 'package:velo_map_app/features/routes/domain/services/route_color_resolver.dart';
 
 part 'route_dto.freezed.dart';
 part 'route_dto.g.dart';
@@ -58,6 +57,9 @@ sealed class RouteDto with _$RouteDto {
     required List<List<double>> coordinates,
     @Default([]) List<RouteStage> stages,
     @Default([]) List<String> cities,
+    @Default('') String routeDescription,
+    @Default('') String fullName,
+    @Default(0xFF546E7A) int colorValue,
   }) = _RouteDto;
 
   factory RouteDto.fromJson(Map<String, dynamic> json) =>
@@ -110,6 +112,9 @@ sealed class RouteDto with _$RouteDto {
       routeNumber: (properties['route_number'] as num).toInt(),
       coordinates: coordinates,
       cities: citiesList,
+      routeDescription: properties['route_description'] as String? ?? '',
+      fullName: properties['full_name'] as String? ?? '',
+      colorValue: _parseColor(properties['color'] as String?),
     );
   }
 
@@ -181,6 +186,9 @@ sealed class RouteDto with _$RouteDto {
       coordinates: allCoordinates,
       stages: stages,
       cities: citiesList,
+      routeDescription: properties['route_description'] as String? ?? '',
+      fullName: properties['full_name'] as String? ?? '',
+      colorValue: _parseColor(properties['color'] as String?),
     );
   }
 
@@ -253,8 +261,17 @@ sealed class RouteDto with _$RouteDto {
     return [minLng, minLat, maxLng, maxLat];
   }
 
+  /// Parse a hex color string like "0xFF9EAD00" into an int.
+  /// Returns fallback if parsing fails.
+  static int _parseColor(String? colorStr, {int fallback = 0xFF546E7A}) {
+    if (colorStr == null || colorStr.isEmpty) return fallback;
+    final hex = colorStr.startsWith('0x') || colorStr.startsWith('0X')
+        ? colorStr.substring(2)
+        : colorStr;
+    return int.tryParse(hex, radix: 16) ?? fallback;
+  }
+
   RouteEntity toEntity() {
-    const resolver = RouteColorResolver();
     return RouteEntity(
       id: id,
       name: name,
@@ -263,10 +280,12 @@ sealed class RouteDto with _$RouteDto {
       elevationGainM: elevationGainM,
       difficulty: difficulty,
       routeNumber: routeNumber,
-      colorValue: resolver.resolve(id: id, routeNumber: routeNumber),
+      colorValue: colorValue,
       coordinates: coordinates,
       stages: stages.map((s) => s.toEntity()).toList(),
       cities: cities,
+      routeDescription: routeDescription,
+      fullName: fullName,
     );
   }
 }

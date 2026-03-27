@@ -72,13 +72,22 @@ class RouteListTile extends StatelessWidget {
                         ),
                       ),
                     ),
-                    if (isSelected)
+                    if (isSelected) ...[
+                      if (route.routeDescription.isNotEmpty)
+                        _ActionIconButton(
+                          icon: Icons.info_outline_rounded,
+                          onPressed: () => _showRouteInfo(context),
+                          colorScheme: colorScheme,
+                          filled: false,
+                        ),
+                      const SizedBox(width: 8),
                       _ActionIconButton(
                         icon: Icons.download_rounded,
                         onPressed: () => _showDownloadOptions(context),
                         colorScheme: colorScheme,
                         filled: true,
                       ),
+                    ],
                   ],
                 ),
                 const SizedBox(height: 8),
@@ -289,6 +298,110 @@ class RouteListTile extends StatelessWidget {
         );
       }
     }
+  }
+
+  void _showRouteInfo(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final routeColor = Color(route.colorValue);
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: colorScheme.surface,
+      isScrollControlled: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+      ),
+      builder: (context) => DraggableScrollableSheet(
+        initialChildSize: 0.6,
+        minChildSize: 0.25,
+        maxChildSize: 0.9,
+        expand: false,
+        builder: (context, scrollController) => SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 16),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Header with route badge and name
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: Row(
+                    children: [
+                      _RouteNumberBadge(
+                        routeNumber: route.routeNumber,
+                        routeColor: routeColor,
+                        isSelected: false,
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          route.name,
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: colorScheme.onSurface,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 12),
+                Divider(
+                  height: 1,
+                  color: colorScheme.outlineVariant.withValues(alpha: 0.5),
+                ),
+                const SizedBox(height: 16),
+                // Scrollable description text
+                Expanded(
+                  child: SingleChildScrollView(
+                    controller: scrollController,
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                    child: Text(
+                      route.routeDescription,
+                      style: TextStyle(
+                        fontSize: 15,
+                        height: 1.6,
+                        color: colorScheme.onSurface,
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                // Quick stats row
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: Row(
+                    children: [
+                      _MetadataChip(
+                        icon: Icons.straighten_rounded,
+                        label: route.formattedDistance,
+                        isSelected: false,
+                      ),
+                      const SizedBox(width: 16),
+                      _MetadataChip(
+                        icon: Icons.trending_up_rounded,
+                        label: route.formattedElevation,
+                        isSelected: false,
+                      ),
+                      if (route.stages.isNotEmpty) ...[
+                        const SizedBox(width: 16),
+                        _MetadataChip(
+                          icon: Icons.alt_route_rounded,
+                          label: '${route.stages.length} stages',
+                          isSelected: false,
+                        ),
+                      ],
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
 

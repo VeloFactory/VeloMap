@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:velo_map_app/features/routes/data/models/route_dto.dart';
 
 /// Data source that reads route data from local GeoJSON assets.
-/// Stage 1: Uses bundled static files.
-/// Stage 2: Will be replaced with RemoteRouteDatasource for API calls.
+/// All route metadata (name, color, description) is embedded in the GeoJSON
+/// files during the GPX→GeoJSON conversion pipeline.
 class RouteLocalDatasource {
   List<RouteDto>? _routesCache;
   Map<String, RouteDto>? _routesByIdCache;
@@ -19,7 +19,8 @@ class RouteLocalDatasource {
       final decoded = jsonDecode(jsonStr);
 
       if (decoded is Map<String, dynamic>) {
-        routes.add(RouteDto.fromGeoJson(decoded));
+        final dto = RouteDto.fromGeoJson(decoded);
+        routes.add(dto);
       } else {
         throw FormatException('Unsupported JSON format in $path');
       }
@@ -29,7 +30,25 @@ class RouteLocalDatasource {
   }
 
   Future<List<String>> _routeFiles() async {
-    const allowedRoutes = {1, 2, 4, 5, 6, 9, 14, 19};
+    const allowedRoutes = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+    };
 
     final manifest1 = await AssetManifest.loadFromAssetBundle(rootBundle);
     final assets = manifest1.listAssets();
@@ -53,7 +72,7 @@ class RouteLocalDatasource {
     return files;
   }
 
-  /// List of asset paths for bundled GeoJSON route files
+  /// Fetch all routes from bundled GeoJSON assets
   Future<List<RouteDto>> fetchRoutes() async {
     if (_routesCache != null) return _routesCache!;
     if (_loadFuture != null) return _loadFuture!;

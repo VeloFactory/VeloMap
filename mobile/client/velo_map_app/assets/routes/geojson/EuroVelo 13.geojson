@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "properties": {
     "id": "eurovelo_13",
-    "name": "EuroVelo 13",
+    "name": "Iron Curtain Trail",
     "description": "",
     "distance_km": 10619.018,
     "difficulty": "hard",
@@ -231,7 +231,10 @@
       "Malko Tarnovo",
       "Kosti",
       "Rezovo"
-    ]
+    ],
+    "full_name": "Iron Curtain Trail",
+    "color": "0xFFC0392B",
+    "route_description": "EuroVelo 13 allows cyclists to follow the 'Iron Curtain', the border that divided Europe into East and West for almost half a century during the course of the cold war. The more than 10,600 km long route offers a living history lesson while reminding us that peace and reconciliation are now more needed than ever. One of the longest EuroVelo routes, it has something to offer for everyone: foodies will love the vineyards of southern Czechia and northern Austria; nature enthusiasts can enjoy the pristine greenery and wildlife in the former no man's land of the border; while cultural connoisseurs can look forward to the bustling port cities of the Baltic and vibrant capitals such as Bratislava and Riga."
   },
   "features": [
     {
