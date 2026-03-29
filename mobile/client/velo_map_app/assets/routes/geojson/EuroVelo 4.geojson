@@ -5,7 +5,6 @@
     "name": "Central Europe Route",
     "description": "",
     "distance_km": 5037.749,
-    "difficulty": "hard",
     "route_number": 4,
     "total_stages": 131,
     "cities": [
@@ -143,8 +142,7 @@
       "Kyiv"
     ],
     "full_name": "Central Europe Route",
-    "color": "0xFFF2C300",
-    "route_description": "Cycling 5,100 km across Europe from west to east provides a fascinating insight into the world's second most densely populated continent. Waiting for you are outstanding medieval architecture, dynamic cities and history lessons, and yet you can still get away from the crowds on this route, visiting France's dramatic northern coastline and by crossing through the fairy tale Bohemian Forest. EuroVelo 4 is so diverse, you won't know where to begin."
+    "route_description": "A 5,100 km east-west crossing of Europe's densely layered heart. Medieval architecture, dynamic cities and sweeping history sit alongside quieter escapes — France's rugged northern coast and the enchanting Bohemian Forest offer welcome contrast. EuroVelo 4 is endlessly varied and hard to categorise."
   },
   "features": [
     {
@@ -155,7 +153,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.125,
         "elevation_gain": 538.3,
-        "difficulty": "moderate",
         "cities": [
           "Roscoff",
           "Morlaix"
@@ -2825,7 +2822,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.765,
         "elevation_gain": 471.8,
-        "difficulty": "moderate",
         "cities": [
           "Morlaix",
           "Plougasnou"
@@ -5080,7 +5076,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.8,
         "elevation_gain": 384.1,
-        "difficulty": "moderate",
         "cities": [
           "Plougasnou",
           "Plestin-les-grèves"
@@ -6895,7 +6890,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.564,
         "elevation_gain": 340.8,
-        "difficulty": "moderate",
         "cities": [
           "Plestin-les-grèves",
           "Lannion"
@@ -8740,7 +8734,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.963,
         "elevation_gain": 490.6,
-        "difficulty": "moderate",
         "cities": [
           "Lannion",
           "Perros-Guirec"
@@ -12485,7 +12478,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.843,
         "elevation_gain": 216.0,
-        "difficulty": "moderate",
         "cities": [
           "Perros-Guirec",
           "Tréguier"
@@ -14220,7 +14212,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.352,
         "elevation_gain": 243.3,
-        "difficulty": "moderate",
         "cities": [
           "Tréguier",
           "Paimpol"
@@ -15810,7 +15801,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.444,
         "elevation_gain": 559.9,
-        "difficulty": "moderate",
         "cities": [
           "Paimpol",
           "Saint-Quay-Portrieux"
@@ -19240,7 +19230,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.907,
         "elevation_gain": 397.7,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Quay-Portrieux",
           "Saint-Brieuc"
@@ -21470,7 +21459,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.105,
         "elevation_gain": 557.3,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Brieuc",
           "Erquy"
@@ -24465,7 +24453,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.852,
         "elevation_gain": 459.4,
-        "difficulty": "moderate",
         "cities": [
           "Erquy",
           "Matignon"
@@ -26775,7 +26762,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.146,
         "elevation_gain": 244.0,
-        "difficulty": "moderate",
         "cities": [
           "Matignon",
           "Pleslin"
@@ -28380,7 +28366,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.714,
         "elevation_gain": 319.3,
-        "difficulty": "moderate",
         "cities": [
           "Pleslin",
           "Saint-Malo"
@@ -30140,7 +30125,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.346,
         "elevation_gain": 150.9,
-        "difficulty": "easy",
         "cities": [
           "Saint-Malo",
           "Cancale"
@@ -30885,7 +30869,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.827,
         "elevation_gain": 123.7,
-        "difficulty": "easy",
         "cities": [
           "Cancale",
           "Le Vivier"
@@ -31835,7 +31818,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.56,
         "elevation_gain": 54.4,
-        "difficulty": "easy",
         "cities": [
           "Le Vivier",
           "Pontorson"
@@ -33040,7 +33022,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.965,
         "elevation_gain": 82.8,
-        "difficulty": "easy",
         "cities": [
           "Pontorson",
           "Céaux"
@@ -34240,7 +34221,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.22,
         "elevation_gain": 294.1,
-        "difficulty": "moderate",
         "cities": [
           "Céaux",
           "Mortain-Bocage"
@@ -35640,7 +35620,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.778,
         "elevation_gain": 474.1,
-        "difficulty": "moderate",
         "cities": [
           "Mortain-Bocage",
           "Vire"
@@ -37640,7 +37619,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.351,
         "elevation_gain": 617.1,
-        "difficulty": "moderate",
         "cities": [
           "Vire",
           "Pont-Farcy"
@@ -39950,7 +39928,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.929,
         "elevation_gain": 455.2,
-        "difficulty": "moderate",
         "cities": [
           "Pont-Farcy",
           "Saint-Lô"
@@ -42540,7 +42517,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.651,
         "elevation_gain": 303.6,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Lô",
           "Saint-Jean-de-Daye"
@@ -44720,7 +44696,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.049,
         "elevation_gain": 81.0,
-        "difficulty": "easy",
         "cities": [
           "Saint-Jean-de-Daye",
           "Carentan"
@@ -46245,7 +46220,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.714,
         "elevation_gain": 94.5,
-        "difficulty": "easy",
         "cities": [
           "Carentan",
           "La Haye"
@@ -46700,7 +46674,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.267,
         "elevation_gain": 109.1,
-        "difficulty": "easy",
         "cities": [
           "La Haye",
           "Saint-Sauveur-le-Vicomte"
@@ -47330,7 +47303,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.57,
         "elevation_gain": 101.3,
-        "difficulty": "easy",
         "cities": [
           "Saint-Sauveur-le-Vicomte",
           "Bricquebec-en-Cotentin"
@@ -47880,7 +47852,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.113,
         "elevation_gain": 365.2,
-        "difficulty": "moderate",
         "cities": [
           "Bricquebec-en-Cotentin",
           "Cherbourg"
@@ -49835,7 +49806,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.437,
         "elevation_gain": 428.5,
-        "difficulty": "moderate",
         "cities": [
           "Cherbourg",
           "Saint-Vaast-la-Hougue"
@@ -53595,7 +53565,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.492,
         "elevation_gain": 256.5,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Vaast-la-Hougue",
           "Utah Beach"
@@ -55760,7 +55729,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.519,
         "elevation_gain": 64.5,
-        "difficulty": "easy",
         "cities": [
           "Utah Beach",
           "Carentan"
@@ -57315,7 +57283,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.649,
         "elevation_gain": 164.2,
-        "difficulty": "moderate",
         "cities": [
           "Carentan",
           "Grandcamps-Maisy"
@@ -59145,7 +59112,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.59,
         "elevation_gain": 487.4,
-        "difficulty": "moderate",
         "cities": [
           "Grandcamps-Maisy",
           "Port-en-Bessin"
@@ -61415,7 +61381,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.959,
         "elevation_gain": 246.0,
-        "difficulty": "moderate",
         "cities": [
           "Port-en-Bessin",
           "Arromanches-les-Bains"
@@ -62710,7 +62675,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.719,
         "elevation_gain": 197.3,
-        "difficulty": "moderate",
         "cities": [
           "Arromanches-les-Bains",
           "Ouistreham"
@@ -64645,7 +64609,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.932,
         "elevation_gain": 83.1,
-        "difficulty": "easy",
         "cities": [
           "Ouistreham",
           "Cabourg"
@@ -65925,7 +65888,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.035,
         "elevation_gain": 382.9,
-        "difficulty": "moderate",
         "cities": [
           "Cabourg",
           "Deauville"
@@ -68470,7 +68432,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.918,
         "elevation_gain": 445.2,
-        "difficulty": "moderate",
         "cities": [
           "Deauville",
           "Honfleur"
@@ -71345,7 +71306,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 11.625,
         "elevation_gain": 5.3,
-        "difficulty": "easy",
         "cities": [
           "Honfleur",
           "Havre"
@@ -71375,7 +71335,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.998,
         "elevation_gain": 396.6,
-        "difficulty": "moderate",
         "cities": [
           "Havre",
           "Etretat"
@@ -74020,7 +73979,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.822,
         "elevation_gain": 247.3,
-        "difficulty": "moderate",
         "cities": [
           "Etretat",
           "Fécamp"
@@ -75365,7 +75323,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.516,
         "elevation_gain": 541.4,
-        "difficulty": "moderate",
         "cities": [
           "Fécamp",
           "Saint-Valery-en-Caux"
@@ -78085,7 +78042,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.193,
         "elevation_gain": 502.3,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Valery-en-Caux",
           "Dieppe"
@@ -80410,7 +80366,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.973,
         "elevation_gain": 401.6,
-        "difficulty": "moderate",
         "cities": [
           "Dieppe",
           "Le Tréport"
@@ -82145,7 +82100,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.567,
         "elevation_gain": 196.6,
-        "difficulty": "easy",
         "cities": [
           "Le Tréport",
           "Cayeux-sur-Mer"
@@ -83475,7 +83429,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.328,
         "elevation_gain": 83.6,
-        "difficulty": "moderate",
         "cities": [
           "Cayeux-sur-Mer",
           "Le Crotoy"
@@ -84845,7 +84798,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.594,
         "elevation_gain": 139.8,
-        "difficulty": "moderate",
         "cities": [
           "Le Crotoy",
           "Berck"
@@ -87395,7 +87347,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.136,
         "elevation_gain": 64.5,
-        "difficulty": "easy",
         "cities": [
           "Berck",
           "Le Touquet"
@@ -88375,7 +88326,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.5,
         "elevation_gain": 275.0,
-        "difficulty": "moderate",
         "cities": [
           "Le Touquet",
           "Boulogne-sur-Mer"
@@ -90025,7 +89975,6 @@
         "description": "DEVELOPED",
         "distance_km": 14.304,
         "elevation_gain": 194.7,
-        "difficulty": "easy",
         "cities": [
           "Boulogne-sur-Mer",
           "Wimereux"
@@ -91035,7 +90984,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.492,
         "elevation_gain": 218.1,
-        "difficulty": "moderate",
         "cities": [
           "Wimereux",
           "Wissant"
@@ -92270,7 +92218,6 @@
         "description": "DEVELOPED",
         "distance_km": 25.317,
         "elevation_gain": 244.5,
-        "difficulty": "moderate",
         "cities": [
           "Wissant",
           "Calais"
@@ -93445,7 +93392,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.691,
         "elevation_gain": 41.1,
-        "difficulty": "easy",
         "cities": [
           "Calais",
           "Oye-Plage"
@@ -94490,7 +94436,6 @@
         "description": "DEVELOPED",
         "distance_km": 24.721,
         "elevation_gain": 55.8,
-        "difficulty": "easy",
         "cities": [
           "Oye-Plage",
           "Loon-Plage"
@@ -96015,7 +95960,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.131,
         "elevation_gain": 55.8,
-        "difficulty": "easy",
         "cities": [
           "Loon-Plage",
           "Dunkerque"
@@ -97210,7 +97154,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.467,
         "elevation_gain": 42.3,
-        "difficulty": "easy",
         "cities": [
           "De Panne",
           "Dunkerque"
@@ -97750,7 +97693,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.125,
         "elevation_gain": 119.2,
-        "difficulty": "moderate",
         "cities": [
           "Ostende",
           "De Panne"
@@ -98920,7 +98862,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.996,
         "elevation_gain": 120.0,
-        "difficulty": "moderate",
         "cities": [
           "Cadzand",
           "Ostende"
@@ -99900,7 +99841,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.719,
         "elevation_gain": 97.1,
-        "difficulty": "easy",
         "cities": [
           "Breskens",
           "Cadzand"
@@ -101645,7 +101585,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.864,
         "elevation_gain": 121.5,
-        "difficulty": "moderate",
         "cities": [
           "Vlissingen",
           "Hansweert"
@@ -104555,7 +104494,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.855,
         "elevation_gain": 167.2,
-        "difficulty": "moderate",
         "cities": [
           "Hansweert",
           "Essen"
@@ -106675,7 +106613,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.344,
         "elevation_gain": 122.7,
-        "difficulty": "moderate",
         "cities": [
           "Essen",
           "Breda"
@@ -108165,7 +108102,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.512,
         "elevation_gain": 216.2,
-        "difficulty": "moderate",
         "cities": [
           "Breda",
           "Eindhoven"
@@ -110585,7 +110521,6 @@
         "description": "DEVELOPED",
         "distance_km": 77.972,
         "elevation_gain": 240.5,
-        "difficulty": "hard",
         "cities": [
           "Eindhoven",
           "Venlo"
@@ -114415,7 +114350,6 @@
         "description": "DEVELOPED",
         "distance_km": 62.099,
         "elevation_gain": 220.3,
-        "difficulty": "hard",
         "cities": [
           "Venlo",
           "Dusseldorf"
@@ -116910,7 +116844,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.605,
         "elevation_gain": 256.5,
-        "difficulty": "moderate",
         "cities": [
           "Dusseldorf",
           "Cologne"
@@ -119340,7 +119273,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.026,
         "elevation_gain": 311.4,
-        "difficulty": "moderate",
         "cities": [
           "Cologne",
           "Bonn"
@@ -121440,7 +121372,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.565,
         "elevation_gain": 221.8,
-        "difficulty": "moderate",
         "cities": [
           "Bonn",
           "Bad Breisig"
@@ -122755,7 +122686,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.124,
         "elevation_gain": 298.3,
-        "difficulty": "moderate",
         "cities": [
           "Bad Breisig",
           "Koblenz"
@@ -124960,7 +124890,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.785,
         "elevation_gain": 638.2,
-        "difficulty": "moderate",
         "cities": [
           "Koblenz",
           "Oberwesel"
@@ -126935,7 +126864,6 @@
         "description": "DEVELOPED",
         "distance_km": 20.338,
         "elevation_gain": 245.8,
-        "difficulty": "moderate",
         "cities": [
           "Oberwesel",
           "Bingen am Rhein"
@@ -127770,7 +127698,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.733,
         "elevation_gain": 0.0,
-        "difficulty": "moderate",
         "cities": [
           "Bingen am Rhein",
           "Mainz"
@@ -129470,7 +129397,6 @@
         "description": "DEVELOPED",
         "distance_km": 41.065,
         "elevation_gain": 0.0,
-        "difficulty": "moderate",
         "cities": [
           "Mainz",
           "Frankfurt"
@@ -131600,7 +131526,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.628,
         "elevation_gain": 249.9,
-        "difficulty": "moderate",
         "cities": [
           "Frankfurt",
           "Aschaffenburg"
@@ -134385,7 +134310,6 @@
         "description": "DEVELOPED",
         "distance_km": 40.156,
         "elevation_gain": 289.8,
-        "difficulty": "moderate",
         "cities": [
           "Aschaffenburg",
           "Miltenberg"
@@ -136550,7 +136474,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.688,
         "elevation_gain": 350.3,
-        "difficulty": "moderate",
         "cities": [
           "Miltenberg",
           "Wertheim"
@@ -138520,7 +138443,6 @@
         "description": "DEVELOPED",
         "distance_km": 23.541,
         "elevation_gain": 280.9,
-        "difficulty": "moderate",
         "cities": [
           "Wertheim",
           "Marktheidenfeld"
@@ -140035,7 +139957,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.463,
         "elevation_gain": 375.0,
-        "difficulty": "moderate",
         "cities": [
           "Marktheidenfeld",
           "Gemünden am Main"
@@ -141785,7 +141706,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.686,
         "elevation_gain": 341.0,
-        "difficulty": "moderate",
         "cities": [
           "Gemünden am Main",
           "Würzburg"
@@ -144180,7 +144100,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.197,
         "elevation_gain": 208.1,
-        "difficulty": "moderate",
         "cities": [
           "Würzburg",
           "Kitzingen"
@@ -145855,7 +145774,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.733,
         "elevation_gain": 197.0,
-        "difficulty": "moderate",
         "cities": [
           "Kitzingen",
           "Volkach"
@@ -147590,7 +147508,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.456,
         "elevation_gain": 318.6,
-        "difficulty": "moderate",
         "cities": [
           "Volkach",
           "Schweinfurt"
@@ -149385,7 +149302,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.465,
         "elevation_gain": 215.4,
-        "difficulty": "moderate",
         "cities": [
           "Schweinfurt",
           "Zeil am Main"
@@ -151005,7 +150921,6 @@
         "description": "DEVELOPED",
         "distance_km": 25.199,
         "elevation_gain": 230.0,
-        "difficulty": "moderate",
         "cities": [
           "Zeil am Main",
           "Bamberg"
@@ -152500,7 +152415,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.784,
         "elevation_gain": 240.3,
-        "difficulty": "moderate",
         "cities": [
           "Bamberg",
           "Lichtenfels"
@@ -155410,7 +155324,6 @@
         "description": "DEVELOPED",
         "distance_km": 34.319,
         "elevation_gain": 288.6,
-        "difficulty": "moderate",
         "cities": [
           "Lichtenfels",
           "Kulmbach"
@@ -157815,7 +157728,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.448,
         "elevation_gain": 286.8,
-        "difficulty": "moderate",
         "cities": [
           "Kulmbach",
           "Bayreuth"
@@ -160155,7 +160067,6 @@
         "description": "DEVELOPED",
         "distance_km": 20.966,
         "elevation_gain": 400.7,
-        "difficulty": "moderate",
         "cities": [
           "Bayreuth",
           "Bad Berneck"
@@ -161830,7 +161741,6 @@
         "description": "DEVELOPED",
         "distance_km": 12.637,
         "elevation_gain": 424.9,
-        "difficulty": "moderate",
         "cities": [
           "Bad Berneck",
           "Bischofsgrün"
@@ -162640,7 +162550,6 @@
         "description": "DEVELOPED",
         "distance_km": 23.149,
         "elevation_gain": 369.0,
-        "difficulty": "moderate",
         "cities": [
           "Bischofsgrün",
           "Wunsiedel"
@@ -164480,7 +164389,6 @@
         "description": "DEVELOPED",
         "distance_km": 23.776,
         "elevation_gain": 267.4,
-        "difficulty": "moderate",
         "cities": [
           "Wunsiedel",
           "Schirnding"
@@ -166005,7 +165913,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 11.772,
         "elevation_gain": 124.5,
-        "difficulty": "easy",
         "cities": [
           "Schirnding",
           "Cheb"
@@ -166695,7 +166602,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.136,
         "elevation_gain": 650.7,
-        "difficulty": "moderate",
         "cities": [
           "Cheb",
           "Carlsbad"
@@ -171425,7 +171331,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.941,
         "elevation_gain": 1503.2,
-        "difficulty": "hard",
         "cities": [
           "Carlsbad",
           "Jesenice"
@@ -177650,7 +177555,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.973,
         "elevation_gain": 1186.8,
-        "difficulty": "hard",
         "cities": [
           "Jesenice",
           "Beroun"
@@ -183160,7 +183064,6 @@
         "description": "DEVELOPED",
         "distance_km": 46.287,
         "elevation_gain": 383.8,
-        "difficulty": "moderate",
         "cities": [
           "Beroun",
           "Prague"
@@ -186265,7 +186168,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.918,
         "elevation_gain": 358.7,
-        "difficulty": "hard",
         "cities": [
           "Prague",
           "Nymburk"
@@ -189990,7 +189892,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.062,
         "elevation_gain": 359.1,
-        "difficulty": "moderate",
         "cities": [
           "Nymburk",
           "Kutna Hora"
@@ -192370,7 +192271,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 83.744,
         "elevation_gain": 1429.0,
-        "difficulty": "hard",
         "cities": [
           "Kutna Hora",
           "Hlinsko"
@@ -198015,7 +197915,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.974,
         "elevation_gain": 913.9,
-        "difficulty": "hard",
         "cities": [
           "Hlinsko",
           "Bystřice nad Pernštejnem"
@@ -201765,7 +201664,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.241,
         "elevation_gain": 412.3,
-        "difficulty": "moderate",
         "cities": [
           "Bystřice nad Pernštejnem",
           "Nedvedice"
@@ -203765,7 +203663,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.001,
         "elevation_gain": 807.8,
-        "difficulty": "hard",
         "cities": [
           "Nedvedice",
           "Brno"
@@ -207465,7 +207362,6 @@
         "description": "DEVELOPED",
         "distance_km": 73.796,
         "elevation_gain": 653.2,
-        "difficulty": "hard",
         "cities": [
           "Brno",
           "Kyjov"
@@ -211725,7 +211621,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.407,
         "elevation_gain": 302.2,
-        "difficulty": "moderate",
         "cities": [
           "Kyjov",
           "Uherský Ostroh"
@@ -213730,7 +213625,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.292,
         "elevation_gain": 205.5,
-        "difficulty": "moderate",
         "cities": [
           "Uherský Ostroh",
           "Kromeriz"
@@ -216175,7 +216069,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.459,
         "elevation_gain": 596.8,
-        "difficulty": "hard",
         "cities": [
           "Kromeriz",
           "Jeseník nad Odrou"
@@ -220695,7 +220588,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.63,
         "elevation_gain": 362.2,
-        "difficulty": "moderate",
         "cities": [
           "Jeseník nad Odrou",
           "Ostrava"
@@ -223990,7 +223882,6 @@
         "description": "PLANNING",
         "distance_km": 11.24,
         "elevation_gain": 108.1,
-        "difficulty": "easy",
         "cities": [
           "Ostrava",
           "Stary Bohumin"
@@ -224890,7 +224781,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 22.384,
         "elevation_gain": 182.3,
-        "difficulty": "easy",
         "cities": [
           "Stary Bohumin",
           "Gołkowice"
@@ -225995,7 +225885,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 64.997,
         "elevation_gain": 434.3,
-        "difficulty": "hard",
         "cities": [
           "Gołkowice",
           "Brzeszcze"
@@ -228810,7 +228699,6 @@
         "description": "DEVELOPED",
         "distance_km": 73.994,
         "elevation_gain": 295.3,
-        "difficulty": "hard",
         "cities": [
           "Brzeszcze",
           "Skawina"
@@ -233345,7 +233233,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.982,
         "elevation_gain": 152.8,
-        "difficulty": "moderate",
         "cities": [
           "Skawina",
           "Krakow"
@@ -234830,7 +234717,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 16.431,
         "elevation_gain": 27.9,
-        "difficulty": "easy",
         "cities": [
           "Krakow",
           "Niepołomice"
@@ -235600,7 +235486,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.768,
         "elevation_gain": 248.9,
-        "difficulty": "hard",
         "cities": [
           "Niepołomice",
           "Tarnów"
@@ -238280,7 +238165,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.502,
         "elevation_gain": 190.6,
-        "difficulty": "moderate",
         "cities": [
           "Tarnów",
           "Jodlowka-Walki"
@@ -239780,7 +239664,6 @@
         "description": "PLANNING",
         "distance_km": 36.727,
         "elevation_gain": 207.0,
-        "difficulty": "moderate",
         "cities": [
           "Jodlowka-Walki",
           "Przecław"
@@ -241335,7 +241218,6 @@
         "description": "PLANNING",
         "distance_km": 68.95,
         "elevation_gain": 504.3,
-        "difficulty": "hard",
         "cities": [
           "Przecław",
           "Rzeszów"
@@ -244600,7 +244482,6 @@
         "description": "PLANNING",
         "distance_km": 47.783,
         "elevation_gain": 745.3,
-        "difficulty": "moderate",
         "cities": [
           "Rzeszów",
           "Dynów"
@@ -248045,7 +247926,6 @@
         "description": "PLANNING",
         "distance_km": 51.208,
         "elevation_gain": 678.0,
-        "difficulty": "moderate",
         "cities": [
           "Dynów",
           "Skopów"
@@ -251035,7 +250915,6 @@
         "description": "PLANNING",
         "distance_km": 38.302,
         "elevation_gain": 578.0,
-        "difficulty": "moderate",
         "cities": [
           "Skopów",
           "Przemysl"
@@ -253180,7 +253059,6 @@
         "description": "PLANNING",
         "distance_km": 15.017,
         "elevation_gain": 76.3,
-        "difficulty": "easy",
         "cities": [
           "Przemysl",
           "Medyka"
@@ -253645,7 +253523,6 @@
         "description": "PLANNING",
         "distance_km": 82.108,
         "elevation_gain": 582.0,
-        "difficulty": "hard",
         "cities": [
           "Medyka",
           "L'viv"
@@ -255965,7 +255842,6 @@
         "description": "PLANNING",
         "distance_km": 94.188,
         "elevation_gain": 1045.0,
-        "difficulty": "hard",
         "cities": [
           "L'viv",
           "Berezhany"
@@ -259475,7 +259351,6 @@
         "description": "PLANNING",
         "distance_km": 15.535,
         "elevation_gain": 166.0,
-        "difficulty": "easy",
         "cities": [
           "Berezhany",
           "Kosova"
@@ -259930,7 +259805,6 @@
         "description": "PLANNING",
         "distance_km": 37.882,
         "elevation_gain": 363.0,
-        "difficulty": "moderate",
         "cities": [
           "Kosova",
           "Ternopil"
@@ -261045,7 +260919,6 @@
         "description": "PLANNING",
         "distance_km": 86.606,
         "elevation_gain": 880.0,
-        "difficulty": "hard",
         "cities": [
           "Ternopil",
           "Kremenets"
@@ -264060,7 +263933,6 @@
         "description": "PLANNING",
         "distance_km": 80.483,
         "elevation_gain": 714.0,
-        "difficulty": "hard",
         "cities": [
           "Kremenets",
           "Ostroh"
@@ -267045,7 +266917,6 @@
         "description": "PLANNING",
         "distance_km": 88.496,
         "elevation_gain": 512.0,
-        "difficulty": "hard",
         "cities": [
           "Ostroh",
           "Polonne"
@@ -270220,7 +270091,6 @@
         "description": "PLANNING",
         "distance_km": 100.347,
         "elevation_gain": 681.0,
-        "difficulty": "hard",
         "cities": [
           "Polonne",
           "Zhytomyr"
@@ -273925,7 +273795,6 @@
         "description": "PLANNING",
         "distance_km": 73.659,
         "elevation_gain": 630.0,
-        "difficulty": "hard",
         "cities": [
           "Zhytomyr",
           "Radomyshl"
@@ -277295,7 +277164,6 @@
         "description": "PLANNING",
         "distance_km": 16.094,
         "elevation_gain": 0.0,
-        "difficulty": "easy",
         "cities": [
           "Radomyshl",
           "Bilka"
@@ -277325,7 +277193,6 @@
         "description": "PLANNING",
         "distance_km": 105.87,
         "elevation_gain": 956.0,
-        "difficulty": "hard",
         "cities": [
           "Bilka",
           "Kyiv"

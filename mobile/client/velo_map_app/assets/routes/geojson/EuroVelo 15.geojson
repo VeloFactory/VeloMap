@@ -5,7 +5,6 @@
     "name": "Rhine Cycle Route",
     "description": "",
     "distance_km": 2446.067,
-    "difficulty": "hard",
     "route_number": 15,
     "total_stages": 66,
     "cities": [
@@ -68,8 +67,7 @@
       "Hook of Holland"
     ],
     "full_name": "Rhine Cycle Route",
-    "color": "0xFF1E3A8A",
-    "route_description": "Suitable for cyclists of all fitness levels and abilities, the Rhine Cycle Route runs along one of the longest rivers in Europe from the Swiss Alps to the North Sea. The Rhine has fostered a cultural and economic dialogue between the Alpine regions and Northern Europe for over 2,000 years. Explore the beauty of this river landscape and the picturesque towns and villages lining its banks."
+    "route_description": "Suitable for all abilities, this riverside route follows the Rhine from the Swiss Alps to the North Sea — one of Europe's longest and most storied rivers. For more than 2,000 years the Rhine has connected Alpine cultures with Northern Europe. Today it remains the most scenic way to watch that rich heritage unfold kilometre by kilometre."
   },
   "features": [
     {
@@ -80,7 +78,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.983,
         "elevation_gain": 1164.8,
-        "difficulty": "hard",
         "cities": [
           "Andermatt",
           "Disentis/Mustér"
@@ -2880,7 +2877,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.464,
         "elevation_gain": 422.1,
-        "difficulty": "moderate",
         "cities": [
           "Disentis/Mustér",
           "Breil/Brigels"
@@ -4795,7 +4791,6 @@
         "description": "CERTIFIED",
         "distance_km": 14.205,
         "elevation_gain": 315.4,
-        "difficulty": "moderate",
         "cities": [
           "Breil/Brigels",
           "Castrisch"
@@ -6015,7 +6010,6 @@
         "description": "CERTIFIED",
         "distance_km": 30.771,
         "elevation_gain": 1170.1,
-        "difficulty": "hard",
         "cities": [
           "Castrisch",
           "Chur"
@@ -8505,7 +8499,6 @@
         "description": "CERTIFIED",
         "distance_km": 34.906,
         "elevation_gain": 378.4,
-        "difficulty": "moderate",
         "cities": [
           "Chur",
           "Trübbach"
@@ -10840,7 +10833,6 @@
         "description": "CERTIFIED",
         "distance_km": 13.641,
         "elevation_gain": 20.9,
-        "difficulty": "easy",
         "cities": [
           "Trübbach",
           "Buchs"
@@ -11170,7 +11162,6 @@
         "description": "CERTIFIED",
         "distance_km": 42.535,
         "elevation_gain": 161.3,
-        "difficulty": "moderate",
         "cities": [
           "Buchs",
           "St Margrethen"
@@ -12720,7 +12711,6 @@
         "description": "CERTIFIED",
         "distance_km": 26.378,
         "elevation_gain": 114.5,
-        "difficulty": "moderate",
         "cities": [
           "Trübbach",
           "Mauren"
@@ -13990,7 +13980,6 @@
         "description": "CERTIFIED",
         "distance_km": 34.638,
         "elevation_gain": 108.0,
-        "difficulty": "moderate",
         "cities": [
           "Mauren",
           "St Margrethen"
@@ -15625,7 +15614,6 @@
         "description": "CERTIFIED",
         "distance_km": 16.157,
         "elevation_gain": 56.0,
-        "difficulty": "easy",
         "cities": [
           "St Margrethen",
           "Gaißau"
@@ -16510,7 +16498,6 @@
         "description": "CERTIFIED",
         "distance_km": 47.583,
         "elevation_gain": 346.0,
-        "difficulty": "moderate",
         "cities": [
           "Gaißau",
           "Konstanz"
@@ -19810,7 +19797,6 @@
         "description": "CERTIFIED",
         "distance_km": 28.276,
         "elevation_gain": 293.2,
-        "difficulty": "moderate",
         "cities": [
           "Konstanz",
           "Stein am Rhein"
@@ -21750,7 +21736,6 @@
         "description": "CERTIFIED",
         "distance_km": 20.779,
         "elevation_gain": 237.8,
-        "difficulty": "moderate",
         "cities": [
           "Stein am Rhein",
           "Neuhausen am Rheinfall"
@@ -23000,7 +22985,6 @@
         "description": "CERTIFIED",
         "distance_km": 50.659,
         "elevation_gain": 809.6,
-        "difficulty": "hard",
         "cities": [
           "Neuhausen am Rheinfall",
           "Bad Zurzach"
@@ -26570,7 +26554,6 @@
         "description": "CERTIFIED",
         "distance_km": 54.688,
         "elevation_gain": 606.6,
-        "difficulty": "moderate",
         "cities": [
           "Bad Zurzach",
           "Rheinfelden"
@@ -30090,7 +30073,6 @@
         "description": "CERTIFIED",
         "distance_km": 21.825,
         "elevation_gain": 185.3,
-        "difficulty": "easy",
         "cities": [
           "Rheinfelden",
           "Basel"
@@ -31495,7 +31477,6 @@
         "description": "CERTIFIED",
         "distance_km": 19.571,
         "elevation_gain": 100.8,
-        "difficulty": "easy",
         "cities": [
           "Konstanz",
           "Radolfzell"
@@ -32430,7 +32411,6 @@
         "description": "CERTIFIED",
         "distance_km": 25.033,
         "elevation_gain": 256.8,
-        "difficulty": "moderate",
         "cities": [
           "Radolfzell",
           "Stein am Rhein"
@@ -34215,7 +34195,6 @@
         "description": "CERTIFIED",
         "distance_km": 35.736,
         "elevation_gain": 391.5,
-        "difficulty": "moderate",
         "cities": [
           "Neuhausen am Rheinfall",
           "Rheinheim"
@@ -36055,7 +36034,6 @@
         "description": "CERTIFIED",
         "distance_km": 57.891,
         "elevation_gain": 478.1,
-        "difficulty": "moderate",
         "cities": [
           "Rheinheim",
           "Rheinfelden"
@@ -39270,7 +39248,6 @@
         "description": "CERTIFIED",
         "distance_km": 16.445,
         "elevation_gain": 79.1,
-        "difficulty": "easy",
         "cities": [
           "Rheinfelden",
           "Basel"
@@ -40090,7 +40067,6 @@
         "description": "CERTIFIED",
         "distance_km": 13.976,
         "elevation_gain": 18.6,
-        "difficulty": "easy",
         "cities": [
           "Basel",
           "Kembs"
@@ -40495,7 +40471,6 @@
         "description": "CERTIFIED",
         "distance_km": 44.422,
         "elevation_gain": 93.7,
-        "difficulty": "moderate",
         "cities": [
           "Kembs",
           "Neuf-Brisach"
@@ -42615,7 +42590,6 @@
         "description": "CERTIFIED",
         "distance_km": 71.404,
         "elevation_gain": 107.1,
-        "difficulty": "hard",
         "cities": [
           "Neuf-Brisach",
           "Strasbourg"
@@ -44555,7 +44529,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.837,
         "elevation_gain": 301.0,
-        "difficulty": "hard",
         "cities": [
           "Strasbourg",
           "Lauterbourg"
@@ -49000,7 +48973,6 @@
         "description": "CERTIFIED",
         "distance_km": 11.903,
         "elevation_gain": 50.2,
-        "difficulty": "easy",
         "cities": [
           "Lauterbourg",
           "Wörth am Rhein-Maximiliansau"
@@ -49615,7 +49587,6 @@
         "description": "CERTIFIED",
         "distance_km": 65.113,
         "elevation_gain": 326.2,
-        "difficulty": "hard",
         "cities": [
           "Basel",
           "Breisach am Rhein"
@@ -52140,7 +52111,6 @@
         "description": "CERTIFIED",
         "distance_km": 46.399,
         "elevation_gain": 203.9,
-        "difficulty": "moderate",
         "cities": [
           "Breisach am Rhein",
           "Kappel-Grafenhausen"
@@ -54080,7 +54050,6 @@
         "description": "CERTIFIED",
         "distance_km": 42.541,
         "elevation_gain": 155.7,
-        "difficulty": "moderate",
         "cities": [
           "Kappel-Grafenhausen",
           "Kehl"
@@ -55770,7 +55739,6 @@
         "description": "CERTIFIED",
         "distance_km": 52.977,
         "elevation_gain": 197.3,
-        "difficulty": "moderate",
         "cities": [
           "Kehl",
           "Rastatt-Plittersdorf"
@@ -58185,7 +58153,6 @@
         "description": "CERTIFIED",
         "distance_km": 35.074,
         "elevation_gain": 161.6,
-        "difficulty": "moderate",
         "cities": [
           "Rastatt-Plittersdorf",
           "Karlsruhe"
@@ -60165,7 +60132,6 @@
         "description": "CERTIFIED",
         "distance_km": 2.325,
         "elevation_gain": 15.7,
-        "difficulty": "easy",
         "cities": [
           "Karlsruhe",
           "Wörth am Rhein-Maximiliansau"
@@ -60350,7 +60316,6 @@
         "description": "CERTIFIED",
         "distance_km": 50.181,
         "elevation_gain": 264.9,
-        "difficulty": "moderate",
         "cities": [
           "Wörth am Rhein-Maximiliansau",
           "Speyer"
@@ -63335,7 +63300,6 @@
         "description": "CERTIFIED",
         "distance_km": 32.777,
         "elevation_gain": 0.0,
-        "difficulty": "moderate",
         "cities": [
           "Speyer",
           "Ludwigshafen-Oggersheim"
@@ -65130,7 +65094,6 @@
         "description": "CERTIFIED",
         "distance_km": 40.031,
         "elevation_gain": 158.6,
-        "difficulty": "moderate",
         "cities": [
           "Ludwigshafen-Oggersheim",
           "Eich"
@@ -67280,7 +67243,6 @@
         "description": "CERTIFIED",
         "distance_km": 37.252,
         "elevation_gain": 245.1,
-        "difficulty": "moderate",
         "cities": [
           "Eich",
           "Mainz"
@@ -69315,7 +69277,6 @@
         "description": "CERTIFIED",
         "distance_km": 33.014,
         "elevation_gain": 140.0,
-        "difficulty": "moderate",
         "cities": [
           "Mainz",
           "Bingen am Rhein"
@@ -71010,7 +70971,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.607,
         "elevation_gain": 254.5,
-        "difficulty": "moderate",
         "cities": [
           "Karlsruhe",
           "Rheinhausen"
@@ -72930,7 +72890,6 @@
         "description": "CERTIFIED",
         "distance_km": 36.308,
         "elevation_gain": 191.6,
-        "difficulty": "moderate",
         "cities": [
           "Rheinhausen",
           "Mannheim"
@@ -75030,7 +74989,6 @@
         "description": "CERTIFIED",
         "distance_km": 52.657,
         "elevation_gain": 218.5,
-        "difficulty": "moderate",
         "cities": [
           "Mannheim",
           "Gernsheim"
@@ -77545,7 +77503,6 @@
         "description": "CERTIFIED",
         "distance_km": 44.667,
         "elevation_gain": 182.2,
-        "difficulty": "moderate",
         "cities": [
           "Gernsheim",
           "Mainz"
@@ -79865,7 +79822,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.182,
         "elevation_gain": 123.6,
-        "difficulty": "easy",
         "cities": [
           "Mainz",
           "Oestrich-Winkel"
@@ -80915,7 +80871,6 @@
         "description": "CERTIFIED",
         "distance_km": 8.874,
         "elevation_gain": 65.7,
-        "difficulty": "easy",
         "cities": [
           "Oestrich-Winkel",
           "Rüdesheim am Rhein"
@@ -81700,7 +81655,6 @@
         "description": "CERTIFIED",
         "distance_km": 39.016,
         "elevation_gain": 582.8,
-        "difficulty": "moderate",
         "cities": [
           "Bingen am Rhein",
           "Bad Salzig"
@@ -83445,7 +83399,6 @@
         "description": "CERTIFIED",
         "distance_km": 26.091,
         "elevation_gain": 299.1,
-        "difficulty": "moderate",
         "cities": [
           "Bad Salzig",
           "Koblenz"
@@ -84625,7 +84578,6 @@
         "description": "CERTIFIED",
         "distance_km": 58.114,
         "elevation_gain": 456.2,
-        "difficulty": "moderate",
         "cities": [
           "Koblenz",
           "Rolandswerth"
@@ -87805,7 +87757,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.041,
         "elevation_gain": 97.8,
-        "difficulty": "easy",
         "cities": [
           "Rolandswerth",
           "Bonn"
@@ -88365,7 +88316,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.457,
         "elevation_gain": 300.3,
-        "difficulty": "moderate",
         "cities": [
           "Bonn",
           "Cologne"
@@ -90655,7 +90605,6 @@
         "description": "CERTIFIED",
         "distance_km": 26.388,
         "elevation_gain": 223.3,
-        "difficulty": "moderate",
         "cities": [
           "Kamp-Bornhofen",
           "Koblenz"
@@ -91705,7 +91654,6 @@
         "description": "CERTIFIED",
         "distance_km": 54.09,
         "elevation_gain": 585.2,
-        "difficulty": "moderate",
         "cities": [
           "Koblenz",
           "Rheinbreitbach"
@@ -95010,7 +94958,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.612,
         "elevation_gain": 87.7,
-        "difficulty": "easy",
         "cities": [
           "Rheinbreitbach",
           "Bonn"
@@ -95910,7 +95857,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.93,
         "elevation_gain": 270.4,
-        "difficulty": "moderate",
         "cities": [
           "Bonn",
           "Cologne"
@@ -97880,7 +97826,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.544,
         "elevation_gain": 290.5,
-        "difficulty": "hard",
         "cities": [
           "Cologne",
           "Dusseldorf"
@@ -101035,7 +100980,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.243,
         "elevation_gain": 218.7,
-        "difficulty": "moderate",
         "cities": [
           "Dusseldorf",
           "Duisburg"
@@ -103440,7 +103384,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.773,
         "elevation_gain": 152.8,
-        "difficulty": "moderate",
         "cities": [
           "Duisburg",
           "Wesel"
@@ -105285,7 +105228,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.805,
         "elevation_gain": 167.5,
-        "difficulty": "moderate",
         "cities": [
           "Wesel",
           "Millingen aan de Rijn"
@@ -108165,7 +108107,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.498,
         "elevation_gain": 119.9,
-        "difficulty": "easy",
         "cities": [
           "Millingen aan de Rijn",
           "Arnhem"
@@ -109490,7 +109431,6 @@
         "description": "DEVELOPED",
         "distance_km": 56.573,
         "elevation_gain": 334.7,
-        "difficulty": "moderate",
         "cities": [
           "Cologne",
           "Dusseldorf"
@@ -112575,7 +112515,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.193,
         "elevation_gain": 168.7,
-        "difficulty": "moderate",
         "cities": [
           "Dusseldorf",
           "Duisburg"
@@ -114270,7 +114209,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.698,
         "elevation_gain": 244.0,
-        "difficulty": "moderate",
         "cities": [
           "Duisburg",
           "Wesel"
@@ -116400,7 +116338,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.135,
         "elevation_gain": 200.6,
-        "difficulty": "moderate",
         "cities": [
           "Wesel",
           "Spijk"
@@ -120060,7 +119997,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.32,
         "elevation_gain": 478.8,
-        "difficulty": "moderate",
         "cities": [
           "Arnhem",
           "Amerongen"
@@ -122910,7 +122846,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.51,
         "elevation_gain": 236.2,
-        "difficulty": "hard",
         "cities": [
           "Amerongen",
           "Gorinchem"
@@ -127495,7 +127430,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.493,
         "elevation_gain": 131.7,
-        "difficulty": "moderate",
         "cities": [
           "Woudrichem",
           "Dordrecht"
@@ -130180,7 +130114,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.642,
         "elevation_gain": 141.5,
-        "difficulty": "moderate",
         "cities": [
           "Dordrecht",
           "Rotterdam"
@@ -132685,7 +132618,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.216,
         "elevation_gain": 110.6,
-        "difficulty": "moderate",
         "cities": [
           "Rotterdam",
           "Hook of Holland"

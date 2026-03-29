@@ -5,7 +5,6 @@
     "name": "North Sea Cycle Route",
     "description": "",
     "distance_km": 6707.966,
-    "difficulty": "hard",
     "route_number": 12,
     "total_stages": 140,
     "cities": [
@@ -167,8 +166,7 @@
       "Norwick"
     ],
     "full_name": "North Sea Cycle Route",
-    "color": "0xFF2E7D32",
-    "route_description": "The North Sea Cycle Route will surprise you with its diversity. Although bordering the same sea it goes from land located below sea level (in the Netherlands) to cliffs of 300 meters in height (Norway). You can sample wee drams in Scotland; pedal along the well maintained cycle paths of Denmark; dance the night away in millennial port cities such as Gothenburg or Hamburg; or stretch out on the inviting beaches of the Netherlands. Expect to be pleasantly surprised along this popular bicycle route which is about 7,050 km long."
+    "route_description": "Don't let the grey North Sea fool you — this roughly 7,050 km loop is packed with contrast. Cycle below sea level in the Netherlands, then scale 300-metre Norwegian cliffs. Sip whisky in Scotland, roll along Denmark's immaculate bike paths, and dance the night away in the port cities of Gothenburg or Hamburg. Endlessly surprising."
   },
   "features": [
     {
@@ -179,7 +177,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.604,
         "elevation_gain": 1002.0,
-        "difficulty": "hard",
         "cities": [
           "Bergen",
           "Haljem"
@@ -4319,7 +4316,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 75.447,
         "elevation_gain": 1608.3,
-        "difficulty": "hard",
         "cities": [
           "Sandvikvåg",
           "Langevåg"
@@ -10429,7 +10425,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.331,
         "elevation_gain": 360.7,
-        "difficulty": "moderate",
         "cities": [
           "Buavåg",
           "Haugesund"
@@ -12604,7 +12599,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.785,
         "elevation_gain": 918.6,
-        "difficulty": "hard",
         "cities": [
           "Haugesund",
           "Nedstrand"
@@ -16339,7 +16333,6 @@
         "description": "DEVELOPED",
         "distance_km": 12.708,
         "elevation_gain": 468.0,
-        "difficulty": "moderate",
         "cities": [
           "Eidssund",
           "Skipavik"
@@ -17314,7 +17307,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.564,
         "elevation_gain": 1514.1,
-        "difficulty": "hard",
         "cities": [
           "Hjelmeland",
           "Jørpeland"
@@ -21489,7 +21481,6 @@
         "description": "DEVELOPED",
         "distance_km": 24.212,
         "elevation_gain": 576.9,
-        "difficulty": "moderate",
         "cities": [
           "Jørpeland",
           "Oanes"
@@ -23649,7 +23640,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.319,
         "elevation_gain": 591.2,
-        "difficulty": "moderate",
         "cities": [
           "Lauvvika",
           "Stavanger"
@@ -26684,7 +26674,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.951,
         "elevation_gain": 418.8,
-        "difficulty": "moderate",
         "cities": [
           "Stavanger",
           "Bore"
@@ -29874,7 +29863,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.993,
         "elevation_gain": 222.4,
-        "difficulty": "moderate",
         "cities": [
           "Bore",
           "Vigrestad"
@@ -31524,7 +31512,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.954,
         "elevation_gain": 1272.2,
-        "difficulty": "hard",
         "cities": [
           "Vigrestad",
           "Sogndalsstranda"
@@ -37329,7 +37316,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.344,
         "elevation_gain": 1729.6,
-        "difficulty": "hard",
         "cities": [
           "Sogndalsstranda",
           "Flekkefjord"
@@ -41384,7 +41370,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.753,
         "elevation_gain": 2131.4,
-        "difficulty": "hard",
         "cities": [
           "Flekkefjord",
           "Vestbygd"
@@ -47094,7 +47079,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.401,
         "elevation_gain": 1585.7,
-        "difficulty": "hard",
         "cities": [
           "Vestbygd",
           "Lindesnes"
@@ -51494,7 +51478,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.195,
         "elevation_gain": 1033.9,
-        "difficulty": "hard",
         "cities": [
           "Lindesnes",
           "Mandal"
@@ -55054,7 +55037,6 @@
         "description": "DEVELOPED",
         "distance_km": 61.068,
         "elevation_gain": 1188.8,
-        "difficulty": "hard",
         "cities": [
           "Mandal",
           "Kristiansand"
@@ -60349,7 +60331,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.762,
         "elevation_gain": 718.0,
-        "difficulty": "moderate",
         "cities": [
           "Kristiansand",
           "Lillesand"
@@ -63974,7 +63955,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.469,
         "elevation_gain": 649.1,
-        "difficulty": "moderate",
         "cities": [
           "Lillesand",
           "Arendal"
@@ -66799,7 +66779,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.911,
         "elevation_gain": 1460.3,
-        "difficulty": "hard",
         "cities": [
           "Arendal",
           "Risør"
@@ -72664,7 +72643,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.064,
         "elevation_gain": 297.6,
-        "difficulty": "moderate",
         "cities": [
           "Øysang",
           "Stabbestad"
@@ -73809,7 +73787,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.274,
         "elevation_gain": 1157.3,
-        "difficulty": "hard",
         "cities": [
           "Kragerø",
           "Langesund"
@@ -78529,7 +78506,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.312,
         "elevation_gain": 865.4,
-        "difficulty": "hard",
         "cities": [
           "Langesund",
           "Stavern"
@@ -83064,7 +83040,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.003,
         "elevation_gain": 321.7,
-        "difficulty": "moderate",
         "cities": [
           "Stavern",
           "Sanderfjord"
@@ -85434,7 +85409,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.728,
         "elevation_gain": 704.8,
-        "difficulty": "moderate",
         "cities": [
           "Sanderfjord",
           "Horten"
@@ -90134,7 +90108,6 @@
         "description": "DEVELOPED",
         "distance_km": 72.389,
         "elevation_gain": 985.9,
-        "difficulty": "hard",
         "cities": [
           "Moss",
           "Sarpsborg"
@@ -95899,7 +95872,6 @@
         "description": "DEVELOPED",
         "distance_km": 25.471,
         "elevation_gain": 282.8,
-        "difficulty": "moderate",
         "cities": [
           "Sarpsborg",
           "Svinesund"
@@ -97579,7 +97551,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.988,
         "elevation_gain": 444.9,
-        "difficulty": "moderate",
         "cities": [
           "Svinesund",
           "Stromstad"
@@ -99294,7 +99265,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.588,
         "elevation_gain": 799.4,
-        "difficulty": "moderate",
         "cities": [
           "Stromstad",
           "Fjällbacka"
@@ -103274,7 +103244,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.348,
         "elevation_gain": 701.5,
-        "difficulty": "hard",
         "cities": [
           "Fjällbacka",
           "Uddevalla"
@@ -107414,7 +107383,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 81.932,
         "elevation_gain": 1054.6,
-        "difficulty": "hard",
         "cities": [
           "Uddevalla",
           "Kungalv"
@@ -113929,7 +113897,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.906,
         "elevation_gain": 288.8,
-        "difficulty": "moderate",
         "cities": [
           "Kungalv",
           "Goteborg"
@@ -116254,7 +116221,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.991,
         "elevation_gain": 553.4,
-        "difficulty": "hard",
         "cities": [
           "Goteborg",
           "Kungsbacka"
@@ -120809,7 +120775,6 @@
         "description": "DEVELOPED",
         "distance_km": 71.353,
         "elevation_gain": 537.5,
-        "difficulty": "hard",
         "cities": [
           "Kungsbacka",
           "Varberg"
@@ -126019,7 +125984,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.616,
         "elevation_gain": 162.0,
-        "difficulty": "moderate",
         "cities": [
           "Varberg",
           "Falkenberg"
@@ -128434,7 +128398,6 @@
         "description": "DEVELOPED",
         "distance_km": 57.439,
         "elevation_gain": 339.1,
-        "difficulty": "moderate",
         "cities": [
           "Falkenberg",
           "Halmstad"
@@ -131719,7 +131682,6 @@
         "description": "DEVELOPED",
         "distance_km": 43.118,
         "elevation_gain": 308.2,
-        "difficulty": "moderate",
         "cities": [
           "Grenaa",
           "Fjellerup Strand"
@@ -133354,7 +133316,6 @@
         "description": "DEVELOPED",
         "distance_km": 50.182,
         "elevation_gain": 271.4,
-        "difficulty": "moderate",
         "cities": [
           "Fjellerup Strand",
           "Hadsund"
@@ -135309,7 +135270,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.439,
         "elevation_gain": 229.9,
-        "difficulty": "moderate",
         "cities": [
           "Hadsund",
           "Hals"
@@ -137274,7 +137234,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.251,
         "elevation_gain": 174.6,
-        "difficulty": "hard",
         "cities": [
           "Hals",
           "Frederikshavn"
@@ -139489,7 +139448,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.443,
         "elevation_gain": 135.4,
-        "difficulty": "moderate",
         "cities": [
           "Frederikshavn",
           "Skagen"
@@ -141729,7 +141687,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.634,
         "elevation_gain": 211.6,
-        "difficulty": "moderate",
         "cities": [
           "Skagen",
           "Hirtshals"
@@ -144734,7 +144691,6 @@
         "description": "DEVELOPED",
         "distance_km": 60.857,
         "elevation_gain": 308.7,
-        "difficulty": "hard",
         "cities": [
           "Hirtshals",
           "Hune"
@@ -148089,7 +148045,6 @@
         "description": "DEVELOPED",
         "distance_km": 23.249,
         "elevation_gain": 63.2,
-        "difficulty": "easy",
         "cities": [
           "Hune",
           "Slettestrand"
@@ -149104,7 +149059,6 @@
         "description": "DEVELOPED",
         "distance_km": 66.718,
         "elevation_gain": 305.5,
-        "difficulty": "hard",
         "cities": [
           "Slettestrand",
           "Hanstholm"
@@ -152744,7 +152698,6 @@
         "description": "DEVELOPED",
         "distance_km": 11.504,
         "elevation_gain": 35.2,
-        "difficulty": "easy",
         "cities": [
           "Hanstholm",
           "Klitmøller"
@@ -153249,7 +153202,6 @@
         "description": "DEVELOPED",
         "distance_km": 61.198,
         "elevation_gain": 190.7,
-        "difficulty": "hard",
         "cities": [
           "Klitmøller",
           "Thyborøn"
@@ -156009,7 +155961,6 @@
         "description": "DEVELOPED",
         "distance_km": 78.342,
         "elevation_gain": 176.0,
-        "difficulty": "hard",
         "cities": [
           "Thyborøn",
           "Søndervig"
@@ -159389,7 +159340,6 @@
         "description": "DEVELOPED",
         "distance_km": 41.957,
         "elevation_gain": 145.5,
-        "difficulty": "moderate",
         "cities": [
           "Søndervig",
           "Nymindegab"
@@ -162874,7 +162824,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.282,
         "elevation_gain": 199.7,
-        "difficulty": "moderate",
         "cities": [
           "Nymindegab",
           "Esbjerg"
@@ -165434,7 +165383,6 @@
         "description": "DEVELOPED",
         "distance_km": 61.71,
         "elevation_gain": 136.5,
-        "difficulty": "hard",
         "cities": [
           "Esbjerg",
           "Brøns"
@@ -168079,7 +168027,6 @@
         "description": "DEVELOPED",
         "distance_km": 41.877,
         "elevation_gain": 72.2,
-        "difficulty": "moderate",
         "cities": [
           "Brøns",
           "Rudbøl"
@@ -169399,7 +169346,6 @@
         "description": "DEVELOPED",
         "distance_km": 60.631,
         "elevation_gain": 61.5,
-        "difficulty": "hard",
         "cities": [
           "Rudbøl",
           "Bredstedt"
@@ -171099,7 +171045,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.533,
         "elevation_gain": 75.3,
-        "difficulty": "moderate",
         "cities": [
           "Bredstedt",
           "Husum"
@@ -172704,7 +172649,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.617,
         "elevation_gain": 102.2,
-        "difficulty": "moderate",
         "cities": [
           "Husum",
           "Sankt Peter-Böhl"
@@ -175264,7 +175208,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.539,
         "elevation_gain": 78.7,
-        "difficulty": "moderate",
         "cities": [
           "Sankt Peter-Böhl",
           "Meldorf"
@@ -177394,7 +177337,6 @@
         "description": "DEVELOPED",
         "distance_km": 70.878,
         "elevation_gain": 232.3,
-        "difficulty": "hard",
         "cities": [
           "Meldorf",
           "Glückstadt"
@@ -180734,7 +180676,6 @@
         "description": "DEVELOPED",
         "distance_km": 25.86,
         "elevation_gain": 50.8,
-        "difficulty": "moderate",
         "cities": [
           "Glückstadt",
           "Elmshorn"
@@ -181604,7 +181545,6 @@
         "description": "DEVELOPED",
         "distance_km": 57.686,
         "elevation_gain": 305.9,
-        "difficulty": "moderate",
         "cities": [
           "Elmshorn",
           "Hamburg"
@@ -184089,7 +184029,6 @@
         "description": "DEVELOPED",
         "distance_km": 64.678,
         "elevation_gain": 202.1,
-        "difficulty": "hard",
         "cities": [
           "Hamburg",
           "Himmelpforten"
@@ -187729,7 +187668,6 @@
         "description": "DEVELOPED",
         "distance_km": 70.033,
         "elevation_gain": 269.6,
-        "difficulty": "hard",
         "cities": [
           "Himmelpforten",
           "Cuxhaven"
@@ -191144,7 +191082,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.532,
         "elevation_gain": 163.0,
-        "difficulty": "moderate",
         "cities": [
           "Cuxhaven",
           "Bremerhaven"
@@ -193669,7 +193606,6 @@
         "description": "DEVELOPED",
         "distance_km": 75.674,
         "elevation_gain": 124.9,
-        "difficulty": "hard",
         "cities": [
           "Bremerhaven",
           "Varel"
@@ -196219,7 +196155,6 @@
         "description": "DEVELOPED",
         "distance_km": 47.119,
         "elevation_gain": 108.8,
-        "difficulty": "moderate",
         "cities": [
           "Varel",
           "Wilhelmshaven"
@@ -198059,7 +197994,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.049,
         "elevation_gain": 113.9,
-        "difficulty": "moderate",
         "cities": [
           "Wilhelmshaven",
           "Jever"
@@ -200589,7 +200523,6 @@
         "description": "DEVELOPED",
         "distance_km": 74.744,
         "elevation_gain": 111.7,
-        "difficulty": "hard",
         "cities": [
           "Jever",
           "Norden"
@@ -203344,7 +203277,6 @@
         "description": "DEVELOPED",
         "distance_km": 46.587,
         "elevation_gain": 87.6,
-        "difficulty": "moderate",
         "cities": [
           "Norden",
           "Greetsiel"
@@ -205484,7 +205416,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.999,
         "elevation_gain": 127.4,
-        "difficulty": "moderate",
         "cities": [
           "Greetsiel",
           "Emden"
@@ -208009,7 +207940,6 @@
         "description": "DEVELOPED",
         "distance_km": 50.046,
         "elevation_gain": 110.9,
-        "difficulty": "moderate",
         "cities": [
           "Emden",
           "Bad Nieuweschans"
@@ -210479,7 +210409,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.677,
         "elevation_gain": 76.0,
-        "difficulty": "moderate",
         "cities": [
           "Bad Nieuweschans",
           "Delfzijl"
@@ -212184,7 +212113,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.257,
         "elevation_gain": 132.7,
-        "difficulty": "hard",
         "cities": [
           "Delfzijl",
           "Ulrum"
@@ -215404,7 +215332,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.95,
         "elevation_gain": 113.7,
-        "difficulty": "moderate",
         "cities": [
           "Ulrum",
           "Holwerd"
@@ -218659,7 +218586,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 68.931,
         "elevation_gain": 124.4,
-        "difficulty": "hard",
         "cities": [
           "Holwerd",
           "Harlingen"
@@ -221959,7 +221885,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 75.124,
         "elevation_gain": 104.1,
-        "difficulty": "hard",
         "cities": [
           "Harlingen",
           "Den Helder"
@@ -223994,7 +223919,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.767,
         "elevation_gain": 259.5,
-        "difficulty": "moderate",
         "cities": [
           "Den Helder",
           "Egmond"
@@ -227814,7 +227738,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.186,
         "elevation_gain": 131.1,
-        "difficulty": "moderate",
         "cities": [
           "Egmond",
           "IJmuiden"
@@ -229769,7 +229692,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.026,
         "elevation_gain": 230.0,
-        "difficulty": "moderate",
         "cities": [
           "IJmuiden",
           "Noordwijk"
@@ -232919,7 +232841,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.562,
         "elevation_gain": 145.6,
-        "difficulty": "easy",
         "cities": [
           "Noordwijk",
           "The Hague"
@@ -234724,7 +234645,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.55,
         "elevation_gain": 85.4,
-        "difficulty": "easy",
         "cities": [
           "The Hague",
           "Hook of Holland"
@@ -236114,7 +236034,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 78.235,
         "elevation_gain": 267.2,
-        "difficulty": "hard",
         "cities": [
           "Hook of Holland",
           "Burgh-Haamstede"
@@ -240499,7 +240418,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.619,
         "elevation_gain": 275.4,
-        "difficulty": "moderate",
         "cities": [
           "Burgh-Haamstede",
           "Vlissingen"
@@ -244409,7 +244327,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.719,
         "elevation_gain": 97.1,
-        "difficulty": "easy",
         "cities": [
           "Breskens",
           "Cadzand"
@@ -246154,7 +246071,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.996,
         "elevation_gain": 120.0,
-        "difficulty": "moderate",
         "cities": [
           "Cadzand",
           "Ostende"
@@ -247134,7 +247050,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.125,
         "elevation_gain": 119.2,
-        "difficulty": "moderate",
         "cities": [
           "Ostende",
           "De Panne"
@@ -248304,7 +248219,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.467,
         "elevation_gain": 42.3,
-        "difficulty": "easy",
         "cities": [
           "De Panne",
           "Dunkerque"
@@ -248844,7 +248758,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.131,
         "elevation_gain": 55.8,
-        "difficulty": "easy",
         "cities": [
           "Loon-Plage",
           "Dunkerque"
@@ -250039,7 +249952,6 @@
         "description": "DEVELOPED",
         "distance_km": 24.721,
         "elevation_gain": 55.8,
-        "difficulty": "easy",
         "cities": [
           "Oye-Plage",
           "Loon-Plage"
@@ -251564,7 +251476,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.691,
         "elevation_gain": 41.1,
-        "difficulty": "easy",
         "cities": [
           "Calais",
           "Oye-Plage"
@@ -252609,7 +252520,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.74,
         "elevation_gain": 441.9,
-        "difficulty": "moderate",
         "cities": [
           "Canterbury",
           "Dover"
@@ -254364,7 +254274,6 @@
         "description": "DEVELOPED",
         "distance_km": 26.888,
         "elevation_gain": 199.7,
-        "difficulty": "moderate",
         "cities": [
           "Canterbury",
           "Faversham"
@@ -255899,7 +255808,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.245,
         "elevation_gain": 324.6,
-        "difficulty": "moderate",
         "cities": [
           "Faversham",
           "Rochester"
@@ -259249,7 +259157,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.075,
         "elevation_gain": 349.5,
-        "difficulty": "moderate",
         "cities": [
           "Rochester",
           "Dartford"
@@ -261359,7 +261266,6 @@
         "description": "DEVELOPED",
         "distance_km": 30.184,
         "elevation_gain": 170.9,
-        "difficulty": "moderate",
         "cities": [
           "Dartford",
           "London Greenwich"
@@ -264224,7 +264130,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.538,
         "elevation_gain": 140.0,
-        "difficulty": "moderate",
         "cities": [
           "London Greenwich",
           "Waltham Cross"
@@ -266454,7 +266359,6 @@
         "description": "DEVELOPED",
         "distance_km": 56.818,
         "elevation_gain": 422.0,
-        "difficulty": "moderate",
         "cities": [
           "Waltham Cross",
           "Chelmsford"
@@ -270879,7 +270783,6 @@
         "description": "DEVELOPED",
         "distance_km": 61.456,
         "elevation_gain": 445.3,
-        "difficulty": "hard",
         "cities": [
           "Chelmsford",
           "Colchester"
@@ -274644,7 +274547,6 @@
         "description": "DEVELOPED",
         "distance_km": 43.519,
         "elevation_gain": 334.1,
-        "difficulty": "moderate",
         "cities": [
           "Colchester",
           "Ipswich"
@@ -277314,7 +277216,6 @@
         "description": "DEVELOPED",
         "distance_km": 68.279,
         "elevation_gain": 483.8,
-        "difficulty": "hard",
         "cities": [
           "Ipswich",
           "Halesworth"
@@ -281089,7 +280990,6 @@
         "description": "DEVELOPED",
         "distance_km": 60.938,
         "elevation_gain": 410.2,
-        "difficulty": "hard",
         "cities": [
           "Halesworth",
           "Norwich"
@@ -284109,7 +284009,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.034,
         "elevation_gain": 297.6,
-        "difficulty": "moderate",
         "cities": [
           "Norwich",
           "Fakenham"
@@ -286399,7 +286298,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.929,
         "elevation_gain": 485.6,
-        "difficulty": "moderate",
         "cities": [
           "Fakenham",
           "Dersingham"
@@ -288604,7 +288502,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.693,
         "elevation_gain": 177.1,
-        "difficulty": "moderate",
         "cities": [
           "Dersingham",
           "Wisbech"
@@ -290909,7 +290806,6 @@
         "description": "DEVELOPED",
         "distance_km": 61.895,
         "elevation_gain": 144.5,
-        "difficulty": "hard",
         "cities": [
           "Wisbech",
           "Boston"
@@ -293864,7 +293760,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.034,
         "elevation_gain": 138.2,
-        "difficulty": "moderate",
         "cities": [
           "Boston",
           "Lincoln"
@@ -295449,7 +295344,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.191,
         "elevation_gain": 319.9,
-        "difficulty": "moderate",
         "cities": [
           "Lincoln",
           "Grimsby"
@@ -296984,7 +296878,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.719,
         "elevation_gain": 273.0,
-        "difficulty": "moderate",
         "cities": [
           "Grimsby",
           "Hull"
@@ -298304,7 +298197,6 @@
         "description": "DEVELOPED",
         "distance_km": 78.169,
         "elevation_gain": 415.8,
-        "difficulty": "hard",
         "cities": [
           "Hull",
           "Bridlington"
@@ -301329,7 +301221,6 @@
         "description": "DEVELOPED",
         "distance_km": 40.917,
         "elevation_gain": 432.2,
-        "difficulty": "moderate",
         "cities": [
           "Bridlington",
           "Scarborough"
@@ -302884,7 +302775,6 @@
         "description": "DEVELOPED",
         "distance_km": 30.603,
         "elevation_gain": 312.8,
-        "difficulty": "moderate",
         "cities": [
           "Scarborough",
           "Whitby"
@@ -304384,7 +304274,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.443,
         "elevation_gain": 801.7,
-        "difficulty": "hard",
         "cities": [
           "Whitby",
           "Great Ayton"
@@ -306599,7 +306488,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.148,
         "elevation_gain": 180.8,
-        "difficulty": "moderate",
         "cities": [
           "Great Ayton",
           "Stockton-on-Tees"
@@ -309034,7 +308922,6 @@
         "description": "DEVELOPED",
         "distance_km": 56.17,
         "elevation_gain": 458.9,
-        "difficulty": "moderate",
         "cities": [
           "Stockton-on-Tees",
           "Sunderland"
@@ -312144,7 +312031,6 @@
         "description": "DEVELOPED",
         "distance_km": 23.643,
         "elevation_gain": 270.3,
-        "difficulty": "moderate",
         "cities": [
           "Sunderland",
           "Newcastle upon Tyne"
@@ -313799,7 +313685,6 @@
         "description": "DEVELOPED",
         "distance_km": 52.194,
         "elevation_gain": 341.5,
-        "difficulty": "moderate",
         "cities": [
           "Newcastle upon Tyne",
           "Amble"
@@ -316869,7 +316754,6 @@
         "description": "DEVELOPED",
         "distance_km": 40.262,
         "elevation_gain": 311.1,
-        "difficulty": "moderate",
         "cities": [
           "Amble",
           "North Sunderland"
@@ -318749,7 +318633,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.699,
         "elevation_gain": 404.6,
-        "difficulty": "moderate",
         "cities": [
           "North Sunderland",
           "Berwick-upon-Tweed"
@@ -320554,7 +320437,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.811,
         "elevation_gain": 674.5,
-        "difficulty": "moderate",
         "cities": [
           "Berwick-upon-Tweed",
           "Dunbar"
@@ -322874,7 +322756,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.232,
         "elevation_gain": 387.5,
-        "difficulty": "moderate",
         "cities": [
           "Dunbar",
           "Edinburgh"
@@ -325714,7 +325595,6 @@
         "description": "DEVELOPED",
         "distance_km": 46.467,
         "elevation_gain": 579.6,
-        "difficulty": "moderate",
         "cities": [
           "Edinburgh",
           "Kinross"
@@ -328334,7 +328214,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.046,
         "elevation_gain": 652.6,
-        "difficulty": "moderate",
         "cities": [
           "Kinross",
           "St Andrews"
@@ -330904,7 +330783,6 @@
         "description": "DEVELOPED",
         "distance_km": 36.185,
         "elevation_gain": 241.6,
-        "difficulty": "moderate",
         "cities": [
           "St Andrews",
           "Dundee"
@@ -333024,7 +332902,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.447,
         "elevation_gain": 335.2,
-        "difficulty": "moderate",
         "cities": [
           "Dundee",
           "Montrose"
@@ -335004,7 +334881,6 @@
         "description": "DEVELOPED",
         "distance_km": 41.741,
         "elevation_gain": 466.5,
-        "difficulty": "moderate",
         "cities": [
           "Montrose",
           "Stonehaven"
@@ -336534,7 +336410,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.713,
         "elevation_gain": 517.8,
-        "difficulty": "moderate",
         "cities": [
           "Stonehaven",
           "Aberdeen"
@@ -338309,7 +338184,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.167,
         "elevation_gain": 597.3,
-        "difficulty": "moderate",
         "cities": [
           "Aberdeen",
           "Maud"
@@ -340914,7 +340788,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.956,
         "elevation_gain": 487.2,
-        "difficulty": "moderate",
         "cities": [
           "Maud",
           "Banff"
@@ -342509,7 +342382,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.262,
         "elevation_gain": 733.6,
-        "difficulty": "hard",
         "cities": [
           "Banff",
           "Elgin"
@@ -345639,7 +345511,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.073,
         "elevation_gain": 662.3,
-        "difficulty": "hard",
         "cities": [
           "Elgin",
           "Inverness"
@@ -348334,7 +348205,6 @@
         "description": "DEVELOPED",
         "distance_km": 36.308,
         "elevation_gain": 385.6,
-        "difficulty": "moderate",
         "cities": [
           "Inverness",
           "Dingwall"
@@ -350174,7 +350044,6 @@
         "description": "DEVELOPED",
         "distance_km": 37.102,
         "elevation_gain": 377.7,
-        "difficulty": "moderate",
         "cities": [
           "Dingwall",
           "Tain"
@@ -351614,7 +351483,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.189,
         "elevation_gain": 395.9,
-        "difficulty": "moderate",
         "cities": [
           "Tain",
           "Lairg"
@@ -353319,7 +353187,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.784,
         "elevation_gain": 634.0,
-        "difficulty": "moderate",
         "cities": [
           "Lairg",
           "Tongue"
@@ -355339,7 +355206,6 @@
         "description": "DEVELOPED",
         "distance_km": 67.479,
         "elevation_gain": 1002.7,
-        "difficulty": "hard",
         "cities": [
           "Tongue",
           "Thurso"
@@ -357989,7 +357855,6 @@
         "description": "DEVELOPED",
         "distance_km": 34.159,
         "elevation_gain": 244.8,
-        "difficulty": "moderate",
         "cities": [
           "Thurso",
           "Wick"
@@ -358719,7 +358584,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.307,
         "elevation_gain": 417.7,
-        "difficulty": "moderate",
         "cities": [
           "Burwick",
           "Kirkwall"
@@ -359844,7 +359708,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.495,
         "elevation_gain": 535.2,
-        "difficulty": "moderate",
         "cities": [
           "Kirkwall",
           "Swannay"
@@ -361104,7 +360967,6 @@
         "description": "DEVELOPED",
         "distance_km": 34.664,
         "elevation_gain": 332.9,
-        "difficulty": "moderate",
         "cities": [
           "Swannay",
           "Stromness"
@@ -362114,7 +361976,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.508,
         "elevation_gain": 846.1,
-        "difficulty": "hard",
         "cities": [
           "Sumburgh",
           "Lerwick"
@@ -364504,7 +364365,6 @@
         "description": "DEVELOPED",
         "distance_km": 62.308,
         "elevation_gain": 1105.1,
-        "difficulty": "hard",
         "cities": [
           "Lerwick",
           "Mossbank"
@@ -367179,7 +367039,6 @@
         "description": "DEVELOPED",
         "distance_km": 28.191,
         "elevation_gain": 341.1,
-        "difficulty": "moderate",
         "cities": [
           "Ulsta",
           "Gutcher"
@@ -368044,7 +367903,6 @@
         "description": "DEVELOPED",
         "distance_km": 20.076,
         "elevation_gain": 239.9,
-        "difficulty": "moderate",
         "cities": [
           "Belmont",
           "Norwick"

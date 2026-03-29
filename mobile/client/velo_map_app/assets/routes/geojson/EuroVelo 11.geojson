@@ -5,7 +5,6 @@
     "name": "East Europe Route",
     "description": "",
     "distance_km": 6924.686,
-    "difficulty": "hard",
     "route_number": 11,
     "total_stages": 111,
     "cities": [
@@ -124,8 +123,7 @@
       "Athens"
     ],
     "full_name": "East Europe Route",
-    "color": "0xFFE67E22",
-    "route_description": "Labelled by some bicycle tourists as the 'Beast of the East', this lengthy route with its 6,550 km stretches from the north-east tip of Norway all the way down to sunny Greece. EuroVelo 11 will lead you through six extremely different capital cities: hip Helsinki, charming Vilnius, the 'Phoenix City' of Warsaw, the 'White City' of Belgrade, exciting Skopje and, last but not least, enchanting ancient Athens. Give it a go and discover a new favourite destination!"
+    "route_description": "Nicknamed the \"Beast of the East\" by those who've tackled its 6,550 km, this epic north-south route runs from Norway's northeastern tip down to sun-drenched Greece. Along the way, six remarkable capitals — Helsinki, Vilnius, Warsaw, Belgrade, Skopje and Athens — each offer a completely different flavour of Eastern European life."
   },
   "features": [
     {
@@ -136,7 +134,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.129,
         "elevation_gain": 616.6,
-        "difficulty": "moderate",
         "cities": [
           "Nordkapp",
           "Honningsvåg"
@@ -1806,7 +1803,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.475,
         "elevation_gain": 1576.3,
-        "difficulty": "hard",
         "cities": [
           "Honningsvåg",
           "Repvåg"
@@ -3726,7 +3722,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.119,
         "elevation_gain": 1222.4,
-        "difficulty": "hard",
         "cities": [
           "Repvåg",
           "Olderfjord"
@@ -6101,7 +6096,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.05,
         "elevation_gain": 720.1,
-        "difficulty": "hard",
         "cities": [
           "Olderfjord",
           "Lakselv"
@@ -8411,7 +8405,6 @@
         "description": "PLANNING",
         "distance_km": 74.071,
         "elevation_gain": 955.4,
-        "difficulty": "hard",
         "cities": [
           "Lakselv",
           "Karasjok"
@@ -10771,7 +10764,6 @@
         "description": "PLANNING",
         "distance_km": 17.878,
         "elevation_gain": 161.7,
-        "difficulty": "easy",
         "cities": [
           "Karasjok",
           "Karigasniemi"
@@ -11596,7 +11588,6 @@
         "description": "DEVELOPED",
         "distance_km": 98.652,
         "elevation_gain": 618.7,
-        "difficulty": "hard",
         "cities": [
           "Karigasniemi",
           "Inari"
@@ -13711,7 +13702,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.44,
         "elevation_gain": 355.2,
-        "difficulty": "moderate",
         "cities": [
           "Inari",
           "Ivalo"
@@ -15761,7 +15751,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.491,
         "elevation_gain": 339.4,
-        "difficulty": "moderate",
         "cities": [
           "Ivalo",
           "Saariselkä"
@@ -16961,7 +16950,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.181,
         "elevation_gain": 226.7,
-        "difficulty": "moderate",
         "cities": [
           "Saariselkä",
           "Vuotso"
@@ -18426,7 +18414,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.423,
         "elevation_gain": 152.2,
-        "difficulty": "moderate",
         "cities": [
           "Vuotso",
           "Peurasuvanto"
@@ -19121,7 +19108,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 52.838,
         "elevation_gain": 143.7,
-        "difficulty": "moderate",
         "cities": [
           "Peurasuvanto",
           "Sodankyla"
@@ -20546,7 +20532,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.703,
         "elevation_gain": 80.2,
-        "difficulty": "easy",
         "cities": [
           "Sodankyla",
           "Aska"
@@ -21196,7 +21181,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 249.299,
         "elevation_gain": 510.3,
-        "difficulty": "hard",
         "cities": [
           "Aska",
           "Kemi"
@@ -22181,7 +22165,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 47.067,
         "elevation_gain": 142.6,
-        "difficulty": "moderate",
         "cities": [
           "Kemi",
           "Kuivaniemi"
@@ -23471,7 +23454,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 74.711,
         "elevation_gain": 147.5,
-        "difficulty": "hard",
         "cities": [
           "Kuivaniemi",
           "Oulu"
@@ -25776,7 +25758,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 931.601,
         "elevation_gain": 6498.8,
-        "difficulty": "hard",
         "cities": [
           "Oulu",
           "Helsinki"
@@ -57616,7 +57597,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.095,
         "elevation_gain": 214.2,
-        "difficulty": "moderate",
         "cities": [
           "Tallinn",
           "Haavakannu"
@@ -59961,7 +59941,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.654,
         "elevation_gain": 274.6,
-        "difficulty": "moderate",
         "cities": [
           "Haavakannu",
           "Loksa"
@@ -62161,7 +62140,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.275,
         "elevation_gain": 326.8,
-        "difficulty": "moderate",
         "cities": [
           "Loksa",
           "Vosu"
@@ -64811,7 +64789,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.11,
         "elevation_gain": 159.1,
-        "difficulty": "moderate",
         "cities": [
           "Vosu",
           "Karula"
@@ -65896,7 +65873,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.556,
         "elevation_gain": 151.2,
-        "difficulty": "moderate",
         "cities": [
           "Karula",
           "Rakvere"
@@ -66746,7 +66722,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.833,
         "elevation_gain": 286.0,
-        "difficulty": "moderate",
         "cities": [
           "Rakvere",
           "Simuna alevik"
@@ -67826,7 +67801,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.768,
         "elevation_gain": 189.6,
-        "difficulty": "moderate",
         "cities": [
           "Simuna alevik",
           "Jõgeva Parish"
@@ -68621,7 +68595,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.401,
         "elevation_gain": 417.7,
-        "difficulty": "hard",
         "cities": [
           "Jõgeva Parish",
           "Tartu"
@@ -70541,7 +70514,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.821,
         "elevation_gain": 396.4,
-        "difficulty": "moderate",
         "cities": [
           "Tartu",
           "Otepää"
@@ -72066,7 +72038,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 74.645,
         "elevation_gain": 577.8,
-        "difficulty": "hard",
         "cities": [
           "Otepää",
           "Valga"
@@ -74986,7 +74957,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 92.373,
         "elevation_gain": 673.1,
-        "difficulty": "hard",
         "cities": [
           "Valga",
           "Cēsis"
@@ -77496,7 +77466,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.047,
         "elevation_gain": 218.1,
-        "difficulty": "moderate",
         "cities": [
           "Cēsis",
           "Sigulda"
@@ -77746,7 +77715,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 256.856,
         "elevation_gain": 755.9,
-        "difficulty": "hard",
         "cities": [
           "Sigulda",
           "Rēzekne"
@@ -78846,7 +78814,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 263.388,
         "elevation_gain": 1754.6,
-        "difficulty": "hard",
         "cities": [
           "Rēzekne",
           "Zarasai"
@@ -85086,7 +85053,6 @@
         "description": "PLANNING",
         "distance_km": 39.537,
         "elevation_gain": 305.5,
-        "difficulty": "moderate",
         "cities": [
           "Zarasai",
           "Visaginas"
@@ -86371,7 +86337,6 @@
         "description": "PLANNING",
         "distance_km": 47.006,
         "elevation_gain": 359.3,
-        "difficulty": "moderate",
         "cities": [
           "Visaginas",
           "Ignalina"
@@ -88441,7 +88406,6 @@
         "description": "PLANNING",
         "distance_km": 43.753,
         "elevation_gain": 386.4,
-        "difficulty": "moderate",
         "cities": [
           "Ignalina",
           "Labanoras"
@@ -90466,7 +90430,6 @@
         "description": "PLANNING",
         "distance_km": 66.064,
         "elevation_gain": 587.3,
-        "difficulty": "hard",
         "cities": [
           "Labanoras",
           "Suzionys"
@@ -94201,7 +94164,6 @@
         "description": "PLANNING",
         "distance_km": 46.944,
         "elevation_gain": 394.8,
-        "difficulty": "moderate",
         "cities": [
           "Suzionys",
           "Vilnius"
@@ -95831,7 +95793,6 @@
         "description": "PLANNING",
         "distance_km": 34.891,
         "elevation_gain": 317.9,
-        "difficulty": "moderate",
         "cities": [
           "Vilnius",
           "Trakai"
@@ -97886,7 +97847,6 @@
         "description": "PLANNING",
         "distance_km": 60.118,
         "elevation_gain": 534.3,
-        "difficulty": "hard",
         "cities": [
           "Trakai",
           "Pivasuinai"
@@ -100321,7 +100281,6 @@
         "description": "PLANNING",
         "distance_km": 52.5,
         "elevation_gain": 248.6,
-        "difficulty": "moderate",
         "cities": [
           "Pivasuinai",
           "Merkine"
@@ -102121,7 +102080,6 @@
         "description": "PLANNING",
         "distance_km": 28.283,
         "elevation_gain": 204.4,
-        "difficulty": "moderate",
         "cities": [
           "Merkine",
           "Druskininkai"
@@ -103031,7 +102989,6 @@
         "description": "PLANNING",
         "distance_km": 52.856,
         "elevation_gain": 388.8,
-        "difficulty": "moderate",
         "cities": [
           "Druskininkai",
           "Ogrodniki"
@@ -105141,7 +105098,6 @@
         "description": "PLANNING",
         "distance_km": 43.033,
         "elevation_gain": 261.0,
-        "difficulty": "moderate",
         "cities": [
           "Ogrodniki",
           "Stary Folwark"
@@ -107021,7 +106977,6 @@
         "description": "PLANNING",
         "distance_km": 48.292,
         "elevation_gain": 357.0,
-        "difficulty": "moderate",
         "cities": [
           "Stary Folwark",
           "Augustow"
@@ -108801,7 +108756,6 @@
         "description": "PLANNING",
         "distance_km": 52.523,
         "elevation_gain": 211.5,
-        "difficulty": "moderate",
         "cities": [
           "Augustow",
           "Rajgród"
@@ -110246,7 +110200,6 @@
         "description": "PLANNING",
         "distance_km": 68.39,
         "elevation_gain": 261.9,
-        "difficulty": "hard",
         "cities": [
           "Rajgród",
           "Witkowo"
@@ -111831,7 +111784,6 @@
         "description": "PLANNING",
         "distance_km": 30.616,
         "elevation_gain": 200.1,
-        "difficulty": "moderate",
         "cities": [
           "Witkowo",
           "Łomża"
@@ -112891,7 +112843,6 @@
         "description": "PLANNING",
         "distance_km": 50.03,
         "elevation_gain": 200.8,
-        "difficulty": "moderate",
         "cities": [
           "Łomża",
           "Ostrołęka"
@@ -113976,7 +113927,6 @@
         "description": "PLANNING",
         "distance_km": 81.278,
         "elevation_gain": 244.8,
-        "difficulty": "hard",
         "cities": [
           "Ostrołęka",
           "Pułtusk"
@@ -115196,7 +115146,6 @@
         "description": "PLANNING",
         "distance_km": 34.256,
         "elevation_gain": 249.4,
-        "difficulty": "moderate",
         "cities": [
           "Pułtusk",
           "Zegrze"
@@ -116841,7 +116790,6 @@
         "description": "PLANNING",
         "distance_km": 30.217,
         "elevation_gain": 119.5,
-        "difficulty": "moderate",
         "cities": [
           "Zegrze",
           "Warsaw"
@@ -118421,7 +118369,6 @@
         "description": "PLANNING",
         "distance_km": 36.674,
         "elevation_gain": 140.5,
-        "difficulty": "moderate",
         "cities": [
           "Warsaw",
           "Góra Kalwaria"
@@ -119571,7 +119518,6 @@
         "description": "PLANNING",
         "distance_km": 70.552,
         "elevation_gain": 160.6,
-        "difficulty": "hard",
         "cities": [
           "Góra Kalwaria",
           "Kozienice"
@@ -121596,7 +121542,6 @@
         "description": "PLANNING",
         "distance_km": 37.483,
         "elevation_gain": 189.7,
-        "difficulty": "moderate",
         "cities": [
           "Kozienice",
           "Radom"
@@ -122811,7 +122756,6 @@
         "description": "PLANNING",
         "distance_km": 31.49,
         "elevation_gain": 156.0,
-        "difficulty": "moderate",
         "cities": [
           "Radom",
           "Szydłowiec"
@@ -123911,7 +123855,6 @@
         "description": "PLANNING",
         "distance_km": 30.538,
         "elevation_gain": 219.1,
-        "difficulty": "moderate",
         "cities": [
           "Szydłowiec",
           "Stąporków"
@@ -124526,7 +124469,6 @@
         "description": "PLANNING",
         "distance_km": 53.79,
         "elevation_gain": 325.0,
-        "difficulty": "moderate",
         "cities": [
           "Stąporków",
           "Kielce"
@@ -126316,7 +126258,6 @@
         "description": "PLANNING",
         "distance_km": 50.261,
         "elevation_gain": 259.8,
-        "difficulty": "moderate",
         "cities": [
           "Kielce",
           "Raków"
@@ -127671,7 +127612,6 @@
         "description": "PLANNING",
         "distance_km": 56.801,
         "elevation_gain": 224.3,
-        "difficulty": "moderate",
         "cities": [
           "Raków",
           "Pińczów"
@@ -129776,7 +129716,6 @@
         "description": "PLANNING",
         "distance_km": 28.347,
         "elevation_gain": 99.7,
-        "difficulty": "moderate",
         "cities": [
           "Pińczów",
           "Wislica"
@@ -130156,7 +130095,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.791,
         "elevation_gain": 306.9,
-        "difficulty": "moderate",
         "cities": [
           "Wislica",
           "Proszowice"
@@ -132596,7 +132534,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 31.326,
         "elevation_gain": 198.0,
-        "difficulty": "moderate",
         "cities": [
           "Proszowice",
           "Krakow"
@@ -133681,7 +133618,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 16.431,
         "elevation_gain": 27.9,
-        "difficulty": "easy",
         "cities": [
           "Krakow",
           "Niepołomice"
@@ -134451,7 +134387,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.768,
         "elevation_gain": 248.9,
-        "difficulty": "hard",
         "cities": [
           "Niepołomice",
           "Tarnów"
@@ -137131,7 +137066,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.213,
         "elevation_gain": 362.8,
-        "difficulty": "moderate",
         "cities": [
           "Tarnów",
           "Czchów"
@@ -139531,7 +139465,6 @@
         "description": "PLANNING",
         "distance_km": 34.917,
         "elevation_gain": 1199.6,
-        "difficulty": "hard",
         "cities": [
           "Czchów",
           "Nowy Sącz"
@@ -141651,7 +141584,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.097,
         "elevation_gain": 531.1,
-        "difficulty": "moderate",
         "cities": [
           "Nowy Sącz",
           "Mníšek nad Popradom"
@@ -144051,7 +143983,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.751,
         "elevation_gain": 621.1,
-        "difficulty": "moderate",
         "cities": [
           "Mníšek nad Popradom",
           "Muszyna"
@@ -145981,7 +145912,6 @@
         "description": "DEVELOPED",
         "distance_km": 5.668,
         "elevation_gain": 102.1,
-        "difficulty": "easy",
         "cities": [
           "Muszyna",
           "Zadný Kurčín"
@@ -146416,7 +146346,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.392,
         "elevation_gain": 1117.0,
-        "difficulty": "hard",
         "cities": [
           "Zadný Kurčín",
           "Lipany"
@@ -150506,7 +150435,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.8,
         "elevation_gain": 185.4,
-        "difficulty": "moderate",
         "cities": [
           "Lipany",
           "Prešov"
@@ -151481,7 +151409,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.748,
         "elevation_gain": 266.1,
-        "difficulty": "moderate",
         "cities": [
           "Prešov",
           "Košice"
@@ -152806,7 +152733,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.693,
         "elevation_gain": 92.0,
-        "difficulty": "moderate",
         "cities": [
           "Košice",
           "Trstené pri Hornáde"
@@ -153806,7 +153732,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.942,
         "elevation_gain": 725.7,
-        "difficulty": "moderate",
         "cities": [
           "Trstené pri Hornáde",
           "Sátoraljaújhely"
@@ -156301,7 +156226,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.756,
         "elevation_gain": 219.4,
-        "difficulty": "moderate",
         "cities": [
           "Sátoraljaújhely",
           "Tokaj"
@@ -157626,7 +157550,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 85.251,
         "elevation_gain": 83.0,
-        "difficulty": "hard",
         "cities": [
           "Tokaj",
           "Tiszacsege"
@@ -158026,7 +157949,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.332,
         "elevation_gain": 10.7,
-        "difficulty": "easy",
         "cities": [
           "Tiszacsege",
           "Tiszafüred"
@@ -158146,7 +158068,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.915,
         "elevation_gain": 89.0,
-        "difficulty": "moderate",
         "cities": [
           "Tiszafüred",
           "Kisköre"
@@ -159351,7 +159272,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.464,
         "elevation_gain": 144.5,
-        "difficulty": "hard",
         "cities": [
           "Kisköre",
           "Szolnok"
@@ -161126,7 +161046,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.394,
         "elevation_gain": 125.8,
-        "difficulty": "hard",
         "cities": [
           "Szolnok",
           "Csongrád"
@@ -162611,7 +162530,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 81.716,
         "elevation_gain": 159.5,
-        "difficulty": "hard",
         "cities": [
           "Csongrád",
           "Szeged (border)"
@@ -164311,7 +164229,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.092,
         "elevation_gain": 90.2,
-        "difficulty": "moderate",
         "cities": [
           "Szeged (border)",
           "Senta"
@@ -165311,7 +165228,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.674,
         "elevation_gain": 155.8,
-        "difficulty": "moderate",
         "cities": [
           "Senta",
           "Novi Bečej"
@@ -166826,7 +166742,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.661,
         "elevation_gain": 76.6,
-        "difficulty": "moderate",
         "cities": [
           "Novi Bečej",
           "Zrenjanin"
@@ -167841,7 +167756,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 99.889,
         "elevation_gain": 367.4,
-        "difficulty": "hard",
         "cities": [
           "Zrenjanin",
           "Belgrade"
@@ -170421,7 +170335,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.426,
         "elevation_gain": 144.7,
-        "difficulty": "hard",
         "cities": [
           "Belgrade",
           "Smederevo"
@@ -172066,7 +171979,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.267,
         "elevation_gain": 97.5,
-        "difficulty": "moderate",
         "cities": [
           "Smederevo",
           "Požarevac"
@@ -173351,7 +173263,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.322,
         "elevation_gain": 221.2,
-        "difficulty": "moderate",
         "cities": [
           "Požarevac",
           "Svilajnac"
@@ -174691,7 +174602,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.321,
         "elevation_gain": 355.1,
-        "difficulty": "moderate",
         "cities": [
           "Svilajnac",
           "Paraćin"
@@ -176661,7 +176571,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.424,
         "elevation_gain": 425.2,
-        "difficulty": "moderate",
         "cities": [
           "Paraćin",
           "Aleksinac"
@@ -178076,7 +177985,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.726,
         "elevation_gain": 299.7,
-        "difficulty": "moderate",
         "cities": [
           "Aleksinac",
           "Nis"
@@ -179576,7 +179484,6 @@
         "description": "PLANNING",
         "distance_km": 43.518,
         "elevation_gain": 207.6,
-        "difficulty": "moderate",
         "cities": [
           "Nis",
           "Leskovac"
@@ -180766,7 +180673,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.799,
         "elevation_gain": 605.7,
-        "difficulty": "moderate",
         "cities": [
           "Leskovac",
           "Vladicin Han"
@@ -182526,7 +182432,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.561,
         "elevation_gain": 294.4,
-        "difficulty": "moderate",
         "cities": [
           "Vladicin Han",
           "Vranje"
@@ -183786,7 +183691,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.669,
         "elevation_gain": 741.2,
-        "difficulty": "moderate",
         "cities": [
           "Vranje",
           "Selsko"
@@ -186161,7 +186065,6 @@
         "description": "PLANNING",
         "distance_km": 19.546,
         "elevation_gain": 333.5,
-        "difficulty": "moderate",
         "cities": [
           "Selsko",
           "Mlado Nagorichane"
@@ -187391,7 +187294,6 @@
         "description": "PLANNING",
         "distance_km": 51.089,
         "elevation_gain": 572.8,
-        "difficulty": "moderate",
         "cities": [
           "Mlado Nagorichane",
           "Skopje"
@@ -190021,7 +189923,6 @@
         "description": "PLANNING",
         "distance_km": 187.897,
         "elevation_gain": 2277.2,
-        "difficulty": "hard",
         "cities": [
           "Skopje",
           "Doirani"
@@ -199611,7 +199512,6 @@
         "description": "DEVELOPED",
         "distance_km": 28.972,
         "elevation_gain": 346.0,
-        "difficulty": "moderate",
         "cities": [
           "Doirani",
           "Kilkis"
@@ -200401,7 +200301,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.988,
         "elevation_gain": 378.4,
-        "difficulty": "moderate",
         "cities": [
           "Kilkis",
           "Thessaloniki"
@@ -203066,7 +202965,6 @@
         "description": "DEVELOPED",
         "distance_km": 76.09,
         "elevation_gain": 234.1,
-        "difficulty": "hard",
         "cities": [
           "Thessaloniki",
           "Nea Agathoupoli"
@@ -205366,7 +205264,6 @@
         "description": "DEVELOPED",
         "distance_km": 27.116,
         "elevation_gain": 209.1,
-        "difficulty": "moderate",
         "cities": [
           "Nea Agathoupoli",
           "Olympiaki Akti"
@@ -206426,7 +206323,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.364,
         "elevation_gain": 303.8,
-        "difficulty": "moderate",
         "cities": [
           "Olympiaki Akti",
           "Platamonas"
@@ -208661,7 +208557,6 @@
         "description": "DEVELOPED",
         "distance_km": 47.825,
         "elevation_gain": 413.5,
-        "difficulty": "moderate",
         "cities": [
           "Platamonas",
           "Larissa"
@@ -210446,7 +210341,6 @@
         "description": "DEVELOPED",
         "distance_km": 68.763,
         "elevation_gain": 340.7,
-        "difficulty": "hard",
         "cities": [
           "Larissa",
           "Almuros"
@@ -211901,7 +211795,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.605,
         "elevation_gain": 611.2,
-        "difficulty": "moderate",
         "cities": [
           "Almuros",
           "Glyfa"
@@ -213986,7 +213879,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.695,
         "elevation_gain": 780.4,
-        "difficulty": "moderate",
         "cities": [
           "Glyfa",
           "Lamia"
@@ -216261,7 +216153,6 @@
         "description": "DEVELOPED",
         "distance_km": 40.533,
         "elevation_gain": 241.9,
-        "difficulty": "moderate",
         "cities": [
           "Lamia",
           "Kamena Vourla"
@@ -217906,7 +217797,6 @@
         "description": "DEVELOPED",
         "distance_km": 37.825,
         "elevation_gain": 263.1,
-        "difficulty": "moderate",
         "cities": [
           "Kamena Vourla",
           "Skala Atalantis"
@@ -219596,7 +219486,6 @@
         "description": "DEVELOPED",
         "distance_km": 82.087,
         "elevation_gain": 919.2,
-        "difficulty": "hard",
         "cities": [
           "Skala Atalantis",
           "Thiva"
@@ -223401,7 +223290,6 @@
         "description": "DEVELOPED",
         "distance_km": 73.623,
         "elevation_gain": 830.3,
-        "difficulty": "hard",
         "cities": [
           "Thiva",
           "Skala Oropou"
@@ -227711,7 +227599,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.481,
         "elevation_gain": 844.3,
-        "difficulty": "hard",
         "cities": [
           "Skala Oropou",
           "Athens"

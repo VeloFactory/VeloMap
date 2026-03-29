@@ -13,13 +13,10 @@ from typing import Any, Dict, List, Optional, Tuple
 GPX_NS = {"gpx": "http://www.topografix.com/GPX/1/1"}
 EARTH_RADIUS_M = 6371000.0
 
-DIFF_ORDER = {"easy": 0, "moderate": 1, "hard": 2}
-
 # Regex to split city separators, but NOT hyphens within compound city names
 # Splits on dashes that have whitespace on at least one side (city separators)
 # Does NOT split on dashes without spaces (e.g., "Mauves-sur-Loire")
 CITY_SEP_RE = re.compile(r"\s+(?:-|–|—|−)\s*|\s*(?:-|–|—|−)\s+")
-
 
 def load_route_metadata(metadata_path: Optional[str] = None) -> Dict[int, Dict[str, str]]:
     """
@@ -45,7 +42,6 @@ def load_route_metadata(metadata_path: Optional[str] = None) -> Dict[int, Dict[s
             if rn > 0:
                 result[rn] = {
                     "full_name": item.get("route_full_name", ""),
-                    "color": item.get("route_color", ""),
                     "route_description": item.get("route_description", ""),
                 }
         return result
@@ -53,20 +49,17 @@ def load_route_metadata(metadata_path: Optional[str] = None) -> Dict[int, Dict[s
         print(f"WARNING: Failed to load route metadata: {e}", file=sys.stderr)
         return {}
 
-
 def _get_text(el: Optional[ET.Element]) -> Optional[str]:
     if el is None:
         return None
     txt = (el.text or "").strip()
     return txt or None
 
-
 def _float_attr(el: ET.Element, key: str) -> float:
     v = el.get(key)
     if v is None:
         raise ValueError(f"Missing attribute '{key}' on element <{el.tag}>")
     return float(v)
-
 
 def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """Great-circle distance in meters."""
@@ -78,7 +71,6 @@ def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     a = math.sin(dphi / 2.0) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlmb / 2.0) ** 2
     c = 2.0 * math.atan2(math.sqrt(a), math.sqrt(1.0 - a))
     return EARTH_RADIUS_M * c
-
 
 def parse_gpx_tracks(gpx_path: str) -> List[Dict[str, Any]]:
     """
@@ -129,13 +121,11 @@ def parse_gpx_tracks(gpx_path: str) -> List[Dict[str, Any]]:
 
     return tracks
 
-
 def _pt_to_coord(p: Dict[str, Any]) -> List[float]:
     # GeoJSON expects [lon, lat] (and optional 3rd z)
     if p.get("ele") is None:
         return [p["lon"], p["lat"]]
     return [p["lon"], p["lat"], float(p["ele"])]
-
 
 def segments_to_geometry(segments: List[List[Dict[str, Any]]]) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
     """
@@ -155,7 +145,6 @@ def segments_to_geometry(segments: List[List[Dict[str, Any]]]) -> Tuple[Dict[str
 
     return {"type": "MultiLineString", "coordinates": coords}, flat
 
-
 def compute_distance_km(points: List[Dict[str, Any]]) -> float:
     if len(points) < 2:
         return 0.0
@@ -165,7 +154,6 @@ def compute_distance_km(points: List[Dict[str, Any]]) -> float:
         dist_m += haversine_m(prev["lat"], prev["lon"], p["lat"], p["lon"])
         prev = p
     return dist_m / 1000.0
-
 
 def compute_elevation_gain(points: List[Dict[str, Any]]) -> float:
     """
@@ -186,40 +174,11 @@ def compute_elevation_gain(points: List[Dict[str, Any]]) -> float:
         prev_ele = ele
     return gain
 
-
-def classify_difficulty(distance_km: float, elevation_gain_m: float) -> str:
-    """
-    Simple heuristic (tweak as you like):
-      easy:     <= 25 km and <= 200 m gain
-      moderate: <= 60 km and <= 800 m gain
-      hard:     otherwise
-    """
-    if distance_km <= 25.0 and elevation_gain_m <= 200.0:
-        return "easy"
-    if distance_km <= 60.0 and elevation_gain_m <= 800.0:
-        return "moderate"
-    return "hard"
-
-
-def hardest_difficulty(difficulties: List[str]) -> str:
-    if not difficulties:
-        return "moderate"
-    best = "easy"
-    best_score = -1
-    for d in difficulties:
-        score = DIFF_ORDER.get(d, 1)
-        if score > best_score:
-            best_score = score
-            best = d if d in DIFF_ORDER else "moderate"
-    return best
-
-
 def slugify(s: str) -> str:
     s = s.strip().lower()
     s = re.sub(r"[^a-z0-9]+", "_", s)
     s = re.sub(r"_+", "_", s).strip("_")
     return s or "route"
-
 
 def infer_props_from_filename(gpx_file: Path) -> Dict[str, Any]:
     """
@@ -237,7 +196,6 @@ def infer_props_from_filename(gpx_file: Path) -> Dict[str, Any]:
     route_number = int(m.group(1)) if m else 0
 
     return {"id": rid, "name": name, "description": "", "route_number": route_number}
-
 
 def extract_cities_from_name(name: str) -> List[str]:
     """
@@ -278,12 +236,9 @@ def normalize_city_name(text: str) -> str:
 def build_geojson(
     tracks: List[Dict[str, Any]],
     collection_props: Dict[str, Any],
-    difficulty_mode: str,
-    fixed_difficulty: Optional[str],
     route_metadata: Optional[Dict[str, str]] = None,
 ) -> Dict[str, Any]:
     features: List[Dict[str, Any]] = []
-    stage_difficulties: List[str] = []
     total_distance_km = 0.0
 
     # Collection-level city aggregation (unique, stable order)
@@ -300,12 +255,6 @@ def build_geojson(
         dist_km_r = round(dist_km, 3)
         gain_m_r = round(gain_m, 1)
 
-        if difficulty_mode == "fixed":
-            stage_diff = fixed_difficulty or "moderate"
-        else:
-            stage_diff = classify_difficulty(dist_km_r, gain_m_r)
-
-        stage_difficulties.append(stage_diff)
         total_distance_km += dist_km_r
 
         name = trk.get("name") or f"Stage {stage_idx}"
@@ -335,7 +284,6 @@ def build_geojson(
                     "description": desc,
                     "distance_km": float(dist_km_r),
                     "elevation_gain": float(gain_m_r),
-                    "difficulty": stage_diff,
                     "cities": cities,  # NEW
                 },
                 "geometry": geometry,
@@ -347,9 +295,6 @@ def build_geojson(
         "name": collection_props.get("name", "Route"),
         "description": collection_props.get("description", ""),
         "distance_km": float(round(total_distance_km, 3)),
-        "difficulty": (
-            (fixed_difficulty or "moderate") if difficulty_mode == "fixed" else hardest_difficulty(stage_difficulties)
-        ),
         "route_number": int(collection_props.get("route_number", 0)),
         "total_stages": int(collection_props.get("total_stages", len(features))),
         "cities": collection_cities,  # NEW
@@ -361,17 +306,13 @@ def build_geojson(
         if full_name:
             out_props["name"] = full_name
             out_props["full_name"] = full_name
-        out_props["color"] = route_metadata.get("color", "")
         out_props["route_description"] = route_metadata.get("route_description", "")
 
     return {"type": "FeatureCollection", "properties": out_props, "features": features}
 
-
 def convert_one(
     gpx_path: Path,
     out_path: Path,
-    difficulty_mode: str,
-    fixed_difficulty: Optional[str],
     all_metadata: Optional[Dict[int, Dict[str, str]]] = None,
 ) -> None:
     tracks = parse_gpx_tracks(str(gpx_path))
@@ -388,8 +329,6 @@ def convert_one(
     geojson = build_geojson(
         tracks=tracks,
         collection_props=props,
-        difficulty_mode=difficulty_mode,
-        fixed_difficulty=fixed_difficulty,
         route_metadata=route_meta,
     )
 
@@ -397,18 +336,10 @@ def convert_one(
     out_text = json.dumps(geojson, ensure_ascii=False, indent=2)
     out_path.write_text(out_text + "\n", encoding="utf-8")
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Batch convert GPX files to GeoJSON FeatureCollection.")
     ap.add_argument("--in-dir", default="gpx_utils/gpx", help="Input directory with .gpx files")
     ap.add_argument("--out-dir", default="assets/routes/geojson", help="Output directory for .geojson files")
-    ap.add_argument(
-        "--difficulty-mode",
-        choices=["heuristic", "fixed"],
-        default="heuristic",
-        help="How to set difficulty (both stage + collection)",
-    )
-    ap.add_argument("--difficulty", default=None, help='When fixed mode: "easy" | "moderate" | "hard"')
     ap.add_argument("--overwrite", action="store_true", help="Overwrite existing .geojson files", default=True)
 
     args = ap.parse_args()
@@ -443,7 +374,7 @@ def main() -> int:
             continue
 
         try:
-            convert_one(gpx, out, args.difficulty_mode, args.difficulty, all_metadata)
+            convert_one(gpx, out, all_metadata)
             print(f"OK: {gpx.name} -> {out}")
             ok += 1
         except Exception as e:
@@ -452,7 +383,6 @@ def main() -> int:
 
     print(f"\nDone. OK={ok}, FAIL={fail}")
     return 0 if fail == 0 else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

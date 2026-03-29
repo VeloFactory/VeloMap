@@ -5,7 +5,6 @@
     "name": "Via Romea (Francigena)",
     "description": "",
     "distance_km": 3212.642,
-    "difficulty": "hard",
     "route_number": 5,
     "total_stages": 79,
     "cities": [
@@ -94,8 +93,7 @@
       "Brindisi"
     ],
     "full_name": "Via Romea (Francigena)",
-    "color": "0xFFD8A0C5",
-    "route_description": "Over a thousand years ago, pilgrims traveled all the way from England to Rome. After the Eternal City, the route continued to Jerusalem through the port of Brindisi, along the ancient Via Appia. Now, you can follow their footsteps by cycling EuroVelo 5 our 3,200 km version of this legendary route. The route passes through 7 different countries and links both modern and ancient institutions, with many cathedrals, churches, monuments and museums mixing along this route with the major European Institutions in Brussels, Luxembourg, Strasbourg. Whether you want a short break or a long adventure, EuroVelo 5 offers something for everyone!"
+    "route_description": "Retracing the ancient pilgrimage path once walked from England to Rome — and beyond to Brindisi and Jerusalem — this 3,200 km route threads through 7 countries. Major EU institutions in Brussels, Luxembourg and Strasbourg mix with centuries-old cathedrals and monuments. Perfect for a weekend escape or an extended adventure."
   },
   "features": [
     {
@@ -106,7 +104,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.74,
         "elevation_gain": 441.9,
-        "difficulty": "moderate",
         "cities": [
           "Canterbury",
           "Dover"
@@ -1861,7 +1858,6 @@
         "description": "PLANNING",
         "distance_km": 12.027,
         "elevation_gain": 33.0,
-        "difficulty": "easy",
         "cities": [
           "Calais",
           "Guines"
@@ -2576,7 +2572,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.191,
         "elevation_gain": 105.5,
-        "difficulty": "easy",
         "cities": [
           "Guines",
           "Audruicq"
@@ -4061,7 +4056,6 @@
         "description": "PLANNING",
         "distance_km": 54.989,
         "elevation_gain": 302.5,
-        "difficulty": "moderate",
         "cities": [
           "Audruicq",
           "Wittes"
@@ -7306,7 +7300,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 10.137,
         "elevation_gain": 22.5,
-        "difficulty": "easy",
         "cities": [
           "Wittes",
           "Saint-Venant"
@@ -7726,7 +7719,6 @@
         "description": "PLANNING",
         "distance_km": 35.307,
         "elevation_gain": 203.8,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Venant",
           "Houdain"
@@ -9786,7 +9778,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.823,
         "elevation_gain": 332.6,
-        "difficulty": "moderate",
         "cities": [
           "Houdain",
           "Lens"
@@ -11321,7 +11312,6 @@
         "description": "PLANNING",
         "distance_km": 18.445,
         "elevation_gain": 75.1,
-        "difficulty": "easy",
         "cities": [
           "Lens",
           "Bauvin"
@@ -12071,7 +12061,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.82,
         "elevation_gain": 114.2,
-        "difficulty": "easy",
         "cities": [
           "Bauvin",
           "Lille"
@@ -13626,7 +13615,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.23,
         "elevation_gain": 113.3,
-        "difficulty": "moderate",
         "cities": [
           "Lille",
           "Leers Nord"
@@ -15266,7 +15254,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.509,
         "elevation_gain": 149.5,
-        "difficulty": "moderate",
         "cities": [
           "Leers Nord",
           "Ronse"
@@ -16356,7 +16343,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.701,
         "elevation_gain": 156.8,
-        "difficulty": "moderate",
         "cities": [
           "Ronse",
           "Geraardsbergen"
@@ -17436,7 +17422,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.453,
         "elevation_gain": 506.3,
-        "difficulty": "hard",
         "cities": [
           "Geraardsbergen",
           "Brussels"
@@ -20201,7 +20186,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.087,
         "elevation_gain": 521.9,
-        "difficulty": "moderate",
         "cities": [
           "Brussels",
           "Wavre"
@@ -21811,7 +21795,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.391,
         "elevation_gain": 422.8,
-        "difficulty": "moderate",
         "cities": [
           "Wavre",
           "Namur"
@@ -24271,7 +24254,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.562,
         "elevation_gain": 315.1,
-        "difficulty": "moderate",
         "cities": [
           "Namur",
           "Dinant"
@@ -25556,7 +25538,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.59,
         "elevation_gain": 882.0,
-        "difficulty": "hard",
         "cities": [
           "Dinant",
           "Marche-en-Famenne"
@@ -28371,7 +28352,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.797,
         "elevation_gain": 367.8,
-        "difficulty": "moderate",
         "cities": [
           "Marche-en-Famenne",
           "La-Roche-en-Ardenne"
@@ -30346,7 +30326,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.546,
         "elevation_gain": 806.4,
-        "difficulty": "hard",
         "cities": [
           "La-Roche-en-Ardenne",
           "Bastogne"
@@ -33041,7 +33020,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.552,
         "elevation_gain": 259.8,
-        "difficulty": "moderate",
         "cities": [
           "Bastogne",
           "Martelange"
@@ -34656,7 +34634,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.126,
         "elevation_gain": 654.0,
-        "difficulty": "moderate",
         "cities": [
           "Martelange",
           "Kleinbettingen"
@@ -37971,7 +37948,6 @@
         "description": "DEVELOPED",
         "distance_km": 20.01,
         "elevation_gain": 245.5,
-        "difficulty": "moderate",
         "cities": [
           "Kleinbettingen",
           "Luxembourg City"
@@ -39276,7 +39252,6 @@
         "description": "DEVELOPED",
         "distance_km": 24.956,
         "elevation_gain": 421.5,
-        "difficulty": "moderate",
         "cities": [
           "Luxembourg City",
           "Ellange Gare"
@@ -41321,7 +41296,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 17.072,
         "elevation_gain": 188.1,
-        "difficulty": "easy",
         "cities": [
           "Ellange Gare",
           "Schengen"
@@ -42416,7 +42390,6 @@
         "description": "DEVELOPED",
         "distance_km": 77.293,
         "elevation_gain": 572.1,
-        "difficulty": "hard",
         "cities": [
           "Schengen",
           "Grosbliederstroff"
@@ -43466,7 +43439,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.856,
         "elevation_gain": 694.2,
-        "difficulty": "hard",
         "cities": [
           "Grosbliederstroff",
           "Gondrexange"
@@ -46766,7 +46738,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.755,
         "elevation_gain": 452.1,
-        "difficulty": "moderate",
         "cities": [
           "Gondrexange",
           "Saverne"
@@ -49316,7 +49287,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.342,
         "elevation_gain": 172.1,
-        "difficulty": "moderate",
         "cities": [
           "Saverne",
           "Strasbourg"
@@ -51271,7 +51241,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.265,
         "elevation_gain": 147.0,
-        "difficulty": "easy",
         "cities": [
           "Strasbourg",
           "Soultz-les-Bains"
@@ -52921,7 +52890,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.789,
         "elevation_gain": 613.3,
-        "difficulty": "moderate",
         "cities": [
           "Soultz-les-Bains",
           "Châtenois"
@@ -56606,7 +56574,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.984,
         "elevation_gain": 168.6,
-        "difficulty": "moderate",
         "cities": [
           "Châtenois",
           "Turckheim"
@@ -58081,7 +58048,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.948,
         "elevation_gain": 491.2,
-        "difficulty": "moderate",
         "cities": [
           "Turckheim",
           "Cernay"
@@ -61831,7 +61797,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.055,
         "elevation_gain": 97.3,
-        "difficulty": "moderate",
         "cities": [
           "Cernay",
           "Mulhouse"
@@ -63911,7 +63876,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.125,
         "elevation_gain": 183.0,
-        "difficulty": "moderate",
         "cities": [
           "Mulhouse",
           "Basel"
@@ -66056,7 +66020,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.963,
         "elevation_gain": 1164.0,
-        "difficulty": "hard",
         "cities": [
           "Basel",
           "Aarau"
@@ -70581,7 +70544,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.814,
         "elevation_gain": 481.8,
-        "difficulty": "moderate",
         "cities": [
           "Aarau",
           "Luzern"
@@ -74156,7 +74118,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.518,
         "elevation_gain": 538.0,
-        "difficulty": "moderate",
         "cities": [
           "Luzern",
           "Brunnen"
@@ -76451,7 +76412,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.809,
         "elevation_gain": 1764.3,
-        "difficulty": "hard",
         "cities": [
           "Flüelen",
           "Andermatt"
@@ -79921,7 +79881,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.267,
         "elevation_gain": 1080.6,
-        "difficulty": "hard",
         "cities": [
           "Andermatt",
           "Airolo"
@@ -82726,7 +82685,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.766,
         "elevation_gain": 700.3,
-        "difficulty": "hard",
         "cities": [
           "Airolo",
           "Bellinzona"
@@ -86701,7 +86659,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.076,
         "elevation_gain": 608.7,
-        "difficulty": "moderate",
         "cities": [
           "Bellinzona",
           "Agno"
@@ -89176,7 +89133,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.086,
         "elevation_gain": 748.0,
-        "difficulty": "moderate",
         "cities": [
           "Agno",
           "Chiasso"
@@ -92036,7 +91992,6 @@
         "description": "PLANNING",
         "distance_km": 9.468,
         "elevation_gain": 154.6,
-        "difficulty": "easy",
         "cities": [
           "Chiasso",
           "Como"
@@ -92771,7 +92726,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 31.665,
         "elevation_gain": 367.4,
-        "difficulty": "moderate",
         "cities": [
           "Como",
           "Misinto"
@@ -94726,7 +94680,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.665,
         "elevation_gain": 159.9,
-        "difficulty": "moderate",
         "cities": [
           "Misinto",
           "Milan"
@@ -97141,7 +97094,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.082,
         "elevation_gain": 43.1,
-        "difficulty": "moderate",
         "cities": [
           "Milan",
           "Pavia"
@@ -97651,7 +97603,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 79.548,
         "elevation_gain": 327.9,
-        "difficulty": "hard",
         "cities": [
           "Pavia",
           "Piacenza"
@@ -101116,7 +101067,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 50.185,
         "elevation_gain": 132.4,
-        "difficulty": "moderate",
         "cities": [
           "Piacenza",
           "Fidenza"
@@ -102481,7 +102431,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.624,
         "elevation_gain": 368.8,
-        "difficulty": "moderate",
         "cities": [
           "Fidenza",
           "Fornovo"
@@ -103376,7 +103325,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.475,
         "elevation_gain": 1746.0,
-        "difficulty": "hard",
         "cities": [
           "Fornovo",
           "Passo della Cisa"
@@ -105396,7 +105344,6 @@
         "description": "DEVELOPED",
         "distance_km": 20.418,
         "elevation_gain": 878.4,
-        "difficulty": "hard",
         "cities": [
           "Passo della Cisa",
           "Pontremoli"
@@ -108176,7 +108123,6 @@
         "description": "PLANNING",
         "distance_km": 23.093,
         "elevation_gain": 440.0,
-        "difficulty": "moderate",
         "cities": [
           "Pontremoli",
           "Aulla"
@@ -110091,7 +110037,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.167,
         "elevation_gain": 1554.3,
-        "difficulty": "hard",
         "cities": [
           "Aulla",
           "Sarzana"
@@ -114191,7 +114136,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.676,
         "elevation_gain": 1135.8,
-        "difficulty": "hard",
         "cities": [
           "Sarzana",
           "Pietrasanta"
@@ -118101,7 +118045,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 19.702,
         "elevation_gain": 402.8,
-        "difficulty": "moderate",
         "cities": [
           "Pietrasanta",
           "Valpromaro"
@@ -119536,7 +119479,6 @@
         "description": "DEVELOPED",
         "distance_km": 16.794,
         "elevation_gain": 298.7,
-        "difficulty": "moderate",
         "cities": [
           "Valpromaro",
           "Lucca"
@@ -121126,7 +121068,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.71,
         "elevation_gain": 467.0,
-        "difficulty": "moderate",
         "cities": [
           "Lucca",
           "San Miniato"
@@ -124821,7 +124762,6 @@
         "description": "PLANNING",
         "distance_km": 61.04,
         "elevation_gain": 1275.8,
-        "difficulty": "hard",
         "cities": [
           "San Miniato",
           "San Gimignano"
@@ -129251,7 +129191,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.577,
         "elevation_gain": 966.8,
-        "difficulty": "hard",
         "cities": [
           "San Gimignano",
           "Sienna"
@@ -133666,7 +133605,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.867,
         "elevation_gain": 949.7,
-        "difficulty": "hard",
         "cities": [
           "Sienna",
           "San Quirico d'Orcia"
@@ -138146,7 +138084,6 @@
         "description": "DEVELOPED",
         "distance_km": 67.128,
         "elevation_gain": 1555.6,
-        "difficulty": "hard",
         "cities": [
           "San Quirico d'Orcia",
           "Acquapendente"
@@ -143566,7 +143503,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.017,
         "elevation_gain": 888.9,
-        "difficulty": "hard",
         "cities": [
           "Acquapendente",
           "Viterbo"
@@ -145456,7 +145392,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 52.969,
         "elevation_gain": 722.1,
-        "difficulty": "moderate",
         "cities": [
           "Viterbo",
           "Mazzano Romano"
@@ -147201,7 +147136,6 @@
         "description": "PLANNING",
         "distance_km": 37.781,
         "elevation_gain": 633.9,
-        "difficulty": "moderate",
         "cities": [
           "Mazzano Romano",
           "Castel Giubileo"
@@ -148591,7 +148525,6 @@
         "description": "DEVELOPED",
         "distance_km": 20.361,
         "elevation_gain": 110.6,
-        "difficulty": "easy",
         "cities": [
           "Castel Giubileo",
           "Rome"
@@ -149291,7 +149224,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.591,
         "elevation_gain": 447.5,
-        "difficulty": "moderate",
         "cities": [
           "Rome",
           "Frascati"
@@ -151386,7 +151318,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.79,
         "elevation_gain": 672.3,
-        "difficulty": "moderate",
         "cities": [
           "Frascati",
           "Paliano"
@@ -153226,7 +153157,6 @@
         "description": "DEVELOPED",
         "distance_km": 23.751,
         "elevation_gain": 821.2,
-        "difficulty": "hard",
         "cities": [
           "Paliano",
           "Fiuggi"
@@ -154776,7 +154706,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.752,
         "elevation_gain": 409.7,
-        "difficulty": "moderate",
         "cities": [
           "Fiuggi",
           "Ceccano"
@@ -157266,7 +157195,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.62,
         "elevation_gain": 721.7,
-        "difficulty": "hard",
         "cities": [
           "Ceccano",
           "Cassino"
@@ -160376,7 +160304,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.598,
         "elevation_gain": 859.6,
-        "difficulty": "hard",
         "cities": [
           "Cassino",
           "Vairano"
@@ -163776,7 +163703,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.536,
         "elevation_gain": 458.3,
-        "difficulty": "moderate",
         "cities": [
           "Vairano",
           "Telese Terme"
@@ -165471,7 +165397,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.866,
         "elevation_gain": 528.6,
-        "difficulty": "moderate",
         "cities": [
           "Telese Terme",
           "Benevento"
@@ -167501,7 +167426,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 86.774,
         "elevation_gain": 1963.7,
-        "difficulty": "hard",
         "cities": [
           "Benevento",
           "Candela"
@@ -173846,7 +173770,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 50.928,
         "elevation_gain": 580.2,
-        "difficulty": "moderate",
         "cities": [
           "Candela",
           "Venosa"
@@ -175681,7 +175604,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 73.317,
         "elevation_gain": 800.3,
-        "difficulty": "hard",
         "cities": [
           "Venosa",
           "Gravina di Puglia"
@@ -178606,7 +178528,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.149,
         "elevation_gain": 135.8,
-        "difficulty": "moderate",
         "cities": [
           "Gravina di Puglia",
           "Matera"
@@ -179231,7 +179152,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.52,
         "elevation_gain": 214.0,
-        "difficulty": "moderate",
         "cities": [
           "Matera",
           "Palagiano"
@@ -180031,7 +179951,6 @@
         "description": "PLANNING",
         "distance_km": 80.666,
         "elevation_gain": 372.1,
-        "difficulty": "hard",
         "cities": [
           "Taranto",
           "Brindisi"

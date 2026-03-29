@@ -5,7 +5,6 @@
     "name": "Baltic – Adriatic",
     "description": "",
     "distance_km": 2250.318,
-    "difficulty": "hard",
     "route_number": 9,
     "total_stages": 57,
     "cities": [
@@ -66,8 +65,7 @@
       "Pula"
     ],
     "full_name": "Baltic – Adriatic",
-    "color": "0xFF8E5EA2",
-    "route_description": "With its 2,050 km, EuroVelo 9 - Baltic-Adriatic may not be the longest EuroVelo route but it doesn't mean that this route does not have a lot to offer. Rivers, seas and mountains are on the checklist, and EuroVelo 9 is packed full of adventures over its (relatively!) short distance. Start with a refreshing ride on the Baltic coast and finish the trip with a relaxing swim in the Adriatic Sea. In between you can enjoy welcoming local communities with exquisite culinary traditions in Poland, Czechia, Austria, Slovenia, Italy and Croatia. This route is sometimes called the Amber Route as historically the precious stone amber, found in the Baltic region, was taken by routes such as this to the Mediterranean Sea!"
+    "route_description": "Short by EuroVelo standards at 2,050 km, but bursting with variety. Begin with a brisk ride along the Baltic coast and finish with your feet in the Adriatic Sea. In between, Poland, Czechia, Austria, Slovenia, Italy and Croatia each offer distinct culinary traditions and welcoming communities along this historically rich Amber Route."
   },
   "features": [
     {
@@ -78,7 +76,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.801,
         "elevation_gain": 75.5,
-        "difficulty": "easy",
         "cities": [
           "Mikoszewo",
           "Gdansk, Poland"
@@ -933,7 +930,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.986,
         "elevation_gain": 31.0,
-        "difficulty": "easy",
         "cities": [
           "Mikoszewo",
           "Leszkowy"
@@ -1453,7 +1449,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.92,
         "elevation_gain": 60.7,
-        "difficulty": "easy",
         "cities": [
           "Leszkowy",
           "Tczew"
@@ -2298,7 +2293,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.202,
         "elevation_gain": 175.8,
-        "difficulty": "moderate",
         "cities": [
           "Tczew",
           "Gniew"
@@ -3403,7 +3397,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.18,
         "elevation_gain": 280.6,
-        "difficulty": "moderate",
         "cities": [
           "Gniew",
           "Kozielec"
@@ -4633,7 +4626,6 @@
         "description": "PLANNING",
         "distance_km": 24.575,
         "elevation_gain": 60.7,
-        "difficulty": "easy",
         "cities": [
           "Kozielec",
           "Grudziadz"
@@ -5648,7 +5640,6 @@
         "description": "PLANNING",
         "distance_km": 26.83,
         "elevation_gain": 141.9,
-        "difficulty": "moderate",
         "cities": [
           "Grudziadz",
           "Swiecie"
@@ -6833,7 +6824,6 @@
         "description": "PLANNING",
         "distance_km": 47.683,
         "elevation_gain": 217.7,
-        "difficulty": "moderate",
         "cities": [
           "Swiecie",
           "Bydgoszcz"
@@ -8363,7 +8353,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.975,
         "elevation_gain": 76.4,
-        "difficulty": "moderate",
         "cities": [
           "Mikoszewo",
           "Tczew"
@@ -9298,7 +9287,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.57,
         "elevation_gain": 189.4,
-        "difficulty": "hard",
         "cities": [
           "Tczew",
           "Welcz Maly"
@@ -12338,7 +12326,6 @@
         "description": "PLANNING",
         "distance_km": 20.345,
         "elevation_gain": 219.5,
-        "difficulty": "moderate",
         "cities": [
           "Welcz Maly",
           "Grudziadz"
@@ -13543,7 +13530,6 @@
         "description": "PLANNING",
         "distance_km": 66.717,
         "elevation_gain": 412.8,
-        "difficulty": "hard",
         "cities": [
           "Grudziadz",
           "Bydgoszcz"
@@ -17078,7 +17064,6 @@
         "description": "PLANNING",
         "distance_km": 75.956,
         "elevation_gain": 441.2,
-        "difficulty": "hard",
         "cities": [
           "Bydgoszcz",
           "Żnin"
@@ -21188,7 +21173,6 @@
         "description": "PLANNING",
         "distance_km": 21.841,
         "elevation_gain": 130.7,
-        "difficulty": "easy",
         "cities": [
           "Żnin",
           "Drewno"
@@ -22273,7 +22257,6 @@
         "description": "PLANNING",
         "distance_km": 45.675,
         "elevation_gain": 217.5,
-        "difficulty": "moderate",
         "cities": [
           "Drewno",
           "Gniezno"
@@ -23928,7 +23911,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 66.829,
         "elevation_gain": 432.7,
-        "difficulty": "hard",
         "cities": [
           "Gniezno",
           "Poznan"
@@ -27548,7 +27530,6 @@
         "description": "PLANNING",
         "distance_km": 79.658,
         "elevation_gain": 363.2,
-        "difficulty": "hard",
         "cities": [
           "Poznan",
           "Gostyń"
@@ -30403,7 +30384,6 @@
         "description": "PLANNING",
         "distance_km": 58.825,
         "elevation_gain": 181.3,
-        "difficulty": "moderate",
         "cities": [
           "Gostyń",
           "Baranowice"
@@ -31738,7 +31718,6 @@
         "description": "PLANNING",
         "distance_km": 73.499,
         "elevation_gain": 365.3,
-        "difficulty": "hard",
         "cities": [
           "Baranowice",
           "Wrocław"
@@ -33753,7 +33732,6 @@
         "description": "PLANNING",
         "distance_km": 63.632,
         "elevation_gain": 335.1,
-        "difficulty": "hard",
         "cities": [
           "Wrocław",
           "Świdnica"
@@ -35343,7 +35321,6 @@
         "description": "PLANNING",
         "distance_km": 57.525,
         "elevation_gain": 392.3,
-        "difficulty": "moderate",
         "cities": [
           "Świdnica",
           "Ząbkowice Śląskie"
@@ -36983,7 +36960,6 @@
         "description": "PLANNING",
         "distance_km": 21.676,
         "elevation_gain": 98.1,
-        "difficulty": "easy",
         "cities": [
           "Ząbkowice Śląskie",
           "Błotnica"
@@ -37783,7 +37759,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.901,
         "elevation_gain": 395.3,
-        "difficulty": "moderate",
         "cities": [
           "Błotnica",
           "Głuchołazy"
@@ -40898,7 +40873,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.75,
         "elevation_gain": 248.3,
-        "difficulty": "moderate",
         "cities": [
           "Głuchołazy",
           "Jesenik"
@@ -42408,7 +42382,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.984,
         "elevation_gain": 660.1,
-        "difficulty": "moderate",
         "cities": [
           "Jesenik",
           "Hanušovice"
@@ -45203,7 +45176,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.167,
         "elevation_gain": 300.6,
-        "difficulty": "moderate",
         "cities": [
           "Hanušovice",
           "Novy Dvur"
@@ -47483,7 +47455,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.703,
         "elevation_gain": 224.8,
-        "difficulty": "moderate",
         "cities": [
           "Novy Dvur",
           "Olomouc"
@@ -50753,7 +50724,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.002,
         "elevation_gain": 315.6,
-        "difficulty": "moderate",
         "cities": [
           "Olomouc",
           "Plumlov"
@@ -52913,7 +52883,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 68.803,
         "elevation_gain": 1446.6,
-        "difficulty": "hard",
         "cities": [
           "Plumlov",
           "Brno"
@@ -58703,7 +58672,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 72.342,
         "elevation_gain": 383.7,
-        "difficulty": "hard",
         "cities": [
           "Brno",
           "Mikulov, Czechia"
@@ -62178,7 +62146,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.736,
         "elevation_gain": 253.9,
-        "difficulty": "moderate",
         "cities": [
           "Mikulov, Czechia",
           "Breclav"
@@ -63968,7 +63935,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.445,
         "elevation_gain": 191.0,
-        "difficulty": "easy",
         "cities": [
           "Breclav",
           "Altlichtenwarth"
@@ -64638,7 +64604,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.842,
         "elevation_gain": 137.5,
-        "difficulty": "moderate",
         "cities": [
           "Altlichtenwarth",
           "Mistelbach"
@@ -66253,7 +66218,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.723,
         "elevation_gain": 395.4,
-        "difficulty": "moderate",
         "cities": [
           "Mistelbach",
           "Wolkersdorf"
@@ -68808,7 +68772,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.541,
         "elevation_gain": 97.6,
-        "difficulty": "moderate",
         "cities": [
           "Wolkersdorf",
           "Vienna"
@@ -70293,7 +70256,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 13.468,
         "elevation_gain": 192.9,
-        "difficulty": "easy",
         "cities": [
           "Vienna",
           "Vienna Altes Landgut"
@@ -71158,7 +71120,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.351,
         "elevation_gain": 133.4,
-        "difficulty": "moderate",
         "cities": [
           "Vienna Altes Landgut",
           "Baden"
@@ -72903,7 +72864,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.942,
         "elevation_gain": 113.0,
-        "difficulty": "moderate",
         "cities": [
           "Baden",
           "Wiener Neustadt"
@@ -74098,7 +74058,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.682,
         "elevation_gain": 360.6,
-        "difficulty": "moderate",
         "cities": [
           "Wiener Neustadt",
           "Grimmenstein"
@@ -76688,7 +76647,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.057,
         "elevation_gain": 786.6,
-        "difficulty": "moderate",
         "cities": [
           "Grimmenstein",
           "Mönichkirchen"
@@ -78238,7 +78196,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.723,
         "elevation_gain": 838.4,
-        "difficulty": "hard",
         "cities": [
           "Mönichkirchen",
           "Bad Waltersdorf"
@@ -82408,7 +82365,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.832,
         "elevation_gain": 662.7,
-        "difficulty": "moderate",
         "cities": [
           "Bad Waltersdorf",
           "Fehring Brunn"
@@ -86238,7 +86194,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.696,
         "elevation_gain": 611.2,
-        "difficulty": "moderate",
         "cities": [
           "Fehring Brunn",
           "Bad Radkersburg"
@@ -89688,7 +89643,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.743,
         "elevation_gain": 365.7,
-        "difficulty": "moderate",
         "cities": [
           "Bad Radkersburg",
           "Šentilj"
@@ -92963,7 +92917,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.976,
         "elevation_gain": 344.2,
-        "difficulty": "moderate",
         "cities": [
           "Šentilj",
           "Maribor"
@@ -94613,7 +94566,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.796,
         "elevation_gain": 719.6,
-        "difficulty": "hard",
         "cities": [
           "Maribor",
           "Celje"
@@ -97588,7 +97540,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 76.016,
         "elevation_gain": 748.1,
-        "difficulty": "hard",
         "cities": [
           "Celje",
           "Ljubljana"
@@ -100468,7 +100419,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.157,
         "elevation_gain": 879.4,
-        "difficulty": "hard",
         "cities": [
           "Ljubljana",
           "Postojna"
@@ -103343,7 +103293,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 44.686,
         "elevation_gain": 735.7,
-        "difficulty": "moderate",
         "cities": [
           "Postojna",
           "Draga"
@@ -105668,7 +105617,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.61,
         "elevation_gain": 255.3,
-        "difficulty": "moderate",
         "cities": [
           "Draga",
           "Trieste, Italy"
@@ -107093,7 +107041,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.095,
         "elevation_gain": 230.5,
-        "difficulty": "moderate",
         "cities": [
           "Trieste, Italy",
           "Muggia"
@@ -108193,7 +108140,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.812,
         "elevation_gain": 480.0,
-        "difficulty": "moderate",
         "cities": [
           "Muggia",
           "Secovlje/Plovanija border pass"
@@ -111148,7 +111094,6 @@
         "description": "DEVELOPED",
         "distance_km": 8.205,
         "elevation_gain": 234.8,
-        "difficulty": "moderate",
         "cities": [
           "Secovlje/Plovanija border pass",
           "Buje"
@@ -111713,7 +111658,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.798,
         "elevation_gain": 799.5,
-        "difficulty": "moderate",
         "cities": [
           "Buje",
           "Buzet"
@@ -114243,7 +114187,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.718,
         "elevation_gain": 975.7,
-        "difficulty": "hard",
         "cities": [
           "Buzet",
           "Pazin"
@@ -116538,7 +116481,6 @@
         "description": "DEVELOPED",
         "distance_km": 24.223,
         "elevation_gain": 350.3,
-        "difficulty": "moderate",
         "cities": [
           "Pazin",
           "Barban"
@@ -118073,7 +118015,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.893,
         "elevation_gain": 162.7,
-        "difficulty": "moderate",
         "cities": [
           "Barban",
           "Pula"

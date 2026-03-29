@@ -5,7 +5,6 @@
     "name": "Rhone Cycle Route",
     "description": "",
     "distance_km": 1169.965,
-    "difficulty": "hard",
     "route_number": 17,
     "total_stages": 35,
     "cities": [
@@ -47,8 +46,7 @@
       "Sete"
     ],
     "full_name": "Rhone Cycle Route",
-    "color": "0xFFC0CA33",
-    "route_description": "The charming alpine village of Andermatt in Switzerland is not only the starting point of EuroVelo 15 but also marks the beginning of EuroVelo 17 - Rhone Cycle Route. Following the course of the River Rhone, the route ends over a 1,250 km later on the beautiful Mediterranean coast of France. Connecting the Alps, Lake Geneva, the lavender fields of Provence and the wild white horses of the Camargue, the shortest EuroVelo route packs in a surprising amount of different cultures, landscapes and experiences."
+    "route_description": "Beginning in the alpine village of Andermatt — where EuroVelo 15 also starts — this 1,250 km route follows the River Rhône all the way to France's Mediterranean coast. Compact but extraordinarily diverse, it takes in Lake Geneva, the lavender-filled plateaus of Provence and the wild white horses of the Camargue — a journey of constant wonder."
   },
   "features": [
     {
@@ -59,7 +57,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.045,
         "elevation_gain": 1705.1,
-        "difficulty": "hard",
         "cities": [
           "Andermatt",
           "Oberwald"
@@ -3314,7 +3311,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.853,
         "elevation_gain": 1531.9,
-        "difficulty": "hard",
         "cities": [
           "Oberwald",
           "Brig"
@@ -8509,7 +8505,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.493,
         "elevation_gain": 343.9,
-        "difficulty": "moderate",
         "cities": [
           "Brig",
           "Sierre"
@@ -10624,7 +10619,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.33,
         "elevation_gain": 155.0,
-        "difficulty": "moderate",
         "cities": [
           "Sierre",
           "Martigny"
@@ -12199,7 +12193,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.942,
         "elevation_gain": 157.5,
-        "difficulty": "moderate",
         "cities": [
           "Martigny",
           "Le Bouveret"
@@ -12964,7 +12957,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.823,
         "elevation_gain": 798.1,
-        "difficulty": "moderate",
         "cities": [
           "Le Bouveret",
           "Morges"
@@ -14604,7 +14596,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.971,
         "elevation_gain": 525.8,
-        "difficulty": "moderate",
         "cities": [
           "Morges",
           "Geneva"
@@ -18199,7 +18190,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 6.181,
         "elevation_gain": 75.7,
-        "difficulty": "easy",
         "cities": [
           "Le Bouveret",
           "Saint-Gingolph"
@@ -18529,7 +18519,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.052,
         "elevation_gain": 512.4,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Gingolph",
           "Thonon"
@@ -19839,7 +19828,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.188,
         "elevation_gain": 259.5,
-        "difficulty": "moderate",
         "cities": [
           "Thonon",
           "Chens-sur-Léman"
@@ -21279,7 +21267,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 16.064,
         "elevation_gain": 133.0,
-        "difficulty": "easy",
         "cities": [
           "Chens-sur-Léman",
           "Geneva"
@@ -22299,7 +22286,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.487,
         "elevation_gain": 488.0,
-        "difficulty": "moderate",
         "cities": [
           "Geneva",
           "Valleiry"
@@ -23634,7 +23620,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 15.934,
         "elevation_gain": 419.6,
-        "difficulty": "moderate",
         "cities": [
           "Valleiry",
           "Clarafond-Arcine"
@@ -24559,7 +24544,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 33.728,
         "elevation_gain": 340.1,
-        "difficulty": "moderate",
         "cities": [
           "Clarafond-Arcine",
           "Ruffieux"
@@ -26214,7 +26198,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.584,
         "elevation_gain": 253.1,
-        "difficulty": "moderate",
         "cities": [
           "Ruffieux",
           "Belley"
@@ -27494,7 +27477,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.585,
         "elevation_gain": 281.5,
-        "difficulty": "moderate",
         "cities": [
           "Belley",
           "Groslée"
@@ -29824,7 +29806,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.952,
         "elevation_gain": 328.2,
-        "difficulty": "moderate",
         "cities": [
           "Groslée",
           "La Balme-les-Grottes"
@@ -32614,7 +32595,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.323,
         "elevation_gain": 298.2,
-        "difficulty": "moderate",
         "cities": [
           "La Balme-les-Grottes",
           "Jons"
@@ -34514,7 +34494,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.794,
         "elevation_gain": 154.1,
-        "difficulty": "moderate",
         "cities": [
           "Jons",
           "Lyon"
@@ -35779,7 +35758,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.281,
         "elevation_gain": 270.1,
-        "difficulty": "moderate",
         "cities": [
           "Lyon",
           "Givors"
@@ -37564,7 +37542,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.665,
         "elevation_gain": 234.7,
-        "difficulty": "moderate",
         "cities": [
           "Givors",
           "Sablons"
@@ -39454,7 +39431,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.35,
         "elevation_gain": 220.8,
-        "difficulty": "moderate",
         "cities": [
           "Sablons",
           "Tournon-sur-Rhône"
@@ -41754,7 +41730,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.32,
         "elevation_gain": 122.9,
-        "difficulty": "easy",
         "cities": [
           "Tournon-sur-Rhône",
           "Valence"
@@ -43169,7 +43144,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.825,
         "elevation_gain": 203.4,
-        "difficulty": "moderate",
         "cities": [
           "Valence",
           "Le Pouzin"
@@ -45379,7 +45353,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.308,
         "elevation_gain": 213.6,
-        "difficulty": "moderate",
         "cities": [
           "Le Pouzin",
           "Châteauneuf-du-Rhône"
@@ -48014,7 +47987,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.31,
         "elevation_gain": 215.9,
-        "difficulty": "moderate",
         "cities": [
           "Châteauneuf-du-Rhône",
           "Pont-Saint-Esprit"
@@ -49754,7 +49726,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.653,
         "elevation_gain": 104.3,
-        "difficulty": "moderate",
         "cities": [
           "Pont-Saint-Esprit",
           "Caderousse"
@@ -51239,7 +51210,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.379,
         "elevation_gain": 147.9,
-        "difficulty": "moderate",
         "cities": [
           "Caderousse",
           "Avignon"
@@ -52814,7 +52784,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.416,
         "elevation_gain": 239.3,
-        "difficulty": "moderate",
         "cities": [
           "Avignon",
           "Tarascon"
@@ -54299,7 +54268,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.504,
         "elevation_gain": 65.2,
-        "difficulty": "easy",
         "cities": [
           "Tarascon",
           "Arles"
@@ -55369,7 +55337,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.626,
         "elevation_gain": 85.9,
-        "difficulty": "moderate",
         "cities": [
           "Arles",
           "Port-Saint-Louis-du-Rhône"
@@ -56884,7 +56851,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.242,
         "elevation_gain": 53.8,
-        "difficulty": "moderate",
         "cities": [
           "Beaucaire",
           "Saint-Gilles"
@@ -57849,7 +57815,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.165,
         "elevation_gain": 51.7,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Gilles",
           "Aigues-Mortes"
@@ -58864,7 +58829,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.863,
         "elevation_gain": 66.1,
-        "difficulty": "moderate",
         "cities": [
           "Aigues-Mortes",
           "Palavas-les-Flots"
@@ -60024,7 +59988,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.729,
         "elevation_gain": 161.8,
-        "difficulty": "moderate",
         "cities": [
           "Palavas-les-Flots",
           "Sète"

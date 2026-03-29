@@ -5,7 +5,6 @@
     "name": "Mediterranean Route",
     "description": "",
     "distance_km": 7371.299,
-    "difficulty": "hard",
     "route_number": 8,
     "total_stages": 154,
     "cities": [
@@ -172,8 +171,7 @@
       "Kykkos"
     ],
     "full_name": "Mediterranean Route",
-    "color": "0xFF8D4B20",
-    "route_description": "Sparkling emerald seas, kilometres of golden sand, mysterious islands, wonderful food, ancient cities… It isn't hard to find convincing reasons to travel along the Mediterranean! What better way to do it than by bike? Admire Granada's Alhambra, or Gaudi's mind blowing architecture in Barcelona, feel the romance of Venice's canals, Dubrovnik's old town, or pull your bike up alongside a waiting beach, inviting you to just relax. While EuroVelo 8 connects many already popular tourist destinations, there are still lots of undiscovered gems to be found along the way. So what are you waiting for? Get on your bike!"
+    "route_description": "Golden beaches, emerald coves, ancient ruins and legendary cuisine line every kilometre of this iconic coastal ride. Visit Granada's Alhambra, Gaudí's Barcelona and Venice's canals, then lose yourself in lesser-known gems scattered between the famous landmarks. The Mediterranean has never been easier — or more rewarding — to explore by bike."
   },
   "features": [
     {
@@ -184,7 +182,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.432,
         "elevation_gain": 380.9,
-        "difficulty": "moderate",
         "cities": [
           "Cadiz",
           "Conil de la Frontera"
@@ -3869,7 +3866,6 @@
         "description": "DEVELOPED",
         "distance_km": 80.106,
         "elevation_gain": 981.1,
-        "difficulty": "hard",
         "cities": [
           "Conil de la Frontera",
           "Facinas"
@@ -8409,7 +8405,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.193,
         "elevation_gain": 863.6,
-        "difficulty": "hard",
         "cities": [
           "Facinas",
           "San Roque"
@@ -12449,7 +12444,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.35,
         "elevation_gain": 540.9,
-        "difficulty": "moderate",
         "cities": [
           "San Roque",
           "Estepona"
@@ -15629,7 +15623,6 @@
         "description": "PLANNING",
         "distance_km": 31.775,
         "elevation_gain": 289.9,
-        "difficulty": "moderate",
         "cities": [
           "Estepona",
           "Marbella"
@@ -18429,7 +18422,6 @@
         "description": "PLANNING",
         "distance_km": 31.069,
         "elevation_gain": 362.8,
-        "difficulty": "moderate",
         "cities": [
           "Marbella",
           "Fuengirola"
@@ -21694,7 +21686,6 @@
         "description": "PLANNING",
         "distance_km": 30.228,
         "elevation_gain": 373.5,
-        "difficulty": "moderate",
         "cities": [
           "Fuengirola",
           "Malaga"
@@ -24254,7 +24245,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.432,
         "elevation_gain": 232.4,
-        "difficulty": "moderate",
         "cities": [
           "Malaga",
           "Torre del Mar"
@@ -26034,7 +26024,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 47.217,
         "elevation_gain": 1374.5,
-        "difficulty": "hard",
         "cities": [
           "Torre del Mar",
           "Almuñecar"
@@ -30034,7 +30023,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.359,
         "elevation_gain": 933.3,
-        "difficulty": "hard",
         "cities": [
           "Almuñecar",
           "Castell de Ferro"
@@ -33704,7 +33692,6 @@
         "description": "DEVELOPED",
         "distance_km": 37.069,
         "elevation_gain": 1275.9,
-        "difficulty": "hard",
         "cities": [
           "Castell de Ferro",
           "Adra"
@@ -36719,7 +36706,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.294,
         "elevation_gain": 767.7,
-        "difficulty": "moderate",
         "cities": [
           "Adra",
           "Almeria"
@@ -40344,7 +40330,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 44.67,
         "elevation_gain": 798.1,
-        "difficulty": "moderate",
         "cities": [
           "Almeria",
           "Cabo de Gata"
@@ -43564,7 +43549,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.462,
         "elevation_gain": 777.8,
-        "difficulty": "moderate",
         "cities": [
           "Cabo de Gata",
           "Carboneras"
@@ -45619,7 +45603,6 @@
         "description": "DEVELOPED",
         "distance_km": 34.515,
         "elevation_gain": 640.0,
-        "difficulty": "moderate",
         "cities": [
           "Carboneras",
           "Villaricos"
@@ -48114,7 +48097,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.697,
         "elevation_gain": 413.1,
-        "difficulty": "moderate",
         "cities": [
           "Villaricos",
           "Águilas"
@@ -49759,7 +49741,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.789,
         "elevation_gain": 1000.0,
-        "difficulty": "hard",
         "cities": [
           "Águilas",
           "Mazarrón"
@@ -54144,7 +54125,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 36.74,
         "elevation_gain": 599.4,
-        "difficulty": "moderate",
         "cities": [
           "Mazarrón",
           "Cartagena"
@@ -56724,7 +56704,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.734,
         "elevation_gain": 598.8,
-        "difficulty": "moderate",
         "cities": [
           "Cartagena",
           "San Pedro del Pinatar"
@@ -59554,7 +59533,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.201,
         "elevation_gain": 571.6,
-        "difficulty": "moderate",
         "cities": [
           "San Pedro del Pinatar",
           "Murcia"
@@ -62584,7 +62562,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.407,
         "elevation_gain": 169.4,
-        "difficulty": "moderate",
         "cities": [
           "Murcia",
           "Guardamar del Segura"
@@ -65974,7 +65951,6 @@
         "description": "DEVELOPED",
         "distance_km": 22.264,
         "elevation_gain": 113.1,
-        "difficulty": "easy",
         "cities": [
           "Guardamar del Segura",
           "Elche"
@@ -67219,7 +67195,6 @@
         "description": "DEVELOPED",
         "distance_km": 35.973,
         "elevation_gain": 184.2,
-        "difficulty": "moderate",
         "cities": [
           "Elche",
           "Alicante"
@@ -69674,7 +69649,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.242,
         "elevation_gain": 963.3,
-        "difficulty": "hard",
         "cities": [
           "Alicante",
           "Castalla"
@@ -73564,7 +73538,6 @@
         "description": "DEVELOPED",
         "distance_km": 41.619,
         "elevation_gain": 591.0,
-        "difficulty": "moderate",
         "cities": [
           "Castalla",
           "Muro de Alcoy"
@@ -75819,7 +75792,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.522,
         "elevation_gain": 649.6,
-        "difficulty": "moderate",
         "cities": [
           "Muro de Alcoy",
           "Gandia"
@@ -79759,7 +79731,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.507,
         "elevation_gain": 140.4,
-        "difficulty": "moderate",
         "cities": [
           "Gandia",
           "Sollana"
@@ -82324,7 +82295,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.892,
         "elevation_gain": 118.6,
-        "difficulty": "moderate",
         "cities": [
           "Sollana",
           "Valencia"
@@ -84034,7 +84004,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.975,
         "elevation_gain": 197.9,
-        "difficulty": "moderate",
         "cities": [
           "Valencia",
           "Sagunt"
@@ -86279,7 +86248,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.734,
         "elevation_gain": 244.6,
-        "difficulty": "moderate",
         "cities": [
           "Sagunt",
           "Castellon de la Plana"
@@ -90059,7 +90027,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.346,
         "elevation_gain": 195.3,
-        "difficulty": "moderate",
         "cities": [
           "Castellon de la Plana",
           "Alcossebre"
@@ -92699,7 +92666,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.685,
         "elevation_gain": 690.7,
-        "difficulty": "moderate",
         "cities": [
           "Alcossebre",
           "Ulldecona"
@@ -97214,7 +97180,6 @@
         "description": "PLANNING",
         "distance_km": 80.245,
         "elevation_gain": 675.1,
-        "difficulty": "hard",
         "cities": [
           "Ulldecona",
           "Vandellos i l'Hospitalet de l'Infant"
@@ -101734,7 +101699,6 @@
         "description": "PLANNING",
         "distance_km": 69.128,
         "elevation_gain": 604.8,
-        "difficulty": "hard",
         "cities": [
           "Vandellos i l'Hospitalet de l'Infant",
           "El Vendrell"
@@ -106399,7 +106363,6 @@
         "description": "PLANNING",
         "distance_km": 29.048,
         "elevation_gain": 262.7,
-        "difficulty": "moderate",
         "cities": [
           "El Vendrell",
           "Sitges"
@@ -108229,7 +108192,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.711,
         "elevation_gain": 456.5,
-        "difficulty": "moderate",
         "cities": [
           "Sitges",
           "Barcelona"
@@ -110569,7 +110531,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 19.759,
         "elevation_gain": 87.1,
-        "difficulty": "easy",
         "cities": [
           "Barcelona",
           "Premia de Mar"
@@ -111169,7 +111130,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.612,
         "elevation_gain": 379.5,
-        "difficulty": "moderate",
         "cities": [
           "Premia de Mar",
           "Blanes"
@@ -113954,7 +113914,6 @@
         "description": "DEVELOPED",
         "distance_km": 35.234,
         "elevation_gain": 397.4,
-        "difficulty": "moderate",
         "cities": [
           "Blanes",
           "Sils"
@@ -116539,7 +116498,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.001,
         "elevation_gain": 408.7,
-        "difficulty": "moderate",
         "cities": [
           "Sils",
           "Sant Feliu de Guíxols"
@@ -119404,7 +119362,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.458,
         "elevation_gain": 403.3,
-        "difficulty": "moderate",
         "cities": [
           "Sant Feliu de Guíxols",
           "L'Escala"
@@ -122694,7 +122651,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.912,
         "elevation_gain": 746.8,
-        "difficulty": "moderate",
         "cities": [
           "L'Escala",
           "Le Perthus"
@@ -125119,7 +125075,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.316,
         "elevation_gain": 458.4,
-        "difficulty": "moderate",
         "cities": [
           "Le Perthus",
           "Argelès-sur-Mer"
@@ -129504,7 +129459,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.722,
         "elevation_gain": 64.1,
-        "difficulty": "easy",
         "cities": [
           "Argelès-sur-Mer",
           "Canet-en-Roussillon"
@@ -130899,7 +130853,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 30.051,
         "elevation_gain": 115.9,
-        "difficulty": "moderate",
         "cities": [
           "Canet-en-Roussillon",
           "Leucate"
@@ -132814,7 +132767,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.743,
         "elevation_gain": 81.7,
-        "difficulty": "moderate",
         "cities": [
           "Leucate",
           "Narbonne"
@@ -134279,7 +134231,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.79,
         "elevation_gain": 391.9,
-        "difficulty": "moderate",
         "cities": [
           "Narbonne",
           "Béziers"
@@ -137364,7 +137315,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.04,
         "elevation_gain": 225.6,
-        "difficulty": "moderate",
         "cities": [
           "Béziers",
           "Sète"
@@ -140244,7 +140194,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.637,
         "elevation_gain": 217.6,
-        "difficulty": "moderate",
         "cities": [
           "Sète",
           "Le Grau-du-Roi"
@@ -143659,7 +143608,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.965,
         "elevation_gain": 129.9,
-        "difficulty": "hard",
         "cities": [
           "Le Grau-du-Roi",
           "Tarascon"
@@ -145819,7 +145767,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.647,
         "elevation_gain": 161.5,
-        "difficulty": "moderate",
         "cities": [
           "Tarascon",
           "Cavaillon"
@@ -147399,7 +147346,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.248,
         "elevation_gain": 247.7,
-        "difficulty": "moderate",
         "cities": [
           "Cavaillon",
           "Apt"
@@ -148624,7 +148570,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 82.627,
         "elevation_gain": 1477.6,
-        "difficulty": "hard",
         "cities": [
           "Apt",
           "Manosque"
@@ -154144,7 +154089,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 46.105,
         "elevation_gain": 605.2,
-        "difficulty": "moderate",
         "cities": [
           "Meyrargues",
           "Barjols"
@@ -156659,7 +156603,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.955,
         "elevation_gain": 945.1,
-        "difficulty": "hard",
         "cities": [
           "Barjols",
           "Draguignan"
@@ -161114,7 +161057,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 50.298,
         "elevation_gain": 1154.6,
-        "difficulty": "hard",
         "cities": [
           "Draguignan",
           "Montauroux"
@@ -165249,7 +165191,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.067,
         "elevation_gain": 696.8,
-        "difficulty": "moderate",
         "cities": [
           "Montauroux",
           "Cannes"
@@ -168669,7 +168610,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.449,
         "elevation_gain": 255.7,
-        "difficulty": "moderate",
         "cities": [
           "Cannes",
           "Nice"
@@ -170634,7 +170574,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 39.058,
         "elevation_gain": 1605.6,
-        "difficulty": "hard",
         "cities": [
           "Nice",
           "Menton"
@@ -174189,7 +174128,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 8.167,
         "elevation_gain": 357.7,
-        "difficulty": "moderate",
         "cities": [
           "Menton",
           "Ventimiglia"
@@ -174944,7 +174882,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.488,
         "elevation_gain": 303.1,
-        "difficulty": "moderate",
         "cities": [
           "Limone",
           "Cuneo"
@@ -176664,7 +176601,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.157,
         "elevation_gain": 162.1,
-        "difficulty": "moderate",
         "cities": [
           "Cuneo",
           "Saluzzo"
@@ -178499,7 +178435,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 31.212,
         "elevation_gain": 66.2,
-        "difficulty": "moderate",
         "cities": [
           "Saluzzo",
           "Moretta"
@@ -179879,7 +179814,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.861,
         "elevation_gain": 300.4,
-        "difficulty": "moderate",
         "cities": [
           "Moretta",
           "Turin"
@@ -182499,7 +182433,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 19.3,
         "elevation_gain": 56.5,
-        "difficulty": "easy",
         "cities": [
           "Turin",
           "Chivasso"
@@ -183274,7 +183207,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 59.659,
         "elevation_gain": 181.1,
-        "difficulty": "moderate",
         "cities": [
           "Chivasso",
           "Casale Monferrato"
@@ -185289,7 +185221,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.021,
         "elevation_gain": 106.5,
-        "difficulty": "moderate",
         "cities": [
           "Casale Monferrato",
           "Casone Terraggio"
@@ -186799,7 +186730,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 71.04,
         "elevation_gain": 221.1,
-        "difficulty": "hard",
         "cities": [
           "Casone Terraggio",
           "Pavia"
@@ -188989,7 +188919,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 79.548,
         "elevation_gain": 327.9,
-        "difficulty": "hard",
         "cities": [
           "Pavia",
           "Piacenza"
@@ -192454,7 +192383,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.176,
         "elevation_gain": 196.2,
-        "difficulty": "moderate",
         "cities": [
           "Piacenza",
           "Cremona"
@@ -194789,7 +194717,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.013,
         "elevation_gain": 208.3,
-        "difficulty": "moderate",
         "cities": [
           "Cremona",
           "Viadana"
@@ -197554,7 +197481,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.314,
         "elevation_gain": 251.4,
-        "difficulty": "hard",
         "cities": [
           "Viadana",
           "San Benedetto Po"
@@ -200769,7 +200695,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.455,
         "elevation_gain": 298.4,
-        "difficulty": "moderate",
         "cities": [
           "San Benedetto Po",
           "Stellata di Bondeno"
@@ -203724,7 +203649,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.349,
         "elevation_gain": 172.6,
-        "difficulty": "moderate",
         "cities": [
           "Stellata di Bondeno",
           "Polesella"
@@ -205924,7 +205848,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 77.658,
         "elevation_gain": 207.2,
-        "difficulty": "hard",
         "cities": [
           "Polesella",
           "Chioggia"
@@ -208964,7 +208887,6 @@
         "description": "DEVELOPED",
         "distance_km": 8.887,
         "elevation_gain": 6.3,
-        "difficulty": "easy",
         "cities": [
           "Pellestrina",
           "Santa Maria del Mare"
@@ -209529,7 +209451,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 11.143,
         "elevation_gain": 26.7,
-        "difficulty": "easy",
         "cities": [
           "Alberoni",
           "Lido de Venezia"
@@ -209919,7 +209840,6 @@
         "description": "DEVELOPED",
         "distance_km": 23.914,
         "elevation_gain": 48.3,
-        "difficulty": "easy",
         "cities": [
           "Lido de Venezia",
           "Jesolo"
@@ -211189,7 +211109,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.491,
         "elevation_gain": 52.3,
-        "difficulty": "moderate",
         "cities": [
           "Jesolo",
           "Caorle"
@@ -212354,7 +212273,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 58.775,
         "elevation_gain": 109.5,
-        "difficulty": "moderate",
         "cities": [
           "Caorle",
           "Lignano Sabbiadoro"
@@ -214369,7 +214287,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.737,
         "elevation_gain": 146.0,
-        "difficulty": "hard",
         "cities": [
           "Lignano Sabbiadoro",
           "Cervignano"
@@ -216604,7 +216521,6 @@
         "description": "DEVELOPED",
         "distance_km": 57.936,
         "elevation_gain": 112.4,
-        "difficulty": "moderate",
         "cities": [
           "Cervignano",
           "Monfalcone"
@@ -218524,7 +218440,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 30.217,
         "elevation_gain": 370.8,
-        "difficulty": "moderate",
         "cities": [
           "Monfalcone",
           "Trieste, Italy"
@@ -219799,7 +219714,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 26.962,
         "elevation_gain": 623.1,
-        "difficulty": "moderate",
         "cities": [
           "Trieste, Italy",
           "Muggia"
@@ -221854,7 +221768,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.162,
         "elevation_gain": 314.1,
-        "difficulty": "moderate",
         "cities": [
           "Muggia",
           "Predor Valeta"
@@ -223909,7 +223822,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 10.129,
         "elevation_gain": 91.2,
-        "difficulty": "easy",
         "cities": [
           "Predor Valeta",
           "Secovlje/Plovanija border pass"
@@ -224874,7 +224786,6 @@
         "description": "DEVELOPED",
         "distance_km": 75.544,
         "elevation_gain": 882.3,
-        "difficulty": "hard",
         "cities": [
           "Secovlje/Plovanija border pass",
           "Vrsar"
@@ -229994,7 +229905,6 @@
         "description": "DEVELOPED",
         "distance_km": 70.238,
         "elevation_gain": 863.0,
-        "difficulty": "hard",
         "cities": [
           "Vrsar",
           "Pula"
@@ -234584,7 +234494,6 @@
         "description": "DEVELOPED",
         "distance_km": 84.585,
         "elevation_gain": 1461.5,
-        "difficulty": "hard",
         "cities": [
           "Pula",
           "Nedescina"
@@ -239954,7 +239863,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.508,
         "elevation_gain": 1370.3,
-        "difficulty": "hard",
         "cities": [
           "Nedescina",
           "Rijeka"
@@ -244519,7 +244427,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.628,
         "elevation_gain": 1796.0,
-        "difficulty": "hard",
         "cities": [
           "Rijeka",
           "Gornji Zagon"
@@ -249004,7 +248911,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.025,
         "elevation_gain": 1887.2,
-        "difficulty": "hard",
         "cities": [
           "Gornji Zagon",
           "Krasno Polje"
@@ -253694,7 +253600,6 @@
         "description": "DEVELOPED",
         "distance_km": 41.127,
         "elevation_gain": 698.0,
-        "difficulty": "moderate",
         "cities": [
           "Krasno Polje",
           "Klanac"
@@ -257134,7 +257039,6 @@
         "description": "DEVELOPED",
         "distance_km": 46.631,
         "elevation_gain": 668.1,
-        "difficulty": "moderate",
         "cities": [
           "Klanac",
           "Gospić"
@@ -260354,7 +260258,6 @@
         "description": "DEVELOPED",
         "distance_km": 41.833,
         "elevation_gain": 354.8,
-        "difficulty": "moderate",
         "cities": [
           "Gospić",
           "Lovinac"
@@ -263319,7 +263222,6 @@
         "description": "DEVELOPED",
         "distance_km": 52.737,
         "elevation_gain": 742.7,
-        "difficulty": "moderate",
         "cities": [
           "Lovinac",
           "Maslenica"
@@ -265829,7 +265731,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.222,
         "elevation_gain": 637.9,
-        "difficulty": "moderate",
         "cities": [
           "Maslenica",
           "Zadar"
@@ -268664,7 +268565,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.368,
         "elevation_gain": 427.1,
-        "difficulty": "moderate",
         "cities": [
           "Zadar",
           "Pakostane"
@@ -271829,7 +271729,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.326,
         "elevation_gain": 427.4,
-        "difficulty": "moderate",
         "cities": [
           "Pakostane",
           "Sibenik"
@@ -275164,7 +275063,6 @@
         "description": "DEVELOPED",
         "distance_km": 56.037,
         "elevation_gain": 1005.7,
-        "difficulty": "hard",
         "cities": [
           "Sibenik",
           "Trogir"
@@ -279044,7 +278942,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.549,
         "elevation_gain": 420.5,
-        "difficulty": "moderate",
         "cities": [
           "Trogir",
           "Split"
@@ -281699,7 +281596,6 @@
         "description": "DEVELOPED",
         "distance_km": 74.002,
         "elevation_gain": 2050.5,
-        "difficulty": "hard",
         "cities": [
           "Split",
           "Makarska"
@@ -287624,7 +287520,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.74,
         "elevation_gain": 1545.6,
-        "difficulty": "hard",
         "cities": [
           "Makarska",
           "Ploče"
@@ -292529,7 +292424,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.381,
         "elevation_gain": 1459.8,
-        "difficulty": "hard",
         "cities": [
           "Trpanj",
           "Ston"
@@ -296399,7 +296293,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.92,
         "elevation_gain": 1873.6,
-        "difficulty": "hard",
         "cities": [
           "Ston",
           "Dubrovnik"
@@ -300579,7 +300472,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.988,
         "elevation_gain": 1120.4,
-        "difficulty": "hard",
         "cities": [
           "Dubrovnik",
           "Kobila"
@@ -303699,7 +303591,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 7.309,
         "elevation_gain": 115.3,
-        "difficulty": "easy",
         "cities": [
           "Kobila",
           "Herceg Novi"
@@ -304214,7 +304105,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.778,
         "elevation_gain": 976.4,
-        "difficulty": "hard",
         "cities": [
           "Herceg Novi",
           "Kotor"
@@ -308359,7 +308249,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.419,
         "elevation_gain": 646.6,
-        "difficulty": "moderate",
         "cities": [
           "Kotor",
           "Trojica"
@@ -310734,7 +310623,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.266,
         "elevation_gain": 2405.3,
-        "difficulty": "hard",
         "cities": [
           "Trojica",
           "Cetinje"
@@ -315094,7 +314982,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.187,
         "elevation_gain": 702.8,
-        "difficulty": "moderate",
         "cities": [
           "Cetinje",
           "Rijecki Grad"
@@ -317269,7 +317156,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 24.487,
         "elevation_gain": 1024.4,
-        "difficulty": "hard",
         "cities": [
           "Rijecki Grad",
           "Virpazar"
@@ -320104,7 +319990,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.378,
         "elevation_gain": 2313.2,
-        "difficulty": "hard",
         "cities": [
           "Virpazar",
           "Sukobin"
@@ -325924,7 +325809,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 14.739,
         "elevation_gain": 301.0,
-        "difficulty": "moderate",
         "cities": [
           "Sukobin",
           "Shkoder"
@@ -327514,7 +327398,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 48.799,
         "elevation_gain": 368.6,
-        "difficulty": "moderate",
         "cities": [
           "Shkoder",
           "Lezhë"
@@ -330309,7 +330192,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 69.946,
         "elevation_gain": 483.0,
-        "difficulty": "hard",
         "cities": [
           "Lezhë",
           "Tirana"
@@ -333304,7 +333186,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.484,
         "elevation_gain": 104.6,
-        "difficulty": "moderate",
         "cities": [
           "Tirana",
           "Durres"
@@ -333904,7 +333785,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 35.805,
         "elevation_gain": 110.2,
-        "difficulty": "moderate",
         "cities": [
           "Durres",
           "Rrogozhinë"
@@ -334864,7 +334744,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 54.434,
         "elevation_gain": 207.8,
-        "difficulty": "moderate",
         "cities": [
           "Rrogozhinë",
           "Fier"
@@ -336569,7 +336448,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.272,
         "elevation_gain": 576.7,
-        "difficulty": "moderate",
         "cities": [
           "Fier",
           "Orikum"
@@ -339204,7 +339082,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 37.697,
         "elevation_gain": 1615.4,
-        "difficulty": "hard",
         "cities": [
           "Orikum",
           "Gjilek"
@@ -342399,7 +342276,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.285,
         "elevation_gain": 1414.5,
-        "difficulty": "hard",
         "cities": [
           "Gjilek",
           "Borsh"
@@ -346059,7 +345935,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 33.314,
         "elevation_gain": 1531.2,
-        "difficulty": "hard",
         "cities": [
           "Borsh",
           "Sarandë"
@@ -349809,7 +349684,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.887,
         "elevation_gain": 672.3,
-        "difficulty": "moderate",
         "cities": [
           "Sarandë",
           "Mavromati"
@@ -352154,7 +352028,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.099,
         "elevation_gain": 322.5,
-        "difficulty": "moderate",
         "cities": [
           "Mavromati",
           "Igoumenitsa"
@@ -354089,7 +353962,6 @@
         "description": "DEVELOPED",
         "distance_km": 27.848,
         "elevation_gain": 568.3,
-        "difficulty": "moderate",
         "cities": [
           "Igoumenitsa",
           "Margariti"
@@ -355594,7 +355466,6 @@
         "description": "DEVELOPED",
         "distance_km": 43.45,
         "elevation_gain": 768.1,
-        "difficulty": "moderate",
         "cities": [
           "Margariti",
           "Nea Thesi"
@@ -357509,7 +357380,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.696,
         "elevation_gain": 346.2,
-        "difficulty": "moderate",
         "cities": [
           "Nea Thesi",
           "Arta"
@@ -359454,7 +359324,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.856,
         "elevation_gain": 629.5,
-        "difficulty": "moderate",
         "cities": [
           "Arta",
           "Amfilochia"
@@ -361559,7 +361428,6 @@
         "description": "DEVELOPED",
         "distance_km": 37.122,
         "elevation_gain": 678.9,
-        "difficulty": "moderate",
         "cities": [
           "Amfilochia",
           "Vonitsa"
@@ -363584,7 +363452,6 @@
         "description": "DEVELOPED",
         "distance_km": 34.542,
         "elevation_gain": 599.1,
-        "difficulty": "moderate",
         "cities": [
           "Vonitsa",
           "Mytikas"
@@ -365279,7 +365146,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.548,
         "elevation_gain": 608.2,
-        "difficulty": "moderate",
         "cities": [
           "Mytikas",
           "Astakos"
@@ -366494,7 +366360,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.443,
         "elevation_gain": 392.9,
-        "difficulty": "moderate",
         "cities": [
           "Astakos",
           "Messolonghi"
@@ -368834,7 +368699,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.057,
         "elevation_gain": 483.7,
-        "difficulty": "moderate",
         "cities": [
           "Messolonghi",
           "Rio"
@@ -370479,7 +370343,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.898,
         "elevation_gain": 612.9,
-        "difficulty": "moderate",
         "cities": [
           "Rio",
           "Diakopto"
@@ -373119,7 +372982,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.244,
         "elevation_gain": 412.8,
-        "difficulty": "moderate",
         "cities": [
           "Diakopto",
           "Xylokastro"
@@ -374959,7 +374821,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.612,
         "elevation_gain": 284.5,
-        "difficulty": "moderate",
         "cities": [
           "Xylokastro",
           "Agii Theodori"
@@ -377224,7 +377085,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.169,
         "elevation_gain": 563.4,
-        "difficulty": "moderate",
         "cities": [
           "Agii Theodori",
           "Perama"
@@ -379114,7 +378974,6 @@
         "description": "DEVELOPED",
         "distance_km": 25.872,
         "elevation_gain": 307.5,
-        "difficulty": "moderate",
         "cities": [
           "Perama",
           "Athens"
@@ -380814,7 +380673,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.872,
         "elevation_gain": 173.1,
-        "difficulty": "moderate",
         "cities": [
           "Dikili",
           "Bergama"
@@ -381789,7 +381647,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.492,
         "elevation_gain": 577.5,
-        "difficulty": "hard",
         "cities": [
           "Bergama",
           "Aliaga"
@@ -383729,7 +383586,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.671,
         "elevation_gain": 685.2,
-        "difficulty": "moderate",
         "cities": [
           "Aliaga",
           "Foça"
@@ -385124,7 +384980,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.291,
         "elevation_gain": 350.4,
-        "difficulty": "hard",
         "cities": [
           "Foça",
           "Izmir"
@@ -386734,7 +386589,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 78.361,
         "elevation_gain": 671.1,
-        "difficulty": "hard",
         "cities": [
           "Izmir",
           "Balikliova"
@@ -389709,7 +389563,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.026,
         "elevation_gain": 452.4,
-        "difficulty": "moderate",
         "cities": [
           "Balikliova",
           "Çeşme"
@@ -391209,7 +391062,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.663,
         "elevation_gain": 798.6,
-        "difficulty": "hard",
         "cities": [
           "Çeşme",
           "Sigacik"
@@ -393079,7 +392931,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 81.36,
         "elevation_gain": 789.4,
-        "difficulty": "hard",
         "cities": [
           "Sigacik",
           "Selcuk"
@@ -395149,7 +395000,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 112.585,
         "elevation_gain": 829.1,
-        "difficulty": "hard",
         "cities": [
           "Nicosia",
           "Ayia Napa"
@@ -400324,7 +400174,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 65.882,
         "elevation_gain": 387.3,
-        "difficulty": "hard",
         "cities": [
           "Ayia Napa",
           "Larnaka"
@@ -403509,7 +403358,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 110.084,
         "elevation_gain": 1145.4,
-        "difficulty": "hard",
         "cities": [
           "Larnaka",
           "Limassol"
@@ -409264,7 +409112,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 69.236,
         "elevation_gain": 901.7,
-        "difficulty": "hard",
         "cities": [
           "Limassol",
           "Paphos"
@@ -412324,7 +412171,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 57.153,
         "elevation_gain": 1061.9,
-        "difficulty": "hard",
         "cities": [
           "Paphos",
           "Polis"
@@ -416059,7 +415905,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 109.461,
         "elevation_gain": 6247.7,
-        "difficulty": "hard",
         "cities": [
           "Polis",
           "Kykkos"
@@ -422719,7 +422564,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 133.736,
         "elevation_gain": 5935.3,
-        "difficulty": "hard",
         "cities": [
           "Kykkos",
           "Nicosia"

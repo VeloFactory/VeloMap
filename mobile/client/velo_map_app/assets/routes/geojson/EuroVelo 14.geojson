@@ -5,7 +5,6 @@
     "name": "Waters of Central Europe",
     "description": "",
     "distance_km": 1142.48,
-    "difficulty": "hard",
     "route_number": 14,
     "total_stages": 17,
     "cities": [
@@ -29,8 +28,7 @@
       "Debrecen"
     ],
     "full_name": "Waters of Central Europe",
-    "color": "0xFF4DB6AC",
-    "route_description": "Crossing Austria and Hungary, EuroVelo 14 provides an important east–west link and connects to the EuroVelo routes 7, 9 and 13. The route's name refers to the fact that it connects several important waterways – rivers, lakes and spas – located in central Europe. Indeed, the theme is arguably stronger when experienced on the route as it becomes apparent just how much of the itinerary is located close to water. EuroVelo 14 connects some beautiful landscapes and also provides a great cycling adventure for those that want to travel longer distances. Additionally, the route is very well served by train services."
+    "route_description": "Connecting Austria and Hungary while linking EuroVelo routes 7, 9 and 13, this route earns its name by hugging rivers, lakes and thermal spas across Central Europe. Gentle and well-served by rail, it suits cyclists who want scenic waterside riding without committing to extreme distances — beautiful landscapes, easy logistics."
   },
   "features": [
     {
@@ -41,7 +39,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.94,
         "elevation_gain": 1058.6,
-        "difficulty": "hard",
         "cities": [
           "Zell Am See",
           "Bischofshofen"
@@ -4586,7 +4583,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 107.816,
         "elevation_gain": 1459.6,
-        "difficulty": "hard",
         "cities": [
           "Bischofshofen",
           "Liezen"
@@ -12291,7 +12287,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 170.238,
         "elevation_gain": 2894.9,
-        "difficulty": "hard",
         "cities": [
           "Liezen",
           "Graz"
@@ -24961,7 +24956,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 77.006,
         "elevation_gain": 647.1,
-        "difficulty": "hard",
         "cities": [
           "Graz",
           "Fehring Brunn"
@@ -30741,7 +30735,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.414,
         "elevation_gain": 61.8,
-        "difficulty": "moderate",
         "cities": [
           "Fehring Brunn",
           "Szentgotthard"
@@ -32851,7 +32844,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.941,
         "elevation_gain": 608.9,
-        "difficulty": "hard",
         "cities": [
           "Szentgotthard",
           "Vasvar"
@@ -35271,7 +35263,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.947,
         "elevation_gain": 491.3,
-        "difficulty": "hard",
         "cities": [
           "Vasvar",
           "Keszthely"
@@ -37161,7 +37152,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.23,
         "elevation_gain": 477.2,
-        "difficulty": "hard",
         "cities": [
           "Keszthely",
           "Balatonfüred"
@@ -40956,7 +40946,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.031,
         "elevation_gain": 427.2,
-        "difficulty": "hard",
         "cities": [
           "Balatonfüred",
           "Székesfehérvár"
@@ -44316,7 +44305,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 81.174,
         "elevation_gain": 827.2,
-        "difficulty": "hard",
         "cities": [
           "Székesfehérvár",
           "Budapest"
@@ -48366,7 +48354,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 43.026,
         "elevation_gain": 321.7,
-        "difficulty": "moderate",
         "cities": [
           "Budapest",
           "Gódóllõ"
@@ -49636,7 +49623,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.962,
         "elevation_gain": 212.8,
-        "difficulty": "moderate",
         "cities": [
           "Gódóllõ",
           "Hatvan"
@@ -51006,7 +50992,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.642,
         "elevation_gain": 535.8,
-        "difficulty": "moderate",
         "cities": [
           "Matrafüred",
           "Eger"
@@ -53831,7 +53816,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.389,
         "elevation_gain": 387.6,
-        "difficulty": "hard",
         "cities": [
           "Eger",
           "Tiszafüred"
@@ -55831,7 +55815,6 @@
         "description": "DEVELOPED",
         "distance_km": 22.154,
         "elevation_gain": 40.1,
-        "difficulty": "easy",
         "cities": [
           "Tiszafüred",
           "Tiszacsege"
@@ -56396,7 +56379,6 @@
         "description": "DEVELOPED",
         "distance_km": 80.727,
         "elevation_gain": 181.6,
-        "difficulty": "hard",
         "cities": [
           "Tiszacsege",
           "Debrecen"
@@ -58436,7 +58418,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.843,
         "elevation_gain": 741.0,
-        "difficulty": "moderate",
         "cities": [
           "Hatvan",
           "Matrafüred"

@@ -110,7 +110,7 @@ sealed class RouteDto with _$RouteDto {
       cities: citiesList,
       routeDescription: properties['route_description'] as String? ?? '',
       fullName: properties['full_name'] as String? ?? '',
-      colorValue: _parseColor(properties['color'] as String?),
+      colorValue: _colorFromName(properties['name'] as String),
     );
   }
 
@@ -182,7 +182,7 @@ sealed class RouteDto with _$RouteDto {
       cities: citiesList,
       routeDescription: properties['route_description'] as String? ?? '',
       fullName: properties['full_name'] as String? ?? '',
-      colorValue: _parseColor(properties['color'] as String?),
+      colorValue: _colorFromName(properties['name'] as String),
     );
   }
 
@@ -255,15 +255,24 @@ sealed class RouteDto with _$RouteDto {
     return [minLng, minLat, maxLng, maxLat];
   }
 
-  /// Parse a hex color string like "0xFF9EAD00" into an int.
-  /// Returns fallback if parsing fails.
-  static int _parseColor(String? colorStr, {int fallback = 0xFF546E7A}) {
-    if (colorStr == null || colorStr.isEmpty) return fallback;
-    final hex = colorStr.startsWith('0x') || colorStr.startsWith('0X')
-        ? colorStr.substring(2)
-        : colorStr;
-    return int.tryParse(hex, radix: 16) ?? fallback;
-  }
+  /// Derive a consistent color from the route name using a hash -> palette lookup.
+  static const _colorPalette = [
+    0xFF2196F3, // Blue
+    0xFF4CAF50, // Green
+    0xFFFF5722, // Deep Orange
+    0xFF9C27B0, // Purple
+    0xFF00BCD4, // Cyan
+    0xFFFF9800, // Orange
+    0xFFE91E63, // Pink
+    0xFF009688, // Teal
+    0xFF3F51B5, // Indigo
+    0xFF8BC34A, // Light Green
+    0xFFF44336, // Red
+    0xFF607D8B, // Blue Grey
+  ];
+
+  static int _colorFromName(String name) =>
+      _colorPalette[name.hashCode.abs() % _colorPalette.length];
 
   RouteEntity toEntity() {
     return RouteEntity(

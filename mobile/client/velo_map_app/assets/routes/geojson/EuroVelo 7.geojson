@@ -5,7 +5,6 @@
     "name": "Sun Route",
     "description": "",
     "distance_km": 7383.544,
-    "difficulty": "hard",
     "route_number": 7,
     "total_stages": 144,
     "cities": [
@@ -163,8 +162,7 @@
       "Qala"
     ],
     "full_name": "Sun Route",
-    "color": "0xFF7CB342",
-    "route_description": "Explore Europe from the far North to the sunny South. The approximately 7,650 km of the Sun Route will whisk you from the land of the midnight sun to island hopping in the Mediterranean. Culture, sunlight, mountains and a good dose of history make for an unforgettable adventure. There is so much to do: visiting nine European countries (including stops in the cycling havens of Malmö, Copenhagen, Berlin and Bolzano); tackling the Alps, reaching the tip of the 'Italian boot', and experiencing the sunny archipelago of Malta to mention just a few highlights. What are you waiting for? Don't forget to check the ferry timetables: it is the most convenient way to cross the Baltic Sea between Helsingborg (Sweden) and Helsingor (Denmark), and from Gedser to Rostock in Germany. In the South, take a sunny break on the deck and enjoy the crossing from Pozzallo in Italy to Malta."
+    "route_description": "Stretching roughly 7,650 km from the land of the midnight sun to the sparkling Mediterranean, the Sun Route passes through nine countries and crosses the Alps. Highlights include the cycling-friendly cities of Malmö, Copenhagen and Berlin, the tip of the Italian boot, and sun-soaked Malta — reached by ferry across glittering southern seas."
   },
   "features": [
     {
@@ -175,7 +173,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.129,
         "elevation_gain": 616.6,
-        "difficulty": "moderate",
         "cities": [
           "Nordkapp",
           "Honningsvåg"
@@ -1845,7 +1842,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.475,
         "elevation_gain": 1576.3,
-        "difficulty": "hard",
         "cities": [
           "Honningsvåg",
           "Repvåg"
@@ -3765,7 +3761,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.119,
         "elevation_gain": 1222.4,
-        "difficulty": "hard",
         "cities": [
           "Repvåg",
           "Olderfjord"
@@ -6140,7 +6135,6 @@
         "description": "DEVELOPED",
         "distance_km": 52.851,
         "elevation_gain": 670.0,
-        "difficulty": "moderate",
         "cities": [
           "Olderfjord",
           "Sennalandet"
@@ -7435,7 +7429,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.091,
         "elevation_gain": 617.6,
-        "difficulty": "moderate",
         "cities": [
           "Sennalandet",
           "Alta"
@@ -9445,7 +9438,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.995,
         "elevation_gain": 940.2,
-        "difficulty": "hard",
         "cities": [
           "Alta",
           "Masi"
@@ -12690,7 +12682,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.226,
         "elevation_gain": 566.2,
-        "difficulty": "hard",
         "cities": [
           "Masi",
           "Kautokeino"
@@ -14815,7 +14806,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.059,
         "elevation_gain": 249.1,
-        "difficulty": "moderate",
         "cities": [
           "Kautokeino",
           "Enontekiö"
@@ -15775,7 +15765,6 @@
         "description": "PLANNING",
         "distance_km": 101.998,
         "elevation_gain": 393.2,
-        "difficulty": "hard",
         "cities": [
           "Enontekiö",
           "Karesuando"
@@ -18690,7 +18679,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 104.723,
         "elevation_gain": 456.9,
-        "difficulty": "hard",
         "cities": [
           "Karesuando",
           "Vittangi"
@@ -21725,7 +21713,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 96.109,
         "elevation_gain": 706.8,
-        "difficulty": "hard",
         "cities": [
           "Vittangi",
           "Gällivare Municipality"
@@ -24495,7 +24482,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 46.882,
         "elevation_gain": 164.4,
-        "difficulty": "moderate",
         "cities": [
           "Gällivare Municipality",
           "Hakkas"
@@ -25715,7 +25701,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 88.197,
         "elevation_gain": 783.4,
-        "difficulty": "hard",
         "cities": [
           "Hakkas",
           "Överkalix"
@@ -27840,7 +27825,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.987,
         "elevation_gain": 259.2,
-        "difficulty": "moderate",
         "cities": [
           "Överkalix",
           "Töre"
@@ -29230,7 +29214,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 73.267,
         "elevation_gain": 286.7,
-        "difficulty": "hard",
         "cities": [
           "Lulea",
           "Töre"
@@ -30790,7 +30773,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 76.899,
         "elevation_gain": 247.6,
-        "difficulty": "hard",
         "cities": [
           "Pitea",
           "Lulea"
@@ -31855,7 +31837,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.542,
         "elevation_gain": 303.0,
-        "difficulty": "hard",
         "cities": [
           "Byske",
           "Pitea"
@@ -32565,7 +32546,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.878,
         "elevation_gain": 215.2,
-        "difficulty": "moderate",
         "cities": [
           "Skellefteå",
           "Byske"
@@ -33475,7 +33455,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 71.316,
         "elevation_gain": 362.2,
-        "difficulty": "hard",
         "cities": [
           "Lövånger",
           "Skellefteå"
@@ -34590,7 +34569,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.062,
         "elevation_gain": 269.9,
-        "difficulty": "moderate",
         "cities": [
           "Robertsfors",
           "Lövånger"
@@ -35375,7 +35353,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 76.114,
         "elevation_gain": 390.9,
-        "difficulty": "hard",
         "cities": [
           "Umea",
           "Robertsfors"
@@ -36600,7 +36577,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 62.276,
         "elevation_gain": 255.0,
-        "difficulty": "hard",
         "cities": [
           "Nordmaling",
           "Umea"
@@ -37775,7 +37751,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 71.204,
         "elevation_gain": 669.4,
-        "difficulty": "hard",
         "cities": [
           "Husum",
           "Nordmaling"
@@ -39140,7 +39115,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.119,
         "elevation_gain": 309.4,
-        "difficulty": "moderate",
         "cities": [
           "Örnsköldsvik",
           "Husum"
@@ -40170,7 +40144,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.432,
         "elevation_gain": 1046.1,
-        "difficulty": "hard",
         "cities": [
           "Ullånger",
           "Örnsköldsvik"
@@ -41460,7 +41433,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 80.128,
         "elevation_gain": 1242.4,
-        "difficulty": "hard",
         "cities": [
           "Härnösand",
           "Ullånger"
@@ -43225,7 +43197,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.64,
         "elevation_gain": 736.3,
-        "difficulty": "hard",
         "cities": [
           "Sundsvall",
           "Härnösand"
@@ -44735,7 +44706,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 94.676,
         "elevation_gain": 1071.7,
-        "difficulty": "hard",
         "cities": [
           "Sundsvall",
           "Friggesund"
@@ -49855,7 +49825,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 38.499,
         "elevation_gain": 503.9,
-        "difficulty": "moderate",
         "cities": [
           "Friggesund",
           "Ljusdal"
@@ -52400,7 +52369,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 67.68,
         "elevation_gain": 530.1,
-        "difficulty": "hard",
         "cities": [
           "Ljusdal",
           "Bollnäs"
@@ -55100,7 +55068,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.942,
         "elevation_gain": 650.9,
-        "difficulty": "moderate",
         "cities": [
           "Bollnäs",
           "Åmot"
@@ -58185,7 +58152,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 56.223,
         "elevation_gain": 554.6,
-        "difficulty": "moderate",
         "cities": [
           "Åmot",
           "Falun"
@@ -61360,7 +61326,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 28.176,
         "elevation_gain": 265.6,
-        "difficulty": "moderate",
         "cities": [
           "Falun",
           "Borlänge"
@@ -63570,7 +63535,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 55.121,
         "elevation_gain": 542.4,
-        "difficulty": "moderate",
         "cities": [
           "Borlänge",
           "Ludvika"
@@ -65980,7 +65944,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.471,
         "elevation_gain": 386.1,
-        "difficulty": "moderate",
         "cities": [
           "Ludvika",
           "Kopparberg"
@@ -67380,7 +67343,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 85.5,
         "elevation_gain": 812.6,
-        "difficulty": "hard",
         "cities": [
           "Kopparberg",
           "Örebro"
@@ -73050,7 +73012,6 @@
         "description": "DEVELOPED",
         "distance_km": 62.356,
         "elevation_gain": 478.0,
-        "difficulty": "hard",
         "cities": [
           "Örebro",
           "Åtorp"
@@ -75860,7 +75821,6 @@
         "description": "DEVELOPED",
         "distance_km": 36.313,
         "elevation_gain": 332.8,
-        "difficulty": "moderate",
         "cities": [
           "Åtorp",
           "Otterbäcken"
@@ -78040,7 +78000,6 @@
         "description": "DEVELOPED",
         "distance_km": 50.962,
         "elevation_gain": 366.3,
-        "difficulty": "moderate",
         "cities": [
           "Otterbäcken",
           "Mariestad"
@@ -80635,7 +80594,6 @@
         "description": "DEVELOPED",
         "distance_km": 64.221,
         "elevation_gain": 506.7,
-        "difficulty": "hard",
         "cities": [
           "Mariestad",
           "Lidköping"
@@ -84735,7 +84693,6 @@
         "description": "DEVELOPED",
         "distance_km": 88.254,
         "elevation_gain": 563.0,
-        "difficulty": "hard",
         "cities": [
           "Lidköping",
           "Vänersborg"
@@ -89910,7 +89867,6 @@
         "description": "PLANNING",
         "distance_km": 37.355,
         "elevation_gain": 412.0,
-        "difficulty": "moderate",
         "cities": [
           "Vänersborg",
           "Lilla Edet"
@@ -92300,7 +92256,6 @@
         "description": "PLANNING",
         "distance_km": 59.604,
         "elevation_gain": 576.2,
-        "difficulty": "moderate",
         "cities": [
           "Lilla Edet",
           "Goteborg"
@@ -96590,7 +96545,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.991,
         "elevation_gain": 553.4,
-        "difficulty": "hard",
         "cities": [
           "Goteborg",
           "Kungsbacka"
@@ -101145,7 +101099,6 @@
         "description": "DEVELOPED",
         "distance_km": 71.353,
         "elevation_gain": 537.5,
-        "difficulty": "hard",
         "cities": [
           "Kungsbacka",
           "Varberg"
@@ -106355,7 +106308,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.616,
         "elevation_gain": 162.0,
-        "difficulty": "moderate",
         "cities": [
           "Varberg",
           "Falkenberg"
@@ -108770,7 +108722,6 @@
         "description": "DEVELOPED",
         "distance_km": 57.439,
         "elevation_gain": 339.1,
-        "difficulty": "moderate",
         "cities": [
           "Falkenberg",
           "Halmstad"
@@ -112055,7 +112006,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.051,
         "elevation_gain": 184.3,
-        "difficulty": "moderate",
         "cities": [
           "Halmstad",
           "Båstad"
@@ -114460,7 +114410,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.475,
         "elevation_gain": 458.0,
-        "difficulty": "moderate",
         "cities": [
           "Båstad",
           "Ängelholms kommun"
@@ -118065,7 +118014,6 @@
         "description": "DEVELOPED",
         "distance_km": 40.236,
         "elevation_gain": 214.3,
-        "difficulty": "moderate",
         "cities": [
           "Ängelholms kommun",
           "Höganäs"
@@ -120180,7 +120128,6 @@
         "description": "DEVELOPED",
         "distance_km": 21.854,
         "elevation_gain": 123.9,
-        "difficulty": "easy",
         "cities": [
           "Höganäs",
           "Helsingborg"
@@ -121080,7 +121027,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.767,
         "elevation_gain": 280.6,
-        "difficulty": "moderate",
         "cities": [
           "Helsingor",
           "Copenhagen"
@@ -123665,7 +123611,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.014,
         "elevation_gain": 180.2,
-        "difficulty": "moderate",
         "cities": [
           "Copenhagen",
           "Køge"
@@ -126375,7 +126320,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.959,
         "elevation_gain": 127.2,
-        "difficulty": "moderate",
         "cities": [
           "Køge",
           "Rødvig"
@@ -127740,7 +127684,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.694,
         "elevation_gain": 357.3,
-        "difficulty": "hard",
         "cities": [
           "Rødvig",
           "Stege"
@@ -130785,7 +130728,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.105,
         "elevation_gain": 145.2,
-        "difficulty": "moderate",
         "cities": [
           "Stege",
           "Nykøbing Falster"
@@ -132210,7 +132152,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.58,
         "elevation_gain": 181.1,
-        "difficulty": "moderate",
         "cities": [
           "Nykøbing Falster",
           "Stubbekøbing"
@@ -133765,7 +133706,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 24.931,
         "elevation_gain": 67.1,
-        "difficulty": "easy",
         "cities": [
           "Stubbekøbing",
           "Gedser"
@@ -134635,7 +134575,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.508,
         "elevation_gain": 314.3,
-        "difficulty": "hard",
         "cities": [
           "Rostock",
           "Güstrow"
@@ -137635,7 +137574,6 @@
         "description": "DEVELOPED",
         "distance_km": 80.105,
         "elevation_gain": 676.8,
-        "difficulty": "hard",
         "cities": [
           "Güstrow",
           "Waren"
@@ -141300,7 +141238,6 @@
         "description": "DEVELOPED",
         "distance_km": 64.706,
         "elevation_gain": 452.1,
-        "difficulty": "hard",
         "cities": [
           "Waren",
           "Wesenberg"
@@ -144570,7 +144507,6 @@
         "description": "DEVELOPED",
         "distance_km": 36.241,
         "elevation_gain": 399.4,
-        "difficulty": "moderate",
         "cities": [
           "Wesenberg",
           "Fürstenberg/Havel"
@@ -146270,7 +146206,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.169,
         "elevation_gain": 267.5,
-        "difficulty": "moderate",
         "cities": [
           "Fürstenberg/Havel",
           "Liebenwalde"
@@ -147915,7 +147850,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.117,
         "elevation_gain": 203.9,
-        "difficulty": "moderate",
         "cities": [
           "Liebenwalde",
           "Hennigsdorf"
@@ -149225,7 +149159,6 @@
         "description": "DEVELOPED",
         "distance_km": 24.552,
         "elevation_gain": 138.3,
-        "difficulty": "easy",
         "cities": [
           "Hennigsdorf",
           "Berlin"
@@ -150210,7 +150143,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.219,
         "elevation_gain": 282.2,
-        "difficulty": "moderate",
         "cities": [
           "Berlin",
           "Potsdam"
@@ -151025,7 +150957,6 @@
         "description": "DEVELOPED",
         "distance_km": 57.04,
         "elevation_gain": 380.8,
-        "difficulty": "moderate",
         "cities": [
           "Potsdam",
           "Bad Belzig"
@@ -152700,7 +152631,6 @@
         "description": "DEVELOPED",
         "distance_km": 37.929,
         "elevation_gain": 250.3,
-        "difficulty": "moderate",
         "cities": [
           "Bad Belzig",
           "Lutherstadt Wittenberg"
@@ -153735,7 +153665,6 @@
         "description": "DEVELOPED",
         "distance_km": 69.462,
         "elevation_gain": 290.3,
-        "difficulty": "hard",
         "cities": [
           "Lutherstadt Wittenberg",
           "Torgau"
@@ -157560,7 +157489,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.714,
         "elevation_gain": 253.5,
-        "difficulty": "moderate",
         "cities": [
           "Torgau",
           "Riesa"
@@ -160755,7 +160683,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.87,
         "elevation_gain": 474.8,
-        "difficulty": "moderate",
         "cities": [
           "Riesa",
           "Dresden"
@@ -164255,7 +164182,6 @@
         "description": "DEVELOPED",
         "distance_km": 56.022,
         "elevation_gain": 489.6,
-        "difficulty": "moderate",
         "cities": [
           "Dresden",
           "Decin"
@@ -167005,7 +166931,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.918,
         "elevation_gain": 756.0,
-        "difficulty": "hard",
         "cities": [
           "Decin",
           "Litomerice"
@@ -171090,7 +171015,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.428,
         "elevation_gain": 272.6,
-        "difficulty": "moderate",
         "cities": [
           "Litomerice",
           "Melnik"
@@ -173735,7 +173659,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.091,
         "elevation_gain": 512.5,
-        "difficulty": "hard",
         "cities": [
           "Melnik",
           "Prague"
@@ -177515,7 +177438,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.076,
         "elevation_gain": 1017.6,
-        "difficulty": "hard",
         "cities": [
           "Prague",
           "Živohošť"
@@ -181820,7 +181742,6 @@
         "description": "DEVELOPED",
         "distance_km": 64.847,
         "elevation_gain": 1111.0,
-        "difficulty": "hard",
         "cities": [
           "Živohošť",
           "Zvíkovské Podhradí"
@@ -186675,7 +186596,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.607,
         "elevation_gain": 665.6,
-        "difficulty": "moderate",
         "cities": [
           "Zvíkovské Podhradí",
           "Týn nad Vltavou"
@@ -189275,7 +189195,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.827,
         "elevation_gain": 1119.3,
-        "difficulty": "hard",
         "cities": [
           "Týn nad Vltavou",
           "Cesky Krumlov"
@@ -194045,7 +193964,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.601,
         "elevation_gain": 947.4,
-        "difficulty": "hard",
         "cities": [
           "Cesky Krumlov",
           "Vyšší Brod"
@@ -196725,7 +196643,6 @@
         "description": "DEVELOPED",
         "distance_km": 13.954,
         "elevation_gain": 401.2,
-        "difficulty": "moderate",
         "cities": [
           "Vyšší Brod",
           "Rading"
@@ -197730,7 +197647,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.937,
         "elevation_gain": 587.8,
-        "difficulty": "moderate",
         "cities": [
           "Rading",
           "St. Georgen an der Gusen"
@@ -200620,7 +200536,6 @@
         "description": "DEVELOPED",
         "distance_km": 15.851,
         "elevation_gain": 60.2,
-        "difficulty": "easy",
         "cities": [
           "St. Georgen an der Gusen",
           "Linz"
@@ -201215,7 +201130,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.446,
         "elevation_gain": 640.6,
-        "difficulty": "moderate",
         "cities": [
           "Linz",
           "Inzell"
@@ -203360,7 +203274,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.254,
         "elevation_gain": 681.2,
-        "difficulty": "moderate",
         "cities": [
           "Inzell",
           "Passau"
@@ -205520,7 +205433,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.66,
         "elevation_gain": 627.1,
-        "difficulty": "moderate",
         "cities": [
           "Passau",
           "Kirchdorf am Inn"
@@ -208555,7 +208467,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.842,
         "elevation_gain": 410.1,
-        "difficulty": "moderate",
         "cities": [
           "Kirchdorf am Inn",
           "Burghausen"
@@ -210870,7 +210781,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.289,
         "elevation_gain": 455.5,
-        "difficulty": "moderate",
         "cities": [
           "Burghausen",
           "Salzburg"
@@ -212905,7 +212815,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.036,
         "elevation_gain": 898.4,
-        "difficulty": "hard",
         "cities": [
           "Salzburg",
           "Bischofshofen"
@@ -215875,7 +215784,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.579,
         "elevation_gain": 1586.9,
-        "difficulty": "hard",
         "cities": [
           "Bischofshofen",
           "Böckstein"
@@ -219790,7 +219698,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.946,
         "elevation_gain": 837.9,
-        "difficulty": "hard",
         "cities": [
           "Obervellach",
           "Greifenburg"
@@ -223430,7 +223337,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.928,
         "elevation_gain": 422.0,
-        "difficulty": "moderate",
         "cities": [
           "Greifenburg",
           "Lienz"
@@ -225565,7 +225471,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.256,
         "elevation_gain": 746.1,
-        "difficulty": "moderate",
         "cities": [
           "Lienz",
           "Arnbach"
@@ -227790,7 +227695,6 @@
         "description": "DEVELOPED",
         "distance_km": 68.691,
         "elevation_gain": 921.0,
-        "difficulty": "hard",
         "cities": [
           "Arnbach",
           "Rio di Pusteria"
@@ -231285,7 +231189,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.152,
         "elevation_gain": 1145.4,
-        "difficulty": "hard",
         "cities": [
           "Rio di Pusteria",
           "Bolzano"
@@ -234665,7 +234568,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.618,
         "elevation_gain": 323.2,
-        "difficulty": "hard",
         "cities": [
           "Bolzano",
           "Trento"
@@ -236460,7 +236362,6 @@
         "description": "DEVELOPED",
         "distance_km": 73.35,
         "elevation_gain": 708.5,
-        "difficulty": "hard",
         "cities": [
           "Trento",
           "Rivoli Veronese"
@@ -238995,7 +238896,6 @@
         "description": "DEVELOPED",
         "distance_km": 26.902,
         "elevation_gain": 293.3,
-        "difficulty": "moderate",
         "cities": [
           "Rivoli Veronese",
           "Peschiera del Garda"
@@ -240615,7 +240515,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.368,
         "elevation_gain": 146.0,
-        "difficulty": "moderate",
         "cities": [
           "Peschiera del Garda",
           "Mantua, Italy"
@@ -242400,7 +242299,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.648,
         "elevation_gain": 118.4,
-        "difficulty": "moderate",
         "cities": [
           "Mantua, Italy",
           "San Benedetto Po"
@@ -243685,7 +243583,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 34.911,
         "elevation_gain": 116.0,
-        "difficulty": "moderate",
         "cities": [
           "San Benedetto Po",
           "Mirandola"
@@ -245805,7 +245702,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.018,
         "elevation_gain": 189.6,
-        "difficulty": "hard",
         "cities": [
           "Mirandola",
           "Bologna"
@@ -248165,7 +248061,6 @@
         "description": "DEVELOPED",
         "distance_km": 19.196,
         "elevation_gain": 235.5,
-        "difficulty": "moderate",
         "cities": [
           "Bologna",
           "Sasso Marconi"
@@ -249180,7 +249075,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 23.089,
         "elevation_gain": 478.7,
-        "difficulty": "moderate",
         "cities": [
           "Sasso Marconi",
           "Vergato"
@@ -250925,7 +250819,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 61.877,
         "elevation_gain": 2461.7,
-        "difficulty": "hard",
         "cities": [
           "Vergato",
           "Pistoia"
@@ -256740,7 +256633,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 45.925,
         "elevation_gain": 239.1,
-        "difficulty": "moderate",
         "cities": [
           "Pistoia",
           "Florence"
@@ -259575,7 +259467,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.24,
         "elevation_gain": 665.4,
-        "difficulty": "moderate",
         "cities": [
           "Florence",
           "San Giovanni Valdarno"
@@ -262665,7 +262556,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 49.876,
         "elevation_gain": 628.7,
-        "difficulty": "moderate",
         "cities": [
           "San Giovanni Valdarno",
           "Arezzo"
@@ -266015,7 +265905,6 @@
         "description": "DEVELOPED",
         "distance_km": 65.659,
         "elevation_gain": 144.3,
-        "difficulty": "hard",
         "cities": [
           "Arezzo",
           "Chiusi"
@@ -268100,7 +267989,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.042,
         "elevation_gain": 712.4,
-        "difficulty": "moderate",
         "cities": [
           "Chiusi",
           "Allerona Scalo"
@@ -271025,7 +270913,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.853,
         "elevation_gain": 696.4,
-        "difficulty": "moderate",
         "cities": [
           "Allerona Scalo",
           "Alviano Scalo"
@@ -273475,7 +273362,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.503,
         "elevation_gain": 696.9,
-        "difficulty": "moderate",
         "cities": [
           "Alviano Scalo",
           "Orte"
@@ -275425,7 +275311,6 @@
         "description": "PLANNING",
         "distance_km": 54.856,
         "elevation_gain": 1063.0,
-        "difficulty": "hard",
         "cities": [
           "Orte",
           "Calcata Vecchia"
@@ -278580,7 +278465,6 @@
         "description": "PLANNING",
         "distance_km": 33.439,
         "elevation_gain": 497.6,
-        "difficulty": "moderate",
         "cities": [
           "Calcata Vecchia",
           "Castel Giubileo"
@@ -280220,7 +280104,6 @@
         "description": "DEVELOPED",
         "distance_km": 20.361,
         "elevation_gain": 110.6,
-        "difficulty": "easy",
         "cities": [
           "Castel Giubileo",
           "Rome"
@@ -280920,7 +280803,6 @@
         "description": "DEVELOPED",
         "distance_km": 17.081,
         "elevation_gain": 204.0,
-        "difficulty": "moderate",
         "cities": [
           "Rome",
           "Frattocchie"
@@ -281210,7 +281092,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 20.289,
         "elevation_gain": 524.7,
-        "difficulty": "moderate",
         "cities": [
           "Frattocchie",
           "Velletri"
@@ -282465,7 +282346,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 44.906,
         "elevation_gain": 344.2,
-        "difficulty": "moderate",
         "cities": [
           "Velletri",
           "Latina"
@@ -285020,7 +284900,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 41.144,
         "elevation_gain": 126.2,
-        "difficulty": "moderate",
         "cities": [
           "Latina",
           "San Felice Circeo"
@@ -285845,7 +285724,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 36.143,
         "elevation_gain": 138.1,
-        "difficulty": "moderate",
         "cities": [
           "San Felice Circeo",
           "Sperlonga"
@@ -287235,7 +287113,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 46.28,
         "elevation_gain": 1126.6,
-        "difficulty": "hard",
         "cities": [
           "Sperlonga",
           "Minturno"
@@ -290175,7 +290052,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 44.376,
         "elevation_gain": 116.6,
-        "difficulty": "moderate",
         "cities": [
           "Salerno",
           "Agropoli"
@@ -291090,7 +290966,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 60.12,
         "elevation_gain": 1999.4,
-        "difficulty": "hard",
         "cities": [
           "Agropoli",
           "Ascea"
@@ -294890,7 +294765,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 69.095,
         "elevation_gain": 1948.4,
-        "difficulty": "hard",
         "cities": [
           "Ascea",
           "Sapri"
@@ -298895,7 +298769,6 @@
         "description": "DEVELOPED",
         "distance_km": 72.584,
         "elevation_gain": 2836.2,
-        "difficulty": "hard",
         "cities": [
           "Sapri",
           "Laino Castello"
@@ -305190,7 +305063,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.979,
         "elevation_gain": 2098.2,
-        "difficulty": "hard",
         "cities": [
           "Laino Castello",
           "Firmo"
@@ -308185,7 +308057,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.606,
         "elevation_gain": 1586.6,
-        "difficulty": "hard",
         "cities": [
           "Firmo",
           "Bisignano"
@@ -310795,7 +310666,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.993,
         "elevation_gain": 1938.3,
-        "difficulty": "hard",
         "cities": [
           "Bisignano",
           "Campo San Lorenzo"
@@ -313345,7 +313215,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.217,
         "elevation_gain": 1394.7,
-        "difficulty": "hard",
         "cities": [
           "Campo San Lorenzo",
           "Trepidò Sottano"
@@ -315485,7 +315354,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.943,
         "elevation_gain": 1434.1,
-        "difficulty": "hard",
         "cities": [
           "Trepidò Sottano",
           "Taverna"
@@ -317605,7 +317473,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.666,
         "elevation_gain": 3259.1,
-        "difficulty": "hard",
         "cities": [
           "Taverna",
           "Girifalco"
@@ -321425,7 +321292,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.859,
         "elevation_gain": 1415.9,
-        "difficulty": "hard",
         "cities": [
           "Girifalco",
           "Serra San Bruno"
@@ -323485,7 +323351,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.982,
         "elevation_gain": 1492.8,
-        "difficulty": "hard",
         "cities": [
           "Serra San Bruno",
           "Cittanova"
@@ -326140,7 +326005,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 85.696,
         "elevation_gain": 2264.4,
-        "difficulty": "hard",
         "cities": [
           "Cittanova",
           "Reggio Calabria"
@@ -329940,7 +329804,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 25.496,
         "elevation_gain": 180.8,
-        "difficulty": "moderate",
         "cities": [
           "Santa Teresa di Riva",
           "Marina di Cottone"
@@ -330125,7 +329988,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 40.6,
         "elevation_gain": 312.3,
-        "difficulty": "moderate",
         "cities": [
           "Marina di Cottone",
           "Catania"
@@ -330445,7 +330307,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 52.988,
         "elevation_gain": 233.3,
-        "difficulty": "moderate",
         "cities": [
           "Catania",
           "Priolo Gargallo"
@@ -330730,7 +330591,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 18.483,
         "elevation_gain": 31.7,
-        "difficulty": "easy",
         "cities": [
           "Priolo Gargallo",
           "Siracusa"
@@ -330850,7 +330710,6 @@
         "description": "PLANNING",
         "distance_km": 36.995,
         "elevation_gain": 173.1,
-        "difficulty": "moderate",
         "cities": [
           "Siracusa",
           "Noto"
@@ -331050,7 +330909,6 @@
         "description": "PLANNING",
         "distance_km": 32.591,
         "elevation_gain": 189.6,
-        "difficulty": "moderate",
         "cities": [
           "Noto",
           "Marzamemi"
@@ -331305,7 +331163,6 @@
         "description": "PLANNING",
         "distance_km": 46.742,
         "elevation_gain": 160.4,
-        "difficulty": "moderate",
         "cities": [
           "Marzamemi",
           "Pozzallo"
@@ -331575,7 +331432,6 @@
         "description": "PLANNING",
         "distance_km": 13.599,
         "elevation_gain": 177.5,
-        "difficulty": "easy",
         "cities": [
           "Valletta",
           "Birżebbuġa"
@@ -332560,7 +332416,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.181,
         "elevation_gain": 780.7,
-        "difficulty": "moderate",
         "cities": [
           "Birżebbuġa",
           "Ċirkewwa"
@@ -335640,7 +335495,6 @@
         "description": "PLANNING",
         "distance_km": 42.173,
         "elevation_gain": 903.1,
-        "difficulty": "hard",
         "cities": [
           "Mgarr",
           "Qala"

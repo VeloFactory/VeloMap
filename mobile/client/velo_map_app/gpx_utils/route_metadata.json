@@ -3,103 +3,86 @@
         {
             "route_number": 1,
             "route_full_name": "Atlantic Coast Route",
-            "route_color": "0xFF9EAD00",
             "route_description": "From the fjords of Norway to the sun-drenched shores of Portugal, this 11,000 km journey traces Europe's entire western edge. You'll discover wild Irish coastlines, the dramatic cliffs of Brittany, and vibrant port cities alongside quiet fishing villages — all while feasting on the finest seafood the Atlantic has to offer."
         },
         {
             "route_number": 2,
             "route_full_name": "Capitals Route",
-            "route_color": "0xFF9FB6C9",
             "route_description": "Six great capitals — Dublin, London, Berlin, Warsaw, Minsk and Moscow — connected by 5,000 km of road. Whether you kick off in an Irish pub or beneath the Red Square's iconic domes, the journey in between rewards with world-class dining and culture, the ancient Białowieża Forest, and the wild landscapes of Snowdonia."
         },
         {
             "route_number": 3,
             "route_full_name": "Pilgrims Route",
-            "route_color": "0xFF4A90E2",
             "route_description": "At roughly 5,600 km, this route blends sacred heritage with vibrant city life. Pedal past the soaring cathedrals of Cologne, Aachen and Santiago de Compostela, then enjoy the legendary nightlife of Hamburg, Liège or Paris. The journey ends at Cape Finisterre — once believed to be the very edge of the known world."
         },
         {
             "route_number": 4,
             "route_full_name": "Central Europe Route",
-            "route_color": "0xFFF2C300",
             "route_description": "A 5,100 km east-west crossing of Europe's densely layered heart. Medieval architecture, dynamic cities and sweeping history sit alongside quieter escapes — France's rugged northern coast and the enchanting Bohemian Forest offer welcome contrast. EuroVelo 4 is endlessly varied and hard to categorise."
         },
         {
             "route_number": 5,
             "route_full_name": "Via Romea (Francigena)",
-            "route_color": "0xFFD8A0C5",
             "route_description": "Retracing the ancient pilgrimage path once walked from England to Rome — and beyond to Brindisi and Jerusalem — this 3,200 km route threads through 7 countries. Major EU institutions in Brussels, Luxembourg and Strasbourg mix with centuries-old cathedrals and monuments. Perfect for a weekend escape or an extended adventure."
         },
         {
             "route_number": 6,
             "route_full_name": "Atlantic – Black Sea",
-            "route_color": "0xFFA0005A",
             "route_description": "One of the network's crown jewels: flat terrain, outstanding infrastructure and iconic river corridors along the Loire and the Danube make this a dream for touring cyclists. Taste Loire Valley wines, explore Vienna's grand museums, and experience the legendary warmth of Serbian hospitality across kilometres of unforgettable riding."
         },
         {
             "route_number": 7,
             "route_full_name": "Sun Route",
-            "route_color": "0xFF7CB342",
             "route_description": "Stretching roughly 7,650 km from the land of the midnight sun to the sparkling Mediterranean, the Sun Route passes through nine countries and crosses the Alps. Highlights include the cycling-friendly cities of Malmö, Copenhagen and Berlin, the tip of the Italian boot, and sun-soaked Malta — reached by ferry across glittering southern seas."
         },
         {
             "route_number": 8,
             "route_full_name": "Mediterranean Route",
-            "route_color": "0xFF8D4B20",
             "route_description": "Golden beaches, emerald coves, ancient ruins and legendary cuisine line every kilometre of this iconic coastal ride. Visit Granada's Alhambra, Gaudí's Barcelona and Venice's canals, then lose yourself in lesser-known gems scattered between the famous landmarks. The Mediterranean has never been easier — or more rewarding — to explore by bike."
         },
         {
             "route_number": 9,
             "route_full_name": "Baltic – Adriatic",
-            "route_color": "0xFF8E5EA2",
             "route_description": "Short by EuroVelo standards at 2,050 km, but bursting with variety. Begin with a brisk ride along the Baltic coast and finish with your feet in the Adriatic Sea. In between, Poland, Czechia, Austria, Slovenia, Italy and Croatia each offer distinct culinary traditions and welcoming communities along this historically rich Amber Route."
         },
         {
             "route_number": 10,
             "route_full_name": "Baltic Sea Cycle Route",
-            "route_color": "0xFFF4B400",
             "route_description": "Circumnavigating the Baltic Sea, this route weaves through beaches, cliffs, forests, marinas and thousands of islands, connecting five capital cities — including Saint Petersburg and Hanseatic gems like Gdańsk and Lübeck. Between cultural highlights, the unspoiled shoreline offers a rare opportunity to simply breathe in nature."
         },
         {
             "route_number": 11,
             "route_full_name": "East Europe Route",
-            "route_color": "0xFFE67E22",
             "route_description": "Nicknamed the \"Beast of the East\" by those who've tackled its 6,550 km, this epic north-south route runs from Norway's northeastern tip down to sun-drenched Greece. Along the way, six remarkable capitals — Helsinki, Vilnius, Warsaw, Belgrade, Skopje and Athens — each offer a completely different flavour of Eastern European life."
         },
         {
             "route_number": 12,
             "route_full_name": "North Sea Cycle Route",
-            "route_color": "0xFF2E7D32",
             "route_description": "Don't let the grey North Sea fool you — this roughly 7,050 km loop is packed with contrast. Cycle below sea level in the Netherlands, then scale 300-metre Norwegian cliffs. Sip whisky in Scotland, roll along Denmark's immaculate bike paths, and dance the night away in the port cities of Gothenburg or Hamburg. Endlessly surprising."
         },
         {
             "route_number": 13,
             "route_full_name": "Iron Curtain Trail",
-            "route_color": "0xFFC0392B",
             "route_description": "At over 10,600 km, this is one of the network's longest routes — and its most historically charged. Tracing the former boundary between East and West, it delivers a living lesson in Cold War history, alongside the vineyards of southern Czechia and northern Austria, rewilded border landscapes teeming with wildlife, and vibrant Baltic port cities."
         },
         {
             "route_number": 14,
             "route_full_name": "Waters of Central Europe",
-            "route_color": "0xFF4DB6AC",
             "route_description": "Connecting Austria and Hungary while linking EuroVelo routes 7, 9 and 13, this route earns its name by hugging rivers, lakes and thermal spas across Central Europe. Gentle and well-served by rail, it suits cyclists who want scenic waterside riding without committing to extreme distances — beautiful landscapes, easy logistics."
         },
         {
             "route_number": 15,
             "route_full_name": "Rhine Cycle Route",
-            "route_color": "0xFF1E3A8A",
             "route_description": "Suitable for all abilities, this riverside route follows the Rhine from the Swiss Alps to the North Sea — one of Europe's longest and most storied rivers. For more than 2,000 years the Rhine has connected Alpine cultures with Northern Europe. Today it remains the most scenic way to watch that rich heritage unfold kilometre by kilometre."
         },
         {
             "route_number": 17,
             "route_full_name": "Rhone Cycle Route",
-            "route_color": "0xFFC0CA33",
             "route_description": "Beginning in the alpine village of Andermatt — where EuroVelo 15 also starts — this 1,250 km route follows the River Rhône all the way to France's Mediterranean coast. Compact but extraordinarily diverse, it takes in Lake Geneva, the lavender-filled plateaus of Provence and the wild white horses of the Camargue — a journey of constant wonder."
         },
         {
             "route_number": 19,
             "route_full_name": "Meuse Cycle Route",
-            "route_color": "0xFF8E2C2C",
             "route_description": "Following the Meuse — one of Europe's most historically important rivers — for over 1,050 km across France, Belgium and the Netherlands, this accessible route welcomes cyclists of all levels. From the Langres Plateau to the port of Rotterdam, charming riverside towns, rich cultural heritage and local culinary traditions make every day rewarding."
         }
     ]

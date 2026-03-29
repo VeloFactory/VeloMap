@@ -5,7 +5,6 @@
     "name": "Meuse Cycle Route",
     "description": "",
     "distance_km": 1154.998,
-    "difficulty": "hard",
     "route_number": 19,
     "total_stages": 32,
     "cities": [
@@ -43,8 +42,7 @@
       "Rotterdam"
     ],
     "full_name": "Meuse Cycle Route",
-    "color": "0xFF8E2C2C",
-    "route_description": "The Meuse Cycle Route follows one of the most important rivers in Europe and welcomes cyclists of all levels! From the plateau of Langres via Hoek van Holland to Rotterdam, step on your bike and discover 3 countries (France, Belgium and Netherlands) by cycling over 1,050 kilometers of marked roads. This attractive and varied route offers ever-changing scenery, with charming towns and villages on both banks of the river, plus there are plenty of cultural heritage sites and culinary treasures from beginning to end."
+    "route_description": "Following the Meuse — one of Europe's most historically important rivers — for over 1,050 km across France, Belgium and the Netherlands, this accessible route welcomes cyclists of all levels. From the Langres Plateau to the port of Rotterdam, charming riverside towns, rich cultural heritage and local culinary traditions make every day rewarding."
   },
   "features": [
     {
@@ -55,7 +53,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.906,
         "elevation_gain": 338.7,
-        "difficulty": "moderate",
         "cities": [
           "Langres",
           "Pouilly-en-bassigny"
@@ -1785,7 +1782,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 10.66,
         "elevation_gain": 74.6,
-        "difficulty": "easy",
         "cities": [
           "Pouilly-en-bassigny",
           "Montigny-le-Roi"
@@ -2130,7 +2126,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.71,
         "elevation_gain": 221.5,
-        "difficulty": "moderate",
         "cities": [
           "Montigny-le-Roi",
           "Bourmont"
@@ -2825,7 +2820,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.09,
         "elevation_gain": 436.9,
-        "difficulty": "moderate",
         "cities": [
           "Bourmont",
           "Neufchâteau"
@@ -4350,7 +4344,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.217,
         "elevation_gain": 347.1,
-        "difficulty": "moderate",
         "cities": [
           "Neufchâteau",
           "Vaucouleurs"
@@ -5645,7 +5638,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.923,
         "elevation_gain": 211.8,
-        "difficulty": "moderate",
         "cities": [
           "Vaucouleurs",
           "Commercy"
@@ -6390,7 +6382,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 22.406,
         "elevation_gain": 221.9,
-        "difficulty": "moderate",
         "cities": [
           "Commercy",
           "St-Mihiel"
@@ -7100,7 +7091,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.376,
         "elevation_gain": 200.8,
-        "difficulty": "moderate",
         "cities": [
           "St-Mihiel",
           "Verdun"
@@ -8080,7 +8070,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.075,
         "elevation_gain": 194.9,
-        "difficulty": "moderate",
         "cities": [
           "Verdun",
           "Dun-Sur-Meuse"
@@ -9105,7 +9094,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 14.365,
         "elevation_gain": 78.8,
-        "difficulty": "easy",
         "cities": [
           "Dun-Sur-Meuse",
           "Stenay"
@@ -9515,7 +9503,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.355,
         "elevation_gain": 385.1,
-        "difficulty": "moderate",
         "cities": [
           "Stenay",
           "Sedan"
@@ -10970,7 +10957,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 28.943,
         "elevation_gain": 156.9,
-        "difficulty": "moderate",
         "cities": [
           "Sedan",
           "Charleville-Mézières"
@@ -12120,7 +12106,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 20.949,
         "elevation_gain": 216.9,
-        "difficulty": "moderate",
         "cities": [
           "Charleville-Mézières",
           "Monthermé"
@@ -13020,7 +13005,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.071,
         "elevation_gain": 417.3,
-        "difficulty": "moderate",
         "cities": [
           "Monthermé",
           "Haybes"
@@ -14370,7 +14354,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.548,
         "elevation_gain": 352.5,
-        "difficulty": "moderate",
         "cities": [
           "Haybes",
           "Givet"
@@ -15665,7 +15648,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.865,
         "elevation_gain": 269.9,
-        "difficulty": "moderate",
         "cities": [
           "Givet",
           "Dinant"
@@ -17060,7 +17042,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.947,
         "elevation_gain": 233.3,
-        "difficulty": "moderate",
         "cities": [
           "Dinant",
           "Namur"
@@ -18395,7 +18376,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.243,
         "elevation_gain": 208.2,
-        "difficulty": "moderate",
         "cities": [
           "Huy",
           "Namur"
@@ -19835,7 +19815,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.122,
         "elevation_gain": 273.9,
-        "difficulty": "moderate",
         "cities": [
           "Liège",
           "Huy"
@@ -22200,7 +22179,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 23.339,
         "elevation_gain": 92.4,
-        "difficulty": "easy",
         "cities": [
           "Liège",
           "Kanne"
@@ -23350,7 +23328,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 76.679,
         "elevation_gain": 430.1,
-        "difficulty": "hard",
         "cities": [
           "Kanne",
           "Roermond"
@@ -27975,7 +27952,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 9.558,
         "elevation_gain": 182.9,
-        "difficulty": "easy",
         "cities": [
           "Kanne",
           "Maastricht"
@@ -28695,7 +28671,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.516,
         "elevation_gain": 175.1,
-        "difficulty": "moderate",
         "cities": [
           "Maastricht",
           "Ohé en Laak"
@@ -31680,7 +31655,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.004,
         "elevation_gain": 122.2,
-        "difficulty": "easy",
         "cities": [
           "Ohé en Laak",
           "Roermond"
@@ -33200,7 +33174,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.459,
         "elevation_gain": 206.2,
-        "difficulty": "moderate",
         "cities": [
           "Roermond",
           "Venlo"
@@ -35845,7 +35818,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.39,
         "elevation_gain": 233.8,
-        "difficulty": "moderate",
         "cities": [
           "Venlo",
           "Boxmeer"
@@ -39280,7 +39252,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 62.201,
         "elevation_gain": 189.3,
-        "difficulty": "hard",
         "cities": [
           "Boxmeer",
           "Maasbommel"
@@ -43520,7 +43491,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.291,
         "elevation_gain": 115.6,
-        "difficulty": "moderate",
         "cities": [
           "Maasbommel",
           "Den Bosch"
@@ -46460,7 +46430,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 29.639,
         "elevation_gain": 104.3,
-        "difficulty": "moderate",
         "cities": [
           "Den Bosch",
           "Woudrichem"
@@ -48450,7 +48419,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.819,
         "elevation_gain": 135.8,
-        "difficulty": "moderate",
         "cities": [
           "Woudrichem",
           "Dordrecht"
@@ -51225,7 +51193,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 92.071,
         "elevation_gain": 298.5,
-        "difficulty": "hard",
         "cities": [
           "Dordrecht",
           "Hook of Holland"
@@ -56380,7 +56347,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.261,
         "elevation_gain": 151.3,
-        "difficulty": "moderate",
         "cities": [
           "Hook of Holland",
           "Rotterdam"

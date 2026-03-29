@@ -5,7 +5,6 @@
     "name": "Atlantic Coast Route",
     "description": "",
     "distance_km": 10317.772,
-    "difficulty": "hard",
     "route_number": 1,
     "total_stages": 221,
     "cities": [
@@ -266,8 +265,7 @@
       "Valenca"
     ],
     "full_name": "Atlantic Coast Route",
-    "color": "0xFF9EAD00",
-    "route_description": "Following Europe's mighty western border, reaching from Scandinavia, to South and Western Portugal, the Atlantic Coast Route visits the majestic fjords of Norway, the wild Irish coastline, the rough cliffs of Brittany and the sun-kissed beaches of Portugal, totalling 11,000 km. Along the way you will not only be seduced by bustling port cities and cosy fishing villages, but you will be impressed by dramatic landscapes and have the chance to enjoy the best seafood each country has to offer."
+    "route_description": "From the fjords of Norway to the sun-drenched shores of Portugal, this 11,000 km journey traces Europe's entire western edge. You'll discover wild Irish coastlines, the dramatic cliffs of Brittany, and vibrant port cities alongside quiet fishing villages — all while feasting on the finest seafood the Atlantic has to offer."
   },
   "features": [
     {
@@ -278,7 +276,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.129,
         "elevation_gain": 616.6,
-        "difficulty": "moderate",
         "cities": [
           "Nordkapp",
           "Honningsvåg"
@@ -1948,7 +1945,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.475,
         "elevation_gain": 1576.3,
-        "difficulty": "hard",
         "cities": [
           "Honningsvåg",
           "Repvåg"
@@ -3868,7 +3864,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.119,
         "elevation_gain": 1222.4,
-        "difficulty": "hard",
         "cities": [
           "Repvåg",
           "Olderfjord"
@@ -6243,7 +6238,6 @@
         "description": "DEVELOPED",
         "distance_km": 52.851,
         "elevation_gain": 670.0,
-        "difficulty": "moderate",
         "cities": [
           "Olderfjord",
           "Sennalandet"
@@ -7538,7 +7532,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.091,
         "elevation_gain": 617.6,
-        "difficulty": "moderate",
         "cities": [
           "Sennalandet",
           "Alta"
@@ -9548,7 +9541,6 @@
         "description": "DEVELOPED",
         "distance_km": 47.088,
         "elevation_gain": 1118.1,
-        "difficulty": "hard",
         "cities": [
           "Alta",
           "Isnestoften"
@@ -12448,7 +12440,6 @@
         "description": "DEVELOPED",
         "distance_km": 51.383,
         "elevation_gain": 633.4,
-        "difficulty": "moderate",
         "cities": [
           "Isnestoften",
           "Burfjord"
@@ -14183,7 +14174,6 @@
         "description": "DEVELOPED",
         "distance_km": 72.576,
         "elevation_gain": 1297.2,
-        "difficulty": "hard",
         "cities": [
           "Burfjord",
           "Storslett"
@@ -17263,7 +17253,6 @@
         "description": "DEVELOPED",
         "distance_km": 50.389,
         "elevation_gain": 673.4,
-        "difficulty": "moderate",
         "cities": [
           "Storslett",
           "Olderdalen"
@@ -19313,7 +19302,6 @@
         "description": "DEVELOPED",
         "distance_km": 21.892,
         "elevation_gain": 192.8,
-        "difficulty": "easy",
         "cities": [
           "Lyngseidet",
           "Svensby"
@@ -20158,7 +20146,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.945,
         "elevation_gain": 600.5,
-        "difficulty": "moderate",
         "cities": [
           "Breivikeidet",
           "Tromsø"
@@ -22148,7 +22135,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.172,
         "elevation_gain": 660.6,
-        "difficulty": "moderate",
         "cities": [
           "Tromsø",
           "Brensholmen"
@@ -24888,7 +24874,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.944,
         "elevation_gain": 1546.3,
-        "difficulty": "hard",
         "cities": [
           "Botnhamn",
           "Skaland"
@@ -27103,7 +27088,6 @@
         "description": "DEVELOPED",
         "distance_km": 37.868,
         "elevation_gain": 1250.7,
-        "difficulty": "hard",
         "cities": [
           "Skaland",
           "Gryllefjord"
@@ -29148,7 +29132,6 @@
         "description": "DEVELOPED",
         "distance_km": 47.945,
         "elevation_gain": 370.9,
-        "difficulty": "moderate",
         "cities": [
           "Andenes",
           "Bø"
@@ -31123,7 +31106,6 @@
         "description": "DEVELOPED",
         "distance_km": 61.473,
         "elevation_gain": 371.4,
-        "difficulty": "hard",
         "cities": [
           "Bø",
           "Sortland"
@@ -33073,7 +33055,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.007,
         "elevation_gain": 490.2,
-        "difficulty": "moderate",
         "cities": [
           "Sortland",
           "Melbu"
@@ -36068,7 +36049,6 @@
         "description": "DEVELOPED",
         "distance_km": 62.77,
         "elevation_gain": 668.9,
-        "difficulty": "hard",
         "cities": [
           "Fiskebøl",
           "Svolvær"
@@ -38813,7 +38793,6 @@
         "description": "DEVELOPED",
         "distance_km": 68.097,
         "elevation_gain": 1130.9,
-        "difficulty": "hard",
         "cities": [
           "Svolvær",
           "Leknes"
@@ -42213,7 +42192,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.101,
         "elevation_gain": 989.7,
-        "difficulty": "hard",
         "cities": [
           "Leknes",
           "Moskenes"
@@ -45273,7 +45251,6 @@
         "description": "DEVELOPED",
         "distance_km": 30.095,
         "elevation_gain": 346.7,
-        "difficulty": "moderate",
         "cities": [
           "Bodø",
           "Saltstraumen"
@@ -47158,7 +47135,6 @@
         "description": "DEVELOPED",
         "distance_km": 67.509,
         "elevation_gain": 1817.0,
-        "difficulty": "hard",
         "cities": [
           "Saltstraumen",
           "Storvik"
@@ -50448,7 +50424,6 @@
         "description": "DEVELOPED",
         "distance_km": 21.196,
         "elevation_gain": 203.4,
-        "difficulty": "moderate",
         "cities": [
           "Storvik",
           "Ørnes"
@@ -51378,7 +51353,6 @@
         "description": "DEVELOPED",
         "distance_km": 30.184,
         "elevation_gain": 374.6,
-        "difficulty": "moderate",
         "cities": [
           "Vassdalsvik",
           "Forøy"
@@ -52598,7 +52572,6 @@
         "description": "DEVELOPED",
         "distance_km": 27.869,
         "elevation_gain": 626.3,
-        "difficulty": "moderate",
         "cities": [
           "Ågskardet",
           "Jektvik"
@@ -54243,7 +54216,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.701,
         "elevation_gain": 1359.2,
-        "difficulty": "hard",
         "cities": [
           "Kilboghavn",
           "Utskarpen"
@@ -57188,7 +57160,6 @@
         "description": "DEVELOPED",
         "distance_km": 30.852,
         "elevation_gain": 588.9,
-        "difficulty": "moderate",
         "cities": [
           "Utskarpen",
           "Nesna"
@@ -58758,7 +58729,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.326,
         "elevation_gain": 466.6,
-        "difficulty": "moderate",
         "cities": [
           "Levang",
           "Sandnessjøen"
@@ -59978,7 +59948,6 @@
         "description": "DEVELOPED",
         "distance_km": 37.55,
         "elevation_gain": 365.2,
-        "difficulty": "moderate",
         "cities": [
           "Sandnessjøen",
           "Tjøtta"
@@ -61488,7 +61457,6 @@
         "description": "DEVELOPED",
         "distance_km": 16.744,
         "elevation_gain": 100.3,
-        "difficulty": "easy",
         "cities": [
           "Vevelstad",
           "Andalsvågen"
@@ -62128,7 +62096,6 @@
         "description": "DEVELOPED",
         "distance_km": 57.821,
         "elevation_gain": 508.3,
-        "difficulty": "moderate",
         "cities": [
           "Horn",
           "Vennesund"
@@ -64333,7 +64300,6 @@
         "description": "DEVELOPED",
         "distance_km": 79.042,
         "elevation_gain": 1620.9,
-        "difficulty": "hard",
         "cities": [
           "Holm",
           "Hofles"
@@ -68308,7 +68274,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.261,
         "elevation_gain": 1217.5,
-        "difficulty": "hard",
         "cities": [
           "Lund",
           "Namsos"
@@ -71848,7 +71813,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.931,
         "elevation_gain": 405.4,
-        "difficulty": "moderate",
         "cities": [
           "Namsos",
           "Fossli"
@@ -73563,7 +73527,6 @@
         "description": "DEVELOPED",
         "distance_km": 47.605,
         "elevation_gain": 588.6,
-        "difficulty": "moderate",
         "cities": [
           "Fossli",
           "Steinkjer"
@@ -76528,7 +76491,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.348,
         "elevation_gain": 498.4,
-        "difficulty": "moderate",
         "cities": [
           "Steinkjer",
           "Vang"
@@ -78498,7 +78460,6 @@
         "description": "DEVELOPED",
         "distance_km": 71.008,
         "elevation_gain": 1850.8,
-        "difficulty": "hard",
         "cities": [
           "Vang",
           "Vanvikan"
@@ -82423,7 +82384,6 @@
         "description": "DEVELOPED",
         "distance_km": 46.172,
         "elevation_gain": 566.0,
-        "difficulty": "moderate",
         "cities": [
           "Trondheim",
           "Orkanger"
@@ -85718,7 +85678,6 @@
         "description": "DEVELOPED",
         "distance_km": 57.151,
         "elevation_gain": 1453.2,
-        "difficulty": "hard",
         "cities": [
           "Orkanger",
           "Kyrksæterøra"
@@ -89868,7 +89827,6 @@
         "description": "DEVELOPED",
         "distance_km": 57.02,
         "elevation_gain": 1293.4,
-        "difficulty": "hard",
         "cities": [
           "Kyrksæterøra",
           "Aure"
@@ -93588,7 +93546,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.58,
         "elevation_gain": 823.6,
-        "difficulty": "hard",
         "cities": [
           "Aure",
           "Tømmervåg"
@@ -96048,7 +96005,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.801,
         "elevation_gain": 907.8,
-        "difficulty": "hard",
         "cities": [
           "Seivika",
           "Kårvåg"
@@ -99053,7 +99009,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.0,
         "elevation_gain": 334.7,
-        "difficulty": "moderate",
         "cities": [
           "Kårvåg",
           "Elnesvågen"
@@ -101628,7 +101583,6 @@
         "description": "DEVELOPED",
         "distance_km": 36.61,
         "elevation_gain": 468.7,
-        "difficulty": "moderate",
         "cities": [
           "Elnesvågen",
           "Mordalsvågen"
@@ -103588,7 +103542,6 @@
         "description": "DEVELOPED",
         "distance_km": 34.565,
         "elevation_gain": 713.0,
-        "difficulty": "moderate",
         "cities": [
           "Solholmen",
           "Dryna"
@@ -105293,7 +105246,6 @@
         "description": "DEVELOPED",
         "distance_km": 19.105,
         "elevation_gain": 224.1,
-        "difficulty": "moderate",
         "cities": [
           "Brattvåg",
           "Hamnsund"
@@ -106723,7 +106675,6 @@
         "description": "DEVELOPED",
         "distance_km": 66.985,
         "elevation_gain": 1751.3,
-        "difficulty": "hard",
         "cities": [
           "Florø",
           "Førde"
@@ -111088,7 +111039,6 @@
         "description": "DEVELOPED",
         "distance_km": 61.49,
         "elevation_gain": 2112.7,
-        "difficulty": "hard",
         "cities": [
           "Førde",
           "Askvoll"
@@ -114903,7 +114853,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.962,
         "elevation_gain": 862.8,
-        "difficulty": "hard",
         "cities": [
           "Fure",
           "Rysjedalsvika"
@@ -118573,7 +118522,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.035,
         "elevation_gain": 1639.8,
-        "difficulty": "hard",
         "cities": [
           "Rutledal",
           "Sløvåg"
@@ -123833,7 +123781,6 @@
         "description": "DEVELOPED",
         "distance_km": 53.555,
         "elevation_gain": 664.9,
-        "difficulty": "moderate",
         "cities": [
           "Leirvåg",
           "Alversund"
@@ -127328,7 +127275,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.4,
         "elevation_gain": 860.8,
-        "difficulty": "hard",
         "cities": [
           "Alversund",
           "Bergen"
@@ -130118,7 +130064,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.167,
         "elevation_gain": 597.3,
-        "difficulty": "moderate",
         "cities": [
           "Aberdeen",
           "Maud"
@@ -132723,7 +132668,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.956,
         "elevation_gain": 487.2,
-        "difficulty": "moderate",
         "cities": [
           "Maud",
           "Banff"
@@ -134318,7 +134262,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.262,
         "elevation_gain": 733.6,
-        "difficulty": "hard",
         "cities": [
           "Banff",
           "Elgin"
@@ -137448,7 +137391,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.073,
         "elevation_gain": 662.3,
-        "difficulty": "hard",
         "cities": [
           "Elgin",
           "Inverness"
@@ -140143,7 +140085,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 75.736,
         "elevation_gain": 921.1,
-        "difficulty": "hard",
         "cities": [
           "Inverness",
           "Kingussie"
@@ -144048,7 +143989,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.158,
         "elevation_gain": 579.2,
-        "difficulty": "hard",
         "cities": [
           "Kingussie",
           "Pitlochry"
@@ -146883,7 +146823,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.459,
         "elevation_gain": 943.7,
-        "difficulty": "hard",
         "cities": [
           "Pitlochry",
           "Killin"
@@ -149568,7 +149507,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.167,
         "elevation_gain": 521.4,
-        "difficulty": "moderate",
         "cities": [
           "Killin",
           "Callander"
@@ -151913,7 +151851,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.307,
         "elevation_gain": 964.1,
-        "difficulty": "hard",
         "cities": [
           "Callander",
           "Balloch"
@@ -155143,7 +155080,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.698,
         "elevation_gain": 174.3,
-        "difficulty": "moderate",
         "cities": [
           "Balloch",
           "Glasgow"
@@ -157393,7 +157329,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.576,
         "elevation_gain": 431.9,
-        "difficulty": "moderate",
         "cities": [
           "Glasgow",
           "Kilwinning"
@@ -160533,7 +160468,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.84,
         "elevation_gain": 537.7,
-        "difficulty": "moderate",
         "cities": [
           "Kilwinning",
           "Maybole"
@@ -164183,7 +164117,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.137,
         "elevation_gain": 881.4,
-        "difficulty": "hard",
         "cities": [
           "Maybole",
           "Newton Stewart"
@@ -167288,7 +167221,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 73.324,
         "elevation_gain": 582.0,
-        "difficulty": "hard",
         "cities": [
           "Newton Stewart",
           "Cairnryan"
@@ -170168,7 +170100,6 @@
         "description": "DEVELOPED",
         "distance_km": 65.952,
         "elevation_gain": 212.1,
-        "difficulty": "hard",
         "cities": [
           "Belfast",
           "Craigavon"
@@ -170708,7 +170639,6 @@
         "description": "DEVELOPED",
         "distance_km": 43.999,
         "elevation_gain": 403.7,
-        "difficulty": "moderate",
         "cities": [
           "Craigavon",
           "Cookstown"
@@ -173898,7 +173828,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 71.825,
         "elevation_gain": 630.6,
-        "difficulty": "hard",
         "cities": [
           "Cookstown",
           "Lifford"
@@ -174318,7 +174247,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.244,
         "elevation_gain": 409.3,
-        "difficulty": "moderate",
         "cities": [
           "Lifford",
           "Bridgend"
@@ -175893,7 +175821,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.139,
         "elevation_gain": 675.4,
-        "difficulty": "moderate",
         "cities": [
           "Bridgend",
           "Letterkenny"
@@ -178658,7 +178585,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.411,
         "elevation_gain": 745.4,
-        "difficulty": "moderate",
         "cities": [
           "Letterkenny",
           "Creeslough"
@@ -181938,7 +181864,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.796,
         "elevation_gain": 962.9,
-        "difficulty": "hard",
         "cities": [
           "Creeslough",
           "Dungloe"
@@ -186563,7 +186488,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 61.636,
         "elevation_gain": 981.6,
-        "difficulty": "hard",
         "cities": [
           "Dungloe",
           "Donegal"
@@ -190128,7 +190052,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.208,
         "elevation_gain": 466.6,
-        "difficulty": "moderate",
         "cities": [
           "Donegal",
           "Bundoran"
@@ -193128,7 +193051,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 74.049,
         "elevation_gain": 632.4,
-        "difficulty": "hard",
         "cities": [
           "Bundoran",
           "Sligo"
@@ -196628,7 +196550,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.174,
         "elevation_gain": 322.7,
-        "difficulty": "moderate",
         "cities": [
           "Sligo",
           "Coolaney"
@@ -198573,7 +198494,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 80.108,
         "elevation_gain": 880.8,
-        "difficulty": "hard",
         "cities": [
           "Coolaney",
           "Ballina"
@@ -202578,7 +202498,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 39.757,
         "elevation_gain": 355.8,
-        "difficulty": "moderate",
         "cities": [
           "Ballina",
           "Ballycastle"
@@ -204583,7 +204502,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 72.847,
         "elevation_gain": 882.1,
-        "difficulty": "hard",
         "cities": [
           "Ballycastle",
           "Belmullet"
@@ -207768,7 +207686,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 64.867,
         "elevation_gain": 433.0,
-        "difficulty": "hard",
         "cities": [
           "Belmullet",
           "Mulranny"
@@ -210503,7 +210420,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 73.705,
         "elevation_gain": 943.3,
-        "difficulty": "hard",
         "cities": [
           "Mulranny",
           "Leenaun"
@@ -215638,7 +215554,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.211,
         "elevation_gain": 554.5,
-        "difficulty": "moderate",
         "cities": [
           "Leenaun",
           "Cleggan"
@@ -218233,7 +218148,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 32.035,
         "elevation_gain": 425.3,
-        "difficulty": "moderate",
         "cities": [
           "Cleggan",
           "Clifden"
@@ -220388,7 +220302,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.943,
         "elevation_gain": 461.7,
-        "difficulty": "moderate",
         "cities": [
           "Clifden",
           "Derroe"
@@ -224038,7 +223951,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.699,
         "elevation_gain": 613.9,
-        "difficulty": "moderate",
         "cities": [
           "Derroe",
           "Galway"
@@ -227723,7 +227635,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 38.514,
         "elevation_gain": 221.9,
-        "difficulty": "moderate",
         "cities": [
           "Galway",
           "Kinvarra"
@@ -229833,7 +229744,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.672,
         "elevation_gain": 605.8,
-        "difficulty": "moderate",
         "cities": [
           "Kinvarra",
           "Fanore"
@@ -233258,7 +233168,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 34.14,
         "elevation_gain": 567.8,
-        "difficulty": "moderate",
         "cities": [
           "Fanore",
           "Lahinch"
@@ -235223,7 +235132,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.178,
         "elevation_gain": 570.2,
-        "difficulty": "moderate",
         "cities": [
           "Lahinch",
           "Kilkee"
@@ -237258,7 +237166,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.68,
         "elevation_gain": 965.8,
-        "difficulty": "hard",
         "cities": [
           "Kilkee",
           "Kilrush"
@@ -240273,7 +240180,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.032,
         "elevation_gain": 609.1,
-        "difficulty": "hard",
         "cities": [
           "Kilrush",
           "Clarecastle"
@@ -243263,7 +243169,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.752,
         "elevation_gain": 469.2,
-        "difficulty": "moderate",
         "cities": [
           "Clarecastle",
           "Limerick"
@@ -246438,7 +246343,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.284,
         "elevation_gain": 257.6,
-        "difficulty": "moderate",
         "cities": [
           "Limerick",
           "Rathkeale"
@@ -248183,7 +248087,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.306,
         "elevation_gain": 255.3,
-        "difficulty": "moderate",
         "cities": [
           "Rathkeale",
           "Abbeyfeale"
@@ -249653,7 +249556,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.055,
         "elevation_gain": 393.0,
-        "difficulty": "hard",
         "cities": [
           "Abbeyfeale",
           "Camp"
@@ -251988,7 +251890,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 55.153,
         "elevation_gain": 1020.5,
-        "difficulty": "hard",
         "cities": [
           "Camp",
           "Annascaul"
@@ -255253,7 +255154,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 56.293,
         "elevation_gain": 445.1,
-        "difficulty": "moderate",
         "cities": [
           "Annascaul",
           "Glenbeigh"
@@ -257358,7 +257258,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 73.504,
         "elevation_gain": 1261.9,
-        "difficulty": "hard",
         "cities": [
           "Glenbeigh",
           "Waterville"
@@ -260693,7 +260592,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.211,
         "elevation_gain": 1253.1,
-        "difficulty": "hard",
         "cities": [
           "Waterville",
           "Kenmare"
@@ -265238,7 +265136,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.485,
         "elevation_gain": 502.8,
-        "difficulty": "moderate",
         "cities": [
           "Kenmare",
           "Ardgroom"
@@ -268198,7 +268095,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.583,
         "elevation_gain": 861.1,
-        "difficulty": "hard",
         "cities": [
           "Ardgroom",
           "Castletownbere"
@@ -271753,7 +271649,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 51.25,
         "elevation_gain": 621.6,
-        "difficulty": "moderate",
         "cities": [
           "Castletownbere",
           "Bantry"
@@ -274938,7 +274833,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.565,
         "elevation_gain": 765.9,
-        "difficulty": "moderate",
         "cities": [
           "Bantry",
           "Dunmanus"
@@ -278328,7 +278222,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 48.743,
         "elevation_gain": 880.6,
-        "difficulty": "hard",
         "cities": [
           "Dunmanus",
           "Ballydehob"
@@ -282203,7 +282096,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 67.119,
         "elevation_gain": 1314.9,
-        "difficulty": "hard",
         "cities": [
           "Ballydehob",
           "Rosscarbery"
@@ -287613,7 +287505,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 21.574,
         "elevation_gain": 325.6,
-        "difficulty": "moderate",
         "cities": [
           "Rosscarbery",
           "Clonakilty"
@@ -289093,7 +288984,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 60.09,
         "elevation_gain": 981.4,
-        "difficulty": "hard",
         "cities": [
           "Clonakilty",
           "Kinsale"
@@ -293503,7 +293393,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.856,
         "elevation_gain": 1045.7,
-        "difficulty": "hard",
         "cities": [
           "Kinsale",
           "Cobh"
@@ -297623,7 +297512,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.71,
         "elevation_gain": 321.3,
-        "difficulty": "moderate",
         "cities": [
           "Cobh",
           "Youghal"
@@ -299578,7 +299466,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 53.436,
         "elevation_gain": 646.8,
-        "difficulty": "moderate",
         "cities": [
           "Youghal",
           "Dungarvan"
@@ -303078,7 +302965,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.847,
         "elevation_gain": 426.0,
-        "difficulty": "moderate",
         "cities": [
           "Dungarvan",
           "Waterford"
@@ -304763,7 +304649,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 37.424,
         "elevation_gain": 496.1,
-        "difficulty": "moderate",
         "cities": [
           "Waterford",
           "Ballyhack"
@@ -307278,7 +307163,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.981,
         "elevation_gain": 590.5,
-        "difficulty": "moderate",
         "cities": [
           "Ballyhack",
           "Wellingtonbridge"
@@ -310353,7 +310237,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.054,
         "elevation_gain": 279.9,
-        "difficulty": "moderate",
         "cities": [
           "Wellingtonbridge",
           "Rosslare Harbour"
@@ -313618,7 +313501,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.489,
         "elevation_gain": 997.3,
-        "difficulty": "hard",
         "cities": [
           "Fishguard",
           "Haverfordwest"
@@ -316948,7 +316830,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 73.444,
         "elevation_gain": 1143.3,
-        "difficulty": "hard",
         "cities": [
           "Haverfordwest",
           "St. Clears"
@@ -321453,7 +321334,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.207,
         "elevation_gain": 707.2,
-        "difficulty": "moderate",
         "cities": [
           "St. Clears",
           "Llanelli"
@@ -324623,7 +324503,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.925,
         "elevation_gain": 679.3,
-        "difficulty": "hard",
         "cities": [
           "Llanelli",
           "Tondu"
@@ -329763,7 +329642,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 69.335,
         "elevation_gain": 844.6,
-        "difficulty": "hard",
         "cities": [
           "Tondu",
           "Newport"
@@ -334843,7 +334721,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.802,
         "elevation_gain": 491.1,
-        "difficulty": "hard",
         "cities": [
           "Newport",
           "Bristol"
@@ -338788,7 +338665,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.129,
         "elevation_gain": 569.7,
-        "difficulty": "moderate",
         "cities": [
           "Bristol",
           "Wells"
@@ -341138,7 +341014,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 43.476,
         "elevation_gain": 241.0,
-        "difficulty": "moderate",
         "cities": [
           "Wells",
           "Bridgwater"
@@ -343258,7 +343133,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 59.19,
         "elevation_gain": 609.5,
-        "difficulty": "moderate",
         "cities": [
           "Bridgwater",
           "Bampton"
@@ -347098,7 +346972,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.403,
         "elevation_gain": 1066.8,
-        "difficulty": "hard",
         "cities": [
           "Bampton",
           "Barnstaple"
@@ -349758,7 +349631,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 66.171,
         "elevation_gain": 914.2,
-        "difficulty": "hard",
         "cities": [
           "Barnstaple",
           "Okehampton"
@@ -352993,7 +352865,6 @@
         "description": "CERTIFIED",
         "distance_km": 30.282,
         "elevation_gain": 523.2,
-        "difficulty": "moderate",
         "cities": [
           "Roscoff",
           "Morlaix"
@@ -355548,7 +355419,6 @@
         "description": "CERTIFIED",
         "distance_km": 48.134,
         "elevation_gain": 684.1,
-        "difficulty": "moderate",
         "cities": [
           "Morlaix",
           "Carhaix-Plouguer"
@@ -358358,7 +358228,6 @@
         "description": "CERTIFIED",
         "distance_km": 32.791,
         "elevation_gain": 309.7,
-        "difficulty": "moderate",
         "cities": [
           "Carhaix-Plouguer",
           "Rostrenen"
@@ -360178,7 +360047,6 @@
         "description": "CERTIFIED",
         "distance_km": 30.388,
         "elevation_gain": 316.1,
-        "difficulty": "moderate",
         "cities": [
           "Rostrenen",
           "Mûr-de-Bretagne"
@@ -362103,7 +361971,6 @@
         "description": "CERTIFIED",
         "distance_km": 22.996,
         "elevation_gain": 190.4,
-        "difficulty": "easy",
         "cities": [
           "Mûr-de-Bretagne",
           "Pontivy"
@@ -363648,7 +363515,6 @@
         "description": "CERTIFIED",
         "distance_km": 48.081,
         "elevation_gain": 274.7,
-        "difficulty": "moderate",
         "cities": [
           "Pontivy",
           "Josselin"
@@ -366088,7 +365954,6 @@
         "description": "CERTIFIED",
         "distance_km": 45.856,
         "elevation_gain": 253.9,
-        "difficulty": "moderate",
         "cities": [
           "Josselin",
           "Peillac"
@@ -369028,7 +368893,6 @@
         "description": "CERTIFIED",
         "distance_km": 17.302,
         "elevation_gain": 109.8,
-        "difficulty": "easy",
         "cities": [
           "Peillac",
           "Redon"
@@ -369668,7 +369532,6 @@
         "description": "CERTIFIED",
         "distance_km": 44.789,
         "elevation_gain": 211.7,
-        "difficulty": "moderate",
         "cities": [
           "Redon",
           "Blain"
@@ -372143,7 +372006,6 @@
         "description": "CERTIFIED",
         "distance_km": 23.544,
         "elevation_gain": 73.1,
-        "difficulty": "easy",
         "cities": [
           "Blain",
           "Nort-sur-Erdre"
@@ -373463,7 +373325,6 @@
         "description": "CERTIFIED",
         "distance_km": 34.743,
         "elevation_gain": 304.3,
-        "difficulty": "moderate",
         "cities": [
           "Nort-sur-Erdre",
           "Nantes"
@@ -376553,7 +376414,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.667,
         "elevation_gain": 1117.9,
-        "difficulty": "hard",
         "cities": [
           "Okehampton",
           "Plymouth"
@@ -381303,7 +381163,6 @@
         "description": "CERTIFIED",
         "distance_km": 23.92,
         "elevation_gain": 193.4,
-        "difficulty": "easy",
         "cities": [
           "Nantes",
           "Le Pellerin"
@@ -382773,7 +382632,6 @@
         "description": "CERTIFIED",
         "distance_km": 37.295,
         "elevation_gain": 118.2,
-        "difficulty": "moderate",
         "cities": [
           "Le Pellerin",
           "Saint-Brevin-les-Pins"
@@ -384733,7 +384591,6 @@
         "description": "CERTIFIED",
         "distance_km": 39.843,
         "elevation_gain": 331.1,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Brevin-les-Pins",
           "Pornic"
@@ -387263,7 +387120,6 @@
         "description": "CERTIFIED",
         "distance_km": 33.805,
         "elevation_gain": 167.8,
-        "difficulty": "moderate",
         "cities": [
           "Pornic",
           "Bouin"
@@ -389988,7 +389844,6 @@
         "description": "CERTIFIED",
         "distance_km": 34.21,
         "elevation_gain": 113.4,
-        "difficulty": "moderate",
         "cities": [
           "Bouin",
           "La Barre-de-Monts-Fromentine"
@@ -392848,7 +392703,6 @@
         "description": "CERTIFIED",
         "distance_km": 35.708,
         "elevation_gain": 235.0,
-        "difficulty": "moderate",
         "cities": [
           "La Barre-de-Monts-Fromentine",
           "Saint-Gilles-Croix-de-Vie"
@@ -395878,7 +395732,6 @@
         "description": "CERTIFIED",
         "distance_km": 37.145,
         "elevation_gain": 283.7,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Gilles-Croix-de-Vie",
           "Les Sables-d'Olonne"
@@ -399918,7 +399771,6 @@
         "description": "CERTIFIED",
         "distance_km": 44.014,
         "elevation_gain": 285.6,
-        "difficulty": "moderate",
         "cities": [
           "Les Sables-d'Olonne",
           "La Tranche-sur-Mer"
@@ -403523,7 +403375,6 @@
         "description": "CERTIFIED",
         "distance_km": 46.223,
         "elevation_gain": 86.8,
-        "difficulty": "moderate",
         "cities": [
           "La Tranche-sur-Mer",
           "Marans"
@@ -405178,7 +405029,6 @@
         "description": "CERTIFIED",
         "distance_km": 25.673,
         "elevation_gain": 68.6,
-        "difficulty": "moderate",
         "cities": [
           "Marans",
           "La Rochelle"
@@ -406258,7 +406108,6 @@
         "description": "CERTIFIED",
         "distance_km": 50.342,
         "elevation_gain": 221.2,
-        "difficulty": "moderate",
         "cities": [
           "La Rochelle",
           "Rochefort"
@@ -409628,7 +409477,6 @@
         "description": "CERTIFIED",
         "distance_km": 37.702,
         "elevation_gain": 150.7,
-        "difficulty": "moderate",
         "cities": [
           "Rochefort",
           "Marennes"
@@ -411863,7 +411711,6 @@
         "description": "CERTIFIED",
         "distance_km": 45.321,
         "elevation_gain": 285.4,
-        "difficulty": "moderate",
         "cities": [
           "Marennes",
           "Royan"
@@ -415028,7 +414875,6 @@
         "description": "CERTIFIED",
         "distance_km": 29.993,
         "elevation_gain": 129.4,
-        "difficulty": "moderate",
         "cities": [
           "Le Verdon-sur-Mer",
           "Montalivet les Bains"
@@ -416583,7 +416429,6 @@
         "description": "CERTIFIED",
         "distance_km": 20.024,
         "elevation_gain": 63.1,
-        "difficulty": "easy",
         "cities": [
           "Montalivet les Bains",
           "Hourtin Plage"
@@ -417523,7 +417368,6 @@
         "description": "CERTIFIED",
         "distance_km": 33.771,
         "elevation_gain": 417.6,
-        "difficulty": "moderate",
         "cities": [
           "Hourtin Plage",
           "Lacanau"
@@ -419983,7 +419827,6 @@
         "description": "CERTIFIED",
         "distance_km": 36.78,
         "elevation_gain": 241.0,
-        "difficulty": "moderate",
         "cities": [
           "Lacanau",
           "Lège-Cap-Ferret"
@@ -422673,7 +422516,6 @@
         "description": "CERTIFIED",
         "distance_km": 41.997,
         "elevation_gain": 201.7,
-        "difficulty": "moderate",
         "cities": [
           "Lège-Cap-Ferret",
           "Arcachon"
@@ -425048,7 +424890,6 @@
         "description": "CERTIFIED",
         "distance_km": 25.781,
         "elevation_gain": 246.5,
-        "difficulty": "moderate",
         "cities": [
           "Arcachon",
           "Biscarosse Plage"
@@ -426948,7 +426789,6 @@
         "description": "CERTIFIED",
         "distance_km": 25.497,
         "elevation_gain": 281.3,
-        "difficulty": "moderate",
         "cities": [
           "Biscarosse Plage",
           "Parentis-en-Born"
@@ -429113,7 +428953,6 @@
         "description": "CERTIFIED",
         "distance_km": 31.059,
         "elevation_gain": 281.7,
-        "difficulty": "moderate",
         "cities": [
           "Parentis-en-Born",
           "Mimizan Plage"
@@ -431418,7 +431257,6 @@
         "description": "CERTIFIED",
         "distance_km": 47.031,
         "elevation_gain": 387.9,
-        "difficulty": "moderate",
         "cities": [
           "Mimizan Plage",
           "Léon"
@@ -434553,7 +434391,6 @@
         "description": "CERTIFIED",
         "distance_km": 33.097,
         "elevation_gain": 310.3,
-        "difficulty": "moderate",
         "cities": [
           "Léon",
           "Capbreton"
@@ -437108,7 +436945,6 @@
         "description": "CERTIFIED",
         "distance_km": 28.923,
         "elevation_gain": 180.2,
-        "difficulty": "moderate",
         "cities": [
           "Capbreton",
           "Bayonne"
@@ -439333,7 +439169,6 @@
         "description": "CERTIFIED",
         "distance_km": 16.221,
         "elevation_gain": 271.7,
-        "difficulty": "moderate",
         "cities": [
           "Bayonne",
           "Biarritz"
@@ -440753,7 +440588,6 @@
         "description": "CERTIFIED",
         "distance_km": 14.198,
         "elevation_gain": 278.5,
-        "difficulty": "moderate",
         "cities": [
           "Biarritz",
           "Saint-Jean-de-Luz"
@@ -442093,7 +441927,6 @@
         "description": "CERTIFIED",
         "distance_km": 20.732,
         "elevation_gain": 283.2,
-        "difficulty": "moderate",
         "cities": [
           "Saint-Jean-de-Luz",
           "Hendaye"
@@ -443898,7 +443731,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 35.84,
         "elevation_gain": 1133.5,
-        "difficulty": "hard",
         "cities": [
           "Hendaye",
           "Santesteban"
@@ -446663,7 +446495,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 57.152,
         "elevation_gain": 2372.9,
-        "difficulty": "hard",
         "cities": [
           "Santesteban",
           "Sarasate"
@@ -452453,7 +452284,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 18.29,
         "elevation_gain": 268.7,
-        "difficulty": "moderate",
         "cities": [
           "Sarasate",
           "Pamplona"
@@ -453208,7 +453038,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 58.838,
         "elevation_gain": 1116.7,
-        "difficulty": "hard",
         "cities": [
           "Pamplona",
           "Estella-Lizarra"
@@ -457813,7 +457642,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 49.477,
         "elevation_gain": 861.3,
-        "difficulty": "hard",
         "cities": [
           "Estella-Lizarra",
           "Logroño"
@@ -461428,7 +461256,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.318,
         "elevation_gain": 509.7,
-        "difficulty": "moderate",
         "cities": [
           "Logroño",
           "Nájera"
@@ -464198,7 +464025,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.059,
         "elevation_gain": 708.7,
-        "difficulty": "moderate",
         "cities": [
           "Nájera",
           "Santo Domingo de la Calzada"
@@ -466413,7 +466239,6 @@
         "description": "DEVELOPED",
         "distance_km": 25.498,
         "elevation_gain": 438.8,
-        "difficulty": "moderate",
         "cities": [
           "Santo Domingo de la Calzada",
           "Belorado"
@@ -467843,7 +467668,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 52.987,
         "elevation_gain": 752.3,
-        "difficulty": "moderate",
         "cities": [
           "Belorado",
           "Burgos"
@@ -471293,7 +471117,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.602,
         "elevation_gain": 485.2,
-        "difficulty": "moderate",
         "cities": [
           "Burgos",
           "Castrojeriz"
@@ -474278,7 +474101,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.603,
         "elevation_gain": 160.9,
-        "difficulty": "moderate",
         "cities": [
           "Castrojeriz",
           "Frómista"
@@ -475313,7 +475135,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 42.537,
         "elevation_gain": 152.1,
-        "difficulty": "moderate",
         "cities": [
           "Frómista",
           "Palencia"
@@ -477098,7 +476919,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.899,
         "elevation_gain": 208.7,
-        "difficulty": "moderate",
         "cities": [
           "Palencia",
           "Valladolid"
@@ -478788,7 +478608,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 41.168,
         "elevation_gain": 261.7,
-        "difficulty": "moderate",
         "cities": [
           "Valladolid",
           "Tordesillas"
@@ -481268,7 +481087,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 50.139,
         "elevation_gain": 376.1,
-        "difficulty": "moderate",
         "cities": [
           "Tordesillas",
           "Toro"
@@ -483793,7 +483611,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 40.63,
         "elevation_gain": 328.8,
-        "difficulty": "moderate",
         "cities": [
           "Toro",
           "Zamora"
@@ -485653,7 +485470,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 68.104,
         "elevation_gain": 633.5,
-        "difficulty": "hard",
         "cities": [
           "Zamora",
           "Salamanca"
@@ -489133,7 +488949,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 54.935,
         "elevation_gain": 790.9,
-        "difficulty": "moderate",
         "cities": [
           "Salamanca",
           "Fuenterroble de Salvatierra"
@@ -491603,7 +491418,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 31.486,
         "elevation_gain": 528.0,
-        "difficulty": "moderate",
         "cities": [
           "Fuenterroble de Salvatierra",
           "Baños de Montemayor"
@@ -493623,7 +493437,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 79.328,
         "elevation_gain": 668.1,
-        "difficulty": "hard",
         "cities": [
           "Baños de Montemayor",
           "Galisteo"
@@ -496103,7 +495916,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 76.744,
         "elevation_gain": 990.2,
-        "difficulty": "hard",
         "cities": [
           "Galisteo",
           "Caceres"
@@ -497838,7 +497650,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 70.253,
         "elevation_gain": 509.1,
-        "difficulty": "hard",
         "cities": [
           "Caceres",
           "Merida"
@@ -500613,7 +500424,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 63.025,
         "elevation_gain": 598.9,
-        "difficulty": "hard",
         "cities": [
           "Merida",
           "Zafra"
@@ -502813,7 +502623,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 65.586,
         "elevation_gain": 759.0,
-        "difficulty": "hard",
         "cities": [
           "Zafra",
           "El Real de la Jara"
@@ -506103,7 +505912,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 47.604,
         "elevation_gain": 1137.4,
-        "difficulty": "hard",
         "cities": [
           "El Real de la Jara",
           "Puerto Moral"
@@ -509968,7 +509776,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 33.953,
         "elevation_gain": 997.7,
-        "difficulty": "hard",
         "cities": [
           "Puerto Moral",
           "Nerva"
@@ -513288,7 +513095,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.762,
         "elevation_gain": 157.5,
-        "difficulty": "moderate",
         "cities": [
           "Valverde del Camino",
           "San Juan del Puerto"
@@ -514798,7 +514604,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.057,
         "elevation_gain": 186.6,
-        "difficulty": "moderate",
         "cities": [
           "San Juan del Puerto",
           "Gibraleón"
@@ -516608,7 +516413,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.515,
         "elevation_gain": 300.0,
-        "difficulty": "moderate",
         "cities": [
           "Gibraleón",
           "Ayamonte"
@@ -518273,7 +518077,6 @@
         "description": "DEVELOPED",
         "distance_km": 68.17,
         "elevation_gain": 433.1,
-        "difficulty": "hard",
         "cities": [
           "Vila Real de Santo António",
           "Faro"
@@ -521938,7 +521741,6 @@
         "description": "DEVELOPED",
         "distance_km": 43.368,
         "elevation_gain": 412.0,
-        "difficulty": "moderate",
         "cities": [
           "Faro",
           "Albufeira"
@@ -525598,7 +525400,6 @@
         "description": "DEVELOPED",
         "distance_km": 24.831,
         "elevation_gain": 201.4,
-        "difficulty": "moderate",
         "cities": [
           "Portimão",
           "Lagos"
@@ -527373,7 +527174,6 @@
         "description": "DEVELOPED",
         "distance_km": 40.107,
         "elevation_gain": 642.4,
-        "difficulty": "moderate",
         "cities": [
           "Lagos",
           "Sagres"
@@ -530133,7 +529933,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 46.585,
         "elevation_gain": 687.3,
-        "difficulty": "moderate",
         "cities": [
           "Sagres",
           "Carrapateira"
@@ -532348,7 +532147,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 25.454,
         "elevation_gain": 368.6,
-        "difficulty": "moderate",
         "cities": [
           "Carrapateira",
           "Aljezur"
@@ -534178,7 +533976,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 27.327,
         "elevation_gain": 321.0,
-        "difficulty": "moderate",
         "cities": [
           "Aljezur",
           "Odeceixe"
@@ -535873,7 +535670,6 @@
         "description": "DEVELOPED",
         "distance_km": 52.719,
         "elevation_gain": 692.0,
-        "difficulty": "moderate",
         "cities": [
           "Odeceixe",
           "Vila Nova de Milfontes"
@@ -538748,7 +538544,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.056,
         "elevation_gain": 291.3,
-        "difficulty": "moderate",
         "cities": [
           "Vila Nova de Milfontes",
           "Sines"
@@ -540658,7 +540453,6 @@
         "description": "DEVELOPED",
         "distance_km": 36.946,
         "elevation_gain": 319.6,
-        "difficulty": "moderate",
         "cities": [
           "Sines",
           "Melides"
@@ -542908,7 +542702,6 @@
         "description": "DEVELOPED",
         "distance_km": 41.359,
         "elevation_gain": 137.9,
-        "difficulty": "moderate",
         "cities": [
           "Melides",
           "Tróia"
@@ -543493,7 +543286,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.817,
         "elevation_gain": 892.7,
-        "difficulty": "hard",
         "cities": [
           "Setubal",
           "Cabo Espichel"
@@ -546203,7 +545995,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.022,
         "elevation_gain": 389.0,
-        "difficulty": "moderate",
         "cities": [
           "Cabo Espichel",
           "Almada"
@@ -548233,7 +548024,6 @@
         "description": "DEVELOPED",
         "distance_km": 55.505,
         "elevation_gain": 1147.6,
-        "difficulty": "hard",
         "cities": [
           "Azenhas do Mar",
           "Santacruz"
@@ -552123,7 +551913,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.889,
         "elevation_gain": 815.8,
-        "difficulty": "hard",
         "cities": [
           "Santacruz",
           "Peniche"
@@ -556538,7 +556327,6 @@
         "description": "DEVELOPED",
         "distance_km": 52.326,
         "elevation_gain": 662.9,
-        "difficulty": "moderate",
         "cities": [
           "Peniche",
           "Foz Do Arelho"
@@ -559978,7 +559766,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.714,
         "elevation_gain": 298.7,
-        "difficulty": "moderate",
         "cities": [
           "Nazare",
           "Praia da Vieira"
@@ -561598,7 +561385,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.304,
         "elevation_gain": 235.5,
-        "difficulty": "moderate",
         "cities": [
           "Praia da Vieira",
           "Marinha das Ondas"
@@ -562733,7 +562519,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.298,
         "elevation_gain": 276.7,
-        "difficulty": "moderate",
         "cities": [
           "Marinha das Ondas",
           "Figueira da Foz"
@@ -565058,7 +564843,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 45.327,
         "elevation_gain": 382.6,
-        "difficulty": "moderate",
         "cities": [
           "Figueira da Foz",
           "Praia de Mira"
@@ -566723,7 +566507,6 @@
         "description": "DEVELOPED",
         "distance_km": 26.587,
         "elevation_gain": 56.3,
-        "difficulty": "moderate",
         "cities": [
           "Praia de Mira",
           "Aveiro"
@@ -567943,7 +567726,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.451,
         "elevation_gain": 156.4,
-        "difficulty": "moderate",
         "cities": [
           "Aveiro",
           "Ovar"
@@ -570148,7 +569930,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.013,
         "elevation_gain": 342.6,
-        "difficulty": "moderate",
         "cities": [
           "Ovar",
           "Porto / Gaia"
@@ -572898,7 +572679,6 @@
         "description": "DEVELOPED",
         "distance_km": 35.167,
         "elevation_gain": 310.4,
-        "difficulty": "moderate",
         "cities": [
           "Porto / Gaia",
           "Vila do Conde"
@@ -575318,7 +575098,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.089,
         "elevation_gain": 157.6,
-        "difficulty": "moderate",
         "cities": [
           "Vila do Conde",
           "Esposende"
@@ -577133,7 +576912,6 @@
         "description": "DEVELOPED",
         "distance_km": 50.802,
         "elevation_gain": 418.4,
-        "difficulty": "moderate",
         "cities": [
           "Esposende",
           "Caminha"
@@ -581323,7 +581101,6 @@
         "description": "DEVELOPED",
         "distance_km": 28.957,
         "elevation_gain": 280.5,
-        "difficulty": "moderate",
         "cities": [
           "Caminha",
           "Valenca"

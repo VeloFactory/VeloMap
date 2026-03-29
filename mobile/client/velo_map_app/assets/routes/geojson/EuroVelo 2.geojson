@@ -5,7 +5,6 @@
     "name": "Capitals Route",
     "description": "",
     "distance_km": 4842.897,
-    "difficulty": "hard",
     "route_number": 2,
     "total_stages": 89,
     "cities": [
@@ -101,8 +100,7 @@
       "Moscow"
     ],
     "full_name": "Capitals Route",
-    "color": "0xFF9FB6C9",
-    "route_description": "Dublin, London, Berlin, Warsaw, Minsk and Moscow: six compelling but different cities that are united by the 5,000 km long Capital Route. You can either start in the welcoming atmosphere of Ireland's Pubs or with a photo at the awe-inspiring Red Square in Moscow. In between you can combine first class dining, partying and culture in the capitals and other cities along the route, with beautiful scenery such as the untouched Białowieża Forest between Poland and Belarus, or Snowdonia National Park in the UK."
+    "route_description": "Six great capitals — Dublin, London, Berlin, Warsaw, Minsk and Moscow — connected by 5,000 km of road. Whether you kick off in an Irish pub or beneath the Red Square's iconic domes, the journey in between rewards with world-class dining and culture, the ancient Białowieża Forest, and the wild landscapes of Snowdonia."
   },
   "features": [
     {
@@ -113,7 +111,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 66.625,
         "elevation_gain": 386.4,
-        "difficulty": "hard",
         "cities": [
           "Galway",
           "Ballinasloe"
@@ -3223,7 +3220,6 @@
         "description": "DEVELOPED",
         "distance_km": 72.38,
         "elevation_gain": 360.3,
-        "difficulty": "hard",
         "cities": [
           "Ballinasloe",
           "Mullingar"
@@ -5163,7 +5159,6 @@
         "description": "DEVELOPED",
         "distance_km": 60.009,
         "elevation_gain": 107.0,
-        "difficulty": "hard",
         "cities": [
           "Mullingar",
           "Maynooth"
@@ -6243,7 +6238,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 26.461,
         "elevation_gain": 38.3,
-        "difficulty": "moderate",
         "cities": [
           "Maynooth",
           "Dublin ferryport"
@@ -6683,7 +6677,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.314,
         "elevation_gain": 435.4,
-        "difficulty": "moderate",
         "cities": [
           "Holyhead",
           "Bangor"
@@ -9493,7 +9486,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.711,
         "elevation_gain": 730.1,
-        "difficulty": "moderate",
         "cities": [
           "Bangor",
           "Porthmadog"
@@ -12748,7 +12740,6 @@
         "description": "DEVELOPED",
         "distance_km": 49.947,
         "elevation_gain": 1143.3,
-        "difficulty": "hard",
         "cities": [
           "Porthmadog",
           "Dolgellau"
@@ -16453,7 +16444,6 @@
         "description": "DEVELOPED",
         "distance_km": 60.519,
         "elevation_gain": 1684.9,
-        "difficulty": "hard",
         "cities": [
           "Dolgellau",
           "Llanidloes"
@@ -19873,7 +19863,6 @@
         "description": "DEVELOPED",
         "distance_km": 50.838,
         "elevation_gain": 1053.4,
-        "difficulty": "hard",
         "cities": [
           "Llanidloes",
           "Builth"
@@ -22858,7 +22847,6 @@
         "description": "DEVELOPED",
         "distance_km": 33.691,
         "elevation_gain": 414.0,
-        "difficulty": "moderate",
         "cities": [
           "Builth",
           "Hay-on-Wye"
@@ -24513,7 +24501,6 @@
         "description": "DEVELOPED",
         "distance_km": 35.502,
         "elevation_gain": 646.5,
-        "difficulty": "moderate",
         "cities": [
           "Hay-on-Wye",
           "Abergavenny"
@@ -26433,7 +26420,6 @@
         "description": "DEVELOPED",
         "distance_km": 43.531,
         "elevation_gain": 751.3,
-        "difficulty": "moderate",
         "cities": [
           "Abergavenny",
           "Chepstow"
@@ -28618,7 +28604,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.215,
         "elevation_gain": 267.1,
-        "difficulty": "moderate",
         "cities": [
           "Chepstow",
           "Bristol"
@@ -30793,7 +30778,6 @@
         "description": "DEVELOPED",
         "distance_km": 26.046,
         "elevation_gain": 190.1,
-        "difficulty": "moderate",
         "cities": [
           "Bristol",
           "Bath"
@@ -32073,7 +32057,6 @@
         "description": "DEVELOPED",
         "distance_km": 35.361,
         "elevation_gain": 310.0,
-        "difficulty": "moderate",
         "cities": [
           "Bath",
           "Devizes"
@@ -33853,7 +33836,6 @@
         "description": "DEVELOPED",
         "distance_km": 63.004,
         "elevation_gain": 475.9,
-        "difficulty": "hard",
         "cities": [
           "Devizes",
           "Newbury"
@@ -36733,7 +36715,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.912,
         "elevation_gain": 106.6,
-        "difficulty": "moderate",
         "cities": [
           "Newbury",
           "Reading"
@@ -39403,7 +39384,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.12,
         "elevation_gain": 256.7,
-        "difficulty": "moderate",
         "cities": [
           "Reading",
           "Windsor"
@@ -42423,7 +42403,6 @@
         "description": "DEVELOPED",
         "distance_km": 50.76,
         "elevation_gain": 295.3,
-        "difficulty": "moderate",
         "cities": [
           "Windsor",
           "London Richmond"
@@ -45773,7 +45752,6 @@
         "description": "DEVELOPED",
         "distance_km": 27.527,
         "elevation_gain": 186.3,
-        "difficulty": "moderate",
         "cities": [
           "London Richmond",
           "London Greenwich"
@@ -47478,7 +47456,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.538,
         "elevation_gain": 140.0,
-        "difficulty": "moderate",
         "cities": [
           "London Greenwich",
           "Waltham Cross"
@@ -49708,7 +49685,6 @@
         "description": "DEVELOPED",
         "distance_km": 56.818,
         "elevation_gain": 422.0,
-        "difficulty": "moderate",
         "cities": [
           "Waltham Cross",
           "Chelmsford"
@@ -54133,7 +54109,6 @@
         "description": "DEVELOPED",
         "distance_km": 61.456,
         "elevation_gain": 445.3,
-        "difficulty": "hard",
         "cities": [
           "Chelmsford",
           "Colchester"
@@ -57898,7 +57873,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.16,
         "elevation_gain": 200.6,
-        "difficulty": "moderate",
         "cities": [
           "Colchester",
           "Harwich"
@@ -60388,7 +60362,6 @@
         "description": "DEVELOPED_WITH_SIGNS",
         "distance_km": 26.694,
         "elevation_gain": 137.1,
-        "difficulty": "moderate",
         "cities": [
           "Hook of Holland",
           "The Hague"
@@ -61843,7 +61816,6 @@
         "description": "DEVELOPED",
         "distance_km": 81.554,
         "elevation_gain": 221.3,
-        "difficulty": "hard",
         "cities": [
           "The Hague",
           "Utrecht"
@@ -66403,7 +66375,6 @@
         "description": "DEVELOPED",
         "distance_km": 39.143,
         "elevation_gain": 141.4,
-        "difficulty": "moderate",
         "cities": [
           "Utrecht",
           "Amerongen"
@@ -68383,7 +68354,6 @@
         "description": "DEVELOPED",
         "distance_km": 48.54,
         "elevation_gain": 446.2,
-        "difficulty": "moderate",
         "cities": [
           "Amerongen",
           "Arnhem"
@@ -71288,7 +71258,6 @@
         "description": "DEVELOPED",
         "distance_km": 69.717,
         "elevation_gain": 432.2,
-        "difficulty": "hard",
         "cities": [
           "Arnhem",
           "Borculo"
@@ -74833,7 +74802,6 @@
         "description": "DEVELOPED",
         "distance_km": 27.538,
         "elevation_gain": 80.5,
-        "difficulty": "moderate",
         "cities": [
           "Borculo",
           "Zwillbrock"
@@ -76138,7 +76106,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.17,
         "elevation_gain": 108.3,
-        "difficulty": "moderate",
         "cities": [
           "Zwillbrock",
           "Stadtlohn"
@@ -77393,7 +77360,6 @@
         "description": "DEVELOPED",
         "distance_km": 27.948,
         "elevation_gain": 175.1,
-        "difficulty": "moderate",
         "cities": [
           "Stadtlohn",
           "Coesfeld"
@@ -78513,7 +78479,6 @@
         "description": "DEVELOPED",
         "distance_km": 30.484,
         "elevation_gain": 242.3,
-        "difficulty": "moderate",
         "cities": [
           "Coesfeld",
           "Havixbeck"
@@ -80098,7 +80063,6 @@
         "description": "DEVELOPED",
         "distance_km": 24.356,
         "elevation_gain": 123.4,
-        "difficulty": "easy",
         "cities": [
           "Havixbeck",
           "Münster"
@@ -81713,7 +81677,6 @@
         "description": "DEVELOPED",
         "distance_km": 30.57,
         "elevation_gain": 164.5,
-        "difficulty": "moderate",
         "cities": [
           "Münster",
           "Warendorf"
@@ -83468,7 +83431,6 @@
         "description": "DEVELOPED",
         "distance_km": 50.435,
         "elevation_gain": 264.2,
-        "difficulty": "moderate",
         "cities": [
           "Warendorf",
           "Rheda-Wiedenbrück"
@@ -86108,7 +86070,6 @@
         "description": "DEVELOPED",
         "distance_km": 34.021,
         "elevation_gain": 157.7,
-        "difficulty": "moderate",
         "cities": [
           "Rheda-Wiedenbrück",
           "Schloß Holte"
@@ -88313,7 +88274,6 @@
         "description": "DEVELOPED",
         "distance_km": 32.27,
         "elevation_gain": 257.4,
-        "difficulty": "moderate",
         "cities": [
           "Schloß Holte",
           "Detmold"
@@ -89918,7 +89878,6 @@
         "description": "DEVELOPED",
         "distance_km": 44.371,
         "elevation_gain": 679.4,
-        "difficulty": "moderate",
         "cities": [
           "Detmold",
           "Marienmünster"
@@ -92718,7 +92677,6 @@
         "description": "DEVELOPED",
         "distance_km": 27.537,
         "elevation_gain": 227.7,
-        "difficulty": "moderate",
         "cities": [
           "Marienmünster",
           "Holzminden"
@@ -94683,7 +94641,6 @@
         "description": "DEVELOPED",
         "distance_km": 19.341,
         "elevation_gain": 219.7,
-        "difficulty": "moderate",
         "cities": [
           "Holzminden",
           "Stadtoldendorf"
@@ -95708,7 +95665,6 @@
         "description": "DEVELOPED",
         "distance_km": 43.139,
         "elevation_gain": 351.1,
-        "difficulty": "moderate",
         "cities": [
           "Stadtoldendorf",
           "Bad Gandersheim"
@@ -97983,7 +97939,6 @@
         "description": "DEVELOPED",
         "distance_km": 42.332,
         "elevation_gain": 729.1,
-        "difficulty": "moderate",
         "cities": [
           "Bad Gandersheim",
           "Goslar"
@@ -100648,7 +100603,6 @@
         "description": "DEVELOPED",
         "distance_km": 29.256,
         "elevation_gain": 779.9,
-        "difficulty": "moderate",
         "cities": [
           "Goslar",
           "Ilsenburg"
@@ -103063,7 +103017,6 @@
         "description": "DEVELOPED",
         "distance_km": 46.995,
         "elevation_gain": 610.3,
-        "difficulty": "moderate",
         "cities": [
           "Ilsenburg",
           "Gernrode"
@@ -105643,7 +105596,6 @@
         "description": "DEVELOPED",
         "distance_km": 19.616,
         "elevation_gain": 214.9,
-        "difficulty": "moderate",
         "cities": [
           "Gernrode",
           "Ermsleben"
@@ -106718,7 +106670,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.386,
         "elevation_gain": 150.3,
-        "difficulty": "moderate",
         "cities": [
           "Ermsleben",
           "Straßfurt"
@@ -108578,7 +108529,6 @@
         "description": "DEVELOPED",
         "distance_km": 23.876,
         "elevation_gain": 174.3,
-        "difficulty": "easy",
         "cities": [
           "Straßfurt",
           "Bernburg"
@@ -110038,7 +109988,6 @@
         "description": "DEVELOPED",
         "distance_km": 54.319,
         "elevation_gain": 191.6,
-        "difficulty": "moderate",
         "cities": [
           "Bernburg",
           "Dessau"
@@ -112393,7 +112342,6 @@
         "description": "DEVELOPED",
         "distance_km": 60.665,
         "elevation_gain": 306.2,
-        "difficulty": "hard",
         "cities": [
           "Dessau",
           "Lutherstadt Wittenberg"
@@ -115398,7 +115346,6 @@
         "description": "DEVELOPED",
         "distance_km": 38.793,
         "elevation_gain": 273.0,
-        "difficulty": "moderate",
         "cities": [
           "Lutherstadt Wittenberg",
           "Bad Belzig"
@@ -116483,7 +116430,6 @@
         "description": "DEVELOPED",
         "distance_km": 58.364,
         "elevation_gain": 324.9,
-        "difficulty": "moderate",
         "cities": [
           "Bad Belzig",
           "Potsdam"
@@ -118198,7 +118144,6 @@
         "description": "DEVELOPED",
         "distance_km": 31.219,
         "elevation_gain": 288.3,
-        "difficulty": "moderate",
         "cities": [
           "Potsdam",
           "Berlin"
@@ -119013,7 +118958,6 @@
         "description": "DEVELOPED",
         "distance_km": 79.923,
         "elevation_gain": 376.4,
-        "difficulty": "hard",
         "cities": [
           "Berlin",
           "Buckow"
@@ -120933,7 +120877,6 @@
         "description": "DEVELOPED",
         "distance_km": 59.189,
         "elevation_gain": 215.9,
-        "difficulty": "moderate",
         "cities": [
           "Buckow",
           "Kostrzyn"
@@ -122363,7 +122306,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 45.259,
         "elevation_gain": 322.6,
-        "difficulty": "moderate",
         "cities": [
           "Kostrzyn",
           "Sulęcin"
@@ -124008,7 +123950,6 @@
         "description": "DEVELOPED",
         "distance_km": 45.335,
         "elevation_gain": 303.3,
-        "difficulty": "moderate",
         "cities": [
           "Sulęcin",
           "Międzyrzecz"
@@ -125738,7 +125679,6 @@
         "description": "DEVELOPED",
         "distance_km": 25.603,
         "elevation_gain": 208.5,
-        "difficulty": "moderate",
         "cities": [
           "Międzyrzecz",
           "Dormowo"
@@ -126923,7 +126863,6 @@
         "description": "PLANNING",
         "distance_km": 33.408,
         "elevation_gain": 259.6,
-        "difficulty": "moderate",
         "cities": [
           "Dormowo",
           "Sieraków"
@@ -128318,7 +128257,6 @@
         "description": "PLANNING",
         "distance_km": 49.765,
         "elevation_gain": 222.0,
-        "difficulty": "moderate",
         "cities": [
           "Sieraków",
           "Szamotuły"
@@ -129178,7 +129116,6 @@
         "description": "PLANNING",
         "distance_km": 38.427,
         "elevation_gain": 190.0,
-        "difficulty": "moderate",
         "cities": [
           "Szamotuły",
           "Poznan"
@@ -130858,7 +130795,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 66.829,
         "elevation_gain": 432.7,
-        "difficulty": "hard",
         "cities": [
           "Gniezno",
           "Poznan"
@@ -134478,7 +134414,6 @@
         "description": "PLANNING",
         "distance_km": 45.675,
         "elevation_gain": 217.5,
-        "difficulty": "moderate",
         "cities": [
           "Drewno",
           "Gniezno"
@@ -136133,7 +136068,6 @@
         "description": "PLANNING",
         "distance_km": 36.874,
         "elevation_gain": 144.1,
-        "difficulty": "moderate",
         "cities": [
           "Drewno",
           "Inowrocław"
@@ -137783,7 +137717,6 @@
         "description": "PLANNING",
         "distance_km": 46.843,
         "elevation_gain": 183.7,
-        "difficulty": "moderate",
         "cities": [
           "Inowrocław",
           "Torun"
@@ -139668,7 +139601,6 @@
         "description": "PLANNING",
         "distance_km": 58.88,
         "elevation_gain": 286.0,
-        "difficulty": "moderate",
         "cities": [
           "Torun",
           "Włocławek"
@@ -142068,7 +142000,6 @@
         "description": "PLANNING",
         "distance_km": 55.877,
         "elevation_gain": 423.8,
-        "difficulty": "moderate",
         "cities": [
           "Włocławek",
           "Płock"
@@ -144228,7 +144159,6 @@
         "description": "PLANNING",
         "distance_km": 29.879,
         "elevation_gain": 154.2,
-        "difficulty": "moderate",
         "cities": [
           "Włocławek",
           "Nowa Wieś"
@@ -145548,7 +145478,6 @@
         "description": "PLANNING",
         "distance_km": 83.133,
         "elevation_gain": 206.8,
-        "difficulty": "hard",
         "cities": [
           "Płock",
           "Nowy Dwór Mazowiecki"
@@ -147743,7 +147672,6 @@
         "description": "PLANNING",
         "distance_km": 35.607,
         "elevation_gain": 107.0,
-        "difficulty": "moderate",
         "cities": [
           "Nowy Dwór Mazowiecki",
           "Warsaw"
@@ -148718,7 +148646,6 @@
         "description": "PLANNING",
         "distance_km": 58.393,
         "elevation_gain": 148.1,
-        "difficulty": "moderate",
         "cities": [
           "Warsaw",
           "Łochów"
@@ -150853,7 +150780,6 @@
         "description": "PLANNING",
         "distance_km": 81.447,
         "elevation_gain": 187.4,
-        "difficulty": "hard",
         "cities": [
           "Łochów",
           "Gródek"
@@ -153183,7 +153109,6 @@
         "description": "PLANNING",
         "distance_km": 50.408,
         "elevation_gain": 268.7,
-        "difficulty": "moderate",
         "cities": [
           "Gródek",
           "Klepaczew"
@@ -154998,7 +154923,6 @@
         "description": "PLANNING",
         "distance_km": 85.296,
         "elevation_gain": 351.1,
-        "difficulty": "hard",
         "cities": [
           "Klepaczew",
           "Kleszczele"
@@ -155843,7 +155767,6 @@
         "description": "PLANNING",
         "distance_km": 55.27,
         "elevation_gain": 116.3,
-        "difficulty": "moderate",
         "cities": [
           "Kleszczele",
           "Białowieża"
@@ -156053,7 +155976,6 @@
         "description": "PLANNING",
         "distance_km": 287.718,
         "elevation_gain": 1466.0,
-        "difficulty": "hard",
         "cities": [
           "Białowieża",
           "Navahrudak"
@@ -160248,7 +160170,6 @@
         "description": "PLANNING",
         "distance_km": 25.127,
         "elevation_gain": 57.0,
-        "difficulty": "moderate",
         "cities": [
           "Navahrudak",
           "Lubcha"
@@ -160443,7 +160364,6 @@
         "description": "PLANNING",
         "distance_km": 21.958,
         "elevation_gain": 25.0,
-        "difficulty": "easy",
         "cities": [
           "Lubcha",
           "Клецішча"
@@ -160563,7 +160483,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 47.917,
         "elevation_gain": 194.0,
-        "difficulty": "moderate",
         "cities": [
           "Клецішча",
           "Пытань"
@@ -161278,7 +161197,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 27.814,
         "elevation_gain": 195.0,
-        "difficulty": "moderate",
         "cities": [
           "Пытань",
           "Palačanka"
@@ -161703,7 +161621,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 17.835,
         "elevation_gain": 168.0,
-        "difficulty": "easy",
         "cities": [
           "Palačanka",
           "Zaslaŭje"
@@ -162153,7 +162070,6 @@
         "description": "UNDER_DEVELOPMENT",
         "distance_km": 42.476,
         "elevation_gain": 338.0,
-        "difficulty": "moderate",
         "cities": [
           "Zaslaŭje",
           "Minsk"
@@ -164053,7 +163969,6 @@
         "description": "PLANNING",
         "distance_km": 53.599,
         "elevation_gain": 420.0,
-        "difficulty": "moderate",
         "cities": [
           "Minsk",
           "Lahoysk"
@@ -165428,7 +165343,6 @@
         "description": "PLANNING",
         "distance_km": 61.647,
         "elevation_gain": 238.0,
-        "difficulty": "hard",
         "cities": [
           "Lahoysk",
           "Barysaw"
@@ -165783,7 +165697,6 @@
         "description": "PLANNING",
         "distance_km": 267.905,
         "elevation_gain": 939.0,
-        "difficulty": "hard",
         "cities": [
           "Barysaw",
           "Ляды"
@@ -167458,7 +167371,6 @@
         "description": "PLANNING",
         "distance_km": 68.766,
         "elevation_gain": 0.0,
-        "difficulty": "hard",
         "cities": [
           "Ляды",
           "Smolensk"
@@ -169133,7 +169045,6 @@
         "description": "PLANNING",
         "distance_km": 172.926,
         "elevation_gain": 0.0,
-        "difficulty": "hard",
         "cities": [
           "Smolensk",
           "Vyazma"
@@ -173128,7 +173039,6 @@
         "description": "PLANNING",
         "distance_km": 268.694,
         "elevation_gain": 0.0,
-        "difficulty": "hard",
         "cities": [
           "Vyazma",
           "Zvenigorod"
@@ -179453,7 +179363,6 @@
         "description": "PLANNING",
         "distance_km": 82.101,
         "elevation_gain": 0.0,
-        "difficulty": "hard",
         "cities": [
           "Zvenigorod",
           "Moscow"
