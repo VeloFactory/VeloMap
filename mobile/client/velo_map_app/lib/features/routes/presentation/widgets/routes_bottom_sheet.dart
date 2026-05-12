@@ -144,7 +144,7 @@ class RoutesBottomSheet extends StatelessWidget {
               Icon(Icons.route_rounded, color: colorScheme.primary, size: 24),
               const SizedBox(width: 10),
               Text(
-                'EuroVelo Routes',
+                'Routes',
                 style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   fontWeight: FontWeight.w600,
                   color: colorScheme.onSurface,

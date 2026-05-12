@@ -206,7 +206,7 @@ class MapController {
           ),
           zoom: 15.0,
         ),
-        MapAnimationOptions(duration: 800),
+        MapAnimationOptions(duration: 700),
       );
     } catch (e) {
       // If getting current position fails, try last known position
@@ -222,7 +222,7 @@ class MapController {
             ),
             zoom: 15.0,
           ),
-          MapAnimationOptions(duration: 800),
+          MapAnimationOptions(duration: 700),
         );
       }
     }
@@ -610,7 +610,7 @@ class MapController {
       null,
     );
 
-    await _mapboxMap!.flyTo(cameraOptions, MapAnimationOptions(duration: 800));
+    await _mapboxMap!.flyTo(cameraOptions, MapAnimationOptions(duration: 700));
   }
 
   /// Fit camera to stage bounding box
@@ -650,7 +650,7 @@ class MapController {
       null,
     );
 
-    await _mapboxMap!.flyTo(cameraOptions, MapAnimationOptions(duration: 800));
+    await _mapboxMap!.flyTo(cameraOptions, MapAnimationOptions(duration: 700));
   }
 
   /// Fit camera to bounds that include all routes
